@@ -1,13 +1,11 @@
 import json
 from collections import defaultdict
+from classes import MetadataComplete
 
-# dict_keys(['id_person', 'version', 'id_composed', 'source', 'name', 'partition', 'nlp_processor', 'meta_keys', 'had_html', 'original_path', 
-            # 'birth_pl', 'birth_tm', 'baptism_pl', 'baptism_tm', 'death_pl', 'death_tm', 'funeral_pl', 'funeral_tm', 'marriage_pl', 'marriage_tm', 'gender', 
-            # 'category', 'father', 'mother', 'partner', 'religion', 'educations', 'faiths', 'occupations', 'residences', 'text_clean', 'text_original', 
-            # 'text_tokens', 'text_token_objects', 'text_sentences', 'text_entities', 'text_timex', 'tokens_len', 'meta_len', 'hhucap_annotations'])
+
 
 def main():
-    org_dict, person_dict = get_person_orgs("data/biographynet_development.jsonl")
+    org_dict, person_dict = get_person_orgs("data/Dev_Bios_Unified.jsonl")
     org_clusters = get_org_clusters(org_dict, person_dict)
 
     sorted_org_dict = {_get_person_name(person_dict, k):v for k,v in sorted(org_dict.items(), key=lambda x: len(x[1]), reverse=True)}
@@ -23,18 +21,27 @@ def get_person_orgs(filepath):
     person_mapper = defaultdict(list)
     with open(filepath) as f:
         for line in f:
-            bio = json.loads(line)
-            entities = bio.get('text_entities', [])
+            row = json.loads(line)
+            print(row.keys())
+            exit()
+            person = MetadataComplete.from_json(row)
+            # Entities PER-TEXT, so we flatten the list to have access to all mentions...
+            if person.texts_entities:
+                entities = []
+                for text_ents in person.texts_entities:
+                    if text_ents:
+                        for ent in text_ents:
+                            if ent: 
+                                entities.append(ent)
             # Dealing with people here ...
-            if bio['name'] not in person_mapper[bio['id_person']]:
-                person_mapper[bio['id_person']].append(bio['name'])
+            name = person.getName()
+            if name not in person_mapper[person.person_id]:
+                person_mapper[person.person_id].append(name)
             # Dealing with entities here ...
             # ENTITY: {'text': 'N.B.A.C. Wb.', 'label': 'MISC', 'start': 172, 'end': 184, 'start_token': 39, 'end_token': 41}
             for org in [ent['text'] for ent in entities if ent['label'] == 'ORG']:
-                if org not in org_mapper[bio['id_person']]:
-                    org_mapper[bio['id_person']].append(org)
-            if bio['source'] == 'wikipedia':
-                print(bio['text_clean'][:200])
+                if org not in org_mapper[person.person_id]:
+                    org_mapper[person.person_id].append(org)
 
     return org_mapper, person_mapper
 
