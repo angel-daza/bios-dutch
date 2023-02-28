@@ -417,8 +417,8 @@ class MetadataComplete:
          to avoid 'borderline' cases: e.g. a person dying in 1901, should be classified as XIX century. A person born in 1799 should be also XIX century...
          Conflicts still exist but should be less.
         """
-        birth_year = self.getBirthDate('year_only')[0]
-        death_year = self.getDeathDate('year_only')[0]
+        birth_year = self.getBirthDate()[0]
+        death_year = self.getDeathDate()[0]
         if birth_year != -1 and death_year != -1:
             year = (birth_year+death_year)/2
         elif birth_year != -1:
@@ -683,7 +683,7 @@ def _process_dates_from_events(date_events: List[Event], method: str) -> Tuple[i
                 my_date = (int(most_repeated_year), int(most_repeated_month), int(most_repeated_day)) # Ensemble a Full-Date with the most frequent data
                 return my_date
             else:
-                return None
+                return (-1, -1, -1)
         else:
             print(f"Invalid Date Processing Method {method}")
             raise NotImplementedError
