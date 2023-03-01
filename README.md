@@ -23,4 +23,4 @@ The unified files can be loaded in Python <classes.MetaDataComplete> Objects. Th
     * [PersonId --> ORGs mentioned in one of more of the biographies]
     * [PersonId --> Person Metadata Names]
 3. `stats_unique_people.py` - It has diverse experiments and statistic extraction of the dataset. It works over the `AllBios_Unified.jsonl` file (find it in surfdrive)
-4. `classes.py` auxiliary script to compute MetadataComplete operations and statistics
+4. `utils/` Folder with auxiliary scripts to compute MetadataComplete operations and statistics

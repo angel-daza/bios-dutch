@@ -1,6 +1,6 @@
 import json
 from collections import defaultdict
-from classes import MetadataComplete
+from utils.classes import MetadataComplete
 
 
 
@@ -22,8 +22,6 @@ def get_person_orgs(filepath):
     with open(filepath) as f:
         for line in f:
             row = json.loads(line)
-            print(row.keys())
-            exit()
             person = MetadataComplete.from_json(row)
             # Entities PER-TEXT, so we flatten the list to have access to all mentions...
             if person.texts_entities:

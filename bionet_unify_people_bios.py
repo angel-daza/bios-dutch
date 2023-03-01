@@ -4,7 +4,7 @@ import pandas as pd
 import json
 
 from tqdm import tqdm
-from classes import MetadataComplete, Event, State
+from utils.classes import MetadataComplete, Event, State
 
 
 def main():
