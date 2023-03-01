@@ -6,7 +6,7 @@ import json, re
 from statistics import mean, median, mode
 from typing import Counter, List, Dict, OrderedDict, Any
 
-from classes import MetadataComplete
+from utils.classes import MetadataComplete
 from tabulate import tabulate
 import networkx as nx
 import matplotlib.pyplot as plt
