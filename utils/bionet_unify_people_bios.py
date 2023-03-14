@@ -4,12 +4,12 @@ import pandas as pd
 import json
 
 from tqdm import tqdm
-from utils.classes import MetadataComplete, Event, State
+from classes import MetadataComplete, Event, State
 
 
 def main():
-    INPUT_JSON = "data/biographynet_train.jsonl"
-    OUTPUT_UNIFIED = "data/Train_Bios_Unified.jsonl"
+    INPUT_JSON = "../data/biographynet_train.jsonl"
+    OUTPUT_UNIFIED = "../data/Train_Bios_Unified.jsonl"
     create_lite_version = True
 
     if create_lite_version:

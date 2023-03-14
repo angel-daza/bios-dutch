@@ -17,10 +17,11 @@ The unified files can be loaded in Python <classes.MetaDataComplete> Objects. Th
 
 
 ### Scripts Included:
-1. `bionet_unify_people_bios.py` - takes the 'normal' json (one row per biography text) set and generates a unified json (one row per Person - i.e. all texts and metadat are grouped under the same person_id)
 2. `find_organization_clusters.py` - Takes a **unified** json and groups all unique people by: 
     * [ORG --> people IDs in which ORG is mentioned under at least one of their biographies]
     * [PersonId --> ORGs mentioned in one of more of the biographies]
     * [PersonId --> Person Metadata Names]
 3. `stats_unique_people.py` - It has diverse experiments and statistic extraction of the dataset. It works over the `AllBios_Unified.jsonl` file (find it in surfdrive)
-4. `utils/` Folder with auxiliary scripts to compute MetadataComplete operations and statistics
+4. `utils/` Folder with auxiliary scripts to compute MetadataComplete operations and statistics including:
+    * `bionet_unify_people_bios.py` - takes the 'normal' json (one row per biography text) set and generates a unified json (one row per Person - i.e. all texts and metadat are grouped under the same person_id)
+    * `bionet_create_individual_files.py` - functions to manage individual jsons per biography instead of the big json files containing all of them.
