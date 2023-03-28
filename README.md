@@ -2,11 +2,13 @@
 
 ## Get Started
 
-The big files are not included in the repo because of size constraints, so they need to be copied first into the `data` folder (if it doesn't exist, create one). 
+1. The big files are not included in the repo because of size constraints, so they need to be copied first into the `data` folder (if it doesn't exist, create one). 
 
-There are two kinds of files: 
-* `biographynet_{train|test|development}.jsonl`  where each record is a JSON object containing the biography individual text + metadata from the BiographyNet dump `bioport_export_2017-03-10`. Each record has an `id_composed` unique identifier (In the form: `f"{id_person}_{version}"`). These files are the most complete because they include basic NLP information such as tokenization, NER, dependencies, etc...
-* `AllBios_Unified.jsonl` where each record is a JSON object per unique person in the database. Each person can have one or more texts associated to it as well as all of the metadata found in the different files associated to the same person ID. In this file train dev and test are all together. See <classes.MetaDataComplete> Objects to understand more about the structure of this file. This file is "lighter" because all the NLP information is omitted. This file was generated with the script `bionet_unify_people_bios.py`
+2. Create a virtual environment and Install the packages running `pip install -r requirements.txt`
+
+3. There are two kinds of files: 
+    * `biographynet_{train|test|development}.jsonl`  where each record is a JSON object containing the biography individual text + metadata from the BiographyNet dump `bioport_export_2017-03-10`. Each record has an `id_composed` unique identifier (In the form: `f"{id_person}_{version}"`). These files are the most complete because they include basic NLP information such as tokenization, NER, dependencies, etc...
+    * `AllBios_Unified.jsonl` where each record is a JSON object per unique person in the database. Each person can have one or more texts associated to it as well as all of the metadata found in the different files associated to the same person ID. In this file train dev and test are all together. See <classes.MetaDataComplete> Objects to understand more about the structure of this file. This file is "lighter" because all the NLP information is omitted. This file was generated with the script `bionet_unify_people_bios.py`
 
 One could load the whole `AllBios_Unified.jsonl` at once and start computing global statistics on it. Each record has an `id_person` unique identifier (the `id_person` is the first component of the `id_composed`). In the case that NLP information is needed, the recommended process is to use the script `bionet_create_individual_files.py` to break down the `biographynet_{train|test|development}.jsonl` into a one-JSON-per-file approach to avoid memory issues (see the script to find out how this can be done). Once all the individual files are generated use the ID `f"{id_person}_{version}"` to load the desired file and obtain the NLP information on demand.
 
