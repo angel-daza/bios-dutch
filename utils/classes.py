@@ -195,7 +195,7 @@ class MetadataComplete:
         self.otherStates: List[State] = []
         self.texts: List[str] = []
         self.texts_tokens: List[List[str]] = []
-        self.texts_entities: List[List[str]] = [] # ent_list_item ~ ['Balduinus', 'LOC', 8, 17]
+        self.texts_entities: List[List[Dict]] = [] # ent_list_item ~ {'text': 'Amsterdam', 'label': 'LOC', 'start': 70, 'end': 79, 'start_token': 14, 'end_token': 15}
         self.texts_timex: List[List[Dict]] = [] # timex_dict ~ {'tid': 't3', 'type': 'DATE', 'value': '1789-08-11', 'text': '11 Aug. 1789', 'start': 48, 'end': 59}
 
     def __str__(self) -> str:
