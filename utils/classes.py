@@ -706,7 +706,6 @@ def _get_state_info(states: List[State], method: str):
             raise NotImplementedError
 
 
-
 def _get_century(year: int):
     'Return a Century String according to the year Int'
     century = ''
