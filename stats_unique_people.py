@@ -42,15 +42,16 @@ def main():
     # ### Create Datasets for other Tasks (Web Visualization, Text classification...)
     # create_flask_searchable_data(bionet_people, "flask_app/backend_data/biographies/AllBios_unified_enriched.jsonl")
     create_text_classification_dataset(bionet_people, SAVE_RESULTS_PATH, global_dicts['occup2coarse'])
-    create_wikipedia_dataset(bionet_people,SAVE_RESULTS_PATH)
+    create_wikipedia_dataset(bionet_people, SAVE_RESULTS_PATH)
 
     # Proportion of Males and Females - Using Metadata Only
     gender_list = gender_analysis(bionet_people)
     evaluate_inferred_gender(bionet_people)
 
+
     # Occupation <--> Gender co-occurrences
-    # get_crosstab_cats([global_dicts['occupations_coarse_list']], [gender_list], values=[1]*len(gender_list), 
-    #                     val_sort='female', row_limit=50, separate_vals=True)
+    get_crosstab_cats([global_dicts['occupations_coarse_list']], [gender_list], values=[1]*len(gender_list), 
+                        val_sort='female', row_limit=50, separate_vals=True)
 
     # Statistics of People's Birthdates (how many people born in which centuries?)
     print(f"\n\n------------ Biographies thorugh time according to MetaData BirthYear Only ------------\n")
@@ -68,12 +69,9 @@ def main():
     for century, lifespan_list in lifespans_dict.items():
         total_stats.append((century[0], century[1], len(lifespan_list), min(lifespan_list), max(lifespan_list), mean(lifespan_list), median(lifespan_list), mode(lifespan_list)))
     print(tabulate(total_stats, headers=("From", "To", "People", "Min LifeSpan", "Max LifeSpan", "Mean LifeSpan", "Median", "Mode"), floatfmt=".2f"))
-    # TODO: Using Metadata Only vs Using Heuristic (First Date recognized in text and Second Date recognized in Text)
-
-    exit()
 
     # People's Mention Counter and Network (Based only on NER PERSON Mentions inside the texts)
-    # get_network_of_person_mentions(bionet_people)
+    get_network_of_person_mentions(bionet_people)
 
 
 def source_distribution(people: List[MetadataComplete], partition='all'):
@@ -262,7 +260,7 @@ def collect_global_info(people: List[MetadataComplete]) -> Dict[str, Counter]:
 
     # The occupations file actually has the coarse_occupations, to make the search "Prettier"
     with open(f'{SAVE_RESULTS_PATH}/occupations_mapper.json', "w") as fout:
-        json.dump(coarse_occupations_counter, fout, indent=2)
+        json.dump(coarse_occupations_counter, fout, indent=2,  ensure_ascii=False)
 
     expanded_coarse_counter = {}
     for occ, fine_grained_dict in coarse_occupations_counter.items():
@@ -354,7 +352,7 @@ def create_text_classification_dataset(people: List[MetadataComplete], dataset_f
         for i, text in enumerate(p.texts):
             if len(text) > 0:
                 semi_toks = text.split()
-                truncated_text = " ".join(semi_toks[:400]) if len(semi_toks) > 400 else text
+                truncated_text = " ".join(semi_toks[:200]) if len(semi_toks) > 200 else text
                 dataset_row = {
                     'person_id': p.person_id,
                     'text_id': f"{p.person_id}_{p.versions[i]}",
@@ -638,13 +636,13 @@ def get_network_of_person_mentions(people: List[MetadataComplete]):
     all_bionet_mentions = []
     connected_people = defaultdict(set)
     name2id, id2names = build_names_dictionaries(people) # This dictionaries are built based on the metadata names
-    with open("bionet_id2names.json", "w") as f:
-        json.dump(id2names, f, indent=2)
+    with open(f"{SAVE_RESULTS_PATH}/bionet_id2names.json", "w") as f:
+        json.dump(id2names, f, indent=2,  ensure_ascii=False)
     for p in people:
         # Keep Global track of "popularity" measured as PER mentions in all texts
         related_mentions = []
         for text_ents in p.texts_entities:
-            persons = [ent[0] for ent in text_ents if ent[1] == 'PER'] # ent ~ ['M. Versteeg', 'PER', 238, 249]
+            persons = [ent['text'] for ent in text_ents if ent['label'] == 'PER'] # ent ~ {'text': 'Amsterdam', 'label': 'LOC', 'start': 70, 'end': 79, 'start_token': 14, 'end_token': 15}
             related_mentions += persons
         related_mentions = set(related_mentions)
         related_mentions = [m for m in related_mentions if " " in m] # Drop 'single name' mentions since they tend to be noisy
@@ -705,8 +703,9 @@ def _counter_to_file(c: Counter, filepath: str, threshold: int = -1):
                 fout.write(f"{element}\t{count}\n")
 
 
-
-
+def get_file_from_id(id: str, partition: str, json_parent_path: str = "data/json/"):
+        full_path = f"{json_parent_path}/{partition}/{id}.json"
+        return json.load(full_path)
 
 if __name__ == '__main__':
     main()

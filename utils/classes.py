@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 from typing import List, Dict, Tuple, Union, Optional
 from collections import Counter
-import re
+import re, json
 
 
 class Date:
@@ -230,7 +230,6 @@ class MetadataComplete:
         person.texts_timex = info['texts_timex']
         return person
 
-
     def to_json(self):
         return {
             'person_id': self.person_id,
@@ -383,7 +382,7 @@ class MetadataComplete:
     def getGender_predicted(self) -> str:
         masc_votes, fem_votes = 0, 0
         masc_weights = {'hij': 1, 'hem': 1, 'broeder': 1, 'broeder van': 2, 'zn. van': 2, 'zoon van': 2}
-        fem_weights = {'zij': 1, 'haar': 1, 'dochter': 1, 'dochter van': 4, 'vrouw': 2}
+        fem_weights = {'zij': 4, 'haar': 2, 'dochter': 2, 'dochter van': 10, 'vrouw': 2}
         masc_patterns = "|".join(masc_weights.keys())
         fem_patterns = "|".join(fem_weights.keys())
         # Get the votes in all available texts
@@ -406,7 +405,7 @@ class MetadataComplete:
             gender_str = 'female'
         else:
             gender_str = 'male'
-        print(f"{self.getName()}\t{len(self.texts)}\t{masc_votes}\t{fem_votes}\t{self.getGender()}\t{gender_str}\t{init_text}")
+        # print(f"{self.getName()}\t{len(self.texts)}\t{masc_votes}\t{fem_votes}\t{self.getGender()}\t{gender_str}\t{init_text}")
         return gender_str
 
 
