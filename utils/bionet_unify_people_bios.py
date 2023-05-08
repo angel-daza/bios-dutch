@@ -1,20 +1,21 @@
 # Import Libs
 from typing import Dict, List
 import pandas as pd
-import json
+import json, os
 
 from tqdm import tqdm
 from classes import MetadataComplete, Event, State
 
 
 def main():
-    INPUT_JSON = "../data/biographynet_train.jsonl"
-    OUTPUT_UNIFIED = "../data/Train_Bios_Unified.jsonl"
+    INPUT_JSON = "../data/biographynet_test.jsonl"
+    OUTPUT_UNIFIED = "../data/Test_Bios_Unified.jsonl"
     create_lite_version = True
 
     if create_lite_version:
         # Create LITE version so it fits in memory for unification
-        LITE_INPUT_JSON = f"{INPUT_JSON.split('.')[:-1][0]}.lite.jsonl"
+        basename = os.path.basename(INPUT_JSON)
+        LITE_INPUT_JSON = f"{basename.split('.')[:-1][0]}.lite.jsonl"
         create_bios_lite(INPUT_JSON, LITE_INPUT_JSON)
     else:
         # If the file is small or it is already a lite version
@@ -40,12 +41,13 @@ def create_bios_lite(original_bios_path: str, lite_bios_path: str):
 					'baptism_pl', 'baptism_tm', 'death_pl', 'death_tm', 'funeral_pl', 'funeral_tm', 
 					'marriage_pl', 'marriage_tm', 'gender', 'category', 'father', 'mother', 'partner', 
 					'religion', 'educations', 'faiths', 'occupations', 'residences', 
+                    'text_original', 'tokens_len',
 					'text_clean', 'text_tokens', 'text_sentences', 'text_entities', 'text_timex', 'hhucap_annotations'
 					]
-
+    print(f"Creating LITE Version of file '{original_bios_path}' ...")
     with open(original_bios_path) as f:
         with open(lite_bios_path, "w") as fout:
-            for i, line in enumerate(f.readlines()):
+            for line in tqdm(f.readlines()):
                 row = json.loads(line)
                 # Create new Row with the minimum fields for this experiment...
                 new_row = {}
@@ -54,7 +56,6 @@ def create_bios_lite(original_bios_path: str, lite_bios_path: str):
                         new_row[k] = row[k]
                 # Write to new file
                 fout.write(json.dumps(new_row)+"\n")
-                print(i)
 
 
 def unify_metadata(person_id: str, data_versions: List[Dict]) -> MetadataComplete:
