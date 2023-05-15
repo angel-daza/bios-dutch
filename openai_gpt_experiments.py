@@ -140,9 +140,7 @@ def send_openai_chat_completion_request(model_name: str, prompt: str) -> OpenAIO
     return response
 
 
-def evaluate_ner_outputs(model: str, task:str, outputs_parent_path: str, gold_paths: List[str], valid_labels: List[str] = ['PER', 'ORG', 'LOC', 'MISC', 'TIME']):
-
-    def read_multiline_response(response: str) -> set:
+def read_multiline_response(response: str) -> set:
         pred_ents = []
         active_label = None
         ents = []
@@ -167,65 +165,70 @@ def evaluate_ner_outputs(model: str, task:str, outputs_parent_path: str, gold_pa
                 pred_ents += ents
         return set(pred_ents)
 
-    def read_comma_separated_response(response: str) -> set:
-        pred_ents = []
-        active_label = None
-        for line in response.split('\n'):
-            if len(line) > 1:
-                # Active Label
-                if line.startswith("PERSON:"):
-                    active_label = "PER"
-                elif line.startswith("ORGANIZATION:"):
-                    active_label = "ORG"
-                elif line.startswith("LOCATION:"):
-                    active_label = "LOC"
-                elif line.startswith("TIME:"):
-                    active_label = "TIME"
-                elif line.startswith("MISC:"):
-                    active_label = "MISC"
-                # "Labeled" Entities
-                ents = [(e.strip(), active_label) for e in line.split(':')[1].split(",") if e.strip() != 'N/A']
-                pred_ents += ents
-        return set(pred_ents)
+def read_comma_separated_response(response: str) -> set:
+    pred_ents = []
+    active_label = None
+    for line in response.split('\n'):
+        if len(line) > 1:
+            # Active Label
+            if line.startswith("PERSON:"):
+                active_label = "PER"
+            elif line.startswith("ORGANIZATION:"):
+                active_label = "ORG"
+            elif line.startswith("LOCATION:"):
+                active_label = "LOC"
+            elif line.startswith("TIME:"):
+                active_label = "TIME"
+            elif line.startswith("MISC:"):
+                active_label = "MISC"
+            # "Labeled" Entities
+            ents = [(e.strip(), active_label) for e in line.split(':')[1].split(",") if e.strip() != 'N/A']
+            pred_ents += ents
+    return set(pred_ents)
 
-    def read_parenthesis_response(response: str) -> set:
-        pred_ents = []
-        for line in response.split('\n'):
-            if len(line) > 1:
-                # Active Label
-                if "(PERSON)" in line:
-                    active_label = "PER"
-                    entity = line.strip(" (PERSON)")
-                elif "(ORGANIZATION)" in line:
-                    active_label = "ORG"
-                    entity = line.strip(" (ORGANIZATION)")
-                elif "(LOCATION)" in line:
-                    active_label = "LOC"
-                    entity = line.strip(" (LOCATION)")
-                elif "(TIME)" in line:
-                    active_label = "TIME"
-                    entity = line.strip(" (TIME)")
-                elif "(MISC)" in line:
-                    active_label = "MISC"
-                    entity = line.strip(" (MISC)")
-                pred_ents.append((entity, active_label))
-        return pred_ents
+def read_parenthesis_response(response: str) -> set:
+    pred_ents = []
+    for line in response.split('\n'):
+        if len(line) > 1:
+            # Active Label
+            if "(PERSON)" in line:
+                active_label = "PER"
+                entity = line.strip(" (PERSON)")
+            elif "(ORGANIZATION)" in line:
+                active_label = "ORG"
+                entity = line.strip(" (ORGANIZATION)")
+            elif "(LOCATION)" in line:
+                active_label = "LOC"
+                entity = line.strip(" (LOCATION)")
+            elif "(TIME)" in line:
+                active_label = "TIME"
+                entity = line.strip(" (TIME)")
+            elif "(MISC)" in line:
+                active_label = "MISC"
+                entity = line.strip(" (MISC)")
+            pred_ents.append((entity, active_label))
+    return pred_ents
 
 
-    def get_gpt_entities(filepath: str, model: str):
-        if model == "text-davinci-003":
-            response = json.load(open(filepath))['response']['choices'][0]['text']
-        elif model == "gpt-3.5-turbo":
-            response = json.load(open(filepath))['response']['choices'][0]['message']['content']
-        else:
-            raise Exception("Model Unknown!")
-        if "-" in response:
-            return read_multiline_response(response)
-        elif "(PERSON)" in response:
-            return read_parenthesis_response(response)
-        else:
-            return read_comma_separated_response(response)
+def get_gpt_entities(filepath: str, model: str):
+    if model == "text-davinci-003":
+        response = json.load(open(filepath))['response']['choices'][0]['text']
+    elif model == "gpt-3.5-turbo":
+        response = json.load(open(filepath))['response']['choices'][0]['message']['content']
+    else:
+        raise Exception("Model Unknown!")
+    
+    print(f"\n---- CHATGPT OUTPUT -----\n{response}\n\n---- END OUTPUT -----\n")
+    
+    if "-" in response:
+        return read_multiline_response(response)
+    elif "(PERSON)" in response:
+        return read_parenthesis_response(response)
+    else:
+        return read_comma_separated_response(response)
 
+
+def evaluate_ner_outputs(model: str, task:str, outputs_parent_path: str, gold_paths: List[str], valid_labels: List[str] = ['PER', 'ORG', 'LOC', 'MISC', 'TIME']):
     gold_docs = {}
     for gold_path in gold_paths:
         gold_docs.update(json.load(open(gold_path)))
@@ -339,10 +342,11 @@ def extract_translations(model: str, task:str, outputs_parent_path: str):
                 print(f"----- EN {text_id} {i}  -----")
 
 
-def evaluate_wiki_gold_ner(model: str):
+def evaluate_wiki_gold_ner(model: str, valid_labels: List[str]):
     source_docs_path = "data/wikigold"
     direct_ner_prompt = "Identify and Label (PERSON, ORGANIZATION, LOCATION, MISC) the Named Entities in the following text:\n\n"
     openai.api_key = OPENAI_API_KEY
+    all_gold, all_pred = [], []
     for filepath in glob.glob(f"{source_docs_path}/*.txt"):
         text_id = os.path.basename(filepath).strip(".txt")
         with open(filepath) as f:
@@ -362,7 +366,26 @@ def evaluate_wiki_gold_ner(model: str):
             obj["response"] = response
             json.dump(obj, open(output_file, "w"), indent=2)
         else:
-            print(f"Skipping {text_id}")
+            print(f"########### --- Evaluating {text_id} --- ###########")
+            try:
+                gpt_ner = get_gpt_entities(output_file, model)
+            except:
+                gpt_ner = set()
+            gold_ner = json.load(open(f"{source_docs_path}/{text_id}.json"))['entities']
+            gold_ner = set([(ent['surfaceForm'], ent['category']) for ent in gold_ner])
+            print(f"PRED: {gpt_ner}\nGOLD: {gold_ner}\n")
+            all_gold += [(text_id, x[0], x[1]) for x in gold_ner if x[1] in valid_labels]
+            all_pred += [(text_id, x[0], x[1]) for x in gpt_ner if x[1] in valid_labels]
+    
+    print(f"----- FINAL EVALUATION {model} ------")
+    for lbl in valid_labels:
+        lbl_gold = [x for x in all_gold if x[2] == lbl]
+        lbl_pred = [x for x in all_pred if x[2] == lbl]
+        metrics = compute_set_metrics(set(lbl_gold), set(lbl_pred), verbose=False)
+        print(f"\t{lbl} --> Precision: {metrics['precision']:.2f}\tRecall: {metrics['recall']:.2f}\tF1 Score: {metrics['f1']:.2f}")
+    print("\t----- ALL LABELS ------")
+    metrics = compute_set_metrics(set(all_gold), set(all_pred), verbose=True)
+
         
 
 
@@ -389,7 +412,7 @@ if __name__ == '__main__':
     encoding_gpt3_5 = tiktoken.encoding_for_model("gpt-3.5-turbo")
     print(encoding_gpt3_5.name)
 
-    ### Examples of "quick texts":
+    ### Examples of "quick tests":
     # dummy_test(prompt="List here the top 10 smartest people in the world right now:\n", model="text-davinci-003")
 
     # bio = "Edsger Wybe Dijkstra 11 mei 1930-6 augustus 2002 32 Levensbericht door J.H. van Lint Op 6 augustus 2002 overleed op 72-jarige leeftijd Edsger Wybe Dijkstra, sedert 1984 in het buitenland gevestigd gewoon lid van de Sectie Wiskunde. Hiermee verloren wij een van de pioniers van de informatica. Dijkstra werd op 11 mei 1930 geboren te Rotterdam. Zijn vader was een be- kende chemicus, eerst leraar en later directeur van een middelbare school; zijn moeder was een verdienstelijk wiskundige die tot op hoge leeftijd zich met wiskundige problemen bezig hield. Hij bezocht het Gymnasium Erasmianum te Rotterdam waar hij uitblonk in wiskunde en natuurkunde. Enkele eigen- schappen die kenmerkend voor hem waren kwamen in die tijd al aan de dag. Zo streefde hij steeds naar eenvoudige en elegante oplossingen van wiskundi- ge vraagstukken. Zo ook was er zijn liefde voor klassieke muziek en zijn niet onverdienstelijke vaardigheid op de piano. Jaren later zou zijn Boesendorfer het meest markante meubel in zijn huis zijn. Uit idealisme had hij zich voorgenomen om rechten te gaan studeren om la- ter Nederland te vertegenwoordigen bij de Verenigde Naties. Gelukkig brach- ten zijn resultaten bij het eindexamen hem er toch toe om in 1948 naar Leiden te gaan om daar wis- en natuurkunde en later theoretische natuurkunde te studeren. Eerste programmeur in Nederland Hij was zeer actief in het studentenleven en reeds in die tijd hamerde hij op correct taalgebruik, iets waar de meeste studenten zich niet om bekom- meren. Eveneens had hij toen al af en toe een wat uitdagend en provocerend optreden. Later in zijn leven schreef hij aan een vriend dat het helpt als je je af en toe gedraagt of je niet helemaal toerekeningsvatbaar bent! Beslissend voor zijn verdere loopbaan was het feit dat hij aan het eind van zijn derde jaar de gelegenheid kreeg om in Cambridge een cursus van drie weken in het programmeren voor een elektronische rekenmachine te volgen. A. van Wijngaarden, toen directeur van de rekenafdeling van het Mathematisch Centrum te Amsterdam, hoorde hiervan en bood toen Dijkstra een betrekking op het M.C. aan. Zo werd Dijkstra in maart 1952 de eerste Nederlander met het beroep 'programmeur'. Het werd snel duidelijk dat hij in dit gebied verder wilde gaan. Zijn studie in de theoretische natuurkunde werd een formaliteit die hij in 1956 afrondde met het doctoraalexamen. Vanaf 1952 vormde Dijkstra met B.J. Loopstra en C.S. Scholten een drie- manschap dat zich bezig hield met de ontwikkeling en constructie van de elektronische rekenmachines arra ii, ferta en armac. Voor al deze machi- 33 nes werd de software door Dijkstra ontwikkeld. In de periode 1952 - 1956 vond een evolutie plaats in het programmeren, gedeeltelijk doordat de voortdurend toenemende complexiteit van de systemen een beter gestructureerd operating system noodzakelijk maakte, en gedeeltelijk doordat een meer wiskundige benadering van het programmeren een beter inzicht verschafte over de ef- ficientie en correctheid van programma's. In deze periode hield Dijkstra zich ook bezig met het ontwerpen van algoritmen. Hij vond een zeer efficient al- goritme voor de bepaling van het kortste pad tussen twee punten in een graaf. Het is sindsdien bekend als 'Dijkstra's algorithm'. De eerlijkheid gebiedt te vermelden dat hetzelfde algoritme enkele jaren eerder was gepubliceerd door E.F. Moore maar onopgemerkt bleef. Bij de ontwikkeling van de volgende rekenmachine, de xl, werd hij ge- confronteerd met het probleem van nondeterminisme. De oplossing werd het onderwerp van zijn proefschrift. Hij promoveerde in 1959 cum laude met A. van Wijngaarden als promotor. Het werkelijk baanbrekend werk uit de M.C. periode was de ontwikkeling van de programmeertaal algol '60. Samen met J. Zonneveld schreef Dijkstra de eerste compiler voor die taal. algol was een bijzonder heldere programmeertaal die dan ook zeer lang een dominante rol heeft gespeeld. Internationaal expert In 1962 werd Dijkstra benoemd tot hoogleraar in de wiskunde aan de T.H. Eindhoven. Daar werd door een kleine groep onder zijn leiding het the Multiprogramming System voor de X8 ontwikkeld. Dit was het eerste opera- ting system dat uit gekoppelde, expliciet gesynchroniseerde, samenwerkende sequentiele processen bestond. Deze structuur maakte het onder andere mo- gelijk om correctheid te bewijzen. Inmiddels was Dijkstra een internationaal erkend expert op het gebied van de programmatuur en werd hij bij vele sym- posia en congressen gevraagd om een van de hoofdsprekers te zijn. Een van de vele vaak geciteerde uitspraken van Dijkstra is 'Ik houd van wiskunde maar spaar me de mathematen'. Het kwam dan ook aan de the regelmatig voor dat hij verschil van inzicht had met zijn wiskundige colle- ga's. Toen dit in 1967 leidde tot zware kritiek op het eerste onder zijn leiding geschreven proefschrift maakte hij een lange depressie door. Hij kwam die te boven door zich te storten op zijn ideeen over het programmeren en die vast te leggen in zijn Notes on structureel p rog ramming. Binnen korte tijd hebben die zich over de wereld verspreid. 34"
@@ -399,13 +422,13 @@ if __name__ == '__main__':
 
     ### Uncomment the following only IF needed:
 
-    main_for_old_src_experiments()
-    gold_files = [ "/Users/daza/Repos/my-vu-experiments/BiographyNet/data/biographynet_test_B_gold.json", "/Users/daza/Repos/my-vu-experiments/BiographyNet/data/biographynet_test_B_gold.json",
-                  "/Users/daza/Repos/my-vu-experiments/BiographyNet/data/biographynet_test_C_gold.json"]
+    # main_for_old_src_experiments()
+    # gold_files = [ "/Users/daza/Repos/my-vu-experiments/BiographyNet/data/biographynet_test_B_gold.json", "/Users/daza/Repos/my-vu-experiments/BiographyNet/data/biographynet_test_B_gold.json",
+    #               "/Users/daza/Repos/my-vu-experiments/BiographyNet/data/biographynet_test_C_gold.json"]
     # evaluate_ner_outputs(model="text-davinci-003", task="direct_ner", outputs_parent_path="data/gpt-3", gold_paths=gold_files, valid_labels=['PER', 'ORG', 'LOC'])
     # evaluate_ner_outputs(model="gpt-3.5-turbo", task="direct_ner", outputs_parent_path="data/gpt-3", gold_paths=gold_files, valid_labels=['PER', 'ORG', 'LOC'])
 
     #extract_translations(model="gpt-3.5-turbo", task="translation", outputs_parent_path="data/gpt-3")
     #extract_translations(model="text-davinci-003", task="translation", outputs_parent_path="data/gpt-3")
 
-    # evaluate_wiki_gold_ner("gpt-3.5-turbo")
+    evaluate_wiki_gold_ner("gpt-3.5-turbo", valid_labels=["PER", "LOC", "ORG", "MISC"])

@@ -8,8 +8,8 @@ from classes import MetadataComplete, Event, State
 
 
 def main():
-    INPUT_JSON = "../data/biographynet_test.jsonl"
-    OUTPUT_UNIFIED = "../data/Test_Bios_Unified.jsonl"
+    INPUT_JSON = "../data/AllBios.jsonl"
+    OUTPUT_UNIFIED = "../data/All_Bios_Unified.jsonl"
     create_lite_version = True
 
     if create_lite_version:

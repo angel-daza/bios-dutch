@@ -615,12 +615,12 @@ class MetadataComplete:
         if text_ix < 0:
             for ent_list in self.texts_entities:
                 for ent in ent_list:
-                    if ent and ent[1] == entity_label:
-                        ents.append(ent[0])
+                    if ent and ent['label'] == entity_label:
+                        ents.append(ent['text'])
         elif text_ix < len(self.texts):
             for ent in self.texts_entities[text_ix]:
-                if ent and ent[1] == entity_label:
-                        ents.append(ent[0])
+                if ent and ent['label'] == entity_label:
+                        ents.append(ent['text'])
         return ents
 
     def getRelatedMetadataPlaces(self) -> List[str]:

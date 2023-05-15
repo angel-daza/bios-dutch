@@ -39,11 +39,6 @@ def main():
     # #### Collect Global Info
     global_dicts = collect_global_info(bionet_people)
 
-    # ### Create Datasets for other Tasks (Web Visualization, Text classification...)
-    # create_flask_searchable_data(bionet_people, "flask_app/backend_data/biographies/AllBios_unified_enriched.jsonl")
-    create_text_classification_dataset(bionet_people, SAVE_RESULTS_PATH, global_dicts['occup2coarse'])
-    create_wikipedia_dataset(bionet_people, SAVE_RESULTS_PATH)
-
     # Proportion of Males and Females - Using Metadata Only
     gender_list = gender_analysis(bionet_people)
     evaluate_inferred_gender(bionet_people)
@@ -81,7 +76,7 @@ def source_distribution(people: List[MetadataComplete], partition='all'):
         people (List[MetadataComplete]): List of unified Biographies (one row per person)
         partition (str, optional): restrict the counter to a certain partition. Values: 'train', 'development', 'test'. Defaults to 'all'.
     """
-    source_dict_all, source_dict_text = defaultdict(int), defaultdict(int)
+    source_dict_all, source_dict_text, source_dict_tokens = defaultdict(int), defaultdict(int), defaultdict(int)
     source_dict_individuals = defaultdict(set)
     unique_people_set = set()
     for p in people:
@@ -94,6 +89,7 @@ def source_distribution(people: List[MetadataComplete], partition='all'):
                 source_dict_all[src_key] += 1
                 if len(text.strip()) > 0:
                     source_dict_text[src_key] += 1
+                    source_dict_tokens[src_key] += len([tok for tok_list in p.texts_tokens for tok in tok_list])
                     source_dict_individuals[src_key].add(p.person_id)
                     unique_people_set.add(p.person_id)
 
@@ -104,6 +100,8 @@ def source_distribution(people: List[MetadataComplete], partition='all'):
         fout.write(tabulate(source_dict_all.items()))
     with open(f"{SAVE_RESULTS_PATH}/source_distribution_with-text_{partition}.tsv", "w") as fout:
         fout.write(tabulate(source_dict_text.items()))
+    with open(f"{SAVE_RESULTS_PATH}/source_distribution_token-counts_{partition}.tsv", "w") as fout:
+        fout.write(tabulate(source_dict_tokens.items()))
     with open(f"{SAVE_RESULTS_PATH}/source_distribution_individuals_{partition}.tsv", "w") as fout:
         fout.write(tabulate( [(src, len(individuals)) for src, individuals in source_dict_individuals.items()]))
 
@@ -120,7 +118,7 @@ def verify_unified_metadata(people: List[MetadataComplete]):
         df.sort_values(by=fields_to_rank_by, ascending=ascending, inplace=True)
         df.to_csv(f"{SAVE_RESULTS_PATH}/ranking_metafield_{file_suffix}.tsv", sep='\t')
 
-        for part in ['dev', 'test']:
+        for part in ['dev', 'test', 'train']:
             filtered_df = df[df[f"src_with_text_{part}"].str.len() > 0].\
                 filter(axis='columns', items=["person_id", "name_long","src_with_text", f"src_with_text_{part}", f"id_with_text_{part}", "meta_fields_populated", "texts"])
             filtered_df.to_csv(f"{SAVE_RESULTS_PATH}/ranked_meta_{file_suffix}_{part}.tsv", sep='\t')
@@ -268,7 +266,7 @@ def collect_global_info(people: List[MetadataComplete]) -> Dict[str, Counter]:
         for key, freq in fine_grained_dict.items():
             tot_freq += freq
         expanded_coarse_counter[occ] = tot_freq
-    # _counter_to_file(Counter(expanded_coarse_counter), 'flask_app/backend_data/occupations.txt')
+    _counter_to_file(Counter(expanded_coarse_counter), 'flask_app/backend_data/occupations.txt')
     _counter_to_file(Counter(expanded_coarse_counter), f'{SAVE_RESULTS_PATH}/occupations_coarse.txt')
 
     # Iterate again per person to get a list of their "coarse" occupations to later generate correlation charts or matrices
@@ -277,7 +275,7 @@ def collect_global_info(people: List[MetadataComplete]) -> Dict[str, Counter]:
         occupations_coarse_list.append(occup2coarse_converter.get(p.getOccupation(), None))
 
     locations = Counter(locations)
-    # _counter_to_file(locations, 'flask_app/backend_data/locations.txt')
+    _counter_to_file(locations, 'flask_app/backend_data/locations.txt')
     _counter_to_file(locations, f'{SAVE_RESULTS_PATH}/ner_locations_all.txt')
 
     organizations = Counter(organizations)
@@ -286,130 +284,6 @@ def collect_global_info(people: List[MetadataComplete]) -> Dict[str, Counter]:
     _counter_to_file(Counter(persons), f'{SAVE_RESULTS_PATH}/ner_persons_all.txt')
     _counter_to_file(Counter(misc_ents), f'{SAVE_RESULTS_PATH}/ner_misc_all.txt')
     return {'occupations_coarse_list': occupations_coarse_list, 'occup2coarse': occup2coarse_converter, 'locations': locations, 'organizations': organizations}
-
-
-def create_flask_searchable_data(people: List[MetadataComplete], dataset_filepath: str):
-    with open(dataset_filepath, 'w') as fout:
-        for p in people:
-            save_fields = {}
-            save_fields['person_id'] = p.person_id
-            save_fields['sources'] = p.sources
-            birth_year = p.getBirthDate(method='year_only')[0]
-            century = p.getCenturyLived()
-            century_search = century.lower() if century else None
-            save_fields['display_gender'] = p.getGender()
-            save_fields['display_person_name'] = p.getName('unique_longest')
-            save_fields['display_person_century'] = p.getCenturyLived()
-            save_fields['display_birth_year'] = birth_year
-            save_fields['display_death_year'] = p.getDeathDate(method='year_only')[0]
-            save_fields['display_birth_place'] = p.getBirthPlace()
-            save_fields['display_death_place'] = p.getDeathPlace()
-            save_fields['list_person_names'] = p.getName('all_names')
-            save_fields['list_genders'] = p.genders
-            save_fields['list_occupations'] = [st.label for st in p.occupations]
-            save_fields['list_places'] = p.getRelatedMetadataPlaces()
-            save_fields['list_birth_years'] = [str(bd) for bd in p.births]
-            save_fields['list_death_years'] = [str(dd) for dd in p.deaths]
-            save_fields['list_educations'] = [str(ed) for ed in p.educations]
-            save_fields['list_religions'] = [str(rel) for rel in p.religions]
-            save_fields['list_faiths'] = [str(fa) for fa in p.faiths] # To display individual: person_bios.getFaith('stringified_all')
-            save_fields['list_residences'] = [str(res) for res in p.residences]
-            save_fields['search_sources'] = "|".join([x.lower() for x in p.sources])
-            save_fields['search_person_century'] = century_search
-            save_fields['search_person_names'] = "|".join([x.lower() for x in p.getName('all_names')])
-            save_fields['search_occupations'] = "|".join([st.label.lower() for st in p.occupations])
-            save_fields['search_places'] = "|".join([x.lower() for x in p.getRelatedMetadataPlaces()])
-
-            # Extracn NLP Info Directly Tied to Individual Texts...
-            person_ments, place_ments = [], []
-            texts_with_content = []
-            text_ids = []
-            sources_with_text = []
-            for i, text in enumerate(p.texts):
-                text_ids.append(f"{p.person_id}_{p.versions[i]}")
-                if len(text.strip().strip("\n")) > 0:
-                    person_ments.append("|".join([x.lower() for x in p.getEntityMentions(entity_label='PER', text_ix=i)]))
-                    place_ments.append("|".join([x.lower() for x in p.getEntityMentions(entity_label='LOC', text_ix=i)]))
-                    texts_with_content.append(text)
-                    sources_with_text.append(p.sources[i])
-            # Attach at the PERSON level
-            save_fields['text_ids'] = text_ids
-            save_fields['sources_with_text'] = sources_with_text
-            save_fields['list_entity_per'] = list(set([x for x in p.getEntityMentions(entity_label='PER')]))
-            save_fields['list_entity_loc'] = list(set([x for x in p.getEntityMentions(entity_label='LOC')]))
-            save_fields['search_person_mentions'] = "|".join(person_ments)
-            save_fields['search_place_mentions'] = "|".join(place_ments)
-            save_fields['texts'] = texts_with_content
-            fout.write(json.dumps(save_fields)+'\n')
-
-
-def create_text_classification_dataset(people: List[MetadataComplete], dataset_filepath: str, occupations_dict: Dict[str, str]):
-    data = []
-    for p in people:
-        occupation = occupations_dict.get(p.getOccupation(), None)
-        gender = p.getGender()
-        century = p.getCenturyLived()
-        for i, text in enumerate(p.texts):
-            if len(text) > 0:
-                semi_toks = text.split()
-                truncated_text = " ".join(semi_toks[:200]) if len(semi_toks) > 200 else text
-                dataset_row = {
-                    'person_id': p.person_id,
-                    'text_id': f"{p.person_id}_{p.versions[i]}",
-                    'person_name': p.getName('unique_longest'),
-                    'gender': gender,
-                    'source': p.sources[i],
-                    'century': century,
-                    'occupation': occupation,
-                    'is_labeled_occupation': True if occupation else False,
-                    'is_labeled_gender': True if gender else False,
-                    'is_labeled_century': True if century else False,
-                    'text': truncated_text
-                }
-                data.append(dataset_row)
-    
-    df = pd.DataFrame(data)
-    df.to_json(f"{dataset_filepath}/occupations_text_classification.jsonl", orient='records', lines=True)
-
-    df_labeled = df.loc[df["is_labeled_occupation"] == True]
-    df_unlabeled = df.loc[df["is_labeled_occupation"] == False]
-    
-    df_train = df_labeled.groupby('occupation', group_keys=False).apply(lambda x: x.sample(frac=0.9))
-    df_dev = df_labeled.drop(df_train.index)
-
-    df_unlabeled.to_json(f"{dataset_filepath}/occup_unlabeled.jsonl", orient='records', lines=True)
-    df_train.to_json(f"{dataset_filepath}/occup_train.jsonl", orient='records', lines=True)
-    df_dev.to_json(f"{dataset_filepath}/occup_dev.jsonl", orient='records', lines=True)
-
-
-def create_wikipedia_dataset(people: List[MetadataComplete], dataset_filepath: str):
-    included_ids_tr, included_ids_dv, included_ids_ts  = set(), set(), set()
-    with open(f"{dataset_filepath}/wiki_search_train.tsv", "w") as f_train, open(f"{dataset_filepath}/wiki_search_dev.tsv", "w") as f_dev, open(f"{dataset_filepath}/wiki_search_test.tsv", "w") as f_test:
-        for p in people:
-            names = p.getName('all_names') # Ordered shortest to longest
-            name_str = "||".join(names)
-            b_date = p.getBirthDate()
-            if b_date:
-                b_year = b_date[0]
-            else:
-                b_year = p.getBirthDate_baseline1()
-            d_date = p.getDeathDate()
-            if d_date:
-                d_year = d_date[0]
-            else:
-                d_year = -1
-            for partition in p.partitions:
-                row_str = f"{p.person_id}\t{name_str}\t{b_year}\t{d_year}\n"
-                if partition == "train" and p.person_id not in included_ids_tr:
-                    f_train.write(row_str)
-                    included_ids_tr.add(p.person_id)
-                elif partition == "development" and p.person_id not in included_ids_dv:
-                    f_dev.write(row_str)
-                    included_ids_dv.add(p.person_id)
-                elif partition == "test" and p.person_id not in included_ids_ts:
-                    f_test.write(row_str)
-                    included_ids_ts.add(p.person_id)
-
 
 
 def gender_analysis(people: List[MetadataComplete]) -> List[str]:
