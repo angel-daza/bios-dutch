@@ -146,7 +146,7 @@
 											  <tr>
 												<th scope="row">Sources</th>
 												<td>{% for s in person_bios.sources_with_text %} {{s}}<br>  {% endfor %}</td>
-												<td>{% for s in person_bios.sources %} {{s}}<br>  {% endfor %}</td>
+												<td>{% for s in person_bios.sources %} <a href="static/bioport_export_2017-03-10/{{person_bios.text_ids[loop.index - 1]}}.xml" target="_blank">{{s}}</a> <br>  {% endfor %}</td>
 											  </tr>
 											  <tr>
 												<th scope="row">Century</th>

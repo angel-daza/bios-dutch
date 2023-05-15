@@ -7,9 +7,10 @@ from stats_unique_people import collect_global_info
 INPUT_JSON = "data/AllBios_Unified.jsonl"
 SAVE_RESULTS_PATH = "data/BioNetStats"
 
-
 if not os.path.exists(SAVE_RESULTS_PATH): os.mkdir(SAVE_RESULTS_PATH)
 
+BIONET_XML_FLASK_PATH = "static/bioport_export_2017-03-10"
+BIONET_INTAVIA_JSON_FLASK_PATH = "static/intavia_json"
 
 def main():
     bionet_people = [MetadataComplete.from_json(json.loads(l)) for l in open(INPUT_JSON).readlines()]
@@ -19,13 +20,13 @@ def main():
     # global_dicts = collect_global_info(bionet_people)
 
     # ### Create Datasets for other Tasks (Web Visualization, Text classification...)
-    create_flask_searchable_data(bionet_people, "flask_app/backend_data/biographies/AllBios_unified_enriched.jsonl")
+    create_flask_searchable_people_data(bionet_people, "flask_app/backend_data/biographies/AllBios_unified_enriched.jsonl")
     # create_text_classification_dataset(bionet_people, SAVE_RESULTS_PATH, global_dicts['occup2coarse'])
     # create_wikipedia_dataset(bionet_people, SAVE_RESULTS_PATH)
 
 
 
-def create_flask_searchable_data(people: List[MetadataComplete], dataset_filepath: str):
+def create_flask_searchable_people_data(people: List[MetadataComplete], dataset_filepath: str):
     with open(dataset_filepath, 'w') as fout:
         for p in people:
             save_fields = {}
@@ -57,13 +58,16 @@ def create_flask_searchable_data(people: List[MetadataComplete], dataset_filepat
             save_fields['search_occupations'] = "|".join([st.label.lower() for st in p.occupations])
             save_fields['search_places'] = "|".join([x.lower() for x in p.getRelatedMetadataPlaces()])
 
-            # Extracn NLP Info Directly Tied to Individual Texts...
+            # Extract NLP Info Directly Tied to Individual Texts...
             person_ments, place_ments = [], []
             texts_with_content = []
-            text_ids = []
+            text_ids, xml_paths, intavia_jsons = [], [], []
             sources_with_text = []
             for i, text in enumerate(p.texts):
-                text_ids.append(f"{p.person_id}_{p.versions[i]}")
+                tid = f"{p.person_id}_{p.versions[i]}"
+                text_ids.append(tid)
+                xml_paths.append(f"{BIONET_XML_FLASK_PATH}/{tid}.xml")
+                intavia_jsons.append(f"{BIONET_INTAVIA_JSON_FLASK_PATH}/{tid}.{p.sources[i]}")
                 if len(text.strip().strip("\n")) > 0:
                     person_ments.append("|".join([x.lower() for x in p.getEntityMentions(entity_label='PER', text_ix=i)]))
                     place_ments.append("|".join([x.lower() for x in p.getEntityMentions(entity_label='LOC', text_ix=i)]))
@@ -71,6 +75,8 @@ def create_flask_searchable_data(people: List[MetadataComplete], dataset_filepat
                     sources_with_text.append(p.sources[i])
             # Attach at the PERSON level
             save_fields['text_ids'] = text_ids
+            save_fields['original_files'] = xml_paths
+            save_fields['nlp_files'] = intavia_jsons
             save_fields['sources_with_text'] = sources_with_text
             save_fields['list_entity_per'] = list(set([x for x in p.getEntityMentions(entity_label='PER')]))
             save_fields['list_entity_loc'] = list(set([x for x in p.getEntityMentions(entity_label='LOC')]))
@@ -147,3 +153,6 @@ def create_wikipedia_dataset(people: List[MetadataComplete], dataset_filepath: s
                     f_test.write(row_str)
                     included_ids_ts.add(p.person_id)
 
+
+if __name__ == "__main__":
+    main()
