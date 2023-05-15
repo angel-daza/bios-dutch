@@ -2,7 +2,11 @@
 
 ## Get Started
 
-1. The big files are not included in the repo because of size constraints, so they need to be copied first into the `data` folder (if it doesn't exist, create one). 
+1. The big files are not included in the repo because of size constraints, so they need to be copied first into the `data` folder (if it doesn't exist, create one). The Seed Data (big) files that should be included inside the 'data/seed_data' folder are:
+    * `AllBios.jsonl`
+    * `biographynet_train.jsonl`
+    * `biographynet_development.jsonl`
+    * `biographynet_test.jsonl`
 
 2. Create a virtual environment and Install the packages running `pip install -r requirements.txt`
 

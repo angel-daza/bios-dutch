@@ -1,15 +1,16 @@
+.my_openai
+
 # Big Folders and Big Data Files (load from external drive to run experiments)
-data/*train*
-data/*test*
-data/AllBios*
+data/seed_data/*
+data/*.lite.jsonl
+data/*_Unified.jsonl
 data/BioNetStats/*
 data/bionet_gold/*
 data/json/*
 data/gpt-3/*
-data/*flair*
-.my_openai
-wikigold/
+data/eval/*
 flask_app/backend_data
+flask_app/static/bioport_export_2017-03-10/*
 
 # Byte-compiled / optimized / DLL files
 .DS_Store

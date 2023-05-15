@@ -1,25 +1,21 @@
 # Import Libs
 from typing import Dict, List
 import pandas as pd
-import json, os
+import json, os, sys
 
 from tqdm import tqdm
 from classes import MetadataComplete, Event, State
 
 
-def main():
-    INPUT_JSON = "../data/AllBios.jsonl"
-    OUTPUT_UNIFIED = "../data/All_Bios_Unified.jsonl"
-    create_lite_version = True
-
+def main(input_filepath: str, output_filepath: str, create_lite_version: bool):
     if create_lite_version:
         # Create LITE version so it fits in memory for unification
-        basename = os.path.basename(INPUT_JSON)
-        LITE_INPUT_JSON = f"{basename.split('.')[:-1][0]}.lite.jsonl"
-        create_bios_lite(INPUT_JSON, LITE_INPUT_JSON)
+        basename = os.path.basename(input_filepath)
+        LITE_INPUT_JSON = f"data/{basename.split('.')[:-1][0]}.lite.jsonl"
+        create_bios_lite(input_filepath, LITE_INPUT_JSON)
     else:
         # If the file is small or it is already a lite version
-        LITE_INPUT_JSON = INPUT_JSON
+        LITE_INPUT_JSON = input_filepath
     
     # Load the Dataset 
     biographies = pd.read_json(LITE_INPUT_JSON, dtype={"id_person": 'string', 'version': 'string'}, orient='records', lines=True)
@@ -31,7 +27,7 @@ def main():
     print(biographies.index)
 
     unique_persons = list(biographies['id_person'].unique())
-    get_unique_people(biographies, unique_persons, output_filename=OUTPUT_UNIFIED)
+    get_unique_people(biographies, unique_persons, output_filename=output_filepath)
 
 
 def create_bios_lite(original_bios_path: str, lite_bios_path: str):
@@ -115,4 +111,17 @@ def get_unique_people(bionet_df: pd.DataFrame, people_of_interest: List[str], ou
     print(f"Successfully unified {bio_counter} biographies into {len(people_of_interest)} unique people")
 
 if __name__ == "__main__":
-    main()
+    """
+        Run Examples: 
+            
+            python utils/bionet_unify_people_bios.py "data/seed_data/AllBios.jsonl" "data/All_Bios_Unified.jsonl"
+            
+            python utils/bionet_unify_people_bios.py "data/seed_data/biographynet_development.jsonl" "data/Dev_Bios_Unified.jsonl"
+    """
+    if len(sys.argv) < 2:
+        raise Exception("You need to provide and input and output file [See Run Examples inside the script]")
+    else:
+        input_filepath = sys.argv[1]
+        output_filepath = sys.argv[2]
+        create_lite_version = True
+        main(input_filepath, output_filepath, create_lite_version)

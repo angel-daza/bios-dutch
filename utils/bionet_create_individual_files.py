@@ -20,18 +20,26 @@ def create_individual_bios_by_partition(original_bios_path: str, individual_pare
                 json.dump(row, fout, indent=2, ensure_ascii=False)
 
 
-def create_individual_bios_by_source(original_bios_path: str, individual_parent_path: str, sources: List[str]):
-    for src in sources: os.makedirs(f"{individual_parent_path}/{src}", exist_ok=True)
+def create_individual_bios_by_source(original_bios_path: str, individual_parent_path: str, sources: List[str] = []):
     source_count = defaultdict(int)
+    if len(sources) == 0:
+        sources = ['bioport', 'raa', 'rkdartists', 'dvn', 'vdaa', 'weyerman', 'bwsa', 'bwsa_archives', 'dbnl', 'nnbw', 'rijksmuseum', 
+                       'pdc', 'blnp', 'knaw', 'wikipedia', 'nbwv', 'schilderkunst', 'portraits', 'glasius', 'schouburg', 
+                       'smoelenboek', 'na', 'bwn', 'IAV_MISC-biographie', 'jews', 'bwg', 'bwn_1780tot1830', 'elias']
+    
     print(f"Generating files for {sources}")
+    for src in sources: os.makedirs(f"{individual_parent_path}/{src}", exist_ok=True)
+    
     with open(original_bios_path) as f:
         for line in tqdm(f.readlines()):
             row = json.loads(line)
             # Write to new file
-            if row['source'] in sources:
+            if len(sources) == 0 or row['source'] in sources:
                 source = row['source']
-                partition = row['partition']
-                fout = open(f"{individual_parent_path}/{source}/{row['id_composed']}.{partition}.json", "w")
+                if 'IAV_' in source:
+                    fout = open(f"{individual_parent_path}/IAV_MISC-biographie/{row['id_composed']}.json", "w")
+                else:
+                    fout = open(f"{individual_parent_path}/{source}/{row['id_composed']}.json", "w")
                 json.dump(row, fout, indent=2, ensure_ascii=False)
                 source_count[source] += 1
     for item in sorted(source_count.items(), key=lambda x: x[1]):
@@ -40,13 +48,12 @@ def create_individual_bios_by_source(original_bios_path: str, individual_parent_
 
 
 
-### OPTION 1: Generate the individual files of a specific partition only (train, development or test)
-# Reminder: the test/dev/train partitions only include bios with text. In AllBios.jsonl there are really ALL bios, including the ones with metadata only
-create_individual_bios_by_partition("data/biographynet_development.jsonl", "data/json", "development")
-create_individual_bios_by_partition("data/biographynet_test.jsonl", "data/json", "test")
-create_individual_bios_by_partition("data/biographynet_train.jsonl", "data/json", "train")
+# ### OPTION 1: Generate the individual files of a specific partition only (train, development or test)
+# # Reminder: the test/dev/train partitions only include bios with text. In AllBios.jsonl there are really ALL bios, including the ones with metadata only
+# create_individual_bios_by_partition("data/biographynet_development.jsonl", "data/json/bionet", "development")
+# create_individual_bios_by_partition("data/biographynet_test.jsonl", "data/json/bionet", "test")
+# create_individual_bios_by_partition("data/biographynet_train.jsonl", "data/json/bionet", "train")
 
 ### OPTION 2: Generate the individual files of specific sources only
-# create_individual_bios_by_source("data/biographynet_test.jsonl", "data/json", ["weyerman", "glasius", "vdaa", "knaw"])
-# create_individual_bios_by_source("data/biographynet_development.jsonl", "data/json", ["weyerman", "glasius", "vdaa", "knaw"])
-# create_individual_bios_by_source("data/biographynet_train.jsonl", "data/json", ["weyerman", "glasius", "vdaa", "knaw"])
+create_individual_bios_by_source("data/seed_data/AllBios.jsonl", "data/json/bionet")
+# create_individual_bios_by_source("data/biographynet_train.jsonl", "data/json/bionet", ["weyerman", "glasius", "vdaa", "knaw"])

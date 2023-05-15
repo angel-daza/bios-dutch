@@ -4,6 +4,21 @@ from collections import Counter
 import re, json
 
 
+@dataclass 
+class IntaviaToken:
+    ID: int
+    FORM: str
+    LEMMA: str
+    UPOS: str
+    XPOS: str
+    HEAD: int
+    DEPREL: str
+    DEPS: str
+    MISC: List[str] = None
+    FEATS: Dict[str, str] = None
+
+
+
 class Date:
     '''Object to represent dates. Dates can consist of regular day-month-year, but also descriptions (before, after, ca.). Object has attributes for regular parts and one for description, default is empty string.'''
 
