@@ -82,7 +82,18 @@
 						<option value="XIX">XIX</option>
 						<option value="XX">XX</option>
 						<option value="XXI">XXI</option>
-						</select>	  	
+						</select>	
+					
+					<div class="input-group-append ml-5">
+						<label class="input-group-text" for="inputGroupSelect02">Partition:</label>
+					</div>
+						<select class="custom-select w-25" id="input_partition" name="input_partition">
+							<option selected>Choose...</option>
+							<option value="train">Train</option>
+							<option value="development">Development</option>
+							<option value="test">Test</option>
+						</select>
+
 				</div>
 					
 
@@ -146,7 +157,7 @@
 											  <tr>
 												<th scope="row">Sources</th>
 												<td>{% for s in person_bios.sources_with_text %} {{s}}<br>  {% endfor %}</td>
-												<td>{% for s in person_bios.sources %} <a href="static/bioport_export_2017-03-10/{{person_bios.text_ids[loop.index - 1]}}.xml" target="_blank">{{s}}</a> <br>  {% endfor %}</td>
+												<td>{% for s in person_bios.sources %} <a href="{{person_bios.original_files[loop.index - 1]}}" target="_blank">{{s}}</a> [{{person_bios.partitions[loop.index - 1]}}] <br>  {% endfor %}</td>
 											  </tr>
 											  <tr>
 												<th scope="row">Century</th>
@@ -209,8 +220,10 @@
 								  <div class="card-header" id="heading{{loop.index}}">
 									<h5 class="mb-0">
 									  <button class="btn btn-link" data-toggle="collapse" data-target="#collapse_{{person_bios.display_id}}_{{loop.index}}" aria-expanded="true" aria-controls="collapse_{{person_bios.display_id}}_{{loop.index}}">
-										Text {{loop.index}} (Source: {{person_bios.sources_with_text[loop.index - 1]}})
+										Text {{loop.index}} (Source: {{person_bios.sources_with_text[loop.index - 1]}}) [{{person_bios.partitions_with_text[loop.index - 1]}}]
 									  </button>
+									  [<a href="{{person_bios.original_files_with_text[loop.index - 1]}}" target="_blank">xml</a>]
+									  [<a href="/bio_detail/{{person_bios.sources_with_text[loop.index - 1]}}/{{person_bios.text_ids_with_text[loop.index - 1]}}">nlp</a>]
 									</h5>
 								  </div>
 							  

@@ -32,6 +32,7 @@ def create_flask_searchable_people_data(people: List[MetadataComplete], dataset_
             save_fields = {}
             save_fields['person_id'] = p.person_id
             save_fields['sources'] = p.sources
+            save_fields['partitions'] = p.partitions
             birth_year = p.getBirthDate(method='most_likely_date')
             century = p.getCenturyLived()
             century_search = century.lower() if century else None
@@ -57,27 +58,36 @@ def create_flask_searchable_people_data(people: List[MetadataComplete], dataset_
             save_fields['search_person_names'] = "|".join([x.lower() for x in p.getName('all_names')])
             save_fields['search_occupations'] = "|".join([st.label.lower() for st in p.occupations])
             save_fields['search_places'] = "|".join([x.lower() for x in p.getRelatedMetadataPlaces()])
+            save_fields['search_partitions'] = "|".join(p.partitions)
 
             # Extract NLP Info Directly Tied to Individual Texts...
             person_ments, place_ments = [], []
             texts_with_content = []
-            text_ids, xml_paths, intavia_jsons = [], [], []
-            sources_with_text = []
+            text_ids, xml_paths = [], []
+            xml_paths_with_text = []
+            sources_with_text, text_ids_with_text, partitions_with_text = [], [], []
             for i, text in enumerate(p.texts):
                 tid = f"{p.person_id}_{p.versions[i]}"
                 text_ids.append(tid)
                 xml_paths.append(f"{BIONET_XML_FLASK_PATH}/{tid}.xml")
-                intavia_jsons.append(f"{BIONET_INTAVIA_JSON_FLASK_PATH}/{tid}.{p.sources[i]}")
                 if len(text.strip().strip("\n")) > 0:
                     person_ments.append("|".join([x.lower() for x in p.getEntityMentions(entity_label='PER', text_ix=i)]))
                     place_ments.append("|".join([x.lower() for x in p.getEntityMentions(entity_label='LOC', text_ix=i)]))
                     texts_with_content.append(text)
-                    sources_with_text.append(p.sources[i])
+                    partitions_with_text.append(p.partitions[i])
+                    if 'IAV_' in p.sources[i]:
+                        sources_with_text.append("IAV_MISC-biographie")
+                    else:
+                        sources_with_text.append(p.sources[i])
+                    xml_paths_with_text.append(f"{BIONET_XML_FLASK_PATH}/{tid}.xml")
+                    text_ids_with_text.append(tid)
             # Attach at the PERSON level
             save_fields['text_ids'] = text_ids
+            save_fields['text_ids_with_text'] = text_ids_with_text
             save_fields['original_files'] = xml_paths
-            save_fields['nlp_files'] = intavia_jsons
+            save_fields['original_files_with_text'] = xml_paths_with_text
             save_fields['sources_with_text'] = sources_with_text
+            save_fields['partitions_with_text'] = partitions_with_text
             save_fields['list_entity_per'] = list(set([x for x in p.getEntityMentions(entity_label='PER')]))
             save_fields['list_entity_loc'] = list(set([x for x in p.getEntityMentions(entity_label='LOC')]))
             save_fields['search_person_mentions'] = "|".join(person_ments)

@@ -1,5 +1,5 @@
 from dataclasses import dataclass
-from typing import List, Dict, Tuple, Union, Optional
+from typing import List, Dict, Tuple, Union, Optional, Any
 from collections import Counter
 import re, json
 
@@ -16,7 +16,6 @@ class IntaviaToken:
     DEPS: str
     MISC: List[str] = None
     FEATS: Dict[str, str] = None
-
 
 
 class Date:

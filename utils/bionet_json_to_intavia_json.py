@@ -6,8 +6,7 @@ from classes import IntaviaToken
 
 
 def main():
-    for part in ['development', 'test', 'train']:
-        convert_to_intavia(bionet_filepath=f"data/seed_data/biographynet_{part}.jsonl", output_path=f"data/json/intavia")
+    convert_to_intavia(bionet_filepath=f"data/seed_data/AllBios.jsonl", output_path=f"flask_app/backend_data/intavia_json")
 
 
 def convert_to_intavia(bionet_filepath: str, output_path: str):

@@ -6,9 +6,10 @@ import json
 import re
 import random
 import virtual_pandas_dataset as my_data
-from classes_mirror import AnnoFlask
+from classes_mirror import AnnoFlask, IntaviaDocument
 import pandas as pd
 from flask_paginate import Pagination, get_page_args
+from collections import defaultdict
 
 
 GLOBAL_QUERY = []
@@ -64,11 +65,6 @@ def home():
     return render_template('home.html')
 
 
-def get_biography_slice(offset, page_size):
-    return False
-     
-
-
 @app.route("/bio_viewer", methods=['GET','POST'])
 def bio_viewer():
     global biographies_search
@@ -94,13 +90,14 @@ def bio_viewer():
         query_location = request.form.get('input_location', None)
         query_century = request.form.get('input_century', None)
         query_source = request.form.get('input_source', None)
+        query_partition = request.form.get('input_partition', None)
 
         query_params = {
             'specific_ids': queried_ids,
             'specific_names': queried_names,
-            'vals': [query_occupation, query_location, query_century, query_source],
-            'fields': ['search_occupations', 'search_places', 'search_person_century', 'search_sources'],
-            'string_exact_match': [False, False, True, False]
+            'vals': [query_occupation, query_location, query_century, query_source, query_partition],
+            'fields': ['search_occupations', 'search_places', 'search_person_century', 'search_sources', 'search_partitions'],
+            'string_exact_match': [False, False, True, False, False]
         }
 
         # FOR LATER: https://www.statology.org/pandas-loc-multiple-conditions/ and filter in a single query for locations, occupations, and other fields...
@@ -113,6 +110,34 @@ def bio_viewer():
             locations=locations_catalogue, sources=MY_SOURCES, n_rows=n_rows, page=page, per_page=per_page, pagination=pagination)
 
 
+@app.route("/bio_detail/<source>/<text_id>", methods=['GET'])
+def bio_detail(source: str, text_id: str):
+    global FLASK_ROOT
+    if request.method == "GET":
+        bio_info = json.load(open(f"{FLASK_ROOT}/intavia_json/{source}/{text_id}.json"))
+        bio = IntaviaDocument(bio_info)
+        # Basic Info
+        basic = bio.get_basic_stats()
+        # Named Entities
+        entities = [(ent["surfaceForm"], ent["category"]) for ent in bio.get_entities()]
+        entity_dict = bio.get_entity_counts()
+
+        stats_dict = {
+            "text_id": bio.text_id,
+            "name": bio_info['name'],
+            "sentences": basic['sentences'],
+            "total_tokens": len(bio.tokenization),
+            "total_sentences": len(bio.morpho_syntax),
+            "total_entities": len(entities),
+            "total_timexp": len(bio.time_expressions),
+            "top_verbs": basic['top_verbs'],
+            "top_nouns":  basic['top_nouns'],
+            "top_adjs":  basic['top_adjs'],
+            "entity_dict": entity_dict,
+            "entities": entities
+        }
+
+        return render_template("biography_detail.html", stats=stats_dict)
 
 if __name__ == '__main__':
     FLASK_ROOT = "flask_app/backend_data"
