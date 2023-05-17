@@ -23,6 +23,27 @@ class IntaviaToken:
 
 
 @dataclass
+class IntaviaEntity:
+    ID: str
+    surfaceForm: str
+    category: str
+    locationStart: int
+    locationEnd: int
+    tokenStart: int
+    tokenEnd: int
+    method: str
+
+@dataclass
+class IntaviaTimex:
+    ID: str
+    surfaceForm: str
+    value: str
+    category: str
+    locationStart: int
+    locationEnd: int
+    method: str
+
+@dataclass
 class IntaviaSentence:
     paragraph: int
     sentence: int

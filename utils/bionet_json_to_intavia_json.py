@@ -41,7 +41,7 @@ def convert_to_intavia(bionet_filepath: str, output_path: str):
                 doc['data']['tokenization'] = nlp_instance["text_tokens"]
                 doc['data']['morpho_syntax'] = nlp_to_dict(nlp_instance)
                 doc['data']['entities'] = legacy_entity_mapper(nlp_instance.get('text_entities', []), "stanza_nl")
-                doc['data']['time_expressions'] = legacy_timex_mapper(nlp_instance.get('text_timex', []), "HeidelTime")
+                doc['data']['time_expressions'] = legacy_timex_mapper(nlp_instance.get('text_timex', []), "heideltime")
             # Write the Output File
             json.dump(doc, open(intavia_output_file, "w"), indent=2, ensure_ascii=False)
 
@@ -52,7 +52,9 @@ def get_basic_doc_schema(text_id: str, text: str, basic_nlp_processor: str):
                 "data": {
                     "text": text,
                     "tokenization": [],
-                    "morpho_syntax": []
+                    "morpho_syntax": [],
+                    "entities": [],
+                    "time_expressions": []
                 }
             }
     return json_doc

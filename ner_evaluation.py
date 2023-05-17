@@ -415,7 +415,6 @@ def evaluate_ner_outputs(gold_paths: List[str], outputs_parent_path: str, eval_m
     for filepath in glob.glob(f"{outputs_parent_path}/*.json"):
         basename = os.path.basename(filepath)
         text_id = basename.split('.')[0]
-        source_id = basename.split('.')[1]
         total_docs += 1
         # Compute the annotations vs gold (only IF gold available)
         gold_obj = gold_docs.get(text_id, None)

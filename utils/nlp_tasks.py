@@ -55,6 +55,7 @@ def run_flair(text: Union[str, List[str]], tagger: SequenceTagger, splitter: Seg
                                 "start_token": token_indices[0]-1, "end_token": token_indices[-1], "score": entity.get_label("ner").score})
         return {'tagged_ner': [tagged_ents], 'sentences': [sentence.to_tokenized_string()]}
 
+
 def run_bert_ner(bert_nlp, stanza_nlp, text):
     doc = stanza_nlp(text)
     texts, ner = [], []

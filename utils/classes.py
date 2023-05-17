@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 from typing import List, Dict, Tuple, Union, Optional, Any
-from collections import Counter
+from collections import Counter, defaultdict
 import re, json
 
 
@@ -16,6 +16,102 @@ class IntaviaToken:
     DEPS: str
     MISC: List[str] = None
     FEATS: Dict[str, str] = None
+
+@dataclass
+class IntaviaEntity:
+    ID: str
+    surfaceForm: str
+    category: str
+    locationStart: int
+    locationEnd: int
+    tokenStart: int
+    tokenEnd: int
+    method: str
+
+@dataclass
+class IntaviaTimex:
+    ID: str
+    surfaceForm: str
+    value: str
+    category: str
+    locationStart: int
+    locationEnd: int
+    method: str
+
+
+@dataclass
+class IntaviaSentence:
+    paragraph: int
+    sentence: int
+    text: str
+    words: List[IntaviaToken]
+
+
+
+class IntaviaDocument:
+    def __init__(self, intavia_dict: Dict[str, Any]):
+        self.text_id: str = intavia_dict['text_id']
+        self.text:str = intavia_dict['data']['text']
+        self.tokenization: str = intavia_dict['data']['text']
+        self.morpho_syntax: List[IntaviaSentence] = [] 
+        for sent_obj in intavia_dict['data']['morpho_syntax']:
+            tokens = [IntaviaToken(**word_obj) for word_obj in sent_obj['words']]
+            sentence = IntaviaSentence(sent_obj['paragraph'], sent_obj['sentence'], sent_obj['text'], tokens)
+            self.morpho_syntax.append(sentence)
+        self.entities: List[Dict[str, Any]] = intavia_dict['data'].get('entities', [])
+        self.time_expressions: List[Dict[str, Any]] = intavia_dict['data'].get('time_expressions', [])
+        self.semantic_roles: List[Dict[str, Any]] = intavia_dict['data'].get('semantic_roles', [])
+    
+    def get_basic_stats(self) -> Dict[str, Any]:
+        sentences = []
+        verbs, nouns, adjs = [], [], []
+        for sent in self.morpho_syntax:
+            sentences.append(sent.text)
+            for tok in sent.words:
+                lemma = tok.LEMMA
+                if tok.UPOS == "VERB":
+                    verbs.append(lemma)
+                elif tok.UPOS in ["NOUN", "PROPN"]:
+                    nouns.append(lemma)
+                elif tok.UPOS == "ADJ":
+                    adjs.append(lemma)
+        return {
+            'sentences': sentences,
+            "top_verbs": Counter(verbs).most_common(10),
+            "top_nouns": Counter(nouns).most_common(10),
+            "top_adjs": Counter(adjs).most_common(10),
+        }
+    
+    def get_entities(self, methods: List[str] = ['all']) -> List[Dict[str, Any]]:
+        """_summary_
+        Args:
+            methods (List[str], optional): Filter entitities according to one or more <methods> | 'all' (everything in the list) | 'intersection' (only entities produced by models listed in <methods>)
+        Returns:
+            List[Dict[str, Any]]: The requested list of Entities. Each entitiy is a dictionary with keys: 
+                ["ID", "surfaceForm", "category", "locationStart", "locationEnd", "tokenStart", "tokenEnd", "method"]
+        """
+        if 'all' in methods:
+            entities = self.entities
+        elif 'intersection' in methods:
+            raise NotImplementedError
+        else:
+            entities = [ent for ent in self.entities if ent['method'] in methods]
+        
+        return entities
+    
+    def get_entity_counts(self, methods: List[str] = ['all'], top_k: int = -1) -> Dict[str, int]:
+        entity_src_dict = defaultdict(list)
+        entities = self.get_entities(methods=methods)
+        for ent_obj in entities:
+            entity_src_dict[ent_obj['method']].append(ent_obj['category'])
+        entity_dict = {}
+        for src, ents in entity_src_dict.items():
+            if top_k > 0:
+                entity_dict[src] = Counter(ents).most_common(top_k)
+            else:
+                entity_dict[src] = Counter(ents).most_common()
+        return entity_dict
+
 
 
 class Date:
