@@ -119,8 +119,18 @@ def bio_detail(source: str, text_id: str):
         # Basic Info
         basic = bio.get_basic_stats()
         # Named Entities
-        entities = [(ent["surfaceForm"], ent["category"]) for ent in bio.get_entities()]
-        entity_dict = bio.get_entity_counts()
+        entity_dict = {}
+        entity_count = 0
+        valid_labels = ["PER", "LOC", "ORG", "MISC"]
+        for ent in bio.get_entities():
+            entity_count += 1
+            if ent["category"] in valid_labels:
+                if ent["method"] in entity_dict:
+                    entity_dict[ent["method"]].append((ent["surfaceForm"], ent["category"]))
+                else:
+                    entity_dict[ent["method"]] = [(ent["surfaceForm"], ent["category"])]
+            
+        entity_categories_dict = bio.get_entity_counts()
 
         stats_dict = {
             "text_id": bio.text_id,
@@ -128,13 +138,13 @@ def bio_detail(source: str, text_id: str):
             "sentences": basic['sentences'],
             "total_tokens": len(bio.tokenization),
             "total_sentences": len(bio.morpho_syntax),
-            "total_entities": len(entities),
+            "total_entities": entity_count,
             "total_timexp": len(bio.time_expressions),
             "top_verbs": basic['top_verbs'],
             "top_nouns":  basic['top_nouns'],
             "top_adjs":  basic['top_adjs'],
-            "entity_dict": entity_dict,
-            "entities": entities
+            "entity_cats": entity_categories_dict,
+            "entities": entity_dict
         }
 
         return render_template("biography_detail.html", stats=stats_dict)

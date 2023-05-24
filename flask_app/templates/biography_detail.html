@@ -55,7 +55,9 @@
             <div class="card-body">
               <h4 class="card-title">Entities</h4>
               <br>
-              {% for src, ent_list in stats.entity_dict.items() %}
+
+              
+              {% for src, ent_list in stats.entity_cats.items() %}
               <h5 class="card-title">Labeler: {{ src }}</h5>
               <table class="table table-striped">
                 <thead>
@@ -76,26 +78,40 @@
                 </tbody>
               </table>
               {% endfor %}
-              
-              <table class="table table-striped">
-                <thead>
-                  <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">Entity</th>
-                    <th scope="col">Category</th>
-                  </tr>
-                </thead>
-                <tbody>
-                    {% for ent in stats.entities %}
-                    <tr>
-                        <th scope="row">{{ loop.index }}</th>
-                        <td>{{ ent[0] }}</td>
-                        <td>{{ ent[1] }}</td>
-                    </tr>
-                  {% endfor %}
-                </tbody>
-              </table>
             </div>
+        </div>
+
+
+        <div class="container">
+          <div class="row">
+            {% for method, method_entities in stats.entities.items() %}
+
+              <div class="card mt-5 w-50 border-primary">
+                <div class="card-body">
+                  <h4 class="card-title">Entities {{method}}</h4>
+                  <br>
+                  <table class="table table-striped">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Entity</th>
+                        <th scope="col">Category</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {% for (entity, cat) in method_entities %}
+                        <tr>
+                            <th scope="row">{{ loop.index }}</th>
+                            <td>{{ entity }}</td>
+                            <td>{{ cat }}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                  </table>
+                </div>
+            </div>
+            {% endfor %}
+          </div>
         </div>
 		
 	</div>
