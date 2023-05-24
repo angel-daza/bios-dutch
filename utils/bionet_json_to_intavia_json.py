@@ -1,23 +1,38 @@
 import json, os
-from typing import Dict, Any, List
+from typing import Dict, Any, List, TypeVar
 from dataclasses import dataclass, asdict
 from collections import defaultdict
 from classes import IntaviaToken
 
+# START MONGO IN MAC: mongod --config /usr/local/etc/mongod.conf
+# START MONGO IN UBUNTU: sudo systemctl start mongod
+# https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/
+import pymongo
+from pymongo import MongoClient
+MongoCollection = TypeVar("MongoCollection")
 
-def main():
-    convert_to_intavia(bionet_filepath=f"data/seed_data/AllBios.jsonl", output_path=f"flask_app/backend_data/intavia_json")
+COLLECTION_NAME = f"bionet_intavia"
+DB_NAME = "biographies"
 
-
-def convert_to_intavia(bionet_filepath: str, output_path: str):
-    metadata_keys = ['id_person', 'version', 'source', 'name', 'partition', 'birth_pl', 'birth_tm', 'baptism_pl', 'baptism_tm', 'death_pl', 'death_tm', 'funeral_pl', 'funeral_tm', 
+metadata_keys = ['id_person', 'version', 'source', 'name', 'partition', 'birth_pl', 'birth_tm', 'baptism_pl', 'baptism_tm', 'death_pl', 'death_tm', 'funeral_pl', 'funeral_tm', 
                             'marriage_pl', 'marriage_tm', 'gender', 'category', 'father', 'mother', 'partner', 'religion', 'educations', 'faiths', 'occupations', 'residences']
-    nlp_keys = ['text_clean', 'text_original', 'text_tokens', 'text_token_objects', 'text_sentences', 'text_entities', 'text_timex']
+nlp_keys = ['text_clean', 'text_original', 'text_tokens', 'text_token_objects', 'text_sentences', 'text_entities', 'text_timex']
 
-    sources = ['bioport', 'raa', 'rkdartists', 'dvn', 'vdaa', 'weyerman', 'bwsa', 'bwsa_archives', 'dbnl', 'nnbw', 'rijksmuseum', 
-                       'pdc', 'blnp', 'knaw', 'wikipedia', 'nbwv', 'schilderkunst', 'portraits', 'glasius', 'schouburg', 
-                       'smoelenboek', 'na', 'bwn', 'IAV_MISC-biographie', 'jews', 'bwg', 'bwn_1780tot1830', 'elias']
-    
+sources = ['bioport', 'raa', 'rkdartists', 'dvn', 'vdaa', 'weyerman', 'bwsa', 'bwsa_archives', 'dbnl', 'nnbw', 'rijksmuseum', 
+                    'pdc', 'blnp', 'knaw', 'wikipedia', 'nbwv', 'schilderkunst', 'portraits', 'glasius', 'schouburg', 
+                    'smoelenboek', 'na', 'bwn', 'IAV_MISC-biographie', 'jews', 'bwg', 'bwn_1780tot1830', 'elias']
+
+
+def main(output_mode: str):
+    if output_mode == "mongo":
+        convert_to_intavia_mongo(bionet_filepath=f"data/seed_data/AllBios.jsonl")
+    elif output_mode == "files":
+        convert_to_intavia_files(bionet_filepath=f"data/seed_data/AllBios.jsonl", output_path=f"flask_app/backend_data/intavia_json")
+    else:
+        raise NotImplementedError
+
+
+def convert_to_intavia_files(bionet_filepath: str, output_path: str):
     print(f"Generating InTaVia files for {sources}")
     for src in sources: os.makedirs(f"{output_path}/{src}", exist_ok=True)
 
@@ -44,6 +59,29 @@ def convert_to_intavia(bionet_filepath: str, output_path: str):
                 doc['data']['time_expressions'] = legacy_timex_mapper(nlp_instance.get('text_timex', []), "heideltime")
             # Write the Output File
             json.dump(doc, open(intavia_output_file, "w"), indent=2, ensure_ascii=False)
+
+
+def convert_to_intavia_mongo(bionet_filepath: str):
+    client = MongoClient("mongodb://localhost:27017/")
+    ORIGIN_DF = bionet_filepath # This has EVERY BIOGRAPHY
+    
+    db = client[DB_NAME]
+    bionet_collection = db[COLLECTION_NAME]
+
+    # Save data into Mongo if it doesn't exist or if we wish to Override the complete Collection with new Data ...
+    if bionet_collection.count_documents({}) == 0:
+        print("Creating Collection in Database ...")
+        transfer_json_to_mongo(ORIGIN_DF, bionet_collection)
+    else:
+        override_db = input(f"Database already exists. Are you sure you want to override it [yes,NO]?  ") 
+        if override_db.lower() == "yes":
+            print(f"Replacing it with the new data from {ORIGIN_DF} ...")
+            db.drop_collection(bionet_collection)
+            transfer_json_to_mongo(ORIGIN_DF, bionet_collection)     
+    
+    # --- Do Analysis directly on the MongoDB ---
+    print(f"MongoDB has {bionet_collection.count_documents({})} items in Collection: {COLLECTION_NAME}. DataBase: {DB_NAME}")
+
 
 def get_basic_doc_schema(text_id: str, text: str, basic_nlp_processor: str):
     json_doc = {
@@ -130,6 +168,46 @@ def nlp_token2json_token(nlp_token: Dict[str, Any]):
     )
 
 
+ ##### Mongo DB Auxiliary Functions #####
+def load_json_data(filepath):
+    with open(filepath) as f:
+        for line in f:
+            yield json.loads(line)
+
+def insert_to_mongo(items: list, collection: MongoCollection):
+    if isinstance(items, list):
+        collection.insert_many(items) 
+    collection.create_index([('ID', pymongo.ASCENDING), ('Version', pymongo.ASCENDING)])
+
+def collection_is_empty(coll):
+    return coll.count() == 0
+
+
+def transfer_json_to_mongo(filepath: str, collection: MongoCollection) -> bool:
+    total_data = 0
+    with open(filepath) as f:
+        for i, line in enumerate(f):
+            nlp_instance = json.loads(line)
+            text_id = nlp_instance["id_composed"]
+            print(f"{i} --> {text_id}")
+            if nlp_instance['source'] == "foo": continue
+            # Create basic document in the new format
+            doc = get_basic_doc_schema(text_id, nlp_instance["text_clean"], "stanza_nl")
+            # Add Metadata
+            for key in metadata_keys:
+                doc[key] = nlp_instance[key]
+            # Add NLP Related Info
+            if len(nlp_instance['text_token_objects']) > 0:
+                doc['data']['tokenization'] = nlp_instance["text_tokens"]
+                doc['data']['morpho_syntax'] = nlp_to_dict(nlp_instance)
+                doc['data']['entities'] = legacy_entity_mapper(nlp_instance.get('text_entities', []), "stanza_nl")
+                doc['data']['time_expressions'] = legacy_timex_mapper(nlp_instance.get('text_timex', []), "heideltime")
+            collection.insert_one(doc)
+            total_data += 1
+    print(f"Successfully inserted {total_data} rows from JSON file")
+    return True
+
 
 if __name__ == "__main__":
-    main()
+    output_mode = "mongo" # "mongo" | "files"
+    main(output_mode)
