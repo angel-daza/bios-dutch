@@ -209,5 +209,5 @@ def transfer_json_to_mongo(filepath: str, collection: MongoCollection) -> bool:
 
 
 if __name__ == "__main__":
-    output_mode = "mongo" # "mongo" | "files"
+    output_mode = "files" # "mongo" | "files"
     main(output_mode)
