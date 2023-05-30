@@ -83,10 +83,10 @@
 
 
         <div class="container">
-          <div class="row">
+          <div class="row w-100">
             {% for method, method_entities in stats.entities.items() %}
 
-              <div class="card mt-5 w-50 border-primary">
+              <div class="card mt-5 w-25 border-primary">
                 <div class="card-body">
                   <h4 class="card-title">Entities {{method}}</h4>
                   <br>
@@ -114,6 +114,17 @@
           </div>
         </div>
 		
+      {% for title, eval in evaluation.items() %}
+        <div class="card mt-5 w-100 border-primary">
+          <div class="card-body">
+            <h4 class="card-title">{{title}}</h4>
+            {% for metric, val in eval.items() %}
+              <h5 class="card-title"> <b>{{metric}}:</b> {{val}}</h5>
+              {% endfor %}
+          </div>
+      </div>
+      {% endfor %}
+
 	</div>
 </section>
 

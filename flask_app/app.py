@@ -10,6 +10,7 @@ from classes_mirror import AnnoFlask, IntaviaDocument
 import pandas as pd
 from flask_paginate import Pagination, get_page_args
 from collections import defaultdict
+import evaluation as eval_module
 
 
 GLOBAL_QUERY = []
@@ -124,11 +125,11 @@ def bio_detail(source: str, text_id: str):
         valid_labels = ["PER", "LOC", "ORG", "MISC"]
         for ent in bio.get_entities():
             entity_count += 1
-            if ent["category"] in valid_labels:
-                if ent["method"] in entity_dict:
-                    entity_dict[ent["method"]].append((ent["surfaceForm"], ent["category"]))
+            if ent.category in valid_labels:
+                if ent.method in entity_dict:
+                    entity_dict[ent.method].append((ent.surfaceForm, ent.category))
                 else:
-                    entity_dict[ent["method"]] = [(ent["surfaceForm"], ent["category"])]
+                    entity_dict[ent.method] = [(ent.surfaceForm, ent.category)]
             
         entity_categories_dict = bio.get_entity_counts()
 
@@ -147,7 +148,21 @@ def bio_detail(source: str, text_id: str):
             "entities": entity_dict
         }
 
-        return render_template("biography_detail.html", stats=stats_dict)
+        methods = bio.get_available_methods("entities")
+        evals = {}
+        if "human_gold" in methods:
+            gold_method = "human_gold"
+            for hypo_method in methods:
+                reference_entities, predicted_entities = [], []
+                for ent in bio.entities:
+                    if ent.category in valid_labels:
+                        if ent.method == gold_method:
+                            reference_entities.append(ent)
+                        if ent.method == hypo_method: # replace for elif after debugging
+                            predicted_entities.append(ent)
+                evals[f"{gold_method}_vs_{hypo_method}"] = eval_module.evaluate_ner(reference_entities, predicted_entities)
+
+        return render_template("biography_detail.html", stats=stats_dict, evaluation=evals)
 
 if __name__ == '__main__':
     FLASK_ROOT = "flask_app/backend_data"

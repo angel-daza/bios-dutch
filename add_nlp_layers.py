@@ -105,7 +105,9 @@ def add_flair_ner(intavia_obj, flair_model, flair_tagger, flair_splitter) -> Dic
                         'category': ner_obj['entity'], 
                         'surfaceForm': ner_obj['text'], 
                         'locationStart': doc_offset + ner_obj['start'], 
-                        'locationEnd': doc_offset + ner_obj['end'], 
+                        'locationEnd': doc_offset + ner_obj['end'],
+                        'tokenStart': ner_obj['start_token'],
+                        'tokenEnd': ner_obj['end_token'],
                         'method': f'{flair_model}_{flair_version}'
                         })
             doc_offset += len(flair_output['sentences'][i]) + 1

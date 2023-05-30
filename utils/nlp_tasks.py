@@ -40,8 +40,8 @@ def run_flair(text: Union[str, List[str]], tagger: SequenceTagger, splitter: Seg
             tagged_ents = []
             for entity in sentence.get_spans('ner'):
                 token_indices = [t.idx for t in entity]
-                tagged_ents.append({"text": entity.text, "start": entity.start_position, "end": entity.end_position, "start_token": token_indices[0]-1, "end_token": token_indices[-1],
-                                    "entity": entity.get_label("ner").value, "score": entity.get_label("ner").score})
+                tagged_ents.append({"text": entity.text, "start": entity.start_position, "end": entity.end_position, "entity": entity.get_label("ner").value, 
+                                "start_token": token_indices[0]-1, "end_token": token_indices[-1], "score": entity.get_label("ner").score})
             ner.append(tagged_ents)
             texts.append(sentence.to_tokenized_string())
         return {'tagged_ner':  ner, 'sentences': texts}
@@ -51,6 +51,8 @@ def run_flair(text: Union[str, List[str]], tagger: SequenceTagger, splitter: Seg
         tagged_ents = []
         for entity in sentence.get_spans('ner'):
             token_indices = [t.idx for t in entity]
+            # tagged_ents.append({"text": entity.text, "start": entity.start_position, "end": entity.end_position, "entity": entity.get_label("ner").value, 
+            #                     "start_token": token_indices[0]-1, "end_token": token_indices[-1], "score": entity.get_label("ner").score})
             tagged_ents.append({"text": entity.text, "start": entity.start_position, "end": entity.end_position, "entity": entity.get_label("ner").value, 
                                 "start_token": token_indices[0]-1, "end_token": token_indices[-1], "score": entity.get_label("ner").score})
         return {'tagged_ner': [tagged_ents], 'sentences': [sentence.to_tokenized_string()]}

@@ -29,9 +29,19 @@ class IntaviaEntity:
     category: str
     locationStart: int
     locationEnd: int
-    tokenStart: int
-    tokenEnd: int
-    method: str
+    tokenStart: int = None
+    tokenEnd: int = None
+    method: str = None
+
+    def __eq__(self, other: object) -> bool:
+        if type(other) is type(self):
+            return self.locationStart == other.locationStart and self.surfaceForm == other.surfaceForm and self.category == other.category
+        else:
+            return False
+    
+    def __hash__(self) -> int:
+        return hash((self.locationStart, self.surfaceForm, self.category))
+
 
 @dataclass
 class IntaviaTimex:
@@ -62,8 +72,8 @@ class IntaviaDocument:
             tokens = [IntaviaToken(**word_obj) for word_obj in sent_obj['words']]
             sentence = IntaviaSentence(sent_obj['paragraph'], sent_obj['sentence'], sent_obj['text'], tokens)
             self.morpho_syntax.append(sentence)
-        self.entities: List[Dict[str, Any]] = intavia_dict['data'].get('entities', [])
-        self.time_expressions: List[Dict[str, Any]] = intavia_dict['data'].get('time_expressions', [])
+        self.entities: List[IntaviaEntity] = [IntaviaEntity(**ent) for ent in intavia_dict['data'].get('entities', [])]
+        self.time_expressions: List[IntaviaTimex] = [IntaviaTimex(**tim) for tim in intavia_dict['data'].get('time_expressions', [])]
         self.semantic_roles: List[Dict[str, Any]] = intavia_dict['data'].get('semantic_roles', [])
     
     def get_basic_stats(self) -> Dict[str, Any]:
@@ -86,7 +96,17 @@ class IntaviaDocument:
             "top_adjs": Counter(adjs).most_common(10),
         }
     
-    def get_entities(self, methods: List[str] = ['all']) -> List[Dict[str, Any]]:
+    def get_available_methods(self, task_layer: str) -> List[str]:
+        if task_layer == "entities":
+            return list(set([ent.method for ent in self.entities]))
+        elif task_layer == "time_expressions":
+            return list(set([ent.method for ent in self.time_expressions]))
+        elif task_layer == "semantic_roles":
+            return list(set([ent['method'] for ent in self.semantic_roles]))
+        else:
+            raise ValueError(f"NLP Layer {task_layer} is not a valid layer in the IntaviaDocument") 
+
+    def get_entities(self, methods: List[str] = ['all']) -> List[IntaviaEntity]:
         """_summary_
         Args:
             methods (List[str], optional): Filter entitities according to one or more <methods> | 'all' (everything in the list) | 'intersection' (only entities produced by models listed in <methods>)
@@ -99,7 +119,7 @@ class IntaviaDocument:
         elif 'intersection' in methods:
             raise NotImplementedError
         else:
-            entities = [ent for ent in self.entities if ent['method'] in methods]
+            entities = [ent for ent in self.entities if ent.method in methods]
         
         return entities
     
@@ -107,7 +127,7 @@ class IntaviaDocument:
         entity_src_dict = defaultdict(list)
         entities = self.get_entities(methods=methods)
         for ent_obj in entities:
-            entity_src_dict[ent_obj['method']].append(ent_obj['category'])
+            entity_src_dict[ent_obj.method].append(ent_obj.category)
         entity_dict = {}
         for src, ents in entity_src_dict.items():
             if top_k > 0:
@@ -115,6 +135,9 @@ class IntaviaDocument:
             else:
                 entity_dict[src] = Counter(ents).most_common()
         return entity_dict
+
+    def get_entities_IOB(self) -> List[str]:
+        raise NotImplementedError
 
 
 
