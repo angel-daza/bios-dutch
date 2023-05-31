@@ -56,28 +56,31 @@
               <h4 class="card-title">Entities</h4>
               <br>
 
-              
-              {% for src, ent_list in stats.entity_cats.items() %}
-              <h5 class="card-title">Labeler: {{ src }}</h5>
               <table class="table table-striped">
-                <thead>
-                  <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">Category</th>
-                    <th scope="col">Total</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {% for cat, freq in ent_list %}
-                    <tr>
-                        <th scope="row">{{ loop.index }}</th>
-                        <td>{{ cat }}</td>
-                        <td>{{ freq }}</td>
-                    </tr>
-                  {% endfor %}
-                </tbody>
+                <h5 class="card-title">Model-Label Matrix</h5>
+                {% for row in stats.entity_cats %}
+                  {% if loop.index == 1 %}
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        {% for col in row %}
+                          <th scope="col">{{ col }}</th>
+                        {% endfor %}
+                      </tr>
+                    </thead>
+                  {% else %}
+                    <tbody>
+
+                      <tr>
+                        <th scope="row">{{ loop.index - 1 }}</th>
+                        {% for col in row %}
+                          <td>{{ col }}</td>
+                        {% endfor %}
+                      </tr> 
+                    </tbody>
+                {% endif %}
+                {% endfor %}
               </table>
-              {% endfor %}
             </div>
         </div>
 
@@ -125,7 +128,7 @@
       </div>
       {% endfor %}
 
-      {% for title, eval in evaluation["per_label"].items() %}
+      <!-- {% for title, eval in evaluation["per_label"].items() %}
         <div class="card mt-5 w-100 border-primary">
           <div class="card-body">
             <div class="card-header"> {{ title }} </div>
@@ -137,7 +140,34 @@
               {% endfor %}
           </div>
       </div>
-      {% endfor %}
+      {% endfor %} -->
+
+      {% for model_pair, eval_table in evaluation["per_label_tables"].items() %}
+      <div class="card mt-5 w-25 border-primary">
+        <div class="card-body">
+          <div class="card-header"> {{ model_pair }} </div>
+          <table class="table table-striped">
+            <tr> 
+              <th scope="row"> Label </th>
+              <th scope="row"> Precision </th>
+              <th scope="row"> Recall </th>
+              <th scope="row"> F1 </th>
+              <th scope="row"> Support </th>
+            </tr>
+
+            {% for row in eval_table %}
+            <tr>
+              <td scope="row"> {{ row[0] }}</td>
+              <td scope="row"> {{ row[1] }}</td>
+              <td scope="row"> {{ row[2] }}</td>
+              <td scope="row"> {{ row[3] }}</td>
+              <td scope="row"> {{ row[4] }}</td>
+            </tr>
+            {% endfor %}
+          </table>
+        </div>
+    </div>
+    {% endfor %}
 
       <div>
         {% for method, anno in html_annotated.items() %}

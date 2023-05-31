@@ -18,8 +18,8 @@ class IntaviaToken:
     HEAD: int
     DEPREL: str
     DEPS: str
-    MISC: List[str] = None
-    FEATS: Dict[str, str] = None
+    MISC: Dict[str, str] = None
+    FEATS: List[str] = None
 
 
 @dataclass
@@ -81,7 +81,7 @@ class IntaviaDocument:
     def __init__(self, intavia_dict: Dict[str, Any]):
         self.text_id: str = intavia_dict['text_id']
         self.text:str = intavia_dict['data']['text']
-        self.tokenization: str = intavia_dict['data']['text']
+        self.tokenization: str = intavia_dict['data']['tokenization']
         self.morpho_syntax: List[IntaviaSentence] = [] 
         for sent_obj in intavia_dict['data']['morpho_syntax']:
             tokens = [IntaviaToken(**word_obj) for word_obj in sent_obj['words']]
@@ -124,7 +124,7 @@ class IntaviaDocument:
     def get_entities(self, methods: List[str] = ['all']) -> List[IntaviaEntity]:
         """_summary_
         Args:
-            methods (List[str], optional): Filter entitities according to one or more <methods> | 'all' (everything in the list) | 'intersection' (only entities produced by models listed in <methods>)
+            methods (List[str], optional): Filter entitities according to one or more <methods> | 'all' (everything in the list) | 'intersection' (only entities produced by all models listed in <methods>)
         Returns:
             List[Dict[str, Any]]: The requested list of Entities. Each entitiy is a dictionary with keys: 
                 ["ID", "surfaceForm", "category", "locationStart", "locationEnd", "tokenStart", "tokenEnd", "method"]
@@ -150,6 +150,80 @@ class IntaviaDocument:
             else:
                 entity_dict[src] = Counter(ents).most_common()
         return entity_dict
+
+    def get_entity_category_matrix(self):
+        all_methods, all_labels = set(), set()
+        entity_info = defaultdict(list)
+        for ent in self.entities:
+            all_labels.add(ent.category)
+            all_methods.add(ent.method)
+            entity_info[f"{ent.method}_{ent.category}"].append(ent)
+        
+        
+        sorted_found_labels = sorted(all_labels)
+        sorted_found_methods = sorted(all_methods)
+        entity_table = [["Category"] + [method for method in sorted_found_methods]]
+        for label in sorted_found_labels:
+            row = [label]
+            for method in sorted_found_methods:
+                key = f"{method}_{label}"
+                if key in entity_info:
+                    ent_counts = len(entity_info[key])
+                    row.append(ent_counts)
+                else:
+                    row.append(0)
+            entity_table.append(row)
+        
+        return entity_table
+
+
+    def get_confidence_entities(self, mode: str = "spans") -> List[Dict]:
+        " mode = 'spans' or 'ents' "
+       
+        if mode not in ["spans", "ents"]:
+            raise NotImplementedError
+
+        entity_agreement = []
+        methods = self.get_available_methods("entities")
+        max_agreement = len(methods)
+        
+        if max_agreement == 0: return []
+
+        if mode == "spans":
+            charstart2token, charend2token = {}, {}
+            for sent in self.morpho_syntax:
+                for token in sent.words:
+                    charstart2token[token.MISC['StartChar']] = token.ID
+                    charend2token[token.MISC['EndChar']] = token.ID
+
+        for ent_obj in self.entities:
+            key = f"{ent_obj.surfaceForm}_{ent_obj.locationStart}_{ent_obj.locationEnd}_{ent_obj.category}"
+            entity_agreement.append(key)
+        entity_agreement = Counter(entity_agreement).most_common()
+        entity_confidence_spans = []
+        for ent_key, freq in entity_agreement:
+            agreement_ratio = freq/max_agreement
+            text, start, end, label = ent_key.split("_")
+            if agreement_ratio <= 0.3:
+                confidence_cat = "LOW"
+            elif 0.3 < agreement_ratio <= 0.5:
+                confidence_cat = "WEAK"
+            elif 0.5 < agreement_ratio <= 0.75:
+                confidence_cat = "MEDIUM"
+            elif 0.75 < agreement_ratio <= 0.89:
+                confidence_cat = "HIGH"
+            else:
+                confidence_cat = "VERY HIGH"
+            
+            if mode == "spans":
+                token_start = charstart2token.get(int(start))
+                token_end = charend2token.get(int(end))
+                if type(token_start) == int and type(token_end) == int:
+                    entity_confidence_spans.append({"start_token": int(token_start), "end_token": int(token_end) + 1, "label": label})
+            else:
+                entity_confidence_spans.append({"text": text, "start": int(start), "end": int(end), "label": confidence_cat})
+        
+        return entity_confidence_spans
 
     def get_entities_IOB(self) -> List[str]:
         raise NotImplementedError

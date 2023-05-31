@@ -42,18 +42,18 @@ def evaluate_ner(reference: List[IntaviaEntity], hypothesis: List[IntaviaEntity]
     f1 = 0 if prec+rec == 0 else 2*(prec*rec)/(prec+rec)
 
     return {
-        "reference": [(ent.locationStart, ent.surfaceForm, ent.category) for ent in sorted_ref],
-        "hypothesis": [(ent.locationStart, ent.surfaceForm, ent.category) for ent in sorted_hyp],
-        "full_match": [(ent.locationStart, ent.surfaceForm, ent.category) for ent in full_match],
-        "span_error": [(ent1.surfaceForm, ent2.surfaceForm) for (ent1, ent2) in span_error],
-        "label_error": [(ent1.surfaceForm, ent1.category, ent2.surfaceForm, ent2.category) for (ent1, ent2) in label_error],
-        "error": [(f"{ent.locationStart}_{ent.locationEnd}", ent.surfaceForm, ent.category) for ent in hallucination],
-        "missed": [(ent.locationStart, ent.surfaceForm, ent.category) for ent in missed],
-        "support": len(reference),
-        "true_positives": tp,
-        "false_positives": fp,
-        "false_negatives": fn,
-        "precision": "{:.2f}".format(prec),
-        "recall": "{:.2f}".format(rec),
-        "f1": "{:.2f}".format(f1)
+        # "reference": [(ent.locationStart, ent.surfaceForm, ent.category) for ent in sorted_ref],
+        # "hypothesis": [(ent.locationStart, ent.surfaceForm, ent.category) for ent in sorted_hyp],
+        "Full Match": [(ent.locationStart, ent.surfaceForm, ent.category) for ent in full_match],
+        "Span Errors": [(ent1.surfaceForm, ent2.surfaceForm) for (ent1, ent2) in span_error],
+        "Label Errors": [(ent1.surfaceForm, ent1.category, ent2.surfaceForm, ent2.category) for (ent1, ent2) in label_error],
+        "Full Errors (not in Gold)": [(f"{ent.locationStart}_{ent.locationEnd}", ent.surfaceForm, ent.category) for ent in hallucination],
+        "Missed Entities": [(ent.locationStart, ent.surfaceForm, ent.category) for ent in missed],
+        "Frequency": len(reference),
+        "True Positives": tp,
+        "False Positives": fp,
+        "False Negatives": fn,
+        "Precision": "{:.1f}".format(prec),
+        "Recall": "{:.1f}".format(rec),
+        "F1": "{:.1f}".format(f1)
     }

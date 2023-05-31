@@ -20,12 +20,21 @@ ALL_LABEL_COLORS = {
     "LOC": "#e9bbbb", 
     "ORG": "#4285F4", 
     "MISC": "#aeb8e3", 
+    "GPE": "#e1e3ae",
     "DEATH_YEAR": "#e1e3ae", 
     "BIRTH_PLACE": "#e3aeda", 
     "DEATH_PLACE": "#aee3e0",
     "BIRTH_PLACE": "#bab6b1",
     "DEATH_PLACE": "#c497df",
     "OCCUPATION_NLP": "#e3cdae"
+}
+
+CONFIDENCE_COLORS = {
+    "LOW": "#EBB9B5", 
+    "WEAK": "#F2F1AE",
+    "MEDIUM": "#A8E8A2",
+    "HIGH":  "#c3e9bb",
+    "VERY HIGH": "#2B7424",
 }
 
 def process_annotations(annos: List[Dict]):
@@ -116,6 +125,8 @@ def bio_detail(source: str, text_id: str):
     global FLASK_ROOT
     global ALL_LABEL_COLORS
     display_labels = list(ALL_LABEL_COLORS.keys())
+    global CONFIDENCE_COLORS
+    display_conf_labels = list(CONFIDENCE_COLORS.keys())
     
     if request.method == "GET":
         bio_info = json.load(open(f"{FLASK_ROOT}/intavia_json/{source}/{text_id}.json"))
@@ -134,7 +145,8 @@ def bio_detail(source: str, text_id: str):
                 else:
                     entity_dict[ent.method] = [(ent.surfaceForm, ent.category)]
             
-        entity_categories_dict = bio.get_entity_counts()
+        # entity_categories_dict = bio.get_entity_counts()
+        entity_cat_matrix = bio.get_entity_category_matrix()
 
         stats_dict = {
             "text_id": bio.text_id,
@@ -147,7 +159,7 @@ def bio_detail(source: str, text_id: str):
             "top_verbs": basic['top_verbs'],
             "top_nouns":  basic['top_nouns'],
             "top_adjs":  basic['top_adjs'],
-            "entity_cats": entity_categories_dict,
+            "entity_cats": entity_cat_matrix,
             "entities": entity_dict
         }
 
@@ -155,37 +167,50 @@ def bio_detail(source: str, text_id: str):
         methods = bio.get_available_methods("entities")
         evals, html_annotated = {}, {}
         eval_per_label = {}
-        if "human_gold" in methods:
-            gold_method = "human_gold"
-            for hypo_method in methods:
-                reference_entities: List[IntaviaEntity] = [] 
-                predicted_entities: List[IntaviaEntity] = []
-                for ent in bio.entities:
-                    if ent.category in valid_labels:
-                        if ent.method == gold_method:
-                            reference_entities.append(ent)
-                        if ent.method == hypo_method: # replace for elif after debugging
-                            predicted_entities.append(ent)
+        per_label_tables = defaultdict(list)
+        
+        gold_method = "human_gold"
+        for hypo_method in methods:
+            reference_entities: List[IntaviaEntity] = [] 
+            predicted_entities: List[IntaviaEntity] = []
+            for ent in bio.entities:
+                if ent.category in valid_labels:
+                    if ent.method == gold_method:
+                        reference_entities.append(ent)
+                    if ent.method == hypo_method: # replace for elif after debugging
+                        predicted_entities.append(ent)
+            # Evaluate if there are HUMAN ANNOTATIONS
+            if "human_gold" in methods:
                 eval_per_label[f"{gold_method}_vs_{hypo_method}"] = {}
-                # evals[f"{gold_method}_vs_{hypo_method}"]["TOTAL"] = eval_module.evaluate_ner(reference_entities, predicted_entities)
                 for lbl in valid_labels:
                     lbl_gold = [x for x in reference_entities if x.category == lbl]
                     lbl_pred = [x for x in predicted_entities if x.category == lbl]
                     lbl_metrics = eval_module.evaluate_ner(lbl_gold, lbl_pred)
-                    if  lbl_metrics["support"] > 0:
-                        eval_per_label[f"{gold_method}_vs_{hypo_method}"][lbl] = {"P": lbl_metrics["precision"], "R": lbl_metrics["recall"], "F1": lbl_metrics["f1"], "support": lbl_metrics["support"]}
+                    if  lbl_metrics["Frequency"] > 0:
+                        eval_per_label[f"{gold_method}_vs_{hypo_method}"][lbl] = {"P": lbl_metrics["Precision"], "R": lbl_metrics["Recall"], "F1": lbl_metrics["F1"], "support": lbl_metrics["Frequency"]}
+                        per_label_tables[f"{gold_method}_vs_{hypo_method}"].append([lbl, lbl_metrics["Precision"], lbl_metrics["Recall"], lbl_metrics["F1"], lbl_metrics["Frequency"]])
+                    else:
+                        per_label_tables[f"{gold_method}_vs_{hypo_method}"].append([lbl, "-", "-", "-", "-"])
                 tot_metrics = eval_module.evaluate_ner(reference_entities, predicted_entities)
                 evals[f"{gold_method}_vs_{hypo_method}"] = tot_metrics
-                if  tot_metrics["support"] > 0:
-                    eval_per_label[f"{gold_method}_vs_{hypo_method}"]["TOTAL"] = {"P": tot_metrics["precision"], "R": tot_metrics["recall"], "F1": tot_metrics["f1"], "support": tot_metrics["support"]}
-                # Display Spans with Displacy
-                display_obj = {"text": bio.text, "ents": [ent.get_displacy_format() for ent in predicted_entities]}
-                html_annotated[hypo_method] = displacy.render(display_obj, style="ent", manual=True, page=False, options={"ents": display_labels, "colors": ALL_LABEL_COLORS})
+                if  tot_metrics["Frequency"] > 0:
+                    eval_per_label[f"{gold_method}_vs_{hypo_method}"]["TOTAL"] = {"P": tot_metrics["Precision"], "R": tot_metrics["Recall"], "F1": tot_metrics["F1"], "support": tot_metrics["Frequency"]}
+                    per_label_tables[f"{gold_method}_vs_{hypo_method}"].append(["TOTAL", tot_metrics["Precision"], tot_metrics["Recall"], tot_metrics["F1"], tot_metrics["Frequency"]])
 
-        ## Code for showing annotated spans in the same text
-        # html = displacy.render(anno._asdict(), style="ent", manual=True, page=False, options={"ents": display_labels, "colors": colors})
+            # Display Spans with Displacy
+            display_obj = {"text": bio.text, "ents": [ent.get_displacy_format() for ent in predicted_entities]}
+            html_annotated[hypo_method] = displacy.render(display_obj, style="ent", manual=True, page=False, options={"ents": display_labels, "colors": ALL_LABEL_COLORS})
 
-        return render_template("biography_detail.html", stats=stats_dict, evaluation={"total": evals, "per_label": eval_per_label}, html_annotated=html_annotated)
+        # Display CONFIDENCE Spans with Displacy
+        confidence_list = bio.get_confidence_entities(mode="spans")
+        display_obj = {"text": bio.text, "tokens": bio.tokenization, "spans": confidence_list}
+        html_annotated["entity_overlap"] = displacy.render(display_obj, style="span", manual=True, page=False, options={"ents": display_labels, "colors": ALL_LABEL_COLORS})
+        
+        confidence_list = bio.get_confidence_entities(mode="ents")
+        display_obj = {"text": bio.text, "ents": confidence_list}
+        html_annotated["entity_heatmap"] = displacy.render(display_obj, style="ent", manual=True, page=False, options={"ents": display_conf_labels, "colors": CONFIDENCE_COLORS})
+
+        return render_template("biography_detail.html", stats=stats_dict, evaluation={"total": evals, "per_label": eval_per_label, "per_label_tables": per_label_tables}, html_annotated=html_annotated)
 
 
 if __name__ == '__main__':
