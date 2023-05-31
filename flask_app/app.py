@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, redirect
+from flask import Flask, render_template, request, redirect, jsonify
 import spacy
 from spacy import displacy
 from typing import Counter, List, Dict, NamedTuple
@@ -6,7 +6,7 @@ import json
 import re
 import random
 import virtual_pandas_dataset as my_data
-from classes_mirror import AnnoFlask, IntaviaDocument
+from classes_mirror import IntaviaEntity, IntaviaDocument
 import pandas as pd
 from flask_paginate import Pagination, get_page_args
 from collections import defaultdict
@@ -16,10 +16,10 @@ import evaluation as eval_module
 GLOBAL_QUERY = []
 
 ALL_LABEL_COLORS = {
-    "BIO_PER": "#c3e9bb", 
-    "BIRTH_DATE": "#e9bbbb", 
-    "DEATH_DATE": "#4285F4", 
-    "BIRTH_YEAR": "#aeb8e3", 
+    "PER": "#c3e9bb", 
+    "LOC": "#e9bbbb", 
+    "ORG": "#4285F4", 
+    "MISC": "#aeb8e3", 
     "DEATH_YEAR": "#e1e3ae", 
     "BIRTH_PLACE": "#e3aeda", 
     "DEATH_PLACE": "#aee3e0",
@@ -114,6 +114,9 @@ def bio_viewer():
 @app.route("/bio_detail/<source>/<text_id>", methods=['GET'])
 def bio_detail(source: str, text_id: str):
     global FLASK_ROOT
+    global ALL_LABEL_COLORS
+    display_labels = list(ALL_LABEL_COLORS.keys())
+    
     if request.method == "GET":
         bio_info = json.load(open(f"{FLASK_ROOT}/intavia_json/{source}/{text_id}.json"))
         bio = IntaviaDocument(bio_info)
@@ -148,21 +151,42 @@ def bio_detail(source: str, text_id: str):
             "entities": entity_dict
         }
 
+        ## Code for Showing Evaluation Detail
         methods = bio.get_available_methods("entities")
-        evals = {}
+        evals, html_annotated = {}, {}
+        eval_per_label = {}
         if "human_gold" in methods:
             gold_method = "human_gold"
             for hypo_method in methods:
-                reference_entities, predicted_entities = [], []
+                reference_entities: List[IntaviaEntity] = [] 
+                predicted_entities: List[IntaviaEntity] = []
                 for ent in bio.entities:
                     if ent.category in valid_labels:
                         if ent.method == gold_method:
                             reference_entities.append(ent)
                         if ent.method == hypo_method: # replace for elif after debugging
                             predicted_entities.append(ent)
-                evals[f"{gold_method}_vs_{hypo_method}"] = eval_module.evaluate_ner(reference_entities, predicted_entities)
+                eval_per_label[f"{gold_method}_vs_{hypo_method}"] = {}
+                # evals[f"{gold_method}_vs_{hypo_method}"]["TOTAL"] = eval_module.evaluate_ner(reference_entities, predicted_entities)
+                for lbl in valid_labels:
+                    lbl_gold = [x for x in reference_entities if x.category == lbl]
+                    lbl_pred = [x for x in predicted_entities if x.category == lbl]
+                    lbl_metrics = eval_module.evaluate_ner(lbl_gold, lbl_pred)
+                    if  lbl_metrics["support"] > 0:
+                        eval_per_label[f"{gold_method}_vs_{hypo_method}"][lbl] = {"P": lbl_metrics["precision"], "R": lbl_metrics["recall"], "F1": lbl_metrics["f1"], "support": lbl_metrics["support"]}
+                tot_metrics = eval_module.evaluate_ner(reference_entities, predicted_entities)
+                evals[f"{gold_method}_vs_{hypo_method}"] = tot_metrics
+                if  tot_metrics["support"] > 0:
+                    eval_per_label[f"{gold_method}_vs_{hypo_method}"]["TOTAL"] = {"P": tot_metrics["precision"], "R": tot_metrics["recall"], "F1": tot_metrics["f1"], "support": tot_metrics["support"]}
+                # Display Spans with Displacy
+                display_obj = {"text": bio.text, "ents": [ent.get_displacy_format() for ent in predicted_entities]}
+                html_annotated[hypo_method] = displacy.render(display_obj, style="ent", manual=True, page=False, options={"ents": display_labels, "colors": ALL_LABEL_COLORS})
 
-        return render_template("biography_detail.html", stats=stats_dict, evaluation=evals)
+        ## Code for showing annotated spans in the same text
+        # html = displacy.render(anno._asdict(), style="ent", manual=True, page=False, options={"ents": display_labels, "colors": colors})
+
+        return render_template("biography_detail.html", stats=stats_dict, evaluation={"total": evals, "per_label": eval_per_label}, html_annotated=html_annotated)
+
 
 if __name__ == '__main__':
     FLASK_ROOT = "flask_app/backend_data"

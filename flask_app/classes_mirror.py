@@ -42,6 +42,21 @@ class IntaviaEntity:
     def __hash__(self) -> int:
         return hash((self.locationStart, self.surfaceForm, self.category))
 
+    def span_match(self, other: object):
+        if type(other) is type(self):
+            return self.locationStart == other.locationStart and self.locationEnd == other.locationEnd
+        else:
+            return False
+    # same Span Start OR same Span End
+    def span_partial_match(self, other: object):
+        if type(other) is type(self):
+            return self.locationStart == other.locationStart or self.locationEnd == other.locationEnd
+        else:
+            return False
+    
+    def get_displacy_format(self):
+        return {"start": self.locationStart, "end": self.locationEnd, "label": self.category}
+
 
 @dataclass
 class IntaviaTimex:
@@ -795,18 +810,3 @@ class EnrichedText(NamedTuple):
     person_mentions: str # joins a List[str] into a long str that can be searched by pandas
     place_mentions: str # joins a List[str] into a long str that can be searched by pandas
     text: str
-
-
-# This class is used for Showing everything related to Spans In Text
-class AnnoFlask(NamedTuple):
-    title: str
-    person_id: str
-    text_id: str
-    source: str
-    text: str
-    ents: List[Dict]
-    birthday: List[str]
-    death: List[str]
-    birth_place: List[str]
-    death_place: List[str]
-    occupations: List[str]

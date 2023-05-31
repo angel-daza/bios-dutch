@@ -114,7 +114,7 @@
           </div>
         </div>
 		
-      {% for title, eval in evaluation.items() %}
+      {% for title, eval in evaluation["total"].items() %}
         <div class="card mt-5 w-100 border-primary">
           <div class="card-body">
             <h4 class="card-title">{{title}}</h4>
@@ -124,6 +124,32 @@
           </div>
       </div>
       {% endfor %}
+
+      {% for title, eval in evaluation["per_label"].items() %}
+        <div class="card mt-5 w-100 border-primary">
+          <div class="card-body">
+            <div class="card-header"> {{ title }} </div>
+            {% for label, lbl_eval in eval.items() %}
+            <h4 class="card-title"> {{ label }}</h4>
+            {% for metric, val in lbl_eval.items() %}
+              <h5 class="card-title"> <b>{{metric}}:</b> {{val}}</h5>
+              {% endfor %}
+              {% endfor %}
+          </div>
+      </div>
+      {% endfor %}
+
+      <div>
+        {% for method, anno in html_annotated.items() %}
+  
+        <div class="card mt-5 border-primary">
+          <div class="card-header"> {{ method }} </div>
+          <div class="card-body">
+            <div class="mt-2"> {{ anno | safe }} </div>
+          </div>
+          </div>
+        {% endfor %}
+      </div>
 
 	</div>
 </section>
