@@ -6,7 +6,7 @@ logger = logging.getLogger(__name__)
 
 from flair.data import Sentence
 from flair.models import SequenceTagger
-from flair.tokenization import SegtokSentenceSplitter
+from flair.splitter import SegtokSentenceSplitter
 
 def flair2bio(flair_obj: Dict) -> List[List[str]]:
     sent_entities = flair_obj["tagged_ner"]
@@ -35,7 +35,7 @@ def run_flair(text: Union[str, List[str]], tagger: SequenceTagger, splitter: Seg
     if splitter:
         sentences = splitter.split(text)
         tagger.predict(sentences)
-        texts, ner = [], []
+        texts, ner, offsets = [], [], []
         for sentence in sentences:
             tagged_ents = []
             for entity in sentence.get_spans('ner'):
@@ -44,7 +44,8 @@ def run_flair(text: Union[str, List[str]], tagger: SequenceTagger, splitter: Seg
                                 "start_token": token_indices[0]-1, "end_token": token_indices[-1], "score": entity.get_label("ner").score})
             ner.append(tagged_ents)
             texts.append(sentence.to_tokenized_string())
-        return {'tagged_ner':  ner, 'sentences': texts}
+            offsets.append(len(sentence.to_plain_string()))
+        return {'tagged_ner':  ner, 'sentences': texts, 'offsets': offsets}
     else:
         sentence = Sentence(text)
         tagger.predict(sentence)
@@ -53,7 +54,7 @@ def run_flair(text: Union[str, List[str]], tagger: SequenceTagger, splitter: Seg
             token_indices = [t.idx for t in entity]
             tagged_ents.append({"text": entity.text, "start": entity.start_position, "end": entity.end_position, "entity": entity.get_label("ner").value, 
                                 "start_token": token_indices[0]-1, "end_token": token_indices[-1], "score": entity.get_label("ner").score})
-        return {'tagged_ner': [tagged_ents], 'sentences': [sentence.to_tokenized_string()]}
+        return {'tagged_ner': [tagged_ents], 'sentences': [sentence.to_tokenized_string()], 'offsets': [0]}
 
 
 def run_bert_ner(bert_nlp, stanza_nlp, text):

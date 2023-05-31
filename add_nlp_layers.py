@@ -6,7 +6,7 @@ import argparse
 from flair import __version__ as flair_version
 from flair.data import Sentence
 from flair.models import SequenceTagger
-from flair.tokenization import SegtokSentenceSplitter
+from flair.splitter import SegtokSentenceSplitter
 
 from pymongo import MongoClient
 COLLECTION_NAME = f"bionet_intavia"
@@ -19,21 +19,23 @@ def main_bionet_intavia_files(nlp_config: Dict[str, Any]):
     for src_path in glob.glob(JSON_BASEPATH):
         for filepath in glob.glob(f"{src_path}/*.json"):
             print(filepath)
-            intavia_obj = json.load(open(filepath))
-            included_models = set([ent['method'] for ent in intavia_obj['data'].get('entities', [])])
-            if "gold_ner" in nlp_config and "human_gold" not in included_models:
-                gold_obj = nlp_config["gold_ner"]["annotations_human"].get(intavia_obj['text_id'])
-                if gold_obj:
-                    print("Adding Gold")
-                    intavia_obj = add_bionet_gold_ner(intavia_obj, gold_obj)
-            if "flair_ner" in nlp_config and not any(["flair" in m for m in included_models]):
-                print("Adding Flair")
-                flair_model = nlp_config["flair_ner"]["flair_model"]
-                flair_tagger = nlp_config["flair_ner"]["flair_tagger"]
-                flair_splitter = nlp_config["flair_ner"]["flair_splitter"]
-                intavia_obj = add_flair_ner(intavia_obj, flair_model, flair_tagger, flair_splitter)
-            # Override File with New Object
-            json.dump(intavia_obj, open(filepath, "w"), indent=2, ensure_ascii=False)
+            if "10587702_05" in filepath:
+                intavia_obj = json.load(open(filepath))
+                included_models = set([ent['method'] for ent in intavia_obj['data'].get('entities', [])])
+                if "gold_ner" in nlp_config and "human_gold" not in included_models:
+                    gold_obj = nlp_config["gold_ner"]["annotations_human"].get(intavia_obj['text_id'])
+                    if gold_obj:
+                        print("Adding Gold")
+                        intavia_obj = add_bionet_gold_ner(intavia_obj, gold_obj)
+                if "flair_ner" in nlp_config and not any(["flair" in m for m in included_models]):
+                    print("Adding Flair")
+                    flair_model = nlp_config["flair_ner"]["flair_model"]
+                    flair_tagger = nlp_config["flair_ner"]["flair_tagger"]
+                    flair_splitter = nlp_config["flair_ner"]["flair_splitter"]
+                    intavia_obj = add_flair_ner(intavia_obj, flair_model, flair_tagger, flair_splitter)
+                # Override File with New Object
+                json.dump(intavia_obj, open(filepath, "w"), indent=2, ensure_ascii=False)
+                exit()
 
 
 def main_bionet_intavia_mongo(nlp_config: Dict[str, Any]):
@@ -98,7 +100,7 @@ def add_flair_ner(intavia_obj, flair_model, flair_tagger, flair_splitter) -> Dic
 
     def _add_json_flair_ner(flair_output: Dict[str, Any]) -> List[Dict[str, Any]]:
         ner_all = []
-        doc_offset = 0
+        doc_offset, doc_tok_offset = 0, 0
         for i, sent_objs in enumerate(flair_output['tagged_ner']):
             for ner_obj in sent_objs:
                 ner_all.append({'ID': f"flair_{i}", 
@@ -106,11 +108,12 @@ def add_flair_ner(intavia_obj, flair_model, flair_tagger, flair_splitter) -> Dic
                         'surfaceForm': ner_obj['text'], 
                         'locationStart': doc_offset + ner_obj['start'], 
                         'locationEnd': doc_offset + ner_obj['end'],
-                        'tokenStart': ner_obj['start_token'],
-                        'tokenEnd': ner_obj['end_token'],
+                        # 'tokenStart': doc_tok_offset + ner_obj['start_token'], # These tokens ar enot the same as the MAIN TOKENS so why calculate them?
+                        # 'tokenEnd': doc_tok_offset + ner_obj['end_token'],
                         'method': f'{flair_model}_{flair_version}'
                         })
-            doc_offset += len(flair_output['sentences'][i]) + 1
+            doc_tok_offset += len(flair_output['sentences'][i].split())
+            doc_offset += flair_output['offsets'][i] + 1
         return ner_all
 
     flair_nlp = run_flair(intavia_obj["data"]["text"], flair_tagger, flair_splitter)
