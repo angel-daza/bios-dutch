@@ -16,26 +16,26 @@ DB_NAME = "biographies"
 def main_bionet_intavia_files(nlp_config: Dict[str, Any]):
     JSON_BASEPATH = "flask_app/backend_data/intavia_json/*"
     # Iterate through all files and add the Requested <apply_tasks>
+    ctr = 0
     for src_path in glob.glob(JSON_BASEPATH):
         for filepath in glob.glob(f"{src_path}/*.json"):
-            print(filepath)
-            if "10587702_05" in filepath:
-                intavia_obj = json.load(open(filepath))
-                included_models = set([ent['method'] for ent in intavia_obj['data'].get('entities', [])])
-                if "gold_ner" in nlp_config and "human_gold" not in included_models:
-                    gold_obj = nlp_config["gold_ner"]["annotations_human"].get(intavia_obj['text_id'])
-                    if gold_obj:
-                        print("Adding Gold")
-                        intavia_obj = add_bionet_gold_ner(intavia_obj, gold_obj)
-                if "flair_ner" in nlp_config and not any(["flair" in m for m in included_models]):
-                    print("Adding Flair")
-                    flair_model = nlp_config["flair_ner"]["flair_model"]
-                    flair_tagger = nlp_config["flair_ner"]["flair_tagger"]
-                    flair_splitter = nlp_config["flair_ner"]["flair_splitter"]
-                    intavia_obj = add_flair_ner(intavia_obj, flair_model, flair_tagger, flair_splitter)
-                # Override File with New Object
-                json.dump(intavia_obj, open(filepath, "w"), indent=2, ensure_ascii=False)
-                exit()
+            print(f"[{ctr}] {filepath}")
+            intavia_obj = json.load(open(filepath))
+            included_models = set([ent['method'] for ent in intavia_obj['data'].get('entities', [])])
+            if "gold_ner" in nlp_config and "human_gold" not in included_models:
+                gold_obj = nlp_config["gold_ner"]["annotations_human"].get(intavia_obj['text_id'])
+                if gold_obj:
+                    print("Adding Gold")
+                    intavia_obj = add_bionet_gold_ner(intavia_obj, gold_obj)
+            if "flair_ner" in nlp_config and not any(["flair" in m for m in included_models]):
+                print("Adding Flair")
+                flair_model = nlp_config["flair_ner"]["flair_model"]
+                flair_tagger = nlp_config["flair_ner"]["flair_tagger"]
+                flair_splitter = nlp_config["flair_ner"]["flair_splitter"]
+                intavia_obj = add_flair_ner(intavia_obj, flair_model, flair_tagger, flair_splitter)
+            # Override File with New Object
+            json.dump(intavia_obj, open(filepath, "w"), indent=2, ensure_ascii=False)
+            ctr += 1
 
 
 def main_bionet_intavia_mongo(nlp_config: Dict[str, Any]):

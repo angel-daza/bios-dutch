@@ -1,4 +1,4 @@
-import json, os
+import json, os, sys
 from typing import Dict, Any, List, TypeVar
 from dataclasses import dataclass, asdict
 from collections import defaultdict
@@ -209,5 +209,9 @@ def transfer_json_to_mongo(filepath: str, collection: MongoCollection) -> bool:
 
 
 if __name__ == "__main__":
-    output_mode = "files" # "mongo" | "files"
-    main(output_mode)
+
+    if len(sys.argv) != 2:
+        print("You need to provide one argument: 'mongo' or 'files'")
+    else:
+        output_mode = sys.argv[1] # "mongo" | "files"
+        main(output_mode)
