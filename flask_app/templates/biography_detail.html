@@ -1,61 +1,79 @@
 {% extends "base.html" %}
 {% block content %}
 
+<script type="text/javascript" src="{{ url_for('static', filename='scripts/google_charts.js') }}"></script>
+<link rel="stylesheet" href="{{ url_for('static', filename='style/text_card.css') }}">
+
+
 <section>
 	<div class="container-fluid" id="main-home">
 		<div class="row justify-content-center">
 			<h1>Biography Detail</h1>
 		</div>
 
-        <div> 
-            <div class="card mt-5 w-100 border-primary">
-                <div class="card-body">
-                  <h4 class="card-title">{{stats.name}}</h4>
-                  <h5 class="card-title">{{stats.text_id}}</h5>
-                </div>
-            </div>
-            <div class="card mt-5 w-25 border-primary">
-                <div class="card-body">
-                  <h4 class="card-title">General Statistics</h4>
-                  <table class="table table-striped">
-                    <tbody>
-                      <tr>
-                        <th scope="row">Sentences:</th>
-                        <td>{{ stats.total_sentences }}</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">Tokens:</th>
-                        <td>{{ stats.total_tokens }}</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">Entities:</th>
-                        <td>{{ stats.total_entities }}</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">Time Expressions:</th>
-                        <td>{{ stats.total_timexp }}</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-            </div>
-        </div>
+    <!-- Upper Bar with the Name, ID, and General Text Properties -->
+    <div class="card mt-5 w-100 border-primary">
+      <div class="card-body">
+        <h4 class="card-title">{{stats.name}}</h4>
+        <h5 class="card-title" name="bioId" id="bioId">{{stats.text_id}}</h5>
+        <h5 class="card-title" name="bioSrc" id="bioSrc">{{stats.source}}</h5>
+      </div>
+    </div>
 
-        <div class="card mt-5 w-100 border-primary">
+    <!-- This container should have a Grid with the General Stats -->
+    <div class="container-fluid"> 
+      <div class="row ">
+        <!-- General Counts -->
+        <div class="col">
+          <div class="card mt-5 w-100 border-primary">
             <div class="card-body">
-              <h4 class="card-title">Sentences</h4>
-              <br>
-              {% for sentence in stats.sentences %}
-                <p class="card-text"> {{sentence}} </p>
-              {% endfor %}
+              <h4 class="card-title">General Statistics</h4>
+              <table class="table table-striped">
+                <tbody>
+                  <tr>
+                    <th scope="row">Sentences:</th>
+                    <td>{{ stats.total_sentences }}</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Tokens:</th>
+                    <td>{{ stats.total_tokens }}</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Entities:</th>
+                    <td>{{ stats.total_entities }}</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Time Expressions:</th>
+                    <td>{{ stats.total_timexp }}</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
         </div>
+        </div>
+        <!-- Pie Chart Total Entities -->
+        <div class="col">
+          <div class="card mt-5 w-100 border-primary">
+            <div class="card-body justify-content-center">
+              <div id="chart_tot_entities" class="w-100"></div>
+            </div>
+          </div>
+        </div>
 
-        <div class="card mt-5 w-25 border-primary">
+        <div class="col">
+          <div class="card mt-5 w-100 border-primary">
+            <div class="card-body justify-content-center">
+              <div id="chart_all_models_count" class="w-100"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Entity-Label Matrix -->
+        <div class="col">   
+          <div class="card mt-5 w-100 border-primary">
             <div class="card-body">
               <h4 class="card-title">Entities</h4>
               <br>
-
               <table class="table table-striped">
                 <h5 class="card-title">Model-Label Matrix</h5>
                 {% for row in stats.entity_cats %}
@@ -70,7 +88,6 @@
                     </thead>
                   {% else %}
                     <tbody>
-
                       <tr>
                         <th scope="row">{{ loop.index - 1 }}</th>
                         {% for col in row %}
@@ -82,51 +99,71 @@
                 {% endfor %}
               </table>
             </div>
-        </div>
-
-
-        <div class="container">
-          <div class="row w-100">
-            {% for method, method_entities in stats.entities.items() %}
-
-              <div class="card mt-5 w-25 border-primary">
-                <div class="card-body">
-                  <h4 class="card-title">Entities {{method}}</h4>
-                  <br>
-                  <table class="table table-striped">
-                    <thead>
-                      <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">Entity</th>
-                        <th scope="col">Category</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {% for (entity, cat) in method_entities %}
-                        <tr>
-                            <th scope="row">{{ loop.index }}</th>
-                            <td>{{ entity }}</td>
-                            <td>{{ cat }}</td>
-                        </tr>
-                        {% endfor %}
-                    </tbody>
-                  </table>
-                </div>
-            </div>
-            {% endfor %}
           </div>
         </div>
+      </div> 
+    </div>
+
+    <!-- This has a list of the Sentecized Text -->
+    <div class="card mt-5 border-primary">
+      <div class="card-header"> <b> Sentences </b> </div>
+      <div class="card-body">
+        <div class="scrollable">
+          {% for sentence in stats.sentences %}
+            <p class="card-text"> {{sentence}} </p>
+          {% endfor %}
+        </div>    
+      </div>
+    </div>
+
+    <!-- Listing of Entities Per-model to check in Parallel -->
+    <div class="container-fluid">
+      <div class="row">
+        {% for method, method_entities in stats.entities.items() %}
+        <div class="column ml-5">
+          <div class="card mt-5 w-100 border-primary">
+            <div class="card-header">Entities {{method}}</div>
+            <div class="card-body">
+              <div class="scrollable">
+                <table class="table table-striped">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">Entity</th>
+                      <th scope="col">Category</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {% for (entity, cat) in method_entities %}
+                      <tr>
+                          <th scope="row">{{ loop.index }}</th>
+                          <td>{{ entity }}</td>
+                          <td>{{ cat }}</td>
+                      </tr>
+                      {% endfor %}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        {% endfor %} 
+      </div>
+    </div>
 		
+    <!-- Model vs Model List of Cards -->
+    <div class="container-fluid">
       {% for title, eval in evaluation["total"].items() %}
         <div class="card mt-5 w-100 border-primary">
-          <div class="card-body">
-            <h4 class="card-title">{{title}}</h4>
-            {% for metric, val in eval.items() %}
-              <h5 class="card-title"> <b>{{metric}}:</b> {{val}}</h5>
-              {% endfor %}
-          </div>
-      </div>
+            <div class="card-header">{{title}}</div>
+            <div class="card-body">
+              {% for metric, val in eval.items() %}
+                <h5 class="card-title"> <b>{{metric}}:</b> {{val}}</h5>
+                {% endfor %}
+            </div>
+        </div>
       {% endfor %}
+    </div>
 
       <!-- {% for title, eval in evaluation["per_label"].items() %}
         <div class="card mt-5 w-100 border-primary">
@@ -141,45 +178,55 @@
           </div>
       </div>
       {% endfor %} -->
+    
 
-      {% for model_pair, eval_table in evaluation["per_label_tables"].items() %}
-      <div class="card mt-5 w-25 border-primary">
-        <div class="card-body">
-          <div class="card-header"> {{ model_pair }} </div>
-          <table class="table table-striped">
-            <tr> 
-              <th scope="row"> Label </th>
-              <th scope="row"> Precision </th>
-              <th scope="row"> Recall </th>
-              <th scope="row"> F1 </th>
-              <th scope="row"> Support </th>
-            </tr>
+      <!-- Evaluation Tables of All Models Available -->
+    <div class="container-fluid">
+      <div class="row">
+        {% for model_pair, eval_table in evaluation["per_label_tables"].items() %}
+          <div class="card mt-5 ml-5 w-25 border-primary">
+            <div class="card-body">
+              <div class="card-header"> {{ model_pair }} </div>
+              <table class="table table-striped">
+                <tr> 
+                  <th scope="row"> Label </th>
+                  <th scope="row"> Precision </th>
+                  <th scope="row"> Recall </th>
+                  <th scope="row"> F1 </th>
+                  <th scope="row"> Support </th>
+                </tr>
 
-            {% for row in eval_table %}
-            <tr>
-              <td scope="row"> {{ row[0] }}</td>
-              <td scope="row"> {{ row[1] }}</td>
-              <td scope="row"> {{ row[2] }}</td>
-              <td scope="row"> {{ row[3] }}</td>
-              <td scope="row"> {{ row[4] }}</td>
-            </tr>
-            {% endfor %}
-          </table>
-        </div>
+                {% for row in eval_table %}
+                <tr>
+                  <td scope="row"> {{ row[0] }}</td>
+                  <td scope="row"> {{ row[1] }}</td>
+                  <td scope="row"> {{ row[2] }}</td>
+                  <td scope="row"> {{ row[3] }}</td>
+                  <td scope="row"> {{ row[4] }}</td>
+                </tr>
+                {% endfor %}
+              </table>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
     </div>
-    {% endfor %}
 
+    <!-- Span Visualization and Heatmap (Using DisplaCy) -->
+    <div class="container-fluid">
       <div>
         {% for method, anno in html_annotated.items() %}
   
         <div class="card mt-5 border-primary">
           <div class="card-header"> {{ method }} </div>
           <div class="card-body">
-            <div class="mt-2"> {{ anno | safe }} </div>
+            <div class="mt-2 scrollable"> {{ anno | safe }} </div>
           </div>
           </div>
         {% endfor %}
       </div>
+    </div>
+      
 
 	</div>
 </section>

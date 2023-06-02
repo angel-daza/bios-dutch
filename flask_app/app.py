@@ -75,6 +75,59 @@ def home():
     return render_template('home.html')
 
 
+@app.route("/bio_detail_google_charts/<source>/<text_id>")
+def bio_detail_google_charts(source: str, text_id: str):
+
+    bio_info = json.load(open(f"{FLASK_ROOT}/intavia_json/{source}/{text_id}.json"))
+    bio = IntaviaDocument(bio_info)
+
+    # General Entity Frequency Chart
+    entity_counts = bio.get_entity_counts()
+    cols = [
+        {"id":"", "label":"Type",      "pattern":"",  "type":"string"},
+        {"id":"", "label":"Frequency", "pattern":"",  "type":"number"}
+    ]
+    all_labels = defaultdict(int)
+    for method, entity_list in entity_counts.items():
+        for label, freq in entity_list:
+            all_labels[label] += freq
+    rows = []
+    for label, freq in all_labels.items():
+        rows.append({"c": [{"v":label, "f":None}, {"v": freq,"f":None}]})
+    entity_freq_table = {"cols": cols, "rows": rows}
+
+    # All Models Entity Distribution (Histogram of Label-Method Matrix)
+    entity_cat_matrix = bio.get_entity_category_matrix() # [['Category', 'flair/ner-dutch-large_0.12.2', 'stanza_nl'], ['LOC', 14, 10], ['MISC', 18, 21], ['ORG', 10, 4], ['PER', 26, 28]]
+    print(entity_cat_matrix)
+    model_entity_dist = []
+    if len(entity_cat_matrix) > 0:
+        cols = [{"id":"", "label": "Category",      "pattern": "",  "type": "string"}]
+        for model_name in entity_cat_matrix[0][1:]:
+            cols.append({"id":"", "label":model_name, "pattern":"",  "type":"number"})
+        rows = []
+        for row in entity_cat_matrix[1:]:
+            row_elem = {"c": []}
+            for elem in row:
+                row_elem["c"].append({"v":elem, "f": None})
+            rows.append(row_elem)
+        model_entity_dist = {"cols": cols, "rows": rows}
+    #  var data_bar = google.visualization.arrayToDataTable([
+    #     ['Genre', 'Fantasy & Sci Fi', 'Romance', 'Mystery/Crime', 'General',
+    #      'Western', 'Literature', { role: 'annotation' } ],
+    #     ['2010', 10, 24, 20, 32, 18, 5, ''],
+    #     ['2020', 16, 22, 23, 30, 16, 9, ''],
+    #     ['2030', 28, 19, 29, 30, 12, 13, '']
+    #   ]);
+
+
+    response = {
+        "entity_freq_table": entity_freq_table,
+        "entity_freq_title": "Distribution of Entities",
+        "model_entity_dist": model_entity_dist
+    }
+
+    return jsonify(response)
+
 @app.route("/bio_viewer", methods=['GET','POST'])
 def bio_viewer():
     global biographies_search
@@ -151,6 +204,7 @@ def bio_detail(source: str, text_id: str):
         stats_dict = {
             "text_id": bio.text_id,
             "name": bio_info['name'],
+            "source": bio_info['source'],
             "sentences": basic['sentences'],
             "total_tokens": len(bio.tokenization),
             "total_sentences": len(bio.morpho_syntax),
