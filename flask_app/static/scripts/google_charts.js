@@ -31,15 +31,16 @@
     chart.draw(data, options);
 
 
-    // ##########################################  STACKED BAR CHART  ##########################################
-    var data_bar = new google.visualization.DataTable(JSON.stringify(objectData["model_entity_dist"]));
+    // ##########################################  [STACKED?] BAR CHART  ##########################################
+
+    var data_bar = google.visualization.arrayToDataTable(objectData["model_entity_dist"]);
 
       var options_bar = {
         width: 600,
         height: 400,
         legend: { position: 'top', maxLines: 3 },
         bar: { groupWidth: '75%' },
-        //isStacked: true
+        // isStacked: true
       };
 
       // Instantiate and draw our chart, passing in some options.

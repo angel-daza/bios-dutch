@@ -62,6 +62,7 @@ def create_flask_searchable_people_data(people: List[MetadataComplete], dataset_
 
             # Extract NLP Info Directly Tied to Individual Texts...
             person_ments, place_ments = [], []
+            tot_entities = []
             texts_with_content = []
             text_ids, xml_paths = [], []
             xml_paths_with_text = []
@@ -71,6 +72,7 @@ def create_flask_searchable_people_data(people: List[MetadataComplete], dataset_
                 text_ids.append(tid)
                 xml_paths.append(f"{BIONET_XML_FLASK_PATH}/{tid}.xml")
                 if len(text.strip().strip("\n")) > 0:
+                    tot_entities.append(len(p.texts_entities[i]))
                     person_ments.append("|".join([x.lower() for x in p.getEntityMentions(entity_label='PER', text_ix=i)]))
                     place_ments.append("|".join([x.lower() for x in p.getEntityMentions(entity_label='LOC', text_ix=i)]))
                     texts_with_content.append(text)
@@ -93,6 +95,7 @@ def create_flask_searchable_people_data(people: List[MetadataComplete], dataset_
             save_fields['search_person_mentions'] = "|".join(person_ments)
             save_fields['search_place_mentions'] = "|".join(place_ments)
             save_fields['texts'] = texts_with_content
+            save_fields['display_tot_entities'] = tot_entities
             fout.write(json.dumps(save_fields)+'\n')
 
 

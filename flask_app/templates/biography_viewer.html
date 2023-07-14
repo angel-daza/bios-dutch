@@ -11,6 +11,8 @@
 			<h1>BiographyNet Visualizer</h1>
 		</div>
 
+
+		<!-- SEARCH AREA -->
 		<div class="search_container">
 			<form method="POST">
 
@@ -95,9 +97,6 @@
 						</select>
 
 				</div>
-					
-
-					
 
 				<div class="row justify-content-center">
 					<button type="submit" class="btn btn-primary w-50">Search</button>
@@ -109,6 +108,7 @@
 			{{pagination.links}}
 		</div>
 
+		<!-- Results AREA -->
 		<div class="row query_results">
 			{% if n_rows > 0 %}
 				Your Query Returned {{n_rows}} rows.
@@ -118,8 +118,9 @@
 				No results found! Perhaps the search was too constrained...
 			{% else %}
 				{% for person_bios in biographies %}
+				<!-- Person CARD -->
 				<div class="card mt-5 w-100 border-primary">
-					<div class="card-header"> {{ person_bios.display_id }} </div>
+					<div class="card-header"> ID: {{ person_bios.display_id }} </div>
 						<div class="card-body">
 							<h5 class="card-title">{{ person_bios.display_person_name | safe }}</h5>
 
@@ -224,6 +225,7 @@
 									  </button>
 									  [<a href="{{person_bios.original_files_with_text[loop.index - 1]}}" target="_blank">xml</a>]
 									  [<a href="/bio_detail/{{person_bios.sources_with_text[loop.index - 1]}}/{{person_bios.text_ids_with_text[loop.index - 1]}}">nlp</a>]
+									  Total Entities = {{ person_bios.display_tot_entities[loop.index - 1] }} 
 									</h5>
 								  </div>
 							  

@@ -153,7 +153,7 @@
 		
     <!-- Model vs Model List of Cards -->
     <div class="container-fluid">
-      {% for title, eval in evaluation["total"].items() %}
+      {% for title, eval in evaluation["eval"].items() %}
         <div class="card mt-5 w-100 border-primary">
             <div class="card-header">{{title}}</div>
             <div class="card-body">
@@ -165,20 +165,35 @@
       {% endfor %}
     </div>
 
-      <!-- {% for title, eval in evaluation["per_label"].items() %}
-        <div class="card mt-5 w-100 border-primary">
-          <div class="card-body">
-            <div class="card-header"> {{ title }} </div>
-            {% for label, lbl_eval in eval.items() %}
-            <h4 class="card-title"> {{ label }}</h4>
-            {% for metric, val in lbl_eval.items() %}
-              <h5 class="card-title"> <b>{{metric}}:</b> {{val}}</h5>
-              {% endfor %}
-              {% endfor %}
+     <!-- Evaluation Tables of All Models Available -->
+     <div class="container-fluid">
+      <div class="row">
+        {% for label_name, eval_table in evaluation["summary_label_model"].items() %}
+          <div class="card mt-5 ml-5 w-25 border-primary">
+            <div class="card-body">
+              <div class="card-header"> {{ label_name }} </div>
+              <table class="table table-striped">
+                <tr> 
+                  <th scope="row"> Model </th>
+                  <th scope="row"> Precision </th>
+                  <th scope="row"> Recall </th>
+                  <th scope="row"> F1 </th>
+                </tr>
+
+                {% for row in eval_table %}
+                <tr>
+                  <td scope="row"> {{ row["M"] }}</td>
+                  <td scope="row"> {{ row["P"] }}</td>
+                  <td scope="row"> {{ row["R"] }}</td>
+                  <td scope="row"> {{ row["F1"] }}</td>
+                </tr>
+                {% endfor %}
+              </table>
+            </div>
           </div>
+        {% endfor %}
       </div>
-      {% endfor %} -->
-    
+    </div>
 
       <!-- Evaluation Tables of All Models Available -->
     <div class="container-fluid">
@@ -220,7 +235,7 @@
         <div class="card mt-5 border-primary">
           <div class="card-header"> {{ method }} </div>
           <div class="card-body">
-            <div class="mt-2 scrollable"> {{ anno | safe }} </div>
+            <div class="mt-2 ml-5 mr-5 scrollable"> {{ anno | safe }} </div>
           </div>
           </div>
         {% endfor %}

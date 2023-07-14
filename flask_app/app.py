@@ -1,5 +1,7 @@
+# Google Charts: https://developers.google.com/chart/interactive/docs/gallery/combochart
 from flask import Flask, render_template, request, redirect, jsonify
 import spacy
+import statistics
 from spacy import displacy
 from typing import Counter, List, Dict, NamedTuple
 import json
@@ -65,6 +67,7 @@ def process_query_string(query: str, search_type: List[str]) -> List[str]:
     return queried_ids, queried_names
 
 
+
 app = Flask(__name__)
 render_docs = []
 biographies_unified = []
@@ -99,31 +102,11 @@ def bio_detail_google_charts(source: str, text_id: str):
     # All Models Entity Distribution (Histogram of Label-Method Matrix)
     entity_cat_matrix = bio.get_entity_category_matrix() # [['Category', 'flair/ner-dutch-large_0.12.2', 'stanza_nl'], ['LOC', 14, 10], ['MISC', 18, 21], ['ORG', 10, 4], ['PER', 26, 28]]
     print(entity_cat_matrix)
-    model_entity_dist = []
-    if len(entity_cat_matrix) > 0:
-        cols = [{"id":"", "label": "Category",      "pattern": "",  "type": "string"}]
-        for model_name in entity_cat_matrix[0][1:]:
-            cols.append({"id":"", "label":model_name, "pattern":"",  "type":"number"})
-        rows = []
-        for row in entity_cat_matrix[1:]:
-            row_elem = {"c": []}
-            for elem in row:
-                row_elem["c"].append({"v":elem, "f": None})
-            rows.append(row_elem)
-        model_entity_dist = {"cols": cols, "rows": rows}
-    #  var data_bar = google.visualization.arrayToDataTable([
-    #     ['Genre', 'Fantasy & Sci Fi', 'Romance', 'Mystery/Crime', 'General',
-    #      'Western', 'Literature', { role: 'annotation' } ],
-    #     ['2010', 10, 24, 20, 32, 18, 5, ''],
-    #     ['2020', 16, 22, 23, 30, 16, 9, ''],
-    #     ['2030', 28, 19, 29, 30, 12, 13, '']
-    #   ]);
-
 
     response = {
         "entity_freq_table": entity_freq_table,
         "entity_freq_title": "Distribution of Entities",
-        "model_entity_dist": model_entity_dist
+        "model_entity_dist": entity_cat_matrix
     }
 
     return jsonify(response)
@@ -219,7 +202,7 @@ def bio_detail(source: str, text_id: str):
 
         ## Code for Showing Evaluation Detail
         methods = bio.get_available_methods("entities")
-        evals, html_annotated = {}, {}
+        systems_eval, html_annotated = {}, {}
         eval_per_label = {}
         per_label_tables = defaultdict(list)
         
@@ -233,38 +216,38 @@ def bio_detail(source: str, text_id: str):
                         reference_entities.append(ent)
                     if ent.method == hypo_method: # replace for elif after debugging
                         predicted_entities.append(ent)
-            # Evaluate if there are HUMAN ANNOTATIONS
+            # Evaluate ONLY if there are HUMAN ANNOTATIONS
             if "human_gold" in methods:
-                eval_per_label[f"{gold_method}_vs_{hypo_method}"] = {}
-                for lbl in valid_labels:
-                    lbl_gold = [x for x in reference_entities if x.category == lbl]
-                    lbl_pred = [x for x in predicted_entities if x.category == lbl]
-                    lbl_metrics = eval_module.evaluate_ner(lbl_gold, lbl_pred)
-                    if  lbl_metrics["Frequency"] > 0:
-                        eval_per_label[f"{gold_method}_vs_{hypo_method}"][lbl] = {"P": lbl_metrics["Precision"], "R": lbl_metrics["Recall"], "F1": lbl_metrics["F1"], "support": lbl_metrics["Frequency"]}
-                        per_label_tables[f"{gold_method}_vs_{hypo_method}"].append([lbl, lbl_metrics["Precision"], lbl_metrics["Recall"], lbl_metrics["F1"], lbl_metrics["Frequency"]])
-                    else:
-                        per_label_tables[f"{gold_method}_vs_{hypo_method}"].append([lbl, "-", "-", "-", "-"])
-                tot_metrics = eval_module.evaluate_ner(reference_entities, predicted_entities)
-                evals[f"{gold_method}_vs_{hypo_method}"] = tot_metrics
-                if  tot_metrics["Frequency"] > 0:
-                    eval_per_label[f"{gold_method}_vs_{hypo_method}"]["TOTAL"] = {"P": tot_metrics["Precision"], "R": tot_metrics["Recall"], "F1": tot_metrics["F1"], "support": tot_metrics["Frequency"]}
-                    per_label_tables[f"{gold_method}_vs_{hypo_method}"].append(["TOTAL", tot_metrics["Precision"], tot_metrics["Recall"], tot_metrics["F1"], tot_metrics["Frequency"]])
+                eval_dict = eval_module.global_ner_evaluation(reference_entities, predicted_entities, valid_labels)
+                eval_per_label[f"{gold_method}_vs_{hypo_method}"] = eval_dict["per_label_dict"]
+                per_label_tables[f"{gold_method}_vs_{hypo_method}"] = eval_dict["per_label_table"]
+                systems_eval[f"{gold_method}_vs_{hypo_method}"] = eval_dict["eval_metrics"]
+
+                # Create Entity Listing with Badges if there is gold
+                # create_entity_badges(entity_dict, macro_evals)
 
             # Display Spans with Displacy
             display_obj = {"text": bio.text, "ents": [ent.get_displacy_format() for ent in predicted_entities]}
             html_annotated[hypo_method] = displacy.render(display_obj, style="ent", manual=True, page=False, options={"ents": display_labels, "colors": ALL_LABEL_COLORS})
+        
+        # Generate System Summary Table
+        summary_table = eval_module.system_label_report(eval_per_label)
+        for lbl, table in summary_table.items():
+            print("-----------", lbl, "-----------")
+            [print(t) for t in table]
 
         # Display CONFIDENCE Spans with Displacy
         confidence_list = bio.get_confidence_entities(mode="spans")
         display_obj = {"text": bio.text, "tokens": bio.tokenization, "spans": confidence_list}
         html_annotated["entity_overlap"] = displacy.render(display_obj, style="span", manual=True, page=False, options={"ents": display_labels, "colors": ALL_LABEL_COLORS})
-        
+        # Display "HeatMap"
         confidence_list = bio.get_confidence_entities(mode="ents")
         display_obj = {"text": bio.text, "ents": confidence_list}
         html_annotated["entity_heatmap"] = displacy.render(display_obj, style="ent", manual=True, page=False, options={"ents": display_conf_labels, "colors": CONFIDENCE_COLORS})
 
-        return render_template("biography_detail.html", stats=stats_dict, evaluation={"total": evals, "per_label": eval_per_label, "per_label_tables": per_label_tables}, html_annotated=html_annotated)
+        return render_template("biography_detail.html", stats=stats_dict, evaluation={"eval": systems_eval, "per_label": eval_per_label, "per_label_tables": per_label_tables,
+                                                                                      "summary_label_model": summary_table}, 
+                                                                        html_annotated=html_annotated)
 
 
 if __name__ == '__main__':

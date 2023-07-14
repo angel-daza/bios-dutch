@@ -1,6 +1,57 @@
 from typing import List, Dict, Any
 from classes_mirror import IntaviaEntity
 from seqeval.metrics import classification_report
+import statistics
+from collections import defaultdict
+
+
+def global_ner_evaluation(reference_entities: List[IntaviaEntity], predicted_entities: List[IntaviaEntity], valid_labels: List[str] = None) -> Dict[str, Any]:
+    macro_p, macro_r, macro_f, macro_freq = [], [], [], 0
+    
+    if not valid_labels:
+        valid_labels = [x.category for x in reference_entities]
+    # F1 SCORES PER LABEL
+    eval_per_label = {}
+    per_label_table = []
+    for lbl in valid_labels:
+        lbl_gold = [x for x in reference_entities if x.category == lbl]
+        lbl_pred = [x for x in predicted_entities if x.category == lbl]
+        lbl_metrics = evaluate_ner(lbl_gold, lbl_pred)
+        if  lbl_metrics["Frequency"] > 0:
+            macro_p.append(float(lbl_metrics["Precision"]))
+            macro_r.append(float(lbl_metrics["Recall"]))
+            macro_f.append(float(lbl_metrics["F1"]))
+            macro_freq += lbl_metrics["Frequency"]
+            eval_per_label[lbl] = {"P": lbl_metrics["Precision"], "R": lbl_metrics["Recall"], "F1": lbl_metrics["F1"], "support": lbl_metrics["Frequency"]}
+            per_label_table.append([lbl, lbl_metrics["Precision"], lbl_metrics["Recall"], lbl_metrics["F1"], lbl_metrics["Frequency"]])
+        else:
+            per_label_table.append([lbl, "-", "-", "-", "-"])
+    # TOTAL MACRO (Unweighted Average of Scores)
+    if  macro_freq > 0:
+        macro_p = statistics.mean(macro_p)
+        macro_r = statistics.mean(macro_r)
+        macro_f = statistics.mean(macro_f)
+        macro_metrics = {"P": "{:.1f}".format(macro_p), "R": "{:.1f}".format(macro_r), "F1": "{:.1f}".format(macro_f), "Frequency": macro_freq}
+        eval_per_label["MACRO"] = macro_metrics
+        per_label_table.append(["MACRO", macro_metrics["P"], macro_metrics["R"], macro_metrics["F1"], macro_metrics["Frequency"]])
+    # TOTAL EVAL (MICRO -> Accuracy)
+    micro_metrics = evaluate_ner(reference_entities, predicted_entities)
+    if  micro_metrics["Frequency"] > 0:
+        eval_per_label["MICRO"] = {"P": micro_metrics["Precision"], "R": micro_metrics["Recall"], "F1": micro_metrics["F1"], "support": micro_metrics["Frequency"]}
+        per_label_table.append(["MICRO", micro_metrics["Precision"], micro_metrics["Recall"], micro_metrics["F1"], micro_metrics["Frequency"]])
+
+    # FINAL REPORT DICT
+    eval_metrics = micro_metrics
+    eval_metrics["Marco_P"] = macro_metrics["P"]
+    eval_metrics["Macro_R"] = macro_metrics["R"]
+    eval_metrics["Macro_F1"] = macro_metrics["F1"]
+    
+    return {
+        "eval_metrics": eval_metrics,
+        "per_label_dict": eval_per_label,
+        "per_label_table": per_label_table
+    }
+
 
 def evaluate_ner(reference: List[IntaviaEntity], hypothesis: List[IntaviaEntity]) -> Dict[str, Any]:
     sorted_ref = sorted(reference, key = lambda ent: ent.locationStart)
@@ -57,3 +108,18 @@ def evaluate_ner(reference: List[IntaviaEntity], hypothesis: List[IntaviaEntity]
         "Recall": "{:.1f}".format(rec),
         "F1": "{:.1f}".format(f1)
     }
+
+
+def system_label_report(systems_metrics: Dict[str, Any]) -> List[List[Any]]:
+    report_table = defaultdict(list)
+    for sys_vs_sys_names, label_metrics in systems_metrics.items():
+        sys_name = sys_vs_sys_names.split("_vs_")[1]
+        for label_name, metrics in label_metrics.items():
+            if label_name not in ["MICRO", "MACRO"]:
+                report_table[label_name].append({
+                    "M": sys_name,
+                    "P": metrics["P"],
+                    "R": metrics["R"],
+                    "F1": metrics["F1"]
+                })
+    return report_table
