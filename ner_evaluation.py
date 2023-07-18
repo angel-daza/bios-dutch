@@ -1,7 +1,7 @@
 from utils.nlp_tasks import run_flair, flair2bio
 from flair.data import Sentence
 from flair.models import SequenceTagger
-from flair.tokenization import SegtokSentenceSplitter
+from flair.splitter import SegtokSentenceSplitter
 import stanza
 from utils.nlp_tasks import run_bert_ner
 
@@ -63,8 +63,6 @@ from transformers import AutoTokenizer, AutoModelForTokenClassification
     
 #     print("---------- SENTENCE-LEVEL ALLENNLP NER ----------")
 #     print(classification_report(all_bio_gold, all_bio_predicted))
-
-
 
 
 
@@ -504,31 +502,32 @@ def compute_set_metrics(gold: set, predicted: set, verbose: bool = False) -> Dic
     }
 
 if __name__ == "__main__":
+    pass
 
     # evaluate_english_allennlp_wiki_ner()
 
     # evaluate_english_wiki_ner()
 
-    evaluate_bionet_dutch_flair_ner()
+    # evaluate_bionet_dutch_flair_ner()
 
-    evaluate_bionet_dutch_bert_ner("surferfelix/ner-bertje-tagdetekst", "GroNLP/bert-base-dutch-cased", "bertje_hist")
-    finetuned_gysbert_filepath = "/Users/daza/gysbert_saved_models/EPOCH_2"
-    evaluate_bionet_dutch_bert_ner(finetuned_gysbert_filepath, finetuned_gysbert_filepath, "gysbert_hist")
+    # evaluate_bionet_dutch_bert_ner("surferfelix/ner-bertje-tagdetekst", "GroNLP/bert-base-dutch-cased", "bertje_hist")
+    # finetuned_gysbert_filepath = "/Users/daza/gysbert_saved_models/EPOCH_2"
+    # evaluate_bionet_dutch_bert_ner(finetuned_gysbert_filepath, finetuned_gysbert_filepath, "gysbert_hist")
 
-    textid2source, evaluated_ids = evaluate_old_dutch_flair_ner()
-    # Distribution of actually annotated documents
-    source2textids = {}
-    for tid, src in textid2source.items():
-        if tid in evaluated_ids:
-            if src in source2textids:
-                source2textids[src].append(tid)
-            else:
-                source2textids[src] = [tid]
-    print("Baseline Annotated Documents")
-    for src, tids in source2textids.items():
-        print(f"{src.upper()}: {len(tids)}")
+    # textid2source, evaluated_ids = evaluate_old_dutch_flair_ner()
+    # # Distribution of actually annotated documents
+    # source2textids = {}
+    # for tid, src in textid2source.items():
+    #     if tid in evaluated_ids:
+    #         if src in source2textids:
+    #             source2textids[src].append(tid)
+    #         else:
+    #             source2textids[src] = [tid]
+    # print("Baseline Annotated Documents")
+    # for src, tids in source2textids.items():
+    #     print(f"{src.upper()}: {len(tids)}")
     
-    evaluate_old_dutch_gpt_ner("text-davinci-003", "nl", textid2source)
-    evaluate_old_dutch_gpt_ner("gpt-3.5-turbo", "nl", textid2source)
-    evaluate_old_dutch_gpt_ner("text-davinci-003", "en", textid2source)
-    evaluate_old_dutch_gpt_ner("gpt-3.5-turbo", "en", textid2source)
+    # evaluate_old_dutch_gpt_ner("text-davinci-003", "nl", textid2source)
+    # evaluate_old_dutch_gpt_ner("gpt-3.5-turbo", "nl", textid2source)
+    # evaluate_old_dutch_gpt_ner("text-davinci-003", "en", textid2source)
+    # evaluate_old_dutch_gpt_ner("gpt-3.5-turbo", "en", textid2source)

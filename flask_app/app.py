@@ -218,7 +218,7 @@ def bio_detail(source: str, text_id: str):
                         predicted_entities.append(ent)
             # Evaluate ONLY if there are HUMAN ANNOTATIONS
             if "human_gold" in methods:
-                eval_dict = eval_module.global_ner_evaluation(reference_entities, predicted_entities, valid_labels)
+                eval_dict = eval_module.document_ner_evaluation(reference_entities, predicted_entities, valid_labels)
                 eval_per_label[f"{gold_method}_vs_{hypo_method}"] = eval_dict["per_label_dict"]
                 per_label_tables[f"{gold_method}_vs_{hypo_method}"] = eval_dict["per_label_table"]
                 systems_eval[f"{gold_method}_vs_{hypo_method}"] = eval_dict["eval_metrics"]

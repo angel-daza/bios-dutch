@@ -1,8 +1,11 @@
 from typing import List, Dict, Any
-from classes_mirror import IntaviaEntity
-import statistics
 from collections import defaultdict
+import glob, os, json, statistics
+import pandas as pd
 
+from flask_app.classes_mirror import IntaviaEntity
+# Also the following functions are MIRRORED IN FLASK (be careful to have the most complete version of the code in both sides):
+# document_ner_evaluation(), evaluate_ner(), system_label_report()
 
 def document_ner_evaluation(reference_entities: List[IntaviaEntity], predicted_entities: List[IntaviaEntity], valid_labels: List[str] = None) -> Dict[str, Any]:
     macro_p, macro_r, macro_f = [], [], []
@@ -137,3 +140,94 @@ def system_label_report(systems_metrics: Dict[str, Any]) -> List[List[Any]]:
                     "F1": metrics["F1"]
                 })
     return report_table
+
+
+def evaluate_bionet_intavia(nlp_systems):
+    intavia_files_root = "flask_app/backend_data/intavia_json/*"
+    gold_paths = ["data/bionet_gold/biographynet_test_A_gold.json",
+                  "data/bionet_gold/biographynet_test_B_gold.json", 
+                  "data/bionet_gold/biographynet_test_C_gold.json"]
+    gold_docs = {}
+    for gold_path in gold_paths:
+        gold_docs.update(json.load(open(gold_path)))
+
+    # Here we must know which labels need to be evaluated
+    valid_labels = ["PER", "LOC", "ORG", "MISC"]
+
+    # Here we must know which system_keys are present in the NLP JSONs
+    sys_general_dict = {}
+    for sys in nlp_systems:
+        sys_general_dict[sys] = {"TOTAL (micro)": {"TP": 0, "FP": 0, "FN": 0}}
+        for l in valid_labels:
+            sys_general_dict[sys][l] = {"TP": 0, "FP": 0, "FN": 0}
+    
+    # For Corpus Macro Eval
+    for src_path in glob.glob(intavia_files_root):
+        for bio_path in glob.glob(f"{src_path}/*"):
+            bio_id = os.path.basename(bio_path).strip(".json")
+            if bio_id in gold_docs:
+                # Gold INFO
+                gold_ents = gold_docs[bio_id]["entities"]
+                gold_ents = [IntaviaEntity(**e) for e in gold_ents]
+                # Predictions INFO
+                pred_ents_dict = defaultdict(list)
+                for ent in json.load(open(bio_path))["data"]["entities"]:
+                    intavia_ent = IntaviaEntity(**ent)
+                    pred_ents_dict[f"{intavia_ent.method}"].append(intavia_ent)
+                # Sort Reference Entities
+                gold_ents = sorted(gold_ents, key = lambda ent: ent.locationStart)
+                cheche = None
+                if len(gold_ents) > 0:
+                    last_char_to_eval = gold_ents[-1].locationEnd + 1
+                    # Evaluation of Systems
+                    for sys_name, pred_ents in pred_ents_dict.items():
+                        if sys_name in sys_general_dict:
+                            # Truncate predictions (if predicted after the last )
+                            pred_ents = [pe for pe in pred_ents if pe.locationStart < last_char_to_eval]
+                            pred_ents = sorted(pred_ents, key = lambda ent: ent.locationStart) 
+                            # Get Metrics
+                            doc_metrics = document_ner_evaluation(gold_ents, pred_ents, valid_labels)
+                            if sys_name == "human_gold": cheche = doc_metrics["eval_metrics"]
+                            per_label = doc_metrics["per_label_dict"]
+                            for lbl, metrics in per_label.items():
+                                if lbl not in ["MICRO", "MACRO"]:
+                                    sys_general_dict[sys_name][lbl]["TP"] += metrics["TP"]
+                                    sys_general_dict[sys_name][lbl]["FP"] += metrics["FP"]
+                                    sys_general_dict[sys_name][lbl]["FN"] += metrics["FN"]
+                            sys_general_dict[sys_name]["TOTAL (micro)"]["TP"] +=  doc_metrics["eval_metrics"]["TP"]
+                            sys_general_dict[sys_name]["TOTAL (micro)"]["FP"] +=  doc_metrics["eval_metrics"]["FP"]
+                            sys_general_dict[sys_name]["TOTAL (micro)"]["FN"] +=  doc_metrics["eval_metrics"]["FN"]
+
+    for sys_name, metrics in sys_general_dict.items():
+        macro_p, macro_r, macro_f1 = [], [], []
+        for lbl, m in metrics.items():
+            tp, fp, fn = m["TP"], m["FP"], m["FN"]
+            prec = 0 if tp+fp == 0 else 100*tp/(tp+fp)
+            rec = 0 if tp+fn == 0 else 100*tp/(tp+fn)
+            f1 = 0 if prec+rec == 0 else 2*(prec*rec)/(prec+rec)
+            m["P"] = round(prec, 2)
+            m["R"] = round(rec, 2)
+            m["F1"] = round(f1, 2)
+            macro_p.append(prec)
+            macro_r.append(rec)
+            macro_f1.append(f1)
+        metrics["TOTAL (macro)"] = {"TP": tp, "FP": fp, "FN": fn}
+        metrics["TOTAL (macro)"]["P"] = round(statistics.mean(macro_p), 2)
+        metrics["TOTAL (macro)"]["R"] = round(statistics.mean(macro_r), 2)
+        metrics["TOTAL (macro)"]["F1"] = round(statistics.mean(macro_f1), 2)
+
+    # Eval can be dumped as JSON
+    # json.dump(sys_general_dict, open("sys_general_dict.json", "w"), indent=2)
+    # Make a Human Readable Table for sys_general_dict
+    final_eval_table = []
+    for sys_name, category_dict in sys_general_dict.items():
+        for cat, metrics_dict in category_dict.items():
+            row = {"System Name": sys_name, "Category": cat}
+            for metric_name, metric_val in metrics_dict.items():
+                row[metric_name] = metric_val
+            final_eval_table.append(row)
+    pd.DataFrame.from_dict(final_eval_table).to_csv("BiographyNet_Systems_Eval_Final.csv")
+
+
+if __name__ == "__main__":
+    evaluate_bionet_intavia(["stanza_nl", "human_gold", "flair/ner-dutch-large_0.12.2"])

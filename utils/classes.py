@@ -24,9 +24,33 @@ class IntaviaEntity:
     category: str
     locationStart: int
     locationEnd: int
-    tokenStart: int
-    tokenEnd: int
-    method: str
+    tokenStart: int = None
+    tokenEnd: int = None
+    method: str = None
+
+    def __eq__(self, other: object) -> bool:
+        if type(other) is type(self):
+            return self.locationStart == other.locationStart and self.locationEnd == other.locationEnd and self.surfaceForm == other.surfaceForm and self.category == other.category
+        else:
+            return False
+    
+    def __hash__(self) -> int:
+        return hash((self.locationStart, self.surfaceForm, self.category))
+
+    def span_match(self, other: object):
+        if type(other) is type(self):
+            return self.locationStart == other.locationStart and self.locationEnd == other.locationEnd
+        else:
+            return False
+    # same Span Start OR same Span End
+    def span_partial_match(self, other: object):
+        if type(other) is type(self):
+            return self.locationStart == other.locationStart or self.locationEnd == other.locationEnd
+        else:
+            return False
+    
+    def get_displacy_format(self):
+        return {"start": self.locationStart, "end": self.locationEnd, "label": self.category}
 
 @dataclass
 class IntaviaTimex:
@@ -52,14 +76,14 @@ class IntaviaDocument:
     def __init__(self, intavia_dict: Dict[str, Any]):
         self.text_id: str = intavia_dict['text_id']
         self.text:str = intavia_dict['data']['text']
-        self.tokenization: str = intavia_dict['data']['text']
+        self.tokenization: str = intavia_dict['data']['tokenization']
         self.morpho_syntax: List[IntaviaSentence] = [] 
         for sent_obj in intavia_dict['data']['morpho_syntax']:
             tokens = [IntaviaToken(**word_obj) for word_obj in sent_obj['words']]
             sentence = IntaviaSentence(sent_obj['paragraph'], sent_obj['sentence'], sent_obj['text'], tokens)
             self.morpho_syntax.append(sentence)
-        self.entities: List[Dict[str, Any]] = intavia_dict['data'].get('entities', [])
-        self.time_expressions: List[Dict[str, Any]] = intavia_dict['data'].get('time_expressions', [])
+        self.entities: List[IntaviaEntity] = [IntaviaEntity(**ent) for ent in intavia_dict['data'].get('entities', [])]
+        self.time_expressions: List[IntaviaTimex] = [IntaviaTimex(**tim) for tim in intavia_dict['data'].get('time_expressions', [])]
         self.semantic_roles: List[Dict[str, Any]] = intavia_dict['data'].get('semantic_roles', [])
     
     def get_basic_stats(self) -> Dict[str, Any]:
@@ -82,10 +106,20 @@ class IntaviaDocument:
             "top_adjs": Counter(adjs).most_common(10),
         }
     
-    def get_entities(self, methods: List[str] = ['all']) -> List[Dict[str, Any]]:
+    def get_available_methods(self, task_layer: str) -> List[str]:
+        if task_layer == "entities":
+            return list(set([ent.method for ent in self.entities]))
+        elif task_layer == "time_expressions":
+            return list(set([ent.method for ent in self.time_expressions]))
+        elif task_layer == "semantic_roles":
+            return list(set([ent['method'] for ent in self.semantic_roles]))
+        else:
+            raise ValueError(f"NLP Layer {task_layer} is not a valid layer in the IntaviaDocument") 
+
+    def get_entities(self, methods: List[str] = ['all']) -> List[IntaviaEntity]:
         """_summary_
         Args:
-            methods (List[str], optional): Filter entitities according to one or more <methods> | 'all' (everything in the list) | 'intersection' (only entities produced by models listed in <methods>)
+            methods (List[str], optional): Filter entitities according to one or more <methods> | 'all' (everything in the list) | 'intersection' (only entities produced by all models listed in <methods>)
         Returns:
             List[Dict[str, Any]]: The requested list of Entities. Each entitiy is a dictionary with keys: 
                 ["ID", "surfaceForm", "category", "locationStart", "locationEnd", "tokenStart", "tokenEnd", "method"]
@@ -95,7 +129,7 @@ class IntaviaDocument:
         elif 'intersection' in methods:
             raise NotImplementedError
         else:
-            entities = [ent for ent in self.entities if ent['method'] in methods]
+            entities = [ent for ent in self.entities if ent.method in methods]
         
         return entities
     
@@ -103,7 +137,7 @@ class IntaviaDocument:
         entity_src_dict = defaultdict(list)
         entities = self.get_entities(methods=methods)
         for ent_obj in entities:
-            entity_src_dict[ent_obj['method']].append(ent_obj['category'])
+            entity_src_dict[ent_obj.method].append(ent_obj.category)
         entity_dict = {}
         for src, ents in entity_src_dict.items():
             if top_k > 0:
@@ -112,6 +146,82 @@ class IntaviaDocument:
                 entity_dict[src] = Counter(ents).most_common()
         return entity_dict
 
+    def get_entity_category_matrix(self):
+        all_methods, all_labels = set(), set()
+        entity_info = defaultdict(list)
+        for ent in self.entities:
+            all_labels.add(ent.category)
+            all_methods.add(ent.method)
+            entity_info[f"{ent.method}_{ent.category}"].append(ent)
+        
+        
+        sorted_found_labels = sorted(all_labels)
+        sorted_found_methods = sorted(all_methods)
+        entity_table = [["Category"] + [method for method in sorted_found_methods]]
+        for label in sorted_found_labels:
+            row = [label]
+            for method in sorted_found_methods:
+                key = f"{method}_{label}"
+                if key in entity_info:
+                    ent_counts = len(entity_info[key])
+                    row.append(ent_counts)
+                else:
+                    row.append(0)
+            entity_table.append(row)
+        
+        return entity_table
+
+
+    def get_confidence_entities(self, mode: str = "spans") -> List[Dict]:
+        " mode = 'spans' or 'ents' "
+       
+        if mode not in ["spans", "ents"]:
+            raise NotImplementedError
+
+        entity_agreement = []
+        methods = self.get_available_methods("entities")
+        max_agreement = len(methods)
+        
+        if max_agreement == 0: return []
+
+        if mode == "spans":
+            charstart2token, charend2token = {}, {}
+            for sent in self.morpho_syntax:
+                for token in sent.words:
+                    charstart2token[token.MISC['StartChar']] = token.ID
+                    charend2token[token.MISC['EndChar']] = token.ID
+
+        for ent_obj in self.entities:
+            key = f"{ent_obj.surfaceForm}_{ent_obj.locationStart}_{ent_obj.locationEnd}_{ent_obj.category}"
+            entity_agreement.append(key)
+        entity_agreement = Counter(entity_agreement).most_common()
+        entity_confidence_spans = []
+        for ent_key, freq in entity_agreement:
+            agreement_ratio = freq/max_agreement
+            text, start, end, label = ent_key.split("_")
+            if agreement_ratio <= 0.3:
+                confidence_cat = "LOW"
+            elif 0.3 < agreement_ratio <= 0.5:
+                confidence_cat = "WEAK"
+            elif 0.5 < agreement_ratio <= 0.75:
+                confidence_cat = "MEDIUM"
+            elif 0.75 < agreement_ratio <= 0.89:
+                confidence_cat = "HIGH"
+            else:
+                confidence_cat = "VERY HIGH"
+            
+            if mode == "spans":
+                token_start = charstart2token.get(int(start))
+                token_end = charend2token.get(int(end))
+                if type(token_start) == int and type(token_end) == int:
+                    entity_confidence_spans.append({"start_token": int(token_start), "end_token": int(token_end) + 1, "label": label})
+            else:
+                entity_confidence_spans.append({"text": text, "start": int(start), "end": int(end), "label": confidence_cat})
+        
+        return entity_confidence_spans
+
+    def get_entities_IOB(self) -> List[str]:
+        raise NotImplementedError
 
 
 class Date:
@@ -489,7 +599,7 @@ class MetadataComplete:
             gender_str = None
         return gender_str
     
-    def getGender_predicted(self) -> str:
+    def getGender_predicted_pronoun_votes(self) -> str:
         masc_votes, fem_votes = 0, 0
         masc_weights = {'hij': 1, 'hem': 1, 'broeder': 1, 'broeder van': 2, 'zn. van': 2, 'zoon van': 2}
         fem_weights = {'zij': 4, 'haar': 2, 'dochter': 2, 'dochter van': 10, 'vrouw': 2}
@@ -516,6 +626,27 @@ class MetadataComplete:
         else:
             gender_str = 'male'
         # print(f"{self.getName()}\t{len(self.texts)}\t{masc_votes}\t{fem_votes}\t{self.getGender()}\t{gender_str}\t{init_text}")
+        return gender_str
+    
+    def getGender_predicted_first_pronoun(self) -> str:
+        # Get the votes in all available texts
+        gender_str = None
+        for text in self.texts:
+            init_toks = text.split()[:30]
+            for tok in init_toks:
+                clean_tok = tok.strip().replace(",", "").replace(";", "").replace("(", "").replace(".", "").lower()
+                if clean_tok in ["hij", "hem", "zoon"]:
+                    gender_str = 'male'
+                    break
+                elif clean_tok in ["zij", "haar", "dochter"]:
+                    gender_str = 'female'
+                    break
+            if gender_str:
+                break
+        # The most likley gender is male so if there was no info then assign male
+        if not gender_str:
+            gender_str = 'male'
+        # print(f"{self.getName()}\t{len(self.texts)}\t{self.getGender()}\t{gender_str}\t{init_toks}")
         return gender_str
 
 
