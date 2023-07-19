@@ -1,5 +1,5 @@
 from typing import List,Dict, Any, Tuple
-import glob, json
+import glob, json, os
 from utils.nlp_tasks import run_flair
 import argparse
 
@@ -7,6 +7,11 @@ from flair import __version__ as flair_version
 from flair.data import Sentence
 from flair.models import SequenceTagger
 from flair.splitter import SegtokSentenceSplitter
+
+import stanza
+from utils.nlp_tasks import run_bert_ner
+from transformers import pipeline
+from transformers import AutoTokenizer, AutoModelForTokenClassification
 
 from pymongo import MongoClient
 COLLECTION_NAME = f"bionet_intavia"
@@ -33,6 +38,14 @@ def main_bionet_intavia_files(nlp_config: Dict[str, Any]):
                 flair_tagger = nlp_config["flair_ner"]["flair_tagger"]
                 flair_splitter = nlp_config["flair_ner"]["flair_splitter"]
                 intavia_obj = add_flair_ner(intavia_obj, flair_model, flair_tagger, flair_splitter)
+            if "bert_ner" in nlp_config:
+                model_label = nlp_config["bert_ner"]["model_json_label"]
+                print(f"Adding {model_label}")
+                model_version = nlp_config["bert_ner"]["model_json_version"]
+                stanza_nlp = nlp_config["bert_ner"]["stanza"]
+                bert_nlp = nlp_config["bert_ner"]["bert_pipeline"]
+                wordpiece_chars= nlp_config["bert_ner"]["wordpiece_chars"]
+                intavia_obj = add_bert_based_ner(intavia_obj, stanza_nlp, bert_nlp, model_label, model_version, wordpiece_chars)
             # Override File with New Object
             json.dump(intavia_obj, open(filepath, "w"), indent=2, ensure_ascii=False)
             ctr += 1
@@ -126,6 +139,38 @@ def add_flair_ner(intavia_obj, flair_model, flair_tagger, flair_splitter) -> Dic
     return intavia_obj
 
 
+def add_bert_based_ner(intavia_obj: Dict[str, Any], stanza_nlp: Any, bert_nlp: str, model_label: str, model_version: str, wordpiece_chars: str):
+
+    def _add_json_bert_ner(bert_ner_output: Dict[str, Any]) -> List[Dict[str, Any]]:
+        ner_all = []
+        doc_offset, doc_tok_offset = 0, 0
+        for i, sent_objs in enumerate(bert_ner_output['tagged_ner']):
+            for ner_obj in sent_objs:
+                ner_all.append({'ID': f"{model_label}_{i}", 
+                        'category': ner_obj['entity'], 
+                        'surfaceForm': ner_obj['text'], 
+                        'locationStart': doc_offset + ner_obj['start'], 
+                        'locationEnd': doc_offset + ner_obj['end'],
+                        'method': f'{model_label}_{model_version}'
+                        })
+            doc_tok_offset += len(bert_ner_output['sentences'][i].split())
+            doc_offset += bert_ner_output['offsets'][i] + 1
+        return ner_all
+
+    # Process NER with a BERT-based model (only if needed)
+    bert_nlp = run_bert_ner(bert_nlp, stanza_nlp, intavia_obj["data"]["text"], wordpiece_chars)
+
+    flair_ents = _add_json_bert_ner(bert_nlp)
+    if len(intavia_obj['data'].get('entities', [])) > 0:
+        intavia_obj['data']['entities'] += flair_ents
+    else:
+        intavia_obj['data']['entities'] = flair_ents
+    intavia_obj['data']['entities'] = sorted(intavia_obj['data']['entities'], key=lambda x: x['locationStart'])
+    
+    return intavia_obj
+
+
+
 if __name__ == "__main__":
     """
         Running Examples:
@@ -133,6 +178,8 @@ if __name__ == "__main__":
             python add_nlp_layers.py --mode files --gold_ner --flair_ner
 
             python add_nlp_layers.py --mode mongo --gold_ner
+
+            python add_nlp_layers.py --mode files --gysbert_ner 
 
     """
 
@@ -143,8 +190,9 @@ if __name__ == "__main__":
 
     # GENERAL SYSTEM PARAMS
     parser.add_argument('-m', '--mode', help='Mode: mongo | files ', required=True)
-    parser.add_argument('-gn', '--gold_ner', help='Filepath containing the Training JSON', action='store_true', default=False)
-    parser.add_argument('-fn', '--flair_ner', help='Filepath containing the Validation JSON', action='store_true', default=False)
+    parser.add_argument('-gn', '--gold_ner', help='', action='store_true', default=False)
+    parser.add_argument('-fn', '--flair_ner', help='', action='store_true', default=False)
+    parser.add_argument('-bn', '--gysbert_ner', help='', action='store_true', default=False)
 
     args = parser.parse_args()
 
@@ -159,13 +207,33 @@ if __name__ == "__main__":
         }
     if args.flair_ner:
         flair_model = "flair/ner-dutch-large"
+        flair_tagger = SequenceTagger.load(flair_model)
+        flair_splitter = SegtokSentenceSplitter()
         NLP_CONFIG["flair_ner"] = {
             "model_config_label": "Flair NER (PER, ORG, LOC, MISC)",
             "flair_model": flair_model,
             "flair_version": flair_version,
-            "flair_tagger": SequenceTagger.load(flair_model),
-            "flair_splitter": SegtokSentenceSplitter()
+            "flair_tagger": flair_tagger,
+            "flair_splitter": flair_splitter
         }
+    if args.gysbert_ner:
+        gysbert_checkpoint = "/Users/daza/gysbert_saved_models/EPOCH_2"
+        bert_tokenizer = AutoTokenizer.from_pretrained(gysbert_checkpoint)
+        bert_model = AutoModelForTokenClassification.from_pretrained(gysbert_checkpoint)
+        stanza_nlp = stanza.Pipeline(lang="nl", processors="tokenize,lemma,pos, depparse, ner", model_dir="/Users/daza/stanza_resources/")
+        bert_nlp = pipeline('token-classification', model=bert_model, tokenizer=bert_tokenizer, device=-1)
+        NLP_CONFIG["bert_ner"] = {
+            "model_config_label": "GysBERT NER",
+            "model_json_label": "gysbert_hist",
+            "model_json_version": "fx_finetuned_epoch2",
+            "stanza": stanza_nlp,
+            "bert_pipeline": bert_nlp,
+            "wordpiece_chars": "##"
+        }
+
+    # More BERT-BASED
+    # "surferfelix/ner-bertje-tagdetekst", "GroNLP/bert-base-dutch-cased", "bertje_hist"
+    # RoBERTa NER! (see performancer code)
 
     if len(NLP_CONFIG) == 0:
         print("\nNo models were requested. Please check the valid flags to request models\\n")

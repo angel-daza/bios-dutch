@@ -30,7 +30,7 @@ class IntaviaEntity:
 
     def __eq__(self, other: object) -> bool:
         if type(other) is type(self):
-            return self.locationStart == other.locationStart and self.locationEnd == other.locationEnd and self.surfaceForm == other.surfaceForm and self.category == other.category
+            return self.locationStart == other.locationStart and self.locationEnd == other.locationEnd and self.category == other.category
         else:
             return False
     

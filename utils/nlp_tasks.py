@@ -57,18 +57,19 @@ def run_flair(text: Union[str, List[str]], tagger: SequenceTagger, splitter: Seg
         return {'tagged_ner': [tagged_ents], 'sentences': [sentence.to_tokenized_string()], 'offsets': [0]}
 
 
-def run_bert_ner(bert_nlp, stanza_nlp, text):
+def run_bert_ner(bert_nlp, stanza_nlp, text, wordpiece_chars):
     doc = stanza_nlp(text)
-    texts, ner = [], []
+    texts, ner, offsets = [], [], []
     for stanza_sent in doc.sentences:
         tagged_ents = []
-        sentence = " ".join([tok.text for tok in stanza_sent.tokens])
+        sentence = stanza_sent.text #" ".join([tok.text for tok in stanza_sent.tokens])
         if len(sentence) > 1:
             predictions = bert_nlp(sentence)
-            tagged_ents = unify_wordpiece_predictions(predictions, wordpiece_chars="##")
+            tagged_ents = unify_wordpiece_predictions(predictions, wordpiece_chars)
             ner.append(tagged_ents)
             texts.append(sentence)
-    return {'tagged_ner':  ner, 'sentences': texts}
+            offsets.append(len(stanza_sent.text))
+    return {'tagged_ner':  ner, 'sentences': texts, 'offsets': offsets}
 
 
 def unify_wordpiece_predictions(prediction_list: List, wordpiece_chars: str) -> List:
@@ -79,17 +80,23 @@ def unify_wordpiece_predictions(prediction_list: List, wordpiece_chars: str) -> 
         PREDS:    [{'end': 14, 'entity': 'B-LOC', 'index': 5, 'score': 0.9960225820541382, 'start': 8, 'word': '▁JAPAN'}
                     {'end': 33, 'entity': 'B-LOC', 'index': 15, 'score': 0.9985975623130798, 'start': 30, 'word': '▁CH'}
                     {'end': 36, 'entity': 'B-LOC', 'index': 16, 'score': 0.9762864708900452, 'start': 33, 'word': 'INA'}]
+        RETURNS:
+            [{'text': 'JAPAN', 'entity': '', 'start': 8, 'end': 14},
+             {'text': 'CHINA', 'entity': '', 'start': 30, 'end': 36}]
     """
 
     def _merge_objs(obj_list):
         merged_word = "".join([o['word'].replace(wordpiece_chars, '') for o in obj_list])
-        real_start = obj_list[0]['start'] + 1 # The +1 is to avoid the underscore
-        if real_start == 1: real_start = 0 # For some reason the first underscore is not counted...
+        if wordpiece_chars == "▁":
+            real_start = obj_list[0]['start'] + 1 # The +1 is to avoid the underscore
+        else:
+            real_start = obj_list[0]['start']
+        if real_start == 1: real_start = 0
         real_end = obj_list[-1]['end']
         real_entity = obj_list[0]['entity']
         scores = [o['score'] for o in obj_list]
         real_score = sum(scores) / len(scores)
-        return {'start': real_start, 'end': real_end+1, 'entity': real_entity, 'score': real_score, 'text': merged_word}
+        return {'start': real_start, 'end': real_end, 'entity': real_entity, 'score': real_score, 'text': merged_word}
 
 
     if len(prediction_list) == 0: return []
@@ -111,7 +118,7 @@ def unify_wordpiece_predictions(prediction_list: List, wordpiece_chars: str) -> 
     # print("\nUNIFIED:")
     # [print(x) for x in unified_predictions]
 
-    # In this step we further unbify this time the IOB into FULL-LABEL
+    # In this step we further unify this time the IOB into FULL-LABEL
     full_labeled = []
     label, tmp_entity = "", []
     entity_head_indices = [ix for ix, pred in enumerate(unified_predictions) if pred['entity'].startswith("B-")]
