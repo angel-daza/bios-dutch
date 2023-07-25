@@ -490,6 +490,7 @@ class MetadataComplete:
         self.versions: List[str] = [] # This allows to 'map back' to the original source of metadata since all lists are equally ordered
         self.sources: List[str] = []
         self.names: List[str] = []
+        self.partitions: List[str] = []
         self.births: List[Event] = []
         self.deaths: List[Event] = []
         self.fathers: List[str] = []
@@ -520,6 +521,7 @@ class MetadataComplete:
         person.versions = info['versions']
         person.sources = info['sources']
         person.names = info['names']
+        person.partitions = info['partitions']
         person.births = [Event(**e) for e in info['births']]
         person.deaths = [Event(**e) for e in info['deaths']]
         person.fathers = info['fathers']
@@ -539,13 +541,14 @@ class MetadataComplete:
         person.texts_timex = info['texts_timex']
         return person
 
-
+    
     def to_json(self):
         return {
             'person_id': self.person_id,
             'versions': self.versions,
             'sources': self.sources,
             'names': self.names,
+            'partitions': self.partitions,
             'births': [e.to_json() for e in self.births],
             'deaths': [e.to_json() for e in self.deaths],
             'fathers': self.fathers,
@@ -573,6 +576,9 @@ class MetadataComplete:
     
     def addSource(self, source):
         self.sources.append(source)
+
+    def addPartition(self, partition):
+        self.partitions.append(partition)
 
     def addBirthDay(self, birthEvent):
         if birthEvent is not None:
@@ -684,6 +690,77 @@ class MetadataComplete:
             raise NotImplementedError
         return 'male' if gender_id == 1.0 else 'female'
     
+    def getGender_predicted_pronoun_votes(self) -> str:
+        masc_votes, fem_votes = 0, 0
+        masc_weights = {'hij': 1, 'hem': 1, 'broeder': 1, 'broeder van': 2, 'zn. van': 2, 'zoon van': 2}
+        fem_weights = {'zij': 4, 'haar': 2, 'dochter': 2, 'dochter van': 10, 'vrouw': 2}
+        masc_patterns = "|".join(masc_weights.keys())
+        fem_patterns = "|".join(fem_weights.keys())
+        # Get the votes in all available texts
+        for text in self.texts:
+            init_text = text[:200]
+            masc_matches = re.finditer(masc_patterns, init_text, re.IGNORECASE)
+            for m in masc_matches:
+                t = m.group(0).lower()
+                if t in masc_patterns:
+                    masc_votes += masc_weights[t]
+            fem_matches = re.finditer(fem_patterns, init_text, re.IGNORECASE)
+            for m in fem_matches:
+                t = m.group(0).lower()
+                if t in fem_patterns:
+                    fem_votes += fem_weights[t]
+        # Return the most voted gender
+        if fem_votes == 0 and masc_votes == 0: # Most biographies are from men, so if we know nothing then 'male' is a 'safe choice'...
+            gender_str = 'male'
+        elif fem_votes >= masc_votes:
+            gender_str = 'female'
+        else:
+            gender_str = 'male'
+        # print(f"{self.getName()}\t{len(self.texts)}\t{masc_votes}\t{fem_votes}\t{self.getGender()}\t{gender_str}\t{init_text}")
+        return gender_str
+    
+    def getGender_predicted_first_pronoun(self) -> str:
+        # Get the votes in all available texts
+        gender_str = None
+        for text in self.texts:
+            init_toks = text.split()[:30]
+            for tok in init_toks:
+                clean_tok = tok.strip().replace(",", "").replace(";", "").replace("(", "").replace(".", "").lower()
+                if clean_tok in ["hij", "hem", "zoon"]:
+                    gender_str = 'male'
+                    break
+                elif clean_tok in ["zij", "haar", "dochter"]:
+                    gender_str = 'female'
+                    break
+            if gender_str:
+                break
+        # The most likley gender is male so if there was no info then assign male
+        if not gender_str:
+            gender_str = 'male'
+        # print(f"{self.getName()}\t{len(self.texts)}\t{self.getGender()}\t{gender_str}\t{init_toks}")
+        return gender_str
+
+
+    def getFather(self) -> str:
+        fathers = []
+        for f in self.fathers:
+            if f: fathers.append(f)
+        if len(fathers) == 0: return None
+        return Counter(fathers).most_common(1)[0]
+
+    def getMother(self) -> str:
+        mothers = []
+        for m in self.mothers:
+            if m: mothers.append(m)
+        if len(mothers) == 0: return None
+        return Counter(mothers).most_common(1)[0]
+
+    def getPartners(self) -> List[str]:
+        partners = []
+        for p in self.partners:
+            if p: partners.append(p)
+        return partners
+
     def getCenturyLived(self) -> Optional[str]:
         """This calculates the century in which a person lived according to the average between birth and death (if both are known). 
          Otherwise, if only one of the dates is known some simple heuristics are used. It Return None for both unknown dates.
@@ -721,7 +798,10 @@ class MetadataComplete:
         for rel in self.religions:
             if rel: religions.append(rel)
         if len(religions) == 0: return None
-        return ", ".join(religions)
+        if method == 'most_common':
+            return Counter(religions).most_common(1)[0]
+        else:
+            return ", ".join(religions)
     
     def getFaith(self, method: str = 'most_common') -> Optional[str]:
         """ method = 'most_common' | 'stringified_all' """
@@ -758,7 +838,7 @@ class MetadataComplete:
 
     def getBirthDate_baseline1(self) -> int:
         """
-            BASELINE 1: Return The first date-like text (\d{4} or \d{3}) found in one of the biography texts
+            BASELINE 1: Return The first year-like text (\d{4} or \d{3}) found in one of the biography texts
         """
         candidates = []
         birth_date = -1
@@ -780,7 +860,7 @@ class MetadataComplete:
     
     def getBirthDate_baseline2(self) -> int:
         """
-            BASELINE 1: Return The first date-like text (\d{4} or \d{3}) found in one of the biography texts
+            BASELINE 2: Return The first year-like text closer to the birth verbs
         """
         keywords = '|'.join(['geb.', 'geboren', 'Geb.', 'Geboren'])
         candidates = []
@@ -896,6 +976,31 @@ class MetadataComplete:
             places.add(st.getLocation())
         places.remove(None)
         return list(places)
+    
+    def getFullMetadataDict(self, autocomplete=True):
+        metadata_facts = {
+            'person_id': self.person_id,
+            'name': self.getName(),
+            'birth_date': "-".join([str(i) for i in self.getBirthDate()]),
+            'birth_place': self.getBirthPlace(),
+            'death_date': "-".join([str(i) for i in self.getDeathDate()]),
+            'death_place': self.getDeathPlace(),
+            'fathers': self.getFather(),
+            'mothers': self.getMother(),
+            'partners': self.getPartners(),
+            'education': self.getEducation('stringified_all'),
+            'occupation': self.getOccupation('stringified_all'),
+            'gender': self.getGender(),
+            'religion': self.getReligion('stringified_all'),
+            'faith': self.getFaith('stringified_all'),
+            'residence': self.getResidence('stringified_all'),
+        }
+        if autocomplete:
+            metadata_facts['birth_year_pred'] = self.getBirthDate_baseline1()
+            metadata_facts['gender_pred'] = self.getGender_predicted_first_pronoun()
+            metadata_facts['century_pred'] = self.getCenturyLived()
+        
+        return metadata_facts
 
 
 

@@ -1,5 +1,5 @@
 # Import Libs
-from typing import Dict, List
+from typing import Dict, List, Any
 import pandas as pd
 import json, os, sys
 
@@ -27,7 +27,8 @@ def main(input_filepath: str, output_filepath: str, create_lite_version: bool):
     print(biographies.index)
 
     unique_persons = list(biographies['id_person'].unique())
-    get_unique_people(biographies, unique_persons, output_filename=output_filepath)
+    metadata_info = get_unique_people(biographies, unique_persons, output_filename=output_filepath)
+    json.dump(metadata_info, open("data/unified_metadata_info.json", "w"), indent=2, ensure_ascii=False)
 
 
 def create_bios_lite(original_bios_path: str, lite_bios_path: str):
@@ -92,14 +93,14 @@ def unify_metadata(person_id: str, data_versions: List[Dict]) -> MetadataComplet
 
 
 
-def get_unique_people(bionet_df: pd.DataFrame, people_of_interest: List[str], output_filename: str):
+def get_unique_people(bionet_df: pd.DataFrame, people_of_interest: List[str], output_filename: str) -> Dict[str, Any]:
     """Looks in the whole database for more biographies of the people of interest, and unifies all the metadata available under the same ID. 
         Saves it on JSON to re-use later
     """
     bio_counter = 0
+    metadata_dict = {}
     with open(output_filename, "w") as fout:
         for person_id in tqdm(people_of_interest):
-            # person_id = people_of_interest[ix]
             diff_versions = []
             for bio_id, version in bionet_df.loc[person_id, :].iterrows():
                 bio_counter += 1
@@ -107,8 +108,10 @@ def get_unique_people(bionet_df: pd.DataFrame, people_of_interest: List[str], ou
                 diff_versions.append(version_as_dict)
             unified_metadata = unify_metadata(person_id, diff_versions)
             fout.write(json.dumps(unified_metadata.to_json()) + '\n')
+            metadata_dict[person_id] = unified_metadata.getFullMetadataDict(autocomplete=True)
     
     print(f"Successfully unified {bio_counter} biographies into {len(people_of_interest)} unique people")
+    return metadata_dict
 
 if __name__ == "__main__":
     """
