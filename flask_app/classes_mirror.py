@@ -32,6 +32,12 @@ class IntaviaEntity:
     tokenStart: int = None
     tokenEnd: int = None
     method: str = None
+    label_dict = {"PER": "PER", "PERSON": "PER", 
+                      "LOC": "LOC", "LOCATION": "LOC", 
+                      "ORG": "ORG", "ORGANIZATION": "ORG",
+                      "MISC": "MISC",
+                      "ARTWORK": "ARTWORK", "WORK_OF_ART": "ARTWORK",
+                      "TIME": "TIME", "DATE": "TIME"}
 
     def __eq__(self, other: object) -> bool:
         if type(other) is type(self):
@@ -54,6 +60,12 @@ class IntaviaEntity:
         else:
             return False
     
+    def normalize_label(self):
+        unnorm = self.category
+        self.category = self.label_dict.get(self.category, "ERR")
+        if self.category == "ERR":
+            print(f"{unnorm} --> ERR")
+
     def get_displacy_format(self):
         return {"start": self.locationStart, "end": self.locationEnd, "label": self.category}
 
@@ -90,6 +102,10 @@ class IntaviaDocument:
         self.entities: List[IntaviaEntity] = [IntaviaEntity(**ent) for ent in intavia_dict['data'].get('entities', [])]
         self.time_expressions: List[IntaviaTimex] = [IntaviaTimex(**tim) for tim in intavia_dict['data'].get('time_expressions', [])]
         self.semantic_roles: List[Dict[str, Any]] = intavia_dict['data'].get('semantic_roles', [])
+        self.metadata = {}
+        for k,v in intavia_dict.items():
+            if k not in ['text_id', 'data']:
+                self.metadata[k] = v
     
     def get_basic_stats(self) -> Dict[str, Any]:
         sentences = []
@@ -121,28 +137,43 @@ class IntaviaDocument:
         else:
             raise ValueError(f"NLP Layer {task_layer} is not a valid layer in the IntaviaDocument") 
 
-    def get_entities(self, methods: List[str] = ['all']) -> List[IntaviaEntity]:
+    def get_entities(self, methods: List[str] = ['all'], valid_labels: List[str] = None) -> List[IntaviaEntity]:
         """_summary_
         Args:
             methods (List[str], optional): Filter entitities according to one or more <methods> | 'all' (everything in the list) | 'intersection' (only entities produced by all models listed in <methods>)
         Returns:
-            List[Dict[str, Any]]: The requested list of Entities. Each entitiy is a dictionary with keys: 
-                ["ID", "surfaceForm", "category", "locationStart", "locationEnd", "tokenStart", "tokenEnd", "method"]
+            List[IntaviaEntity]: The requested list of Entities.
         """
+        normalized_entities = []
+        if valid_labels:
+            for ent in self.entities:
+                ent.normalize_label()
+                if ent.category in valid_labels:
+                    normalized_entities.append(ent)
+        else:
+            for ent in self.entities:
+                ent.normalize_label()
+                normalized_entities.append(ent)
+
         if 'all' in methods:
-            entities = self.entities
+            entities = normalized_entities
         elif 'intersection' in methods:
             raise NotImplementedError
         else:
-            entities = [ent for ent in self.entities if ent.method in methods]
+            entities = [ent for ent in normalized_entities if ent.method in methods]
         
         return entities
     
-    def get_entity_counts(self, methods: List[str] = ['all'], top_k: int = -1) -> Dict[str, int]:
+    def get_entity_counts(self, methods: List[str] = ['all'], valid_labels: List[str] = None, top_k: int = -1) -> Dict[str, List[Tuple[str, int]]]:
+        "Returns a dictionary of Methods [KEY = 'method_name'] and entity distribution [VALUE = List of (label, freq) pairs]"
         entity_src_dict = defaultdict(list)
-        entities = self.get_entities(methods=methods)
+        entities = self.get_entities(methods, valid_labels)
         for ent_obj in entities:
-            entity_src_dict[ent_obj.method].append(ent_obj.category)
+            if valid_labels: 
+                if ent_obj.category in valid_labels:
+                    entity_src_dict[ent_obj.method].append(ent_obj.category)
+            else:
+                entity_src_dict[ent_obj.method].append(ent_obj.category)
         entity_dict = {}
         for src, ents in entity_src_dict.items():
             if top_k > 0:
@@ -154,7 +185,7 @@ class IntaviaDocument:
     def get_entity_category_matrix(self):
         all_methods, all_labels = set(), set()
         entity_info = defaultdict(list)
-        for ent in self.entities:
+        for ent in self.get_entities():
             all_labels.add(ent.category)
             all_methods.add(ent.method)
             entity_info[f"{ent.method}_{ent.category}"].append(ent)
@@ -196,14 +227,14 @@ class IntaviaDocument:
                     charstart2token[token.MISC['StartChar']] = token.ID
                     charend2token[token.MISC['EndChar']] = token.ID
 
-        for ent_obj in self.entities:
-            key = f"{ent_obj.surfaceForm}_{ent_obj.locationStart}_{ent_obj.locationEnd}_{ent_obj.category}"
+        for ent_obj in self.get_entities():
+            key = f"{ent_obj.surfaceForm}#{ent_obj.locationStart}#{ent_obj.locationEnd}#{ent_obj.category}"
             entity_agreement.append(key)
         entity_agreement = Counter(entity_agreement).most_common()
         entity_confidence_spans = []
         for ent_key, freq in entity_agreement:
             agreement_ratio = freq/max_agreement
-            text, start, end, label = ent_key.split("_")
+            text, start, end, label = ent_key.split("#")
             if agreement_ratio <= 0.3:
                 confidence_cat = "LOW"
             elif 0.3 < agreement_ratio <= 0.5:
@@ -225,6 +256,8 @@ class IntaviaDocument:
         
         return entity_confidence_spans
 
+
+    
     def get_entities_IOB(self) -> List[str]:
         raise NotImplementedError
 

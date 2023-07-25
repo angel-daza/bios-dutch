@@ -81,6 +81,76 @@ def main_for_old_src_experiments():
             print(f"Skipping {obj['text_id']}")
 
 
+def main_biographynet_testset():
+    # JSON is the only format that saves the whole response metadata. Probably it is a good idea to always keep it...
+    # TSV will only work if we explicitly ask in the ChatGPT prompt to dliver the response in that format.
+    formats = ["json", "tsv"] 
+
+    gold_paths = ["data/bionet_gold/biographynet_test_A_gold.json",
+                  "data/bionet_gold/biographynet_test_B_gold.json", 
+                  "data/bionet_gold/biographynet_test_C_gold.json"]
+
+    # Prompt Tasks
+    direct_ner_linking_prompt = "Identify and Label (PERSON, ORGANIZATION, TIME, LOCATION, ARTWORK, MISC) all of the Named Entities in the following text. Return also the character spans in which these entities appear, a link to their wikipedia page and wikidata ID if it exists. Return the results in TSV Format with Columns: [Entity, Label, Span Start, Span End, Wikipedia Link, WikiData ID]. Text:\n\n"
+
+    ### -------- CONSTRUCT PROMPTING DATA -------- ###
+    gold_docs = {}
+    for gold_path in gold_paths:
+        gold_docs.update(json.load(open(gold_path)))
+
+    JSON_BASEPATH = "flask_app/backend_data/intavia_json/*"
+    # Iterate through all files and add the Requested <apply_tasks>
+    ctr = 0
+    corpus = []
+    for src_path in glob.glob(JSON_BASEPATH):
+        for filepath in glob.glob(f"{src_path}/*.json"):
+            bio_id = os.path.basename(filepath).strip(".json")
+            if bio_id not in gold_docs: continue
+            intavia_obj = json.load(open(filepath))
+            print(f"[{ctr}] {filepath}")
+            if len(intavia_obj['data']['text']) > 0:
+                corpus.append({'text_id': bio_id, 'source': intavia_obj['source'], 'partition': intavia_obj['partition'], 'task': "direct_ner_link", 'prompt_text': f"{direct_ner_linking_prompt}{intavia_obj['data']['text']}\n\n"})
+            else:
+                corpus.append(None)
+            ctr += 1
+
+    print("\n### -------- PRICING FOR GPT 3.5 (ChatGPT) -------- ###")
+    tokens_gpt3_5 = compute_pricing(corpus, CHAT_GPT_PER_TOKEN_COST, CHAT_GPT_ENCODING)
+    total_cost_gpt3_5 = tokens_gpt3_5*CHAT_GPT_PER_TOKEN_COST
+
+    print(f"\n--- Pricing TOTAL ---\nTotal Price = {total_cost_gpt3_5:.2f} USD\n")
+
+    openai.api_key = OPENAI_API_KEY
+    
+    # ### ------- DO THE ACTUAL PREDICTIONS USING GPT 3.5 a.k.a ChatGPT (THIS SECTION COSTS MONEY!!! )------
+    # # exit()
+    # use_model = "gpt-3.5-turbo"
+    # ctr = 0
+    # for i, obj in enumerate(corpus):
+    #     if "json" in formats: output_file = f"data/gpt-3/{obj['text_id']}.{use_model}.{obj['task']}.json"
+    #     if "tsv" in formats: output_tsv = f"data/gpt-3/{obj['text_id']}.{use_model}.{obj['task']}.tsv"
+    #     if not os.path.exists(output_file):
+    #         print(f"Processing [{i}|{ctr}]: {obj['text_id']}")
+    #         if obj:
+    #             prompt = obj['prompt_text'][:4096]
+    #             response = send_openai_chat_completion_request(use_model, prompt)
+    #             response_text = response["choices"][0]["message"]["content"]
+    #             obj["response"] = response
+    #             if "json" in formats:
+    #                 json.dump(obj, open(output_file, "w"), indent=2)
+    #             if "tsv" in formats:
+    #                 with open(output_tsv, "w") as f:
+    #                     f.write(response_text)
+    #         else:
+    #             if "json" in formats:
+    #                 json.dump({"Status": "No_Text"}, open(output_file, "w"), indent=2)
+    #             if "tsv" in formats:
+    #                 with open(output_tsv, "w") as f:
+    #                     f.write("")
+    #         ctr += 1
+    #     else:
+    #         print(f"Skipping {obj['text_id']}")
+
 
 def get_bio_texts(source: str, append_prompt: str = "", task_name: str = "my_task"):
     data = []
@@ -423,6 +493,7 @@ if __name__ == '__main__':
     ### Uncomment the following only IF needed:
 
     # main_for_old_src_experiments()
+    # main_biographynet_testset()
     # gold_files = [ "/Users/daza/Repos/my-vu-experiments/BiographyNet/data/biographynet_test_B_gold.json", "/Users/daza/Repos/my-vu-experiments/BiographyNet/data/biographynet_test_B_gold.json",
     #               "/Users/daza/Repos/my-vu-experiments/BiographyNet/data/biographynet_test_C_gold.json"]
     # evaluate_ner_outputs(model="text-davinci-003", task="direct_ner", outputs_parent_path="data/gpt-3", gold_paths=gold_files, valid_labels=['PER', 'ORG', 'LOC'])
@@ -431,4 +502,4 @@ if __name__ == '__main__':
     #extract_translations(model="gpt-3.5-turbo", task="translation", outputs_parent_path="data/gpt-3")
     #extract_translations(model="text-davinci-003", task="translation", outputs_parent_path="data/gpt-3")
 
-    evaluate_wiki_gold_ner("gpt-3.5-turbo", valid_labels=["PER", "LOC", "ORG", "MISC"])
+    # evaluate_wiki_gold_ner("gpt-3.5-turbo", valid_labels=["PER", "LOC", "ORG", "MISC"])

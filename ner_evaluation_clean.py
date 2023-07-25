@@ -32,6 +32,7 @@ def document_ner_evaluation(reference_entities: List[IntaviaEntity], predicted_e
         else:
             per_label_table.append([lbl, "-", "-", "-", "-"])
     # TOTAL MACRO (Unweighted Average of Scores)
+    macro_metrics = {"P": 0, "R": 0, "F1": 0, "Frequency": total_freq}
     if  total_freq > 0:
         macro_p = statistics.mean(macro_p)
         macro_r = statistics.mean(macro_r)
@@ -142,7 +143,7 @@ def system_label_report(systems_metrics: Dict[str, Any]) -> List[List[Any]]:
     return report_table
 
 
-def evaluate_bionet_intavia(nlp_systems):
+def evaluate_bionet_intavia(nlp_systems: List[str], valid_labels: List[str]):
     intavia_files_root = "flask_app/backend_data/intavia_json/*"
     gold_paths = ["data/bionet_gold/biographynet_test_A_gold.json",
                   "data/bionet_gold/biographynet_test_B_gold.json", 
@@ -150,9 +151,6 @@ def evaluate_bionet_intavia(nlp_systems):
     gold_docs = {}
     for gold_path in gold_paths:
         gold_docs.update(json.load(open(gold_path)))
-
-    # Here we must know which labels need to be evaluated
-    valid_labels = ["PER", "LOC", "ORG", "MISC"]
 
     # Here we must know which system_keys are present in the NLP JSONs
     sys_general_dict = {}
@@ -173,10 +171,10 @@ def evaluate_bionet_intavia(nlp_systems):
                 pred_ents_dict = defaultdict(list)
                 for ent in json.load(open(bio_path))["data"]["entities"]:
                     intavia_ent = IntaviaEntity(**ent)
+                    intavia_ent.normalize_label()
                     pred_ents_dict[f"{intavia_ent.method}"].append(intavia_ent)
                 # Sort Reference Entities
                 gold_ents = sorted(gold_ents, key = lambda ent: ent.locationStart)
-                cheche = None
                 if len(gold_ents) > 0:
                     last_char_to_eval = gold_ents[-1].locationEnd + 1
                     # Evaluation of Systems
@@ -187,7 +185,6 @@ def evaluate_bionet_intavia(nlp_systems):
                             pred_ents = sorted(pred_ents, key = lambda ent: ent.locationStart) 
                             # Get Metrics
                             doc_metrics = document_ner_evaluation(gold_ents, pred_ents, valid_labels)
-                            if sys_name == "human_gold": cheche = doc_metrics["eval_metrics"]
                             per_label = doc_metrics["per_label_dict"]
                             for lbl, metrics in per_label.items():
                                 if lbl not in ["MICRO", "MACRO"]:
@@ -230,4 +227,6 @@ def evaluate_bionet_intavia(nlp_systems):
 
 
 if __name__ == "__main__":
-    evaluate_bionet_intavia(["stanza_nl", "human_gold", "flair/ner-dutch-large_0.12.2"])
+    systems = ["stanza_nl", "human_gold", "flair/ner-dutch-large_0.12.2", "gysbert_hist_fx_finetuned_epoch2", "gpt-3.5-turbo"]
+    valid_labels = ["PER", "LOC"]
+    evaluate_bionet_intavia(systems, valid_labels)

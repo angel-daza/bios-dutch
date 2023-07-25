@@ -14,6 +14,7 @@ import seaborn as sns; sns.set_theme()
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 import pandas as pd
 import os
+from nltk.util import ngrams
 
 INPUT_JSON = "data/AllBios_Unified.jsonl"
 SAVE_RESULTS_PATH = "data/BioNetStats"
@@ -26,14 +27,14 @@ def main():
     bionet_people = [MetadataComplete.from_json(json.loads(l)) for l in open(INPUT_JSON).readlines()]
     print(f"Analyzing {len(bionet_people)} individuals")
 
-    # ### Distribution of unique people across sources
-    source_distribution(bionet_people)
-    source_distribution(bionet_people, partition='train')
-    source_distribution(bionet_people, partition='development')
-    source_distribution(bionet_people, partition='test')
+    # # ### Distribution of unique people across sources
+    # source_distribution(bionet_people)
+    # source_distribution(bionet_people, partition='train')
+    # source_distribution(bionet_people, partition='development')
+    # source_distribution(bionet_people, partition='test')
 
-    # ### Stats about how complete is the metadata even after unifying everyone
-    verify_unified_metadata(bionet_people)
+    # # ### Stats about how complete is the metadata even after unifying everyone
+    # verify_unified_metadata(bionet_people)
 
 
     # #### Collect Global Info
@@ -42,6 +43,7 @@ def main():
     # Proportion of Males and Females - Using Metadata Only
     gender_list = gender_analysis(bionet_people)
     evaluate_inferred_gender(bionet_people)
+    exit()
 
 
     # Occupation <--> Gender co-occurrences
@@ -470,17 +472,74 @@ def evaluate_inferred_birth_dates(people: List[MetadataComplete]):
 
 
 def evaluate_inferred_gender(people: List[MetadataComplete]):
-    true_gender, pred_gender = [], []
+    true_gender, pred_gender1, pred_gender2 = [], [], []
+    fem_names, masc_names, all_names = [], [], []
+
+    original_gender, predicted_gender_real, predicted_gender_unk_only = [], [], []
+
     for p in people:
+        # Gender Info
         gender = p.getGender()
+        predicted_gen = p.getGender_predicted_first_pronoun()
         if gender:
-            pred_gender.append(p.getGender_predicted())
+            pred_gender1.append(p.getGender_predicted_pronoun_votes())
+            pred_gender2.append(p.getGender_predicted_first_pronoun())
             true_gender.append(gender)
-    print("-------- Predicted Gender Evaluation --------\n\n")
-    print(classification_report(true_gender, pred_gender, labels=['male', 'female']))
+        # Name Info
+        name_onegrams = ["<S>"] + p.getName('unique_longest').split() + ["</S>"]
+        name_bigrams = ["_".join(n) for n in ngrams(name_onegrams,2)]
+        name_trigrams = ["_".join(n) for n in ngrams(name_onegrams,3)]
+        all_names += name_onegrams
+        all_names += name_bigrams
+        all_names += name_trigrams
+        if gender == 'female':
+            fem_names += name_onegrams
+            fem_names += name_bigrams
+            fem_names += name_trigrams
+            predicted_gender_unk_only.append('female')
+        if gender == 'male':
+            masc_names += name_onegrams
+            masc_names += name_bigrams
+            masc_names += name_trigrams
+            predicted_gender_unk_only.append('male')
+        elif predicted_gen == 'female':
+            fem_names += name_onegrams
+            fem_names += name_bigrams
+            fem_names += name_trigrams
+            predicted_gender_unk_only.append(predicted_gen)
+        elif predicted_gen == 'male':
+            masc_names += name_onegrams
+            masc_names += name_bigrams
+            masc_names += name_trigrams
+            predicted_gender_unk_only.append(predicted_gen)
+
+        # For general Stats after using the predictor
+        original_gender.append(gender)
+        predicted_gender_real.append(predicted_gen)
+        
+
+    # Evaluation of Gender Predictions
+    print("-------- Predicted Gender Evaluation (First Pronoun) --------\n\n")
+    print(classification_report(true_gender, pred_gender2, labels=['male', 'female']))
     print("\n")
-    print(confusion_matrix(true_gender, pred_gender))
+    print(confusion_matrix(true_gender, pred_gender2))
     print("\n")
+    print("-------- Predicted Gender Evaluation (Votes) --------\n\n")
+    print(classification_report(true_gender, pred_gender1, labels=['male', 'female']))
+    print("\n")
+    print(confusion_matrix(true_gender, pred_gender1))
+    print("\n")
+
+    print("From Metadata:", Counter(original_gender).most_common())
+    print("Adding for UNK Only:", Counter(predicted_gender_unk_only).most_common())
+    print("After Predicting All:", Counter(predicted_gender_real).most_common())
+
+    # Name Explorer
+    pd.DataFrame(Counter(all_names).most_common()).to_csv("names_all_ngrams.csv")
+    pd.DataFrame(Counter(fem_names).most_common()).to_csv("names_fem_ngrams.csv")
+    pd.DataFrame(Counter(masc_names).most_common()).to_csv("names_masc_ngrams.csv")
+    
+    
     
 
 def show_lifespans_per_century(people_dict: Dict[str, List[MetadataComplete]]) -> Dict[str, List[int]]:

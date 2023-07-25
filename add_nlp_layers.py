@@ -2,6 +2,7 @@ from typing import List,Dict, Any, Tuple
 import glob, json, os
 from utils.nlp_tasks import run_flair
 import argparse
+import pandas as pd
 
 from flair import __version__ as flair_version
 from flair.data import Sentence
@@ -17,6 +18,14 @@ from pymongo import MongoClient
 COLLECTION_NAME = f"bionet_intavia"
 DB_NAME = "biographies"
 
+# A cheat to add layers only on biographies present in the Test Set
+gold_paths = ["data/bionet_gold/biographynet_test_A_gold.json",
+                  "data/bionet_gold/biographynet_test_B_gold.json", 
+                  "data/bionet_gold/biographynet_test_C_gold.json"]
+gold_docs = {}
+for gold_path in gold_paths:
+    gold_docs.update(json.load(open(gold_path)))
+
 
 def main_bionet_intavia_files(nlp_config: Dict[str, Any]):
     JSON_BASEPATH = "flask_app/backend_data/intavia_json/*"
@@ -24,6 +33,8 @@ def main_bionet_intavia_files(nlp_config: Dict[str, Any]):
     ctr = 0
     for src_path in glob.glob(JSON_BASEPATH):
         for filepath in glob.glob(f"{src_path}/*.json"):
+            bio_id = os.path.basename(filepath).strip(".json")
+            # if bio_id not in gold_docs: continue # TODO: This is only A TRICK to only add for the Test Set. Should be disabled or parametrized!
             print(f"[{ctr}] {filepath}")
             intavia_obj = json.load(open(filepath))
             included_models = set([ent['method'] for ent in intavia_obj['data'].get('entities', [])])
@@ -46,6 +57,12 @@ def main_bionet_intavia_files(nlp_config: Dict[str, Any]):
                 bert_nlp = nlp_config["bert_ner"]["bert_pipeline"]
                 wordpiece_chars= nlp_config["bert_ner"]["wordpiece_chars"]
                 intavia_obj = add_bert_based_ner(intavia_obj, stanza_nlp, bert_nlp, model_label, model_version, wordpiece_chars)
+            if "chatgpt_ner" in nlp_config and "gpt-3.5-turbo" not in included_models:
+                gpt_outputs = nlp_config["chatgpt_ner"]["model_outputs"]
+                model_label = nlp_config["chatgpt_ner"]["model_json_label"]
+                if intavia_obj["text_id"] in gpt_outputs:
+                    print("Adding GPT3.5 NER")
+                    intavia_obj = add_chatgpt_ner(intavia_obj, gpt_outputs[intavia_obj["text_id"]], model_label)
             # Override File with New Object
             json.dump(intavia_obj, open(filepath, "w"), indent=2, ensure_ascii=False)
             ctr += 1
@@ -76,6 +93,14 @@ def main_bionet_intavia_mongo(nlp_config: Dict[str, Any]):
             flair_tagger = nlp_config["flair_ner"]["flair_tagger"]
             flair_splitter = nlp_config["flair_ner"]["flair_splitter"]
             intavia_obj = add_flair_ner(intavia_obj, flair_model, flair_tagger, flair_splitter)
+        if "bert_ner" in nlp_config:
+            model_label = nlp_config["bert_ner"]["model_json_label"]
+            print(f"Adding {model_label}")
+            model_version = nlp_config["bert_ner"]["model_json_version"]
+            stanza_nlp = nlp_config["bert_ner"]["stanza"]
+            bert_nlp = nlp_config["bert_ner"]["bert_pipeline"]
+            wordpiece_chars= nlp_config["bert_ner"]["wordpiece_chars"]
+            intavia_obj = add_bert_based_ner(intavia_obj, stanza_nlp, bert_nlp, model_label, model_version, wordpiece_chars)
         # Accumulate batch with NEW objects
         batched_docs.append(intavia_obj)
         batched_ids.append(intavia_obj['_id'])
@@ -170,6 +195,18 @@ def add_bert_based_ner(intavia_obj: Dict[str, Any], stanza_nlp: Any, bert_nlp: s
     return intavia_obj
 
 
+def add_chatgpt_ner(intavia_obj, gpt_outputs, model_label):
+    gpt_ents = []
+    for i, ner_obj in enumerate(gpt_outputs):
+        gpt_ents.append({'ID': f"{model_label}_{i}", 
+                        'category': ner_obj['Label'], 
+                        'surfaceForm': ner_obj['Entity'], 
+                        'locationStart': ner_obj['Span Start'], 
+                        'locationEnd': ner_obj['Span End'],
+                        'method': f'{model_label}'
+                        })
+    intavia_obj['data']['entities'] += gpt_ents
+    return intavia_obj
 
 if __name__ == "__main__":
     """
@@ -180,6 +217,7 @@ if __name__ == "__main__":
             python add_nlp_layers.py --mode mongo --gold_ner
 
             python add_nlp_layers.py --mode files --gysbert_ner 
+            python add_nlp_layers.py --mode files --chatgpt_ner 
 
     """
 
@@ -193,6 +231,7 @@ if __name__ == "__main__":
     parser.add_argument('-gn', '--gold_ner', help='', action='store_true', default=False)
     parser.add_argument('-fn', '--flair_ner', help='', action='store_true', default=False)
     parser.add_argument('-bn', '--gysbert_ner', help='', action='store_true', default=False)
+    parser.add_argument('-gpt', '--chatgpt_ner', help='', action='store_true', default=False)
 
     args = parser.parse_args()
 
@@ -230,6 +269,25 @@ if __name__ == "__main__":
             "bert_pipeline": bert_nlp,
             "wordpiece_chars": "##"
         }
+    if args.chatgpt_ner:
+        # For security, this mode sssumes the model predictions were already run.
+        # Here we only read the outputs as they were saved in the disk
+        NLP_CONFIG["chatgpt_ner"] = {
+            "gpt_outputs_dir": "data/gpt-3/test_set_structured",
+            "model_json_label": "gpt-3.5-turbo"
+        }
+        err = 0
+        gpt_outputs = {}
+        for filepath in glob.glob(f"{NLP_CONFIG['chatgpt_ner']['gpt_outputs_dir']}/*.tsv"):
+            bio_id = os.path.basename(filepath).split(".")[0]
+            try:
+                content = pd.read_csv(filepath, sep="\t").to_dict(orient='records')
+                gpt_outputs[bio_id] = content
+            except:
+                print(f"Pandas CSV READ ERROR [{err}]: {filepath}")
+                err += 1
+                gpt_outputs[bio_id] = []
+        NLP_CONFIG["chatgpt_ner"]["model_outputs"] = gpt_outputs
 
     # More BERT-BASED
     # "surferfelix/ner-bertje-tagdetekst", "GroNLP/bert-base-dutch-cased", "bertje_hist"
