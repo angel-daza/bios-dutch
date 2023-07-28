@@ -1,0 +1,396 @@
+{
+  "text_id": "18890554_11",
+  "nlp_preprocessor": "stanza_nl",
+  "data": {
+    "text": "Portret van Lucas Trelcatius I Portret van de Leidse theoloog Lucas Trelcatius de oudere.",
+    "tokenization": {
+      "stanza_nl": [
+        "Portret",
+        "van",
+        "Lucas",
+        "Trelcatius",
+        "I",
+        "Portret",
+        "van",
+        "de",
+        "Leidse",
+        "theoloog",
+        "Lucas",
+        "Trelcatius",
+        "de",
+        "oudere",
+        "."
+      ]
+    },
+    "morpho_syntax": {
+      "stanza_nl": [
+        {
+          "paragraphID": null,
+          "sentenceID": 0,
+          "text": "Portret van Lucas Trelcatius I Portret van de Leidse theoloog Lucas Trelcatius de oudere.",
+          "tokenized": "Portret van Lucas Trelcatius I Portret van de Leidse theoloog Lucas Trelcatius de oudere .",
+          "words": [
+            {
+              "ID": 0,
+              "FORM": "Portret",
+              "LEMMA": "portret",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|onz|stan",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 0,
+                "EndChar": 7
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 1,
+              "FORM": "van",
+              "LEMMA": "van",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 3,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 8,
+                "EndChar": 11
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 2,
+              "FORM": "Lucas",
+              "LEMMA": "Lucas",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 1,
+              "DEPREL": "nmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 12,
+                "EndChar": 17
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 3,
+              "FORM": "Trelcatius",
+              "LEMMA": "Trelcatius",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 3,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 18,
+                "EndChar": 28
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 4,
+              "FORM": "I",
+              "LEMMA": "I",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 3,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 29,
+                "EndChar": 30
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 5,
+              "FORM": "Portret",
+              "LEMMA": "portret",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|onz|stan",
+              "HEAD": 3,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 31,
+                "EndChar": 38
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 6,
+              "FORM": "van",
+              "LEMMA": "van",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 10,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 39,
+                "EndChar": 42
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 7,
+              "FORM": "de",
+              "LEMMA": "de",
+              "UPOS": "DET",
+              "XPOS": "LID|bep|stan|rest",
+              "HEAD": 10,
+              "DEPREL": "det",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 43,
+                "EndChar": 45
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 8,
+              "FORM": "Leidse",
+              "LEMMA": "Leids",
+              "UPOS": "ADJ",
+              "XPOS": "ADJ|prenom|basis|met-e|stan",
+              "HEAD": 10,
+              "DEPREL": "amod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 46,
+                "EndChar": 52
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 9,
+              "FORM": "theoloog",
+              "LEMMA": "theoloog",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 1,
+              "DEPREL": "nmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 53,
+                "EndChar": 61
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 10,
+              "FORM": "Lucas",
+              "LEMMA": "Lucas",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 10,
+              "DEPREL": "appos",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 62,
+                "EndChar": 67
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 11,
+              "FORM": "Trelcatius",
+              "LEMMA": "Trelcatius",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 11,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 68,
+                "EndChar": 78
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 12,
+              "FORM": "de",
+              "LEMMA": "de",
+              "UPOS": "DET",
+              "XPOS": "LID|bep|stan|rest",
+              "HEAD": 14,
+              "DEPREL": "det",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 79,
+                "EndChar": 81
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 13,
+              "FORM": "oudere",
+              "LEMMA": "oud",
+              "UPOS": "ADJ",
+              "XPOS": "ADJ|nom|comp|met-e|zonder-n|stan",
+              "HEAD": 1,
+              "DEPREL": "conj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 82,
+                "EndChar": 88
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 14,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 1,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 88,
+                "EndChar": 89
+              },
+              "FEATS": []
+            }
+          ]
+        }
+      ]
+    },
+    "entities": [
+      {
+        "ID": "stanza_nl_0",
+        "surfaceForm": "Lucas Trelcatius I",
+        "category": "PER",
+        "locationStart": 12,
+        "locationEnd": 30,
+        "tokenStart": 2,
+        "tokenEnd": 5,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_0",
+        "surfaceForm": "Lucas Trelcatius I",
+        "category": "PER",
+        "locationStart": 12,
+        "locationEnd": 30,
+        "tokenStart": 2,
+        "tokenEnd": 5,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_0",
+        "category": "PER",
+        "surfaceForm": "Lucas Trelcatius",
+        "locationStart": 12,
+        "locationEnd": 28,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_0",
+        "category": "PER",
+        "surfaceForm": "lucas trelcatius",
+        "locationStart": 12,
+        "locationEnd": 28,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_1",
+        "surfaceForm": "Leidse",
+        "category": "MISC",
+        "locationStart": 46,
+        "locationEnd": 52,
+        "tokenStart": 8,
+        "tokenEnd": 9,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_0",
+        "category": "MISC",
+        "surfaceForm": "Leidse",
+        "locationStart": 46,
+        "locationEnd": 52,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "stanza_nl_2",
+        "surfaceForm": "Lucas Trelcatius",
+        "category": "PER",
+        "locationStart": 62,
+        "locationEnd": 78,
+        "tokenStart": 10,
+        "tokenEnd": 12,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_1",
+        "surfaceForm": "Lucas Trelcatius",
+        "category": "PER",
+        "locationStart": 62,
+        "locationEnd": 78,
+        "tokenStart": 10,
+        "tokenEnd": 12,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_0",
+        "category": "PER",
+        "surfaceForm": "Lucas Trelcatius",
+        "locationStart": 62,
+        "locationEnd": 78,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_0",
+        "category": "PER",
+        "surfaceForm": "lucas trelcatius",
+        "locationStart": 62,
+        "locationEnd": 78,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      }
+    ],
+    "time_expressions": []
+  },
+  "id_person": "18890554",
+  "version": "11",
+  "source": "rijksmuseum",
+  "name": "lucas (i) trelcatius",
+  "partition": "test",
+  "birth_pl": null,
+  "birth_tm": "1542",
+  "baptism_pl": null,
+  "baptism_tm": null,
+  "death_pl": "Leiden",
+  "death_tm": "1602-08-28",
+  "funeral_pl": null,
+  "funeral_tm": null,
+  "marriage_pl": null,
+  "marriage_tm": null,
+  "gender": null,
+  "category": null,
+  "father": null,
+  "mother": null,
+  "partner": null,
+  "religion": null,
+  "educations": null,
+  "faiths": null,
+  "occupations": null,
+  "residences": null
+}

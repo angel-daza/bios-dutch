@@ -1,0 +1,801 @@
+{
+  "text_id": "16825266_22",
+  "nlp_preprocessor": "stanza_nl",
+  "data": {
+    "text": "Portret van Johannes Coccejus (1603 - 1669), hoogleraar in de theologie. ABM-g00568 (zwarte kunst), Protestantse portretten van Museum Catharijneconvent en Vrije Universiteit, Amsterdam",
+    "tokenization": {
+      "stanza_nl": [
+        "Portret",
+        "van",
+        "Johannes",
+        "Coccejus",
+        "(",
+        "1603",
+        "-",
+        "1669",
+        ")",
+        ",",
+        "hoogleraar",
+        "in",
+        "de",
+        "theologie",
+        ".",
+        "ABM-g00568",
+        "(",
+        "zwarte",
+        "kunst",
+        ")",
+        ",",
+        "Protestantse",
+        "portretten",
+        "van",
+        "Museum",
+        "Catharijneconvent",
+        "en",
+        "Vrije",
+        "Universiteit",
+        ",",
+        "Amsterdam"
+      ]
+    },
+    "morpho_syntax": {
+      "stanza_nl": [
+        {
+          "paragraphID": null,
+          "sentenceID": 0,
+          "text": "Portret van Johannes Coccejus (1603 - 1669), hoogleraar in de theologie. ",
+          "tokenized": "Portret van Johannes Coccejus ( 1603 - 1669 ) , hoogleraar in de theologie .",
+          "words": [
+            {
+              "ID": 0,
+              "FORM": "Portret",
+              "LEMMA": "portret",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|onz|stan",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 0,
+                "EndChar": 7
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 1,
+              "FORM": "van",
+              "LEMMA": "van",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 3,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 8,
+                "EndChar": 11
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 2,
+              "FORM": "Johannes",
+              "LEMMA": "Johannes",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 1,
+              "DEPREL": "nmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 12,
+                "EndChar": 20
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 3,
+              "FORM": "Coccejus",
+              "LEMMA": "Coccejus",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 3,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 21,
+                "EndChar": 29
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 4,
+              "FORM": "(",
+              "LEMMA": "(",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 6,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 30,
+                "EndChar": 31
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 5,
+              "FORM": "1603",
+              "LEMMA": "1603",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 3,
+              "DEPREL": "nmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 31,
+                "EndChar": 35
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 6,
+              "FORM": "-",
+              "LEMMA": "-",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 8,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 36,
+                "EndChar": 37
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 7,
+              "FORM": "1669",
+              "LEMMA": "1669",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 6,
+              "DEPREL": "parataxis",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 38,
+                "EndChar": 42
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 8,
+              "FORM": ")",
+              "LEMMA": ")",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 6,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 42,
+                "EndChar": 43
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 9,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 11,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 43,
+                "EndChar": 44
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 10,
+              "FORM": "hoogleraar",
+              "LEMMA": "hoogleraar",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 1,
+              "DEPREL": "appos",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 45,
+                "EndChar": 55
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 11,
+              "FORM": "in",
+              "LEMMA": "in",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 14,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 56,
+                "EndChar": 58
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 12,
+              "FORM": "de",
+              "LEMMA": "de",
+              "UPOS": "DET",
+              "XPOS": "LID|bep|stan|rest",
+              "HEAD": 14,
+              "DEPREL": "det",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 59,
+                "EndChar": 61
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 13,
+              "FORM": "theologie",
+              "LEMMA": "theologie",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 11,
+              "DEPREL": "nmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 62,
+                "EndChar": 71
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 14,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 1,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 71,
+                "EndChar": 72
+              },
+              "FEATS": []
+            }
+          ]
+        },
+        {
+          "paragraphID": null,
+          "sentenceID": 1,
+          "text": "ABM-g00568 (zwarte kunst), Protestantse portretten van Museum Catharijneconvent en Vrije Universiteit, Amsterdam",
+          "tokenized": "ABM-g00568 ( zwarte kunst ) , Protestantse portretten van Museum Catharijneconvent en Vrije Universiteit , Amsterdam",
+          "words": [
+            {
+              "ID": 15,
+              "FORM": "ABM-g00568",
+              "LEMMA": "ABM-g00568",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 73,
+                "EndChar": 83
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 16,
+              "FORM": "(",
+              "LEMMA": "(",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 4,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 84,
+                "EndChar": 85
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 17,
+              "FORM": "zwarte",
+              "LEMMA": "zwart",
+              "UPOS": "ADJ",
+              "XPOS": "ADJ|prenom|basis|met-e|stan",
+              "HEAD": 4,
+              "DEPREL": "amod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 85,
+                "EndChar": 91
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 18,
+              "FORM": "kunst",
+              "LEMMA": "kunst",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 1,
+              "DEPREL": "nmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 92,
+                "EndChar": 97
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 19,
+              "FORM": ")",
+              "LEMMA": ")",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 4,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 97,
+                "EndChar": 98
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 20,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 8,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 98,
+                "EndChar": 99
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 21,
+              "FORM": "Protestantse",
+              "LEMMA": "Protestants",
+              "UPOS": "ADJ",
+              "XPOS": "ADJ|prenom|basis|met-e|stan",
+              "HEAD": 8,
+              "DEPREL": "amod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 100,
+                "EndChar": 112
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 22,
+              "FORM": "portretten",
+              "LEMMA": "portret",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|mv|basis",
+              "HEAD": 1,
+              "DEPREL": "conj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 113,
+                "EndChar": 123
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 23,
+              "FORM": "van",
+              "LEMMA": "van",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 10,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 124,
+                "EndChar": 127
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 24,
+              "FORM": "Museum",
+              "LEMMA": "Museum",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 8,
+              "DEPREL": "nmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 128,
+                "EndChar": 134
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 25,
+              "FORM": "Catharijneconvent",
+              "LEMMA": "Catharijneconvent",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 10,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 135,
+                "EndChar": 152
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 26,
+              "FORM": "en",
+              "LEMMA": "en",
+              "UPOS": "CCONJ",
+              "XPOS": "VG|neven",
+              "HEAD": 13,
+              "DEPREL": "cc",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 153,
+                "EndChar": 155
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 27,
+              "FORM": "Vrije",
+              "LEMMA": "Vrije",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 10,
+              "DEPREL": "conj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 156,
+                "EndChar": 161
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 28,
+              "FORM": "Universiteit",
+              "LEMMA": "Universiteit",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 13,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 162,
+                "EndChar": 174
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 29,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 16,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 174,
+                "EndChar": 175
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 30,
+              "FORM": "Amsterdam",
+              "LEMMA": "Amsterdam",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|onz|stan",
+              "HEAD": 10,
+              "DEPREL": "conj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 176,
+                "EndChar": 185
+              },
+              "FEATS": []
+            }
+          ]
+        }
+      ]
+    },
+    "entities": [
+      {
+        "ID": "stanza_nl_0",
+        "surfaceForm": "Johannes Coccejus",
+        "category": "PER",
+        "locationStart": 12,
+        "locationEnd": 29,
+        "tokenStart": 2,
+        "tokenEnd": 4,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_1",
+        "surfaceForm": "Johannes Coccejus",
+        "category": "PER",
+        "locationStart": 12,
+        "locationEnd": 29,
+        "tokenStart": 2,
+        "tokenEnd": 4,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_0",
+        "category": "PER",
+        "surfaceForm": "Johannes Coccejus",
+        "locationStart": 12,
+        "locationEnd": 29,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_0",
+        "category": "PER",
+        "surfaceForm": "johannes coccejus",
+        "locationStart": 12,
+        "locationEnd": 29,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gold_4",
+        "surfaceForm": "1603 - 1669",
+        "category": "TIME",
+        "locationStart": 31,
+        "locationEnd": 42,
+        "tokenStart": 5,
+        "tokenEnd": 8,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_0",
+        "category": "TIME",
+        "surfaceForm": "1603",
+        "locationStart": 31,
+        "locationEnd": 35,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gysbert_hist_0",
+        "category": "TIME",
+        "surfaceForm": "1669",
+        "locationStart": 38,
+        "locationEnd": 42,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "flair_1",
+        "category": "MISC",
+        "surfaceForm": "ABM-g00568",
+        "locationStart": 73,
+        "locationEnd": 83,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "stanza_nl_1",
+        "surfaceForm": "Protestantse",
+        "category": "MISC",
+        "locationStart": 100,
+        "locationEnd": 112,
+        "tokenStart": 21,
+        "tokenEnd": 22,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_1",
+        "category": "MISC",
+        "surfaceForm": "Protestantse",
+        "locationStart": 100,
+        "locationEnd": 112,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "stanza_nl_2",
+        "surfaceForm": "Museum Catharijneconvent",
+        "category": "LOC",
+        "locationStart": 128,
+        "locationEnd": 152,
+        "tokenStart": 24,
+        "tokenEnd": 26,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_0",
+        "surfaceForm": "Museum Catharijneconvent",
+        "category": "ORG",
+        "locationStart": 128,
+        "locationEnd": 152,
+        "tokenStart": 24,
+        "tokenEnd": 26,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_1",
+        "category": "LOC",
+        "surfaceForm": "Museum Catharijneconvent",
+        "locationStart": 128,
+        "locationEnd": 152,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_1",
+        "category": "LOC",
+        "surfaceForm": "catharijneconvent",
+        "locationStart": 135,
+        "locationEnd": 152,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_3",
+        "surfaceForm": "Vrije Universiteit",
+        "category": "ORG",
+        "locationStart": 156,
+        "locationEnd": 174,
+        "tokenStart": 27,
+        "tokenEnd": 29,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_2",
+        "surfaceForm": "Vrije Universiteit",
+        "category": "ORG",
+        "locationStart": 156,
+        "locationEnd": 174,
+        "tokenStart": 27,
+        "tokenEnd": 29,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_1",
+        "category": "ORG",
+        "surfaceForm": "Vrije Universiteit",
+        "locationStart": 156,
+        "locationEnd": 174,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_1",
+        "category": "LOC",
+        "surfaceForm": "vrije universiteit",
+        "locationStart": 156,
+        "locationEnd": 174,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_4",
+        "surfaceForm": "Amsterdam",
+        "category": "LOC",
+        "locationStart": 176,
+        "locationEnd": 185,
+        "tokenStart": 30,
+        "tokenEnd": 31,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_3",
+        "surfaceForm": "Amsterdam",
+        "category": "LOC",
+        "locationStart": 176,
+        "locationEnd": 185,
+        "tokenStart": 30,
+        "tokenEnd": 31,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_1",
+        "category": "LOC",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 176,
+        "locationEnd": 185,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_1",
+        "category": "LOC",
+        "surfaceForm": "amsterdam",
+        "locationStart": 176,
+        "locationEnd": 185,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      }
+    ],
+    "time_expressions": [
+      {
+        "ID": "t0",
+        "category": "DATE",
+        "value": "1603",
+        "surfaceForm": "1603",
+        "locationStart": 31,
+        "locationEnd": 35,
+        "method": "heideltime"
+      },
+      {
+        "ID": "t1",
+        "category": "DATE",
+        "value": "1669",
+        "surfaceForm": "1669",
+        "locationStart": 38,
+        "locationEnd": 42,
+        "method": "heideltime"
+      }
+    ]
+  },
+  "id_person": "16825266",
+  "version": "22",
+  "source": "portraits",
+  "name": "johannes coccejus",
+  "partition": "test",
+  "birth_pl": null,
+  "birth_tm": "1603",
+  "baptism_pl": null,
+  "baptism_tm": null,
+  "death_pl": null,
+  "death_tm": "1669",
+  "funeral_pl": null,
+  "funeral_tm": null,
+  "marriage_pl": null,
+  "marriage_tm": null,
+  "gender": null,
+  "category": null,
+  "father": null,
+  "mother": null,
+  "partner": null,
+  "religion": null,
+  "educations": null,
+  "faiths": null,
+  "occupations": null,
+  "residences": null
+}

@@ -1,0 +1,247 @@
+{
+  "text_id": "51482448_02",
+  "nlp_preprocessor": "stanza_nl",
+  "data": {
+    "text": "Is een braaf Antwerps Schilder geweest in stille leevens,",
+    "tokenization": {
+      "stanza_nl": [
+        "Is",
+        "een",
+        "braaf",
+        "Antwerps",
+        "Schilder",
+        "geweest",
+        "in",
+        "stille",
+        "leevens",
+        ","
+      ]
+    },
+    "morpho_syntax": {
+      "stanza_nl": [
+        {
+          "paragraphID": null,
+          "sentenceID": 0,
+          "text": "Is een braaf Antwerps Schilder geweest in stille leevens,",
+          "tokenized": "Is een braaf Antwerps Schilder geweest in stille leevens ,",
+          "words": [
+            {
+              "ID": 0,
+              "FORM": "Is",
+              "LEMMA": "zijn",
+              "UPOS": "AUX",
+              "XPOS": "WW|pv|tgw|ev",
+              "HEAD": 5,
+              "DEPREL": "aux",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 0,
+                "EndChar": 2
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 1,
+              "FORM": "een",
+              "LEMMA": "een",
+              "UPOS": "DET",
+              "XPOS": "LID|onbep|stan|agr",
+              "HEAD": 5,
+              "DEPREL": "det",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 3,
+                "EndChar": 6
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 2,
+              "FORM": "braaf",
+              "LEMMA": "braaf",
+              "UPOS": "ADJ",
+              "XPOS": "ADJ|prenom|basis|zonder",
+              "HEAD": 5,
+              "DEPREL": "amod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 7,
+                "EndChar": 12
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 3,
+              "FORM": "Antwerps",
+              "LEMMA": "Antwerps",
+              "UPOS": "ADJ",
+              "XPOS": "ADJ|prenom|basis|zonder",
+              "HEAD": 5,
+              "DEPREL": "amod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 13,
+                "EndChar": 21
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 4,
+              "FORM": "Schilder",
+              "LEMMA": "schilder",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 22,
+                "EndChar": 30
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 5,
+              "FORM": "geweest",
+              "LEMMA": "zijn",
+              "UPOS": "AUX",
+              "XPOS": "WW|vd|vrij|zonder",
+              "HEAD": 5,
+              "DEPREL": "cop",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 31,
+                "EndChar": 38
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 6,
+              "FORM": "in",
+              "LEMMA": "in",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 9,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 39,
+                "EndChar": 41
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 7,
+              "FORM": "stille",
+              "LEMMA": "stil",
+              "UPOS": "ADJ",
+              "XPOS": "ADJ|prenom|basis|met-e|stan",
+              "HEAD": 9,
+              "DEPREL": "amod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 42,
+                "EndChar": 48
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 8,
+              "FORM": "leevens",
+              "LEMMA": "leeven",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|mv|basis",
+              "HEAD": 5,
+              "DEPREL": "nmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 49,
+                "EndChar": 56
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 9,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 5,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 56,
+                "EndChar": 57
+              },
+              "FEATS": []
+            }
+          ]
+        }
+      ]
+    },
+    "entities": [
+      {
+        "ID": "stanza_nl_0",
+        "surfaceForm": "Antwerps",
+        "category": "MISC",
+        "locationStart": 13,
+        "locationEnd": 21,
+        "tokenStart": 3,
+        "tokenEnd": 4,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_0",
+        "category": "MISC",
+        "surfaceForm": "Antwerps",
+        "locationStart": 13,
+        "locationEnd": 21,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "flair_0",
+        "category": "MISC",
+        "surfaceForm": "Schilder",
+        "locationStart": 22,
+        "locationEnd": 30,
+        "method": "flair/ner-dutch-large_0.12.2"
+      }
+    ],
+    "time_expressions": []
+  },
+  "id_person": "51482448",
+  "version": "02",
+  "source": "weyerman",
+  "name": "alexander adriaanszen",
+  "partition": "test",
+  "birth_pl": null,
+  "birth_tm": null,
+  "baptism_pl": null,
+  "baptism_tm": null,
+  "death_pl": null,
+  "death_tm": null,
+  "funeral_pl": null,
+  "funeral_tm": null,
+  "marriage_pl": null,
+  "marriage_tm": null,
+  "gender": null,
+  "category": null,
+  "father": null,
+  "mother": null,
+  "partner": null,
+  "religion": null,
+  "educations": null,
+  "faiths": null,
+  "occupations": null,
+  "residences": null
+}

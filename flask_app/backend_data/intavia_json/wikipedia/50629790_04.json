@@ -1,0 +1,156 @@
+{
+  "text_id": "50629790_04",
+  "nlp_preprocessor": "stanza_nl",
+  "data": {
+    "text": "Zuylen Gerrit Willem",
+    "tokenization": {
+      "stanza_nl": [
+        "Zuylen",
+        "Gerrit",
+        "Willem"
+      ]
+    },
+    "morpho_syntax": {
+      "stanza_nl": [
+        {
+          "paragraphID": null,
+          "sentenceID": 0,
+          "text": "Zuylen Gerrit Willem",
+          "tokenized": "Zuylen Gerrit Willem",
+          "words": [
+            {
+              "ID": 0,
+              "FORM": "Zuylen",
+              "LEMMA": "Zuylen",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|zijd|stan",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 0,
+                "EndChar": 6
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 1,
+              "FORM": "Gerrit",
+              "LEMMA": "Gerrit",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 1,
+              "DEPREL": "appos",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 7,
+                "EndChar": 13
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 2,
+              "FORM": "Willem",
+              "LEMMA": "Willem",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 2,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 14,
+                "EndChar": 20
+              },
+              "FEATS": []
+            }
+          ]
+        }
+      ]
+    },
+    "entities": [
+      {
+        "ID": "stanza_nl_0",
+        "surfaceForm": "Zuylen",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 6,
+        "tokenStart": 0,
+        "tokenEnd": 1,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_0",
+        "surfaceForm": "Zuylen Gerrit Willem",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 20,
+        "tokenStart": 0,
+        "tokenEnd": 3,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_0",
+        "category": "PER",
+        "surfaceForm": "zuylen",
+        "locationStart": 0,
+        "locationEnd": 6,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_1",
+        "surfaceForm": "Gerrit Willem",
+        "category": "PER",
+        "locationStart": 7,
+        "locationEnd": 20,
+        "tokenStart": 1,
+        "tokenEnd": 3,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_0",
+        "category": "PER",
+        "surfaceForm": "Gerrit Willem",
+        "locationStart": 7,
+        "locationEnd": 20,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_0",
+        "category": "PER",
+        "surfaceForm": "gerrit willem",
+        "locationStart": 7,
+        "locationEnd": 20,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      }
+    ],
+    "time_expressions": []
+  },
+  "id_person": "50629790",
+  "version": "04",
+  "source": "wikipedia",
+  "name": "gerrit willem van zuylen van nievelt",
+  "partition": "test",
+  "birth_pl": null,
+  "birth_tm": "1807-08-12",
+  "baptism_pl": null,
+  "baptism_tm": null,
+  "death_pl": "Arnhem",
+  "death_tm": "1881-04-11",
+  "funeral_pl": null,
+  "funeral_tm": null,
+  "marriage_pl": null,
+  "marriage_tm": null,
+  "gender": null,
+  "category": null,
+  "father": null,
+  "mother": null,
+  "partner": null,
+  "religion": null,
+  "educations": null,
+  "faiths": null,
+  "occupations": null,
+  "residences": null
+}

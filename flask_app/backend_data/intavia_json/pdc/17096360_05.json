@@ -1,0 +1,1215 @@
+{
+  "text_id": "17096360_05",
+  "nlp_preprocessor": "stanza_nl",
+  "data": {
+    "text": "Enkhuizer regent uit een van oorsprong Delftse en later in Den Haag gevestigde familie, die deel uitmaakte van het Bataafse Wetgevende Lichaam, de Staten-Generaal van 1814 en de 'koninklijke' Eerste Kamer. Vervulde in zijn woonplaats tijdens de Republiek diverse bestuursfuncties.",
+    "tokenization": {
+      "stanza_nl": [
+        "Enkhuizer",
+        "regent",
+        "uit",
+        "een",
+        "van",
+        "oorsprong",
+        "Delftse",
+        "en",
+        "later",
+        "in",
+        "Den",
+        "Haag",
+        "gevestigde",
+        "familie",
+        ",",
+        "die",
+        "deel",
+        "uitmaakte",
+        "van",
+        "het",
+        "Bataafse",
+        "Wetgevende",
+        "Lichaam",
+        ",",
+        "de",
+        "Staten-Generaal",
+        "van",
+        "1814",
+        "en",
+        "de",
+        "'",
+        "koninklijke",
+        "'",
+        "Eerste",
+        "Kamer",
+        ".",
+        "Vervulde",
+        "in",
+        "zijn",
+        "woonplaats",
+        "tijdens",
+        "de",
+        "Republiek",
+        "diverse",
+        "bestuursfuncties",
+        "."
+      ]
+    },
+    "morpho_syntax": {
+      "stanza_nl": [
+        {
+          "paragraphID": null,
+          "sentenceID": 0,
+          "text": "Enkhuizer regent uit een van oorsprong ",
+          "tokenized": "Enkhuizer regent uit een van oorsprong",
+          "words": [
+            {
+              "ID": 0,
+              "FORM": "Enkhuizer",
+              "LEMMA": "Enkhuizer",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|onz|stan",
+              "HEAD": 2,
+              "DEPREL": "nsubj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 0,
+                "EndChar": 9
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 1,
+              "FORM": "regent",
+              "LEMMA": "regenen",
+              "UPOS": "VERB",
+              "XPOS": "WW|pv|tgw|met-t",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 10,
+                "EndChar": 16
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 2,
+              "FORM": "uit",
+              "LEMMA": "uit",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 4,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 17,
+                "EndChar": 20
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 3,
+              "FORM": "een",
+              "LEMMA": "één",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|nom|zonder-n|basis",
+              "HEAD": 2,
+              "DEPREL": "obl",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 21,
+                "EndChar": 24
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 4,
+              "FORM": "van",
+              "LEMMA": "van",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 6,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 25,
+                "EndChar": 28
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 5,
+              "FORM": "oorsprong",
+              "LEMMA": "oorsprong",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 4,
+              "DEPREL": "nmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 29,
+                "EndChar": 38
+              },
+              "FEATS": []
+            }
+          ]
+        },
+        {
+          "paragraphID": null,
+          "sentenceID": 1,
+          "text": "Delftse en later in Den Haag gevestigde familie, die deel uitmaakte van het Bataafse Wetgevende Lichaam, de Staten-Generaal van 1814 en de 'koninklijke' Eerste Kamer. ",
+          "tokenized": "Delftse en later in Den Haag gevestigde familie , die deel uitmaakte van het Bataafse Wetgevende Lichaam , de Staten-Generaal van 1814 en de ' koninklijke ' Eerste Kamer .",
+          "words": [
+            {
+              "ID": 6,
+              "FORM": "Delftse",
+              "LEMMA": "Delfts",
+              "UPOS": "ADJ",
+              "XPOS": "ADJ|prenom|basis|met-e|stan",
+              "HEAD": 8,
+              "DEPREL": "nmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 39,
+                "EndChar": 46
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 7,
+              "FORM": "en",
+              "LEMMA": "en",
+              "UPOS": "CCONJ",
+              "XPOS": "VG|neven",
+              "HEAD": 8,
+              "DEPREL": "cc",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 47,
+                "EndChar": 49
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 8,
+              "FORM": "later",
+              "LEMMA": "laat",
+              "UPOS": "ADJ",
+              "XPOS": "ADJ|vrij|comp|zonder",
+              "HEAD": 7,
+              "DEPREL": "advmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 50,
+                "EndChar": 55
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 9,
+              "FORM": "in",
+              "LEMMA": "in",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 5,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 56,
+                "EndChar": 58
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 10,
+              "FORM": "Den",
+              "LEMMA": "Den",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 7,
+              "DEPREL": "obl",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 59,
+                "EndChar": 62
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 11,
+              "FORM": "Haag",
+              "LEMMA": "Haag",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 5,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 63,
+                "EndChar": 67
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 12,
+              "FORM": "gevestigde",
+              "LEMMA": "vestigen",
+              "UPOS": "VERB",
+              "XPOS": "WW|vd|prenom|met-e",
+              "HEAD": 8,
+              "DEPREL": "acl",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 68,
+                "EndChar": 78
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 13,
+              "FORM": "familie",
+              "LEMMA": "familie",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 79,
+                "EndChar": 86
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 14,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 12,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 86,
+                "EndChar": 87
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 15,
+              "FORM": "die",
+              "LEMMA": "die",
+              "UPOS": "PRON",
+              "XPOS": "VNW|betr|pron|stan|vol|persoon|getal",
+              "HEAD": 12,
+              "DEPREL": "nsubj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 88,
+                "EndChar": 91
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 16,
+              "FORM": "deel",
+              "LEMMA": "deel",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|onz|stan",
+              "HEAD": 12,
+              "DEPREL": "obj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 92,
+                "EndChar": 96
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 17,
+              "FORM": "uitmaakte",
+              "LEMMA": "uit_maken",
+              "UPOS": "VERB",
+              "XPOS": "WW|pv|verl|ev",
+              "HEAD": 8,
+              "DEPREL": "acl:relcl",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 97,
+                "EndChar": 106
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 18,
+              "FORM": "van",
+              "LEMMA": "van",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 15,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 107,
+                "EndChar": 110
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 19,
+              "FORM": "het",
+              "LEMMA": "het",
+              "UPOS": "DET",
+              "XPOS": "LID|bep|stan|evon",
+              "HEAD": 15,
+              "DEPREL": "det",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 111,
+                "EndChar": 114
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 20,
+              "FORM": "Bataafse",
+              "LEMMA": "Bataafs",
+              "UPOS": "ADJ",
+              "XPOS": "ADJ|prenom|basis|met-e|stan",
+              "HEAD": 12,
+              "DEPREL": "obl",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 115,
+                "EndChar": 123
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 21,
+              "FORM": "Wetgevende",
+              "LEMMA": "wetgevend",
+              "UPOS": "ADJ",
+              "XPOS": "ADJ|prenom|basis|met-e|stan",
+              "HEAD": 15,
+              "DEPREL": "fixed",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 124,
+                "EndChar": 134
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 22,
+              "FORM": "Lichaam",
+              "LEMMA": "lichaam",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|onz|stan",
+              "HEAD": 15,
+              "DEPREL": "fixed",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 135,
+                "EndChar": 142
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 23,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 20,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 142,
+                "EndChar": 143
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 24,
+              "FORM": "de",
+              "LEMMA": "de",
+              "UPOS": "DET",
+              "XPOS": "LID|bep|stan|rest",
+              "HEAD": 20,
+              "DEPREL": "det",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 144,
+                "EndChar": 146
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 25,
+              "FORM": "Staten-Generaal",
+              "LEMMA": "Staten-Generaal",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 15,
+              "DEPREL": "conj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 147,
+                "EndChar": 162
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 26,
+              "FORM": "van",
+              "LEMMA": "van",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 22,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 163,
+                "EndChar": 166
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 27,
+              "FORM": "1814",
+              "LEMMA": "1814",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 20,
+              "DEPREL": "nmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 167,
+                "EndChar": 171
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 28,
+              "FORM": "en",
+              "LEMMA": "en",
+              "UPOS": "CCONJ",
+              "XPOS": "VG|neven",
+              "HEAD": 28,
+              "DEPREL": "cc",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 172,
+                "EndChar": 174
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 29,
+              "FORM": "de",
+              "LEMMA": "de",
+              "UPOS": "DET",
+              "XPOS": "LID|bep|stan|rest",
+              "HEAD": 28,
+              "DEPREL": "det",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 175,
+                "EndChar": 177
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 30,
+              "FORM": "'",
+              "LEMMA": "'",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 26,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 178,
+                "EndChar": 179
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 31,
+              "FORM": "koninklijke",
+              "LEMMA": "koninklijk",
+              "UPOS": "ADJ",
+              "XPOS": "ADJ|prenom|basis|met-e|stan",
+              "HEAD": 28,
+              "DEPREL": "amod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 179,
+                "EndChar": 190
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 32,
+              "FORM": "'",
+              "LEMMA": "'",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 26,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 190,
+                "EndChar": 191
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 33,
+              "FORM": "Eerste",
+              "LEMMA": "Eerste",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 15,
+              "DEPREL": "conj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 192,
+                "EndChar": 198
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 34,
+              "FORM": "Kamer",
+              "LEMMA": "Kamer",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 28,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 199,
+                "EndChar": 204
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 35,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 8,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 204,
+                "EndChar": 205
+              },
+              "FEATS": []
+            }
+          ]
+        },
+        {
+          "paragraphID": null,
+          "sentenceID": 2,
+          "text": "Vervulde in zijn woonplaats tijdens de Republiek diverse bestuursfuncties.",
+          "tokenized": "Vervulde in zijn woonplaats tijdens de Republiek diverse bestuursfuncties .",
+          "words": [
+            {
+              "ID": 36,
+              "FORM": "Vervulde",
+              "LEMMA": "vervullen",
+              "UPOS": "VERB",
+              "XPOS": "WW|pv|verl|ev",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 206,
+                "EndChar": 214
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 37,
+              "FORM": "in",
+              "LEMMA": "in",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 4,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 215,
+                "EndChar": 217
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 38,
+              "FORM": "zijn",
+              "LEMMA": "zijn",
+              "UPOS": "PRON",
+              "XPOS": "VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr",
+              "HEAD": 4,
+              "DEPREL": "nmod:poss",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 218,
+                "EndChar": 222
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 39,
+              "FORM": "woonplaats",
+              "LEMMA": "wonn_plaats",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 1,
+              "DEPREL": "obl",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 223,
+                "EndChar": 233
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 40,
+              "FORM": "tijdens",
+              "LEMMA": "tijdens",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 7,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 234,
+                "EndChar": 241
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 41,
+              "FORM": "de",
+              "LEMMA": "de",
+              "UPOS": "DET",
+              "XPOS": "LID|bep|stan|rest",
+              "HEAD": 7,
+              "DEPREL": "det",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 242,
+                "EndChar": 244
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 42,
+              "FORM": "Republiek",
+              "LEMMA": "republiek",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 4,
+              "DEPREL": "nmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 245,
+                "EndChar": 254
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 43,
+              "FORM": "diverse",
+              "LEMMA": "divers",
+              "UPOS": "ADJ",
+              "XPOS": "ADJ|prenom|basis|met-e|stan",
+              "HEAD": 9,
+              "DEPREL": "amod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 255,
+                "EndChar": 262
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 44,
+              "FORM": "bestuursfuncties",
+              "LEMMA": "bestuur_functie",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|mv|basis",
+              "HEAD": 1,
+              "DEPREL": "obj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 263,
+                "EndChar": 279
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 45,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 1,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 279,
+                "EndChar": 280
+              },
+              "FEATS": []
+            }
+          ]
+        }
+      ]
+    },
+    "entities": [
+      {
+        "ID": "stanza_nl_0",
+        "surfaceForm": "Enkhuizer",
+        "category": "LOC",
+        "locationStart": 0,
+        "locationEnd": 9,
+        "tokenStart": 0,
+        "tokenEnd": 1,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_0",
+        "surfaceForm": "Enkhuizer",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 9,
+        "tokenStart": 0,
+        "tokenEnd": 1,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_0",
+        "category": "PER",
+        "surfaceForm": "Enkhuizer",
+        "locationStart": 0,
+        "locationEnd": 9,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "stanza_nl_1",
+        "surfaceForm": "Delftse",
+        "category": "MISC",
+        "locationStart": 39,
+        "locationEnd": 46,
+        "tokenStart": 6,
+        "tokenEnd": 7,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_0",
+        "category": "MISC",
+        "surfaceForm": "Delftse",
+        "locationStart": 39,
+        "locationEnd": 46,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "stanza_nl_2",
+        "surfaceForm": "Den Haag",
+        "category": "LOC",
+        "locationStart": 59,
+        "locationEnd": 67,
+        "tokenStart": 10,
+        "tokenEnd": 12,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_6",
+        "surfaceForm": "Den Haag",
+        "category": "LOC",
+        "locationStart": 59,
+        "locationEnd": 67,
+        "tokenStart": 10,
+        "tokenEnd": 12,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_0",
+        "category": "LOC",
+        "surfaceForm": "Den Haag",
+        "locationStart": 59,
+        "locationEnd": 67,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_1",
+        "category": "LOC",
+        "surfaceForm": "haag",
+        "locationStart": 63,
+        "locationEnd": 67,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_3",
+        "surfaceForm": "Bataafse Wetgevende Lichaam",
+        "category": "ORG",
+        "locationStart": 115,
+        "locationEnd": 142,
+        "tokenStart": 20,
+        "tokenEnd": 23,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_1",
+        "surfaceForm": "Bataafse Wetgevende Lichaam",
+        "category": "ORG",
+        "locationStart": 115,
+        "locationEnd": 142,
+        "tokenStart": 20,
+        "tokenEnd": 23,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_0",
+        "category": "ORG",
+        "surfaceForm": "Bataafse Wetgevende Lichaam",
+        "locationStart": 115,
+        "locationEnd": 142,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "stanza_nl_4",
+        "surfaceForm": "Staten-Generaal",
+        "category": "MISC",
+        "locationStart": 147,
+        "locationEnd": 162,
+        "tokenStart": 25,
+        "tokenEnd": 26,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_2",
+        "surfaceForm": "Staten-Generaal",
+        "category": "ORG",
+        "locationStart": 147,
+        "locationEnd": 162,
+        "tokenStart": 25,
+        "tokenEnd": 26,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_0",
+        "category": "ORG",
+        "surfaceForm": "Staten-Generaal",
+        "locationStart": 147,
+        "locationEnd": 162,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gold_3",
+        "surfaceForm": "1814",
+        "category": "TIME",
+        "locationStart": 167,
+        "locationEnd": 171,
+        "tokenStart": 27,
+        "tokenEnd": 28,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_1",
+        "category": "TIME",
+        "surfaceForm": "1814",
+        "locationStart": 167,
+        "locationEnd": 171,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_5",
+        "surfaceForm": "Eerste Kamer",
+        "category": "ORG",
+        "locationStart": 192,
+        "locationEnd": 204,
+        "tokenStart": 33,
+        "tokenEnd": 35,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_4",
+        "surfaceForm": "Eerste Kamer",
+        "category": "ORG",
+        "locationStart": 192,
+        "locationEnd": 204,
+        "tokenStart": 33,
+        "tokenEnd": 35,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_0",
+        "category": "ORG",
+        "surfaceForm": "Eerste Kamer",
+        "locationStart": 192,
+        "locationEnd": 204,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gold_5",
+        "surfaceForm": "tijdens de Republiek",
+        "category": "TIME",
+        "locationStart": 234,
+        "locationEnd": 254,
+        "tokenStart": 40,
+        "tokenEnd": 43,
+        "method": "human_gold"
+      },
+      {
+        "ID": "stanza_nl_6",
+        "surfaceForm": "Republiek",
+        "category": "LOC",
+        "locationStart": 245,
+        "locationEnd": 254,
+        "tokenStart": 42,
+        "tokenEnd": 43,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_1",
+        "category": "MISC",
+        "surfaceForm": "Republiek",
+        "locationStart": 245,
+        "locationEnd": 254,
+        "method": "flair/ner-dutch-large_0.12.2"
+      }
+    ],
+    "time_expressions": [
+      {
+        "ID": "t0",
+        "category": "DATE",
+        "value": "1814",
+        "surfaceForm": "1814",
+        "locationStart": 167,
+        "locationEnd": 171,
+        "method": "heideltime"
+      }
+    ]
+  },
+  "id_person": "17096360",
+  "version": "05",
+  "source": "pdc",
+  "name": "h.a. van bleyswijk|hugo adriaan van bleyswijk",
+  "partition": "test",
+  "birth_pl": null,
+  "birth_tm": "1740-01-01",
+  "baptism_pl": null,
+  "baptism_tm": null,
+  "death_pl": "Enkhuizen",
+  "death_tm": "1821-09-19",
+  "funeral_pl": null,
+  "funeral_tm": null,
+  "marriage_pl": "Enkhuizen",
+  "marriage_tm": "1774-10-30",
+  "gender": "1",
+  "category": null,
+  "father": null,
+  "mother": null,
+  "partner": null,
+  "religion": null,
+  "educations": [
+    {
+      "name": "Romeins en hedendaags recht (gepromoveerd op dissertatie), Hogeschool te Leiden",
+      "begin": "1756-07-20",
+      "end": "1760-06-28"
+    }
+  ],
+  "faiths": [
+    {
+      "name": "Gereformeerd (Ned. Hervormd)",
+      "begin": "None",
+      "end": "None"
+    }
+  ],
+  "occupations": [
+    {
+      "name": "gecommitteerde voor Holland in de Generaliteitsrekenkamer",
+      "begin": "1778-05-07",
+      "end": "1781-05-01"
+    },
+    {
+      "name": "burgemeester van Enkhuizen",
+      "begin": "None",
+      "end": "None"
+    },
+    {
+      "name": "gecommitteerde in de Admiraliteit van het Noorderkwartier",
+      "begin": "1782-01-01",
+      "end": "1784-01-01"
+    },
+    {
+      "name": "gedeputeerde ter Staten-Generaal",
+      "begin": "1784-05-03",
+      "end": "1787-05-01"
+    },
+    {
+      "name": "gecommitteerde voor Holland in de Raad van State",
+      "begin": "1787-05-01",
+      "end": "1790"
+    },
+    {
+      "name": "burgemeester van Enkhuizen",
+      "begin": "None",
+      "end": "None"
+    },
+    {
+      "name": "ontvanger-generaal Admiraliteit van het Noorderkwartier",
+      "begin": "1790",
+      "end": "1795-01"
+    },
+    {
+      "name": "burgemeester van Enkhuizen",
+      "begin": "None",
+      "end": "None"
+    },
+    {
+      "name": "burgemeester van Enkhuizen",
+      "begin": "None",
+      "end": "None"
+    },
+    {
+      "name": "ambteloos",
+      "begin": "1795-01",
+      "end": "1799-09"
+    },
+    {
+      "name": "raad in de Vroedschap van Enkhuizen",
+      "begin": "1771",
+      "end": "1795-01"
+    },
+    {
+      "name": "lid provisionele administratie van de politie van Enkhuizen",
+      "begin": "1799-09",
+      "end": "1799-10-11"
+    },
+    {
+      "name": "lid departementaal bestuur van Holland",
+      "begin": "1802-06-04",
+      "end": "1807-06-01"
+    },
+    {
+      "name": "lid Wetgevend Lichaam",
+      "begin": "1806-10-06",
+      "end": "1810-07-27"
+    },
+    {
+      "name": "lid Vergadering van Notabelen, 29 en 30 maart 1814",
+      "begin": "None",
+      "end": "None"
+    },
+    {
+      "name": "lid Staten-Generaal der Verenigde Nederlanden",
+      "begin": "1814-05-02",
+      "end": "1815-09-01"
+    },
+    {
+      "name": "lid Eerste Kamer der Staten-Generaal",
+      "begin": "1815-09-21",
+      "end": "1821-09-19"
+    },
+    {
+      "name": "schepen van Enkhuizen",
+      "begin": "None",
+      "end": "None"
+    },
+    {
+      "name": "schepen van Enkhuizen",
+      "begin": "None",
+      "end": "None"
+    },
+    {
+      "name": "schepen van Enkhuizen",
+      "begin": "None",
+      "end": "None"
+    },
+    {
+      "name": "schepen van Enkhuizen",
+      "begin": "None",
+      "end": "None"
+    },
+    {
+      "name": "schepen van Enkhuizen",
+      "begin": "None",
+      "end": "None"
+    },
+    {
+      "name": "raad in de Vroedschap van Enkhuizen",
+      "begin": "1771",
+      "end": "1795-01"
+    },
+    {
+      "name": "gedeputeerde ter Staten-Generaal",
+      "begin": "1772-05-01",
+      "end": "1775-04-30"
+    },
+    {
+      "name": "gecommitteerde voor Holland in de Raad van State",
+      "begin": "1775-05-01",
+      "end": "1778-05-01"
+    }
+  ],
+  "residences": [
+    {
+      "name": "Enkhuizen",
+      "begin": "None",
+      "end": "None"
+    }
+  ]
+}

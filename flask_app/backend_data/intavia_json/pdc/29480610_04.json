@@ -1,0 +1,1697 @@
+{
+  "text_id": "29480610_04",
+  "nlp_preprocessor": "stanza_nl",
+  "data": {
+    "text": "'De kleine Stokvis'. Joodse journalist en redacteur van het Kort Verslag van de Tweede Kamer, die in 1910 naar Indie vertrok. Was daar hoofdredacteur van 'De Locomotief', een dagblad dat spreekbuis was van de ethische richting. In Indie actief als sociaaldemocraat, onder andere in de Volksraad. Werd in 1937 koloniaal specialist van de SDAP- Tweede Kamerfractie.",
+    "tokenization": {
+      "stanza_nl": [
+        "'",
+        "De",
+        "kleine",
+        "Stokvis",
+        "'",
+        ".",
+        "Joodse",
+        "journalist",
+        "en",
+        "redacteur",
+        "van",
+        "het",
+        "Kort",
+        "Verslag",
+        "van",
+        "de",
+        "Tweede",
+        "Kamer",
+        ",",
+        "die",
+        "in",
+        "1910",
+        "naar",
+        "Indie",
+        "vertrok",
+        ".",
+        "Was",
+        "daar",
+        "hoofdredacteur",
+        "van",
+        "'",
+        "De",
+        "Locomotief",
+        "'",
+        ",",
+        "een",
+        "dagblad",
+        "dat",
+        "spreekbuis",
+        "was",
+        "van",
+        "de",
+        "ethische",
+        "richting",
+        ".",
+        "In",
+        "Indie",
+        "actief",
+        "als",
+        "sociaaldemocraat",
+        ",",
+        "onder",
+        "andere",
+        "in",
+        "de",
+        "Volksraad",
+        ".",
+        "Werd",
+        "in",
+        "1937",
+        "koloniaal",
+        "specialist",
+        "van",
+        "de",
+        "SDAP-",
+        "Tweede",
+        "Kamerfractie",
+        "."
+      ]
+    },
+    "morpho_syntax": {
+      "stanza_nl": [
+        {
+          "paragraphID": null,
+          "sentenceID": 0,
+          "text": "'De kleine Stokvis'. ",
+          "tokenized": "' De kleine Stokvis ' .",
+          "words": [
+            {
+              "ID": 0,
+              "FORM": "'",
+              "LEMMA": "'",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 4,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 0,
+                "EndChar": 1
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 1,
+              "FORM": "De",
+              "LEMMA": "de",
+              "UPOS": "DET",
+              "XPOS": "LID|bep|stan|rest",
+              "HEAD": 4,
+              "DEPREL": "det",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 1,
+                "EndChar": 3
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 2,
+              "FORM": "kleine",
+              "LEMMA": "klein",
+              "UPOS": "ADJ",
+              "XPOS": "ADJ|prenom|basis|met-e|stan",
+              "HEAD": 4,
+              "DEPREL": "amod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 4,
+                "EndChar": 10
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 3,
+              "FORM": "Stokvis",
+              "LEMMA": "stokvis",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 11,
+                "EndChar": 18
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 4,
+              "FORM": "'",
+              "LEMMA": "'",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 4,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 18,
+                "EndChar": 19
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 5,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 4,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 19,
+                "EndChar": 20
+              },
+              "FEATS": []
+            }
+          ]
+        },
+        {
+          "paragraphID": null,
+          "sentenceID": 1,
+          "text": "Joodse journalist en redacteur van het Kort Verslag van de Tweede Kamer, die in 1910 naar Indie vertrok. ",
+          "tokenized": "Joodse journalist en redacteur van het Kort Verslag van de Tweede Kamer , die in 1910 naar Indie vertrok .",
+          "words": [
+            {
+              "ID": 6,
+              "FORM": "Joodse",
+              "LEMMA": "Joods",
+              "UPOS": "ADJ",
+              "XPOS": "ADJ|prenom|basis|met-e|stan",
+              "HEAD": 2,
+              "DEPREL": "amod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 21,
+                "EndChar": 27
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 7,
+              "FORM": "journalist",
+              "LEMMA": "journalist",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 28,
+                "EndChar": 38
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 8,
+              "FORM": "en",
+              "LEMMA": "en",
+              "UPOS": "CCONJ",
+              "XPOS": "VG|neven",
+              "HEAD": 4,
+              "DEPREL": "cc",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 39,
+                "EndChar": 41
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 9,
+              "FORM": "redacteur",
+              "LEMMA": "redacteur",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 2,
+              "DEPREL": "conj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 42,
+                "EndChar": 51
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 10,
+              "FORM": "van",
+              "LEMMA": "van",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 7,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 52,
+                "EndChar": 55
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 11,
+              "FORM": "het",
+              "LEMMA": "het",
+              "UPOS": "DET",
+              "XPOS": "LID|bep|stan|evon",
+              "HEAD": 7,
+              "DEPREL": "det",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 56,
+                "EndChar": 59
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 12,
+              "FORM": "Kort",
+              "LEMMA": "kort",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 2,
+              "DEPREL": "nmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 60,
+                "EndChar": 64
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 13,
+              "FORM": "Verslag",
+              "LEMMA": "Verslag",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 7,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 65,
+                "EndChar": 72
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 14,
+              "FORM": "van",
+              "LEMMA": "van",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 11,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 73,
+                "EndChar": 76
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 15,
+              "FORM": "de",
+              "LEMMA": "de",
+              "UPOS": "DET",
+              "XPOS": "LID|bep|stan|rest",
+              "HEAD": 11,
+              "DEPREL": "det",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 77,
+                "EndChar": 79
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 16,
+              "FORM": "Tweede",
+              "LEMMA": "Tweede",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 7,
+              "DEPREL": "nmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 80,
+                "EndChar": 86
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 17,
+              "FORM": "Kamer",
+              "LEMMA": "Kamer",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 11,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 87,
+                "EndChar": 92
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 18,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 19,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 92,
+                "EndChar": 93
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 19,
+              "FORM": "die",
+              "LEMMA": "die",
+              "UPOS": "PRON",
+              "XPOS": "VNW|betr|pron|stan|vol|persoon|getal",
+              "HEAD": 19,
+              "DEPREL": "nsubj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 94,
+                "EndChar": 97
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 20,
+              "FORM": "in",
+              "LEMMA": "in",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 16,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 98,
+                "EndChar": 100
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 21,
+              "FORM": "1910",
+              "LEMMA": "1910",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 19,
+              "DEPREL": "obl",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 101,
+                "EndChar": 105
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 22,
+              "FORM": "naar",
+              "LEMMA": "naar",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 18,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 106,
+                "EndChar": 110
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 23,
+              "FORM": "Indie",
+              "LEMMA": "Indie",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|onz|stan",
+              "HEAD": 19,
+              "DEPREL": "obl",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 111,
+                "EndChar": 116
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 24,
+              "FORM": "vertrok",
+              "LEMMA": "vertrekken",
+              "UPOS": "VERB",
+              "XPOS": "WW|pv|verl|ev",
+              "HEAD": 2,
+              "DEPREL": "acl:relcl",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 117,
+                "EndChar": 124
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 25,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 2,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 124,
+                "EndChar": 125
+              },
+              "FEATS": []
+            }
+          ]
+        },
+        {
+          "paragraphID": null,
+          "sentenceID": 2,
+          "text": "Was daar hoofdredacteur van 'De Locomotief', een dagblad dat spreekbuis was van de ethische richting. ",
+          "tokenized": "Was daar hoofdredacteur van ' De Locomotief ' , een dagblad dat spreekbuis was van de ethische richting .",
+          "words": [
+            {
+              "ID": 26,
+              "FORM": "Was",
+              "LEMMA": "zijn",
+              "UPOS": "AUX",
+              "XPOS": "WW|pv|verl|ev",
+              "HEAD": 3,
+              "DEPREL": "cop",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 126,
+                "EndChar": 129
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 27,
+              "FORM": "daar",
+              "LEMMA": "daar",
+              "UPOS": "ADV",
+              "XPOS": "VNW|aanw|adv-pron|obl|vol|3o|getal",
+              "HEAD": 3,
+              "DEPREL": "advmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 130,
+                "EndChar": 134
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 28,
+              "FORM": "hoofdredacteur",
+              "LEMMA": "hoofd_redacteur",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 135,
+                "EndChar": 149
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 29,
+              "FORM": "van",
+              "LEMMA": "van",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 6,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 150,
+                "EndChar": 153
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 30,
+              "FORM": "'",
+              "LEMMA": "'",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 6,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 154,
+                "EndChar": 155
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 31,
+              "FORM": "De",
+              "LEMMA": "De",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 3,
+              "DEPREL": "nmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 155,
+                "EndChar": 157
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 32,
+              "FORM": "Locomotief",
+              "LEMMA": "Locomotief",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 6,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 158,
+                "EndChar": 168
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 33,
+              "FORM": "'",
+              "LEMMA": "'",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 6,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 168,
+                "EndChar": 169
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 34,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 11,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 169,
+                "EndChar": 170
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 35,
+              "FORM": "een",
+              "LEMMA": "een",
+              "UPOS": "DET",
+              "XPOS": "LID|onbep|stan|agr",
+              "HEAD": 11,
+              "DEPREL": "det",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 171,
+                "EndChar": 174
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 36,
+              "FORM": "dagblad",
+              "LEMMA": "dag_blad",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|onz|stan",
+              "HEAD": 3,
+              "DEPREL": "appos",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 175,
+                "EndChar": 182
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 37,
+              "FORM": "dat",
+              "LEMMA": "dat",
+              "UPOS": "PRON",
+              "XPOS": "VNW|betr|pron|stan|vol|3|ev",
+              "HEAD": 13,
+              "DEPREL": "nsubj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 183,
+                "EndChar": 186
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 38,
+              "FORM": "spreekbuis",
+              "LEMMA": "spreek_buis",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 11,
+              "DEPREL": "acl:relcl",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 187,
+                "EndChar": 197
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 39,
+              "FORM": "was",
+              "LEMMA": "zijn",
+              "UPOS": "AUX",
+              "XPOS": "WW|pv|verl|ev",
+              "HEAD": 13,
+              "DEPREL": "cop",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 198,
+                "EndChar": 201
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 40,
+              "FORM": "van",
+              "LEMMA": "van",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 18,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 202,
+                "EndChar": 205
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 41,
+              "FORM": "de",
+              "LEMMA": "de",
+              "UPOS": "DET",
+              "XPOS": "LID|bep|stan|rest",
+              "HEAD": 18,
+              "DEPREL": "det",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 206,
+                "EndChar": 208
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 42,
+              "FORM": "ethische",
+              "LEMMA": "ethisch",
+              "UPOS": "ADJ",
+              "XPOS": "ADJ|prenom|basis|met-e|stan",
+              "HEAD": 18,
+              "DEPREL": "amod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 209,
+                "EndChar": 217
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 43,
+              "FORM": "richting",
+              "LEMMA": "richting",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 13,
+              "DEPREL": "nmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 218,
+                "EndChar": 226
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 44,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 3,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 226,
+                "EndChar": 227
+              },
+              "FEATS": []
+            }
+          ]
+        },
+        {
+          "paragraphID": null,
+          "sentenceID": 3,
+          "text": "In Indie actief als sociaaldemocraat, onder andere in de Volksraad. ",
+          "tokenized": "In Indie actief als sociaaldemocraat , onder andere in de Volksraad .",
+          "words": [
+            {
+              "ID": 45,
+              "FORM": "In",
+              "LEMMA": "in",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 2,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 228,
+                "EndChar": 230
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 46,
+              "FORM": "Indie",
+              "LEMMA": "Indie",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|onz|stan",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 231,
+                "EndChar": 236
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 47,
+              "FORM": "actief",
+              "LEMMA": "actief",
+              "UPOS": "ADJ",
+              "XPOS": "ADJ|vrij|basis|zonder",
+              "HEAD": 2,
+              "DEPREL": "amod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 237,
+                "EndChar": 243
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 48,
+              "FORM": "als",
+              "LEMMA": "als",
+              "UPOS": "SCONJ",
+              "XPOS": "VG|onder",
+              "HEAD": 5,
+              "DEPREL": "mark",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 244,
+                "EndChar": 247
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 49,
+              "FORM": "sociaaldemocraat",
+              "LEMMA": "sociaaldemocraat",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 3,
+              "DEPREL": "advcl",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 248,
+                "EndChar": 264
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 50,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 8,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 264,
+                "EndChar": 265
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 51,
+              "FORM": "onder",
+              "LEMMA": "onder",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 8,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 266,
+                "EndChar": 271
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 52,
+              "FORM": "andere",
+              "LEMMA": "ander",
+              "UPOS": "ADJ",
+              "XPOS": "ADJ|nom|basis|met-e|zonder-n|stan",
+              "HEAD": 5,
+              "DEPREL": "nmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 272,
+                "EndChar": 278
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 53,
+              "FORM": "in",
+              "LEMMA": "in",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 11,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 279,
+                "EndChar": 281
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 54,
+              "FORM": "de",
+              "LEMMA": "de",
+              "UPOS": "DET",
+              "XPOS": "LID|bep|stan|rest",
+              "HEAD": 11,
+              "DEPREL": "det",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 282,
+                "EndChar": 284
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 55,
+              "FORM": "Volksraad",
+              "LEMMA": "volksraad",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 8,
+              "DEPREL": "nmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 285,
+                "EndChar": 294
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 56,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 2,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 294,
+                "EndChar": 295
+              },
+              "FEATS": []
+            }
+          ]
+        },
+        {
+          "paragraphID": null,
+          "sentenceID": 4,
+          "text": "Werd in 1937 koloniaal specialist van de SDAP- Tweede Kamerfractie.",
+          "tokenized": "Werd in 1937 koloniaal specialist van de SDAP- Tweede Kamerfractie .",
+          "words": [
+            {
+              "ID": 57,
+              "FORM": "Werd",
+              "LEMMA": "worden",
+              "UPOS": "VERB",
+              "XPOS": "WW|pv|verl|ev",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 296,
+                "EndChar": 300
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 58,
+              "FORM": "in",
+              "LEMMA": "in",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 3,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 301,
+                "EndChar": 303
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 59,
+              "FORM": "1937",
+              "LEMMA": "1937",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 1,
+              "DEPREL": "obl",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 304,
+                "EndChar": 308
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 60,
+              "FORM": "koloniaal",
+              "LEMMA": "koloniaal",
+              "UPOS": "ADJ",
+              "XPOS": "ADJ|prenom|basis|zonder",
+              "HEAD": 5,
+              "DEPREL": "amod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 309,
+                "EndChar": 318
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 61,
+              "FORM": "specialist",
+              "LEMMA": "specialist",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 1,
+              "DEPREL": "xcomp",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 319,
+                "EndChar": 329
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 62,
+              "FORM": "van",
+              "LEMMA": "van",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 8,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 330,
+                "EndChar": 333
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 63,
+              "FORM": "de",
+              "LEMMA": "de",
+              "UPOS": "DET",
+              "XPOS": "LID|bep|stan|rest",
+              "HEAD": 8,
+              "DEPREL": "det",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 334,
+                "EndChar": 336
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 64,
+              "FORM": "SDAP-",
+              "LEMMA": "SDAP-",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 5,
+              "DEPREL": "nmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 337,
+                "EndChar": 342
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 65,
+              "FORM": "Tweede",
+              "LEMMA": "Tweede",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 8,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 343,
+                "EndChar": 349
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 66,
+              "FORM": "Kamerfractie",
+              "LEMMA": "Kamerfractie",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 8,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 350,
+                "EndChar": 362
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 67,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 1,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 362,
+                "EndChar": 363
+              },
+              "FEATS": []
+            }
+          ]
+        }
+      ]
+    },
+    "entities": [
+      {
+        "ID": "stanza_nl_0",
+        "surfaceForm": "De kleine Stokvis",
+        "category": "MISC",
+        "locationStart": 1,
+        "locationEnd": 18,
+        "tokenStart": 1,
+        "tokenEnd": 4,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_3",
+        "surfaceForm": "De kleine Stokvis",
+        "category": "PER",
+        "locationStart": 1,
+        "locationEnd": 18,
+        "tokenStart": 1,
+        "tokenEnd": 4,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_0",
+        "category": "PER",
+        "surfaceForm": "De kleine Stokvis",
+        "locationStart": 1,
+        "locationEnd": 18,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "stanza_nl_1",
+        "surfaceForm": "Joodse",
+        "category": "MISC",
+        "locationStart": 21,
+        "locationEnd": 27,
+        "tokenStart": 6,
+        "tokenEnd": 7,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_1",
+        "category": "MISC",
+        "surfaceForm": "Joodse",
+        "locationStart": 21,
+        "locationEnd": 27,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_1",
+        "category": "",
+        "surfaceForm": "joodse",
+        "locationStart": 21,
+        "locationEnd": 27,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_2",
+        "surfaceForm": "Kort Verslag",
+        "category": "ORG",
+        "locationStart": 60,
+        "locationEnd": 72,
+        "tokenStart": 12,
+        "tokenEnd": 14,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_8",
+        "surfaceForm": "Kort Verslag",
+        "category": "ORG",
+        "locationStart": 60,
+        "locationEnd": 72,
+        "tokenStart": 12,
+        "tokenEnd": 14,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_1",
+        "category": "MISC",
+        "surfaceForm": "Kort Verslag",
+        "locationStart": 60,
+        "locationEnd": 72,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "stanza_nl_3",
+        "surfaceForm": "Tweede Kamer",
+        "category": "ORG",
+        "locationStart": 80,
+        "locationEnd": 92,
+        "tokenStart": 16,
+        "tokenEnd": 18,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_9",
+        "surfaceForm": "Tweede Kamer",
+        "category": "ORG",
+        "locationStart": 80,
+        "locationEnd": 92,
+        "tokenStart": 16,
+        "tokenEnd": 18,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_1",
+        "category": "ORG",
+        "surfaceForm": "Tweede Kamer",
+        "locationStart": 80,
+        "locationEnd": 92,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gold_0",
+        "surfaceForm": "1910",
+        "category": "TIME",
+        "locationStart": 101,
+        "locationEnd": 105,
+        "tokenStart": 21,
+        "tokenEnd": 22,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_1",
+        "category": "TIME",
+        "surfaceForm": "1910",
+        "locationStart": 101,
+        "locationEnd": 105,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_4",
+        "surfaceForm": "Indie",
+        "category": "LOC",
+        "locationStart": 111,
+        "locationEnd": 116,
+        "tokenStart": 23,
+        "tokenEnd": 24,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_1",
+        "surfaceForm": "Indie",
+        "category": "LOC",
+        "locationStart": 111,
+        "locationEnd": 116,
+        "tokenStart": 23,
+        "tokenEnd": 24,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_1",
+        "category": "LOC",
+        "surfaceForm": "Indie",
+        "locationStart": 111,
+        "locationEnd": 116,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_1",
+        "category": "LOC",
+        "surfaceForm": "indie",
+        "locationStart": 111,
+        "locationEnd": 116,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_5",
+        "surfaceForm": "De Locomotief",
+        "category": "ORG",
+        "locationStart": 155,
+        "locationEnd": 168,
+        "tokenStart": 31,
+        "tokenEnd": 33,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_2",
+        "surfaceForm": "De Locomotief",
+        "category": "ORG",
+        "locationStart": 155,
+        "locationEnd": 168,
+        "tokenStart": 31,
+        "tokenEnd": 33,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_2",
+        "category": "ORG",
+        "surfaceForm": "De Locomotief",
+        "locationStart": 155,
+        "locationEnd": 168,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "stanza_nl_6",
+        "surfaceForm": "Indie",
+        "category": "MISC",
+        "locationStart": 231,
+        "locationEnd": 236,
+        "tokenStart": 46,
+        "tokenEnd": 47,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_4",
+        "surfaceForm": "Indie",
+        "category": "LOC",
+        "locationStart": 231,
+        "locationEnd": 236,
+        "tokenStart": 46,
+        "tokenEnd": 47,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_3",
+        "category": "LOC",
+        "surfaceForm": "Indie",
+        "locationStart": 231,
+        "locationEnd": 236,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_3",
+        "category": "LOC",
+        "surfaceForm": "indie",
+        "locationStart": 231,
+        "locationEnd": 236,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_7",
+        "surfaceForm": "Volksraad",
+        "category": "ORG",
+        "locationStart": 285,
+        "locationEnd": 294,
+        "tokenStart": 55,
+        "tokenEnd": 56,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_5",
+        "surfaceForm": "Volksraad",
+        "category": "ORG",
+        "locationStart": 285,
+        "locationEnd": 294,
+        "tokenStart": 55,
+        "tokenEnd": 56,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_3",
+        "category": "ORG",
+        "surfaceForm": "Volksraad",
+        "locationStart": 285,
+        "locationEnd": 294,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gold_6",
+        "surfaceForm": "1937",
+        "category": "TIME",
+        "locationStart": 304,
+        "locationEnd": 308,
+        "tokenStart": 59,
+        "tokenEnd": 60,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_4",
+        "category": "TIME",
+        "surfaceForm": "1937",
+        "locationStart": 304,
+        "locationEnd": 308,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_8",
+        "surfaceForm": "SDAP- Tweede Kamerfractie",
+        "category": "ORG",
+        "locationStart": 337,
+        "locationEnd": 362,
+        "tokenStart": 64,
+        "tokenEnd": 67,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_7",
+        "surfaceForm": "SDAP- Tweede Kamerfractie",
+        "category": "ORG",
+        "locationStart": 337,
+        "locationEnd": 362,
+        "tokenStart": 64,
+        "tokenEnd": 67,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_4",
+        "category": "ORG",
+        "surfaceForm": "SDAP",
+        "locationStart": 337,
+        "locationEnd": 341,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "flair_4",
+        "category": "ORG",
+        "surfaceForm": "Tweede Kamerfractie",
+        "locationStart": 343,
+        "locationEnd": 362,
+        "method": "flair/ner-dutch-large_0.12.2"
+      }
+    ],
+    "time_expressions": [
+      {
+        "ID": "t0",
+        "category": "DATE",
+        "value": "1910",
+        "surfaceForm": "1910",
+        "locationStart": 101,
+        "locationEnd": 105,
+        "method": "heideltime"
+      },
+      {
+        "ID": "t1",
+        "category": "DATE",
+        "value": "1937",
+        "surfaceForm": "1937",
+        "locationStart": 304,
+        "locationEnd": 308,
+        "method": "heideltime"
+      }
+    ]
+  },
+  "id_person": "29480610",
+  "version": "04",
+  "source": "pdc",
+  "name": "jo stokvis|jozef emanuel stokvis|j.e. stokvis",
+  "partition": "test",
+  "birth_pl": null,
+  "birth_tm": "1875-02-23",
+  "baptism_pl": null,
+  "baptism_tm": null,
+  "death_pl": "'s-Gravenhage",
+  "death_tm": "1951-12-30",
+  "funeral_pl": null,
+  "funeral_tm": null,
+  "marriage_pl": null,
+  "marriage_tm": "ongehuwd",
+  "gender": "1",
+  "category": null,
+  "father": null,
+  "mother": null,
+  "partner": null,
+  "religion": null,
+  "educations": [
+    {
+      "name": "M.O.-staatsinrichting en staathuishoudkunde",
+      "begin": "None",
+      "end": "None"
+    }
+  ],
+  "faiths": [
+    {
+      "name": "Israëlitisch (Nederlands-Israëlitisch)",
+      "begin": "None",
+      "end": "None"
+    }
+  ],
+  "occupations": [
+    {
+      "name": "koloniaal medewerker, dagblad \"Het Volk\"",
+      "begin": "1919",
+      "end": "1922"
+    },
+    {
+      "name": "propagandist in Nederlands-Indië en informant van SDAP-Kamerleden",
+      "begin": "1922-05",
+      "end": "None"
+    },
+    {
+      "name": "redacteur ISDP-orgaan \"Het Indische Volk\"",
+      "begin": "1922",
+      "end": "1928"
+    },
+    {
+      "name": "lid Volksraad van Nederlands-Indië",
+      "begin": "1923-06-25",
+      "end": "1931-06-15"
+    },
+    {
+      "name": "lid College van Gedelegeerden in Nederlands-Indië",
+      "begin": "1927-07-01",
+      "end": "1931-07-01"
+    },
+    {
+      "name": "leraar staatsinrichting en staatshuishoudkunde, Hogere Burgerschool te 's-Gravenhage",
+      "begin": "1931",
+      "end": "1933"
+    },
+    {
+      "name": "leraar staatsinrichting en staatshuishoudkunde, Hogere Burgerschool te Dordrecht",
+      "begin": "1931",
+      "end": "1933"
+    },
+    {
+      "name": "medewerker dagblad \"Indië-Express\"",
+      "begin": "1933",
+      "end": "1934"
+    },
+    {
+      "name": "lid Provinciale Staten van Zuid-Holland",
+      "begin": "1935-07-02",
+      "end": "1939-07-04"
+    },
+    {
+      "name": "lid Tweede Kamer der Staten-Generaal",
+      "begin": "1937-06-08",
+      "end": "1946-10-16"
+    },
+    {
+      "name": "klerk effectenkantoor te 's-Gravenhage",
+      "begin": "1889",
+      "end": "1891"
+    },
+    {
+      "name": "bediende boekenantiquariaat \"W.P. van Stockum\" te 's-Gravenhage",
+      "begin": "1891",
+      "end": "1895"
+    },
+    {
+      "name": "schrijver, secretarie gemeente 's-Gravenhage",
+      "begin": "1896",
+      "end": "1897"
+    },
+    {
+      "name": "journalist \"Haagsche Courant\"",
+      "begin": "1897-04",
+      "end": "1899"
+    },
+    {
+      "name": "journalist \"Dagblad van Zuid-Holland\"",
+      "begin": "1899",
+      "end": "1904"
+    },
+    {
+      "name": "parlementair verslaggever, dagblad \"De Telegraaf\"",
+      "begin": "1902",
+      "end": "1904"
+    },
+    {
+      "name": "verlaggever Haagse gemeentepolitiek, dagblad \"Het Vaderland\"",
+      "begin": "1904",
+      "end": "1908"
+    },
+    {
+      "name": "redacteur \"Kort Verslag der Tweede Kamer\"",
+      "begin": "1908",
+      "end": "1910"
+    },
+    {
+      "name": "hoofdredacteur dagblad \"De Locomotief\" te Semarang (Ind.)",
+      "begin": "1910",
+      "end": "1917"
+    }
+  ],
+  "residences": [
+    {
+      "name": "Nederlands-Indië",
+      "begin": "1910",
+      "end": "1918"
+    },
+    {
+      "name": "Nederlands-Indië",
+      "begin": "1922",
+      "end": "1931"
+    },
+    {
+      "name": "Nederlands-Indië",
+      "begin": "1933",
+      "end": "1934"
+    },
+    {
+      "name": "'s-Gravenhage, Bezuidenhout 52",
+      "begin": "None",
+      "end": "None"
+    }
+  ]
+}

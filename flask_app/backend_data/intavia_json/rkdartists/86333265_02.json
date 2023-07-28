@@ -1,0 +1,90 @@
+{
+  "text_id": "86333265_02",
+  "nlp_preprocessor": "stanza_nl",
+  "data": {
+    "text": "Schilder.",
+    "tokenization": {
+      "stanza_nl": [
+        "Schilder",
+        "."
+      ]
+    },
+    "morpho_syntax": {
+      "stanza_nl": [
+        {
+          "paragraphID": null,
+          "sentenceID": 0,
+          "text": "Schilder.",
+          "tokenized": "Schilder .",
+          "words": [
+            {
+              "ID": 0,
+              "FORM": "Schilder",
+              "LEMMA": "schilder",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 0,
+                "EndChar": 8
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 1,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 1,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 8,
+                "EndChar": 9
+              },
+              "FEATS": []
+            }
+          ]
+        }
+      ]
+    },
+    "entities": [],
+    "time_expressions": []
+  },
+  "id_person": "86333265",
+  "version": "02",
+  "source": "rkdartists",
+  "name": "louis de breet",
+  "partition": "test",
+  "birth_pl": null,
+  "birth_tm": "1870-03-14",
+  "baptism_pl": null,
+  "baptism_tm": null,
+  "death_pl": null,
+  "death_tm": "1940-08-09",
+  "funeral_pl": null,
+  "funeral_tm": null,
+  "marriage_pl": null,
+  "marriage_tm": null,
+  "gender": "1",
+  "category": null,
+  "father": null,
+  "mother": null,
+  "partner": null,
+  "religion": null,
+  "educations": null,
+  "faiths": null,
+  "occupations": [
+    {
+      "name": "schilder",
+      "begin": "None",
+      "end": "None"
+    }
+  ],
+  "residences": null
+}

@@ -1,0 +1,878 @@
+{
+  "text_id": "66860828_02",
+  "nlp_preprocessor": "stanza_nl",
+  "data": {
+    "text": "Schilder, tekenaar. Geboren: 1643, Antwerpen. Plaats en periode van werkzaamheid: Antwerpen, van 1658 tot 1682 In 1658/59 meester en lid van het gilde; 1681/82 overleden.",
+    "tokenization": {
+      "stanza_nl": [
+        "Schilder",
+        ",",
+        "tekenaar",
+        ".",
+        "Geboren",
+        ":",
+        "1643",
+        ",",
+        "Antwerpen",
+        ".",
+        "Plaats",
+        "en",
+        "periode",
+        "van",
+        "werkzaamheid",
+        ":",
+        "Antwerpen",
+        ",",
+        "van",
+        "1658",
+        "tot",
+        "1682",
+        "In",
+        "1658/59",
+        "meester",
+        "en",
+        "lid",
+        "van",
+        "het",
+        "gilde",
+        ";",
+        "1681/82",
+        "overleden",
+        "."
+      ]
+    },
+    "morpho_syntax": {
+      "stanza_nl": [
+        {
+          "paragraphID": null,
+          "sentenceID": 0,
+          "text": "Schilder, tekenaar. ",
+          "tokenized": "Schilder , tekenaar .",
+          "words": [
+            {
+              "ID": 0,
+              "FORM": "Schilder",
+              "LEMMA": "schilder",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 0,
+                "EndChar": 8
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 1,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 3,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 8,
+                "EndChar": 9
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 2,
+              "FORM": "tekenaar",
+              "LEMMA": "tekenaar",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 1,
+              "DEPREL": "parataxis",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 10,
+                "EndChar": 18
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 3,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 1,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 18,
+                "EndChar": 19
+              },
+              "FEATS": []
+            }
+          ]
+        },
+        {
+          "paragraphID": null,
+          "sentenceID": 1,
+          "text": "Geboren: 1643, Antwerpen. ",
+          "tokenized": "Geboren : 1643 , Antwerpen .",
+          "words": [
+            {
+              "ID": 4,
+              "FORM": "Geboren",
+              "LEMMA": "geboren",
+              "UPOS": "VERB",
+              "XPOS": "WW|vd|vrij|zonder",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 20,
+                "EndChar": 27
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 5,
+              "FORM": ":",
+              "LEMMA": ":",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 3,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 27,
+                "EndChar": 28
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 6,
+              "FORM": "1643",
+              "LEMMA": "1643",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 1,
+              "DEPREL": "parataxis",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 29,
+                "EndChar": 33
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 7,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 5,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 33,
+                "EndChar": 34
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 8,
+              "FORM": "Antwerpen",
+              "LEMMA": "Antwerpen",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|onz|stan",
+              "HEAD": 3,
+              "DEPREL": "parataxis",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 35,
+                "EndChar": 44
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 9,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 1,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 44,
+                "EndChar": 45
+              },
+              "FEATS": []
+            }
+          ]
+        },
+        {
+          "paragraphID": null,
+          "sentenceID": 2,
+          "text": "Plaats en periode van werkzaamheid: ",
+          "tokenized": "Plaats en periode van werkzaamheid :",
+          "words": [
+            {
+              "ID": 10,
+              "FORM": "Plaats",
+              "LEMMA": "plaats",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 46,
+                "EndChar": 52
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 11,
+              "FORM": "en",
+              "LEMMA": "en",
+              "UPOS": "CCONJ",
+              "XPOS": "VG|neven",
+              "HEAD": 3,
+              "DEPREL": "cc",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 53,
+                "EndChar": 55
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 12,
+              "FORM": "periode",
+              "LEMMA": "periode",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 1,
+              "DEPREL": "conj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 56,
+                "EndChar": 63
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 13,
+              "FORM": "van",
+              "LEMMA": "van",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 5,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 64,
+                "EndChar": 67
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 14,
+              "FORM": "werkzaamheid",
+              "LEMMA": "werkzaamheid",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 1,
+              "DEPREL": "nmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 68,
+                "EndChar": 80
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 15,
+              "FORM": ":",
+              "LEMMA": ":",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 1,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 80,
+                "EndChar": 81
+              },
+              "FEATS": []
+            }
+          ]
+        },
+        {
+          "paragraphID": null,
+          "sentenceID": 3,
+          "text": "Antwerpen, van 1658 tot 1682 ",
+          "tokenized": "Antwerpen , van 1658 tot 1682",
+          "words": [
+            {
+              "ID": 16,
+              "FORM": "Antwerpen",
+              "LEMMA": "Antwerpen",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|onz|stan",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 82,
+                "EndChar": 91
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 17,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 4,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 91,
+                "EndChar": 92
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 18,
+              "FORM": "van",
+              "LEMMA": "van",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 4,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 93,
+                "EndChar": 96
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 19,
+              "FORM": "1658",
+              "LEMMA": "1658",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 1,
+              "DEPREL": "nmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 97,
+                "EndChar": 101
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 20,
+              "FORM": "tot",
+              "LEMMA": "tot",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 6,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 102,
+                "EndChar": 105
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 21,
+              "FORM": "1682",
+              "LEMMA": "1682",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 1,
+              "DEPREL": "parataxis",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 106,
+                "EndChar": 110
+              },
+              "FEATS": []
+            }
+          ]
+        },
+        {
+          "paragraphID": null,
+          "sentenceID": 4,
+          "text": "In 1658/59 meester en lid van het gilde; ",
+          "tokenized": "In 1658/59 meester en lid van het gilde ;",
+          "words": [
+            {
+              "ID": 22,
+              "FORM": "In",
+              "LEMMA": "in",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 2,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 111,
+                "EndChar": 113
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 23,
+              "FORM": "1658/59",
+              "LEMMA": "1658/59",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 114,
+                "EndChar": 121
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 24,
+              "FORM": "meester",
+              "LEMMA": "meester",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 2,
+              "DEPREL": "parataxis",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 122,
+                "EndChar": 129
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 25,
+              "FORM": "en",
+              "LEMMA": "en",
+              "UPOS": "CCONJ",
+              "XPOS": "VG|neven",
+              "HEAD": 5,
+              "DEPREL": "cc",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 130,
+                "EndChar": 132
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 26,
+              "FORM": "lid",
+              "LEMMA": "lid",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|onz|stan",
+              "HEAD": 3,
+              "DEPREL": "conj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 133,
+                "EndChar": 136
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 27,
+              "FORM": "van",
+              "LEMMA": "van",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 8,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 137,
+                "EndChar": 140
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 28,
+              "FORM": "het",
+              "LEMMA": "het",
+              "UPOS": "DET",
+              "XPOS": "LID|bep|stan|evon",
+              "HEAD": 8,
+              "DEPREL": "det",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 141,
+                "EndChar": 144
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 29,
+              "FORM": "gilde",
+              "LEMMA": "gilde",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|onz|stan",
+              "HEAD": 5,
+              "DEPREL": "nmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 145,
+                "EndChar": 150
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 30,
+              "FORM": ";",
+              "LEMMA": ";",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 2,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 150,
+                "EndChar": 151
+              },
+              "FEATS": []
+            }
+          ]
+        },
+        {
+          "paragraphID": null,
+          "sentenceID": 5,
+          "text": "1681/82 overleden.",
+          "tokenized": "1681/82 overleden .",
+          "words": [
+            {
+              "ID": 31,
+              "FORM": "1681/82",
+              "LEMMA": "1681/82",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 2,
+              "DEPREL": "obl",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 152,
+                "EndChar": 159
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 32,
+              "FORM": "overleden",
+              "LEMMA": "overlijden",
+              "UPOS": "VERB",
+              "XPOS": "WW|vd|vrij|zonder",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 160,
+                "EndChar": 169
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 33,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 2,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 169,
+                "EndChar": 170
+              },
+              "FEATS": []
+            }
+          ]
+        }
+      ]
+    },
+    "entities": [
+      {
+        "ID": "gold_2",
+        "surfaceForm": "1643",
+        "category": "TIME",
+        "locationStart": 29,
+        "locationEnd": 33,
+        "tokenStart": 6,
+        "tokenEnd": 7,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_1",
+        "category": "TIME",
+        "surfaceForm": "1643",
+        "locationStart": 29,
+        "locationEnd": 33,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_0",
+        "surfaceForm": "Antwerpen",
+        "category": "LOC",
+        "locationStart": 35,
+        "locationEnd": 44,
+        "tokenStart": 8,
+        "tokenEnd": 9,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_3",
+        "surfaceForm": "Antwerpen",
+        "category": "LOC",
+        "locationStart": 35,
+        "locationEnd": 44,
+        "tokenStart": 8,
+        "tokenEnd": 9,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_1",
+        "category": "LOC",
+        "surfaceForm": "Antwerpen",
+        "locationStart": 35,
+        "locationEnd": 44,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_1",
+        "category": "LOC",
+        "surfaceForm": "antwerpen",
+        "locationStart": 35,
+        "locationEnd": 44,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_1",
+        "surfaceForm": "Antwerpen",
+        "category": "LOC",
+        "locationStart": 82,
+        "locationEnd": 91,
+        "tokenStart": 16,
+        "tokenEnd": 17,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_4",
+        "surfaceForm": "Antwerpen",
+        "category": "LOC",
+        "locationStart": 82,
+        "locationEnd": 91,
+        "tokenStart": 16,
+        "tokenEnd": 17,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_2",
+        "category": "LOC",
+        "surfaceForm": "Antwerpen",
+        "locationStart": 82,
+        "locationEnd": 91,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_3",
+        "category": "LOC",
+        "surfaceForm": "antwerpen",
+        "locationStart": 82,
+        "locationEnd": 91,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gold_5",
+        "surfaceForm": "van 1658 tot 1682",
+        "category": "TIME",
+        "locationStart": 93,
+        "locationEnd": 110,
+        "tokenStart": 18,
+        "tokenEnd": 22,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_3",
+        "category": "TIME",
+        "surfaceForm": "1658",
+        "locationStart": 97,
+        "locationEnd": 101,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gysbert_hist_3",
+        "category": "TIME",
+        "surfaceForm": "1682",
+        "locationStart": 106,
+        "locationEnd": 110,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gold_0",
+        "surfaceForm": "1658/59",
+        "category": "TIME",
+        "locationStart": 114,
+        "locationEnd": 121,
+        "tokenStart": 23,
+        "tokenEnd": 24,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_4",
+        "category": "TIME",
+        "surfaceForm": "1658",
+        "locationStart": 114,
+        "locationEnd": 118,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gold_1",
+        "surfaceForm": "1681/82",
+        "category": "TIME",
+        "locationStart": 152,
+        "locationEnd": 159,
+        "tokenStart": 31,
+        "tokenEnd": 32,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_5",
+        "category": "",
+        "surfaceForm": "1681 82",
+        "locationStart": 152,
+        "locationEnd": 159,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      }
+    ],
+    "time_expressions": [
+      {
+        "ID": "t0",
+        "category": "DATE",
+        "value": "1643",
+        "surfaceForm": "1643",
+        "locationStart": 29,
+        "locationEnd": 33,
+        "method": "heideltime"
+      },
+      {
+        "ID": "t1",
+        "category": "DATE",
+        "value": "1658",
+        "surfaceForm": "1658",
+        "locationStart": 97,
+        "locationEnd": 101,
+        "method": "heideltime"
+      },
+      {
+        "ID": "t2",
+        "category": "DATE",
+        "value": "1682",
+        "surfaceForm": "1682",
+        "locationStart": 106,
+        "locationEnd": 110,
+        "method": "heideltime"
+      },
+      {
+        "ID": "t3",
+        "category": "DATE",
+        "value": "1658",
+        "surfaceForm": "1658",
+        "locationStart": 114,
+        "locationEnd": 118,
+        "method": "heideltime"
+      },
+      {
+        "ID": "t4",
+        "category": "DATE",
+        "value": "1681",
+        "surfaceForm": "1681",
+        "locationStart": 152,
+        "locationEnd": 156,
+        "method": "heideltime"
+      }
+    ]
+  },
+  "id_person": "66860828",
+  "version": "02",
+  "source": "rkdartists",
+  "name": "alexander (i) casteels",
+  "partition": "test",
+  "birth_pl": null,
+  "birth_tm": "1637~1643",
+  "baptism_pl": null,
+  "baptism_tm": null,
+  "death_pl": null,
+  "death_tm": "1681~1682",
+  "funeral_pl": null,
+  "funeral_tm": null,
+  "marriage_pl": null,
+  "marriage_tm": null,
+  "gender": "1",
+  "category": null,
+  "father": null,
+  "mother": null,
+  "partner": null,
+  "religion": null,
+  "educations": null,
+  "faiths": null,
+  "occupations": [
+    {
+      "name": "schilder",
+      "begin": "None",
+      "end": "None"
+    },
+    {
+      "name": "tekenaar",
+      "begin": "None",
+      "end": "None"
+    }
+  ],
+  "residences": null
+}

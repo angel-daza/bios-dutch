@@ -7,13 +7,13 @@ import matplotlib.pyplot as plt
 
 from utils.classes import IntaviaEntity, IntaviaDocument, MetadataComplete
 from stats_unique_people import build_names_dictionaries
-from utils_general import get_gold_annotations, NER_METHOD_DISPLAY
+from utils_general import get_gold_annotations, NER_METHOD_DISPLAY, INTAVIA_JSON_ROOT
 
 
 def main():
     # Get Dataset
     gold_docs = get_gold_annotations() # 347 Documents
-    documents = get_intavia_documents("flask_app/backend_data/intavia_json/*", gold_docs, keep_gold_limits=True)
+    documents = get_intavia_documents(f"{INTAVIA_JSON_ROOT}/*", gold_docs, keep_gold_limits=True)
     
     # Statistics
     get_entity_stats(documents)
@@ -27,9 +27,9 @@ def main():
     
     # Build Networks
     get_network_of_person_mentions(documents["37716498_02"], "human_gold") # hendrik hendicus huisman
-    # for sys in METHOD_DISPLAY:
-    #     print(f"----- {sys} -----")
-    #     get_network_of_person_mentions(documents["37716498_02"], sys)
+    for sys in NER_METHOD_DISPLAY:
+        print(f"----- {sys} -----")
+        get_network_of_person_mentions(documents["37716498_02"], sys)
 
 
 

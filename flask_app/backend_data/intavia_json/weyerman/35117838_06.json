@@ -1,0 +1,1121 @@
+{
+  "text_id": "35117838_06",
+  "nlp_preprocessor": "stanza_nl",
+  "data": {
+    "text": "NEVE Geen gemeen Historieschilder, die naarstiglyk studeerdena de Konsttafereelen van den grooten P. P. Rubens,en van den zeldzaamen A. v. Dyk. Hy vloog noch zeerjong zynde over na Romen; doch was een verdienstig Schilder toen hy wederkeerde, als blykt uyt onderscheydestukken die noch dagelyks zyn te",
+    "tokenization": {
+      "stanza_nl": [
+        "NEVE",
+        "Geen",
+        "gemeen",
+        "Historieschilder",
+        ",",
+        "die",
+        "naarstiglyk",
+        "studeerdena",
+        "de",
+        "Konsttafereelen",
+        "van",
+        "den",
+        "grooten",
+        "P.",
+        "P.",
+        "Rubens",
+        ",",
+        "en",
+        "van",
+        "den",
+        "zeldzaamen",
+        "A.",
+        "v.",
+        "Dyk",
+        ".",
+        "Hy",
+        "vloog",
+        "noch",
+        "zeerjong",
+        "zynde",
+        "over",
+        "na",
+        "Romen",
+        ";",
+        "doch",
+        "was",
+        "een",
+        "verdienstig",
+        "Schilder",
+        "toen",
+        "hy",
+        "wederkeerde",
+        ",",
+        "als",
+        "blykt",
+        "uyt",
+        "onderscheydestukken",
+        "die",
+        "noch",
+        "dagelyks",
+        "zyn",
+        "te"
+      ]
+    },
+    "morpho_syntax": {
+      "stanza_nl": [
+        {
+          "paragraphID": null,
+          "sentenceID": 0,
+          "text": "NEVE Geen gemeen Historieschilder, die naarstiglyk studeerdena de Konsttafereelen van den grooten P. P. Rubens,en van den zeldzaamen A. v. Dyk. ",
+          "tokenized": "NEVE Geen gemeen Historieschilder , die naarstiglyk studeerdena de Konsttafereelen van den grooten P. P. Rubens , en van den zeldzaamen A. v. Dyk .",
+          "words": [
+            {
+              "ID": 0,
+              "FORM": "NEVE",
+              "LEMMA": "neve",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 0,
+                "EndChar": 4
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 1,
+              "FORM": "Geen",
+              "LEMMA": "geen",
+              "UPOS": "DET",
+              "XPOS": "VNW|onbep|det|stan|prenom|zonder|agr",
+              "HEAD": 4,
+              "DEPREL": "det",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 5,
+                "EndChar": 9
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 2,
+              "FORM": "gemeen",
+              "LEMMA": "gemeen",
+              "UPOS": "ADJ",
+              "XPOS": "ADJ|prenom|basis|zonder",
+              "HEAD": 4,
+              "DEPREL": "amod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 10,
+                "EndChar": 16
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 3,
+              "FORM": "Historieschilder",
+              "LEMMA": "Historie_schilder",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 1,
+              "DEPREL": "appos",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 17,
+                "EndChar": 33
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 4,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 8,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 33,
+                "EndChar": 34
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 5,
+              "FORM": "die",
+              "LEMMA": "die",
+              "UPOS": "PRON",
+              "XPOS": "VNW|betr|pron|stan|vol|persoon|getal",
+              "HEAD": 8,
+              "DEPREL": "nsubj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 35,
+                "EndChar": 38
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 6,
+              "FORM": "naarstiglyk",
+              "LEMMA": "naarstiglyk",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 8,
+              "DEPREL": "obj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 39,
+                "EndChar": 50
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 7,
+              "FORM": "studeerdena",
+              "LEMMA": "studeren",
+              "UPOS": "VERB",
+              "XPOS": "WW|pv|tgw|ev",
+              "HEAD": 4,
+              "DEPREL": "acl:relcl",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 51,
+                "EndChar": 62
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 8,
+              "FORM": "de",
+              "LEMMA": "de",
+              "UPOS": "DET",
+              "XPOS": "LID|bep|stan|rest",
+              "HEAD": 10,
+              "DEPREL": "det",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 63,
+                "EndChar": 65
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 9,
+              "FORM": "Konsttafereelen",
+              "LEMMA": "konsttafereel",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|mv|basis",
+              "HEAD": 8,
+              "DEPREL": "obj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 66,
+                "EndChar": 81
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 10,
+              "FORM": "van",
+              "LEMMA": "van",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 12,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 82,
+                "EndChar": 85
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 11,
+              "FORM": "den",
+              "LEMMA": "den",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 10,
+              "DEPREL": "nmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 86,
+                "EndChar": 89
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 12,
+              "FORM": "grooten",
+              "LEMMA": "groot",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|mv|basis",
+              "HEAD": 12,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 90,
+                "EndChar": 97
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 13,
+              "FORM": "P.",
+              "LEMMA": "P.",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 12,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 98,
+                "EndChar": 100
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 14,
+              "FORM": "P.",
+              "LEMMA": "P.",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 12,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 101,
+                "EndChar": 103
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 15,
+              "FORM": "Rubens",
+              "LEMMA": "Rubens",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 12,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 104,
+                "EndChar": 110
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 16,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 21,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 110,
+                "EndChar": 111
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 17,
+              "FORM": "en",
+              "LEMMA": "en",
+              "UPOS": "CCONJ",
+              "XPOS": "VG|neven",
+              "HEAD": 21,
+              "DEPREL": "cc",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 111,
+                "EndChar": 113
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 18,
+              "FORM": "van",
+              "LEMMA": "van",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 21,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 114,
+                "EndChar": 117
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 19,
+              "FORM": "den",
+              "LEMMA": "de",
+              "UPOS": "DET",
+              "XPOS": "LID|bep|dat|evmo",
+              "HEAD": 21,
+              "DEPREL": "det",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 118,
+                "EndChar": 121
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 20,
+              "FORM": "zeldzaamen",
+              "LEMMA": "zeld_zaam",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|mv|basis",
+              "HEAD": 10,
+              "DEPREL": "conj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 122,
+                "EndChar": 132
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 21,
+              "FORM": "A.",
+              "LEMMA": "A.",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 21,
+              "DEPREL": "appos",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 133,
+                "EndChar": 135
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 22,
+              "FORM": "v.",
+              "LEMMA": "v.",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 22,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 136,
+                "EndChar": 138
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 23,
+              "FORM": "Dyk",
+              "LEMMA": "Dyk",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 22,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 139,
+                "EndChar": 142
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 24,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 1,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 142,
+                "EndChar": 143
+              },
+              "FEATS": []
+            }
+          ]
+        },
+        {
+          "paragraphID": null,
+          "sentenceID": 1,
+          "text": "Hy vloog noch zeerjong zynde over na Romen; ",
+          "tokenized": "Hy vloog noch zeerjong zynde over na Romen ;",
+          "words": [
+            {
+              "ID": 25,
+              "FORM": "Hy",
+              "LEMMA": "Hy",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|zijd|stan",
+              "HEAD": 2,
+              "DEPREL": "nsubj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 144,
+                "EndChar": 146
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 26,
+              "FORM": "vloog",
+              "LEMMA": "vliegen",
+              "UPOS": "VERB",
+              "XPOS": "WW|pv|verl|ev",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 147,
+                "EndChar": 152
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 27,
+              "FORM": "noch",
+              "LEMMA": "noch",
+              "UPOS": "CCONJ",
+              "XPOS": "VG|neven",
+              "HEAD": 4,
+              "DEPREL": "cc",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 153,
+                "EndChar": 157
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 28,
+              "FORM": "zeerjong",
+              "LEMMA": "zeerjong",
+              "UPOS": "ADJ",
+              "XPOS": "ADJ|vrij|basis|zonder",
+              "HEAD": 5,
+              "DEPREL": "advmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 158,
+                "EndChar": 166
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 29,
+              "FORM": "zynde",
+              "LEMMA": "zinden",
+              "UPOS": "VERB",
+              "XPOS": "WW|pv|verl|ev",
+              "HEAD": 2,
+              "DEPREL": "conj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 167,
+                "EndChar": 172
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 30,
+              "FORM": "over",
+              "LEMMA": "over",
+              "UPOS": "ADP",
+              "XPOS": "VZ|fin",
+              "HEAD": 2,
+              "DEPREL": "compound:prt",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 173,
+                "EndChar": 177
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 31,
+              "FORM": "na",
+              "LEMMA": "na",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 8,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 178,
+                "EndChar": 180
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 32,
+              "FORM": "Romen",
+              "LEMMA": "Romen",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|genus|stan",
+              "HEAD": 5,
+              "DEPREL": "obl",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 181,
+                "EndChar": 186
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 33,
+              "FORM": ";",
+              "LEMMA": ";",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 2,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 186,
+                "EndChar": 187
+              },
+              "FEATS": []
+            }
+          ]
+        },
+        {
+          "paragraphID": null,
+          "sentenceID": 2,
+          "text": "doch was een verdienstig ",
+          "tokenized": "doch was een verdienstig",
+          "words": [
+            {
+              "ID": 34,
+              "FORM": "doch",
+              "LEMMA": "doch",
+              "UPOS": "CCONJ",
+              "XPOS": "VG|neven",
+              "HEAD": 4,
+              "DEPREL": "mark",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 188,
+                "EndChar": 192
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 35,
+              "FORM": "was",
+              "LEMMA": "zijn",
+              "UPOS": "AUX",
+              "XPOS": "WW|pv|verl|ev",
+              "HEAD": 4,
+              "DEPREL": "cop",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 193,
+                "EndChar": 196
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 36,
+              "FORM": "een",
+              "LEMMA": "een",
+              "UPOS": "DET",
+              "XPOS": "LID|onbep|stan|agr",
+              "HEAD": 4,
+              "DEPREL": "det",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 197,
+                "EndChar": 200
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 37,
+              "FORM": "verdienstig",
+              "LEMMA": "verdienstig",
+              "UPOS": "ADJ",
+              "XPOS": "ADJ|vrij|basis|zonder",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 201,
+                "EndChar": 212
+              },
+              "FEATS": []
+            }
+          ]
+        },
+        {
+          "paragraphID": null,
+          "sentenceID": 3,
+          "text": "Schilder toen hy wederkeerde, als blykt uyt onderscheydestukken die noch dagelyks zyn te",
+          "tokenized": "Schilder toen hy wederkeerde , als blykt uyt onderscheydestukken die noch dagelyks zyn te",
+          "words": [
+            {
+              "ID": 38,
+              "FORM": "Schilder",
+              "LEMMA": "schilder",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 213,
+                "EndChar": 221
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 39,
+              "FORM": "toen",
+              "LEMMA": "toen",
+              "UPOS": "SCONJ",
+              "XPOS": "VG|onder",
+              "HEAD": 4,
+              "DEPREL": "mark",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 222,
+                "EndChar": 226
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 40,
+              "FORM": "hy",
+              "LEMMA": "hy",
+              "UPOS": "PRON",
+              "XPOS": "VNW|pers|pron|nomin|vol|3|ev",
+              "HEAD": 4,
+              "DEPREL": "nsubj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 227,
+                "EndChar": 229
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 41,
+              "FORM": "wederkeerde",
+              "LEMMA": "wederkeren",
+              "UPOS": "VERB",
+              "XPOS": "WW|pv|verl|ev",
+              "HEAD": 1,
+              "DEPREL": "parataxis",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 230,
+                "EndChar": 241
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 42,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 4,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 241,
+                "EndChar": 242
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 43,
+              "FORM": "als",
+              "LEMMA": "als",
+              "UPOS": "SCONJ",
+              "XPOS": "VG|onder",
+              "HEAD": 7,
+              "DEPREL": "mark",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 243,
+                "EndChar": 246
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 44,
+              "FORM": "blykt",
+              "LEMMA": "blykken",
+              "UPOS": "VERB",
+              "XPOS": "WW|pv|tgw|met-t",
+              "HEAD": 1,
+              "DEPREL": "parataxis",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 247,
+                "EndChar": 252
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 45,
+              "FORM": "uyt",
+              "LEMMA": "uyt",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 7,
+              "DEPREL": "nsubj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 253,
+                "EndChar": 256
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 46,
+              "FORM": "onderscheydestukken",
+              "LEMMA": "onderscheydestuk",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|mv|basis",
+              "HEAD": 7,
+              "DEPREL": "nsubj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 257,
+                "EndChar": 276
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 47,
+              "FORM": "die",
+              "LEMMA": "die",
+              "UPOS": "PRON",
+              "XPOS": "VNW|betr|pron|stan|vol|persoon|getal",
+              "HEAD": 7,
+              "DEPREL": "nsubj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 277,
+                "EndChar": 280
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 48,
+              "FORM": "noch",
+              "LEMMA": "noch",
+              "UPOS": "CCONJ",
+              "XPOS": "VG|neven",
+              "HEAD": 12,
+              "DEPREL": "cc",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 281,
+                "EndChar": 285
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 49,
+              "FORM": "dagelyks",
+              "LEMMA": "dagel_yk",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|mv|basis",
+              "HEAD": 9,
+              "DEPREL": "conj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 286,
+                "EndChar": 294
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 50,
+              "FORM": "zyn",
+              "LEMMA": "zyn",
+              "UPOS": "ADV",
+              "XPOS": "BW",
+              "HEAD": 12,
+              "DEPREL": "orphan",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 295,
+                "EndChar": 298
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 51,
+              "FORM": "te",
+              "LEMMA": "te",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 7,
+              "DEPREL": "compound:prt",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 299,
+                "EndChar": 301
+              },
+              "FEATS": []
+            }
+          ]
+        }
+      ]
+    },
+    "entities": [
+      {
+        "ID": "gold_0",
+        "surfaceForm": "NEVE",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 4,
+        "tokenStart": 0,
+        "tokenEnd": 1,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_0",
+        "category": "LOC",
+        "surfaceForm": "NEVE",
+        "locationStart": 0,
+        "locationEnd": 4,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "flair_0",
+        "category": "MISC",
+        "surfaceForm": "Historieschilder",
+        "locationStart": 17,
+        "locationEnd": 33,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "stanza_nl_0",
+        "surfaceForm": "Konsttafereelen",
+        "category": "MISC",
+        "locationStart": 66,
+        "locationEnd": 81,
+        "tokenStart": 9,
+        "tokenEnd": 10,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_0",
+        "category": "MISC",
+        "surfaceForm": "Konsttafereelen",
+        "locationStart": 66,
+        "locationEnd": 81,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "stanza_nl_1",
+        "surfaceForm": "P. P. Rubens",
+        "category": "PER",
+        "locationStart": 98,
+        "locationEnd": 110,
+        "tokenStart": 13,
+        "tokenEnd": 16,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_3",
+        "surfaceForm": "P. P. Rubens",
+        "category": "PER",
+        "locationStart": 98,
+        "locationEnd": 110,
+        "tokenStart": 13,
+        "tokenEnd": 16,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_0",
+        "category": "PER",
+        "surfaceForm": "P.",
+        "locationStart": 98,
+        "locationEnd": 100,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "flair_1",
+        "category": "PER",
+        "surfaceForm": "P. Rubens,en",
+        "locationStart": 101,
+        "locationEnd": 113,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "stanza_nl_2",
+        "surfaceForm": "A. v. Dyk",
+        "category": "PER",
+        "locationStart": 133,
+        "locationEnd": 142,
+        "tokenStart": 21,
+        "tokenEnd": 24,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_1",
+        "surfaceForm": "A. v. Dyk",
+        "category": "PER",
+        "locationStart": 133,
+        "locationEnd": 142,
+        "tokenStart": 21,
+        "tokenEnd": 24,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_1",
+        "category": "PER",
+        "surfaceForm": "A. v. Dyk",
+        "locationStart": 133,
+        "locationEnd": 142,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_0",
+        "category": "PER",
+        "surfaceForm": "v . dyk",
+        "locationStart": 136,
+        "locationEnd": 142,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_3",
+        "surfaceForm": "Hy",
+        "category": "PER",
+        "locationStart": 144,
+        "locationEnd": 146,
+        "tokenStart": 25,
+        "tokenEnd": 26,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "stanza_nl_4",
+        "surfaceForm": "Romen",
+        "category": "ORG",
+        "locationStart": 181,
+        "locationEnd": 186,
+        "tokenStart": 32,
+        "tokenEnd": 33,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_2",
+        "surfaceForm": "Romen",
+        "category": "LOC",
+        "locationStart": 181,
+        "locationEnd": 186,
+        "tokenStart": 32,
+        "tokenEnd": 33,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_2",
+        "category": "MISC",
+        "surfaceForm": "Romen",
+        "locationStart": 181,
+        "locationEnd": 186,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "flair_2",
+        "category": "MISC",
+        "surfaceForm": "Schilder",
+        "locationStart": 213,
+        "locationEnd": 221,
+        "method": "flair/ner-dutch-large_0.12.2"
+      }
+    ],
+    "time_expressions": []
+  },
+  "id_person": "35117838",
+  "version": "06",
+  "source": "weyerman",
+  "name": "fran&ccedil;ois de neve",
+  "partition": "test",
+  "birth_pl": null,
+  "birth_tm": null,
+  "baptism_pl": null,
+  "baptism_tm": null,
+  "death_pl": null,
+  "death_tm": null,
+  "funeral_pl": null,
+  "funeral_tm": null,
+  "marriage_pl": null,
+  "marriage_tm": null,
+  "gender": null,
+  "category": null,
+  "father": null,
+  "mother": null,
+  "partner": null,
+  "religion": null,
+  "educations": null,
+  "faiths": null,
+  "occupations": null,
+  "residences": null
+}

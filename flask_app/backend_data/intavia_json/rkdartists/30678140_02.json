@@ -1,0 +1,623 @@
+{
+  "text_id": "30678140_02",
+  "nlp_preprocessor": "stanza_nl",
+  "data": {
+    "text": "Wandschilder, amateur, kopiist, schilder. Geboren: 15 maart 1896, Rotterdam. Gestorven: 20 oktober 1970, Bolsward.",
+    "tokenization": {
+      "stanza_nl": [
+        "Wandschilder",
+        ",",
+        "amateur",
+        ",",
+        "kopiist",
+        ",",
+        "schilder",
+        ".",
+        "Geboren",
+        ":",
+        "15",
+        "maart",
+        "1896",
+        ",",
+        "Rotterdam",
+        ".",
+        "Gestorven",
+        ":",
+        "20",
+        "oktober",
+        "1970",
+        ",",
+        "Bolsward",
+        "."
+      ]
+    },
+    "morpho_syntax": {
+      "stanza_nl": [
+        {
+          "paragraphID": null,
+          "sentenceID": 0,
+          "text": "Wandschilder, amateur, kopiist, schilder. ",
+          "tokenized": "Wandschilder , amateur , kopiist , schilder .",
+          "words": [
+            {
+              "ID": 0,
+              "FORM": "Wandschilder",
+              "LEMMA": "wandschilder",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 0,
+                "EndChar": 12
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 1,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 3,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 12,
+                "EndChar": 13
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 2,
+              "FORM": "amateur",
+              "LEMMA": "amateur",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 1,
+              "DEPREL": "conj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 14,
+                "EndChar": 21
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 3,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 5,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 21,
+                "EndChar": 22
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 4,
+              "FORM": "kopiist",
+              "LEMMA": "kopiist",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 1,
+              "DEPREL": "conj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 23,
+                "EndChar": 30
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 5,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 7,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 30,
+                "EndChar": 31
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 6,
+              "FORM": "schilder",
+              "LEMMA": "schilder",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 1,
+              "DEPREL": "conj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 32,
+                "EndChar": 40
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 7,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 1,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 40,
+                "EndChar": 41
+              },
+              "FEATS": []
+            }
+          ]
+        },
+        {
+          "paragraphID": null,
+          "sentenceID": 1,
+          "text": "Geboren: 15 maart 1896, Rotterdam. ",
+          "tokenized": "Geboren : 15 maart 1896 , Rotterdam .",
+          "words": [
+            {
+              "ID": 8,
+              "FORM": "Geboren",
+              "LEMMA": "geboren",
+              "UPOS": "VERB",
+              "XPOS": "WW|vd|vrij|zonder",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 42,
+                "EndChar": 49
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 9,
+              "FORM": ":",
+              "LEMMA": ":",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 3,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 49,
+                "EndChar": 50
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 10,
+              "FORM": "15",
+              "LEMMA": "15",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 1,
+              "DEPREL": "parataxis",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 51,
+                "EndChar": 53
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 11,
+              "FORM": "maart",
+              "LEMMA": "maart",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|zijd|stan",
+              "HEAD": 3,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 54,
+                "EndChar": 59
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 12,
+              "FORM": "1896",
+              "LEMMA": "1896",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 3,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 60,
+                "EndChar": 64
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 13,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 7,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 64,
+                "EndChar": 65
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 14,
+              "FORM": "Rotterdam",
+              "LEMMA": "Rotterdam",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|onz|stan",
+              "HEAD": 3,
+              "DEPREL": "parataxis",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 66,
+                "EndChar": 75
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 15,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 1,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 75,
+                "EndChar": 76
+              },
+              "FEATS": []
+            }
+          ]
+        },
+        {
+          "paragraphID": null,
+          "sentenceID": 2,
+          "text": "Gestorven: 20 oktober 1970, Bolsward.",
+          "tokenized": "Gestorven : 20 oktober 1970 , Bolsward .",
+          "words": [
+            {
+              "ID": 16,
+              "FORM": "Gestorven",
+              "LEMMA": "sterven",
+              "UPOS": "VERB",
+              "XPOS": "WW|vd|vrij|zonder",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 77,
+                "EndChar": 86
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 17,
+              "FORM": ":",
+              "LEMMA": ":",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 3,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 86,
+                "EndChar": 87
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 18,
+              "FORM": "20",
+              "LEMMA": "20",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 1,
+              "DEPREL": "parataxis",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 88,
+                "EndChar": 90
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 19,
+              "FORM": "oktober",
+              "LEMMA": "oktober",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|zijd|stan",
+              "HEAD": 3,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 91,
+                "EndChar": 98
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 20,
+              "FORM": "1970",
+              "LEMMA": "1970",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 3,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 99,
+                "EndChar": 103
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 21,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 7,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 103,
+                "EndChar": 104
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 22,
+              "FORM": "Bolsward",
+              "LEMMA": "Bolsward",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|onz|stan",
+              "HEAD": 3,
+              "DEPREL": "parataxis",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 105,
+                "EndChar": 113
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 23,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 1,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 113,
+                "EndChar": 114
+              },
+              "FEATS": []
+            }
+          ]
+        }
+      ]
+    },
+    "entities": [
+      {
+        "ID": "gold_1",
+        "surfaceForm": "15 maart 1896",
+        "category": "TIME",
+        "locationStart": 51,
+        "locationEnd": 64,
+        "tokenStart": 10,
+        "tokenEnd": 13,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_1",
+        "category": "TIME",
+        "surfaceForm": "15 maart 1896",
+        "locationStart": 51,
+        "locationEnd": 64,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_0",
+        "surfaceForm": "Rotterdam",
+        "category": "LOC",
+        "locationStart": 66,
+        "locationEnd": 75,
+        "tokenStart": 14,
+        "tokenEnd": 15,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_2",
+        "surfaceForm": "Rotterdam",
+        "category": "LOC",
+        "locationStart": 66,
+        "locationEnd": 75,
+        "tokenStart": 14,
+        "tokenEnd": 15,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_1",
+        "category": "LOC",
+        "surfaceForm": "Rotterdam",
+        "locationStart": 66,
+        "locationEnd": 75,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_1",
+        "category": "LOC",
+        "surfaceForm": "rotterdam",
+        "locationStart": 66,
+        "locationEnd": 75,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gold_3",
+        "surfaceForm": "20 oktober 1970",
+        "category": "TIME",
+        "locationStart": 88,
+        "locationEnd": 103,
+        "tokenStart": 18,
+        "tokenEnd": 21,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_2",
+        "category": "TIME",
+        "surfaceForm": "20 oktober",
+        "locationStart": 88,
+        "locationEnd": 98,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_1",
+        "surfaceForm": "Bolsward",
+        "category": "LOC",
+        "locationStart": 105,
+        "locationEnd": 113,
+        "tokenStart": 22,
+        "tokenEnd": 23,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_0",
+        "surfaceForm": "Bolsward",
+        "category": "LOC",
+        "locationStart": 105,
+        "locationEnd": 113,
+        "tokenStart": 22,
+        "tokenEnd": 23,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_2",
+        "category": "LOC",
+        "surfaceForm": "Bolsward",
+        "locationStart": 105,
+        "locationEnd": 113,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_2",
+        "category": "LOC",
+        "surfaceForm": "bolsward",
+        "locationStart": 105,
+        "locationEnd": 113,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      }
+    ],
+    "time_expressions": [
+      {
+        "ID": "t0",
+        "category": "DATE",
+        "value": "1896-03-15",
+        "surfaceForm": "15 maart 1896",
+        "locationStart": 51,
+        "locationEnd": 64,
+        "method": "heideltime"
+      },
+      {
+        "ID": "t1",
+        "category": "DATE",
+        "value": "1970-10-20",
+        "surfaceForm": "20 oktober 1970",
+        "locationStart": 88,
+        "locationEnd": 103,
+        "method": "heideltime"
+      }
+    ]
+  },
+  "id_person": "30678140",
+  "version": "02",
+  "source": "rkdartists",
+  "name": "leonardus christianus monshouwer",
+  "partition": "test",
+  "birth_pl": null,
+  "birth_tm": "1896-03-15",
+  "baptism_pl": null,
+  "baptism_tm": null,
+  "death_pl": "Bolsward",
+  "death_tm": "1970-10-20",
+  "funeral_pl": null,
+  "funeral_tm": null,
+  "marriage_pl": null,
+  "marriage_tm": null,
+  "gender": "1",
+  "category": null,
+  "father": null,
+  "mother": null,
+  "partner": null,
+  "religion": null,
+  "educations": null,
+  "faiths": null,
+  "occupations": [
+    {
+      "name": "wandschilder",
+      "begin": "None",
+      "end": "None"
+    },
+    {
+      "name": "amateur",
+      "begin": "None",
+      "end": "None"
+    },
+    {
+      "name": "kopiist",
+      "begin": "None",
+      "end": "None"
+    },
+    {
+      "name": "schilder",
+      "begin": "None",
+      "end": "None"
+    }
+  ],
+  "residences": null
+}

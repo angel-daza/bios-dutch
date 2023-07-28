@@ -1,0 +1,609 @@
+{
+  "text_id": "88475779_02",
+  "nlp_preprocessor": "stanza_nl",
+  "data": {
+    "text": "Aquarellist, schilder, tekenaar. Geboren: 7 mei 1906, Den Haag. Gestorven: 1 maart 1987, Amsterdam.",
+    "tokenization": {
+      "stanza_nl": [
+        "Aquarellist",
+        ",",
+        "schilder",
+        ",",
+        "tekenaar",
+        ".",
+        "Geboren",
+        ":",
+        "7",
+        "mei",
+        "1906",
+        ",",
+        "Den",
+        "Haag",
+        ".",
+        "Gestorven",
+        ":",
+        "1",
+        "maart",
+        "1987",
+        ",",
+        "Amsterdam",
+        "."
+      ]
+    },
+    "morpho_syntax": {
+      "stanza_nl": [
+        {
+          "paragraphID": null,
+          "sentenceID": 0,
+          "text": "Aquarellist, schilder, tekenaar. ",
+          "tokenized": "Aquarellist , schilder , tekenaar .",
+          "words": [
+            {
+              "ID": 0,
+              "FORM": "Aquarellist",
+              "LEMMA": "Aquarellist",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|zijd|stan",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 0,
+                "EndChar": 11
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 1,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 3,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 11,
+                "EndChar": 12
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 2,
+              "FORM": "schilder",
+              "LEMMA": "schilder",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 1,
+              "DEPREL": "conj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 13,
+                "EndChar": 21
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 3,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 5,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 21,
+                "EndChar": 22
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 4,
+              "FORM": "tekenaar",
+              "LEMMA": "tekenaar",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 1,
+              "DEPREL": "conj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 23,
+                "EndChar": 31
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 5,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 1,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 31,
+                "EndChar": 32
+              },
+              "FEATS": []
+            }
+          ]
+        },
+        {
+          "paragraphID": null,
+          "sentenceID": 1,
+          "text": "Geboren: 7 mei 1906, Den Haag. ",
+          "tokenized": "Geboren : 7 mei 1906 , Den Haag .",
+          "words": [
+            {
+              "ID": 6,
+              "FORM": "Geboren",
+              "LEMMA": "geboren",
+              "UPOS": "VERB",
+              "XPOS": "WW|vd|vrij|zonder",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 33,
+                "EndChar": 40
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 7,
+              "FORM": ":",
+              "LEMMA": ":",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 3,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 40,
+                "EndChar": 41
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 8,
+              "FORM": "7",
+              "LEMMA": "7",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 1,
+              "DEPREL": "parataxis",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 42,
+                "EndChar": 43
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 9,
+              "FORM": "mei",
+              "LEMMA": "mei",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|zijd|stan",
+              "HEAD": 3,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 44,
+                "EndChar": 47
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 10,
+              "FORM": "1906",
+              "LEMMA": "1906",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 3,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 48,
+                "EndChar": 52
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 11,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 7,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 52,
+                "EndChar": 53
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 12,
+              "FORM": "Den",
+              "LEMMA": "Den",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 3,
+              "DEPREL": "parataxis",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 54,
+                "EndChar": 57
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 13,
+              "FORM": "Haag",
+              "LEMMA": "Haag",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 7,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 58,
+                "EndChar": 62
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 14,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 1,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 62,
+                "EndChar": 63
+              },
+              "FEATS": []
+            }
+          ]
+        },
+        {
+          "paragraphID": null,
+          "sentenceID": 2,
+          "text": "Gestorven: 1 maart 1987, Amsterdam.",
+          "tokenized": "Gestorven : 1 maart 1987 , Amsterdam .",
+          "words": [
+            {
+              "ID": 15,
+              "FORM": "Gestorven",
+              "LEMMA": "sterven",
+              "UPOS": "VERB",
+              "XPOS": "WW|vd|vrij|zonder",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 64,
+                "EndChar": 73
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 16,
+              "FORM": ":",
+              "LEMMA": ":",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 3,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 73,
+                "EndChar": 74
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 17,
+              "FORM": "1",
+              "LEMMA": "1",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 1,
+              "DEPREL": "parataxis",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 75,
+                "EndChar": 76
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 18,
+              "FORM": "maart",
+              "LEMMA": "maart",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|zijd|stan",
+              "HEAD": 3,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 77,
+                "EndChar": 82
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 19,
+              "FORM": "1987",
+              "LEMMA": "1987",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 3,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 83,
+                "EndChar": 87
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 20,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 7,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 87,
+                "EndChar": 88
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 21,
+              "FORM": "Amsterdam",
+              "LEMMA": "Amsterdam",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|onz|stan",
+              "HEAD": 3,
+              "DEPREL": "parataxis",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 89,
+                "EndChar": 98
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 22,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 1,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 98,
+                "EndChar": 99
+              },
+              "FEATS": []
+            }
+          ]
+        }
+      ]
+    },
+    "entities": [
+      {
+        "ID": "gold_0",
+        "surfaceForm": "7 mei 1906",
+        "category": "TIME",
+        "locationStart": 42,
+        "locationEnd": 52,
+        "tokenStart": 8,
+        "tokenEnd": 11,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_1",
+        "category": "TIME",
+        "surfaceForm": "7 mei 1906",
+        "locationStart": 42,
+        "locationEnd": 52,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_0",
+        "surfaceForm": "Den Haag",
+        "category": "LOC",
+        "locationStart": 54,
+        "locationEnd": 62,
+        "tokenStart": 12,
+        "tokenEnd": 14,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_1",
+        "surfaceForm": "Den Haag",
+        "category": "LOC",
+        "locationStart": 54,
+        "locationEnd": 62,
+        "tokenStart": 12,
+        "tokenEnd": 14,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_1",
+        "category": "LOC",
+        "surfaceForm": "Den Haag",
+        "locationStart": 54,
+        "locationEnd": 62,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_1",
+        "category": "LOC",
+        "surfaceForm": "den",
+        "locationStart": 54,
+        "locationEnd": 57,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gysbert_hist_1",
+        "category": "LOC",
+        "surfaceForm": "haag",
+        "locationStart": 58,
+        "locationEnd": 62,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gold_2",
+        "surfaceForm": "1 maart 1987",
+        "category": "TIME",
+        "locationStart": 75,
+        "locationEnd": 87,
+        "tokenStart": 17,
+        "tokenEnd": 20,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_2",
+        "category": "TIME",
+        "surfaceForm": "1 maart",
+        "locationStart": 75,
+        "locationEnd": 82,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_1",
+        "surfaceForm": "Amsterdam",
+        "category": "LOC",
+        "locationStart": 89,
+        "locationEnd": 98,
+        "tokenStart": 21,
+        "tokenEnd": 22,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_3",
+        "surfaceForm": "Amsterdam",
+        "category": "LOC",
+        "locationStart": 89,
+        "locationEnd": 98,
+        "tokenStart": 21,
+        "tokenEnd": 22,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_2",
+        "category": "LOC",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 89,
+        "locationEnd": 98,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_2",
+        "category": "LOC",
+        "surfaceForm": "amsterdam",
+        "locationStart": 89,
+        "locationEnd": 98,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      }
+    ],
+    "time_expressions": [
+      {
+        "ID": "t0",
+        "category": "DATE",
+        "value": "1906-05-07",
+        "surfaceForm": "7 mei 1906",
+        "locationStart": 42,
+        "locationEnd": 52,
+        "method": "heideltime"
+      },
+      {
+        "ID": "t1",
+        "category": "DATE",
+        "value": "1987-03-01",
+        "surfaceForm": "1 maart 1987",
+        "locationStart": 75,
+        "locationEnd": 87,
+        "method": "heideltime"
+      }
+    ]
+  },
+  "id_person": "88475779",
+  "version": "02",
+  "source": "rkdartists",
+  "name": "johannes gerardus adrianus guns",
+  "partition": "test",
+  "birth_pl": null,
+  "birth_tm": "1906-05-07",
+  "baptism_pl": null,
+  "baptism_tm": null,
+  "death_pl": "Amsterdam",
+  "death_tm": "1987-03-01",
+  "funeral_pl": null,
+  "funeral_tm": null,
+  "marriage_pl": null,
+  "marriage_tm": null,
+  "gender": "1",
+  "category": null,
+  "father": null,
+  "mother": null,
+  "partner": null,
+  "religion": null,
+  "educations": null,
+  "faiths": null,
+  "occupations": [
+    {
+      "name": "aquarellist",
+      "begin": "None",
+      "end": "None"
+    },
+    {
+      "name": "schilder",
+      "begin": "None",
+      "end": "None"
+    },
+    {
+      "name": "tekenaar",
+      "begin": "None",
+      "end": "None"
+    }
+  ],
+  "residences": null
+}

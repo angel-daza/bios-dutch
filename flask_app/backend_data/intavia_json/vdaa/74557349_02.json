@@ -1,0 +1,542 @@
+{
+  "text_id": "74557349_02",
+  "nlp_preprocessor": "stanza_nl",
+  "data": {
+    "text": "VALLENAER (Michiel) was omstreeks 1438, tailleur de coings de la monnoie de Hollande.' Zie Kramm.",
+    "tokenization": {
+      "stanza_nl": [
+        "VALLENAER",
+        "(",
+        "Michiel",
+        ")",
+        "was",
+        "omstreeks",
+        "1438",
+        ",",
+        "tailleur",
+        "de",
+        "coings",
+        "de",
+        "la",
+        "monnoie",
+        "de",
+        "Hollande",
+        ".",
+        "'",
+        "Zie",
+        "Kramm",
+        "."
+      ]
+    },
+    "morpho_syntax": {
+      "stanza_nl": [
+        {
+          "paragraphID": null,
+          "sentenceID": 0,
+          "text": "VALLENAER (Michiel) was omstreeks 1438, tailleur de coings de la monnoie de Hollande.' ",
+          "tokenized": "VALLENAER ( Michiel ) was omstreeks 1438 , tailleur de coings de la monnoie de Hollande . '",
+          "words": [
+            {
+              "ID": 0,
+              "FORM": "VALLENAER",
+              "LEMMA": "VALLENAER",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|genus|stan",
+              "HEAD": 5,
+              "DEPREL": "nsubj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 0,
+                "EndChar": 9
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 1,
+              "FORM": "(",
+              "LEMMA": "(",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 3,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 10,
+                "EndChar": 11
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 2,
+              "FORM": "Michiel",
+              "LEMMA": "Michiel",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|zijd|stan",
+              "HEAD": 1,
+              "DEPREL": "nmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 11,
+                "EndChar": 18
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 3,
+              "FORM": ")",
+              "LEMMA": ")",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 3,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 18,
+                "EndChar": 19
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 4,
+              "FORM": "was",
+              "LEMMA": "zijn",
+              "UPOS": "AUX",
+              "XPOS": "WW|pv|verl|ev",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 20,
+                "EndChar": 23
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 5,
+              "FORM": "omstreeks",
+              "LEMMA": "omstreeks",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 7,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 24,
+                "EndChar": 33
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 6,
+              "FORM": "1438",
+              "LEMMA": "1438",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 5,
+              "DEPREL": "obl",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 34,
+                "EndChar": 38
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 7,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 9,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 38,
+                "EndChar": 39
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 8,
+              "FORM": "tailleur",
+              "LEMMA": "tailleur",
+              "UPOS": "SYM",
+              "XPOS": "SPEC|vreemd",
+              "HEAD": 7,
+              "DEPREL": "conj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 40,
+                "EndChar": 48
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 9,
+              "FORM": "de",
+              "LEMMA": "de",
+              "UPOS": "SYM",
+              "XPOS": "SPEC|vreemd",
+              "HEAD": 9,
+              "DEPREL": "fixed",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 49,
+                "EndChar": 51
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 10,
+              "FORM": "coings",
+              "LEMMA": "coings",
+              "UPOS": "SYM",
+              "XPOS": "SPEC|vreemd",
+              "HEAD": 9,
+              "DEPREL": "fixed",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 52,
+                "EndChar": 58
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 11,
+              "FORM": "de",
+              "LEMMA": "de",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 9,
+              "DEPREL": "fixed",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 59,
+                "EndChar": 61
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 12,
+              "FORM": "la",
+              "LEMMA": "la",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 9,
+              "DEPREL": "fixed",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 62,
+                "EndChar": 64
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 13,
+              "FORM": "monnoie",
+              "LEMMA": "monnoie",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 9,
+              "DEPREL": "fixed",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 65,
+                "EndChar": 72
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 14,
+              "FORM": "de",
+              "LEMMA": "de",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 9,
+              "DEPREL": "fixed",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 73,
+                "EndChar": 75
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 15,
+              "FORM": "Hollande",
+              "LEMMA": "Hollande",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 9,
+              "DEPREL": "fixed",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 76,
+                "EndChar": 84
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 16,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 9,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 84,
+                "EndChar": 85
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 17,
+              "FORM": "'",
+              "LEMMA": "'",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 9,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 85,
+                "EndChar": 86
+              },
+              "FEATS": []
+            }
+          ]
+        },
+        {
+          "paragraphID": null,
+          "sentenceID": 1,
+          "text": "Zie Kramm.",
+          "tokenized": "Zie Kramm .",
+          "words": [
+            {
+              "ID": 18,
+              "FORM": "Zie",
+              "LEMMA": "zien",
+              "UPOS": "VERB",
+              "XPOS": "WW|pv|tgw|ev",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 87,
+                "EndChar": 90
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 19,
+              "FORM": "Kramm",
+              "LEMMA": "Kramm",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|zijd|stan",
+              "HEAD": 1,
+              "DEPREL": "obj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 91,
+                "EndChar": 96
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 20,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 1,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 96,
+                "EndChar": 97
+              },
+              "FEATS": []
+            }
+          ]
+        }
+      ]
+    },
+    "entities": [
+      {
+        "ID": "stanza_nl_0",
+        "surfaceForm": "VALLENAER",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 9,
+        "tokenStart": 0,
+        "tokenEnd": 1,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_0",
+        "surfaceForm": "VALLENAER ( Michiel )",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 19,
+        "tokenStart": 0,
+        "tokenEnd": 4,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_0",
+        "category": "PER",
+        "surfaceForm": "VALLENAER",
+        "locationStart": 0,
+        "locationEnd": 9,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_0",
+        "category": "PER",
+        "surfaceForm": "vallenaer",
+        "locationStart": 0,
+        "locationEnd": 9,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_1",
+        "surfaceForm": "Michiel",
+        "category": "PER",
+        "locationStart": 11,
+        "locationEnd": 18,
+        "tokenStart": 2,
+        "tokenEnd": 3,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_0",
+        "category": "PER",
+        "surfaceForm": "Michiel",
+        "locationStart": 11,
+        "locationEnd": 18,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_0",
+        "category": "PER",
+        "surfaceForm": "michiel",
+        "locationStart": 11,
+        "locationEnd": 18,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gold_1",
+        "surfaceForm": "1438",
+        "category": "TIME",
+        "locationStart": 34,
+        "locationEnd": 38,
+        "tokenStart": 6,
+        "tokenEnd": 7,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_0",
+        "category": "TIME",
+        "surfaceForm": "1438",
+        "locationStart": 34,
+        "locationEnd": 38,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_2",
+        "surfaceForm": "Hollande",
+        "category": "PER",
+        "locationStart": 76,
+        "locationEnd": 84,
+        "tokenStart": 15,
+        "tokenEnd": 16,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_0",
+        "category": "LOC",
+        "surfaceForm": "Hollande",
+        "locationStart": 76,
+        "locationEnd": 84,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "stanza_nl_3",
+        "surfaceForm": "Kramm",
+        "category": "PER",
+        "locationStart": 91,
+        "locationEnd": 96,
+        "tokenStart": 19,
+        "tokenEnd": 20,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_1",
+        "category": "PER",
+        "surfaceForm": "Kramm",
+        "locationStart": 91,
+        "locationEnd": 96,
+        "method": "flair/ner-dutch-large_0.12.2"
+      }
+    ],
+    "time_expressions": [
+      {
+        "ID": "t0",
+        "category": "DATE",
+        "value": "1438",
+        "surfaceForm": "1438",
+        "locationStart": 34,
+        "locationEnd": 38,
+        "method": "heideltime"
+      }
+    ]
+  },
+  "id_person": "74557349",
+  "version": "02",
+  "source": "vdaa",
+  "name": "michiel vallenaer",
+  "partition": "test",
+  "birth_pl": null,
+  "birth_tm": null,
+  "baptism_pl": null,
+  "baptism_tm": null,
+  "death_pl": null,
+  "death_tm": null,
+  "funeral_pl": null,
+  "funeral_tm": null,
+  "marriage_pl": null,
+  "marriage_tm": null,
+  "gender": null,
+  "category": null,
+  "father": null,
+  "mother": null,
+  "partner": null,
+  "religion": null,
+  "educations": null,
+  "faiths": null,
+  "occupations": null,
+  "residences": null
+}

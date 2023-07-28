@@ -1,0 +1,1006 @@
+{
+  "text_id": "15317562_04",
+  "nlp_preprocessor": "stanza_nl",
+  "data": {
+    "text": "Friese landeigenaar uit een oorspronkelijk Brabantse familie, die twaalf jaar een vaak afwezig lid van de Eerste Kamer was. Aanvankelijk, net als zijn vader, officier. Was in Friesland tweeentwintig jaar gedeputeerde. Werd in 1820 in de adelstand verheven.",
+    "tokenization": {
+      "stanza_nl": [
+        "Friese",
+        "landeigenaar",
+        "uit",
+        "een",
+        "oorspronkelijk",
+        "Brabantse",
+        "familie",
+        ",",
+        "die",
+        "twaalf",
+        "jaar",
+        "een",
+        "vaak",
+        "afwezig",
+        "lid",
+        "van",
+        "de",
+        "Eerste",
+        "Kamer",
+        "was",
+        ".",
+        "Aanvankelijk",
+        ",",
+        "net",
+        "als",
+        "zijn",
+        "vader",
+        ",",
+        "officier",
+        ".",
+        "Was",
+        "in",
+        "Friesland",
+        "tweeentwintig",
+        "jaar",
+        "gedeputeerde",
+        ".",
+        "Werd",
+        "in",
+        "1820",
+        "in",
+        "de",
+        "adelstand",
+        "verheven",
+        "."
+      ]
+    },
+    "morpho_syntax": {
+      "stanza_nl": [
+        {
+          "paragraphID": null,
+          "sentenceID": 0,
+          "text": "Friese landeigenaar uit een oorspronkelijk Brabantse familie, die twaalf jaar een vaak afwezig lid van de Eerste Kamer was. ",
+          "tokenized": "Friese landeigenaar uit een oorspronkelijk Brabantse familie , die twaalf jaar een vaak afwezig lid van de Eerste Kamer was .",
+          "words": [
+            {
+              "ID": 0,
+              "FORM": "Friese",
+              "LEMMA": "Fries",
+              "UPOS": "ADJ",
+              "XPOS": "ADJ|prenom|basis|met-e|stan",
+              "HEAD": 2,
+              "DEPREL": "amod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 0,
+                "EndChar": 6
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 1,
+              "FORM": "landeigenaar",
+              "LEMMA": "landeigenaar",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 7,
+                "EndChar": 19
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 2,
+              "FORM": "uit",
+              "LEMMA": "uit",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 7,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 20,
+                "EndChar": 23
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 3,
+              "FORM": "een",
+              "LEMMA": "een",
+              "UPOS": "DET",
+              "XPOS": "LID|onbep|stan|agr",
+              "HEAD": 7,
+              "DEPREL": "det",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 24,
+                "EndChar": 27
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 4,
+              "FORM": "oorspronkelijk",
+              "LEMMA": "oorspronkelijk",
+              "UPOS": "ADJ",
+              "XPOS": "ADJ|vrij|basis|zonder",
+              "HEAD": 6,
+              "DEPREL": "advmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 28,
+                "EndChar": 42
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 5,
+              "FORM": "Brabantse",
+              "LEMMA": "Brabants",
+              "UPOS": "ADJ",
+              "XPOS": "ADJ|prenom|basis|met-e|stan",
+              "HEAD": 7,
+              "DEPREL": "amod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 43,
+                "EndChar": 52
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 6,
+              "FORM": "familie",
+              "LEMMA": "familie",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 2,
+              "DEPREL": "nmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 53,
+                "EndChar": 60
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 7,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 15,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 60,
+                "EndChar": 61
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 8,
+              "FORM": "die",
+              "LEMMA": "die",
+              "UPOS": "PRON",
+              "XPOS": "VNW|betr|pron|stan|vol|persoon|getal",
+              "HEAD": 15,
+              "DEPREL": "nsubj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 62,
+                "EndChar": 65
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 9,
+              "FORM": "twaalf",
+              "LEMMA": "twaalf",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|prenom|stan",
+              "HEAD": 11,
+              "DEPREL": "nummod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 66,
+                "EndChar": 72
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 10,
+              "FORM": "jaar",
+              "LEMMA": "jaar",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|onz|stan",
+              "HEAD": 15,
+              "DEPREL": "obl",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 73,
+                "EndChar": 77
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 11,
+              "FORM": "een",
+              "LEMMA": "een",
+              "UPOS": "DET",
+              "XPOS": "LID|onbep|stan|agr",
+              "HEAD": 15,
+              "DEPREL": "det",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 78,
+                "EndChar": 81
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 12,
+              "FORM": "vaak",
+              "LEMMA": "vaak",
+              "UPOS": "ADJ",
+              "XPOS": "ADJ|vrij|basis|zonder",
+              "HEAD": 14,
+              "DEPREL": "advmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 82,
+                "EndChar": 86
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 13,
+              "FORM": "afwezig",
+              "LEMMA": "afwezig",
+              "UPOS": "ADJ",
+              "XPOS": "ADJ|prenom|basis|zonder",
+              "HEAD": 15,
+              "DEPREL": "amod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 87,
+                "EndChar": 94
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 14,
+              "FORM": "lid",
+              "LEMMA": "lid",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|onz|stan",
+              "HEAD": 7,
+              "DEPREL": "acl:relcl",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 95,
+                "EndChar": 98
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 15,
+              "FORM": "van",
+              "LEMMA": "van",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 18,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 99,
+                "EndChar": 102
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 16,
+              "FORM": "de",
+              "LEMMA": "de",
+              "UPOS": "DET",
+              "XPOS": "LID|bep|stan|rest",
+              "HEAD": 18,
+              "DEPREL": "det",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 103,
+                "EndChar": 105
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 17,
+              "FORM": "Eerste",
+              "LEMMA": "Eerste",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 15,
+              "DEPREL": "nmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 106,
+                "EndChar": 112
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 18,
+              "FORM": "Kamer",
+              "LEMMA": "Kamer",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 18,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 113,
+                "EndChar": 118
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 19,
+              "FORM": "was",
+              "LEMMA": "zijn",
+              "UPOS": "AUX",
+              "XPOS": "WW|pv|verl|ev",
+              "HEAD": 15,
+              "DEPREL": "cop",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 119,
+                "EndChar": 122
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 20,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 2,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 122,
+                "EndChar": 123
+              },
+              "FEATS": []
+            }
+          ]
+        },
+        {
+          "paragraphID": null,
+          "sentenceID": 1,
+          "text": "Aanvankelijk, net als zijn vader, officier. ",
+          "tokenized": "Aanvankelijk , net als zijn vader , officier .",
+          "words": [
+            {
+              "ID": 21,
+              "FORM": "Aanvankelijk",
+              "LEMMA": "aanvankelijk",
+              "UPOS": "ADJ",
+              "XPOS": "ADJ|vrij|basis|zonder",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 124,
+                "EndChar": 136
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 22,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 6,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 136,
+                "EndChar": 137
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 23,
+              "FORM": "net",
+              "LEMMA": "net",
+              "UPOS": "ADV",
+              "XPOS": "BW",
+              "HEAD": 6,
+              "DEPREL": "advmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 138,
+                "EndChar": 141
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 24,
+              "FORM": "als",
+              "LEMMA": "als",
+              "UPOS": "SCONJ",
+              "XPOS": "VG|onder",
+              "HEAD": 6,
+              "DEPREL": "mark",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 142,
+                "EndChar": 145
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 25,
+              "FORM": "zijn",
+              "LEMMA": "zijn",
+              "UPOS": "PRON",
+              "XPOS": "VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr",
+              "HEAD": 6,
+              "DEPREL": "nmod:poss",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 146,
+                "EndChar": 150
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 26,
+              "FORM": "vader",
+              "LEMMA": "vader",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 1,
+              "DEPREL": "parataxis",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 151,
+                "EndChar": 156
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 27,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 8,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 156,
+                "EndChar": 157
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 28,
+              "FORM": "officier",
+              "LEMMA": "officier",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 1,
+              "DEPREL": "parataxis",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 158,
+                "EndChar": 166
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 29,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 1,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 166,
+                "EndChar": 167
+              },
+              "FEATS": []
+            }
+          ]
+        },
+        {
+          "paragraphID": null,
+          "sentenceID": 2,
+          "text": "Was in Friesland tweeentwintig jaar gedeputeerde. ",
+          "tokenized": "Was in Friesland tweeentwintig jaar gedeputeerde .",
+          "words": [
+            {
+              "ID": 30,
+              "FORM": "Was",
+              "LEMMA": "zijn",
+              "UPOS": "AUX",
+              "XPOS": "WW|pv|verl|ev",
+              "HEAD": 6,
+              "DEPREL": "cop",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 168,
+                "EndChar": 171
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 31,
+              "FORM": "in",
+              "LEMMA": "in",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 3,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 172,
+                "EndChar": 174
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 32,
+              "FORM": "Friesland",
+              "LEMMA": "Friesland",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|onz|stan",
+              "HEAD": 6,
+              "DEPREL": "obl",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 175,
+                "EndChar": 184
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 33,
+              "FORM": "tweeentwintig",
+              "LEMMA": "tweeentwintig",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|prenom|stan",
+              "HEAD": 5,
+              "DEPREL": "nummod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 185,
+                "EndChar": 198
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 34,
+              "FORM": "jaar",
+              "LEMMA": "jaar",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|onz|stan",
+              "HEAD": 6,
+              "DEPREL": "nmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 199,
+                "EndChar": 203
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 35,
+              "FORM": "gedeputeerde",
+              "LEMMA": "gedeputeerde",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 204,
+                "EndChar": 216
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 36,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 6,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 216,
+                "EndChar": 217
+              },
+              "FEATS": []
+            }
+          ]
+        },
+        {
+          "paragraphID": null,
+          "sentenceID": 3,
+          "text": "Werd in 1820 in de adelstand verheven.",
+          "tokenized": "Werd in 1820 in de adelstand verheven .",
+          "words": [
+            {
+              "ID": 37,
+              "FORM": "Werd",
+              "LEMMA": "worden",
+              "UPOS": "AUX",
+              "XPOS": "WW|pv|verl|ev",
+              "HEAD": 7,
+              "DEPREL": "aux:pass",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 218,
+                "EndChar": 222
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 38,
+              "FORM": "in",
+              "LEMMA": "in",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 3,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 223,
+                "EndChar": 225
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 39,
+              "FORM": "1820",
+              "LEMMA": "1820",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 7,
+              "DEPREL": "obl",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 226,
+                "EndChar": 230
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 40,
+              "FORM": "in",
+              "LEMMA": "in",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 6,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 231,
+                "EndChar": 233
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 41,
+              "FORM": "de",
+              "LEMMA": "de",
+              "UPOS": "DET",
+              "XPOS": "LID|bep|stan|rest",
+              "HEAD": 6,
+              "DEPREL": "det",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 234,
+                "EndChar": 236
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 42,
+              "FORM": "adelstand",
+              "LEMMA": "adel_stand",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 7,
+              "DEPREL": "obl",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 237,
+                "EndChar": 246
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 43,
+              "FORM": "verheven",
+              "LEMMA": "verheffen",
+              "UPOS": "VERB",
+              "XPOS": "WW|vd|vrij|zonder",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 247,
+                "EndChar": 255
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 44,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 7,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 255,
+                "EndChar": 256
+              },
+              "FEATS": []
+            }
+          ]
+        }
+      ]
+    },
+    "entities": [
+      {
+        "ID": "stanza_nl_0",
+        "surfaceForm": "Friese",
+        "category": "MISC",
+        "locationStart": 0,
+        "locationEnd": 6,
+        "tokenStart": 0,
+        "tokenEnd": 1,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_0",
+        "category": "MISC",
+        "surfaceForm": "Friese",
+        "locationStart": 0,
+        "locationEnd": 6,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "stanza_nl_1",
+        "surfaceForm": "Brabantse",
+        "category": "MISC",
+        "locationStart": 43,
+        "locationEnd": 52,
+        "tokenStart": 5,
+        "tokenEnd": 6,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_0",
+        "category": "MISC",
+        "surfaceForm": "Brabantse",
+        "locationStart": 43,
+        "locationEnd": 52,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "stanza_nl_2",
+        "surfaceForm": "Eerste Kamer",
+        "category": "ORG",
+        "locationStart": 106,
+        "locationEnd": 118,
+        "tokenStart": 17,
+        "tokenEnd": 19,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_0",
+        "category": "ORG",
+        "surfaceForm": "Eerste Kamer",
+        "locationStart": 106,
+        "locationEnd": 118,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "flair_1",
+        "category": "MISC",
+        "surfaceForm": "officier",
+        "locationStart": 158,
+        "locationEnd": 166,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "stanza_nl_3",
+        "surfaceForm": "Friesland",
+        "category": "LOC",
+        "locationStart": 175,
+        "locationEnd": 184,
+        "tokenStart": 32,
+        "tokenEnd": 33,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_2",
+        "category": "LOC",
+        "surfaceForm": "Friesland",
+        "locationStart": 175,
+        "locationEnd": 184,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_2",
+        "category": "LOC",
+        "surfaceForm": "friesland",
+        "locationStart": 175,
+        "locationEnd": 184,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gysbert_hist_3",
+        "category": "TIME",
+        "surfaceForm": "1820",
+        "locationStart": 226,
+        "locationEnd": 230,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      }
+    ],
+    "time_expressions": [
+      {
+        "ID": "t0",
+        "category": "DURATION",
+        "value": "P12Y",
+        "surfaceForm": "twaalf jaar",
+        "locationStart": 66,
+        "locationEnd": 77,
+        "method": "heideltime"
+      },
+      {
+        "ID": "t1",
+        "category": "DURATION",
+        "value": "P22Y",
+        "surfaceForm": "tweeentwintig jaar",
+        "locationStart": 185,
+        "locationEnd": 203,
+        "method": "heideltime"
+      },
+      {
+        "ID": "t2",
+        "category": "DATE",
+        "value": "1820",
+        "surfaceForm": "1820",
+        "locationStart": 226,
+        "locationEnd": 230,
+        "method": "heideltime"
+      }
+    ]
+  },
+  "id_person": "15317562",
+  "version": "04",
+  "source": "pdc",
+  "name": "m.c.w. baron du tour van bellinchave|marc cornelis willem baron du tour van bellinchave",
+  "partition": "test",
+  "birth_pl": null,
+  "birth_tm": "1764-02-09",
+  "baptism_pl": null,
+  "baptism_tm": null,
+  "death_pl": "Leeuwarden",
+  "death_tm": "1850-04-03",
+  "funeral_pl": null,
+  "funeral_tm": null,
+  "marriage_pl": "Jelsum",
+  "marriage_tm": "1792-10-08",
+  "gender": "1",
+  "category": null,
+  "father": null,
+  "mother": null,
+  "partner": null,
+  "religion": null,
+  "educations": null,
+  "faiths": [
+    {
+      "name": "Gereformeerd (Waals Hervormd)",
+      "begin": "None",
+      "end": "None"
+    }
+  ],
+  "occupations": [
+    {
+      "name": "kapitein",
+      "begin": "None",
+      "end": "None"
+    },
+    {
+      "name": "landeigenaar",
+      "begin": "None",
+      "end": "None"
+    },
+    {
+      "name": "raad van het commissariaat-generaal, departement Friesland",
+      "begin": "1814-01-08",
+      "end": "None"
+    },
+    {
+      "name": "lid Provinciale Staten van Friesland",
+      "begin": "1814-09-19",
+      "end": "1826-07-01"
+    },
+    {
+      "name": "lid Gedeputeerde Staten van Friesland",
+      "begin": "1814-10-15",
+      "end": "1836-10-18"
+    },
+    {
+      "name": "lid Provinciale Staten van Friesland",
+      "begin": "1826-07-04",
+      "end": "1836-10-18"
+    },
+    {
+      "name": "lid Eerste Kamer der Staten-Generaal",
+      "begin": "1836-10-18",
+      "end": "1848-04-29"
+    }
+  ],
+  "residences": null
+}

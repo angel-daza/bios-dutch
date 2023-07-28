@@ -1,0 +1,625 @@
+{
+  "text_id": "17125745_04",
+  "nlp_preprocessor": "stanza_nl",
+  "data": {
+    "text": "Kunstenaarsdochter, aquarellist, schilder, tekenaar. Geboren: 27 juli 1826, Den Haag. Gestorven: 19 september 1895, Den Haag.",
+    "tokenization": {
+      "stanza_nl": [
+        "Kunstenaarsdochter",
+        ",",
+        "aquarellist",
+        ",",
+        "schilder",
+        ",",
+        "tekenaar",
+        ".",
+        "Geboren",
+        ":",
+        "27",
+        "juli",
+        "1826",
+        ",",
+        "Den",
+        "Haag",
+        ".",
+        "Gestorven",
+        ":",
+        "19",
+        "september",
+        "1895",
+        ",",
+        "Den",
+        "Haag",
+        "."
+      ]
+    },
+    "morpho_syntax": {
+      "stanza_nl": [
+        {
+          "paragraphID": null,
+          "sentenceID": 0,
+          "text": "Kunstenaarsdochter, aquarellist, schilder, tekenaar. ",
+          "tokenized": "Kunstenaarsdochter , aquarellist , schilder , tekenaar .",
+          "words": [
+            {
+              "ID": 0,
+              "FORM": "Kunstenaarsdochter",
+              "LEMMA": "kunstenaar_dochter",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 0,
+                "EndChar": 18
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 1,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 3,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 18,
+                "EndChar": 19
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 2,
+              "FORM": "aquarellist",
+              "LEMMA": "aquarellist",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 1,
+              "DEPREL": "conj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 20,
+                "EndChar": 31
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 3,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 5,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 31,
+                "EndChar": 32
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 4,
+              "FORM": "schilder",
+              "LEMMA": "schilder",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 1,
+              "DEPREL": "conj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 33,
+                "EndChar": 41
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 5,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 7,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 41,
+                "EndChar": 42
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 6,
+              "FORM": "tekenaar",
+              "LEMMA": "tekenaar",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 1,
+              "DEPREL": "conj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 43,
+                "EndChar": 51
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 7,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 1,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 51,
+                "EndChar": 52
+              },
+              "FEATS": []
+            }
+          ]
+        },
+        {
+          "paragraphID": null,
+          "sentenceID": 1,
+          "text": "Geboren: 27 juli 1826, Den Haag. ",
+          "tokenized": "Geboren : 27 juli 1826 , Den Haag .",
+          "words": [
+            {
+              "ID": 8,
+              "FORM": "Geboren",
+              "LEMMA": "geboren",
+              "UPOS": "VERB",
+              "XPOS": "WW|vd|vrij|zonder",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 53,
+                "EndChar": 60
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 9,
+              "FORM": ":",
+              "LEMMA": ":",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 3,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 60,
+                "EndChar": 61
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 10,
+              "FORM": "27",
+              "LEMMA": "27",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 1,
+              "DEPREL": "parataxis",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 62,
+                "EndChar": 64
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 11,
+              "FORM": "juli",
+              "LEMMA": "juli",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|zijd|stan",
+              "HEAD": 3,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 65,
+                "EndChar": 69
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 12,
+              "FORM": "1826",
+              "LEMMA": "1826",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 3,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 70,
+                "EndChar": 74
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 13,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 7,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 74,
+                "EndChar": 75
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 14,
+              "FORM": "Den",
+              "LEMMA": "Den",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 3,
+              "DEPREL": "conj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 76,
+                "EndChar": 79
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 15,
+              "FORM": "Haag",
+              "LEMMA": "Haag",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 7,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 80,
+                "EndChar": 84
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 16,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 1,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 84,
+                "EndChar": 85
+              },
+              "FEATS": []
+            }
+          ]
+        },
+        {
+          "paragraphID": null,
+          "sentenceID": 2,
+          "text": "Gestorven: 19 september 1895, Den Haag.",
+          "tokenized": "Gestorven : 19 september 1895 , Den Haag .",
+          "words": [
+            {
+              "ID": 17,
+              "FORM": "Gestorven",
+              "LEMMA": "sterven",
+              "UPOS": "VERB",
+              "XPOS": "WW|vd|vrij|zonder",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 86,
+                "EndChar": 95
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 18,
+              "FORM": ":",
+              "LEMMA": ":",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 3,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 95,
+                "EndChar": 96
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 19,
+              "FORM": "19",
+              "LEMMA": "19",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 1,
+              "DEPREL": "parataxis",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 97,
+                "EndChar": 99
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 20,
+              "FORM": "september",
+              "LEMMA": "september",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|zijd|stan",
+              "HEAD": 3,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 100,
+                "EndChar": 109
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 21,
+              "FORM": "1895",
+              "LEMMA": "1895",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 3,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 110,
+                "EndChar": 114
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 22,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 7,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 114,
+                "EndChar": 115
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 23,
+              "FORM": "Den",
+              "LEMMA": "Den",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 3,
+              "DEPREL": "conj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 116,
+                "EndChar": 119
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 24,
+              "FORM": "Haag",
+              "LEMMA": "Haag",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 7,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 120,
+                "EndChar": 124
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 25,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 1,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 124,
+                "EndChar": 125
+              },
+              "FEATS": []
+            }
+          ]
+        }
+      ]
+    },
+    "entities": [
+      {
+        "ID": "gysbert_hist_1",
+        "category": "TIME",
+        "surfaceForm": "27 juli 1826",
+        "locationStart": 62,
+        "locationEnd": 74,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_0",
+        "surfaceForm": "Den Haag",
+        "category": "LOC",
+        "locationStart": 76,
+        "locationEnd": 84,
+        "tokenStart": 14,
+        "tokenEnd": 16,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_1",
+        "category": "LOC",
+        "surfaceForm": "Den Haag",
+        "locationStart": 76,
+        "locationEnd": 84,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_1",
+        "category": "LOC",
+        "surfaceForm": "den",
+        "locationStart": 76,
+        "locationEnd": 79,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gysbert_hist_1",
+        "category": "LOC",
+        "surfaceForm": "haag",
+        "locationStart": 80,
+        "locationEnd": 84,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gysbert_hist_2",
+        "category": "TIME",
+        "surfaceForm": "19 september 1895",
+        "locationStart": 97,
+        "locationEnd": 114,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_1",
+        "surfaceForm": "Den Haag",
+        "category": "LOC",
+        "locationStart": 116,
+        "locationEnd": 124,
+        "tokenStart": 23,
+        "tokenEnd": 25,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_2",
+        "category": "LOC",
+        "surfaceForm": "Den Haag",
+        "locationStart": 116,
+        "locationEnd": 124,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_2",
+        "category": "LOC",
+        "surfaceForm": "haag",
+        "locationStart": 120,
+        "locationEnd": 124,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      }
+    ],
+    "time_expressions": [
+      {
+        "ID": "t0",
+        "category": "DATE",
+        "value": "1826-07-27",
+        "surfaceForm": "27 juli 1826",
+        "locationStart": 62,
+        "locationEnd": 74,
+        "method": "heideltime"
+      },
+      {
+        "ID": "t1",
+        "category": "DATE",
+        "value": "1895-09-19",
+        "surfaceForm": "19 september 1895",
+        "locationStart": 97,
+        "locationEnd": 114,
+        "method": "heideltime"
+      }
+    ]
+  },
+  "id_person": "17125745",
+  "version": "04",
+  "source": "rkdartists",
+  "name": "geraldine van de sande bakhuyzen|gerardina jacoba van de sande bakhuyzen|gerardine jacoba van de sande bakhuyzen|gerardine van de sande bakhuyzen|gerardine jacoba van de sande bakhuyzen",
+  "partition": "test",
+  "birth_pl": null,
+  "birth_tm": "1826-07-27",
+  "baptism_pl": null,
+  "baptism_tm": null,
+  "death_pl": "Den Haag",
+  "death_tm": "1895-09-19",
+  "funeral_pl": null,
+  "funeral_tm": null,
+  "marriage_pl": null,
+  "marriage_tm": null,
+  "gender": "2",
+  "category": null,
+  "father": null,
+  "mother": null,
+  "partner": null,
+  "religion": null,
+  "educations": null,
+  "faiths": null,
+  "occupations": [
+    {
+      "name": "kunstenaarsdochter",
+      "begin": "None",
+      "end": "None"
+    },
+    {
+      "name": "aquarellist",
+      "begin": "None",
+      "end": "None"
+    },
+    {
+      "name": "schilder",
+      "begin": "None",
+      "end": "None"
+    },
+    {
+      "name": "tekenaar",
+      "begin": "None",
+      "end": "None"
+    }
+  ],
+  "residences": null
+}

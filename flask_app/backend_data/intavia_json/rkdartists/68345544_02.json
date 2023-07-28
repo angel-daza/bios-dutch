@@ -1,0 +1,1138 @@
+{
+  "text_id": "68345544_02",
+  "nlp_preprocessor": "stanza_nl",
+  "data": {
+    "text": "Kunstverzamelaar, kunsthandelaar. Geboren: 16 januari 1926, Amsterdam. Gestorven: 2 oktober 2008, Amsterdam. Plaats en periode van werkzaamheid: Amsterdam, van 1957 tot 2008 In 1957 ging lodewijk met zijn vader bernard een vennootschap onder firma aan.",
+    "tokenization": {
+      "stanza_nl": [
+        "Kunstverzamelaar",
+        ",",
+        "kunsthandelaar",
+        ".",
+        "Geboren",
+        ":",
+        "16",
+        "januari",
+        "1926",
+        ",",
+        "Amsterdam",
+        ".",
+        "Gestorven",
+        ":",
+        "2",
+        "oktober",
+        "2008",
+        ",",
+        "Amsterdam",
+        ".",
+        "Plaats",
+        "en",
+        "periode",
+        "van",
+        "werkzaamheid",
+        ":",
+        "Amsterdam",
+        ",",
+        "van",
+        "1957",
+        "tot",
+        "2008",
+        "In",
+        "1957",
+        "ging",
+        "lodewijk",
+        "met",
+        "zijn",
+        "vader",
+        "bernard",
+        "een",
+        "vennootschap",
+        "onder",
+        "firma",
+        "aan",
+        "."
+      ]
+    },
+    "morpho_syntax": {
+      "stanza_nl": [
+        {
+          "paragraphID": null,
+          "sentenceID": 0,
+          "text": "Kunstverzamelaar, kunsthandelaar. ",
+          "tokenized": "Kunstverzamelaar , kunsthandelaar .",
+          "words": [
+            {
+              "ID": 0,
+              "FORM": "Kunstverzamelaar",
+              "LEMMA": "Kunstverzamelaar",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|zijd|stan",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 0,
+                "EndChar": 16
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 1,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 3,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 16,
+                "EndChar": 17
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 2,
+              "FORM": "kunsthandelaar",
+              "LEMMA": "kunst_handelaar",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 1,
+              "DEPREL": "conj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 18,
+                "EndChar": 32
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 3,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 1,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 32,
+                "EndChar": 33
+              },
+              "FEATS": []
+            }
+          ]
+        },
+        {
+          "paragraphID": null,
+          "sentenceID": 1,
+          "text": "Geboren: 16 januari 1926, Amsterdam. ",
+          "tokenized": "Geboren : 16 januari 1926 , Amsterdam .",
+          "words": [
+            {
+              "ID": 4,
+              "FORM": "Geboren",
+              "LEMMA": "geboren",
+              "UPOS": "VERB",
+              "XPOS": "WW|vd|vrij|zonder",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 34,
+                "EndChar": 41
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 5,
+              "FORM": ":",
+              "LEMMA": ":",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 3,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 41,
+                "EndChar": 42
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 6,
+              "FORM": "16",
+              "LEMMA": "16",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 1,
+              "DEPREL": "parataxis",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 43,
+                "EndChar": 45
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 7,
+              "FORM": "januari",
+              "LEMMA": "januari",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|zijd|stan",
+              "HEAD": 3,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 46,
+                "EndChar": 53
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 8,
+              "FORM": "1926",
+              "LEMMA": "1926",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 3,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 54,
+                "EndChar": 58
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 9,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 7,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 58,
+                "EndChar": 59
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 10,
+              "FORM": "Amsterdam",
+              "LEMMA": "Amsterdam",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|onz|stan",
+              "HEAD": 3,
+              "DEPREL": "parataxis",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 60,
+                "EndChar": 69
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 11,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 1,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 69,
+                "EndChar": 70
+              },
+              "FEATS": []
+            }
+          ]
+        },
+        {
+          "paragraphID": null,
+          "sentenceID": 2,
+          "text": "Gestorven: 2 oktober 2008, Amsterdam. ",
+          "tokenized": "Gestorven : 2 oktober 2008 , Amsterdam .",
+          "words": [
+            {
+              "ID": 12,
+              "FORM": "Gestorven",
+              "LEMMA": "sterven",
+              "UPOS": "VERB",
+              "XPOS": "WW|vd|vrij|zonder",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 71,
+                "EndChar": 80
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 13,
+              "FORM": ":",
+              "LEMMA": ":",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 3,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 80,
+                "EndChar": 81
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 14,
+              "FORM": "2",
+              "LEMMA": "2",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 1,
+              "DEPREL": "parataxis",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 82,
+                "EndChar": 83
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 15,
+              "FORM": "oktober",
+              "LEMMA": "oktober",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|zijd|stan",
+              "HEAD": 3,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 84,
+                "EndChar": 91
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 16,
+              "FORM": "2008",
+              "LEMMA": "2008",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 3,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 92,
+                "EndChar": 96
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 17,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 7,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 96,
+                "EndChar": 97
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 18,
+              "FORM": "Amsterdam",
+              "LEMMA": "Amsterdam",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|onz|stan",
+              "HEAD": 3,
+              "DEPREL": "parataxis",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 98,
+                "EndChar": 107
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 19,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 1,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 107,
+                "EndChar": 108
+              },
+              "FEATS": []
+            }
+          ]
+        },
+        {
+          "paragraphID": null,
+          "sentenceID": 3,
+          "text": "Plaats en periode van werkzaamheid: ",
+          "tokenized": "Plaats en periode van werkzaamheid :",
+          "words": [
+            {
+              "ID": 20,
+              "FORM": "Plaats",
+              "LEMMA": "plaats",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 109,
+                "EndChar": 115
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 21,
+              "FORM": "en",
+              "LEMMA": "en",
+              "UPOS": "CCONJ",
+              "XPOS": "VG|neven",
+              "HEAD": 3,
+              "DEPREL": "cc",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 116,
+                "EndChar": 118
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 22,
+              "FORM": "periode",
+              "LEMMA": "periode",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 1,
+              "DEPREL": "conj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 119,
+                "EndChar": 126
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 23,
+              "FORM": "van",
+              "LEMMA": "van",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 5,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 127,
+                "EndChar": 130
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 24,
+              "FORM": "werkzaamheid",
+              "LEMMA": "werkzaamheid",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 1,
+              "DEPREL": "nmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 131,
+                "EndChar": 143
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 25,
+              "FORM": ":",
+              "LEMMA": ":",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 1,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 143,
+                "EndChar": 144
+              },
+              "FEATS": []
+            }
+          ]
+        },
+        {
+          "paragraphID": null,
+          "sentenceID": 4,
+          "text": "Amsterdam, van 1957 tot 2008 ",
+          "tokenized": "Amsterdam , van 1957 tot 2008",
+          "words": [
+            {
+              "ID": 26,
+              "FORM": "Amsterdam",
+              "LEMMA": "Amsterdam",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|onz|stan",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 145,
+                "EndChar": 154
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 27,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 4,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 154,
+                "EndChar": 155
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 28,
+              "FORM": "van",
+              "LEMMA": "van",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 4,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 156,
+                "EndChar": 159
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 29,
+              "FORM": "1957",
+              "LEMMA": "1957",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 1,
+              "DEPREL": "nmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 160,
+                "EndChar": 164
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 30,
+              "FORM": "tot",
+              "LEMMA": "tot",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 6,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 165,
+                "EndChar": 168
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 31,
+              "FORM": "2008",
+              "LEMMA": "2008",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 1,
+              "DEPREL": "parataxis",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 169,
+                "EndChar": 173
+              },
+              "FEATS": []
+            }
+          ]
+        },
+        {
+          "paragraphID": null,
+          "sentenceID": 5,
+          "text": "In 1957 ging lodewijk met zijn vader bernard een vennootschap onder firma aan.",
+          "tokenized": "In 1957 ging lodewijk met zijn vader bernard een vennootschap onder firma aan .",
+          "words": [
+            {
+              "ID": 32,
+              "FORM": "In",
+              "LEMMA": "in",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 2,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 174,
+                "EndChar": 176
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 33,
+              "FORM": "1957",
+              "LEMMA": "1957",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 3,
+              "DEPREL": "obl",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 177,
+                "EndChar": 181
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 34,
+              "FORM": "ging",
+              "LEMMA": "gaan",
+              "UPOS": "VERB",
+              "XPOS": "WW|pv|verl|ev",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 182,
+                "EndChar": 186
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 35,
+              "FORM": "lodewijk",
+              "LEMMA": "lodewijk",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 3,
+              "DEPREL": "nsubj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 187,
+                "EndChar": 195
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 36,
+              "FORM": "met",
+              "LEMMA": "met",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 7,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 196,
+                "EndChar": 199
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 37,
+              "FORM": "zijn",
+              "LEMMA": "zijn",
+              "UPOS": "PRON",
+              "XPOS": "VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr",
+              "HEAD": 7,
+              "DEPREL": "nmod:poss",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 200,
+                "EndChar": 204
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 38,
+              "FORM": "vader",
+              "LEMMA": "vader",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 4,
+              "DEPREL": "nmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 205,
+                "EndChar": 210
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 39,
+              "FORM": "bernard",
+              "LEMMA": "bernard",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 7,
+              "DEPREL": "appos",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 211,
+                "EndChar": 218
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 40,
+              "FORM": "een",
+              "LEMMA": "een",
+              "UPOS": "DET",
+              "XPOS": "LID|onbep|stan|agr",
+              "HEAD": 10,
+              "DEPREL": "det",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 219,
+                "EndChar": 222
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 41,
+              "FORM": "vennootschap",
+              "LEMMA": "vennootschap",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 3,
+              "DEPREL": "obj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 223,
+                "EndChar": 235
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 42,
+              "FORM": "onder",
+              "LEMMA": "onder",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 12,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 236,
+                "EndChar": 241
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 43,
+              "FORM": "firma",
+              "LEMMA": "firma",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 3,
+              "DEPREL": "obl",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 242,
+                "EndChar": 247
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 44,
+              "FORM": "aan",
+              "LEMMA": "aan",
+              "UPOS": "ADP",
+              "XPOS": "VZ|fin",
+              "HEAD": 3,
+              "DEPREL": "compound:prt",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 248,
+                "EndChar": 251
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 45,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 3,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 251,
+                "EndChar": 252
+              },
+              "FEATS": []
+            }
+          ]
+        }
+      ]
+    },
+    "entities": [
+      {
+        "ID": "gold_5",
+        "surfaceForm": "16 januari 1926",
+        "category": "TIME",
+        "locationStart": 43,
+        "locationEnd": 58,
+        "tokenStart": 6,
+        "tokenEnd": 9,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_1",
+        "category": "TIME",
+        "surfaceForm": "16 januari 1926",
+        "locationStart": 43,
+        "locationEnd": 58,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_0",
+        "surfaceForm": "Amsterdam",
+        "category": "LOC",
+        "locationStart": 60,
+        "locationEnd": 69,
+        "tokenStart": 10,
+        "tokenEnd": 11,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_6",
+        "surfaceForm": "Amsterdam",
+        "category": "LOC",
+        "locationStart": 60,
+        "locationEnd": 69,
+        "tokenStart": 10,
+        "tokenEnd": 11,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_1",
+        "category": "LOC",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 60,
+        "locationEnd": 69,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_1",
+        "category": "LOC",
+        "surfaceForm": "amsterdam",
+        "locationStart": 60,
+        "locationEnd": 69,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gold_7",
+        "surfaceForm": "2 oktober 2008",
+        "category": "TIME",
+        "locationStart": 82,
+        "locationEnd": 96,
+        "tokenStart": 14,
+        "tokenEnd": 17,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_2",
+        "category": "TIME",
+        "surfaceForm": "2 oktober",
+        "locationStart": 82,
+        "locationEnd": 91,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_1",
+        "surfaceForm": "Amsterdam",
+        "category": "LOC",
+        "locationStart": 98,
+        "locationEnd": 107,
+        "tokenStart": 18,
+        "tokenEnd": 19,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_8",
+        "surfaceForm": "Amsterdam",
+        "category": "LOC",
+        "locationStart": 98,
+        "locationEnd": 107,
+        "tokenStart": 18,
+        "tokenEnd": 19,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_2",
+        "category": "LOC",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 98,
+        "locationEnd": 107,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_2",
+        "category": "LOC",
+        "surfaceForm": "amsterdam",
+        "locationStart": 98,
+        "locationEnd": 107,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_2",
+        "surfaceForm": "Amsterdam",
+        "category": "LOC",
+        "locationStart": 145,
+        "locationEnd": 154,
+        "tokenStart": 26,
+        "tokenEnd": 27,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_0",
+        "surfaceForm": "Amsterdam",
+        "category": "LOC",
+        "locationStart": 145,
+        "locationEnd": 154,
+        "tokenStart": 26,
+        "tokenEnd": 27,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_3",
+        "category": "LOC",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 145,
+        "locationEnd": 154,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_4",
+        "category": "LOC",
+        "surfaceForm": "amsterdam",
+        "locationStart": 145,
+        "locationEnd": 154,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gold_1",
+        "surfaceForm": "van 1957 tot 2008",
+        "category": "TIME",
+        "locationStart": 156,
+        "locationEnd": 173,
+        "tokenStart": 28,
+        "tokenEnd": 32,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gold_2",
+        "surfaceForm": "1957",
+        "category": "TIME",
+        "locationStart": 177,
+        "locationEnd": 181,
+        "tokenStart": 33,
+        "tokenEnd": 34,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_5",
+        "category": "TIME",
+        "surfaceForm": "1957",
+        "locationStart": 177,
+        "locationEnd": 181,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gold_3",
+        "surfaceForm": "lodewijk",
+        "category": "PER",
+        "locationStart": 187,
+        "locationEnd": 195,
+        "tokenStart": 35,
+        "tokenEnd": 36,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_3",
+        "category": "PER",
+        "surfaceForm": "lodewijk",
+        "locationStart": 187,
+        "locationEnd": 195,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gold_4",
+        "surfaceForm": "bernard",
+        "category": "PER",
+        "locationStart": 211,
+        "locationEnd": 218,
+        "tokenStart": 39,
+        "tokenEnd": 40,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_3",
+        "category": "PER",
+        "surfaceForm": "bernard",
+        "locationStart": 211,
+        "locationEnd": 218,
+        "method": "flair/ner-dutch-large_0.12.2"
+      }
+    ],
+    "time_expressions": [
+      {
+        "ID": "t0",
+        "category": "DATE",
+        "value": "1926-01-16",
+        "surfaceForm": "16 januari 1926",
+        "locationStart": 43,
+        "locationEnd": 58,
+        "method": "heideltime"
+      },
+      {
+        "ID": "t1",
+        "category": "DATE",
+        "value": "2008-10-02",
+        "surfaceForm": "2 oktober 2008",
+        "locationStart": 82,
+        "locationEnd": 96,
+        "method": "heideltime"
+      },
+      {
+        "ID": "t2",
+        "category": "DATE",
+        "value": "1957",
+        "surfaceForm": "1957",
+        "locationStart": 160,
+        "locationEnd": 164,
+        "method": "heideltime"
+      },
+      {
+        "ID": "t3",
+        "category": "DATE",
+        "value": "2008",
+        "surfaceForm": "2008",
+        "locationStart": 169,
+        "locationEnd": 173,
+        "method": "heideltime"
+      },
+      {
+        "ID": "t4",
+        "category": "DATE",
+        "value": "1957",
+        "surfaceForm": "1957",
+        "locationStart": 177,
+        "locationEnd": 181,
+        "method": "heideltime"
+      }
+    ]
+  },
+  "id_person": "68345544",
+  "version": "02",
+  "source": "rkdartists",
+  "name": "lodewijk houthakker|lodewijk arnoldus houthakker",
+  "partition": "test",
+  "birth_pl": null,
+  "birth_tm": "1926-01-16",
+  "baptism_pl": null,
+  "baptism_tm": null,
+  "death_pl": "Amsterdam",
+  "death_tm": "2008-10-02",
+  "funeral_pl": null,
+  "funeral_tm": null,
+  "marriage_pl": null,
+  "marriage_tm": null,
+  "gender": "1",
+  "category": null,
+  "father": null,
+  "mother": null,
+  "partner": null,
+  "religion": null,
+  "educations": null,
+  "faiths": null,
+  "occupations": [
+    {
+      "name": "kunstverzamelaar",
+      "begin": "None",
+      "end": "None"
+    },
+    {
+      "name": "kunsthandelaar",
+      "begin": "None",
+      "end": "None"
+    }
+  ],
+  "residences": null
+}

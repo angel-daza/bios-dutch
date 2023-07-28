@@ -1,0 +1,413 @@
+{
+  "text_id": "36116206_04",
+  "nlp_preprocessor": "stanza_nl",
+  "data": {
+    "text": "Keramist, wandschilder, schilder, grafisch ontwerper. Geboren: 6 mei 1903, Utrecht.",
+    "tokenization": {
+      "stanza_nl": [
+        "Keramist",
+        ",",
+        "wandschilder",
+        ",",
+        "schilder",
+        ",",
+        "grafisch",
+        "ontwerper",
+        ".",
+        "Geboren",
+        ":",
+        "6",
+        "mei",
+        "1903",
+        ",",
+        "Utrecht",
+        "."
+      ]
+    },
+    "morpho_syntax": {
+      "stanza_nl": [
+        {
+          "paragraphID": null,
+          "sentenceID": 0,
+          "text": "Keramist, wandschilder, schilder, grafisch ontwerper. ",
+          "tokenized": "Keramist , wandschilder , schilder , grafisch ontwerper .",
+          "words": [
+            {
+              "ID": 0,
+              "FORM": "Keramist",
+              "LEMMA": "Keramist",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|zijd|stan",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 0,
+                "EndChar": 8
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 1,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 3,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 8,
+                "EndChar": 9
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 2,
+              "FORM": "wandschilder",
+              "LEMMA": "wandschilder",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 1,
+              "DEPREL": "conj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 10,
+                "EndChar": 22
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 3,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 5,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 22,
+                "EndChar": 23
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 4,
+              "FORM": "schilder",
+              "LEMMA": "schilder",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 1,
+              "DEPREL": "conj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 24,
+                "EndChar": 32
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 5,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 8,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 32,
+                "EndChar": 33
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 6,
+              "FORM": "grafisch",
+              "LEMMA": "grafisch",
+              "UPOS": "ADJ",
+              "XPOS": "ADJ|prenom|basis|zonder",
+              "HEAD": 8,
+              "DEPREL": "amod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 34,
+                "EndChar": 42
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 7,
+              "FORM": "ontwerper",
+              "LEMMA": "ontwerper",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 1,
+              "DEPREL": "conj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 43,
+                "EndChar": 52
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 8,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 1,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 52,
+                "EndChar": 53
+              },
+              "FEATS": []
+            }
+          ]
+        },
+        {
+          "paragraphID": null,
+          "sentenceID": 1,
+          "text": "Geboren: 6 mei 1903, Utrecht.",
+          "tokenized": "Geboren : 6 mei 1903 , Utrecht .",
+          "words": [
+            {
+              "ID": 9,
+              "FORM": "Geboren",
+              "LEMMA": "geboren",
+              "UPOS": "VERB",
+              "XPOS": "WW|vd|vrij|zonder",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 54,
+                "EndChar": 61
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 10,
+              "FORM": ":",
+              "LEMMA": ":",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 3,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 61,
+                "EndChar": 62
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 11,
+              "FORM": "6",
+              "LEMMA": "6",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 1,
+              "DEPREL": "parataxis",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 63,
+                "EndChar": 64
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 12,
+              "FORM": "mei",
+              "LEMMA": "mei",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|zijd|stan",
+              "HEAD": 3,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 65,
+                "EndChar": 68
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 13,
+              "FORM": "1903",
+              "LEMMA": "1903",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 3,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 69,
+                "EndChar": 73
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 14,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 7,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 73,
+                "EndChar": 74
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 15,
+              "FORM": "Utrecht",
+              "LEMMA": "Utrecht",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|onz|stan",
+              "HEAD": 3,
+              "DEPREL": "parataxis",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 75,
+                "EndChar": 82
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 16,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 1,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 82,
+                "EndChar": 83
+              },
+              "FEATS": []
+            }
+          ]
+        }
+      ]
+    },
+    "entities": [
+      {
+        "ID": "gysbert_hist_1",
+        "category": "TIME",
+        "surfaceForm": "6 mei 1903",
+        "locationStart": 63,
+        "locationEnd": 73,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_0",
+        "surfaceForm": "Utrecht",
+        "category": "LOC",
+        "locationStart": 75,
+        "locationEnd": 82,
+        "tokenStart": 15,
+        "tokenEnd": 16,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_1",
+        "category": "LOC",
+        "surfaceForm": "Utrecht",
+        "locationStart": 75,
+        "locationEnd": 82,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_1",
+        "category": "LOC",
+        "surfaceForm": "utrecht",
+        "locationStart": 75,
+        "locationEnd": 82,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      }
+    ],
+    "time_expressions": [
+      {
+        "ID": "t0",
+        "category": "DATE",
+        "value": "1903-05-06",
+        "surfaceForm": "6 mei 1903",
+        "locationStart": 63,
+        "locationEnd": 73,
+        "method": "heideltime"
+      }
+    ]
+  },
+  "id_person": "36116206",
+  "version": "04",
+  "source": "rkdartists",
+  "name": "anthonie theodorus smit|amp smit",
+  "partition": "test",
+  "birth_pl": null,
+  "birth_tm": "1903-05-06",
+  "baptism_pl": null,
+  "baptism_tm": null,
+  "death_pl": null,
+  "death_tm": "1976",
+  "funeral_pl": null,
+  "funeral_tm": null,
+  "marriage_pl": null,
+  "marriage_tm": null,
+  "gender": "1",
+  "category": null,
+  "father": null,
+  "mother": null,
+  "partner": null,
+  "religion": null,
+  "educations": null,
+  "faiths": null,
+  "occupations": [
+    {
+      "name": "keramist",
+      "begin": "None",
+      "end": "None"
+    },
+    {
+      "name": "wandschilder",
+      "begin": "None",
+      "end": "None"
+    },
+    {
+      "name": "schilder",
+      "begin": "None",
+      "end": "None"
+    },
+    {
+      "name": "grafisch ontwerper",
+      "begin": "None",
+      "end": "None"
+    }
+  ],
+  "residences": null
+}

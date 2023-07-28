@@ -1,0 +1,2085 @@
+{
+  "text_id": "16214877_03",
+  "nlp_preprocessor": "stanza_nl",
+  "data": {
+    "text": "SCHULTENS, HENDRIK ALBERT. * Herborn 15 febr. 1749, t Leiden 12 aug. 1793. Zn. van Jan Jacob Schultens, hoogle- raar, en Suzanna Amalia Schramm. Stud, klassieke en oosterse talen Leiden 1758, Harderwijk 1765, Leiden 1767, Oxford 1772. Hoogl. oosterse talen en Hebreeuwse oudhe- den Athenaeum Amsterdam 1773, Leiden 1778 - 1793. Hij was gehuwd met Catharina Elisabeth de Sitter.",
+    "tokenization": {
+      "stanza_nl": [
+        "SCHULTENS",
+        ",",
+        "HENDRIK",
+        "ALBERT",
+        ".",
+        "*",
+        "Herborn",
+        "15",
+        "febr.",
+        "1749",
+        ",",
+        "t",
+        "Leiden",
+        "12",
+        "aug",
+        ".",
+        "1793",
+        ".",
+        "Zn.",
+        "van",
+        "Jan",
+        "Jacob",
+        "Schultens",
+        ",",
+        "hoogle-",
+        "raar",
+        ",",
+        "en",
+        "Suzanna",
+        "Amalia",
+        "Schramm",
+        ".",
+        "Stud",
+        ",",
+        "klassieke",
+        "en",
+        "oosterse",
+        "talen",
+        "Leiden",
+        "1758",
+        ",",
+        "Harderwijk",
+        "1765",
+        ",",
+        "Leiden",
+        "1767",
+        ",",
+        "Oxford",
+        "1772",
+        ".",
+        "Hoogl.",
+        "oosterse",
+        "talen",
+        "en",
+        "Hebreeuwse",
+        "oudhe-",
+        "den",
+        "Athenaeum",
+        "Amsterdam",
+        "1773",
+        ",",
+        "Leiden",
+        "1778",
+        "-",
+        "1793",
+        ".",
+        "Hij",
+        "was",
+        "gehuwd",
+        "met",
+        "Catharina",
+        "Elisabeth",
+        "de",
+        "Sitter",
+        "."
+      ]
+    },
+    "morpho_syntax": {
+      "stanza_nl": [
+        {
+          "paragraphID": null,
+          "sentenceID": 0,
+          "text": "SCHULTENS, HENDRIK ALBERT. * Herborn 15 febr. 1749, t Leiden 12 aug. ",
+          "tokenized": "SCHULTENS , HENDRIK ALBERT . * Herborn 15 febr. 1749 , t Leiden 12 aug .",
+          "words": [
+            {
+              "ID": 0,
+              "FORM": "SCHULTENS",
+              "LEMMA": "SCHULTENS",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|genus|stan",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 0,
+                "EndChar": 9
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 1,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 3,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 9,
+                "EndChar": 10
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 2,
+              "FORM": "HENDRIK",
+              "LEMMA": "hendrik",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 1,
+              "DEPREL": "conj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 11,
+                "EndChar": 18
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 3,
+              "FORM": "ALBERT",
+              "LEMMA": "ALBERT",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 3,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 19,
+                "EndChar": 25
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 4,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 1,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 25,
+                "EndChar": 26
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 5,
+              "FORM": "*",
+              "LEMMA": "*",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 7,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 27,
+                "EndChar": 28
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 6,
+              "FORM": "Herborn",
+              "LEMMA": "Herborn",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|onz|stan",
+              "HEAD": 1,
+              "DEPREL": "conj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 29,
+                "EndChar": 36
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 7,
+              "FORM": "15",
+              "LEMMA": "15",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 7,
+              "DEPREL": "parataxis",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 37,
+                "EndChar": 39
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 8,
+              "FORM": "febr.",
+              "LEMMA": "febr.",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 8,
+              "DEPREL": "fixed",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 40,
+                "EndChar": 45
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 9,
+              "FORM": "1749",
+              "LEMMA": "1749",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 8,
+              "DEPREL": "fixed",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 46,
+                "EndChar": 50
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 10,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 12,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 50,
+                "EndChar": 51
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 11,
+              "FORM": "t",
+              "LEMMA": "t",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 1,
+              "DEPREL": "conj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 52,
+                "EndChar": 53
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 12,
+              "FORM": "Leiden",
+              "LEMMA": "Leiden",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|onz|stan",
+              "HEAD": 12,
+              "DEPREL": "appos",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 54,
+                "EndChar": 60
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 13,
+              "FORM": "12",
+              "LEMMA": "12",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 12,
+              "DEPREL": "parataxis",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 61,
+                "EndChar": 63
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 14,
+              "FORM": "aug",
+              "LEMMA": "aug",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 12,
+              "DEPREL": "orphan",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 64,
+                "EndChar": 67
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 15,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 1,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 67,
+                "EndChar": 68
+              },
+              "FEATS": []
+            }
+          ]
+        },
+        {
+          "paragraphID": null,
+          "sentenceID": 1,
+          "text": "1793. ",
+          "tokenized": "1793 .",
+          "words": [
+            {
+              "ID": 16,
+              "FORM": "1793",
+              "LEMMA": "1793",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 69,
+                "EndChar": 73
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 17,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 1,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 73,
+                "EndChar": 74
+              },
+              "FEATS": []
+            }
+          ]
+        },
+        {
+          "paragraphID": null,
+          "sentenceID": 2,
+          "text": "Zn. van Jan Jacob Schultens, hoogle- raar, en Suzanna Amalia Schramm. ",
+          "tokenized": "Zn. van Jan Jacob Schultens , hoogle- raar , en Suzanna Amalia Schramm .",
+          "words": [
+            {
+              "ID": 18,
+              "FORM": "Zn.",
+              "LEMMA": "zn.",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 75,
+                "EndChar": 78
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 19,
+              "FORM": "van",
+              "LEMMA": "van",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 3,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 79,
+                "EndChar": 82
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 20,
+              "FORM": "Jan",
+              "LEMMA": "Jan",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 1,
+              "DEPREL": "nmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 83,
+                "EndChar": 86
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 21,
+              "FORM": "Jacob",
+              "LEMMA": "Jacob",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 3,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 87,
+                "EndChar": 92
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 22,
+              "FORM": "Schultens",
+              "LEMMA": "Schultens",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 3,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 93,
+                "EndChar": 102
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 23,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 7,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 102,
+                "EndChar": 103
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 24,
+              "FORM": "hoogle-",
+              "LEMMA": "hoogle-",
+              "UPOS": "SYM",
+              "XPOS": "SPEC|afgebr",
+              "HEAD": 3,
+              "DEPREL": "conj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 104,
+                "EndChar": 111
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 25,
+              "FORM": "raar",
+              "LEMMA": "raar",
+              "UPOS": "ADJ",
+              "XPOS": "ADJ|vrij|basis|zonder",
+              "HEAD": 7,
+              "DEPREL": "amod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 112,
+                "EndChar": 116
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 26,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 11,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 116,
+                "EndChar": 117
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 27,
+              "FORM": "en",
+              "LEMMA": "en",
+              "UPOS": "CCONJ",
+              "XPOS": "VG|neven",
+              "HEAD": 11,
+              "DEPREL": "cc",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 118,
+                "EndChar": 120
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 28,
+              "FORM": "Suzanna",
+              "LEMMA": "Suzanna",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 1,
+              "DEPREL": "conj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 121,
+                "EndChar": 128
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 29,
+              "FORM": "Amalia",
+              "LEMMA": "Amalia",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 11,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 129,
+                "EndChar": 135
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 30,
+              "FORM": "Schramm",
+              "LEMMA": "Schramm",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 11,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 136,
+                "EndChar": 143
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 31,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 1,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 143,
+                "EndChar": 144
+              },
+              "FEATS": []
+            }
+          ]
+        },
+        {
+          "paragraphID": null,
+          "sentenceID": 3,
+          "text": "Stud, klassieke en oosterse talen Leiden 1758, Harderwijk 1765, Leiden 1767, Oxford 1772. ",
+          "tokenized": "Stud , klassieke en oosterse talen Leiden 1758 , Harderwijk 1765 , Leiden 1767 , Oxford 1772 .",
+          "words": [
+            {
+              "ID": 32,
+              "FORM": "Stud",
+              "LEMMA": "stud",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 145,
+                "EndChar": 149
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 33,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 6,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 149,
+                "EndChar": 150
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 34,
+              "FORM": "klassieke",
+              "LEMMA": "klassiek",
+              "UPOS": "ADJ",
+              "XPOS": "ADJ|prenom|basis|met-e|stan",
+              "HEAD": 6,
+              "DEPREL": "nmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 151,
+                "EndChar": 160
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 35,
+              "FORM": "en",
+              "LEMMA": "en",
+              "UPOS": "CCONJ",
+              "XPOS": "VG|neven",
+              "HEAD": 5,
+              "DEPREL": "cc",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 161,
+                "EndChar": 163
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 36,
+              "FORM": "oosterse",
+              "LEMMA": "oosters",
+              "UPOS": "ADJ",
+              "XPOS": "ADJ|prenom|basis|met-e|stan",
+              "HEAD": 3,
+              "DEPREL": "conj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 164,
+                "EndChar": 172
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 37,
+              "FORM": "talen",
+              "LEMMA": "taal",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|mv|basis",
+              "HEAD": 1,
+              "DEPREL": "conj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 173,
+                "EndChar": 178
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 38,
+              "FORM": "Leiden",
+              "LEMMA": "Leiden",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|onz|stan",
+              "HEAD": 6,
+              "DEPREL": "parataxis",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 179,
+                "EndChar": 185
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 39,
+              "FORM": "1758",
+              "LEMMA": "1758",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 7,
+              "DEPREL": "orphan",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 186,
+                "EndChar": 190
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 40,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 10,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 190,
+                "EndChar": 191
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 41,
+              "FORM": "Harderwijk",
+              "LEMMA": "Harderwijk",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen|basis|onz",
+              "HEAD": 1,
+              "DEPREL": "conj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 192,
+                "EndChar": 202
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 42,
+              "FORM": "1765",
+              "LEMMA": "1765",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 10,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 203,
+                "EndChar": 207
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 43,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 13,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 207,
+                "EndChar": 208
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 44,
+              "FORM": "Leiden",
+              "LEMMA": "Leiden",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|onz|stan",
+              "HEAD": 1,
+              "DEPREL": "conj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 209,
+                "EndChar": 215
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 45,
+              "FORM": "1767",
+              "LEMMA": "1767",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 13,
+              "DEPREL": "appos",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 216,
+                "EndChar": 220
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 46,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 16,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 220,
+                "EndChar": 221
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 47,
+              "FORM": "Oxford",
+              "LEMMA": "Oxford",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 1,
+              "DEPREL": "conj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 222,
+                "EndChar": 228
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 48,
+              "FORM": "1772",
+              "LEMMA": "1772",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 16,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 229,
+                "EndChar": 233
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 49,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 1,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 233,
+                "EndChar": 234
+              },
+              "FEATS": []
+            }
+          ]
+        },
+        {
+          "paragraphID": null,
+          "sentenceID": 4,
+          "text": "Hoogl. oosterse talen en Hebreeuwse oudhe- den Athenaeum Amsterdam 1773, Leiden 1778 - 1793. ",
+          "tokenized": "Hoogl. oosterse talen en Hebreeuwse oudhe- den Athenaeum Amsterdam 1773 , Leiden 1778 - 1793 .",
+          "words": [
+            {
+              "ID": 50,
+              "FORM": "Hoogl.",
+              "LEMMA": "hoogl.",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 235,
+                "EndChar": 241
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 51,
+              "FORM": "oosterse",
+              "LEMMA": "oosters",
+              "UPOS": "ADJ",
+              "XPOS": "ADJ|prenom|basis|met-e|stan",
+              "HEAD": 3,
+              "DEPREL": "amod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 242,
+                "EndChar": 250
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 52,
+              "FORM": "talen",
+              "LEMMA": "taal",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|mv|basis",
+              "HEAD": 1,
+              "DEPREL": "nmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 251,
+                "EndChar": 256
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 53,
+              "FORM": "en",
+              "LEMMA": "en",
+              "UPOS": "CCONJ",
+              "XPOS": "VG|neven",
+              "HEAD": 6,
+              "DEPREL": "cc",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 257,
+                "EndChar": 259
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 54,
+              "FORM": "Hebreeuwse",
+              "LEMMA": "Hebreeuws",
+              "UPOS": "ADJ",
+              "XPOS": "ADJ|prenom|basis|met-e|stan",
+              "HEAD": 6,
+              "DEPREL": "amod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 260,
+                "EndChar": 270
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 55,
+              "FORM": "oudhe-",
+              "LEMMA": "oudhe-",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 1,
+              "DEPREL": "conj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 271,
+                "EndChar": 277
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 56,
+              "FORM": "den",
+              "LEMMA": "den",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 6,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 278,
+                "EndChar": 281
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 57,
+              "FORM": "Athenaeum",
+              "LEMMA": "Athenaeum",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 6,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 282,
+                "EndChar": 291
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 58,
+              "FORM": "Amsterdam",
+              "LEMMA": "Amsterdam",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 6,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 292,
+                "EndChar": 301
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 59,
+              "FORM": "1773",
+              "LEMMA": "1773",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 6,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 302,
+                "EndChar": 306
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 60,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 12,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 306,
+                "EndChar": 307
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 61,
+              "FORM": "Leiden",
+              "LEMMA": "Leiden",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|onz|stan",
+              "HEAD": 1,
+              "DEPREL": "conj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 308,
+                "EndChar": 314
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 62,
+              "FORM": "1778",
+              "LEMMA": "1778",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 12,
+              "DEPREL": "appos",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 315,
+                "EndChar": 319
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 63,
+              "FORM": "-",
+              "LEMMA": "-",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 15,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 320,
+                "EndChar": 321
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 64,
+              "FORM": "1793",
+              "LEMMA": "1793",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 1,
+              "DEPREL": "parataxis",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 322,
+                "EndChar": 326
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 65,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 1,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 326,
+                "EndChar": 327
+              },
+              "FEATS": []
+            }
+          ]
+        },
+        {
+          "paragraphID": null,
+          "sentenceID": 5,
+          "text": "Hij was gehuwd met Catharina Elisabeth de Sitter.",
+          "tokenized": "Hij was gehuwd met Catharina Elisabeth de Sitter .",
+          "words": [
+            {
+              "ID": 66,
+              "FORM": "Hij",
+              "LEMMA": "hij",
+              "UPOS": "PRON",
+              "XPOS": "VNW|pers|pron|nomin|vol|3|ev|masc",
+              "HEAD": 3,
+              "DEPREL": "nsubj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 328,
+                "EndChar": 331
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 67,
+              "FORM": "was",
+              "LEMMA": "zijn",
+              "UPOS": "AUX",
+              "XPOS": "WW|pv|verl|ev",
+              "HEAD": 3,
+              "DEPREL": "cop",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 332,
+                "EndChar": 335
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 68,
+              "FORM": "gehuwd",
+              "LEMMA": "huwen",
+              "UPOS": "VERB",
+              "XPOS": "WW|vd|vrij|zonder",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 336,
+                "EndChar": 342
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 69,
+              "FORM": "met",
+              "LEMMA": "met",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 5,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 343,
+                "EndChar": 346
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 70,
+              "FORM": "Catharina",
+              "LEMMA": "Catharina",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 3,
+              "DEPREL": "obl",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 347,
+                "EndChar": 356
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 71,
+              "FORM": "Elisabeth",
+              "LEMMA": "Elisabeth",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 5,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 357,
+                "EndChar": 366
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 72,
+              "FORM": "de",
+              "LEMMA": "de",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 5,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 367,
+                "EndChar": 369
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 73,
+              "FORM": "Sitter",
+              "LEMMA": "Sitter",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 5,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 370,
+                "EndChar": 376
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 74,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 3,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 376,
+                "EndChar": 377
+              },
+              "FEATS": []
+            }
+          ]
+        }
+      ]
+    },
+    "entities": [
+      {
+        "ID": "stanza_nl_0",
+        "surfaceForm": "SCHULTENS",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 9,
+        "tokenStart": 0,
+        "tokenEnd": 1,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_0",
+        "surfaceForm": "SCHULTENS , HENDRIK ALBERT",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 25,
+        "tokenStart": 0,
+        "tokenEnd": 4,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_0",
+        "category": "",
+        "surfaceForm": "schultens",
+        "locationStart": 0,
+        "locationEnd": 9,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_1",
+        "surfaceForm": "HENDRIK ALBERT",
+        "category": "PER",
+        "locationStart": 11,
+        "locationEnd": 25,
+        "tokenStart": 2,
+        "tokenEnd": 4,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_0",
+        "category": "PER",
+        "surfaceForm": "HENDRIK ALBERT",
+        "locationStart": 11,
+        "locationEnd": 25,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_0",
+        "category": "PER",
+        "surfaceForm": "hendrik albert",
+        "locationStart": 11,
+        "locationEnd": 25,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_2",
+        "surfaceForm": "Herborn",
+        "category": "LOC",
+        "locationStart": 29,
+        "locationEnd": 36,
+        "tokenStart": 6,
+        "tokenEnd": 7,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_11",
+        "surfaceForm": "Herborn",
+        "category": "LOC",
+        "locationStart": 29,
+        "locationEnd": 36,
+        "tokenStart": 6,
+        "tokenEnd": 7,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_1",
+        "category": "LOC",
+        "surfaceForm": "Herborn",
+        "locationStart": 29,
+        "locationEnd": 36,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_0",
+        "category": "LOC",
+        "surfaceForm": "herborn",
+        "locationStart": 29,
+        "locationEnd": 36,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gold_16",
+        "surfaceForm": "15 febr. 1749",
+        "category": "TIME",
+        "locationStart": 37,
+        "locationEnd": 50,
+        "tokenStart": 7,
+        "tokenEnd": 10,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_0",
+        "category": "TIME",
+        "surfaceForm": "15 febr . 1749",
+        "locationStart": 37,
+        "locationEnd": 50,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_3",
+        "surfaceForm": "t Leiden",
+        "category": "MISC",
+        "locationStart": 52,
+        "locationEnd": 60,
+        "tokenStart": 11,
+        "tokenEnd": 13,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_17",
+        "surfaceForm": "Leiden",
+        "category": "LOC",
+        "locationStart": 54,
+        "locationEnd": 60,
+        "tokenStart": 12,
+        "tokenEnd": 13,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_2",
+        "category": "LOC",
+        "surfaceForm": "Leiden",
+        "locationStart": 54,
+        "locationEnd": 60,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_0",
+        "category": "LOC",
+        "surfaceForm": "leiden",
+        "locationStart": 54,
+        "locationEnd": 60,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gold_18",
+        "surfaceForm": "12 aug . 1793",
+        "category": "TIME",
+        "locationStart": 61,
+        "locationEnd": 73,
+        "tokenStart": 13,
+        "tokenEnd": 17,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_0",
+        "category": "TIME",
+        "surfaceForm": "12 aug .",
+        "locationStart": 61,
+        "locationEnd": 68,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gysbert_hist_1",
+        "category": "TIME",
+        "surfaceForm": "1793",
+        "locationStart": 69,
+        "locationEnd": 73,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_4",
+        "surfaceForm": "Jan Jacob Schultens",
+        "category": "PER",
+        "locationStart": 83,
+        "locationEnd": 102,
+        "tokenStart": 20,
+        "tokenEnd": 23,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_19",
+        "surfaceForm": "Jan Jacob Schultens",
+        "category": "PER",
+        "locationStart": 83,
+        "locationEnd": 102,
+        "tokenStart": 20,
+        "tokenEnd": 23,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_3",
+        "category": "PER",
+        "surfaceForm": "Jan Jacob Schultens",
+        "locationStart": 83,
+        "locationEnd": 102,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_2",
+        "category": "PER",
+        "surfaceForm": "jan jacob schultens",
+        "locationStart": 83,
+        "locationEnd": 102,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_5",
+        "surfaceForm": "Suzanna Amalia Schramm",
+        "category": "PER",
+        "locationStart": 121,
+        "locationEnd": 143,
+        "tokenStart": 28,
+        "tokenEnd": 31,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_1",
+        "surfaceForm": "Suzanna Amalia Schramm",
+        "category": "PER",
+        "locationStart": 121,
+        "locationEnd": 143,
+        "tokenStart": 28,
+        "tokenEnd": 31,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_3",
+        "category": "PER",
+        "surfaceForm": "Suzanna Amalia Schramm",
+        "locationStart": 121,
+        "locationEnd": 143,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_2",
+        "category": "PER",
+        "surfaceForm": "suzanna amalia schramm",
+        "locationStart": 121,
+        "locationEnd": 143,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_6",
+        "surfaceForm": "Leiden",
+        "category": "LOC",
+        "locationStart": 179,
+        "locationEnd": 185,
+        "tokenStart": 38,
+        "tokenEnd": 39,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_2",
+        "surfaceForm": "Leiden",
+        "category": "LOC",
+        "locationStart": 179,
+        "locationEnd": 185,
+        "tokenStart": 38,
+        "tokenEnd": 39,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_4",
+        "category": "LOC",
+        "surfaceForm": "Leiden",
+        "locationStart": 179,
+        "locationEnd": 185,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_3",
+        "category": "LOC",
+        "surfaceForm": "leiden",
+        "locationStart": 179,
+        "locationEnd": 185,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gold_3",
+        "surfaceForm": "1758",
+        "category": "TIME",
+        "locationStart": 186,
+        "locationEnd": 190,
+        "tokenStart": 39,
+        "tokenEnd": 40,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_3",
+        "category": "TIME",
+        "surfaceForm": "1758",
+        "locationStart": 186,
+        "locationEnd": 190,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_7",
+        "surfaceForm": "Harderwijk",
+        "category": "LOC",
+        "locationStart": 192,
+        "locationEnd": 202,
+        "tokenStart": 41,
+        "tokenEnd": 42,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_4",
+        "surfaceForm": "Harderwijk",
+        "category": "LOC",
+        "locationStart": 192,
+        "locationEnd": 202,
+        "tokenStart": 41,
+        "tokenEnd": 42,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_4",
+        "category": "LOC",
+        "surfaceForm": "Harderwijk",
+        "locationStart": 192,
+        "locationEnd": 202,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_3",
+        "category": "LOC",
+        "surfaceForm": "harderwijk",
+        "locationStart": 192,
+        "locationEnd": 202,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gold_5",
+        "surfaceForm": "1765",
+        "category": "TIME",
+        "locationStart": 203,
+        "locationEnd": 207,
+        "tokenStart": 42,
+        "tokenEnd": 43,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_3",
+        "category": "TIME",
+        "surfaceForm": "1765",
+        "locationStart": 203,
+        "locationEnd": 207,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_8",
+        "surfaceForm": "Leiden",
+        "category": "LOC",
+        "locationStart": 209,
+        "locationEnd": 215,
+        "tokenStart": 44,
+        "tokenEnd": 45,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_6",
+        "surfaceForm": "Leiden",
+        "category": "LOC",
+        "locationStart": 209,
+        "locationEnd": 215,
+        "tokenStart": 44,
+        "tokenEnd": 45,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_4",
+        "category": "LOC",
+        "surfaceForm": "Leiden",
+        "locationStart": 209,
+        "locationEnd": 215,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_3",
+        "category": "LOC",
+        "surfaceForm": "leiden",
+        "locationStart": 209,
+        "locationEnd": 215,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gold_7",
+        "surfaceForm": "1767",
+        "category": "TIME",
+        "locationStart": 216,
+        "locationEnd": 220,
+        "tokenStart": 45,
+        "tokenEnd": 46,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_3",
+        "category": "TIME",
+        "surfaceForm": "1767",
+        "locationStart": 216,
+        "locationEnd": 220,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_9",
+        "surfaceForm": "Oxford",
+        "category": "LOC",
+        "locationStart": 222,
+        "locationEnd": 228,
+        "tokenStart": 47,
+        "tokenEnd": 48,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_8",
+        "surfaceForm": "Oxford",
+        "category": "LOC",
+        "locationStart": 222,
+        "locationEnd": 228,
+        "tokenStart": 47,
+        "tokenEnd": 48,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_4",
+        "category": "LOC",
+        "surfaceForm": "Oxford",
+        "locationStart": 222,
+        "locationEnd": 228,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_3",
+        "category": "LOC",
+        "surfaceForm": "oxford",
+        "locationStart": 222,
+        "locationEnd": 228,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gold_9",
+        "surfaceForm": "1772",
+        "category": "TIME",
+        "locationStart": 229,
+        "locationEnd": 233,
+        "tokenStart": 48,
+        "tokenEnd": 49,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_3",
+        "category": "TIME",
+        "surfaceForm": "1772",
+        "locationStart": 229,
+        "locationEnd": 233,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_10",
+        "surfaceForm": "Hebreeuwse",
+        "category": "MISC",
+        "locationStart": 260,
+        "locationEnd": 270,
+        "tokenStart": 54,
+        "tokenEnd": 55,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_6",
+        "category": "MISC",
+        "surfaceForm": "Hebreeuwse",
+        "locationStart": 260,
+        "locationEnd": 270,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "stanza_nl_11",
+        "surfaceForm": "oudhe- den Athenaeum Amsterdam",
+        "category": "MISC",
+        "locationStart": 271,
+        "locationEnd": 301,
+        "tokenStart": 55,
+        "tokenEnd": 59,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_6",
+        "category": "ORG",
+        "surfaceForm": "Athenaeum Amsterdam",
+        "locationStart": 282,
+        "locationEnd": 301,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gold_10",
+        "surfaceForm": "Amsterdam",
+        "category": "LOC",
+        "locationStart": 292,
+        "locationEnd": 301,
+        "tokenStart": 58,
+        "tokenEnd": 59,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_4",
+        "category": "LOC",
+        "surfaceForm": "amsterdam",
+        "locationStart": 292,
+        "locationEnd": 301,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gold_12",
+        "surfaceForm": "1773",
+        "category": "TIME",
+        "locationStart": 302,
+        "locationEnd": 306,
+        "tokenStart": 59,
+        "tokenEnd": 60,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_4",
+        "category": "TIME",
+        "surfaceForm": "1773",
+        "locationStart": 302,
+        "locationEnd": 306,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_12",
+        "surfaceForm": "Leiden",
+        "category": "LOC",
+        "locationStart": 308,
+        "locationEnd": 314,
+        "tokenStart": 61,
+        "tokenEnd": 62,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_13",
+        "surfaceForm": "Leiden",
+        "category": "LOC",
+        "locationStart": 308,
+        "locationEnd": 314,
+        "tokenStart": 61,
+        "tokenEnd": 62,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_6",
+        "category": "LOC",
+        "surfaceForm": "Leiden",
+        "locationStart": 308,
+        "locationEnd": 314,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_4",
+        "category": "LOC",
+        "surfaceForm": "leiden",
+        "locationStart": 308,
+        "locationEnd": 314,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gold_14",
+        "surfaceForm": "1778 - 1793",
+        "category": "TIME",
+        "locationStart": 315,
+        "locationEnd": 326,
+        "tokenStart": 62,
+        "tokenEnd": 65,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_4",
+        "category": "TIME",
+        "surfaceForm": "1778",
+        "locationStart": 315,
+        "locationEnd": 319,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gysbert_hist_4",
+        "category": "TIME",
+        "surfaceForm": "1793",
+        "locationStart": 322,
+        "locationEnd": 326,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_13",
+        "surfaceForm": "Catharina Elisabeth de Sitter",
+        "category": "PER",
+        "locationStart": 347,
+        "locationEnd": 376,
+        "tokenStart": 70,
+        "tokenEnd": 74,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_15",
+        "surfaceForm": "Catharina Elisabeth de Sitter",
+        "category": "PER",
+        "locationStart": 347,
+        "locationEnd": 376,
+        "tokenStart": 70,
+        "tokenEnd": 74,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_7",
+        "category": "PER",
+        "surfaceForm": "Catharina Elisabeth de Sitter",
+        "locationStart": 347,
+        "locationEnd": 376,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_5",
+        "category": "PER",
+        "surfaceForm": "catharina elisabeth de sitter",
+        "locationStart": 347,
+        "locationEnd": 376,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      }
+    ],
+    "time_expressions": [
+      {
+        "ID": "t0",
+        "category": "DATE",
+        "value": "1749",
+        "surfaceForm": "1749",
+        "locationStart": 46,
+        "locationEnd": 50,
+        "method": "heideltime"
+      },
+      {
+        "ID": "t1",
+        "category": "DATE",
+        "value": "1749-08-12",
+        "surfaceForm": "12 aug.",
+        "locationStart": 61,
+        "locationEnd": 68,
+        "method": "heideltime"
+      },
+      {
+        "ID": "t2",
+        "category": "DATE",
+        "value": "1793",
+        "surfaceForm": "1793",
+        "locationStart": 69,
+        "locationEnd": 73,
+        "method": "heideltime"
+      },
+      {
+        "ID": "t3",
+        "category": "DATE",
+        "value": "1758",
+        "surfaceForm": "1758",
+        "locationStart": 186,
+        "locationEnd": 190,
+        "method": "heideltime"
+      },
+      {
+        "ID": "t4",
+        "category": "DATE",
+        "value": "1765",
+        "surfaceForm": "1765",
+        "locationStart": 203,
+        "locationEnd": 207,
+        "method": "heideltime"
+      },
+      {
+        "ID": "t5",
+        "category": "DATE",
+        "value": "1767",
+        "surfaceForm": "1767",
+        "locationStart": 216,
+        "locationEnd": 220,
+        "method": "heideltime"
+      },
+      {
+        "ID": "t6",
+        "category": "DATE",
+        "value": "1772",
+        "surfaceForm": "1772",
+        "locationStart": 229,
+        "locationEnd": 233,
+        "method": "heideltime"
+      },
+      {
+        "ID": "t7",
+        "category": "DATE",
+        "value": "1773",
+        "surfaceForm": "1773",
+        "locationStart": 302,
+        "locationEnd": 306,
+        "method": "heideltime"
+      },
+      {
+        "ID": "t8",
+        "category": "DATE",
+        "value": "1778",
+        "surfaceForm": "1778",
+        "locationStart": 315,
+        "locationEnd": 319,
+        "method": "heideltime"
+      },
+      {
+        "ID": "t9",
+        "category": "DATE",
+        "value": "1793",
+        "surfaceForm": "1793",
+        "locationStart": 322,
+        "locationEnd": 326,
+        "method": "heideltime"
+      }
+    ]
+  },
+  "id_person": "16214877",
+  "version": "03",
+  "source": "blnp",
+  "name": "hendrik albert schultens",
+  "partition": "test",
+  "birth_pl": null,
+  "birth_tm": "1749-02-15",
+  "baptism_pl": null,
+  "baptism_tm": null,
+  "death_pl": "Leiden",
+  "death_tm": "1793-08-12",
+  "funeral_pl": null,
+  "funeral_tm": null,
+  "marriage_pl": null,
+  "marriage_tm": null,
+  "gender": null,
+  "category": null,
+  "father": null,
+  "mother": null,
+  "partner": null,
+  "religion": null,
+  "educations": null,
+  "faiths": null,
+  "occupations": null,
+  "residences": null
+}

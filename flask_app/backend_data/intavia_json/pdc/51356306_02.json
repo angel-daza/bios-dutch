@@ -1,0 +1,1585 @@
+{
+  "text_id": "51356306_02",
+  "nlp_preprocessor": "stanza_nl",
+  "data": {
+    "text": "Joods vrijzinnig-democratisch Tweede Kamerlid en wethouder van financien in Rotterdam in het interbellum. Zat ruim 29 jaar in de gemeenteraad van Rotterdam en was aldaar tevens advocaat. In de Kamer hield hij zich vooral bezig met volksgezondheid en financien. Stond goed aangeschreven als wethouder vanwege zijn goede dossierkennis en redenaarstalent. Bete noir van de rechterzijde in de Rotterdamse gemeenteraad, die hem als oud-wethouder zelfs geen plaats in de commissie financien gunde.",
+    "tokenization": {
+      "stanza_nl": [
+        "Joods",
+        "vrijzinnig-democratisch",
+        "Tweede",
+        "Kamerlid",
+        "en",
+        "wethouder",
+        "van",
+        "financien",
+        "in",
+        "Rotterdam",
+        "in",
+        "het",
+        "interbellum",
+        ".",
+        "Zat",
+        "ruim",
+        "29",
+        "jaar",
+        "in",
+        "de",
+        "gemeenteraad",
+        "van",
+        "Rotterdam",
+        "en",
+        "was",
+        "aldaar",
+        "tevens",
+        "advocaat",
+        ".",
+        "In",
+        "de",
+        "Kamer",
+        "hield",
+        "hij",
+        "zich",
+        "vooral",
+        "bezig",
+        "met",
+        "volksgezondheid",
+        "en",
+        "financien",
+        ".",
+        "Stond",
+        "goed",
+        "aangeschreven",
+        "als",
+        "wethouder",
+        "vanwege",
+        "zijn",
+        "goede",
+        "dossierkennis",
+        "en",
+        "redenaarstalent",
+        ".",
+        "Bete",
+        "noir",
+        "van",
+        "de",
+        "rechterzijde",
+        "in",
+        "de",
+        "Rotterdamse",
+        "gemeenteraad",
+        ",",
+        "die",
+        "hem",
+        "als",
+        "oud-wethouder",
+        "zelfs",
+        "geen",
+        "plaats",
+        "in",
+        "de",
+        "commissie",
+        "financien",
+        "gunde",
+        "."
+      ]
+    },
+    "morpho_syntax": {
+      "stanza_nl": [
+        {
+          "paragraphID": null,
+          "sentenceID": 0,
+          "text": "Joods vrijzinnig-democratisch Tweede Kamerlid en wethouder van financien in Rotterdam in het interbellum. ",
+          "tokenized": "Joods vrijzinnig-democratisch Tweede Kamerlid en wethouder van financien in Rotterdam in het interbellum .",
+          "words": [
+            {
+              "ID": 0,
+              "FORM": "Joods",
+              "LEMMA": "Jood",
+              "UPOS": "ADJ",
+              "XPOS": "ADJ|prenom|basis|zonder",
+              "HEAD": 3,
+              "DEPREL": "amod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 0,
+                "EndChar": 5
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 1,
+              "FORM": "vrijzinnig-democratisch",
+              "LEMMA": "vrijzinnig-democratisch",
+              "UPOS": "ADJ",
+              "XPOS": "ADJ|prenom|basis|zonder",
+              "HEAD": 3,
+              "DEPREL": "amod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 6,
+                "EndChar": 29
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 2,
+              "FORM": "Tweede",
+              "LEMMA": "Tweede",
+              "UPOS": "ADJ",
+              "XPOS": "TW|rang|prenom|stan",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 30,
+                "EndChar": 36
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 3,
+              "FORM": "Kamerlid",
+              "LEMMA": "kamer_lid",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|onz|stan",
+              "HEAD": 3,
+              "DEPREL": "fixed",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 37,
+                "EndChar": 45
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 4,
+              "FORM": "en",
+              "LEMMA": "en",
+              "UPOS": "CCONJ",
+              "XPOS": "VG|neven",
+              "HEAD": 6,
+              "DEPREL": "cc",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 46,
+                "EndChar": 48
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 5,
+              "FORM": "wethouder",
+              "LEMMA": "wethouder",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 3,
+              "DEPREL": "conj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 49,
+                "EndChar": 58
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 6,
+              "FORM": "van",
+              "LEMMA": "van",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 8,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 59,
+                "EndChar": 62
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 7,
+              "FORM": "financien",
+              "LEMMA": "financiën",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|mv|basis",
+              "HEAD": 6,
+              "DEPREL": "nmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 63,
+                "EndChar": 72
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 8,
+              "FORM": "in",
+              "LEMMA": "in",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 10,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 73,
+                "EndChar": 75
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 9,
+              "FORM": "Rotterdam",
+              "LEMMA": "Rotterdam",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|onz|stan",
+              "HEAD": 8,
+              "DEPREL": "nmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 76,
+                "EndChar": 85
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 10,
+              "FORM": "in",
+              "LEMMA": "in",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 13,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 86,
+                "EndChar": 88
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 11,
+              "FORM": "het",
+              "LEMMA": "het",
+              "UPOS": "DET",
+              "XPOS": "LID|bep|stan|evon",
+              "HEAD": 13,
+              "DEPREL": "det",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 89,
+                "EndChar": 92
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 12,
+              "FORM": "interbellum",
+              "LEMMA": "interbellum",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|onz|stan",
+              "HEAD": 6,
+              "DEPREL": "nmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 93,
+                "EndChar": 104
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 13,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 3,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 104,
+                "EndChar": 105
+              },
+              "FEATS": []
+            }
+          ]
+        },
+        {
+          "paragraphID": null,
+          "sentenceID": 1,
+          "text": "Zat ruim 29 jaar in de gemeenteraad van Rotterdam en was aldaar tevens advocaat. ",
+          "tokenized": "Zat ruim 29 jaar in de gemeenteraad van Rotterdam en was aldaar tevens advocaat .",
+          "words": [
+            {
+              "ID": 14,
+              "FORM": "Zat",
+              "LEMMA": "zitten",
+              "UPOS": "VERB",
+              "XPOS": "WW|pv|verl|ev",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 106,
+                "EndChar": 109
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 15,
+              "FORM": "ruim",
+              "LEMMA": "ruim",
+              "UPOS": "ADJ",
+              "XPOS": "ADJ|vrij|basis|zonder",
+              "HEAD": 4,
+              "DEPREL": "amod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 110,
+                "EndChar": 114
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 16,
+              "FORM": "29",
+              "LEMMA": "29",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|prenom|stan",
+              "HEAD": 4,
+              "DEPREL": "nummod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 115,
+                "EndChar": 117
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 17,
+              "FORM": "jaar",
+              "LEMMA": "jaar",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|onz|stan",
+              "HEAD": 1,
+              "DEPREL": "obl",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 118,
+                "EndChar": 122
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 18,
+              "FORM": "in",
+              "LEMMA": "in",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 7,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 123,
+                "EndChar": 125
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 19,
+              "FORM": "de",
+              "LEMMA": "de",
+              "UPOS": "DET",
+              "XPOS": "LID|bep|stan|rest",
+              "HEAD": 7,
+              "DEPREL": "det",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 126,
+                "EndChar": 128
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 20,
+              "FORM": "gemeenteraad",
+              "LEMMA": "gemeente_raad",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 1,
+              "DEPREL": "obl",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 129,
+                "EndChar": 141
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 21,
+              "FORM": "van",
+              "LEMMA": "van",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 9,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 142,
+                "EndChar": 145
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 22,
+              "FORM": "Rotterdam",
+              "LEMMA": "Rotterdam",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|onz|stan",
+              "HEAD": 7,
+              "DEPREL": "nmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 146,
+                "EndChar": 155
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 23,
+              "FORM": "en",
+              "LEMMA": "en",
+              "UPOS": "CCONJ",
+              "XPOS": "VG|neven",
+              "HEAD": 14,
+              "DEPREL": "cc",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 156,
+                "EndChar": 158
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 24,
+              "FORM": "was",
+              "LEMMA": "zijn",
+              "UPOS": "AUX",
+              "XPOS": "WW|pv|verl|ev",
+              "HEAD": 14,
+              "DEPREL": "cop",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 159,
+                "EndChar": 162
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 25,
+              "FORM": "aldaar",
+              "LEMMA": "aldaar",
+              "UPOS": "ADV",
+              "XPOS": "BW",
+              "HEAD": 14,
+              "DEPREL": "advmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 163,
+                "EndChar": 169
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 26,
+              "FORM": "tevens",
+              "LEMMA": "tevens",
+              "UPOS": "ADV",
+              "XPOS": "BW",
+              "HEAD": 14,
+              "DEPREL": "advmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 170,
+                "EndChar": 176
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 27,
+              "FORM": "advocaat",
+              "LEMMA": "advocaat",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 1,
+              "DEPREL": "conj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 177,
+                "EndChar": 185
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 28,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 1,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 185,
+                "EndChar": 186
+              },
+              "FEATS": []
+            }
+          ]
+        },
+        {
+          "paragraphID": null,
+          "sentenceID": 2,
+          "text": "In de Kamer hield hij zich vooral bezig met volksgezondheid en financien. ",
+          "tokenized": "In de Kamer hield hij zich vooral bezig met volksgezondheid en financien .",
+          "words": [
+            {
+              "ID": 29,
+              "FORM": "In",
+              "LEMMA": "in",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 3,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 187,
+                "EndChar": 189
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 30,
+              "FORM": "de",
+              "LEMMA": "de",
+              "UPOS": "DET",
+              "XPOS": "LID|bep|stan|rest",
+              "HEAD": 3,
+              "DEPREL": "det",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 190,
+                "EndChar": 192
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 31,
+              "FORM": "Kamer",
+              "LEMMA": "kamer",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 4,
+              "DEPREL": "obl",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 193,
+                "EndChar": 198
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 32,
+              "FORM": "hield",
+              "LEMMA": "houden",
+              "UPOS": "VERB",
+              "XPOS": "WW|pv|verl|ev",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 199,
+                "EndChar": 204
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 33,
+              "FORM": "hij",
+              "LEMMA": "hij",
+              "UPOS": "PRON",
+              "XPOS": "VNW|pers|pron|nomin|vol|3|ev|masc",
+              "HEAD": 4,
+              "DEPREL": "nsubj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 205,
+                "EndChar": 208
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 34,
+              "FORM": "zich",
+              "LEMMA": "zich",
+              "UPOS": "PRON",
+              "XPOS": "VNW|refl|pron|obl|red|3|getal",
+              "HEAD": 4,
+              "DEPREL": "expl:pv",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 209,
+                "EndChar": 213
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 35,
+              "FORM": "vooral",
+              "LEMMA": "vooral",
+              "UPOS": "ADV",
+              "XPOS": "BW",
+              "HEAD": 4,
+              "DEPREL": "advmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 214,
+                "EndChar": 220
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 36,
+              "FORM": "bezig",
+              "LEMMA": "bezig",
+              "UPOS": "ADJ",
+              "XPOS": "ADJ|vrij|basis|zonder",
+              "HEAD": 4,
+              "DEPREL": "compound:prt",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 221,
+                "EndChar": 226
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 37,
+              "FORM": "met",
+              "LEMMA": "met",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 10,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 227,
+                "EndChar": 230
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 38,
+              "FORM": "volksgezondheid",
+              "LEMMA": "volksgezondheid",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 4,
+              "DEPREL": "obl",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 231,
+                "EndChar": 246
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 39,
+              "FORM": "en",
+              "LEMMA": "en",
+              "UPOS": "CCONJ",
+              "XPOS": "VG|neven",
+              "HEAD": 12,
+              "DEPREL": "cc",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 247,
+                "EndChar": 249
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 40,
+              "FORM": "financien",
+              "LEMMA": "financiën",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|mv|basis",
+              "HEAD": 10,
+              "DEPREL": "conj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 250,
+                "EndChar": 259
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 41,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 4,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 259,
+                "EndChar": 260
+              },
+              "FEATS": []
+            }
+          ]
+        },
+        {
+          "paragraphID": null,
+          "sentenceID": 3,
+          "text": "Stond goed aangeschreven als wethouder vanwege zijn goede dossierkennis en redenaarstalent. ",
+          "tokenized": "Stond goed aangeschreven als wethouder vanwege zijn goede dossierkennis en redenaarstalent .",
+          "words": [
+            {
+              "ID": 42,
+              "FORM": "Stond",
+              "LEMMA": "staan",
+              "UPOS": "VERB",
+              "XPOS": "WW|pv|verl|ev",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 261,
+                "EndChar": 266
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 43,
+              "FORM": "goed",
+              "LEMMA": "goed",
+              "UPOS": "ADJ",
+              "XPOS": "ADJ|vrij|basis|zonder",
+              "HEAD": 3,
+              "DEPREL": "advmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 267,
+                "EndChar": 271
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 44,
+              "FORM": "aangeschreven",
+              "LEMMA": "aan_schrijven",
+              "UPOS": "VERB",
+              "XPOS": "WW|vd|vrij|zonder",
+              "HEAD": 1,
+              "DEPREL": "ccomp",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 272,
+                "EndChar": 285
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 45,
+              "FORM": "als",
+              "LEMMA": "als",
+              "UPOS": "SCONJ",
+              "XPOS": "VG|onder",
+              "HEAD": 5,
+              "DEPREL": "mark",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 286,
+                "EndChar": 289
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 46,
+              "FORM": "wethouder",
+              "LEMMA": "wethouder",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 3,
+              "DEPREL": "advcl",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 290,
+                "EndChar": 299
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 47,
+              "FORM": "vanwege",
+              "LEMMA": "vanwege",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 9,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 300,
+                "EndChar": 307
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 48,
+              "FORM": "zijn",
+              "LEMMA": "zijn",
+              "UPOS": "PRON",
+              "XPOS": "VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr",
+              "HEAD": 9,
+              "DEPREL": "nmod:poss",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 308,
+                "EndChar": 312
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 49,
+              "FORM": "goede",
+              "LEMMA": "goed",
+              "UPOS": "ADJ",
+              "XPOS": "ADJ|prenom|basis|met-e|stan",
+              "HEAD": 9,
+              "DEPREL": "amod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 313,
+                "EndChar": 318
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 50,
+              "FORM": "dossierkennis",
+              "LEMMA": "dossierkennis",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 5,
+              "DEPREL": "nmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 319,
+                "EndChar": 332
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 51,
+              "FORM": "en",
+              "LEMMA": "en",
+              "UPOS": "CCONJ",
+              "XPOS": "VG|neven",
+              "HEAD": 11,
+              "DEPREL": "cc",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 333,
+                "EndChar": 335
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 52,
+              "FORM": "redenaarstalent",
+              "LEMMA": "redenaarstalent",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 9,
+              "DEPREL": "conj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 336,
+                "EndChar": 351
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 53,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 1,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 351,
+                "EndChar": 352
+              },
+              "FEATS": []
+            }
+          ]
+        },
+        {
+          "paragraphID": null,
+          "sentenceID": 4,
+          "text": "Bete noir van de rechterzijde in de Rotterdamse gemeenteraad, die hem als oud-wethouder zelfs geen plaats in de commissie financien gunde.",
+          "tokenized": "Bete noir van de rechterzijde in de Rotterdamse gemeenteraad , die hem als oud-wethouder zelfs geen plaats in de commissie financien gunde .",
+          "words": [
+            {
+              "ID": 54,
+              "FORM": "Bete",
+              "LEMMA": "Bete",
+              "UPOS": "SYM",
+              "XPOS": "SPEC|vreemd",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 353,
+                "EndChar": 357
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 55,
+              "FORM": "noir",
+              "LEMMA": "noir",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 1,
+              "DEPREL": "fixed",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 358,
+                "EndChar": 362
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 56,
+              "FORM": "van",
+              "LEMMA": "van",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 5,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 363,
+                "EndChar": 366
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 57,
+              "FORM": "de",
+              "LEMMA": "de",
+              "UPOS": "DET",
+              "XPOS": "LID|bep|stan|rest",
+              "HEAD": 5,
+              "DEPREL": "det",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 367,
+                "EndChar": 369
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 58,
+              "FORM": "rechterzijde",
+              "LEMMA": "rechter_zijde",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 1,
+              "DEPREL": "nmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 370,
+                "EndChar": 382
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 59,
+              "FORM": "in",
+              "LEMMA": "in",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 9,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 383,
+                "EndChar": 385
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 60,
+              "FORM": "de",
+              "LEMMA": "de",
+              "UPOS": "DET",
+              "XPOS": "LID|bep|stan|rest",
+              "HEAD": 9,
+              "DEPREL": "det",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 386,
+                "EndChar": 388
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 61,
+              "FORM": "Rotterdamse",
+              "LEMMA": "Rotterdams",
+              "UPOS": "ADJ",
+              "XPOS": "ADJ|prenom|basis|met-e|stan",
+              "HEAD": 9,
+              "DEPREL": "amod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 389,
+                "EndChar": 400
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 62,
+              "FORM": "gemeenteraad",
+              "LEMMA": "gemeente_raad",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 5,
+              "DEPREL": "nmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 401,
+                "EndChar": 413
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 63,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 22,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 413,
+                "EndChar": 414
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 64,
+              "FORM": "die",
+              "LEMMA": "die",
+              "UPOS": "PRON",
+              "XPOS": "VNW|betr|pron|stan|vol|persoon|getal",
+              "HEAD": 22,
+              "DEPREL": "nsubj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 415,
+                "EndChar": 418
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 65,
+              "FORM": "hem",
+              "LEMMA": "hem",
+              "UPOS": "PRON",
+              "XPOS": "VNW|pers|pron|obl|vol|3|ev|masc",
+              "HEAD": 22,
+              "DEPREL": "obj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 419,
+                "EndChar": 422
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 66,
+              "FORM": "als",
+              "LEMMA": "als",
+              "UPOS": "SCONJ",
+              "XPOS": "VG|onder",
+              "HEAD": 14,
+              "DEPREL": "mark",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 423,
+                "EndChar": 426
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 67,
+              "FORM": "oud-wethouder",
+              "LEMMA": "oud_wethouder",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 22,
+              "DEPREL": "advcl",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 427,
+                "EndChar": 440
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 68,
+              "FORM": "zelfs",
+              "LEMMA": "zelfs",
+              "UPOS": "ADV",
+              "XPOS": "BW",
+              "HEAD": 22,
+              "DEPREL": "advmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 441,
+                "EndChar": 446
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 69,
+              "FORM": "geen",
+              "LEMMA": "geen",
+              "UPOS": "DET",
+              "XPOS": "VNW|onbep|det|stan|prenom|zonder|agr",
+              "HEAD": 17,
+              "DEPREL": "det",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 447,
+                "EndChar": 451
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 70,
+              "FORM": "plaats",
+              "LEMMA": "plaats",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 22,
+              "DEPREL": "obj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 452,
+                "EndChar": 458
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 71,
+              "FORM": "in",
+              "LEMMA": "in",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 20,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 459,
+                "EndChar": 461
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 72,
+              "FORM": "de",
+              "LEMMA": "de",
+              "UPOS": "DET",
+              "XPOS": "LID|bep|stan|rest",
+              "HEAD": 20,
+              "DEPREL": "det",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 462,
+                "EndChar": 464
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 73,
+              "FORM": "commissie",
+              "LEMMA": "commissie",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 17,
+              "DEPREL": "nmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 465,
+                "EndChar": 474
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 74,
+              "FORM": "financien",
+              "LEMMA": "financiën",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|mv|basis",
+              "HEAD": 20,
+              "DEPREL": "appos",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 475,
+                "EndChar": 484
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 75,
+              "FORM": "gunde",
+              "LEMMA": "gunnen",
+              "UPOS": "VERB",
+              "XPOS": "WW|pv|verl|ev",
+              "HEAD": 5,
+              "DEPREL": "acl:relcl",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 485,
+                "EndChar": 490
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 76,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 1,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 490,
+                "EndChar": 491
+              },
+              "FEATS": []
+            }
+          ]
+        }
+      ]
+    },
+    "entities": [
+      {
+        "ID": "stanza_nl_0",
+        "surfaceForm": "Joods",
+        "category": "MISC",
+        "locationStart": 0,
+        "locationEnd": 5,
+        "tokenStart": 0,
+        "tokenEnd": 1,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_0",
+        "category": "MISC",
+        "surfaceForm": "Joods",
+        "locationStart": 0,
+        "locationEnd": 5,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "stanza_nl_1",
+        "surfaceForm": "Tweede Kamerlid",
+        "category": "ORG",
+        "locationStart": 30,
+        "locationEnd": 45,
+        "tokenStart": 2,
+        "tokenEnd": 4,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_0",
+        "category": "MISC",
+        "surfaceForm": "Tweede Kamerlid",
+        "locationStart": 30,
+        "locationEnd": 45,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "stanza_nl_2",
+        "surfaceForm": "Rotterdam",
+        "category": "LOC",
+        "locationStart": 76,
+        "locationEnd": 85,
+        "tokenStart": 9,
+        "tokenEnd": 10,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_0",
+        "category": "LOC",
+        "surfaceForm": "Rotterdam",
+        "locationStart": 76,
+        "locationEnd": 85,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_0",
+        "category": "LOC",
+        "surfaceForm": "rotterdam",
+        "locationStart": 76,
+        "locationEnd": 85,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_3",
+        "surfaceForm": "Rotterdam",
+        "category": "LOC",
+        "locationStart": 146,
+        "locationEnd": 155,
+        "tokenStart": 22,
+        "tokenEnd": 23,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_1",
+        "category": "LOC",
+        "surfaceForm": "Rotterdam",
+        "locationStart": 146,
+        "locationEnd": 155,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_1",
+        "category": "LOC",
+        "surfaceForm": "rotterdam",
+        "locationStart": 146,
+        "locationEnd": 155,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_4",
+        "surfaceForm": "Kamer",
+        "category": "ORG",
+        "locationStart": 193,
+        "locationEnd": 198,
+        "tokenStart": 31,
+        "tokenEnd": 32,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_2",
+        "category": "ORG",
+        "surfaceForm": "Kamer",
+        "locationStart": 193,
+        "locationEnd": 198,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "stanza_nl_5",
+        "surfaceForm": "Rotterdamse",
+        "category": "MISC",
+        "locationStart": 389,
+        "locationEnd": 400,
+        "tokenStart": 61,
+        "tokenEnd": 62,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_4",
+        "category": "MISC",
+        "surfaceForm": "Rotterdamse",
+        "locationStart": 389,
+        "locationEnd": 400,
+        "method": "flair/ner-dutch-large_0.12.2"
+      }
+    ],
+    "time_expressions": [
+      {
+        "ID": "t0",
+        "category": "DURATION",
+        "value": "P29Y",
+        "surfaceForm": "29 jaar",
+        "locationStart": 115,
+        "locationEnd": 122,
+        "method": "heideltime"
+      }
+    ]
+  },
+  "id_person": "51356306",
+  "version": "02",
+  "source": "pdc",
+  "name": "s.j.l. van aalten|simon jakob levie van aalten",
+  "partition": "test",
+  "birth_pl": null,
+  "birth_tm": "1863-01-31",
+  "baptism_pl": null,
+  "baptism_tm": null,
+  "death_pl": "Rotterdam",
+  "death_tm": "1928-07-17",
+  "funeral_pl": null,
+  "funeral_tm": null,
+  "marriage_pl": null,
+  "marriage_tm": "ongehuwd",
+  "gender": "1",
+  "category": null,
+  "father": null,
+  "mother": null,
+  "partner": null,
+  "religion": null,
+  "educations": [
+    {
+      "name": "rechtswetenschap (gepromoveerd op dissertatie), Rijksuniversiteit Leiden",
+      "begin": "1881-09-27",
+      "end": "1886-07-07"
+    },
+    {
+      "name": "staatswetenschap (gepromoveerd op stellingen), Rijksuniversiteit Leiden",
+      "begin": "1881-09-27",
+      "end": "1886-07-07"
+    }
+  ],
+  "faiths": [
+    {
+      "name": "Israëlitisch (Nederlands-Israëlitisch)",
+      "begin": "None",
+      "end": "None"
+    }
+  ],
+  "occupations": [
+    {
+      "name": "advocaat en procureur te Rotterdam",
+      "begin": "1886",
+      "end": "1928-07-17"
+    },
+    {
+      "name": "lid gemeenteraad van Rotterdam",
+      "begin": "1899-09-05",
+      "end": "1928-07-17"
+    },
+    {
+      "name": "lid Provinciale Staten van Zuid-Holland",
+      "begin": "1913-07-01",
+      "end": "1928-07-17"
+    },
+    {
+      "name": "wethouder (van financiën) van Rotterdam",
+      "begin": "1916-06-08",
+      "end": "1920-06-10"
+    },
+    {
+      "name": "wethouder (van financiën en bedrijven) van Rotterdam",
+      "begin": "1920-12-09",
+      "end": "1923-09-04"
+    },
+    {
+      "name": "waarnemend burgemeester van Rotterdam",
+      "begin": "1922-12-15",
+      "end": "1923-09-04"
+    },
+    {
+      "name": "lid Tweede Kamer der Staten-Generaal",
+      "begin": "1925-09-15",
+      "end": "1928-07-17"
+    }
+  ],
+  "residences": [
+    {
+      "name": "Rotterdam, Mathenesserlaan 378",
+      "begin": "None",
+      "end": "None"
+    }
+  ]
+}

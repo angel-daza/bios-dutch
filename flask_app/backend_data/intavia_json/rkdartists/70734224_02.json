@@ -1,0 +1,377 @@
+{
+  "text_id": "70734224_02",
+  "nlp_preprocessor": "stanza_nl",
+  "data": {
+    "text": "Aquarellist, schilder, tekenaar. Geboren: 13 juni 1902, Utrecht.",
+    "tokenization": {
+      "stanza_nl": [
+        "Aquarellist",
+        ",",
+        "schilder",
+        ",",
+        "tekenaar",
+        ".",
+        "Geboren",
+        ":",
+        "13",
+        "juni",
+        "1902",
+        ",",
+        "Utrecht",
+        "."
+      ]
+    },
+    "morpho_syntax": {
+      "stanza_nl": [
+        {
+          "paragraphID": null,
+          "sentenceID": 0,
+          "text": "Aquarellist, schilder, tekenaar. ",
+          "tokenized": "Aquarellist , schilder , tekenaar .",
+          "words": [
+            {
+              "ID": 0,
+              "FORM": "Aquarellist",
+              "LEMMA": "Aquarellist",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|zijd|stan",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 0,
+                "EndChar": 11
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 1,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 3,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 11,
+                "EndChar": 12
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 2,
+              "FORM": "schilder",
+              "LEMMA": "schilder",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 1,
+              "DEPREL": "conj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 13,
+                "EndChar": 21
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 3,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 5,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 21,
+                "EndChar": 22
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 4,
+              "FORM": "tekenaar",
+              "LEMMA": "tekenaar",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 1,
+              "DEPREL": "conj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 23,
+                "EndChar": 31
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 5,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 1,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 31,
+                "EndChar": 32
+              },
+              "FEATS": []
+            }
+          ]
+        },
+        {
+          "paragraphID": null,
+          "sentenceID": 1,
+          "text": "Geboren: 13 juni 1902, Utrecht.",
+          "tokenized": "Geboren : 13 juni 1902 , Utrecht .",
+          "words": [
+            {
+              "ID": 6,
+              "FORM": "Geboren",
+              "LEMMA": "geboren",
+              "UPOS": "VERB",
+              "XPOS": "WW|vd|vrij|zonder",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 33,
+                "EndChar": 40
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 7,
+              "FORM": ":",
+              "LEMMA": ":",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 3,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 40,
+                "EndChar": 41
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 8,
+              "FORM": "13",
+              "LEMMA": "13",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 1,
+              "DEPREL": "parataxis",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 42,
+                "EndChar": 44
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 9,
+              "FORM": "juni",
+              "LEMMA": "juni",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|zijd|stan",
+              "HEAD": 3,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 45,
+                "EndChar": 49
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 10,
+              "FORM": "1902",
+              "LEMMA": "1902",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 3,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 50,
+                "EndChar": 54
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 11,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 7,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 54,
+                "EndChar": 55
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 12,
+              "FORM": "Utrecht",
+              "LEMMA": "Utrecht",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|onz|stan",
+              "HEAD": 3,
+              "DEPREL": "parataxis",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 56,
+                "EndChar": 63
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 13,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 1,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 63,
+                "EndChar": 64
+              },
+              "FEATS": []
+            }
+          ]
+        }
+      ]
+    },
+    "entities": [
+      {
+        "ID": "gold_0",
+        "surfaceForm": "13 juni 1902",
+        "category": "TIME",
+        "locationStart": 42,
+        "locationEnd": 54,
+        "tokenStart": 8,
+        "tokenEnd": 11,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_1",
+        "category": "TIME",
+        "surfaceForm": "13 juni 1902",
+        "locationStart": 42,
+        "locationEnd": 54,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_0",
+        "surfaceForm": "Utrecht",
+        "category": "LOC",
+        "locationStart": 56,
+        "locationEnd": 63,
+        "tokenStart": 12,
+        "tokenEnd": 13,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_1",
+        "surfaceForm": "Utrecht",
+        "category": "LOC",
+        "locationStart": 56,
+        "locationEnd": 63,
+        "tokenStart": 12,
+        "tokenEnd": 13,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_1",
+        "category": "LOC",
+        "surfaceForm": "Utrecht",
+        "locationStart": 56,
+        "locationEnd": 63,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_1",
+        "category": "LOC",
+        "surfaceForm": "utrecht",
+        "locationStart": 56,
+        "locationEnd": 63,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      }
+    ],
+    "time_expressions": [
+      {
+        "ID": "t0",
+        "category": "DATE",
+        "value": "1902-06-13",
+        "surfaceForm": "13 juni 1902",
+        "locationStart": 42,
+        "locationEnd": 54,
+        "method": "heideltime"
+      }
+    ]
+  },
+  "id_person": "70734224",
+  "version": "02",
+  "source": "rkdartists",
+  "name": "albert zwartjes|albert stefanus zwartjes|albert zwartjens",
+  "partition": "test",
+  "birth_pl": null,
+  "birth_tm": "1902-06-13",
+  "baptism_pl": null,
+  "baptism_tm": null,
+  "death_pl": null,
+  "death_tm": "1976",
+  "funeral_pl": null,
+  "funeral_tm": null,
+  "marriage_pl": null,
+  "marriage_tm": null,
+  "gender": "1",
+  "category": null,
+  "father": null,
+  "mother": null,
+  "partner": null,
+  "religion": null,
+  "educations": null,
+  "faiths": null,
+  "occupations": [
+    {
+      "name": "aquarellist",
+      "begin": "None",
+      "end": "None"
+    },
+    {
+      "name": "schilder",
+      "begin": "None",
+      "end": "None"
+    },
+    {
+      "name": "tekenaar",
+      "begin": "None",
+      "end": "None"
+    }
+  ],
+  "residences": null
+}

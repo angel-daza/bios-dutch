@@ -1,0 +1,1366 @@
+{
+  "text_id": "21377756_02",
+  "nlp_preprocessor": "stanza_nl",
+  "data": {
+    "text": "Tekenaar, beeldhouwer, meubelontwerper. Geboren: 17 oktober 1943, Venray. Gestorven: 18 november 1984, Deurne (Noord- Brabant). Plaats en periode van werkzaamheid: Dordogne (dept.), van 1966 tot 1966 Verbleef vier maanden in een grot, waarna zijn ideeen omtrent wonen en meubels zich gaan ontwikkelen.",
+    "tokenization": {
+      "stanza_nl": [
+        "Tekenaar",
+        ",",
+        "beeldhouwer",
+        ",",
+        "meubelontwerper",
+        ".",
+        "Geboren",
+        ":",
+        "17",
+        "oktober",
+        "1943",
+        ",",
+        "Venray",
+        ".",
+        "Gestorven",
+        ":",
+        "18",
+        "november",
+        "1984",
+        ",",
+        "Deurne",
+        "(",
+        "Noord-",
+        "Brabant",
+        ")",
+        ".",
+        "Plaats",
+        "en",
+        "periode",
+        "van",
+        "werkzaamheid",
+        ":",
+        "Dordogne",
+        "(",
+        "dept.",
+        ")",
+        ",",
+        "van",
+        "1966",
+        "tot",
+        "1966",
+        "Verbleef",
+        "vier",
+        "maanden",
+        "in",
+        "een",
+        "grot",
+        ",",
+        "waarna",
+        "zijn",
+        "ideeen",
+        "omtrent",
+        "wonen",
+        "en",
+        "meubels",
+        "zich",
+        "gaan",
+        "ontwikkelen",
+        "."
+      ]
+    },
+    "morpho_syntax": {
+      "stanza_nl": [
+        {
+          "paragraphID": null,
+          "sentenceID": 0,
+          "text": "Tekenaar, beeldhouwer, meubelontwerper. ",
+          "tokenized": "Tekenaar , beeldhouwer , meubelontwerper .",
+          "words": [
+            {
+              "ID": 0,
+              "FORM": "Tekenaar",
+              "LEMMA": "tekenaar",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 0,
+                "EndChar": 8
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 1,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 3,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 8,
+                "EndChar": 9
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 2,
+              "FORM": "beeldhouwer",
+              "LEMMA": "beeldhouwer",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 1,
+              "DEPREL": "conj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 10,
+                "EndChar": 21
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 3,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 5,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 21,
+                "EndChar": 22
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 4,
+              "FORM": "meubelontwerper",
+              "LEMMA": "meubelontwerper",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 1,
+              "DEPREL": "conj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 23,
+                "EndChar": 38
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 5,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 1,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 38,
+                "EndChar": 39
+              },
+              "FEATS": []
+            }
+          ]
+        },
+        {
+          "paragraphID": null,
+          "sentenceID": 1,
+          "text": "Geboren: 17 oktober 1943, Venray. ",
+          "tokenized": "Geboren : 17 oktober 1943 , Venray .",
+          "words": [
+            {
+              "ID": 6,
+              "FORM": "Geboren",
+              "LEMMA": "geboren",
+              "UPOS": "VERB",
+              "XPOS": "WW|vd|vrij|zonder",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 40,
+                "EndChar": 47
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 7,
+              "FORM": ":",
+              "LEMMA": ":",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 3,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 47,
+                "EndChar": 48
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 8,
+              "FORM": "17",
+              "LEMMA": "17",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 1,
+              "DEPREL": "parataxis",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 49,
+                "EndChar": 51
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 9,
+              "FORM": "oktober",
+              "LEMMA": "oktober",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|zijd|stan",
+              "HEAD": 3,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 52,
+                "EndChar": 59
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 10,
+              "FORM": "1943",
+              "LEMMA": "1943",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 3,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 60,
+                "EndChar": 64
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 11,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 7,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 64,
+                "EndChar": 65
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 12,
+              "FORM": "Venray",
+              "LEMMA": "Venray",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|onz|stan",
+              "HEAD": 3,
+              "DEPREL": "parataxis",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 66,
+                "EndChar": 72
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 13,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 1,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 72,
+                "EndChar": 73
+              },
+              "FEATS": []
+            }
+          ]
+        },
+        {
+          "paragraphID": null,
+          "sentenceID": 2,
+          "text": "Gestorven: 18 november 1984, Deurne (Noord- Brabant). ",
+          "tokenized": "Gestorven : 18 november 1984 , Deurne ( Noord- Brabant ) .",
+          "words": [
+            {
+              "ID": 14,
+              "FORM": "Gestorven",
+              "LEMMA": "sterven",
+              "UPOS": "VERB",
+              "XPOS": "WW|vd|vrij|zonder",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 74,
+                "EndChar": 83
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 15,
+              "FORM": ":",
+              "LEMMA": ":",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 3,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 83,
+                "EndChar": 84
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 16,
+              "FORM": "18",
+              "LEMMA": "18",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 1,
+              "DEPREL": "parataxis",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 85,
+                "EndChar": 87
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 17,
+              "FORM": "november",
+              "LEMMA": "november",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|zijd|stan",
+              "HEAD": 3,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 88,
+                "EndChar": 96
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 18,
+              "FORM": "1984",
+              "LEMMA": "1984",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 3,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 97,
+                "EndChar": 101
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 19,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 7,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 101,
+                "EndChar": 102
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 20,
+              "FORM": "Deurne",
+              "LEMMA": "Deurne",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|onz|stan",
+              "HEAD": 3,
+              "DEPREL": "conj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 103,
+                "EndChar": 109
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 21,
+              "FORM": "(",
+              "LEMMA": "(",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 9,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 110,
+                "EndChar": 111
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 22,
+              "FORM": "Noord-",
+              "LEMMA": "Noord-",
+              "UPOS": "SYM",
+              "XPOS": "SPEC|afgebr",
+              "HEAD": 3,
+              "DEPREL": "nmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 111,
+                "EndChar": 117
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 23,
+              "FORM": "Brabant",
+              "LEMMA": "Brabant",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen|onz|stan",
+              "HEAD": 9,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 118,
+                "EndChar": 125
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 24,
+              "FORM": ")",
+              "LEMMA": ")",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 9,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 125,
+                "EndChar": 126
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 25,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 1,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 126,
+                "EndChar": 127
+              },
+              "FEATS": []
+            }
+          ]
+        },
+        {
+          "paragraphID": null,
+          "sentenceID": 3,
+          "text": "Plaats en periode van werkzaamheid: ",
+          "tokenized": "Plaats en periode van werkzaamheid :",
+          "words": [
+            {
+              "ID": 26,
+              "FORM": "Plaats",
+              "LEMMA": "plaats",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 128,
+                "EndChar": 134
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 27,
+              "FORM": "en",
+              "LEMMA": "en",
+              "UPOS": "CCONJ",
+              "XPOS": "VG|neven",
+              "HEAD": 3,
+              "DEPREL": "cc",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 135,
+                "EndChar": 137
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 28,
+              "FORM": "periode",
+              "LEMMA": "periode",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 1,
+              "DEPREL": "conj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 138,
+                "EndChar": 145
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 29,
+              "FORM": "van",
+              "LEMMA": "van",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 5,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 146,
+                "EndChar": 149
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 30,
+              "FORM": "werkzaamheid",
+              "LEMMA": "werkzaamheid",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 1,
+              "DEPREL": "nmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 150,
+                "EndChar": 162
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 31,
+              "FORM": ":",
+              "LEMMA": ":",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 1,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 162,
+                "EndChar": 163
+              },
+              "FEATS": []
+            }
+          ]
+        },
+        {
+          "paragraphID": null,
+          "sentenceID": 4,
+          "text": "Dordogne (dept.), van 1966 tot 1966 Verbleef vier maanden in een grot, waarna zijn ideeen omtrent wonen en meubels zich gaan ontwikkelen.",
+          "tokenized": "Dordogne ( dept. ) , van 1966 tot 1966 Verbleef vier maanden in een grot , waarna zijn ideeen omtrent wonen en meubels zich gaan ontwikkelen .",
+          "words": [
+            {
+              "ID": 32,
+              "FORM": "Dordogne",
+              "LEMMA": "Dordogne",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|genus|stan",
+              "HEAD": 10,
+              "DEPREL": "nsubj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 164,
+                "EndChar": 172
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 33,
+              "FORM": "(",
+              "LEMMA": "(",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 3,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 173,
+                "EndChar": 174
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 34,
+              "FORM": "dept.",
+              "LEMMA": "dept.",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 1,
+              "DEPREL": "nmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 174,
+                "EndChar": 179
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 35,
+              "FORM": ")",
+              "LEMMA": ")",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 3,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 179,
+                "EndChar": 180
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 36,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 7,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 180,
+                "EndChar": 181
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 37,
+              "FORM": "van",
+              "LEMMA": "van",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 7,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 182,
+                "EndChar": 185
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 38,
+              "FORM": "1966",
+              "LEMMA": "1966",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 1,
+              "DEPREL": "nmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 186,
+                "EndChar": 190
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 39,
+              "FORM": "tot",
+              "LEMMA": "tot",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 9,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 191,
+                "EndChar": 194
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 40,
+              "FORM": "1966",
+              "LEMMA": "1966",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 10,
+              "DEPREL": "obl",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 195,
+                "EndChar": 199
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 41,
+              "FORM": "Verbleef",
+              "LEMMA": "verblijven",
+              "UPOS": "VERB",
+              "XPOS": "WW|pv|verl|ev",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 200,
+                "EndChar": 208
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 42,
+              "FORM": "vier",
+              "LEMMA": "vier",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|prenom|stan",
+              "HEAD": 12,
+              "DEPREL": "nummod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 209,
+                "EndChar": 213
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 43,
+              "FORM": "maanden",
+              "LEMMA": "maand",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|mv|basis",
+              "HEAD": 10,
+              "DEPREL": "obl",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 214,
+                "EndChar": 221
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 44,
+              "FORM": "in",
+              "LEMMA": "in",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 15,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 222,
+                "EndChar": 224
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 45,
+              "FORM": "een",
+              "LEMMA": "een",
+              "UPOS": "DET",
+              "XPOS": "LID|onbep|stan|agr",
+              "HEAD": 15,
+              "DEPREL": "det",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 225,
+                "EndChar": 228
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 46,
+              "FORM": "grot",
+              "LEMMA": "grot",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 10,
+              "DEPREL": "obl",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 229,
+                "EndChar": 233
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 47,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 25,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 233,
+                "EndChar": 234
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 48,
+              "FORM": "waarna",
+              "LEMMA": "waarna",
+              "UPOS": "ADV",
+              "XPOS": "BW",
+              "HEAD": 26,
+              "DEPREL": "advmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 235,
+                "EndChar": 241
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 49,
+              "FORM": "zijn",
+              "LEMMA": "zijn",
+              "UPOS": "PRON",
+              "XPOS": "VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr",
+              "HEAD": 19,
+              "DEPREL": "nmod:poss",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 242,
+                "EndChar": 246
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 50,
+              "FORM": "ideeen",
+              "LEMMA": "idee",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|mv|basis",
+              "HEAD": 25,
+              "DEPREL": "nsubj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 247,
+                "EndChar": 253
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 51,
+              "FORM": "omtrent",
+              "LEMMA": "omtrent",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 21,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 254,
+                "EndChar": 261
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 52,
+              "FORM": "wonen",
+              "LEMMA": "wonen",
+              "UPOS": "VERB",
+              "XPOS": "WW|inf|nom|zonder|zonder-n",
+              "HEAD": 26,
+              "DEPREL": "obl",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 262,
+                "EndChar": 267
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 53,
+              "FORM": "en",
+              "LEMMA": "en",
+              "UPOS": "CCONJ",
+              "XPOS": "VG|neven",
+              "HEAD": 23,
+              "DEPREL": "cc",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 268,
+                "EndChar": 270
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 54,
+              "FORM": "meubels",
+              "LEMMA": "meubel",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|mv|basis",
+              "HEAD": 21,
+              "DEPREL": "conj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 271,
+                "EndChar": 278
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 55,
+              "FORM": "zich",
+              "LEMMA": "zich",
+              "UPOS": "PRON",
+              "XPOS": "VNW|refl|pron|obl|red|3|getal",
+              "HEAD": 26,
+              "DEPREL": "obj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 279,
+                "EndChar": 283
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 56,
+              "FORM": "gaan",
+              "LEMMA": "gaan",
+              "UPOS": "VERB",
+              "XPOS": "WW|pv|tgw|mv",
+              "HEAD": 10,
+              "DEPREL": "advcl",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 284,
+                "EndChar": 288
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 57,
+              "FORM": "ontwikkelen",
+              "LEMMA": "ontwikkelen",
+              "UPOS": "VERB",
+              "XPOS": "WW|inf|vrij|zonder",
+              "HEAD": 25,
+              "DEPREL": "xcomp",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 289,
+                "EndChar": 300
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 58,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 10,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 300,
+                "EndChar": 301
+              },
+              "FEATS": []
+            }
+          ]
+        }
+      ]
+    },
+    "entities": [
+      {
+        "ID": "gold_5",
+        "surfaceForm": "17 oktober 1943",
+        "category": "TIME",
+        "locationStart": 49,
+        "locationEnd": 64,
+        "tokenStart": 8,
+        "tokenEnd": 11,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_1",
+        "category": "TIME",
+        "surfaceForm": "17 oktober 1943",
+        "locationStart": 49,
+        "locationEnd": 64,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_0",
+        "surfaceForm": "Venray",
+        "category": "LOC",
+        "locationStart": 66,
+        "locationEnd": 72,
+        "tokenStart": 12,
+        "tokenEnd": 13,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_6",
+        "surfaceForm": "Venray",
+        "category": "LOC",
+        "locationStart": 66,
+        "locationEnd": 72,
+        "tokenStart": 12,
+        "tokenEnd": 13,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_1",
+        "category": "LOC",
+        "surfaceForm": "Venray",
+        "locationStart": 66,
+        "locationEnd": 72,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_1",
+        "category": "LOC",
+        "surfaceForm": "venray",
+        "locationStart": 66,
+        "locationEnd": 72,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gold_7",
+        "surfaceForm": "18 november 1984",
+        "category": "TIME",
+        "locationStart": 85,
+        "locationEnd": 101,
+        "tokenStart": 16,
+        "tokenEnd": 19,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_2",
+        "category": "TIME",
+        "surfaceForm": "18 november",
+        "locationStart": 85,
+        "locationEnd": 96,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_1",
+        "surfaceForm": "Deurne",
+        "category": "LOC",
+        "locationStart": 103,
+        "locationEnd": 109,
+        "tokenStart": 20,
+        "tokenEnd": 21,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_0",
+        "surfaceForm": "Deurne",
+        "category": "LOC",
+        "locationStart": 103,
+        "locationEnd": 109,
+        "tokenStart": 20,
+        "tokenEnd": 21,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_2",
+        "category": "LOC",
+        "surfaceForm": "Deurne",
+        "locationStart": 103,
+        "locationEnd": 109,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_2",
+        "category": "LOC",
+        "surfaceForm": "deurne brabant",
+        "locationStart": 103,
+        "locationEnd": 125,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_2",
+        "surfaceForm": "Noord-",
+        "category": "LOC",
+        "locationStart": 111,
+        "locationEnd": 117,
+        "tokenStart": 22,
+        "tokenEnd": 23,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_1",
+        "surfaceForm": "Noord- Brabant",
+        "category": "LOC",
+        "locationStart": 111,
+        "locationEnd": 125,
+        "tokenStart": 22,
+        "tokenEnd": 24,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_2",
+        "category": "LOC",
+        "surfaceForm": "Noord-",
+        "locationStart": 111,
+        "locationEnd": 117,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "stanza_nl_3",
+        "surfaceForm": "Brabant",
+        "category": "LOC",
+        "locationStart": 118,
+        "locationEnd": 125,
+        "tokenStart": 23,
+        "tokenEnd": 24,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "stanza_nl_4",
+        "surfaceForm": "Dordogne",
+        "category": "LOC",
+        "locationStart": 164,
+        "locationEnd": 172,
+        "tokenStart": 32,
+        "tokenEnd": 33,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_2",
+        "surfaceForm": "Dordogne",
+        "category": "LOC",
+        "locationStart": 164,
+        "locationEnd": 172,
+        "tokenStart": 32,
+        "tokenEnd": 33,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_3",
+        "category": "LOC",
+        "surfaceForm": "Dordogne",
+        "locationStart": 164,
+        "locationEnd": 172,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_4",
+        "category": "LOC",
+        "surfaceForm": "dordogne",
+        "locationStart": 164,
+        "locationEnd": 172,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gold_3",
+        "surfaceForm": "van 1966 tot 1966",
+        "category": "TIME",
+        "locationStart": 182,
+        "locationEnd": 199,
+        "tokenStart": 37,
+        "tokenEnd": 41,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_4",
+        "category": "TIME",
+        "surfaceForm": "1966",
+        "locationStart": 186,
+        "locationEnd": 190,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gysbert_hist_4",
+        "category": "TIME",
+        "surfaceForm": "1966",
+        "locationStart": 195,
+        "locationEnd": 199,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gold_4",
+        "surfaceForm": "vier maanden",
+        "category": "TIME",
+        "locationStart": 209,
+        "locationEnd": 221,
+        "tokenStart": 42,
+        "tokenEnd": 44,
+        "method": "human_gold"
+      }
+    ],
+    "time_expressions": [
+      {
+        "ID": "t0",
+        "category": "DATE",
+        "value": "1943-10-17",
+        "surfaceForm": "17 oktober 1943",
+        "locationStart": 49,
+        "locationEnd": 64,
+        "method": "heideltime"
+      },
+      {
+        "ID": "t1",
+        "category": "DATE",
+        "value": "1984-11-18",
+        "surfaceForm": "18 november 1984",
+        "locationStart": 85,
+        "locationEnd": 101,
+        "method": "heideltime"
+      },
+      {
+        "ID": "t2",
+        "category": "DATE",
+        "value": "1966",
+        "surfaceForm": "1966",
+        "locationStart": 186,
+        "locationEnd": 190,
+        "method": "heideltime"
+      },
+      {
+        "ID": "t3",
+        "category": "DATE",
+        "value": "1966",
+        "surfaceForm": "1966",
+        "locationStart": 195,
+        "locationEnd": 199,
+        "method": "heideltime"
+      },
+      {
+        "ID": "t4",
+        "category": "DURATION",
+        "value": "P4M",
+        "surfaceForm": "vier maanden",
+        "locationStart": 209,
+        "locationEnd": 221,
+        "method": "heideltime"
+      }
+    ]
+  },
+  "id_person": "21377756",
+  "version": "02",
+  "source": "rkdartists",
+  "name": "gerrit van bakel",
+  "partition": "test",
+  "birth_pl": null,
+  "birth_tm": "1943-10-17",
+  "baptism_pl": null,
+  "baptism_tm": null,
+  "death_pl": "Deurne (Noord-Brabant)",
+  "death_tm": "1984-11-18",
+  "funeral_pl": null,
+  "funeral_tm": null,
+  "marriage_pl": null,
+  "marriage_tm": null,
+  "gender": "1",
+  "category": null,
+  "father": null,
+  "mother": null,
+  "partner": null,
+  "religion": null,
+  "educations": null,
+  "faiths": null,
+  "occupations": [
+    {
+      "name": "tekenaar",
+      "begin": "None",
+      "end": "None"
+    },
+    {
+      "name": "beeldhouwer",
+      "begin": "None",
+      "end": "None"
+    },
+    {
+      "name": "meubelontwerper",
+      "begin": "None",
+      "end": "None"
+    }
+  ],
+  "residences": null
+}

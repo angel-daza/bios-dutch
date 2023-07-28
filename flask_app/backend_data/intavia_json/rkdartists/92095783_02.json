@@ -1,0 +1,584 @@
+{
+  "text_id": "92095783_02",
+  "nlp_preprocessor": "stanza_nl",
+  "data": {
+    "text": "Architect, schilder, tekenaar. Geboren: 2 oktober 1909, Vlissingen. Gestorven: 17 maart 1975, Utrecht.",
+    "tokenization": {
+      "stanza_nl": [
+        "Architect",
+        ",",
+        "schilder",
+        ",",
+        "tekenaar",
+        ".",
+        "Geboren",
+        ":",
+        "2",
+        "oktober",
+        "1909",
+        ",",
+        "Vlissingen",
+        ".",
+        "Gestorven",
+        ":",
+        "17",
+        "maart",
+        "1975",
+        ",",
+        "Utrecht",
+        "."
+      ]
+    },
+    "morpho_syntax": {
+      "stanza_nl": [
+        {
+          "paragraphID": null,
+          "sentenceID": 0,
+          "text": "Architect, schilder, tekenaar. ",
+          "tokenized": "Architect , schilder , tekenaar .",
+          "words": [
+            {
+              "ID": 0,
+              "FORM": "Architect",
+              "LEMMA": "architect",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 0,
+                "EndChar": 9
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 1,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 3,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 9,
+                "EndChar": 10
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 2,
+              "FORM": "schilder",
+              "LEMMA": "schilder",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 1,
+              "DEPREL": "appos",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 11,
+                "EndChar": 19
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 3,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 5,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 19,
+                "EndChar": 20
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 4,
+              "FORM": "tekenaar",
+              "LEMMA": "tekenaar",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 1,
+              "DEPREL": "conj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 21,
+                "EndChar": 29
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 5,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 1,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 29,
+                "EndChar": 30
+              },
+              "FEATS": []
+            }
+          ]
+        },
+        {
+          "paragraphID": null,
+          "sentenceID": 1,
+          "text": "Geboren: 2 oktober 1909, Vlissingen. ",
+          "tokenized": "Geboren : 2 oktober 1909 , Vlissingen .",
+          "words": [
+            {
+              "ID": 6,
+              "FORM": "Geboren",
+              "LEMMA": "geboren",
+              "UPOS": "VERB",
+              "XPOS": "WW|vd|vrij|zonder",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 31,
+                "EndChar": 38
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 7,
+              "FORM": ":",
+              "LEMMA": ":",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 3,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 38,
+                "EndChar": 39
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 8,
+              "FORM": "2",
+              "LEMMA": "2",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 1,
+              "DEPREL": "parataxis",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 40,
+                "EndChar": 41
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 9,
+              "FORM": "oktober",
+              "LEMMA": "oktober",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|zijd|stan",
+              "HEAD": 3,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 42,
+                "EndChar": 49
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 10,
+              "FORM": "1909",
+              "LEMMA": "1909",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 3,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 50,
+                "EndChar": 54
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 11,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 7,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 54,
+                "EndChar": 55
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 12,
+              "FORM": "Vlissingen",
+              "LEMMA": "Vlissingen",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|onz|stan",
+              "HEAD": 3,
+              "DEPREL": "parataxis",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 56,
+                "EndChar": 66
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 13,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 1,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 66,
+                "EndChar": 67
+              },
+              "FEATS": []
+            }
+          ]
+        },
+        {
+          "paragraphID": null,
+          "sentenceID": 2,
+          "text": "Gestorven: 17 maart 1975, Utrecht.",
+          "tokenized": "Gestorven : 17 maart 1975 , Utrecht .",
+          "words": [
+            {
+              "ID": 14,
+              "FORM": "Gestorven",
+              "LEMMA": "sterven",
+              "UPOS": "VERB",
+              "XPOS": "WW|vd|vrij|zonder",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 68,
+                "EndChar": 77
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 15,
+              "FORM": ":",
+              "LEMMA": ":",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 3,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 77,
+                "EndChar": 78
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 16,
+              "FORM": "17",
+              "LEMMA": "17",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 1,
+              "DEPREL": "parataxis",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 79,
+                "EndChar": 81
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 17,
+              "FORM": "maart",
+              "LEMMA": "maart",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|zijd|stan",
+              "HEAD": 3,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 82,
+                "EndChar": 87
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 18,
+              "FORM": "1975",
+              "LEMMA": "1975",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 3,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 88,
+                "EndChar": 92
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 19,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 7,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 92,
+                "EndChar": 93
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 20,
+              "FORM": "Utrecht",
+              "LEMMA": "Utrecht",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|onz|stan",
+              "HEAD": 3,
+              "DEPREL": "parataxis",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 94,
+                "EndChar": 101
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 21,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 1,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 101,
+                "EndChar": 102
+              },
+              "FEATS": []
+            }
+          ]
+        }
+      ]
+    },
+    "entities": [
+      {
+        "ID": "gold_0",
+        "surfaceForm": "2 oktober 1909",
+        "category": "TIME",
+        "locationStart": 40,
+        "locationEnd": 54,
+        "tokenStart": 8,
+        "tokenEnd": 11,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_1",
+        "category": "TIME",
+        "surfaceForm": "2 oktober 1909",
+        "locationStart": 40,
+        "locationEnd": 54,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_0",
+        "surfaceForm": "Vlissingen",
+        "category": "LOC",
+        "locationStart": 56,
+        "locationEnd": 66,
+        "tokenStart": 12,
+        "tokenEnd": 13,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_1",
+        "surfaceForm": "Vlissingen",
+        "category": "LOC",
+        "locationStart": 56,
+        "locationEnd": 66,
+        "tokenStart": 12,
+        "tokenEnd": 13,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_1",
+        "category": "LOC",
+        "surfaceForm": "Vlissingen",
+        "locationStart": 56,
+        "locationEnd": 66,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_1",
+        "category": "LOC",
+        "surfaceForm": "vlissingen",
+        "locationStart": 56,
+        "locationEnd": 66,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gold_2",
+        "surfaceForm": "17 maart 1975",
+        "category": "TIME",
+        "locationStart": 79,
+        "locationEnd": 92,
+        "tokenStart": 16,
+        "tokenEnd": 19,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_2",
+        "category": "TIME",
+        "surfaceForm": "17 maart",
+        "locationStart": 79,
+        "locationEnd": 87,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_1",
+        "surfaceForm": "Utrecht",
+        "category": "LOC",
+        "locationStart": 94,
+        "locationEnd": 101,
+        "tokenStart": 20,
+        "tokenEnd": 21,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_3",
+        "surfaceForm": "Utrecht",
+        "category": "LOC",
+        "locationStart": 94,
+        "locationEnd": 101,
+        "tokenStart": 20,
+        "tokenEnd": 21,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_2",
+        "category": "LOC",
+        "surfaceForm": "Utrecht",
+        "locationStart": 94,
+        "locationEnd": 101,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_2",
+        "category": "LOC",
+        "surfaceForm": "utrecht",
+        "locationStart": 94,
+        "locationEnd": 101,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      }
+    ],
+    "time_expressions": [
+      {
+        "ID": "t0",
+        "category": "DATE",
+        "value": "1909-10-02",
+        "surfaceForm": "2 oktober 1909",
+        "locationStart": 40,
+        "locationEnd": 54,
+        "method": "heideltime"
+      },
+      {
+        "ID": "t1",
+        "category": "DATE",
+        "value": "1975-03-17",
+        "surfaceForm": "17 maart 1975",
+        "locationStart": 79,
+        "locationEnd": 92,
+        "method": "heideltime"
+      }
+    ]
+  },
+  "id_person": "92095783",
+  "version": "02",
+  "source": "rkdartists",
+  "name": "christinus m. van der stad|christinus martinus van der stad",
+  "partition": "test",
+  "birth_pl": null,
+  "birth_tm": "1909-10-02",
+  "baptism_pl": null,
+  "baptism_tm": null,
+  "death_pl": "Utrecht",
+  "death_tm": "1975-03-17",
+  "funeral_pl": null,
+  "funeral_tm": null,
+  "marriage_pl": null,
+  "marriage_tm": null,
+  "gender": "1",
+  "category": null,
+  "father": null,
+  "mother": null,
+  "partner": null,
+  "religion": null,
+  "educations": null,
+  "faiths": null,
+  "occupations": [
+    {
+      "name": "architect",
+      "begin": "None",
+      "end": "None"
+    },
+    {
+      "name": "schilder",
+      "begin": "None",
+      "end": "None"
+    },
+    {
+      "name": "tekenaar",
+      "begin": "None",
+      "end": "None"
+    }
+  ],
+  "residences": null
+}

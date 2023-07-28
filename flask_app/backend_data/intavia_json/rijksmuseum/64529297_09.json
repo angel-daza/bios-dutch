@@ -1,0 +1,499 @@
+{
+  "text_id": "64529297_09",
+  "nlp_preprocessor": "stanza_nl",
+  "data": {
+    "text": "Portret van Nicolaas Messchaert Portretbuste naar rechts van Nicolaas Messchaert, doopsgezind predikant te Rotterdam, blootshoofds en met bef.",
+    "tokenization": {
+      "stanza_nl": [
+        "Portret",
+        "van",
+        "Nicolaas",
+        "Messchaert",
+        "Portretbuste",
+        "naar",
+        "rechts",
+        "van",
+        "Nicolaas",
+        "Messchaert",
+        ",",
+        "doopsgezind",
+        "predikant",
+        "te",
+        "Rotterdam",
+        ",",
+        "blootshoofds",
+        "en",
+        "met",
+        "bef."
+      ]
+    },
+    "morpho_syntax": {
+      "stanza_nl": [
+        {
+          "paragraphID": null,
+          "sentenceID": 0,
+          "text": "Portret van Nicolaas Messchaert Portretbuste naar rechts van Nicolaas Messchaert, doopsgezind predikant te Rotterdam, blootshoofds en met bef.",
+          "tokenized": "Portret van Nicolaas Messchaert Portretbuste naar rechts van Nicolaas Messchaert , doopsgezind predikant te Rotterdam , blootshoofds en met bef.",
+          "words": [
+            {
+              "ID": 0,
+              "FORM": "Portret",
+              "LEMMA": "portret",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|onz|stan",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 0,
+                "EndChar": 7
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 1,
+              "FORM": "van",
+              "LEMMA": "van",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 3,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 8,
+                "EndChar": 11
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 2,
+              "FORM": "Nicolaas",
+              "LEMMA": "Nicolaas",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 1,
+              "DEPREL": "nmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 12,
+                "EndChar": 20
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 3,
+              "FORM": "Messchaert",
+              "LEMMA": "Messchaert",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 3,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 21,
+                "EndChar": 31
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 4,
+              "FORM": "Portretbuste",
+              "LEMMA": "portretbuste",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 3,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 32,
+                "EndChar": 44
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 5,
+              "FORM": "naar",
+              "LEMMA": "naar",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 7,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 45,
+                "EndChar": 49
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 6,
+              "FORM": "rechts",
+              "LEMMA": "rechts",
+              "UPOS": "ADJ",
+              "XPOS": "ADJ|vrij|basis|zonder",
+              "HEAD": 1,
+              "DEPREL": "nmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 50,
+                "EndChar": 56
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 7,
+              "FORM": "van",
+              "LEMMA": "van",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 9,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 57,
+                "EndChar": 60
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 8,
+              "FORM": "Nicolaas",
+              "LEMMA": "Nicolaas",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 7,
+              "DEPREL": "nmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 61,
+                "EndChar": 69
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 9,
+              "FORM": "Messchaert",
+              "LEMMA": "Messchaert",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 9,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 70,
+                "EndChar": 80
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 10,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 13,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 80,
+                "EndChar": 81
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 11,
+              "FORM": "doopsgezind",
+              "LEMMA": "doopsgezind",
+              "UPOS": "ADJ",
+              "XPOS": "ADJ|prenom|basis|zonder",
+              "HEAD": 13,
+              "DEPREL": "amod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 82,
+                "EndChar": 93
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 12,
+              "FORM": "predikant",
+              "LEMMA": "predikant",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 1,
+              "DEPREL": "conj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 94,
+                "EndChar": 103
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 13,
+              "FORM": "te",
+              "LEMMA": "te",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 15,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 104,
+                "EndChar": 106
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 14,
+              "FORM": "Rotterdam",
+              "LEMMA": "Rotterdam",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|onz|stan",
+              "HEAD": 13,
+              "DEPREL": "nmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 107,
+                "EndChar": 116
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 15,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 17,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 116,
+                "EndChar": 117
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 16,
+              "FORM": "blootshoofds",
+              "LEMMA": "bloot_shoofd",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 1,
+              "DEPREL": "conj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 118,
+                "EndChar": 130
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 17,
+              "FORM": "en",
+              "LEMMA": "en",
+              "UPOS": "CCONJ",
+              "XPOS": "VG|neven",
+              "HEAD": 20,
+              "DEPREL": "cc",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 131,
+                "EndChar": 133
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 18,
+              "FORM": "met",
+              "LEMMA": "met",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 20,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 134,
+                "EndChar": 137
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 19,
+              "FORM": "bef.",
+              "LEMMA": "bef.",
+              "UPOS": "X",
+              "XPOS": "SPEC|afk",
+              "HEAD": 1,
+              "DEPREL": "conj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 138,
+                "EndChar": 142
+              },
+              "FEATS": []
+            }
+          ]
+        }
+      ]
+    },
+    "entities": [
+      {
+        "ID": "stanza_nl_0",
+        "surfaceForm": "Nicolaas Messchaert Portretbuste",
+        "category": "PER",
+        "locationStart": 12,
+        "locationEnd": 44,
+        "tokenStart": 2,
+        "tokenEnd": 5,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_1",
+        "surfaceForm": "Nicolaas Messchaert",
+        "category": "PER",
+        "locationStart": 12,
+        "locationEnd": 31,
+        "tokenStart": 2,
+        "tokenEnd": 4,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_0",
+        "category": "PER",
+        "surfaceForm": "Nicolaas Messchaert",
+        "locationStart": 12,
+        "locationEnd": 31,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_0",
+        "category": "PER",
+        "surfaceForm": "nicolaas messchaert",
+        "locationStart": 12,
+        "locationEnd": 31,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_1",
+        "surfaceForm": "Nicolaas Messchaert",
+        "category": "PER",
+        "locationStart": 61,
+        "locationEnd": 80,
+        "tokenStart": 8,
+        "tokenEnd": 10,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_2",
+        "surfaceForm": "Nicolaas Messchaert",
+        "category": "PER",
+        "locationStart": 61,
+        "locationEnd": 80,
+        "tokenStart": 8,
+        "tokenEnd": 10,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_0",
+        "category": "PER",
+        "surfaceForm": "Nicolaas Messchaert",
+        "locationStart": 61,
+        "locationEnd": 80,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_0",
+        "category": "PER",
+        "surfaceForm": "nicolaas messchaert",
+        "locationStart": 61,
+        "locationEnd": 80,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_2",
+        "surfaceForm": "Rotterdam",
+        "category": "LOC",
+        "locationStart": 107,
+        "locationEnd": 116,
+        "tokenStart": 14,
+        "tokenEnd": 15,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_0",
+        "surfaceForm": "Rotterdam",
+        "category": "LOC",
+        "locationStart": 107,
+        "locationEnd": 116,
+        "tokenStart": 14,
+        "tokenEnd": 15,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_0",
+        "category": "LOC",
+        "surfaceForm": "Rotterdam",
+        "locationStart": 107,
+        "locationEnd": 116,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_0",
+        "category": "LOC",
+        "surfaceForm": "rotterdam",
+        "locationStart": 107,
+        "locationEnd": 116,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      }
+    ],
+    "time_expressions": []
+  },
+  "id_person": "64529297",
+  "version": "09",
+  "source": "rijksmuseum",
+  "name": "nicolaas messchaert",
+  "partition": "test",
+  "birth_pl": null,
+  "birth_tm": "1774",
+  "baptism_pl": null,
+  "baptism_tm": null,
+  "death_pl": "Utrecht",
+  "death_tm": "1833",
+  "funeral_pl": null,
+  "funeral_tm": null,
+  "marriage_pl": null,
+  "marriage_tm": null,
+  "gender": null,
+  "category": null,
+  "father": null,
+  "mother": null,
+  "partner": null,
+  "religion": null,
+  "educations": null,
+  "faiths": null,
+  "occupations": null,
+  "residences": null
+}

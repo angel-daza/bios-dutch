@@ -1,0 +1,506 @@
+{
+  "text_id": "32238524_02",
+  "nlp_preprocessor": "stanza_nl",
+  "data": {
+    "text": "Schilder. Geboren: 23 juli 1901, Oegstgeest. Gestorven: 25 december 1984, Leiden.",
+    "tokenization": {
+      "stanza_nl": [
+        "Schilder",
+        ".",
+        "Geboren",
+        ":",
+        "23",
+        "juli",
+        "1901",
+        ",",
+        "Oegstgeest",
+        ".",
+        "Gestorven",
+        ":",
+        "25",
+        "december",
+        "1984",
+        ",",
+        "Leiden",
+        "."
+      ]
+    },
+    "morpho_syntax": {
+      "stanza_nl": [
+        {
+          "paragraphID": null,
+          "sentenceID": 0,
+          "text": "Schilder. ",
+          "tokenized": "Schilder .",
+          "words": [
+            {
+              "ID": 0,
+              "FORM": "Schilder",
+              "LEMMA": "schilder",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 0,
+                "EndChar": 8
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 1,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 1,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 8,
+                "EndChar": 9
+              },
+              "FEATS": []
+            }
+          ]
+        },
+        {
+          "paragraphID": null,
+          "sentenceID": 1,
+          "text": "Geboren: 23 juli 1901, Oegstgeest. ",
+          "tokenized": "Geboren : 23 juli 1901 , Oegstgeest .",
+          "words": [
+            {
+              "ID": 2,
+              "FORM": "Geboren",
+              "LEMMA": "geboren",
+              "UPOS": "VERB",
+              "XPOS": "WW|vd|vrij|zonder",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 10,
+                "EndChar": 17
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 3,
+              "FORM": ":",
+              "LEMMA": ":",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 3,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 17,
+                "EndChar": 18
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 4,
+              "FORM": "23",
+              "LEMMA": "23",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 1,
+              "DEPREL": "parataxis",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 19,
+                "EndChar": 21
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 5,
+              "FORM": "juli",
+              "LEMMA": "juli",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|zijd|stan",
+              "HEAD": 3,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 22,
+                "EndChar": 26
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 6,
+              "FORM": "1901",
+              "LEMMA": "1901",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 3,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 27,
+                "EndChar": 31
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 7,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 7,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 31,
+                "EndChar": 32
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 8,
+              "FORM": "Oegstgeest",
+              "LEMMA": "Oegstgeest",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|onz|stan",
+              "HEAD": 3,
+              "DEPREL": "parataxis",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 33,
+                "EndChar": 43
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 9,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 1,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 43,
+                "EndChar": 44
+              },
+              "FEATS": []
+            }
+          ]
+        },
+        {
+          "paragraphID": null,
+          "sentenceID": 2,
+          "text": "Gestorven: 25 december 1984, Leiden.",
+          "tokenized": "Gestorven : 25 december 1984 , Leiden .",
+          "words": [
+            {
+              "ID": 10,
+              "FORM": "Gestorven",
+              "LEMMA": "sterven",
+              "UPOS": "VERB",
+              "XPOS": "WW|vd|vrij|zonder",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 45,
+                "EndChar": 54
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 11,
+              "FORM": ":",
+              "LEMMA": ":",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 3,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 54,
+                "EndChar": 55
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 12,
+              "FORM": "25",
+              "LEMMA": "25",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 1,
+              "DEPREL": "parataxis",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 56,
+                "EndChar": 58
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 13,
+              "FORM": "december",
+              "LEMMA": "december",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|zijd|stan",
+              "HEAD": 3,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 59,
+                "EndChar": 67
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 14,
+              "FORM": "1984",
+              "LEMMA": "1984",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 3,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 68,
+                "EndChar": 72
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 15,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 7,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 72,
+                "EndChar": 73
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 16,
+              "FORM": "Leiden",
+              "LEMMA": "Leiden",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|onz|stan",
+              "HEAD": 3,
+              "DEPREL": "parataxis",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 74,
+                "EndChar": 80
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 17,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 1,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 80,
+                "EndChar": 81
+              },
+              "FEATS": []
+            }
+          ]
+        }
+      ]
+    },
+    "entities": [
+      {
+        "ID": "gold_0",
+        "surfaceForm": "23 juli 1901",
+        "category": "TIME",
+        "locationStart": 19,
+        "locationEnd": 31,
+        "tokenStart": 4,
+        "tokenEnd": 7,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_1",
+        "category": "TIME",
+        "surfaceForm": "23 juli 1901",
+        "locationStart": 19,
+        "locationEnd": 31,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_0",
+        "surfaceForm": "Oegstgeest",
+        "category": "LOC",
+        "locationStart": 33,
+        "locationEnd": 43,
+        "tokenStart": 8,
+        "tokenEnd": 9,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_1",
+        "surfaceForm": "Oegstgeest",
+        "category": "LOC",
+        "locationStart": 33,
+        "locationEnd": 43,
+        "tokenStart": 8,
+        "tokenEnd": 9,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_1",
+        "category": "LOC",
+        "surfaceForm": "Oegstgeest",
+        "locationStart": 33,
+        "locationEnd": 43,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_1",
+        "category": "LOC",
+        "surfaceForm": "oegstgeest",
+        "locationStart": 33,
+        "locationEnd": 43,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gold_2",
+        "surfaceForm": "25 december 1984",
+        "category": "TIME",
+        "locationStart": 56,
+        "locationEnd": 72,
+        "tokenStart": 12,
+        "tokenEnd": 15,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_2",
+        "category": "TIME",
+        "surfaceForm": "25 december",
+        "locationStart": 56,
+        "locationEnd": 67,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_1",
+        "surfaceForm": "Leiden",
+        "category": "LOC",
+        "locationStart": 74,
+        "locationEnd": 80,
+        "tokenStart": 16,
+        "tokenEnd": 17,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_3",
+        "surfaceForm": "Leiden",
+        "category": "LOC",
+        "locationStart": 74,
+        "locationEnd": 80,
+        "tokenStart": 16,
+        "tokenEnd": 17,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_2",
+        "category": "LOC",
+        "surfaceForm": "Leiden",
+        "locationStart": 74,
+        "locationEnd": 80,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_2",
+        "category": "LOC",
+        "surfaceForm": "leiden",
+        "locationStart": 74,
+        "locationEnd": 80,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      }
+    ],
+    "time_expressions": [
+      {
+        "ID": "t0",
+        "category": "DATE",
+        "value": "1901-07-23",
+        "surfaceForm": "23 juli 1901",
+        "locationStart": 19,
+        "locationEnd": 31,
+        "method": "heideltime"
+      },
+      {
+        "ID": "t1",
+        "category": "DATE",
+        "value": "1984-12-25",
+        "surfaceForm": "25 december 1984",
+        "locationStart": 56,
+        "locationEnd": 72,
+        "method": "heideltime"
+      }
+    ]
+  },
+  "id_person": "32238524",
+  "version": "02",
+  "source": "rkdartists",
+  "name": "pieter johannes jacobus weerlee",
+  "partition": "test",
+  "birth_pl": null,
+  "birth_tm": "1901-07-23",
+  "baptism_pl": null,
+  "baptism_tm": null,
+  "death_pl": "Leiden",
+  "death_tm": "1984-12-25",
+  "funeral_pl": null,
+  "funeral_tm": null,
+  "marriage_pl": null,
+  "marriage_tm": null,
+  "gender": "1",
+  "category": null,
+  "father": null,
+  "mother": null,
+  "partner": null,
+  "religion": null,
+  "educations": null,
+  "faiths": null,
+  "occupations": [
+    {
+      "name": "schilder",
+      "begin": "None",
+      "end": "None"
+    }
+  ],
+  "residences": null
+}

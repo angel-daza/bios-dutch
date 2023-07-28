@@ -1,0 +1,873 @@
+{
+  "text_id": "92185112_14",
+  "nlp_preprocessor": "stanza_nl",
+  "data": {
+    "text": "Portret van Wilhelmus (Willem) Sluiter (1627 - 1673), predikant te Eibergen en geestelijk dichter. SPKK-g00828 (gravure), Protestantse portretten van Museum Catharijneconvent en Vrije Universiteit, Amsterdam",
+    "tokenization": {
+      "stanza_nl": [
+        "Portret",
+        "van",
+        "Wilhelmus",
+        "(",
+        "Willem",
+        ")",
+        "Sluiter",
+        "(",
+        "1627",
+        "-",
+        "1673",
+        ")",
+        ",",
+        "predikant",
+        "te",
+        "Eibergen",
+        "en",
+        "geestelijk",
+        "dichter",
+        ".",
+        "SPKK-g00828",
+        "(",
+        "gravure",
+        ")",
+        ",",
+        "Protestantse",
+        "portretten",
+        "van",
+        "Museum",
+        "Catharijneconvent",
+        "en",
+        "Vrije",
+        "Universiteit",
+        ",",
+        "Amsterdam"
+      ]
+    },
+    "morpho_syntax": {
+      "stanza_nl": [
+        {
+          "paragraphID": null,
+          "sentenceID": 0,
+          "text": "Portret van Wilhelmus (Willem) Sluiter (1627 - 1673), predikant te Eibergen en geestelijk dichter. ",
+          "tokenized": "Portret van Wilhelmus ( Willem ) Sluiter ( 1627 - 1673 ) , predikant te Eibergen en geestelijk dichter .",
+          "words": [
+            {
+              "ID": 0,
+              "FORM": "Portret",
+              "LEMMA": "portret",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|onz|stan",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 0,
+                "EndChar": 7
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 1,
+              "FORM": "van",
+              "LEMMA": "van",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 3,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 8,
+                "EndChar": 11
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 2,
+              "FORM": "Wilhelmus",
+              "LEMMA": "Wilhelmus",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|zijd|stan",
+              "HEAD": 1,
+              "DEPREL": "nmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 12,
+                "EndChar": 21
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 3,
+              "FORM": "(",
+              "LEMMA": "(",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 5,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 22,
+                "EndChar": 23
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 4,
+              "FORM": "Willem",
+              "LEMMA": "Willem",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 3,
+              "DEPREL": "nmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 23,
+                "EndChar": 29
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 5,
+              "FORM": ")",
+              "LEMMA": ")",
+              "UPOS": "SYM",
+              "XPOS": "LET",
+              "HEAD": 5,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 29,
+                "EndChar": 30
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 6,
+              "FORM": "Sluiter",
+              "LEMMA": "Sluiter",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 5,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 31,
+                "EndChar": 38
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 7,
+              "FORM": "(",
+              "LEMMA": "(",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 9,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 39,
+                "EndChar": 40
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 8,
+              "FORM": "1627",
+              "LEMMA": "1627",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 5,
+              "DEPREL": "nummod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 40,
+                "EndChar": 44
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 9,
+              "FORM": "-",
+              "LEMMA": "-",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 11,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 45,
+                "EndChar": 46
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 10,
+              "FORM": "1673",
+              "LEMMA": "1673",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 9,
+              "DEPREL": "parataxis",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 47,
+                "EndChar": 51
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 11,
+              "FORM": ")",
+              "LEMMA": ")",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 9,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 51,
+                "EndChar": 52
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 12,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 14,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 52,
+                "EndChar": 53
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 13,
+              "FORM": "predikant",
+              "LEMMA": "predikant",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 1,
+              "DEPREL": "conj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 54,
+                "EndChar": 63
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 14,
+              "FORM": "te",
+              "LEMMA": "te",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 16,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 64,
+                "EndChar": 66
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 15,
+              "FORM": "Eibergen",
+              "LEMMA": "Eibergen",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|onz|stan",
+              "HEAD": 14,
+              "DEPREL": "nmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 67,
+                "EndChar": 75
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 16,
+              "FORM": "en",
+              "LEMMA": "en",
+              "UPOS": "CCONJ",
+              "XPOS": "VG|neven",
+              "HEAD": 19,
+              "DEPREL": "cc",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 76,
+                "EndChar": 78
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 17,
+              "FORM": "geestelijk",
+              "LEMMA": "geestelijk",
+              "UPOS": "ADJ",
+              "XPOS": "ADJ|prenom|basis|zonder",
+              "HEAD": 19,
+              "DEPREL": "amod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 79,
+                "EndChar": 89
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 18,
+              "FORM": "dichter",
+              "LEMMA": "dichter",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 16,
+              "DEPREL": "conj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 90,
+                "EndChar": 97
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 19,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 1,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 97,
+                "EndChar": 98
+              },
+              "FEATS": []
+            }
+          ]
+        },
+        {
+          "paragraphID": null,
+          "sentenceID": 1,
+          "text": "SPKK-g00828 (gravure), Protestantse portretten van Museum Catharijneconvent en Vrije Universiteit, Amsterdam",
+          "tokenized": "SPKK-g00828 ( gravure ) , Protestantse portretten van Museum Catharijneconvent en Vrije Universiteit , Amsterdam",
+          "words": [
+            {
+              "ID": 20,
+              "FORM": "SPKK-g00828",
+              "LEMMA": "SPKK-g00828",
+              "UPOS": "SYM",
+              "XPOS": "SPEC|symb",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 99,
+                "EndChar": 110
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 21,
+              "FORM": "(",
+              "LEMMA": "(",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 3,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 111,
+                "EndChar": 112
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 22,
+              "FORM": "gravure",
+              "LEMMA": "gravure",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 1,
+              "DEPREL": "nmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 112,
+                "EndChar": 119
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 23,
+              "FORM": ")",
+              "LEMMA": ")",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 3,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 119,
+                "EndChar": 120
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 24,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 7,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 120,
+                "EndChar": 121
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 25,
+              "FORM": "Protestantse",
+              "LEMMA": "Protestants",
+              "UPOS": "ADJ",
+              "XPOS": "ADJ|prenom|basis|met-e|stan",
+              "HEAD": 7,
+              "DEPREL": "amod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 122,
+                "EndChar": 134
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 26,
+              "FORM": "portretten",
+              "LEMMA": "portret",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|mv|basis",
+              "HEAD": 1,
+              "DEPREL": "conj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 135,
+                "EndChar": 145
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 27,
+              "FORM": "van",
+              "LEMMA": "van",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 9,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 146,
+                "EndChar": 149
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 28,
+              "FORM": "Museum",
+              "LEMMA": "Museum",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 7,
+              "DEPREL": "nmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 150,
+                "EndChar": 156
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 29,
+              "FORM": "Catharijneconvent",
+              "LEMMA": "Catharijneconvent",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 9,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 157,
+                "EndChar": 174
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 30,
+              "FORM": "en",
+              "LEMMA": "en",
+              "UPOS": "CCONJ",
+              "XPOS": "VG|neven",
+              "HEAD": 12,
+              "DEPREL": "cc",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 175,
+                "EndChar": 177
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 31,
+              "FORM": "Vrije",
+              "LEMMA": "Vrije",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 9,
+              "DEPREL": "conj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 178,
+                "EndChar": 183
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 32,
+              "FORM": "Universiteit",
+              "LEMMA": "Universiteit",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 12,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 184,
+                "EndChar": 196
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 33,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 15,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 196,
+                "EndChar": 197
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 34,
+              "FORM": "Amsterdam",
+              "LEMMA": "Amsterdam",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|onz|stan",
+              "HEAD": 9,
+              "DEPREL": "conj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 198,
+                "EndChar": 207
+              },
+              "FEATS": []
+            }
+          ]
+        }
+      ]
+    },
+    "entities": [
+      {
+        "ID": "stanza_nl_0",
+        "surfaceForm": "Wilhelmus",
+        "category": "PER",
+        "locationStart": 12,
+        "locationEnd": 21,
+        "tokenStart": 2,
+        "tokenEnd": 3,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_0",
+        "category": "PER",
+        "surfaceForm": "Wilhelmus (",
+        "locationStart": 12,
+        "locationEnd": 23,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_0",
+        "category": "PER",
+        "surfaceForm": "wilhelmus",
+        "locationStart": 12,
+        "locationEnd": 21,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_1",
+        "surfaceForm": "Willem",
+        "category": "PER",
+        "locationStart": 23,
+        "locationEnd": 29,
+        "tokenStart": 4,
+        "tokenEnd": 5,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_0",
+        "category": "PER",
+        "surfaceForm": "Willem) Sluiter",
+        "locationStart": 23,
+        "locationEnd": 38,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_0",
+        "category": "PER",
+        "surfaceForm": "willem ) sluiter",
+        "locationStart": 23,
+        "locationEnd": 38,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_2",
+        "surfaceForm": "Sluiter",
+        "category": "PER",
+        "locationStart": 31,
+        "locationEnd": 38,
+        "tokenStart": 6,
+        "tokenEnd": 7,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gysbert_hist_0",
+        "category": "TIME",
+        "surfaceForm": "1627",
+        "locationStart": 40,
+        "locationEnd": 44,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gysbert_hist_0",
+        "category": "TIME",
+        "surfaceForm": "1673",
+        "locationStart": 47,
+        "locationEnd": 51,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_3",
+        "surfaceForm": "Eibergen",
+        "category": "PER",
+        "locationStart": 67,
+        "locationEnd": 75,
+        "tokenStart": 15,
+        "tokenEnd": 16,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_0",
+        "category": "LOC",
+        "surfaceForm": "Eibergen",
+        "locationStart": 67,
+        "locationEnd": 75,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_0",
+        "category": "LOC",
+        "surfaceForm": "eibergen",
+        "locationStart": 67,
+        "locationEnd": 75,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "flair_1",
+        "category": "MISC",
+        "surfaceForm": "SPKK-g00828",
+        "locationStart": 99,
+        "locationEnd": 110,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "stanza_nl_4",
+        "surfaceForm": "Protestantse",
+        "category": "MISC",
+        "locationStart": 122,
+        "locationEnd": 134,
+        "tokenStart": 25,
+        "tokenEnd": 26,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_1",
+        "category": "MISC",
+        "surfaceForm": "Protestantse",
+        "locationStart": 122,
+        "locationEnd": 134,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "stanza_nl_5",
+        "surfaceForm": "Museum Catharijneconvent",
+        "category": "LOC",
+        "locationStart": 150,
+        "locationEnd": 174,
+        "tokenStart": 28,
+        "tokenEnd": 30,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_1",
+        "category": "ORG",
+        "surfaceForm": "Museum Catharijneconvent",
+        "locationStart": 150,
+        "locationEnd": 174,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_1",
+        "category": "",
+        "surfaceForm": "catharijneconvent universiteit",
+        "locationStart": 157,
+        "locationEnd": 196,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_6",
+        "surfaceForm": "Vrije Universiteit",
+        "category": "ORG",
+        "locationStart": 178,
+        "locationEnd": 196,
+        "tokenStart": 31,
+        "tokenEnd": 33,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_1",
+        "category": "ORG",
+        "surfaceForm": "Vrije Universiteit",
+        "locationStart": 178,
+        "locationEnd": 196,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "stanza_nl_7",
+        "surfaceForm": "Amsterdam",
+        "category": "LOC",
+        "locationStart": 198,
+        "locationEnd": 207,
+        "tokenStart": 34,
+        "tokenEnd": 35,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_1",
+        "category": "LOC",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 198,
+        "locationEnd": 207,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_1",
+        "category": "LOC",
+        "surfaceForm": "amsterdam",
+        "locationStart": 198,
+        "locationEnd": 207,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      }
+    ],
+    "time_expressions": [
+      {
+        "ID": "t0",
+        "category": "DATE",
+        "value": "1627",
+        "surfaceForm": "1627",
+        "locationStart": 40,
+        "locationEnd": 44,
+        "method": "heideltime"
+      },
+      {
+        "ID": "t1",
+        "category": "DATE",
+        "value": "1673",
+        "surfaceForm": "1673",
+        "locationStart": 47,
+        "locationEnd": 51,
+        "method": "heideltime"
+      }
+    ]
+  },
+  "id_person": "92185112",
+  "version": "14",
+  "source": "portraits",
+  "name": "willem sluiter",
+  "partition": "test",
+  "birth_pl": null,
+  "birth_tm": null,
+  "baptism_pl": null,
+  "baptism_tm": null,
+  "death_pl": null,
+  "death_tm": null,
+  "funeral_pl": null,
+  "funeral_tm": null,
+  "marriage_pl": null,
+  "marriage_tm": null,
+  "gender": null,
+  "category": null,
+  "father": null,
+  "mother": null,
+  "partner": null,
+  "religion": null,
+  "educations": null,
+  "faiths": null,
+  "occupations": null,
+  "residences": null
+}

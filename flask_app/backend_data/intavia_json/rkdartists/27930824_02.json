@@ -1,0 +1,90 @@
+{
+  "text_id": "27930824_02",
+  "nlp_preprocessor": "stanza_nl",
+  "data": {
+    "text": "Keramist.",
+    "tokenization": {
+      "stanza_nl": [
+        "Keramist",
+        "."
+      ]
+    },
+    "morpho_syntax": {
+      "stanza_nl": [
+        {
+          "paragraphID": null,
+          "sentenceID": 0,
+          "text": "Keramist.",
+          "tokenized": "Keramist .",
+          "words": [
+            {
+              "ID": 0,
+              "FORM": "Keramist",
+              "LEMMA": "Keramist",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|zijd|stan",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 0,
+                "EndChar": 8
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 1,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 1,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 8,
+                "EndChar": 9
+              },
+              "FEATS": []
+            }
+          ]
+        }
+      ]
+    },
+    "entities": [],
+    "time_expressions": []
+  },
+  "id_person": "27930824",
+  "version": "02",
+  "source": "rkdartists",
+  "name": "gé klinkenberg",
+  "partition": "test",
+  "birth_pl": null,
+  "birth_tm": "1911",
+  "baptism_pl": null,
+  "baptism_tm": null,
+  "death_pl": null,
+  "death_tm": "1996",
+  "funeral_pl": null,
+  "funeral_tm": null,
+  "marriage_pl": null,
+  "marriage_tm": null,
+  "gender": "1",
+  "category": null,
+  "father": null,
+  "mother": null,
+  "partner": null,
+  "religion": null,
+  "educations": null,
+  "faiths": null,
+  "occupations": [
+    {
+      "name": "keramist",
+      "begin": "None",
+      "end": "None"
+    }
+  ],
+  "residences": null
+}

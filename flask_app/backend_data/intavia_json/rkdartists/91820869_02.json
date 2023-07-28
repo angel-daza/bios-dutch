@@ -1,0 +1,1312 @@
+{
+  "text_id": "91820869_02",
+  "nlp_preprocessor": "stanza_nl",
+  "data": {
+    "text": "Tekenaar, lithograaf. Geboren: 17 oktober 1874, Den Haag. Gestorven: 24 november 1938, Cannes (Frankrijk). Plaats en periode van werkzaamheid: Den Haag, van 1901 tot 1901 Tot 1901. Amsterdam, van 1902 tot 1902 Tot 1902.",
+    "tokenization": {
+      "stanza_nl": [
+        "Tekenaar",
+        ",",
+        "lithograaf",
+        ".",
+        "Geboren",
+        ":",
+        "17",
+        "oktober",
+        "1874",
+        ",",
+        "Den",
+        "Haag",
+        ".",
+        "Gestorven",
+        ":",
+        "24",
+        "november",
+        "1938",
+        ",",
+        "Cannes",
+        "(",
+        "Frankrijk",
+        ")",
+        ".",
+        "Plaats",
+        "en",
+        "periode",
+        "van",
+        "werkzaamheid",
+        ":",
+        "Den",
+        "Haag",
+        ",",
+        "van",
+        "1901",
+        "tot",
+        "1901",
+        "Tot",
+        "1901",
+        ".",
+        "Amsterdam",
+        ",",
+        "van",
+        "1902",
+        "tot",
+        "1902",
+        "Tot",
+        "1902",
+        "."
+      ]
+    },
+    "morpho_syntax": {
+      "stanza_nl": [
+        {
+          "paragraphID": null,
+          "sentenceID": 0,
+          "text": "Tekenaar, lithograaf. ",
+          "tokenized": "Tekenaar , lithograaf .",
+          "words": [
+            {
+              "ID": 0,
+              "FORM": "Tekenaar",
+              "LEMMA": "tekenaar",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 0,
+                "EndChar": 8
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 1,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 3,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 8,
+                "EndChar": 9
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 2,
+              "FORM": "lithograaf",
+              "LEMMA": "lithograaf",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 1,
+              "DEPREL": "parataxis",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 10,
+                "EndChar": 20
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 3,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 1,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 20,
+                "EndChar": 21
+              },
+              "FEATS": []
+            }
+          ]
+        },
+        {
+          "paragraphID": null,
+          "sentenceID": 1,
+          "text": "Geboren: 17 oktober 1874, Den Haag. ",
+          "tokenized": "Geboren : 17 oktober 1874 , Den Haag .",
+          "words": [
+            {
+              "ID": 4,
+              "FORM": "Geboren",
+              "LEMMA": "geboren",
+              "UPOS": "VERB",
+              "XPOS": "WW|vd|vrij|zonder",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 22,
+                "EndChar": 29
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 5,
+              "FORM": ":",
+              "LEMMA": ":",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 3,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 29,
+                "EndChar": 30
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 6,
+              "FORM": "17",
+              "LEMMA": "17",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 1,
+              "DEPREL": "parataxis",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 31,
+                "EndChar": 33
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 7,
+              "FORM": "oktober",
+              "LEMMA": "oktober",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|zijd|stan",
+              "HEAD": 3,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 34,
+                "EndChar": 41
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 8,
+              "FORM": "1874",
+              "LEMMA": "1874",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 3,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 42,
+                "EndChar": 46
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 9,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 7,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 46,
+                "EndChar": 47
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 10,
+              "FORM": "Den",
+              "LEMMA": "Den",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 3,
+              "DEPREL": "parataxis",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 48,
+                "EndChar": 51
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 11,
+              "FORM": "Haag",
+              "LEMMA": "Haag",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 7,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 52,
+                "EndChar": 56
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 12,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 1,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 56,
+                "EndChar": 57
+              },
+              "FEATS": []
+            }
+          ]
+        },
+        {
+          "paragraphID": null,
+          "sentenceID": 2,
+          "text": "Gestorven: 24 november 1938, Cannes (Frankrijk). ",
+          "tokenized": "Gestorven : 24 november 1938 , Cannes ( Frankrijk ) .",
+          "words": [
+            {
+              "ID": 13,
+              "FORM": "Gestorven",
+              "LEMMA": "sterven",
+              "UPOS": "VERB",
+              "XPOS": "WW|vd|vrij|zonder",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 58,
+                "EndChar": 67
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 14,
+              "FORM": ":",
+              "LEMMA": ":",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 3,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 67,
+                "EndChar": 68
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 15,
+              "FORM": "24",
+              "LEMMA": "24",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 1,
+              "DEPREL": "parataxis",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 69,
+                "EndChar": 71
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 16,
+              "FORM": "november",
+              "LEMMA": "november",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|zijd|stan",
+              "HEAD": 3,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 72,
+                "EndChar": 80
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 17,
+              "FORM": "1938",
+              "LEMMA": "1938",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 3,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 81,
+                "EndChar": 85
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 18,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 7,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 85,
+                "EndChar": 86
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 19,
+              "FORM": "Cannes",
+              "LEMMA": "Cannes",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|onz|stan",
+              "HEAD": 3,
+              "DEPREL": "conj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 87,
+                "EndChar": 93
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 20,
+              "FORM": "(",
+              "LEMMA": "(",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 9,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 94,
+                "EndChar": 95
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 21,
+              "FORM": "Frankrijk",
+              "LEMMA": "Frankrijk",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|onz|stan",
+              "HEAD": 3,
+              "DEPREL": "nmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 95,
+                "EndChar": 104
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 22,
+              "FORM": ")",
+              "LEMMA": ")",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 9,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 104,
+                "EndChar": 105
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 23,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 1,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 105,
+                "EndChar": 106
+              },
+              "FEATS": []
+            }
+          ]
+        },
+        {
+          "paragraphID": null,
+          "sentenceID": 3,
+          "text": "Plaats en periode van werkzaamheid: ",
+          "tokenized": "Plaats en periode van werkzaamheid :",
+          "words": [
+            {
+              "ID": 24,
+              "FORM": "Plaats",
+              "LEMMA": "plaats",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 107,
+                "EndChar": 113
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 25,
+              "FORM": "en",
+              "LEMMA": "en",
+              "UPOS": "CCONJ",
+              "XPOS": "VG|neven",
+              "HEAD": 3,
+              "DEPREL": "cc",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 114,
+                "EndChar": 116
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 26,
+              "FORM": "periode",
+              "LEMMA": "periode",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 1,
+              "DEPREL": "conj",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 117,
+                "EndChar": 124
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 27,
+              "FORM": "van",
+              "LEMMA": "van",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 5,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 125,
+                "EndChar": 128
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 28,
+              "FORM": "werkzaamheid",
+              "LEMMA": "werkzaamheid",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 1,
+              "DEPREL": "nmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 129,
+                "EndChar": 141
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 29,
+              "FORM": ":",
+              "LEMMA": ":",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 1,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 141,
+                "EndChar": 142
+              },
+              "FEATS": []
+            }
+          ]
+        },
+        {
+          "paragraphID": null,
+          "sentenceID": 4,
+          "text": "Den Haag, van 1901 tot 1901 Tot 1901. ",
+          "tokenized": "Den Haag , van 1901 tot 1901 Tot 1901 .",
+          "words": [
+            {
+              "ID": 30,
+              "FORM": "Den",
+              "LEMMA": "Den",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 143,
+                "EndChar": 146
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 31,
+              "FORM": "Haag",
+              "LEMMA": "Haag",
+              "UPOS": "PROPN",
+              "XPOS": "SPEC|deeleigen",
+              "HEAD": 1,
+              "DEPREL": "flat",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 147,
+                "EndChar": 151
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 32,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 5,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 151,
+                "EndChar": 152
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 33,
+              "FORM": "van",
+              "LEMMA": "van",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 5,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 153,
+                "EndChar": 156
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 34,
+              "FORM": "1901",
+              "LEMMA": "1901",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 1,
+              "DEPREL": "parataxis",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 157,
+                "EndChar": 161
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 35,
+              "FORM": "tot",
+              "LEMMA": "tot",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 7,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 162,
+                "EndChar": 165
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 36,
+              "FORM": "1901",
+              "LEMMA": "1901",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 1,
+              "DEPREL": "parataxis",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 166,
+                "EndChar": 170
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 37,
+              "FORM": "Tot",
+              "LEMMA": "tot",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 9,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 171,
+                "EndChar": 174
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 38,
+              "FORM": "1901",
+              "LEMMA": "1901",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 1,
+              "DEPREL": "parataxis",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 175,
+                "EndChar": 179
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 39,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 1,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 179,
+                "EndChar": 180
+              },
+              "FEATS": []
+            }
+          ]
+        },
+        {
+          "paragraphID": null,
+          "sentenceID": 5,
+          "text": "Amsterdam, van 1902 tot 1902 Tot 1902.",
+          "tokenized": "Amsterdam , van 1902 tot 1902 Tot 1902 .",
+          "words": [
+            {
+              "ID": 40,
+              "FORM": "Amsterdam",
+              "LEMMA": "Amsterdam",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|onz|stan",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 181,
+                "EndChar": 190
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 41,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 4,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 190,
+                "EndChar": 191
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 42,
+              "FORM": "van",
+              "LEMMA": "van",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 4,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 192,
+                "EndChar": 195
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 43,
+              "FORM": "1902",
+              "LEMMA": "1902",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 1,
+              "DEPREL": "nmod",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 196,
+                "EndChar": 200
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 44,
+              "FORM": "tot",
+              "LEMMA": "tot",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 6,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 201,
+                "EndChar": 204
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 45,
+              "FORM": "1902",
+              "LEMMA": "1902",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 1,
+              "DEPREL": "parataxis",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 205,
+                "EndChar": 209
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 46,
+              "FORM": "Tot",
+              "LEMMA": "tot",
+              "UPOS": "ADP",
+              "XPOS": "VZ|init",
+              "HEAD": 8,
+              "DEPREL": "case",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 210,
+                "EndChar": 213
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 47,
+              "FORM": "1902",
+              "LEMMA": "1902",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 1,
+              "DEPREL": "parataxis",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 214,
+                "EndChar": 218
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 48,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 1,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 218,
+                "EndChar": 219
+              },
+              "FEATS": []
+            }
+          ]
+        }
+      ]
+    },
+    "entities": [
+      {
+        "ID": "gold_6",
+        "surfaceForm": "17 oktober 1874",
+        "category": "TIME",
+        "locationStart": 31,
+        "locationEnd": 46,
+        "tokenStart": 6,
+        "tokenEnd": 9,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_1",
+        "category": "TIME",
+        "surfaceForm": "17 oktober 1874",
+        "locationStart": 31,
+        "locationEnd": 46,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_0",
+        "surfaceForm": "Den Haag",
+        "category": "LOC",
+        "locationStart": 48,
+        "locationEnd": 56,
+        "tokenStart": 10,
+        "tokenEnd": 12,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_7",
+        "surfaceForm": "Den Haag",
+        "category": "LOC",
+        "locationStart": 48,
+        "locationEnd": 56,
+        "tokenStart": 10,
+        "tokenEnd": 12,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_1",
+        "category": "LOC",
+        "surfaceForm": "Den Haag",
+        "locationStart": 48,
+        "locationEnd": 56,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_1",
+        "category": "LOC",
+        "surfaceForm": "haag",
+        "locationStart": 52,
+        "locationEnd": 56,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gold_8",
+        "surfaceForm": "24 november 1938",
+        "category": "TIME",
+        "locationStart": 69,
+        "locationEnd": 85,
+        "tokenStart": 15,
+        "tokenEnd": 18,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_2",
+        "category": "TIME",
+        "surfaceForm": "24 november",
+        "locationStart": 69,
+        "locationEnd": 80,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_1",
+        "surfaceForm": "Cannes",
+        "category": "LOC",
+        "locationStart": 87,
+        "locationEnd": 93,
+        "tokenStart": 19,
+        "tokenEnd": 20,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_9",
+        "surfaceForm": "Cannes",
+        "category": "LOC",
+        "locationStart": 87,
+        "locationEnd": 93,
+        "tokenStart": 19,
+        "tokenEnd": 20,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_2",
+        "category": "LOC",
+        "surfaceForm": "Cannes",
+        "locationStart": 87,
+        "locationEnd": 93,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_2",
+        "category": "LOC",
+        "surfaceForm": "cannes",
+        "locationStart": 87,
+        "locationEnd": 93,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_2",
+        "surfaceForm": "Frankrijk",
+        "category": "LOC",
+        "locationStart": 95,
+        "locationEnd": 104,
+        "tokenStart": 21,
+        "tokenEnd": 22,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_10",
+        "surfaceForm": "Frankrijk",
+        "category": "LOC",
+        "locationStart": 95,
+        "locationEnd": 104,
+        "tokenStart": 21,
+        "tokenEnd": 22,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_2",
+        "category": "LOC",
+        "surfaceForm": "Frankrijk",
+        "locationStart": 95,
+        "locationEnd": 104,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "stanza_nl_3",
+        "surfaceForm": "Den Haag",
+        "category": "LOC",
+        "locationStart": 143,
+        "locationEnd": 151,
+        "tokenStart": 30,
+        "tokenEnd": 32,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_0",
+        "surfaceForm": "Den Haag",
+        "category": "LOC",
+        "locationStart": 143,
+        "locationEnd": 151,
+        "tokenStart": 30,
+        "tokenEnd": 32,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_3",
+        "category": "LOC",
+        "surfaceForm": "Den Haag",
+        "locationStart": 143,
+        "locationEnd": 151,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_4",
+        "category": "LOC",
+        "surfaceForm": "den",
+        "locationStart": 143,
+        "locationEnd": 146,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gysbert_hist_4",
+        "category": "LOC",
+        "surfaceForm": "haag",
+        "locationStart": 147,
+        "locationEnd": 151,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gold_1",
+        "surfaceForm": "van 1901 tot 1901",
+        "category": "TIME",
+        "locationStart": 153,
+        "locationEnd": 170,
+        "tokenStart": 33,
+        "tokenEnd": 37,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_4",
+        "category": "TIME",
+        "surfaceForm": "1901",
+        "locationStart": 157,
+        "locationEnd": 161,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gysbert_hist_4",
+        "category": "TIME",
+        "surfaceForm": "1901",
+        "locationStart": 166,
+        "locationEnd": 170,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gold_2",
+        "surfaceForm": "Tot 1901",
+        "category": "TIME",
+        "locationStart": 171,
+        "locationEnd": 179,
+        "tokenStart": 37,
+        "tokenEnd": 39,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_4",
+        "category": "TIME",
+        "surfaceForm": "1901",
+        "locationStart": 175,
+        "locationEnd": 179,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_4",
+        "surfaceForm": "Amsterdam",
+        "category": "LOC",
+        "locationStart": 181,
+        "locationEnd": 190,
+        "tokenStart": 40,
+        "tokenEnd": 41,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_3",
+        "surfaceForm": "Amsterdam",
+        "category": "LOC",
+        "locationStart": 181,
+        "locationEnd": 190,
+        "tokenStart": 40,
+        "tokenEnd": 41,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_4",
+        "category": "LOC",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 181,
+        "locationEnd": 190,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_5",
+        "category": "LOC",
+        "surfaceForm": "amsterdam",
+        "locationStart": 181,
+        "locationEnd": 190,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gold_4",
+        "surfaceForm": "van 1902 tot 1902",
+        "category": "TIME",
+        "locationStart": 192,
+        "locationEnd": 209,
+        "tokenStart": 42,
+        "tokenEnd": 46,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_5",
+        "category": "TIME",
+        "surfaceForm": "1902",
+        "locationStart": 196,
+        "locationEnd": 200,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gysbert_hist_5",
+        "category": "TIME",
+        "surfaceForm": "1902",
+        "locationStart": 205,
+        "locationEnd": 209,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gold_5",
+        "surfaceForm": "Tot 1902",
+        "category": "TIME",
+        "locationStart": 210,
+        "locationEnd": 218,
+        "tokenStart": 46,
+        "tokenEnd": 48,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_5",
+        "category": "TIME",
+        "surfaceForm": "1902",
+        "locationStart": 214,
+        "locationEnd": 218,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      }
+    ],
+    "time_expressions": [
+      {
+        "ID": "t0",
+        "category": "DATE",
+        "value": "1874-10-17",
+        "surfaceForm": "17 oktober 1874",
+        "locationStart": 31,
+        "locationEnd": 46,
+        "method": "heideltime"
+      },
+      {
+        "ID": "t1",
+        "category": "DATE",
+        "value": "1938-11-24",
+        "surfaceForm": "24 november 1938",
+        "locationStart": 69,
+        "locationEnd": 85,
+        "method": "heideltime"
+      },
+      {
+        "ID": "t2",
+        "category": "DATE",
+        "value": "1901",
+        "surfaceForm": "1901",
+        "locationStart": 157,
+        "locationEnd": 161,
+        "method": "heideltime"
+      },
+      {
+        "ID": "t3",
+        "category": "DATE",
+        "value": "1901",
+        "surfaceForm": "1901",
+        "locationStart": 166,
+        "locationEnd": 170,
+        "method": "heideltime"
+      },
+      {
+        "ID": "t4",
+        "category": "DATE",
+        "value": "1901",
+        "surfaceForm": "1901",
+        "locationStart": 175,
+        "locationEnd": 179,
+        "method": "heideltime"
+      },
+      {
+        "ID": "t5",
+        "category": "DATE",
+        "value": "1902",
+        "surfaceForm": "1902",
+        "locationStart": 196,
+        "locationEnd": 200,
+        "method": "heideltime"
+      },
+      {
+        "ID": "t6",
+        "category": "DATE",
+        "value": "1902",
+        "surfaceForm": "1902",
+        "locationStart": 205,
+        "locationEnd": 209,
+        "method": "heideltime"
+      },
+      {
+        "ID": "t7",
+        "category": "DATE",
+        "value": "1902",
+        "surfaceForm": "1902",
+        "locationStart": 214,
+        "locationEnd": 218,
+        "method": "heideltime"
+      }
+    ]
+  },
+  "id_person": "91820869",
+  "version": "02",
+  "source": "rkdartists",
+  "name": "henri lankhout",
+  "partition": "test",
+  "birth_pl": null,
+  "birth_tm": "1874-10-17",
+  "baptism_pl": null,
+  "baptism_tm": null,
+  "death_pl": "Cannes (Frankrijk)",
+  "death_tm": "1938-11-24",
+  "funeral_pl": null,
+  "funeral_tm": null,
+  "marriage_pl": null,
+  "marriage_tm": null,
+  "gender": "1",
+  "category": null,
+  "father": null,
+  "mother": null,
+  "partner": null,
+  "religion": null,
+  "educations": null,
+  "faiths": null,
+  "occupations": [
+    {
+      "name": "tekenaar",
+      "begin": "None",
+      "end": "None"
+    },
+    {
+      "name": "lithograaf",
+      "begin": "None",
+      "end": "None"
+    }
+  ],
+  "residences": null
+}

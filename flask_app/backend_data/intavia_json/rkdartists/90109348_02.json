@@ -1,0 +1,430 @@
+{
+  "text_id": "90109348_02",
+  "nlp_preprocessor": "stanza_nl",
+  "data": {
+    "text": "Amateurfotograaf. Geboren: 1869, Haarlem. Gestorven: 1922, Venlo.",
+    "tokenization": {
+      "stanza_nl": [
+        "Amateurfotograaf",
+        ".",
+        "Geboren",
+        ":",
+        "1869",
+        ",",
+        "Haarlem",
+        ".",
+        "Gestorven",
+        ":",
+        "1922",
+        ",",
+        "Venlo",
+        "."
+      ]
+    },
+    "morpho_syntax": {
+      "stanza_nl": [
+        {
+          "paragraphID": null,
+          "sentenceID": 0,
+          "text": "Amateurfotograaf. ",
+          "tokenized": "Amateurfotograaf .",
+          "words": [
+            {
+              "ID": 0,
+              "FORM": "Amateurfotograaf",
+              "LEMMA": "Amateurfotograaf",
+              "UPOS": "NOUN",
+              "XPOS": "N|soort|ev|basis|zijd|stan",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 0,
+                "EndChar": 16
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 1,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 1,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 16,
+                "EndChar": 17
+              },
+              "FEATS": []
+            }
+          ]
+        },
+        {
+          "paragraphID": null,
+          "sentenceID": 1,
+          "text": "Geboren: 1869, Haarlem. ",
+          "tokenized": "Geboren : 1869 , Haarlem .",
+          "words": [
+            {
+              "ID": 2,
+              "FORM": "Geboren",
+              "LEMMA": "geboren",
+              "UPOS": "VERB",
+              "XPOS": "WW|vd|vrij|zonder",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 18,
+                "EndChar": 25
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 3,
+              "FORM": ":",
+              "LEMMA": ":",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 3,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 25,
+                "EndChar": 26
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 4,
+              "FORM": "1869",
+              "LEMMA": "1869",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 1,
+              "DEPREL": "parataxis",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 27,
+                "EndChar": 31
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 5,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 5,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 31,
+                "EndChar": 32
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 6,
+              "FORM": "Haarlem",
+              "LEMMA": "Haarlem",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|onz|stan",
+              "HEAD": 3,
+              "DEPREL": "parataxis",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 33,
+                "EndChar": 40
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 7,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 1,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 40,
+                "EndChar": 41
+              },
+              "FEATS": []
+            }
+          ]
+        },
+        {
+          "paragraphID": null,
+          "sentenceID": 2,
+          "text": "Gestorven: 1922, Venlo.",
+          "tokenized": "Gestorven : 1922 , Venlo .",
+          "words": [
+            {
+              "ID": 8,
+              "FORM": "Gestorven",
+              "LEMMA": "sterven",
+              "UPOS": "VERB",
+              "XPOS": "WW|vd|vrij|zonder",
+              "HEAD": 0,
+              "DEPREL": "root",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 42,
+                "EndChar": 51
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 9,
+              "FORM": ":",
+              "LEMMA": ":",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 3,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 51,
+                "EndChar": 52
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 10,
+              "FORM": "1922",
+              "LEMMA": "1922",
+              "UPOS": "NUM",
+              "XPOS": "TW|hoofd|vrij",
+              "HEAD": 1,
+              "DEPREL": "parataxis",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 53,
+                "EndChar": 57
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 11,
+              "FORM": ",",
+              "LEMMA": ",",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 5,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": true,
+                "StartChar": 57,
+                "EndChar": 58
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 12,
+              "FORM": "Venlo",
+              "LEMMA": "Venlo",
+              "UPOS": "PROPN",
+              "XPOS": "N|eigen|ev|basis|onz|stan",
+              "HEAD": 3,
+              "DEPREL": "parataxis",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 59,
+                "EndChar": 64
+              },
+              "FEATS": []
+            },
+            {
+              "ID": 13,
+              "FORM": ".",
+              "LEMMA": ".",
+              "UPOS": "PUNCT",
+              "XPOS": "LET",
+              "HEAD": 1,
+              "DEPREL": "punct",
+              "DEPS": null,
+              "MISC": {
+                "SpaceAfter": false,
+                "StartChar": 64,
+                "EndChar": 65
+              },
+              "FEATS": []
+            }
+          ]
+        }
+      ]
+    },
+    "entities": [
+      {
+        "ID": "gold_0",
+        "surfaceForm": "1869",
+        "category": "TIME",
+        "locationStart": 27,
+        "locationEnd": 31,
+        "tokenStart": 4,
+        "tokenEnd": 5,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_1",
+        "category": "TIME",
+        "surfaceForm": "1869",
+        "locationStart": 27,
+        "locationEnd": 31,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_0",
+        "surfaceForm": "Haarlem",
+        "category": "LOC",
+        "locationStart": 33,
+        "locationEnd": 40,
+        "tokenStart": 6,
+        "tokenEnd": 7,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_1",
+        "surfaceForm": "Haarlem",
+        "category": "LOC",
+        "locationStart": 33,
+        "locationEnd": 40,
+        "tokenStart": 6,
+        "tokenEnd": 7,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_1",
+        "category": "LOC",
+        "surfaceForm": "Haarlem",
+        "locationStart": 33,
+        "locationEnd": 40,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_1",
+        "category": "LOC",
+        "surfaceForm": "haarlem",
+        "locationStart": 33,
+        "locationEnd": 40,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gold_2",
+        "surfaceForm": "1922",
+        "category": "TIME",
+        "locationStart": 53,
+        "locationEnd": 57,
+        "tokenStart": 10,
+        "tokenEnd": 11,
+        "method": "human_gold"
+      },
+      {
+        "ID": "stanza_nl_1",
+        "surfaceForm": "Venlo",
+        "category": "LOC",
+        "locationStart": 59,
+        "locationEnd": 64,
+        "tokenStart": 12,
+        "tokenEnd": 13,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_3",
+        "surfaceForm": "Venlo",
+        "category": "LOC",
+        "locationStart": 59,
+        "locationEnd": 64,
+        "tokenStart": 12,
+        "tokenEnd": 13,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_2",
+        "category": "LOC",
+        "surfaceForm": "Venlo",
+        "locationStart": 59,
+        "locationEnd": 64,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_2",
+        "category": "LOC",
+        "surfaceForm": "venlo",
+        "locationStart": 59,
+        "locationEnd": 64,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      }
+    ],
+    "time_expressions": [
+      {
+        "ID": "t0",
+        "category": "DATE",
+        "value": "1869",
+        "surfaceForm": "1869",
+        "locationStart": 27,
+        "locationEnd": 31,
+        "method": "heideltime"
+      },
+      {
+        "ID": "t1",
+        "category": "DATE",
+        "value": "1922",
+        "surfaceForm": "1922",
+        "locationStart": 53,
+        "locationEnd": 57,
+        "method": "heideltime"
+      }
+    ]
+  },
+  "id_person": "90109348",
+  "version": "02",
+  "source": "rkdartists",
+  "name": "j.g. mulder",
+  "partition": "test",
+  "birth_pl": null,
+  "birth_tm": "1869",
+  "baptism_pl": null,
+  "baptism_tm": null,
+  "death_pl": "Venlo",
+  "death_tm": "1922",
+  "funeral_pl": null,
+  "funeral_tm": null,
+  "marriage_pl": null,
+  "marriage_tm": null,
+  "gender": "1",
+  "category": null,
+  "father": null,
+  "mother": null,
+  "partner": null,
+  "religion": null,
+  "educations": null,
+  "faiths": null,
+  "occupations": [
+    {
+      "name": "amateurfotograaf",
+      "begin": "None",
+      "end": "None"
+    }
+  ],
+  "residences": null
+}
