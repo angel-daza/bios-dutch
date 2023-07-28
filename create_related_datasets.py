@@ -1,16 +1,20 @@
 from typing import List, Dict, Any
 import os, json
 import pandas as pd
-from utils.classes import MetadataComplete
+from utils.classes import MetadataComplete, IntaviaEntity, IntaviaDocument
 from stats_unique_people import collect_global_info
+from utils_general import INTAVIA_JSON_ROOT, NER_METHOD_DISPLAY, get_gold_annotations
 
-INPUT_JSON = "data/AllBios_Unified.jsonl"
+INPUT_JSON = "data/Test_Bios_Unified.jsonl" # "data/AllBios_Unified.jsonl"
+FLASK_SEARCHABLE_DF = "flask_app/backend_data/biographies/AllBios_unified_enriched.jsonl"
+FLASK_NER_EVAL = "flask_app/backend_data/biographies/NER_Eval.csv"
+
 SAVE_RESULTS_PATH = "data/BioNetStats"
 
 if not os.path.exists(SAVE_RESULTS_PATH): os.mkdir(SAVE_RESULTS_PATH)
 
 BIONET_XML_FLASK_PATH = "static/bioport_export_2017-03-10"
-BIONET_INTAVIA_JSON_FLASK_PATH = "static/intavia_json"
+
 
 def main():
     bionet_people = [MetadataComplete.from_json(json.loads(l)) for l in open(INPUT_JSON).readlines()]
@@ -20,11 +24,36 @@ def main():
     # global_dicts = collect_global_info(bionet_people)
 
     # ### Create Datasets for other Tasks (Web Visualization, Text classification...)
-    create_flask_searchable_people_data(bionet_people, "flask_app/backend_data/biographies/AllBios_unified_enriched.jsonl")
+    create_flask_ner_eval_data(bionet_people, FLASK_NER_EVAL)
+    create_flask_searchable_people_data(bionet_people, FLASK_SEARCHABLE_DF)
+    
     # create_text_classification_dataset(bionet_people, SAVE_RESULTS_PATH, global_dicts['occup2coarse'])
     # create_wikipedia_dataset(bionet_people, SAVE_RESULTS_PATH)
 
 
+def create_flask_ner_eval_data(people: List[MetadataComplete], dataset_filepath: str):
+    gold_annotations = get_gold_annotations()
+    data = []
+    eval_methods = ['human_gold', 'stanza_nl', 'flair/ner-dutch-large_0.12.2', 'gysbert_hist_fx_finetuned_epoch2']
+    for p in people:
+        for i, text in enumerate(p.texts):
+            save_fields = {}
+            tid = f"{p.person_id}_{p.versions[i]}"
+            save_fields['person_id'] = p.person_id
+            save_fields['text_id'] = tid
+            save_fields['source'] = p.sources[i]
+            save_fields['partition'] = p.partitions[i]
+            # Pre-compute Evaluation Scores
+            if tid in gold_annotations and len(text.strip().strip("\n")) > 0:
+                if 'IAV_' in p.sources[i]:
+                    intavia_filepath = f"{INTAVIA_JSON_ROOT}/IAV_MISC-biographie/{tid}.json"
+                else:
+                    intavia_filepath = f"{INTAVIA_JSON_ROOT}/{p.sources[i]}/{tid}.json"
+                metrics_dict = evaluate_intavia_file(intavia_filepath, methods=eval_methods)
+                for name, val in metrics_dict.items():
+                    save_fields[name] = val
+            data.append(save_fields)
+    pd.DataFrame(data).to_csv(dataset_filepath, index=False)
 
 def create_flask_searchable_people_data(people: List[MetadataComplete], dataset_filepath: str):
     with open(dataset_filepath, 'w') as fout:
@@ -72,13 +101,17 @@ def create_flask_searchable_people_data(people: List[MetadataComplete], dataset_
                 text_ids.append(tid)
                 xml_paths.append(f"{BIONET_XML_FLASK_PATH}/{tid}.xml")
                 if len(text.strip().strip("\n")) > 0:
-                    tot_entities.append(len(p.texts_entities[i]))
+                    if p.texts_entities[i] is not None:
+                        tot_entities.append(len(p.texts_entities[i]))
+                    else:
+                        tot_entities.append(0)
                     person_ments.append("|".join([x.lower() for x in p.getEntityMentions(entity_label='PER', text_ix=i)]))
                     place_ments.append("|".join([x.lower() for x in p.getEntityMentions(entity_label='LOC', text_ix=i)]))
                     texts_with_content.append(text)
                     partitions_with_text.append(p.partitions[i])
                     if 'IAV_' in p.sources[i]:
                         sources_with_text.append("IAV_MISC-biographie")
+                        intavia_filepath = f"{INTAVIA_JSON_ROOT}/IAV_MISC-biographie/{tid}.json"
                     else:
                         sources_with_text.append(p.sources[i])
                     xml_paths_with_text.append(f"{BIONET_XML_FLASK_PATH}/{tid}.xml")
@@ -166,6 +199,24 @@ def create_wikipedia_dataset(people: List[MetadataComplete], dataset_filepath: s
                     f_test.write(row_str)
                     included_ids_ts.add(p.person_id)
 
+
+def evaluate_intavia_file(intavia_filepath: str, methods: List[str]) -> Dict[str, Any]:
+    intavia_obj = json.load(open(intavia_filepath))
+    doc = IntaviaDocument(intavia_obj)
+    eval_columns = {}
+    for m in methods:
+        metrics = doc.evaluate_ner(reference_method="human_gold", eval_method=m, 
+                                            valid_labels=["PER", "ORG", "LOC"],
+                                            ignore_text_after_gold=True)
+        if metrics:
+            for lbl, mtr in metrics['metrics'].items():
+                if lbl != "MICRO":
+                    eval_columns[f"Precision_{lbl}_{NER_METHOD_DISPLAY[m]}"] = mtr['P']
+                    eval_columns[f"Recall_{lbl}_{NER_METHOD_DISPLAY[m]}"] = mtr['R']
+                    eval_columns[f"F1_{lbl}_{NER_METHOD_DISPLAY[m]}"] = mtr['F1']
+                    eval_columns[f"Support_{lbl}"] = mtr['Support']
+
+    return eval_columns
 
 if __name__ == "__main__":
     main()

@@ -120,6 +120,7 @@ if __name__ == "__main__":
             python utils/bionet_unify_people_bios.py "data/seed_data/AllBios.jsonl" "data/All_Bios_Unified.jsonl"
             
             python utils/bionet_unify_people_bios.py "data/seed_data/biographynet_development.jsonl" "data/Dev_Bios_Unified.jsonl"
+            python utils/bionet_unify_people_bios.py "data/seed_data/biographynet_test.jsonl" "data/Test_Bios_Unified.jsonl"
     """
     if len(sys.argv) < 2:
         raise Exception("You need to provide and input and output file [See Run Examples inside the script]")

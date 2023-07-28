@@ -14,9 +14,13 @@ from utils.nlp_tasks import run_bert_ner
 from transformers import pipeline
 from transformers import AutoTokenizer, AutoModelForTokenClassification
 
+from utils_general import INTAVIA_JSON_ROOT
+
 from pymongo import MongoClient
 COLLECTION_NAME = f"bionet_intavia"
 DB_NAME = "biographies"
+
+INTAVIA_JSON_ROOT = "flask_app/backend_data/test/intavia_json" # "flask_app/backend_data/intavia_json"
 
 # A cheat to add layers only on biographies present in the Test Set
 gold_paths = ["data/bionet_gold/biographynet_test_A_gold.json",
@@ -28,10 +32,9 @@ for gold_path in gold_paths:
 
 
 def main_bionet_intavia_files(nlp_config: Dict[str, Any]):
-    JSON_BASEPATH = "flask_app/backend_data/intavia_json/*"
     # Iterate through all files and add the Requested <apply_tasks>
     ctr = 0
-    for src_path in glob.glob(JSON_BASEPATH):
+    for src_path in glob.glob(f"{INTAVIA_JSON_ROOT}/*"):
         for filepath in glob.glob(f"{src_path}/*.json"):
             bio_id = os.path.basename(filepath).strip(".json")
             # if bio_id not in gold_docs: continue # TODO: This is only A TRICK to only add for the Test Set. Should be disabled or parametrized!
@@ -212,7 +215,7 @@ if __name__ == "__main__":
     """
         Running Examples:
 
-            python add_nlp_layers.py --mode files --gold_ner --flair_ner
+            python add_nlp_layers.py --mode files --gold_ner --flair_ner --gysbert_ner 
 
             python add_nlp_layers.py --mode mongo --gold_ner
 

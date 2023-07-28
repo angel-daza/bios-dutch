@@ -55,5 +55,5 @@ def create_individual_bios_by_source(original_bios_path: str, individual_parent_
 # create_individual_bios_by_partition("data/biographynet_train.jsonl", "data/json/bionet", "train")
 
 ### OPTION 2: Generate the individual files of specific sources only
-create_individual_bios_by_source("data/seed_data/AllBios.jsonl", "data/json/bionet")
+# create_individual_bios_by_source("data/seed_data/AllBios.jsonl", "data/json/bionet")
 # create_individual_bios_by_source("data/biographynet_train.jsonl", "data/json/bionet", ["weyerman", "glasius", "vdaa", "knaw"])

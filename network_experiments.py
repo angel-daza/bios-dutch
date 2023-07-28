@@ -5,16 +5,10 @@ import pandas as pd
 import networkx as nx
 import matplotlib.pyplot as plt
 
-from flask_app.classes_mirror import IntaviaEntity, IntaviaDocument, MetadataComplete
+from utils.classes import IntaviaEntity, IntaviaDocument, MetadataComplete
 from stats_unique_people import build_names_dictionaries
+from utils_general import get_gold_annotations, NER_METHOD_DISPLAY
 
-# System Keys: 'human_gold', 'stanza_nl', 'flair/ner-dutch-large_0.12.2', 'gpt-3.5-turbo', 'gysbert_hist_fx_finetuned_epoch2'
-METHOD_DISPLAY = {'human_gold': 'gold', 
-                    'stanza_nl': 'stanza', 
-                    'flair/ner-dutch-large_0.12.2': 'flair', 
-                    'gpt-3.5-turbo': 'gpt', 
-                    'gysbert_hist_fx_finetuned_epoch2': 'gysbert'
-                    }
 
 def main():
     # Get Dataset
@@ -37,20 +31,6 @@ def main():
     #     print(f"----- {sys} -----")
     #     get_network_of_person_mentions(documents["37716498_02"], sys)
 
-
-
-def get_gold_annotations() -> Dict[str, Any]:
-    gold_paths = ["data/bionet_gold/biographynet_test_A_gold.json",
-                  "data/bionet_gold/biographynet_test_B_gold.json", 
-                  "data/bionet_gold/biographynet_test_C_gold.json"]
-    raw_docs = {}
-    for gold_path in gold_paths:
-        raw_docs.update(json.load(open(gold_path)))
-
-    gold_docs = {}
-    for doc_id, obj in raw_docs.items():
-        gold_docs[doc_id] = sorted([IntaviaEntity(**e) for e in obj["entities"]], key= lambda x: x.locationStart)
-    return gold_docs
 
 
 def get_intavia_documents(intavia_files_root:str, gold_docs: Dict[str, List[IntaviaEntity]] = {}, keep_gold_limits: bool = False) -> Dict[str, Any]:
@@ -118,11 +98,11 @@ def get_method_divergence_stats(documents: Dict[str, IntaviaDocument]):
         for method, entity_dist in entity_counts.items():
             total_freq = 0
             for lbl, freq in entity_dist:
-                row[f"{lbl.lower()}_freq_{METHOD_DISPLAY[method]}"] = freq
+                row[f"{lbl.lower()}_freq_{NER_METHOD_DISPLAY[method]}"] = freq
                 total_freq += freq
                 label2method_mapping[lbl].append(freq)
-            row[f"entity_freq_{METHOD_DISPLAY[method]}"] = total_freq
-            row[f"entity_density_{METHOD_DISPLAY[method]}"] = round(total_freq*100 / token_len, 2)
+            row[f"entity_freq_{NER_METHOD_DISPLAY[method]}"] = total_freq
+            row[f"entity_density_{NER_METHOD_DISPLAY[method]}"] = round(total_freq*100 / token_len, 2)
         # Get Info from label distribution across methods
         for lbl, method_dist in label2method_mapping.items():
             if len(method_dist) > 1:

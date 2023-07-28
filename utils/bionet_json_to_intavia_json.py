@@ -1,5 +1,11 @@
+"""
+    EXAMPLE RUN:
+        python3 utils/bionet_json_to_intavia_json.py files "data/seed_data/AllBios.jsonl" "flask_app/backend_data/intavia_json" 
+        python3 utils/bionet_json_to_intavia_json.py files "data/seed_data/biographynet_test.jsonl" "flask_app/backend_data/test/intavia_json_v2"
+"""
+
 import json, os, sys
-from typing import Dict, Any, List, TypeVar
+from typing import Dict, Any, List, TypeVar, Tuple
 from dataclasses import dataclass, asdict
 from collections import defaultdict
 from classes import IntaviaToken
@@ -23,11 +29,11 @@ sources = ['bioport', 'raa', 'rkdartists', 'dvn', 'vdaa', 'weyerman', 'bwsa', 'b
                     'smoelenboek', 'na', 'bwn', 'IAV_MISC-biographie', 'jews', 'bwg', 'bwn_1780tot1830', 'elias']
 
 
-def main(output_mode: str):
+def main(bionet_json:str, output_mode: str, output_root: str):
     if output_mode == "mongo":
-        convert_to_intavia_mongo(bionet_filepath=f"data/seed_data/AllBios.jsonl")
+        convert_to_intavia_mongo(bionet_filepath=bionet_json)
     elif output_mode == "files":
-        convert_to_intavia_files(bionet_filepath=f"data/seed_data/AllBios.jsonl", output_path=f"flask_app/backend_data/intavia_json")
+        convert_to_intavia_files(bionet_filepath=bionet_json, output_path=output_root)
     else:
         raise NotImplementedError
 
@@ -53,8 +59,8 @@ def convert_to_intavia_files(bionet_filepath: str, output_path: str):
                 doc[key] = nlp_instance[key]
             # Add NLP Related Info
             if len(nlp_instance['text_token_objects']) > 0:
-                doc['data']['tokenization'] = nlp_instance["text_tokens"]
-                doc['data']['morpho_syntax'] = nlp_to_dict(nlp_instance)
+                doc['data']['tokenization'] = {"stanza_nl": nlp_instance["text_tokens"]}
+                doc['data']['morpho_syntax'] = {"stanza_nl": nlp_to_dict(nlp_instance)}
                 doc['data']['entities'] = legacy_entity_mapper(nlp_instance.get('text_entities', []), "stanza_nl")
                 doc['data']['time_expressions'] = legacy_timex_mapper(nlp_instance.get('text_timex', []), "heideltime")
             # Write the Output File
@@ -98,6 +104,17 @@ def get_basic_doc_schema(text_id: str, text: str, basic_nlp_processor: str):
     return json_doc
 
 
+def sentence_from_token_objects(token_objects: List[str]) -> Tuple[str, List[str]]:
+    sentence_original, sentence_tokenized = "", []
+    for tok in token_objects:
+        sentence_tokenized.append(tok['text'])
+        if tok["space_after"]:
+            sentence_original += f"{tok['text']} "
+        else:
+            sentence_original += f"{tok['text']}"
+    return sentence_original, sentence_tokenized
+
+
 def nlp_to_dict(nlp_dict: Dict[str, Any]) -> Dict[str, Any]:
     sentencized, token_objs = defaultdict(list), []
     for tok in nlp_dict['text_token_objects']:
@@ -106,11 +123,12 @@ def nlp_to_dict(nlp_dict: Dict[str, Any]) -> Dict[str, Any]:
         except:
             return []
     for sent_id, sentence in sentencized.items():
-        sent_text = " ".join([tok['text'] for tok in sentence])
+        sent_text, tokens = sentence_from_token_objects(sentence)
         token_objs.append({
-            "paragraph": None,
-            "sentence": sent_id,
+            "paragraphID": None,
+            "sentenceID": sent_id,
             "text": sent_text,
+            "tokenized": " ".join(tokens),
             "words": [asdict(nlp_token2json_token(tok)) for tok in sentence]
         })
     return token_objs
@@ -210,8 +228,10 @@ def transfer_json_to_mongo(filepath: str, collection: MongoCollection) -> bool:
 
 if __name__ == "__main__":
 
-    if len(sys.argv) != 2:
-        print("You need to provide one argument: 'mongo' or 'files'")
+    if len(sys.argv) != 4:
+        print("You need to provide three arguments: <storage_type> ['mongo' | 'files'] <input_json> ['path/to/BiosFile.jsonl'] <output_path> ['path/to/filestorage']")
     else:
         output_mode = sys.argv[1] # "mongo" | "files"
-        main(output_mode)
+        bionet_json = sys.argv[2] 
+        output_root = sys.argv[3] # Will be ignored if mode == mongo 
+        main(bionet_json, output_mode, output_root)

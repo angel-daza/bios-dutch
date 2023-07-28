@@ -5,7 +5,7 @@
 from typing import Dict, List, NamedTuple, Union, Tuple, Optional, Any
 from collections import Counter, defaultdict
 from dataclasses import dataclass
-import re
+import re, statistics
 
 
 @dataclass 
@@ -88,16 +88,89 @@ class IntaviaSentence:
     words: List[IntaviaToken]
 
 
+def _evaluate_ner(reference: List[IntaviaEntity], hypothesis: List[IntaviaEntity]) -> Dict[str, Any]:
+    sorted_ref = sorted(reference, key = lambda ent: ent.locationStart)
+    sorted_hyp = sorted(hypothesis, key = lambda ent: ent.locationStart)     
+    
+    full_match = []     # TP) TruePositives (Exactly the same in both) - match
+    hallucination = []  # FP) FalsePositives (Missing in Gold) - error
+    missed = []         # FN) FalseNegative (Missing in System Output) - missed
+    label_error = []    #   -   The subset of errors that has the correct span but WRONG LABEL
+    span_error = []     #   -   Right Label but WRONG SPAN. TP or FP/FN? Depends on Strictness: TP is partial matches allowed, or FP/FN if only exact matches count
+
+    for ref in sorted_ref:
+        for hyp in sorted_hyp:
+            if hyp.locationStart > ref.locationEnd:
+                break
+            if ref == hyp:
+                full_match.append(ref)
+            elif ref.span_match(hyp) and ref.category != hyp.category:
+                missed.append(ref)
+                label_error.append((ref, hyp))
+            elif ref.span_partial_match(hyp):
+                missed.append(ref)
+                if ref.category == hyp.category:
+                    span_error.append((ref, hyp))
+                else:
+                    label_error.append((ref, hyp))
+
+    # span_err_hyp = [y for x,y in span_error]
+    # label_err_hyp = [y for x,y in label_error]
+    for hyp in sorted_hyp:
+        # if hyp not in sorted_ref and hyp not in missed and hyp not in span_err_hyp and hyp not in label_err_hyp:
+        if hyp not in sorted_ref and hyp not in missed:
+            hallucination.append(hyp)
+
+    # Double-check the Missed and LabelError Array, in case the overlapped entities were already counted in the TruePositives
+    # e.g. (1489, 'landing der Engelsche in Zeeland', 'MISC', 'Zeeland', 'LOC'), AND (1514, 'Zeeland', 'LOC', 'landing der Engelsche in Zeeland', 'MISC')
+    filtered_missed = []
+    for m in missed:
+        if m not in full_match:
+            filtered_missed.append(m)
+    missed = filtered_missed
+    filtered_label_err = []
+    for x,y in label_error:
+        if y not in full_match:
+            filtered_label_err.append((x,y))
+    label_error = filtered_label_err
+    # Compute Metrics
+    tp, fp, fn = len(full_match), len(hallucination), len(missed)
+    prec = 0 if tp+fp == 0 else 100*tp/(tp+fp)
+    rec = 0 if tp+fn == 0 else 100*tp/(tp+fn)
+    f1 = 0 if prec+rec == 0 else 2*(prec*rec)/(prec+rec)
+    # Return Everything
+    return {
+        # "reference": [(ent.locationStart, ent.surfaceForm, ent.category) for ent in sorted_ref],
+        # "hypothesis": [(ent.locationStart, ent.surfaceForm, ent.category) for ent in sorted_hyp],
+        "Full Match": [(ent.locationStart, ent.surfaceForm, ent.category, "TP") for ent in full_match],
+        "Span Errors": [(ent1.surfaceForm, ent2.surfaceForm, "FP") for (ent1, ent2) in span_error],
+        "Label Errors": [(ent1.surfaceForm, ent1.category, ent2.category, "FP") for (ent1, ent2) in label_error],
+        "Full Errors (not in Gold)": [(f"{ent.locationStart}_{ent.locationEnd}", ent.surfaceForm, ent.category, "FP") for ent in hallucination],
+        "Missed Entities": [(ent.locationStart, ent.surfaceForm, ent.category, "FN") for ent in missed],
+        "Support": len(reference),
+        "TP": tp, # True Positives
+        "FP": fp, # False Positives
+        "FN": fn, # False Negatives
+        "Precision": "{:.1f}".format(prec),
+        "Recall": "{:.1f}".format(rec),
+        "F1": "{:.1f}".format(f1)
+    }
+
 
 class IntaviaDocument:
-    def __init__(self, intavia_dict: Dict[str, Any]):
+    def __init__(self, intavia_dict: Dict[str, Any], nlp_base_model: str = 'stanza_nl'):
         self.text_id: str = intavia_dict['text_id']
         self.text:str = intavia_dict['data']['text']
-        self.tokenization: str = intavia_dict['data']['tokenization']
+        if isinstance(intavia_dict['data']['tokenization'], List): # For Compatibility with previous IntaviaJSON Template
+            self.tokenization: List[str] = intavia_dict['data']['tokenization']
+            morpho = intavia_dict['data']['morpho_syntax']
+        else:
+            self.tokenization: List[str] = intavia_dict['data']['tokenization'][nlp_base_model]
+            morpho = intavia_dict['data']['morpho_syntax'][nlp_base_model]
         self.morpho_syntax: List[IntaviaSentence] = [] 
-        for sent_obj in intavia_dict['data']['morpho_syntax']:
+        for sent_obj in morpho:
             tokens = [IntaviaToken(**word_obj) for word_obj in sent_obj['words']]
-            sentence = IntaviaSentence(sent_obj['paragraph'], sent_obj['sentence'], sent_obj['text'], tokens)
+            sentence = IntaviaSentence(sent_obj['paragraphID'], sent_obj['sentenceID'], sent_obj['text'], tokens)
             self.morpho_syntax.append(sentence)
         self.entities: List[IntaviaEntity] = [IntaviaEntity(**ent) for ent in intavia_dict['data'].get('entities', [])]
         self.time_expressions: List[IntaviaTimex] = [IntaviaTimex(**tim) for tim in intavia_dict['data'].get('time_expressions', [])]
@@ -207,7 +280,6 @@ class IntaviaDocument:
         
         return entity_table
 
-
     def get_confidence_entities(self, mode: str = "spans") -> List[Dict]:
         " mode = 'spans' or 'ents' "
        
@@ -255,13 +327,54 @@ class IntaviaDocument:
                 entity_confidence_spans.append({"text": text, "start": int(start), "end": int(end), "label": confidence_cat})
         
         return entity_confidence_spans
-
-
     
     def get_entities_IOB(self) -> List[str]:
         raise NotImplementedError
 
-
+    def evaluate_ner(self, reference_method: str, eval_method: str, valid_labels: List[str] = None, ignore_text_after_gold:bool = False) -> Dict[str, Any]:
+        nlp_systems = self.get_available_methods("entities")
+        # Gold INFO
+        reference_entities = sorted(self.get_entities([reference_method], valid_labels=valid_labels), key = lambda ent: ent.locationStart)
+        # Return Empty if there is no Gold or if the method to evaluate is not available in the File
+        if len(reference_entities) == 0 or eval_method not in nlp_systems: return None
+        if not valid_labels: 
+            valid_labels = list(set([e.category for e in reference_entities]))
+        # Predictions INFO
+        if ignore_text_after_gold:
+            last_char_to_eval = reference_entities[-1].locationEnd + 1
+        else:
+            last_char_to_eval = len(self.text)
+        predicted_entities = sorted([ent for ent in self.get_entities(valid_labels=valid_labels) if ent.method == eval_method], key = lambda ent: ent.locationStart)
+        predicted_entities = [pe for pe in predicted_entities if pe.locationStart < last_char_to_eval]
+        # --- EVALUATION ---
+        all_metrics_dict = {}
+        # TOTAL EVAL (MICRO -> Accuracy)
+        micro_metrics = _evaluate_ner(reference_entities, predicted_entities)
+        all_metrics_dict["MICRO"] = {"P": micro_metrics["Precision"], "R": micro_metrics["Recall"], "F1": micro_metrics["F1"], "Support": micro_metrics["Support"],
+                                    "TP": micro_metrics["TP"], "FP": micro_metrics["FP"], "FN": micro_metrics["FN"]}
+        errors = {k:v for k,v in micro_metrics.items() if k not in all_metrics_dict["MICRO"].keys()}
+        # TOTAL MACRO (Unweighted Average of Scores)
+        total_freq = 0
+        macro_p, macro_r, macro_f = [], [], []
+        all_metrics_dict["MACRO"] = {}
+        for lbl in valid_labels:
+            lbl_gold = [x for x in reference_entities if x.category == lbl]
+            lbl_pred = [x for x in predicted_entities if x.category == lbl]
+            lbl_metrics = _evaluate_ner(lbl_gold, lbl_pred)
+            if  lbl_metrics["Support"] > 0:
+                macro_p.append(float(lbl_metrics["Precision"]))
+                macro_r.append(float(lbl_metrics["Recall"]))
+                macro_f.append(float(lbl_metrics["F1"]))
+                total_freq += lbl_metrics["Support"]
+                all_metrics_dict[lbl] = {"P": lbl_metrics["Precision"], "R": lbl_metrics["Recall"], "F1": lbl_metrics["F1"], "Support": lbl_metrics["Support"],
+                                    "TP": lbl_metrics["TP"], "FP": lbl_metrics["FP"], "FN": lbl_metrics["FN"]}
+        if  total_freq > 0:
+            all_metrics_dict["MACRO"]["Support"] = total_freq
+            all_metrics_dict["MACRO"]["P"] = round(statistics.mean(macro_p), 2)
+            all_metrics_dict["MACRO"]["R"] = round(statistics.mean(macro_r), 2)
+            all_metrics_dict["MACRO"]["F1"] = round(statistics.mean(macro_f), 2)
+        
+        return {"metrics": all_metrics_dict, "errors": errors}
 
 
 class Event:
@@ -270,32 +383,36 @@ class Event:
     def __init__(self, label, location, date):
         self.label: str = label
         self.location: str = location
-        self.date: str = date.strip() if date else None
-        self.date_tuple = None
-        self.date_range: Tuple = None
+        if date and isinstance(date, str):
+            date = date.strip()
+        elif date and isinstance(date, float):
+            date = str(int(date))
+        self.date: str = date if date else None
+        self.date_tuple: Tuple = (-1, -1, -1)
+        self.date_range: Tuple = (-1, -1)
         self.date_is_certain = True
-        # The Date Field is too dirtye. Here we pack everything in a tuple to later make calculations easier
-        if date is not None and len(self.date) > 0:
+        # The Date Field is too dirty. Here we pack everything in a tuple to later make calculations easier
+        if self.date and len(self.date) > 0:
             info_full = re.search(r"(\d{4})-(\d{2})-(\d{2})?", self.date) # Exact Full Date Known
             if info_full: 
                 self.date_tuple = (int(info_full.group(1)), int(info_full.group(2)), int(info_full.group(3))) # (1708, 10, 11)
             elif len(self.date) == 4 or len(self.date) == 3: # Only the year is known
-                self.date_tuple = (int(self.date), 0, 0) # (1708, )
+                self.date_tuple = (int(self.date), -1, -1) # (1708, )
             elif self.date == '?':
                 self.date_is_certain = False
             else:
                 info_year_month = re.search(r"(\d{4})-(\d{2})", self.date)
                 if info_year_month:
-                    self.date_tuple = (int(info_year_month.group(1)), int(info_year_month.group(2))) 
+                    self.date_tuple = (int(info_year_month.group(1)), int(info_year_month.group(2)), -1) 
                 else:
                     info_range_4 = re.search(r"(\d{4})~(\d{4})", self.date) # Event happened sometime between two years (e.g. 1919~1934)
                     info_range_3 = re.search(r"(\d{3})~(\d{3})", self.date) # Event happened sometime between two years (e.g. 519~534)
                     if info_range_4:
-                        self.date_tuple = (int(info_range_4.group(1)), 0, 0) # Arbitrarily choose the first date
+                        self.date_tuple = (int(info_range_4.group(1)), -1, -1) # Arbitrarily choose the first date
                         self.date_range = (int(info_range_4.group(1)),int(info_range_4.group(2)))
                         self.date_is_certain = False
                     elif info_range_3:
-                        self.date_tuple = (int(info_range_3.group(1)), 0, 0) # Arbitrarily choose the first date
+                        self.date_tuple = (int(info_range_3.group(1)), -1, -1) # Arbitrarily choose the first date
                         self.date_range = (int(info_range_3.group(1)),int(info_range_3.group(2)))
                         self.date_is_certain = False
                     else:
@@ -303,12 +420,11 @@ class Event:
                         info_year_3 = re.search(r"(\d{3})", self.date)
                         self.date_is_certain = False
                         try:
-                            self.date_tuple = (int(info_year.group(1)), 0, 0)
+                            self.date_tuple = (int(info_year.group(1)), -1, -1)
                         except:
                             try:
-                                self.date_tuple = (int(info_year_3.group(1)), 0, 0)
+                                self.date_tuple = (int(info_year_3.group(1)), -1, -1)
                             except:
-                                self.date_tuple = None
                                 # TODO: Comment the following lines. For now, they are here to explicitly catch "strange" date formats
                                 if not any([x.isalpha() for x in self.date]):
                                     print("DATE -->",self.date, len(self.date))
@@ -354,7 +470,6 @@ class Event:
             return self.location
         else:
             return None
-
 
 
 class State:
@@ -408,28 +523,41 @@ class State:
 
 def _process_dates_from_events(date_events: List[Event], method: str) -> Tuple[int, int, int]:
         """
-            method: 'full_date' | 'year_only'
+            method: 'valid_full_dates' | 'valid_years' | 'most_likely_date'
         """
-        my_date = (-1, 0, 0)
-        if len(date_events) == 0: return  my_date
 
         valid_dates = set()
         for event in date_events:
-            if event.date_tuple and len(event.date_tuple) == 3: 
+            if event.date_tuple and event.date_tuple != (-1, -1, -1): 
                 valid_dates.add(event.date_tuple)
 
-        if method == 'full_date':
-            valid_full = [d for d in valid_dates if d[1] != 0 and d[2] != 0]
-            if len(valid_full) > 0:
-                my_date = list(valid_full)[0] # For now we dont resolve in case there are discrepancies. So we return a random valid date as a Tuple
-        elif method == 'year_only':
-            valid_years = [d[0] for d in valid_dates]
+        if method == 'valid_full_dates':
+            valid_full = set([d for d in valid_dates if d[1] != -1 and d[2] != -1])
+            return list(valid_full)
+        elif method == 'valid_years':
+            valid_years = set([d[0] for d in valid_dates])
+            return list(valid_years)
+        elif method == 'most_likely_date':
+            valid_years = [d[0] for d in valid_dates if d[0] > 0]
+            valid_months = [d[1] for d in valid_dates if d[1] > 0]
+            valid_days = [d[2] for d in valid_dates if d[2] > 0]
             if len(valid_years) > 0:
                 most_repeated_year = Counter(valid_years).most_common(1)[0][0]
-                my_date = (int(most_repeated_year), 0, 0) # No day nor month known
+                if len(valid_months) > 0:
+                    most_repeated_month = Counter(valid_months).most_common(1)[0][0]
+                else:
+                    most_repeated_month = -1
+                if len(valid_days) > 0:
+                    most_repeated_day = Counter(valid_days).most_common(1)[0][0]
+                else:
+                    most_repeated_day = -1
+                my_date = (int(most_repeated_year), int(most_repeated_month), int(most_repeated_day)) # Ensemble a Full-Date with the most frequent data
+                return my_date
+            else:
+                return (-1, -1, -1)
         else:
+            print(f"Invalid Date Processing Method {method}")
             raise NotImplementedError
-        return my_date
 
 
 def _get_state_info(states: List[State], method: str):
@@ -768,8 +896,8 @@ class MetadataComplete:
          to avoid 'borderline' cases: e.g. a person dying in 1901, should be classified as XIX century. A person born in 1799 should be also XIX century...
          Conflicts still exist but should be less.
         """
-        birth_year = self.getBirthDate('year_only')[0]
-        death_year = self.getDeathDate('year_only')[0]
+        birth_year = self.getBirthDate()[0]
+        death_year = self.getDeathDate()[0]
         if birth_year != -1 and death_year != -1:
             year = (birth_year+death_year)/2
         elif birth_year != -1:
@@ -808,18 +936,22 @@ class MetadataComplete:
         return _get_state_info(self.faiths, method)
 
 
-    def getBirthDate(self, method: str = 'full_date') -> Tuple[int, int, int]:
-        """ Returns a Tuple(year, month, day) with the date. If it is Unknown then the default tuple is (-1, 0, 0)
-        method (str, optional): 'full_date' | 'year_only' | 'stringified_all'
+    def getBirthDate(self, method: str = 'most_likely_date') -> Tuple[int, int, int]:
+        """ Returns a Tuple(year, month, day) with the date. If it is Fully Unknown it returns None. The default tuple is (-1, -1, -1)
+        method (str, optional): 'all_valid_dates' | 'valid_full_dates' | 'valid_years' | 'most_likely_date' | 'stringified_all'
         """
-        if method == 'stringified_all':
+        if method == 'stringified_all' or method == 'all_valid_dates':
             births = set()
             for bev in self.births:
                 if bev and bev.date and len(bev.date) > 0:
                     births.add(str(bev))
-            return list(births)
+            if method == 'stringified_all':
+                return ", ".join(births)
+            else:
+                return births
         else:
             return _process_dates_from_events(self.births, method=method)
+
     
     def birthDate_is_intext(self) -> bool:
         """
@@ -914,11 +1046,21 @@ class MetadataComplete:
             birth_year = proposed_dates[0][0]
         return birth_year
     
-    def getDeathDate(self, method: str = 'full_date') -> str:
-        """ Returns a Tuple(year, month, day) with the date. If it is Unknown then the default tuple is (-1, 0, 0)
-        method (str, optional): 'full_date' | 'year_only'  | 'stringified_all'
+    def getDeathDate(self, method: str = 'most_likely_date') -> str:
+        """ Returns a Tuple(year, month, day) with the date. If it is Fully Unknown it returns None. The default tuple is (-1, -1, -1)
+        method (str, optional):  'all_valid_dates' | 'valid_full_dates' | 'valid_years' | 'most_likely_date' | 'stringified_all'
         """
-        return _process_dates_from_events(self.deaths, method=method)
+        if method == 'stringified_all' or method == 'all_valid_dates':
+            deaths = set()
+            for dev in self.deaths:
+                if dev and dev.date and len(dev.date) > 0:
+                    deaths.add(str(dev))
+            if method == 'stringified_all':
+                return ", ".join(deaths)
+            else:
+                return deaths
+        else:
+            return _process_dates_from_events(self.deaths, method=method)
     
     def getBirthPlace(self) -> str:
         if self.births and len(self.births) > 0:
@@ -944,13 +1086,15 @@ class MetadataComplete:
         ents = []
         if text_ix < 0:
             for ent_list in self.texts_entities:
-                for ent in ent_list:
-                    if ent and ent[1] == entity_label:
-                        ents.append(ent[0])
+                if ent_list:
+                    for ent in ent_list:
+                        if ent and ent['label'] == entity_label:
+                            ents.append(ent['text'])
         elif text_ix < len(self.texts):
+            if not self.texts_entities[text_ix]: return []
             for ent in self.texts_entities[text_ix]:
-                if ent and ent[1] == entity_label:
-                        ents.append(ent[0])
+                if ent and ent['label'] == entity_label:
+                        ents.append(ent['text'])
         return ents
 
     def getRelatedMetadataPlaces(self) -> List[str]:

@@ -157,7 +157,7 @@
         <div class="card mt-5 w-100 border-primary">
             <div class="card-header">{{title}}</div>
             <div class="card-body">
-              {% for metric, val in eval.items() %}
+              {% for metric, val in eval["errors"].items() %}
                 <h5 class="card-title"> <b>{{metric}}:</b> {{val}}</h5>
                 {% endfor %}
             </div>
