@@ -11,8 +11,6 @@ import ner_evaluation
 from utils.classes import IntaviaDocument
 from utils_general import FLASK_ROOT, INTAVIA_JSON_ROOT
 
-# FLASK_ROOT = "flask_app/backend_data"
-# INTAVIA_JSON_ROOT = f"{FLASK_ROOT}/test/intavia_json/"
 
 GLOBAL_QUERY = []
 

@@ -5,9 +5,9 @@ import pandas as pd
 import networkx as nx
 import matplotlib.pyplot as plt
 
-from utils.classes import IntaviaEntity, IntaviaDocument, MetadataComplete
+from utils.classes import IntaviaEntity, IntaviaDocument, MetadataComplete, NER_METHOD_DISPLAY
 from stats_unique_people import build_names_dictionaries
-from utils_general import get_gold_annotations, NER_METHOD_DISPLAY, INTAVIA_JSON_ROOT
+from utils_general import get_gold_annotations, INTAVIA_JSON_ROOT
 
 
 def main():
@@ -85,33 +85,17 @@ def get_entity_stats(documents: Dict[str, IntaviaDocument]):
 def get_method_divergence_stats(documents: Dict[str, IntaviaDocument]):
     data = []
     for doc_id, doc in documents.items():
-        token_len = len(doc.tokenization)
         row = {
-                'text_id': doc_id,
-                'name': doc.metadata['name'],
-                'birth_time': doc.metadata['birth_tm'],
-                'death_time': doc.metadata['death_tm'],
-                'tokens': token_len,
+                'name': doc.metadata.get('name'),
+                'birth_time': doc.metadata.get('birth_tm'),
+                'death_time': doc.metadata.get('death_tm')
                 }
-        entity_counts = doc.get_entity_counts(valid_labels=['PER', 'LOC', 'ORG'])
-        label2method_mapping = defaultdict(list)
-        for method, entity_dist in entity_counts.items():
-            total_freq = 0
-            for lbl, freq in entity_dist:
-                row[f"{lbl.lower()}_freq_{NER_METHOD_DISPLAY[method]}"] = freq
-                total_freq += freq
-                label2method_mapping[lbl].append(freq)
-            row[f"entity_freq_{NER_METHOD_DISPLAY[method]}"] = total_freq
-            row[f"entity_density_{NER_METHOD_DISPLAY[method]}"] = round(total_freq*100 / token_len, 2)
-        # Get Info from label distribution across methods
-        for lbl, method_dist in label2method_mapping.items():
-            if len(method_dist) > 1:
-                row[f"{lbl.lower()}_stdev"] = round(statistics.stdev(method_dist), 4)
-            else:
-                row[f"{lbl.lower()}_stdev"] = 0
+        ent_variance = doc.get_ner_variance(valid_labels=['PER', 'LOC', 'ORG'])
+        for name, val in ent_variance.items():
+            row[name] = val
         # Append the computed fields into the table
         data.append(row)
-    df = pd.DataFrame(data).sort_values(by=['per_stdev', 'per_freq_gold'], ascending=False)
+    df = pd.DataFrame(data).sort_values(by=['per_stdev', 'per_freq_human_gold'], ascending=False)
     df.to_csv("local_outputs/method_divergence_stats.csv")
 
 

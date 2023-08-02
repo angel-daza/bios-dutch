@@ -8,6 +8,15 @@ from dataclasses import dataclass
 import re, statistics
 
 
+# System Keys: 'human_gold', 'stanza_nl', 'flair/ner-dutch-large_0.12.2', 'gpt-3.5-turbo', 'gysbert_hist_fx_finetuned_epoch2'
+NER_METHOD_DISPLAY = {'human_gold': 'gold', 
+                    'stanza_nl': 'stanza', 
+                    'flair/ner-dutch-large_0.12.2': 'flair', 
+                    'gpt-3.5-turbo': 'gpt', 
+                    'gysbert_hist_fx_finetuned_epoch2': 'gysbert'
+                    }
+
+
 @dataclass 
 class IntaviaToken:
     ID: int
@@ -227,7 +236,6 @@ class IntaviaDocument:
             for ent in self.entities:
                 ent.normalize_label()
                 normalized_entities.append(ent)
-
         if 'all' in methods:
             entities = normalized_entities
         elif 'intersection' in methods:
@@ -376,6 +384,30 @@ class IntaviaDocument:
         
         return {"metrics": all_metrics_dict, "errors": errors}
 
+    def get_ner_variance(self, valid_labels: List[str] = ['PER', 'LOC', 'ORG', 'MISC']) -> Dict[str, float]:
+        token_len = len(self.tokenization)
+        row = {
+                'text_id': self.text_id,
+                'tokens': token_len,
+                }
+        entity_counts = self.get_entity_counts(valid_labels=valid_labels)
+        label2method_mapping = defaultdict(list)
+        for method, entity_dist in entity_counts.items():
+            total_freq = 0
+            for lbl, freq in entity_dist:
+                row[f"{lbl.lower()}_freq_{method}"] = freq
+                total_freq += freq
+                label2method_mapping[lbl].append(freq)
+            row[f"entity_freq_{method}"] = total_freq
+            row[f"entity_density_{method}"] = round(total_freq*100 / token_len, 2)
+        # Get Info from label distribution across methods
+        for lbl, method_dist in label2method_mapping.items():
+            if len(method_dist) > 1:
+                row[f"{lbl.lower()}_stdev"] = round(statistics.stdev(method_dist), 4)
+            else:
+                row[f"{lbl.lower()}_stdev"] = 0
+        
+        return row
 
 class Event:
     '''Object that can describe an event (time, place, description)'''

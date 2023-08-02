@@ -1,9 +1,8 @@
 from typing import List, Dict, Any
 import os, json
 import pandas as pd
-from utils.classes import MetadataComplete, IntaviaEntity, IntaviaDocument
-from stats_unique_people import collect_global_info
-from utils_general import INTAVIA_JSON_ROOT, NER_METHOD_DISPLAY, get_gold_annotations
+from utils.classes import MetadataComplete, IntaviaDocument, NER_METHOD_DISPLAY
+from utils_general import INTAVIA_JSON_ROOT, get_gold_annotations
 
 INPUT_JSON = "data/Test_Bios_Unified.jsonl" # "data/AllBios_Unified.jsonl"
 FLASK_SEARCHABLE_DF = "flask_app/backend_data/biographies/AllBios_unified_enriched.jsonl"
@@ -49,11 +48,16 @@ def create_flask_ner_eval_data(people: List[MetadataComplete], dataset_filepath:
                     intavia_filepath = f"{INTAVIA_JSON_ROOT}/IAV_MISC-biographie/{tid}.json"
                 else:
                     intavia_filepath = f"{INTAVIA_JSON_ROOT}/{p.sources[i]}/{tid}.json"
-                metrics_dict = evaluate_intavia_file(intavia_filepath, methods=eval_methods)
+                doc = IntaviaDocument(json.load(open(intavia_filepath)))
+                metrics_dict = evaluate_intavia_file(doc, methods=eval_methods)
                 for name, val in metrics_dict.items():
+                    save_fields[name] = val
+                variance_info = doc.get_ner_variance(valid_labels=['PER', 'LOC', 'ORG'])
+                for name, val in variance_info.items():
                     save_fields[name] = val
             data.append(save_fields)
     pd.DataFrame(data).to_csv(dataset_filepath, index=False)
+
 
 def create_flask_searchable_people_data(people: List[MetadataComplete], dataset_filepath: str):
     with open(dataset_filepath, 'w') as fout:
@@ -111,7 +115,6 @@ def create_flask_searchable_people_data(people: List[MetadataComplete], dataset_
                     partitions_with_text.append(p.partitions[i])
                     if 'IAV_' in p.sources[i]:
                         sources_with_text.append("IAV_MISC-biographie")
-                        intavia_filepath = f"{INTAVIA_JSON_ROOT}/IAV_MISC-biographie/{tid}.json"
                     else:
                         sources_with_text.append(p.sources[i])
                     xml_paths_with_text.append(f"{BIONET_XML_FLASK_PATH}/{tid}.xml")
@@ -200,9 +203,7 @@ def create_wikipedia_dataset(people: List[MetadataComplete], dataset_filepath: s
                     included_ids_ts.add(p.person_id)
 
 
-def evaluate_intavia_file(intavia_filepath: str, methods: List[str]) -> Dict[str, Any]:
-    intavia_obj = json.load(open(intavia_filepath))
-    doc = IntaviaDocument(intavia_obj)
+def evaluate_intavia_file(doc: IntaviaDocument, methods: List[str]) -> Dict[str, Any]:
     eval_columns = {}
     for m in methods:
         metrics = doc.evaluate_ner(reference_method="human_gold", eval_method=m, 
