@@ -5,7 +5,6 @@ from utils.classes import IntaviaEntity
 FLASK_ROOT = "flask_app/backend_data"
 INTAVIA_JSON_ROOT = f"{FLASK_ROOT}/intavia_json/"
 
-
 def get_gold_annotations() -> Dict[str, Any]:
     gold_paths = ["data/bionet_gold/biographynet_test_A_gold.json",
                   "data/bionet_gold/biographynet_test_B_gold.json", 
