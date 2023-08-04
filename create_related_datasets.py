@@ -206,7 +206,9 @@ def create_wikipedia_dataset(people: List[MetadataComplete], dataset_filepath: s
 def evaluate_intavia_file(doc: IntaviaDocument, methods: List[str]) -> Dict[str, Any]:
     eval_columns = {}
     for m in methods:
-        metrics = doc.evaluate_ner(reference_method="human_gold", eval_method=m, 
+        eval_type = "full_match"
+        metrics = doc.evaluate_ner(reference_method="human_gold", eval_method=m,
+                                            evaluation_type=eval_type, 
                                             valid_labels=["PER", "ORG", "LOC"],
                                             ignore_text_after_gold=True)
         if metrics:

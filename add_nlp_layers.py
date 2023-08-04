@@ -1,13 +1,15 @@
 from typing import List,Dict, Any, Tuple
 import glob, json, os
-from utils.nlp_tasks import run_flair
 import argparse
 import pandas as pd
+from collections import Counter
 
 from flair import __version__ as flair_version
 from flair.data import Sentence
 from flair.models import SequenceTagger
 from flair.splitter import SegtokSentenceSplitter
+
+from utils.nlp_tasks import run_flair
 
 import stanza
 from utils.nlp_tasks import run_bert_ner
@@ -20,7 +22,6 @@ from pymongo import MongoClient
 COLLECTION_NAME = f"bionet_intavia"
 DB_NAME = "biographies"
 
-INTAVIA_JSON_ROOT = "flask_app/backend_data/test/intavia_json" # "flask_app/backend_data/intavia_json"
 
 # A cheat to add layers only on biographies present in the Test Set
 gold_paths = ["data/bionet_gold/biographynet_test_A_gold.json",
@@ -211,6 +212,34 @@ def add_chatgpt_ner(intavia_obj, gpt_outputs, model_label):
     intavia_obj['data']['entities'] += gpt_ents
     return intavia_obj
 
+def read_gpt_content(filepath: str, valid_labels: List[str]) -> List[Dict[str, Any]]:
+    data = []
+    with open(filepath) as f:
+        for ix, line in enumerate(f):
+            if ix == 0: continue
+            elems = line.split("\t")
+            if len(elems) > 3:
+                label = elems[1].upper()
+                try:
+                    start = int(elems[2])
+                    end = int(elems[3])
+                except:
+                    start, end = -1, -1
+                if label in valid_labels and start >= 0:
+                    row = {
+                        "Entity": elems[0],	
+                        "Label": label,
+                        "Span Start": start,	
+                        "Span End": end
+                    }
+                    data.append(row)
+                # else:
+                #     row = {"Label": "ERR"}
+                #     print("CHECHENTON",filepath, ix, elems)
+                #     data.append(row)
+                    
+    return data
+
 if __name__ == "__main__":
     """
         Running Examples:
@@ -281,16 +310,19 @@ if __name__ == "__main__":
         }
         err = 0
         gpt_outputs = {}
+        label_dist = []
         for filepath in glob.glob(f"{NLP_CONFIG['chatgpt_ner']['gpt_outputs_dir']}/*.tsv"):
             bio_id = os.path.basename(filepath).split(".")[0]
             try:
-                content = pd.read_csv(filepath, sep="\t").to_dict(orient='records')
-                gpt_outputs[bio_id] = content
+                gpt_outputs[bio_id] = read_gpt_content(filepath, valid_labels=['PERSON', 'LOCATION', 'ORGANIZATION', 'TIME', 'ARTWORK', 'DATE', 'MISC', 'NUMBER'])
+                for row in gpt_outputs[bio_id]:
+                    label_dist.append(row["Label"])
             except:
                 print(f"Pandas CSV READ ERROR [{err}]: {filepath}")
                 err += 1
                 gpt_outputs[bio_id] = []
         NLP_CONFIG["chatgpt_ner"]["model_outputs"] = gpt_outputs
+        print(Counter(label_dist))
 
     # More BERT-BASED
     # "surferfelix/ner-bertje-tagdetekst", "GroNLP/bert-base-dutch-cased", "bertje_hist"

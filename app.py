@@ -208,7 +208,7 @@ def bio_detail(source: str, text_id: str):
         if gold_method in methods:
             for hypo_method in methods:
                 predicted_entities = bio.get_entities([hypo_method], valid_labels)
-                eval_dict = bio.evaluate_ner(gold_method, hypo_method, valid_labels, ignore_text_after_gold=False)
+                eval_dict = bio.evaluate_ner(gold_method, hypo_method, "full_match", valid_labels, ignore_text_after_gold=False)
                 per_label_table = []
                 for lbl, metrics_obj in eval_dict["metrics"].items():
                     if metrics_obj["Support"] > 0:
