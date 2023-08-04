@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, TypeVar
+from typing import List, Dict, Any
 from collections import defaultdict, Counter
 import glob, os, json, statistics, itertools
 import pandas as pd
@@ -11,7 +11,6 @@ import rbo
 from utils.classes import IntaviaEntity, IntaviaDocument, MetadataComplete, NER_METHOD_DISPLAY
 from stats_unique_people import build_names_dictionaries
 from utils_general import get_gold_annotations, INTAVIA_JSON_ROOT
-Network = TypeVar("Network")
 
 
 def main():
@@ -33,10 +32,16 @@ def main():
     # get_ego_network_of_mentions(documents["37716498_02"], "human_gold", ["PER", "ORG", "LOC"]) # hendrik hendicus huisman
     # network = get_social_network_of_people(documents, "human_gold")
 
+    network_analysis_summary = []
     for sys in NER_METHOD_DISPLAY:
         print(f"----- {sys} -----")
         # get_ego_network_of_mentions(documents["37716498_02"], sys, ["PER"])
         network = get_social_network_of_people(documents, sys)
+        metrics = compute_network_metrics(network)
+        metrics["method"] = sys
+        network_analysis_summary.append(metrics)
+    
+    pd.DataFrame(network_analysis_summary).to_csv("local_outputs/network_analysis_summary.tsv", sep="\t", index=False)
 
 
 
@@ -229,8 +234,27 @@ def get_social_network_of_people(documents: List[IntaviaDocument], method: str):
     return social_network
 
 
-def compute_network_metrics(network: Network):
-    pass
+def compute_network_metrics(network: nx.classes.digraph.DiGraph):
+    metrics = {}
+    # Node-level Metrics
+    node_degrees = [len(list(network.neighbors(n))) for n in network.nodes()]
+    if len(node_degrees) == 0: return {}
+    node_deg_centralities = nx.degree_centrality(network)
+    node_betw_centralities = nx.betweenness_centrality(network)
+    
+    # Graph Level Metrics
+    metrics['n_nodes'] = network.number_of_nodes()
+    metrics['n_edges'] = network.number_of_edges()
+    metrics['density'] = round(nx.density(network), 4)
+    metrics['degree_average'] = round(statistics.mean(node_degrees), 4)
+    metrics['degree_centrality'] = round(statistics.mean(node_deg_centralities.values()), 4)
+    metrics['betweenness_centrality'] =  round(statistics.mean(node_betw_centralities.values()), 4)
+
+    cliques = 0
+
+    return metrics
+    
+    
 
 
 def get_names_dict(bionet_people_json: str, name_dict_path: str, name_dict_path_inv: str):
