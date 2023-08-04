@@ -1302,6 +1302,46 @@
         "locationStart": 293,
         "locationEnd": 302,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "SCHIMMELPENNING",
+        "locationStart": 0,
+        "locationEnd": 14,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "PERSON",
+        "surfaceForm": "G.",
+        "locationStart": 16,
+        "locationEnd": 17,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "LOCATION",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 46,
+        "locationEnd": 55,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "PERSON",
+        "surfaceForm": "Kramm",
+        "locationStart": 64,
+        "locationEnd": 68,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Nederl. Kunstsch.",
+        "locationStart": 123,
+        "locationEnd": 139,
+        "method": "gpt-3.5-turbo"
       }
     ],
     "time_expressions": [
