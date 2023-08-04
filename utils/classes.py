@@ -71,10 +71,10 @@ class IntaviaEntity:
     
     def normalize_label(self):
         unnorm = self.category
-        self.category = self.label_dict.get(self.category, "ERR")
-        if self.category == "ERR":
-            if unnorm != "ERR": # to avoid printing the error more than once (e.g. when the normalized entities are again normalized)
-                print(f"{unnorm} --> ERR")
+        self.category = self.label_dict.get(self.category, "MISC")
+        if self.category == "MISC":
+            if unnorm != "MISC": # to avoid printing the error more than once (e.g. when the normalized entities are again normalized)
+                print(f"{unnorm} --> MISC")
 
     def get_displacy_format(self):
         return {"start": self.locationStart, "end": self.locationEnd, "label": self.category}
@@ -97,7 +97,7 @@ class IntaviaSentence:
     text: str
     words: List[IntaviaToken]
 
-
+# Strict NER Evaluation (Only Exact Span Matches == TP)
 def _evaluate_ner(reference: List[IntaviaEntity], hypothesis: List[IntaviaEntity]) -> Dict[str, Any]:
     sorted_ref = sorted(reference, key = lambda ent: ent.locationStart)
     sorted_hyp = sorted(hypothesis, key = lambda ent: ent.locationStart)     
@@ -161,11 +161,37 @@ def _evaluate_ner(reference: List[IntaviaEntity], hypothesis: List[IntaviaEntity
         "TP": tp, # True Positives
         "FP": fp, # False Positives
         "FN": fn, # False Negatives
-        "Precision": "{:.1f}".format(prec),
-        "Recall": "{:.1f}".format(rec),
-        "F1": "{:.1f}".format(f1)
+        "Precision": round(prec, 2),
+        "Recall": round(rec, 2),
+        "F1": round(f1, 2)
     }
 
+# NER Evaluation as Bag-of-Entities
+def _evaluate_ner_boe(reference: List[IntaviaEntity], hypothesis: List[IntaviaEntity]) -> Dict[str, Any]:
+    # Get Only NER (Text, Label) Info
+    ref_entities = set([(ent.surfaceForm, ent.category) for ent in reference])
+    hyp_entities = set([(ent.surfaceForm, ent.category) for ent in hypothesis])
+    # Compute Set Operations
+    match = ref_entities.intersection(hyp_entities)
+    error = hyp_entities.difference(ref_entities)
+    missed = ref_entities.difference(hyp_entities)
+    tp, fp, fn = len(match), len(error), len(missed)
+    prec = 0 if tp+fp == 0 else 100*tp/(tp+fp)
+    rec = 0 if tp+fn == 0 else 100*tp/(tp+fn)
+    f1 = 0 if prec+rec == 0 else 2*(prec*rec)/(prec+rec)
+    # Return Metrics
+    return {
+        "Full Match": tp,
+        "Full Errors (not in Gold)": fp,
+        "Missed Entities": fn,
+        "Support": len(reference),
+        "TP": match,
+        "FP": error,
+        "FN": missed,
+        "Precision": round(prec, 2),
+        "Recall": round(rec, 2),
+        "F1": round(f1, 2)
+    }
 
 class IntaviaDocument:
     def __init__(self, intavia_dict: Dict[str, Any], nlp_base_model: str = 'stanza_nl'):
@@ -340,7 +366,18 @@ class IntaviaDocument:
     def get_entities_IOB(self) -> List[str]:
         raise NotImplementedError
 
-    def evaluate_ner(self, reference_method: str, eval_method: str, valid_labels: List[str] = None, ignore_text_after_gold:bool = False) -> Dict[str, Any]:
+    def evaluate_ner(self, reference_method: str, eval_method: str, evaluation_type: str, valid_labels: List[str] = None, ignore_text_after_gold:bool = False) -> Dict[str, Any]:
+        """Evaluate NER In The whole Document
+        Args:
+            reference_method (str): NER model-specific outputs considered as reference. Dictionary Key should be in the IntaviaDocument.get_available_methods("entities")
+            eval_method (str): NER model-specific outputs considered as predictions. Dictionary Key should be in the IntaviaDocument.get_available_methods("entities")
+            evaluation_type (str): How strict to be when evaluating. Possible types: ['full_match', 'bag_of_entities']
+            valid_labels (List[str], optional): List of Labels to consider for evaluation, all other labels will be ignored. If None then all labels will be considered. Defaults to None.
+            ignore_text_after_gold (bool, optional): _description_. DO NOT Evaluate entities predicted after the last Reference Entity (e.g. to avoid considerinf doc references). Defaults to False.
+
+        Returns:
+            Dict[str, Any]: Dictionary with metrics and errors found during the evaluation
+        """
         nlp_systems = self.get_available_methods("entities")
         # Gold INFO
         reference_entities = sorted(self.get_entities([reference_method], valid_labels=valid_labels), key = lambda ent: ent.locationStart)
@@ -358,7 +395,12 @@ class IntaviaDocument:
         # --- EVALUATION ---
         all_metrics_dict = {}
         # TOTAL EVAL (MICRO -> Accuracy)
-        micro_metrics = _evaluate_ner(reference_entities, predicted_entities)
+        if evaluation_type == 'full_match':
+            micro_metrics = _evaluate_ner(reference_entities, predicted_entities)
+        elif evaluation_type == 'bag_of_entities':
+            micro_metrics = _evaluate_ner_boe(reference_entities, predicted_entities)
+        else:
+            raise NotImplementedError("Evaluation type shouls be 'full_match' or 'bag_of_entities'")
         all_metrics_dict["MICRO"] = {"P": micro_metrics["Precision"], "R": micro_metrics["Recall"], "F1": micro_metrics["F1"], "Support": micro_metrics["Support"],
                                     "TP": micro_metrics["TP"], "FP": micro_metrics["FP"], "FN": micro_metrics["FN"]}
         errors = {k:v for k,v in micro_metrics.items() if k not in all_metrics_dict["MICRO"].keys()}
@@ -369,7 +411,10 @@ class IntaviaDocument:
         for lbl in valid_labels:
             lbl_gold = [x for x in reference_entities if x.category == lbl]
             lbl_pred = [x for x in predicted_entities if x.category == lbl]
-            lbl_metrics = _evaluate_ner(lbl_gold, lbl_pred)
+            if evaluation_type == 'full_match':
+                lbl_metrics = _evaluate_ner(lbl_gold, lbl_pred)
+            elif evaluation_type == 'bag_of_entities':
+                lbl_metrics = _evaluate_ner_boe(lbl_gold, lbl_pred)
             if  lbl_metrics["Support"] > 0:
                 macro_p.append(float(lbl_metrics["Precision"]))
                 macro_r.append(float(lbl_metrics["Recall"]))
