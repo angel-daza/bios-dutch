@@ -72,9 +72,9 @@ class IntaviaEntity:
     def normalize_label(self):
         unnorm = self.category
         self.category = self.label_dict.get(self.category, "MISC")
-        if self.category == "MISC":
-            if unnorm != "MISC": # to avoid printing the error more than once (e.g. when the normalized entities are again normalized)
-                print(f"{unnorm} --> MISC")
+        # if self.category == "MISC":
+        #     if unnorm != "MISC": # to avoid printing the error more than once (e.g. when the normalized entities are again normalized)
+        #         print(f"{unnorm} --> MISC")
 
     def get_displacy_format(self):
         return {"start": self.locationStart, "end": self.locationEnd, "label": self.category}
