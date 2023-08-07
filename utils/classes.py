@@ -181,13 +181,13 @@ def _evaluate_ner_boe(reference: List[IntaviaEntity], hypothesis: List[IntaviaEn
     f1 = 0 if prec+rec == 0 else 2*(prec*rec)/(prec+rec)
     # Return Metrics
     return {
-        "Full Match": tp,
-        "Full Errors (not in Gold)": fp,
-        "Missed Entities": fn,
+        "Full Match": match,
+        "Full Errors (not in Gold)": error,
+        "Missed Entities": missed,
         "Support": len(reference),
-        "TP": match,
-        "FP": error,
-        "FN": missed,
+        "TP": tp,
+        "FP": fp,
+        "FN": fn,
         "Precision": round(prec, 2),
         "Recall": round(rec, 2),
         "F1": round(f1, 2)
