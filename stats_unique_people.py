@@ -7,6 +7,7 @@ from statistics import mean, median, mode
 from typing import Counter, List, Dict, OrderedDict, Any
 
 from utils.classes import MetadataComplete
+from utils_general import normalize_metadata_name
 from tabulate import tabulate
 import networkx as nx
 import matplotlib.pyplot as plt
@@ -620,8 +621,15 @@ def build_names_dictionaries(people: List[MetadataComplete]) -> Dict[str, str]:
     for p in people:
         all_names = [n.lower() for n in p.getName(mode='all_names')]
         for n in all_names:
-            name2id[n] = p.person_id
-            id2names[p.person_id].append(n)
+            if n not in name2id:
+                name2id[n] = p.person_id
+            if n not in id2names[p.person_id]:
+                id2names[p.person_id].append(n)
+            normalized_name = normalize_metadata_name(n)
+            if normalized_name not in name2id:
+                 name2id[normalized_name] = p.person_id
+            if normalized_name not in id2names[p.person_id]:
+                id2names[p.person_id].append(normalized_name)
     return name2id, id2names
 
 
