@@ -1,6 +1,6 @@
 from typing import List, Dict, Any
 from collections import defaultdict, Counter
-import glob, os, json, statistics, itertools
+import glob, os, json, statistics, itertools, re
 import pandas as pd
 import networkx as nx
 import matplotlib.pyplot as plt
@@ -10,7 +10,7 @@ import rbo
 
 from utils.classes import IntaviaEntity, IntaviaDocument, MetadataComplete, NER_METHOD_DISPLAY
 from stats_unique_people import build_names_dictionaries
-from utils_general import get_gold_annotations, INTAVIA_JSON_ROOT
+from utils_general import get_gold_annotations, INTAVIA_JSON_ROOT, normalize_entity_per_name, normalize_metadata_name
 
 
 def main():
@@ -18,27 +18,41 @@ def main():
     gold_docs = get_gold_annotations() # 347 Documents
     documents = get_intavia_documents(f"{INTAVIA_JSON_ROOT}/*", gold_docs, keep_gold_limits=True)
     
-    # # Get Name Dictionaries
-    # name_dict_path = f"data/BioNetStats/bionet_id2names.json"
-    # name_dict_path_inv = f"data/BioNetStats/bionet_names2id.json"
-    # bionet_json = "data/seed_data/biographynet_test.jsonl"
-    # name2id, id2names = get_names_dict(bionet_json, name_dict_path, name_dict_path_inv)
+    # Get Name Dictionaries (This is from the whole 70K People to get more connections!)
+    name_dict_path = f"data/BioNetStats/bionet_id2names.json"
+    name_dict_path_inv = f"data/BioNetStats/bionet_names2id.json"
+    bionet_json = "data/All_Bios_Unified.jsonl"
+    name2id, id2names = get_names_dict(bionet_json, name_dict_path, name_dict_path_inv)
+    norm_dict = {} # Will Hold {"Possible Name": "Normalized_FirstName_LastName"}
+    for name, pid in name2id.items():
+        if "_" in name:
+            for n in id2names[pid]:
+                norm_dict[n] = name
+    json.dump(norm_dict, open("data/BioNetStats/bionet_normalized_namedict.json", "w"), indent=2, ensure_ascii=False)
 
-    # # Statistics
-    # get_entity_stats(documents, name2id)
-    # get_method_divergence_stats(documents)
+
+    # Statistics
+    get_entity_stats(documents, name2id)
+    get_method_divergence_stats(documents)
+
+    exit()
     
     # Build Networks
-    # get_ego_network_of_mentions(documents["37716498_02"], "human_gold", ["PER", "ORG", "LOC"]) # hendrik hendicus huisman
-    # network = get_social_network_of_people(documents, "human_gold")
+    # get_ego_network_of_mentions(documents["37716498_02"], "human_gold", norm_dict, ["PER", "ORG", "LOC"]) # hendrik hendicus huisman
+    # network = get_social_network_of_people(documents, "human_gold", norm_dict)
 
     network_analysis_summary = []
     for sys in NER_METHOD_DISPLAY:
         print(f"----- {sys} -----")
-        # get_ego_network_of_mentions(documents["37716498_02"], sys, ["PER"])
-        network = get_social_network_of_people(documents, sys)
+        # EGO NETWORKS
+        # for id, doc in documents.items():
+        #     get_ego_network_of_mentions(doc, sys, norm_dict, ["PER", "ORG", "LOC"])
+        ### SOCIAL NETWORK
+        network = get_social_network_of_people(documents, sys, norm_dict)
         metrics = compute_network_metrics(network)
         metrics["method"] = sys
+        clique_dist = get_cliques_distribution(network)
+        print(clique_dist)
         network_analysis_summary.append(metrics)
     
     pd.DataFrame(network_analysis_summary).to_csv("local_outputs/network_analysis_summary.tsv", sep="\t", index=False)
@@ -68,9 +82,9 @@ def get_intavia_documents(intavia_files_root:str, gold_docs: Dict[str, List[Inta
 
 
 def get_entity_stats(documents: Dict[str, IntaviaDocument], name2id: Dict[str, str]):
-
     data = []
     all_possible_persons, all_possible_locations, all_possible_orgs = [], [], []
+    gld_possible_persons, gld_possible_locations, gld_possible_orgs = [], [], []
     entity_model_matrix = []
     for doc_id, doc in documents.items():
         entity_methods = doc.get_available_methods(task_layer='entities')
@@ -82,10 +96,13 @@ def get_entity_stats(documents: Dict[str, IntaviaDocument], name2id: Dict[str, s
                 entity_dict[ent.category] += 1
                 if ent.category == "PER":
                     all_possible_persons.append(ent.surfaceForm.title())
+                    if ent.method == "human_gold": gld_possible_persons.append(ent.surfaceForm)
                 elif ent.category == "LOC":
                     all_possible_locations.append(ent.surfaceForm.title())
+                    if ent.method == "human_gold": gld_possible_locations.append(ent.surfaceForm)
                 elif ent.category == "ORG":
                     all_possible_orgs.append(ent.surfaceForm.title())
+                    if ent.method == "human_gold": gld_possible_orgs.append(ent.surfaceForm)
                 entity_model_matrix.append({
                     "method": method,
                     "category": ent.category,
@@ -112,14 +129,15 @@ def get_entity_stats(documents: Dict[str, IntaviaDocument], name2id: Dict[str, s
     # ENTITY MODEL MEASURES
     emm_df = pd.DataFrame(entity_model_matrix)
     method_rankings = {}
+    rank_top_n = 500
     for cat in ["PER", "ORG", "LOC"]:
         emm_df_cat = emm_df[emm_df["category"] == cat]
-        emm_df_cat = emm_df_cat.groupby("method").value_counts("entity").groupby(level=0, group_keys=False).head(10).reset_index()
+        emm_df_cat = emm_df_cat.groupby("method").value_counts("entity").groupby(level=0, group_keys=False).head(rank_top_n).reset_index()
         emm_df_cat.columns = ["method",	"category",	"entity", "count"]
         emm_df_cat = emm_df_cat.sort_values(["method", "count"], ascending=False)
         for m in NER_METHOD_DISPLAY:
             method_rankings[m] = list(emm_df_cat[emm_df_cat["method"] == m]["entity"])
-        emm_df_cat.to_csv(f"local_outputs/0_entity_method_counter_{cat}.tsv", sep="\t")
+        emm_df_cat.to_csv(f"local_outputs/0_entity_method_counter_{cat}_{rank_top_n}.tsv", sep="\t")
 
     # Correlation of Rankings
     get_rankings_correlation(method_rankings)
@@ -133,15 +151,30 @@ def get_entity_stats(documents: Dict[str, IntaviaDocument], name2id: Dict[str, s
             ranked_per_with_id.append((per, freq, per_id))
         else:
             ranked_per_with_id.append((per, freq, "9999999999"))
-    df = pd.DataFrame(ranked_per_all).to_csv("local_outputs/0_PER_dict.tsv", sep="\t", header=["Entity", "Frequency"])
+    csv_sep = ","
+    # PERSON DICT
+    df = pd.DataFrame(ranked_per_all)
+    df.to_csv("local_outputs/0_PER_dict.csv", sep=csv_sep, header=["Entity", "Frequency"])
     ranked_per_with_id = sorted(ranked_per_with_id, key= lambda x: (x[2], - x[1]))
-    df = pd.DataFrame(ranked_per_with_id).to_csv("local_outputs/0_PER_ID_dict.tsv", sep="\t", header=["Entity", "Frequency", "BioNet ID"])
+    # PER - ID DICT
+    df = pd.DataFrame(ranked_per_with_id)
+    df.to_csv("local_outputs/0_PER_ID_dict.csv", sep=csv_sep, header=["Entity", "Frequency", "BioNet ID"])
     # LOCATION DICT
     ranked_loc_all = sorted(Counter(all_possible_locations).most_common(), key=lambda x: - x[1])
-    df = pd.DataFrame(ranked_loc_all).to_csv("local_outputs/0_LOC_dict.tsv", sep="\t", header=["Entity", "Frequency"])
+    df = pd.DataFrame(ranked_loc_all)
+    df.to_csv("local_outputs/0_LOC_dict.csv", sep=csv_sep, header=["Entity", "Frequency"])
     # ORGANIZATION DICT
     ranked_org_all = sorted(Counter(all_possible_orgs).most_common(), key=lambda x: - x[1])
-    df = pd.DataFrame(ranked_org_all).to_csv("local_outputs/0_ORG_dict.tsv", sep="\t", header=["Entity", "Frequency"])
+    df = pd.DataFrame(ranked_org_all)
+    df.to_csv("local_outputs/0_ORG_dict.csv", sep=csv_sep, header=["Entity", "Frequency"])
+    # GOLD HISTOGRAMS
+    ranked_per_gld = sorted(Counter(gld_possible_persons).most_common(), key=lambda x: - x[1])
+    df = pd.DataFrame(ranked_per_gld).to_csv("local_outputs/0_PER_gold_dict.csv", sep=csv_sep, header=["Entity", "Frequency"])
+    ranked_loc_gld = sorted(Counter(gld_possible_locations).most_common(), key=lambda x: - x[1])
+    df = pd.DataFrame(ranked_loc_gld).to_csv("local_outputs/0_LOC_gold_dict.csv", sep=csv_sep, header=["Entity", "Frequency"])
+    ranked_org_gld = sorted(Counter(gld_possible_orgs).most_common(), key=lambda x: - x[1])
+    df = pd.DataFrame(ranked_org_gld).to_csv("local_outputs/0_ORG_gold_dict.csv", sep=csv_sep, header=["Entity", "Frequency"])
+    
 
 
 def get_method_divergence_stats(documents: Dict[str, IntaviaDocument]):
@@ -161,26 +194,63 @@ def get_method_divergence_stats(documents: Dict[str, IntaviaDocument]):
     df.to_csv("local_outputs/method_divergence_stats.csv")
 
 
-def get_ego_network_of_mentions(document: IntaviaDocument, method: str, valid_labels: List[str]):
-    ego_network = nx.DiGraph()
+def get_ego_network_of_mentions(document: IntaviaDocument, method: str, norm_dict: Dict[str, str], valid_labels: List[str]):
+    ego_network = nx.Graph() # nx.DiGraph()
     person_id = document.metadata['id_person']
-    ego_network.add_node(person_id)
-    ego_network.nodes[person_id]["node_type"] = "PER"
+    person_norm_name = norm_dict.get(document.metadata['name'])
+    if not person_norm_name:
+        person_norm_name = normalize_metadata_name(document.metadata['name'])
+    if "_" in person_norm_name: 
+        person_firstname, person_lastname = person_norm_name.split("_")
+    else:
+        person_firstname, person_lastname = person_norm_name, person_norm_name
     node_colors = {"PER": "skyblue", "ORG": "#1f78b4", "LOC": "green", "ERR": "black"}
+    print(f"\n------------\n{document.metadata['name']} ({document.text_id})")
 
     # Keep Global track of "popularity" measured as PER mentions in all texts
     doc_mentions = document.get_entities([method], valid_labels=valid_labels)
+    if len(doc_mentions) > 0:
+        first_entity_name = doc_mentions[0].surfaceForm
+    else:
+        first_entity_name = document.metadata['name']
     related_mentions = defaultdict(int)
     for ent in doc_mentions:
-        related_mentions[(ent.surfaceForm, ent.category)] += 1
+        if ent.category == "PER":
+            norm_surface_form = normalize_entity_per_name(ent.surfaceForm)
+            if norm_surface_form == person_lastname:
+                norm_surface_form = person_norm_name
+            elif norm_surface_form == f"{person_lastname[0]}.":
+                norm_surface_form = person_norm_name
+            print(f"\t{ent.surfaceForm} -------> {norm_surface_form}")
+        else:
+            norm_surface_form = ent.surfaceForm
+        related_mentions[(norm_surface_form, ent.category)] += 1
+        # related_mentions[(ent.surfaceForm, ent.category)] += 1
 
-    for m in sorted(related_mentions.items(), key=lambda x: x[1], reverse=True):
+    sorted_mentions = sorted(related_mentions.items(), key=lambda x: x[1], reverse=True)
+    if len(sorted_mentions) == 0: return
+
+    for m in sorted_mentions:
         print(m)
+
+    # Main Node == Most Mentioned Entity (since it is their biography this assumtution should hold)
+    # Backoff: Take the First Entity in the Text
+    first_ent = None
+    for mention_tuple, freq in sorted_mentions:
+        if mention_tuple[1] == "PER":
+            first_ent = mention_tuple[0]
+            break
+    normalized_main_entity = normalize_entity_per_name(first_ent, person_norm_name)
+    if not normalized_main_entity or "." in normalized_main_entity:
+        normalized_main_entity = normalize_entity_per_name(first_entity_name, person_norm_name)
+    print(f"{document.metadata['name']} ({document.text_id}) --> {person_norm_name} | {normalized_main_entity}")
+    ego_network.add_node(normalized_main_entity)
+    ego_network.nodes[normalized_main_entity]["node_type"] = "PER"
 
     for rel_tup, freq in related_mentions.items():
         text, category = rel_tup
         ego_network.add_node(text, node_type=category)
-        ego_network.add_edge(person_id, text, weight=freq)
+        ego_network.add_edge(normalized_main_entity, text, weight=freq)
     
     labels = {e: ego_network.edges[e]['weight'] for e in ego_network.edges}
 
@@ -189,40 +259,62 @@ def get_ego_network_of_mentions(document: IntaviaDocument, method: str, valid_la
 
     print(nx.info(ego_network))
 
-    plt.figure(figsize=(8, 6), num=f"{document.metadata['name'].title()}")
-    pos = nx.spring_layout(ego_network, seed=42)
-    nx.draw(ego_network, pos, with_labels=False, node_size=200, node_color=node_colors_list, font_size=8)
-    nx.draw_networkx_edge_labels(ego_network, pos, edge_labels=labels)
+    # plt.figure(figsize=(8, 6), num=f"{document.metadata['name'].title()}")
+    # pos = nx.spring_layout(ego_network, seed=42)
+    # nx.draw(ego_network, pos, with_labels=False, node_size=200, node_color=node_colors_list, font_size=8)
+    # nx.draw_networkx_edge_labels(ego_network, pos, edge_labels=labels)
 
-    # Draw the legend shifted away from the noe (useful for longer names)
-    center_y = 0
-    for k, (node, (x, y)) in enumerate(pos.items()):
-        if k == 0: center_y = y
-        if y > center_y:
-            label_y = y + 0.05
-        else:
-            label_y = y - 0.05
-        plt.text(x, label_y, node, fontsize=10, ha="center", va="center")
-
-
-    plt.suptitle(f"NER Network {method}", fontsize=16)
-    plt.axis("off") 
-    plt.show()
+    # # Draw the legend shifted away from the noe (useful for longer names)
+    # center_y = 0
+    # for k, (node, (x, y)) in enumerate(pos.items()):
+    #     if k == 0: center_y = y
+    #     if y > center_y:
+    #         label_y = y + 0.05
+    #     else:
+    #         label_y = y - 0.05
+    #     plt.text(x, label_y, node, fontsize=10, ha="center", va="center")
 
 
-def get_social_network_of_people(documents: List[IntaviaDocument], method: str):
-    social_network = nx.DiGraph()
+    # plt.suptitle(f"NER Network {method}", fontsize=16)
+    # plt.axis("off") 
+    # plt.show()
+
+
+def get_social_network_of_people(documents: List[IntaviaDocument], method: str, norm_dict: Dict):
+    social_network = nx.Graph()
     # Keep Global track of "popularity" measured as PER mentions in all texts
     related_mentions = defaultdict(int)
 
     # Iterate All Documents and Build Social Network
     for doc_id, doc in documents.items():
         person_id = doc.metadata['id_person']
+        person_norm_name = norm_dict.get(doc.metadata['name'])
+        if not person_norm_name:
+            person_norm_name = normalize_metadata_name(doc.metadata['name'])
+        if "_" in person_norm_name: 
+            person_firstname, person_lastname = person_norm_name.split("_")
+        else:
+            person_firstname, person_lastname = person_norm_name, person_norm_name
+
+
         doc_mentions = doc.get_entities([method], valid_labels=["PER"])
         
         for ent in doc_mentions:
-            related_mentions[(ent.surfaceForm, ent.category)] += 1
-            social_network.add_edge(person_id, ent.surfaceForm)
+            if ent.category == "PER":
+                norm_surface_form = normalize_entity_per_name(ent.surfaceForm)
+                if norm_surface_form == person_lastname:
+                    norm_surface_form = person_norm_name
+                elif norm_surface_form == f"{person_lastname[0]}.":
+                    norm_surface_form = person_norm_name
+                # print(f"\t{ent.surfaceForm} -------> {norm_surface_form}")
+            else:
+                norm_surface_form = ent.surfaceForm
+            
+            related_mentions[(norm_surface_form, ent.category)] += 1
+            social_network.add_edge(person_norm_name, norm_surface_form)
+            #related_mentions[(ent.surfaceForm, ent.category)] += 1
+            #social_network.add_edge(person_id, ent.surfaceForm)
+            
 
     # Show the top 100 Popular by Mention
     sorted_links = sorted(related_mentions.items(), key=lambda x: x[1], reverse=True)[:10]
@@ -234,7 +326,7 @@ def get_social_network_of_people(documents: List[IntaviaDocument], method: str):
     return social_network
 
 
-def compute_network_metrics(network: nx.classes.digraph.DiGraph):
+def compute_network_metrics(network):
     metrics = {}
     # Node-level Metrics
     node_degrees = [len(list(network.neighbors(n))) for n in network.nodes()]
@@ -252,9 +344,37 @@ def compute_network_metrics(network: nx.classes.digraph.DiGraph):
 
     cliques = 0
 
+    ## ---- Find Most Prolific Nodes
+    # Compute the maximum degree centrality: max_dc
+    max_dc = max(list(node_deg_centralities.values()))
+    centralities = sorted(list(node_deg_centralities.values()), reverse=True)[:10]
+    threshold_dc = centralities[-1]
+    # Find the user(s) that have collaborated the most: prolific_collaborators
+    prolific_collaborators = [(n, round(dc, 2)) for n, dc in node_deg_centralities.items() if dc >=threshold_dc]
+    print("Prolific Entities:", prolific_collaborators)
+
     return metrics
     
-    
+
+def maximal_cliques(G, size):
+	"""
+		Finds all maximal cliques in graph 'G' that are of size 'size'.
+	"""
+	mcs = []
+	for clique in nx.find_cliques(G):
+		if len(clique) == size:
+			mcs.append(clique)
+			return mcs
+
+
+def get_cliques_distribution(G):
+    """
+    	Finds all maximal cliques in graph 'G' that are of size 'size'.
+    """
+    cliques = defaultdict(int)
+    for clique in nx.find_cliques(G):
+        cliques[len(clique)] += 1
+    return cliques
 
 
 def get_names_dict(bionet_people_json: str, name_dict_path: str, name_dict_path_inv: str):
@@ -284,6 +404,7 @@ def get_rankings_correlation(method_rankings: Dict[str, List]):
     string_to_int_mapping = {string: i for i, string in enumerate(set(all_ents_in_ranking))}
     methods_analyzed = set()
     metrics_data = []
+    ranking_size = -1
     for method_1 in method_rankings:
         for method_2 in method_rankings:
             method_key = tuple(sorted([method_1, method_2]))
@@ -291,22 +412,25 @@ def get_rankings_correlation(method_rankings: Dict[str, List]):
                 methods_analyzed.add(method_key)
                 list_1 = method_rankings[method_1]
                 list_2 = method_rankings[method_2]
-                print(list_1)
-                print(list_2)
-                if len(list_1) == len(list_2):
-                    list_1 = [string_to_int_mapping[x] for x in list_1]
-                    list_2 = [string_to_int_mapping[y] for y in list_2]
-                    # Calculate the rank correlation coefficient between list1 and list2
-                    tau_1_2, _ = kendalltau(list_1, list_2)
-                    tau_1_2 = round(tau_1_2, 2)
-                    rbo_1_2 = round(rbo.RankingSimilarity(list_1, list_2).rbo(), 2)
-                    metrics_data.append({"model_1": method_1, "model_2": method_2, "tau": tau_1_2, "rbo": rbo_1_2})
-                    print(f"Kendall's Tau Correlation between {method_1} and {method_2} = {tau_1_2}")
-                    print(f"Rank Biased Overlap (RBO) between {method_1} and {method_2} = {rbo_1_2}")
-                else:
-                    print(f"Skept {method_1} vs {method_2} because of len mismatch!")
+                #print(list_1)
+                #print(list_2)
+                if len(list_1) > len(list_2):
+                    list_1 = method_rankings[method_1][:len(list_2)]
+                elif len(list_1) < len(list_2):
+                    list_2 = method_rankings[method_1][:len(list_1)]
+                
+                list_1 = [string_to_int_mapping[x] for x in list_1]
+                list_2 = [string_to_int_mapping[y] for y in list_2]
+                if ranking_size == -1: ranking_size = len(list_1)
+                # Calculate the rank correlation coefficient between list1 and list2
+                tau_1_2, _ = kendalltau(list_1, list_2)
+                tau_1_2 = round(tau_1_2, 2)
+                rbo_1_2 = round(rbo.RankingSimilarity(list_1, list_2).rbo(), 2)
+                metrics_data.append({"model_1": method_1, "model_2": method_2, "tau": tau_1_2, "rbo": rbo_1_2})
+                print(f"Kendall's Tau Correlation between {method_1} and {method_2} = {tau_1_2}")
+                print(f"Rank Biased Overlap (RBO) between {method_1} and {method_2} = {rbo_1_2}")
                 print("---------------")
-    pd.DataFrame(metrics_data).to_csv("local_outputs/method_ranking_correlations.tsv", index=False, sep="\t")
+    pd.DataFrame(metrics_data).to_csv(f"local_outputs/method_ranking_correlations_{ranking_size}.tsv", index=False, sep="\t")
 
 if __name__ == "__main__":
     main()
