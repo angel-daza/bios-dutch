@@ -11522,6 +11522,22 @@
     },
     "entities": [
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "Zij",
+        "locationStart": 0,
+        "locationEnd": 3,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "PERSON",
+        "surfaceForm": "Gerrit Hendrik Heinen",
+        "locationStart": 19,
+        "locationEnd": 38,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_0",
         "surfaceForm": "Gerrit Hendrik Heinen",
         "category": "PER",
@@ -11556,6 +11572,22 @@
         "locationStart": 23,
         "locationEnd": 44,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "Gerrit Hendrik Heinen",
+        "locationStart": 23,
+        "locationEnd": 44,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "PERSON",
+        "surfaceForm": "Marie Streuli",
+        "locationStart": 63,
+        "locationEnd": 76,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_1",
@@ -11612,6 +11644,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "Marie Streuli",
+        "locationStart": 77,
+        "locationEnd": 90,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Openbare Meisjesschool",
+        "locationStart": 82,
+        "locationEnd": 104,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_3",
         "surfaceForm": "Openbare Meisjesschool",
         "category": "LOC",
@@ -11638,6 +11686,30 @@
         "locationStart": 98,
         "locationEnd": 120,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_1",
+        "category": "ORG",
+        "surfaceForm": "Openbare Meisjesschool",
+        "locationStart": 98,
+        "locationEnd": 120,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "LOCATION",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 108,
+        "locationEnd": 117,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "PERSON",
+        "surfaceForm": "Marie Heinen",
+        "locationStart": 119,
+        "locationEnd": 130,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_4",
@@ -11676,6 +11748,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 124,
+        "locationEnd": 133,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_6",
+        "category": "LOCATION",
+        "surfaceForm": "Zwitserse",
+        "locationStart": 134,
+        "locationEnd": 143,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_5",
         "surfaceForm": "Marie Heinen",
         "category": "PER",
@@ -11712,1616 +11800,12 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
-        "ID": "gold_36",
-        "surfaceForm": "half jaar",
-        "category": "TIME",
-        "locationStart": 332,
-        "locationEnd": 341,
-        "tokenStart": 59,
-        "tokenEnd": 61,
-        "method": "human_gold"
-      },
-      {
-        "ID": "stanza_nl_6",
-        "surfaceForm": "Zwitserse",
-        "category": "MISC",
-        "locationStart": 351,
-        "locationEnd": 360,
-        "tokenStart": 63,
-        "tokenEnd": 64,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "flair_3",
-        "category": "MISC",
-        "surfaceForm": "Zwitserse",
-        "locationStart": 351,
-        "locationEnd": 360,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "stanza_nl_7",
-        "surfaceForm": "Zrich",
-        "category": "LOC",
-        "locationStart": 447,
-        "locationEnd": 452,
-        "tokenStart": 78,
-        "tokenEnd": 79,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_44",
-        "surfaceForm": "Zrich",
-        "category": "LOC",
-        "locationStart": 447,
-        "locationEnd": 452,
-        "tokenStart": 78,
-        "tokenEnd": 79,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_4",
-        "category": "LOC",
-        "surfaceForm": "Zrich",
-        "locationStart": 447,
-        "locationEnd": 452,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "stanza_nl_8",
-        "surfaceForm": "Marie Heinen",
-        "category": "PER",
-        "locationStart": 504,
-        "locationEnd": 516,
-        "tokenStart": 88,
-        "tokenEnd": 90,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_45",
-        "surfaceForm": "Marie Heinen",
-        "category": "PER",
-        "locationStart": 504,
-        "locationEnd": 516,
-        "tokenStart": 88,
-        "tokenEnd": 90,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_5",
+        "ID": "xlmr_ner_1",
         "category": "PER",
         "surfaceForm": "Marie Heinen",
-        "locationStart": 504,
-        "locationEnd": 516,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_5",
-        "category": "PER",
-        "surfaceForm": "marie heinen",
-        "locationStart": 504,
-        "locationEnd": 516,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_9",
-        "surfaceForm": "Spaans",
-        "category": "MISC",
-        "locationStart": 657,
-        "locationEnd": 663,
-        "tokenStart": 115,
-        "tokenEnd": 116,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "flair_6",
-        "category": "MISC",
-        "surfaceForm": "Spaans",
-        "locationStart": 657,
-        "locationEnd": 663,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "stanza_nl_10",
-        "surfaceForm": "Portugees",
-        "category": "MISC",
-        "locationStart": 665,
-        "locationEnd": 674,
-        "tokenStart": 117,
-        "tokenEnd": 118,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "flair_6",
-        "category": "MISC",
-        "surfaceForm": "Portugees",
-        "locationStart": 665,
-        "locationEnd": 674,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "stanza_nl_11",
-        "surfaceForm": "Italiaans",
-        "category": "MISC",
-        "locationStart": 678,
-        "locationEnd": 687,
-        "tokenStart": 119,
-        "tokenEnd": 120,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "flair_6",
-        "category": "MISC",
-        "surfaceForm": "Italiaans",
-        "locationStart": 678,
-        "locationEnd": 687,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gold_46",
-        "surfaceForm": "Van 1902 tot 1904",
-        "category": "TIME",
-        "locationStart": 689,
-        "locationEnd": 706,
-        "tokenStart": 121,
-        "tokenEnd": 125,
-        "method": "human_gold"
-      },
-      {
-        "ID": "gysbert_hist_7",
-        "category": "TIME",
-        "surfaceForm": "1902",
-        "locationStart": 693,
-        "locationEnd": 697,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gysbert_hist_7",
-        "category": "TIME",
-        "surfaceForm": "1904",
-        "locationStart": 702,
-        "locationEnd": 706,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_12",
-        "surfaceForm": "Spaans",
-        "category": "MISC",
-        "locationStart": 737,
-        "locationEnd": 743,
-        "tokenStart": 129,
-        "tokenEnd": 130,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "flair_7",
-        "category": "MISC",
-        "surfaceForm": "Spaans",
-        "locationStart": 737,
-        "locationEnd": 743,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "stanza_nl_13",
-        "surfaceForm": "Zwitserse",
-        "category": "MISC",
-        "locationStart": 776,
-        "locationEnd": 785,
-        "tokenStart": 135,
-        "tokenEnd": 136,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "flair_7",
-        "category": "MISC",
-        "surfaceForm": "Zwitserse",
-        "locationStart": 776,
-        "locationEnd": 785,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "stanza_nl_14",
-        "surfaceForm": "Herisau",
-        "category": "LOC",
-        "locationStart": 786,
-        "locationEnd": 793,
-        "tokenStart": 136,
-        "tokenEnd": 137,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_48",
-        "surfaceForm": "Herisau",
-        "category": "LOC",
-        "locationStart": 786,
-        "locationEnd": 793,
-        "tokenStart": 136,
-        "tokenEnd": 137,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_7",
-        "category": "LOC",
-        "surfaceForm": "Herisau",
-        "locationStart": 786,
-        "locationEnd": 793,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gold_49",
-        "surfaceForm": "Van 1904 tot begin 1908",
-        "category": "TIME",
-        "locationStart": 969,
-        "locationEnd": 992,
-        "tokenStart": 161,
-        "tokenEnd": 166,
-        "method": "human_gold"
-      },
-      {
-        "ID": "gysbert_hist_9",
-        "category": "TIME",
-        "surfaceForm": "1904",
-        "locationStart": 973,
-        "locationEnd": 977,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gysbert_hist_9",
-        "category": "TIME",
-        "surfaceForm": "1908",
-        "locationStart": 988,
-        "locationEnd": 992,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_15",
-        "surfaceForm": "Spaans",
-        "category": "MISC",
-        "locationStart": 1023,
-        "locationEnd": 1029,
-        "tokenStart": 170,
-        "tokenEnd": 171,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "flair_9",
-        "category": "MISC",
-        "surfaceForm": "Spaans",
-        "locationStart": 1023,
-        "locationEnd": 1029,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "stanza_nl_16",
-        "surfaceForm": "Portugees",
-        "category": "MISC",
-        "locationStart": 1033,
-        "locationEnd": 1042,
-        "tokenStart": 172,
-        "tokenEnd": 173,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "flair_9",
-        "category": "MISC",
-        "surfaceForm": "Portugees",
-        "locationStart": 1033,
-        "locationEnd": 1042,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "stanza_nl_17",
-        "surfaceForm": "Duitse",
-        "category": "MISC",
-        "locationStart": 1076,
-        "locationEnd": 1082,
-        "tokenStart": 178,
-        "tokenEnd": 179,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "flair_9",
-        "category": "MISC",
-        "surfaceForm": "Duitse",
-        "locationStart": 1076,
-        "locationEnd": 1082,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "stanza_nl_18",
-        "surfaceForm": "Koblenz",
-        "category": "LOC",
-        "locationStart": 1083,
-        "locationEnd": 1090,
-        "tokenStart": 179,
-        "tokenEnd": 180,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_0",
-        "surfaceForm": "Koblenz",
-        "category": "LOC",
-        "locationStart": 1083,
-        "locationEnd": 1090,
-        "tokenStart": 179,
-        "tokenEnd": 180,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_9",
-        "category": "LOC",
-        "surfaceForm": "Koblenz",
-        "locationStart": 1083,
-        "locationEnd": 1090,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_9",
-        "category": "LOC",
-        "surfaceForm": "koblen",
-        "locationStart": 1083,
-        "locationEnd": 1089,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gold_1",
-        "surfaceForm": "1907",
-        "category": "TIME",
-        "locationStart": 1199,
-        "locationEnd": 1203,
-        "tokenStart": 201,
-        "tokenEnd": 202,
-        "method": "human_gold"
-      },
-      {
-        "ID": "gysbert_hist_11",
-        "category": "TIME",
-        "surfaceForm": "1907",
-        "locationStart": 1199,
-        "locationEnd": 1203,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gold_3",
-        "surfaceForm": "1901",
-        "category": "TIME",
-        "locationStart": 1272,
-        "locationEnd": 1276,
-        "tokenStart": 214,
-        "tokenEnd": 215,
-        "method": "human_gold"
-      },
-      {
-        "ID": "gysbert_hist_11",
-        "category": "TIME",
-        "surfaceForm": "1901",
-        "locationStart": 1272,
-        "locationEnd": 1276,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_19",
-        "surfaceForm": "Nationaal Bureau voor Vrouwenarbeid",
-        "category": "ORG",
-        "locationStart": 1288,
-        "locationEnd": 1323,
-        "tokenStart": 216,
-        "tokenEnd": 220,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_4",
-        "surfaceForm": "Nationaal Bureau voor Vrouwenarbeid ( NBV )",
-        "category": "ORG",
-        "locationStart": 1288,
-        "locationEnd": 1329,
-        "tokenStart": 216,
-        "tokenEnd": 223,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_11",
-        "category": "ORG",
-        "surfaceForm": "Nationaal Bureau voor Vrouwenarbeid",
-        "locationStart": 1288,
-        "locationEnd": 1323,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "stanza_nl_20",
-        "surfaceForm": "NBV",
-        "category": "ORG",
-        "locationStart": 1325,
-        "locationEnd": 1328,
-        "tokenStart": 221,
-        "tokenEnd": 222,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "flair_11",
-        "category": "ORG",
-        "surfaceForm": "NBV",
-        "locationStart": 1325,
-        "locationEnd": 1328,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "stanza_nl_21",
-        "surfaceForm": "Den Haag",
-        "category": "LOC",
-        "locationStart": 1333,
-        "locationEnd": 1341,
-        "tokenStart": 224,
-        "tokenEnd": 226,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_5",
-        "surfaceForm": "Den Haag",
-        "category": "LOC",
-        "locationStart": 1333,
-        "locationEnd": 1341,
-        "tokenStart": 224,
-        "tokenEnd": 226,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_11",
-        "category": "LOC",
-        "surfaceForm": "Den Haag",
-        "locationStart": 1333,
-        "locationEnd": 1341,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_11",
-        "category": "LOC",
-        "surfaceForm": "haag",
-        "locationStart": 1337,
-        "locationEnd": 1341,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gold_7",
-        "surfaceForm": "1908",
-        "category": "TIME",
-        "locationStart": 1520,
-        "locationEnd": 1524,
-        "tokenStart": 260,
-        "tokenEnd": 261,
-        "method": "human_gold"
-      },
-      {
-        "ID": "gysbert_hist_13",
-        "category": "TIME",
-        "surfaceForm": "1908",
-        "locationStart": 1520,
-        "locationEnd": 1524,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_22",
-        "surfaceForm": "Anna Polak",
-        "category": "PER",
-        "locationStart": 1628,
-        "locationEnd": 1638,
-        "tokenStart": 277,
-        "tokenEnd": 279,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_8",
-        "surfaceForm": "Anna Polak",
-        "category": "PER",
-        "locationStart": 1628,
-        "locationEnd": 1638,
-        "tokenStart": 277,
-        "tokenEnd": 279,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_14",
-        "category": "PER",
-        "surfaceForm": "Anna Polak",
-        "locationStart": 1628,
-        "locationEnd": 1638,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_14",
-        "category": "PER",
-        "surfaceForm": "anna polak",
-        "locationStart": 1628,
-        "locationEnd": 1638,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_23",
-        "surfaceForm": "NBV",
-        "category": "ORG",
-        "locationStart": 1697,
-        "locationEnd": 1700,
-        "tokenStart": 291,
-        "tokenEnd": 292,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_9",
-        "surfaceForm": "NBV",
-        "category": "ORG",
-        "locationStart": 1697,
-        "locationEnd": 1700,
-        "tokenStart": 291,
-        "tokenEnd": 292,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_15",
-        "category": "ORG",
-        "surfaceForm": "NBV",
-        "locationStart": 1697,
-        "locationEnd": 1700,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "stanza_nl_24",
-        "surfaceForm": "Heinen",
-        "category": "PER",
-        "locationStart": 1711,
-        "locationEnd": 1717,
-        "tokenStart": 293,
-        "tokenEnd": 294,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_10",
-        "surfaceForm": "Heinen",
-        "category": "PER",
-        "locationStart": 1711,
-        "locationEnd": 1717,
-        "tokenStart": 293,
-        "tokenEnd": 294,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_15",
-        "category": "PER",
-        "surfaceForm": "Heinen",
-        "locationStart": 1711,
-        "locationEnd": 1717,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gold_11",
-        "surfaceForm": "van 1909 tot 1920",
-        "category": "TIME",
-        "locationStart": 1760,
-        "locationEnd": 1777,
-        "tokenStart": 301,
-        "tokenEnd": 305,
-        "method": "human_gold"
-      },
-      {
-        "ID": "gysbert_hist_15",
-        "category": "TIME",
-        "surfaceForm": "1909",
-        "locationStart": 1764,
-        "locationEnd": 1768,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gysbert_hist_15",
-        "category": "TIME",
-        "surfaceForm": "1920",
-        "locationStart": 1773,
-        "locationEnd": 1777,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_25",
-        "surfaceForm": "Vrouwenjaarboekjes",
-        "category": "MISC",
-        "locationStart": 1789,
-        "locationEnd": 1807,
-        "tokenStart": 306,
-        "tokenEnd": 307,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_12",
-        "surfaceForm": "Vrouwenjaarboekjes voor Nederland",
-        "category": "ARTWORK",
-        "locationStart": 1789,
-        "locationEnd": 1822,
-        "tokenStart": 306,
-        "tokenEnd": 309,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_15",
-        "category": "MISC",
-        "surfaceForm": "Vrouwenjaarboekjes voor Nederland",
-        "locationStart": 1789,
-        "locationEnd": 1822,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "stanza_nl_26",
-        "surfaceForm": "Nederland",
-        "category": "LOC",
-        "locationStart": 1813,
-        "locationEnd": 1822,
-        "tokenStart": 308,
-        "tokenEnd": 309,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "stanza_nl_27",
-        "surfaceForm": "Heinen",
-        "category": "PER",
-        "locationStart": 1961,
-        "locationEnd": 1967,
-        "tokenStart": 330,
-        "tokenEnd": 331,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_13",
-        "surfaceForm": "Heinen",
-        "category": "PER",
-        "locationStart": 1961,
-        "locationEnd": 1967,
-        "tokenStart": 330,
-        "tokenEnd": 331,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_16",
-        "category": "PER",
-        "surfaceForm": "Heinen",
-        "locationStart": 1961,
-        "locationEnd": 1967,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_17",
-        "category": "",
-        "surfaceForm": "heine",
-        "locationStart": 1961,
-        "locationEnd": 1966,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_28",
-        "surfaceForm": "Nederlandse Vereniging voor Huisvrouwen",
-        "category": "ORG",
-        "locationStart": 2031,
-        "locationEnd": 2070,
-        "tokenStart": 344,
-        "tokenEnd": 348,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_14",
-        "surfaceForm": "Nederlandse Vereniging voor Huisvrouwen",
-        "category": "ORG",
-        "locationStart": 2031,
-        "locationEnd": 2070,
-        "tokenStart": 344,
-        "tokenEnd": 348,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_17",
-        "category": "ORG",
-        "surfaceForm": "Nederlandse Vereniging voor Huisvrouwen",
-        "locationStart": 2031,
-        "locationEnd": 2070,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gold_15",
-        "surfaceForm": "1912",
-        "category": "TIME",
-        "locationStart": 2083,
-        "locationEnd": 2087,
-        "tokenStart": 352,
-        "tokenEnd": 353,
-        "method": "human_gold"
-      },
-      {
-        "ID": "gysbert_hist_18",
-        "category": "TIME",
-        "surfaceForm": "1912",
-        "locationStart": 2083,
-        "locationEnd": 2087,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_29",
-        "surfaceForm": "Anna Polak",
-        "category": "PER",
-        "locationStart": 2092,
-        "locationEnd": 2102,
-        "tokenStart": 354,
-        "tokenEnd": 356,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_16",
-        "surfaceForm": "Anna Polak",
-        "category": "PER",
-        "locationStart": 2092,
-        "locationEnd": 2102,
-        "tokenStart": 354,
-        "tokenEnd": 356,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_17",
-        "category": "PER",
-        "surfaceForm": "Anna Polak",
-        "locationStart": 2092,
-        "locationEnd": 2102,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_18",
-        "category": "PER",
-        "surfaceForm": "anna polak",
-        "locationStart": 2092,
-        "locationEnd": 2102,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_30",
-        "surfaceForm": "Heinen",
-        "category": "PER",
-        "locationStart": 2160,
-        "locationEnd": 2166,
-        "tokenStart": 367,
-        "tokenEnd": 368,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_17",
-        "surfaceForm": "Heinen",
-        "category": "PER",
-        "locationStart": 2160,
-        "locationEnd": 2166,
-        "tokenStart": 367,
-        "tokenEnd": 368,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_18",
-        "category": "PER",
-        "surfaceForm": "Heinen",
-        "locationStart": 2160,
-        "locationEnd": 2166,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "stanza_nl_31",
-        "surfaceForm": "NBV",
-        "category": "ORG",
-        "locationStart": 2194,
-        "locationEnd": 2197,
-        "tokenStart": 374,
-        "tokenEnd": 375,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_18",
-        "surfaceForm": "NBV",
-        "category": "ORG",
-        "locationStart": 2194,
-        "locationEnd": 2197,
-        "tokenStart": 374,
-        "tokenEnd": 375,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_18",
-        "category": "ORG",
-        "surfaceForm": "NBV",
-        "locationStart": 2194,
-        "locationEnd": 2197,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gold_19",
-        "surfaceForm": "1937",
-        "category": "TIME",
-        "locationStart": 2340,
-        "locationEnd": 2344,
-        "tokenStart": 397,
-        "tokenEnd": 398,
-        "method": "human_gold"
-      },
-      {
-        "ID": "gysbert_hist_20",
-        "category": "TIME",
-        "surfaceForm": "1937",
-        "locationStart": 2340,
-        "locationEnd": 2344,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_32",
-        "surfaceForm": "Heinen Polak",
-        "category": "PER",
-        "locationStart": 2352,
-        "locationEnd": 2364,
-        "tokenStart": 399,
-        "tokenEnd": 401,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_20",
-        "surfaceForm": "Heinen Polak",
-        "category": "PER",
-        "locationStart": 2352,
-        "locationEnd": 2364,
-        "tokenStart": 399,
-        "tokenEnd": 401,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_19",
-        "category": "PER",
-        "surfaceForm": "Heinen",
-        "locationStart": 2352,
-        "locationEnd": 2358,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_20",
-        "category": "PER",
-        "surfaceForm": "heinen polak",
-        "locationStart": 2352,
-        "locationEnd": 2364,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "flair_19",
-        "category": "PER",
-        "surfaceForm": "Polak",
-        "locationStart": 2359,
-        "locationEnd": 2364,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "stanza_nl_33",
-        "surfaceForm": "NBV",
-        "category": "ORG",
-        "locationStart": 2391,
-        "locationEnd": 2394,
-        "tokenStart": 406,
-        "tokenEnd": 407,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_21",
-        "surfaceForm": "NBV",
-        "category": "ORG",
-        "locationStart": 2391,
-        "locationEnd": 2394,
-        "tokenStart": 406,
-        "tokenEnd": 407,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_19",
-        "category": "ORG",
-        "surfaceForm": "NBV",
-        "locationStart": 2391,
-        "locationEnd": 2394,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "stanza_nl_34",
-        "surfaceForm": "NBV",
-        "category": "ORG",
-        "locationStart": 2434,
-        "locationEnd": 2437,
-        "tokenStart": 415,
-        "tokenEnd": 416,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_23",
-        "surfaceForm": "NBV",
-        "category": "ORG",
-        "locationStart": 2434,
-        "locationEnd": 2437,
-        "tokenStart": 415,
-        "tokenEnd": 416,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_20",
-        "category": "ORG",
-        "surfaceForm": "NBV",
-        "locationStart": 2434,
-        "locationEnd": 2437,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gold_24",
-        "surfaceForm": "1947",
-        "category": "TIME",
-        "locationStart": 2591,
-        "locationEnd": 2595,
-        "tokenStart": 446,
-        "tokenEnd": 447,
-        "method": "human_gold"
-      },
-      {
-        "ID": "gysbert_hist_23",
-        "category": "TIME",
-        "surfaceForm": "1947",
-        "locationStart": 2591,
-        "locationEnd": 2595,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_35",
-        "surfaceForm": "Orde van Oranje-Nassau",
-        "category": "MISC",
-        "locationStart": 2630,
-        "locationEnd": 2652,
-        "tokenStart": 454,
-        "tokenEnd": 457,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_25",
-        "surfaceForm": "Orde van Oranje-Nassau",
-        "category": "ORG",
-        "locationStart": 2630,
-        "locationEnd": 2652,
-        "tokenStart": 454,
-        "tokenEnd": 457,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_22",
-        "category": "ORG",
-        "surfaceForm": "Orde van Oranje-Nassau",
-        "locationStart": 2630,
-        "locationEnd": 2652,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "stanza_nl_36",
-        "surfaceForm": "Marie Heinen",
-        "category": "PER",
-        "locationStart": 2654,
-        "locationEnd": 2666,
-        "tokenStart": 458,
-        "tokenEnd": 460,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_26",
-        "surfaceForm": "Marie Heinen",
-        "category": "PER",
-        "locationStart": 2654,
-        "locationEnd": 2666,
-        "tokenStart": 458,
-        "tokenEnd": 460,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_23",
-        "category": "PER",
-        "surfaceForm": "Marie Heinen",
-        "locationStart": 2654,
-        "locationEnd": 2666,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_24",
-        "category": "PER",
-        "surfaceForm": "marie heinen",
-        "locationStart": 2654,
-        "locationEnd": 2666,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_37",
-        "surfaceForm": "Hoge Raad van Arbeid",
-        "category": "ORG",
-        "locationStart": 2787,
-        "locationEnd": 2807,
-        "tokenStart": 483,
-        "tokenEnd": 487,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_27",
-        "surfaceForm": "Hoge Raad van Arbeid",
-        "category": "ORG",
-        "locationStart": 2787,
-        "locationEnd": 2807,
-        "tokenStart": 483,
-        "tokenEnd": 487,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_24",
-        "category": "ORG",
-        "surfaceForm": "Hoge Raad van Arbeid",
-        "locationStart": 2787,
-        "locationEnd": 2807,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "stanza_nl_38",
-        "surfaceForm": "Centrale Commissie van bijstand voor Arbeid en Migratie",
-        "category": "ORG",
-        "locationStart": 2816,
-        "locationEnd": 2871,
-        "tokenStart": 490,
-        "tokenEnd": 498,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_28",
-        "surfaceForm": "Centrale Commissie van bijstand voor Arbeid en Migratie",
-        "category": "ORG",
-        "locationStart": 2816,
-        "locationEnd": 2871,
-        "tokenStart": 490,
-        "tokenEnd": 498,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_24",
-        "category": "ORG",
-        "surfaceForm": "Centrale Commissie van bijstand voor Arbeid en Migratie",
-        "locationStart": 2816,
-        "locationEnd": 2871,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gold_29",
-        "surfaceForm": "internationaal comit voor vrouwenarbeid van de Nationale Vrouwenraad van Nederland",
-        "category": "ORG",
-        "locationStart": 2881,
-        "locationEnd": 2963,
-        "tokenStart": 501,
-        "tokenEnd": 511,
-        "method": "human_gold"
-      },
-      {
-        "ID": "stanza_nl_39",
-        "surfaceForm": "Nationale Vrouwenraad van Nederland",
-        "category": "ORG",
-        "locationStart": 2928,
-        "locationEnd": 2963,
-        "tokenStart": 507,
-        "tokenEnd": 511,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "flair_24",
-        "category": "ORG",
-        "surfaceForm": "Nationale Vrouwenraad van Nederland",
-        "locationStart": 2928,
-        "locationEnd": 2963,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_25",
-        "category": "LOC",
-        "surfaceForm": "nederland",
-        "locationStart": 2954,
-        "locationEnd": 2963,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_40",
-        "surfaceForm": "Internationale Arbeidsbureau",
-        "category": "ORG",
-        "locationStart": 2975,
-        "locationEnd": 3003,
-        "tokenStart": 514,
-        "tokenEnd": 516,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_30",
-        "surfaceForm": "Internationale Arbeidsbureau",
-        "category": "ORG",
-        "locationStart": 2975,
-        "locationEnd": 3003,
-        "tokenStart": 514,
-        "tokenEnd": 516,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_24",
-        "category": "ORG",
-        "surfaceForm": "Internationale Arbeidsbureau",
-        "locationStart": 2975,
-        "locationEnd": 3003,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "stanza_nl_41",
-        "surfaceForm": "Genve",
-        "category": "ORG",
-        "locationStart": 3007,
-        "locationEnd": 3012,
-        "tokenStart": 517,
-        "tokenEnd": 518,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_31",
-        "surfaceForm": "Genve",
-        "category": "LOC",
-        "locationStart": 3007,
-        "locationEnd": 3012,
-        "tokenStart": 517,
-        "tokenEnd": 518,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_24",
-        "category": "LOC",
-        "surfaceForm": "Genve",
-        "locationStart": 3007,
-        "locationEnd": 3012,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "stanza_nl_42",
-        "surfaceForm": "Marie Heinen",
-        "category": "PER",
-        "locationStart": 3014,
-        "locationEnd": 3026,
-        "tokenStart": 519,
-        "tokenEnd": 521,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_32",
-        "surfaceForm": "Marie Heinen",
-        "category": "PER",
-        "locationStart": 3014,
-        "locationEnd": 3026,
-        "tokenStart": 519,
-        "tokenEnd": 521,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_25",
-        "category": "PER",
-        "surfaceForm": "Marie Heinen",
-        "locationStart": 3014,
-        "locationEnd": 3026,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_26",
-        "category": "PER",
-        "surfaceForm": "marie heinen",
-        "locationStart": 3014,
-        "locationEnd": 3026,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_43",
-        "surfaceForm": "Raad van Advies van het Internationaal Archief voor de Vrouwenbeweging",
-        "category": "ORG",
-        "locationStart": 3171,
-        "locationEnd": 3241,
-        "tokenStart": 547,
-        "tokenEnd": 557,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_33",
-        "surfaceForm": "Raad van Advies van het Internationaal Archief voor de Vrouwenbeweging ( IAV )",
-        "category": "ORG",
-        "locationStart": 3171,
-        "locationEnd": 3247,
-        "tokenStart": 547,
-        "tokenEnd": 560,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_27",
-        "category": "ORG",
-        "surfaceForm": "Raad van Advies",
-        "locationStart": 3171,
-        "locationEnd": 3186,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "flair_27",
-        "category": "ORG",
-        "surfaceForm": "Internationaal Archief voor de Vrouwenbeweging",
-        "locationStart": 3195,
-        "locationEnd": 3241,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "stanza_nl_44",
-        "surfaceForm": "IAV",
-        "category": "ORG",
-        "locationStart": 3243,
-        "locationEnd": 3246,
-        "tokenStart": 558,
-        "tokenEnd": 559,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "flair_27",
-        "category": "ORG",
-        "surfaceForm": "IAV",
-        "locationStart": 3243,
-        "locationEnd": 3246,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gold_34",
-        "surfaceForm": "Van 1937 tot haar dood in 1948",
-        "category": "TIME",
-        "locationStart": 3249,
-        "locationEnd": 3279,
-        "tokenStart": 561,
-        "tokenEnd": 568,
-        "method": "human_gold"
-      },
-      {
-        "ID": "gysbert_hist_29",
-        "category": "TIME",
-        "surfaceForm": "1937",
-        "locationStart": 3253,
-        "locationEnd": 3257,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gysbert_hist_29",
-        "category": "TIME",
-        "surfaceForm": "1948",
-        "locationStart": 3275,
-        "locationEnd": 3279,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_45",
-        "surfaceForm": "Soroptimistclub Den Haag",
-        "category": "ORG",
-        "locationStart": 3299,
-        "locationEnd": 3323,
-        "tokenStart": 573,
-        "tokenEnd": 576,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_35",
-        "surfaceForm": "Soroptimistclub Den Haag",
-        "category": "ORG",
-        "locationStart": 3299,
-        "locationEnd": 3323,
-        "tokenStart": 573,
-        "tokenEnd": 576,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_28",
-        "category": "ORG",
-        "surfaceForm": "Soroptimistclub Den Haag",
-        "locationStart": 3299,
-        "locationEnd": 3323,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "stanza_nl_46",
-        "surfaceForm": "Rotary",
-        "category": "ORG",
-        "locationStart": 3390,
-        "locationEnd": 3396,
-        "tokenStart": 586,
-        "tokenEnd": 587,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_37",
-        "surfaceForm": "Rotary",
-        "category": "ORG",
-        "locationStart": 3390,
-        "locationEnd": 3396,
-        "tokenStart": 586,
-        "tokenEnd": 587,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_28",
-        "category": "ORG",
-        "surfaceForm": "Rotary",
-        "locationStart": 3390,
-        "locationEnd": 3396,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "stanza_nl_47",
-        "surfaceForm": "Marie Heinen",
-        "category": "PER",
-        "locationStart": 3453,
-        "locationEnd": 3465,
-        "tokenStart": 596,
-        "tokenEnd": 598,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_38",
-        "surfaceForm": "Marie Heinen",
-        "category": "PER",
-        "locationStart": 3453,
-        "locationEnd": 3465,
-        "tokenStart": 596,
-        "tokenEnd": 598,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_29",
-        "category": "PER",
-        "surfaceForm": "Marie Heinen",
-        "locationStart": 3453,
-        "locationEnd": 3465,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_30",
-        "category": "PER",
-        "surfaceForm": "marie heinen",
-        "locationStart": 3453,
-        "locationEnd": 3465,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_48",
-        "surfaceForm": "Christelijk",
-        "category": "MISC",
-        "locationStart": 3515,
-        "locationEnd": 3526,
-        "tokenStart": 608,
-        "tokenEnd": 609,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "flair_30",
-        "category": "MISC",
-        "surfaceForm": "Christelijk",
-        "locationStart": 3515,
-        "locationEnd": 3526,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "stanza_nl_49",
-        "surfaceForm": "Nederlands Hervormde kerk",
-        "category": "ORG",
-        "locationStart": 3597,
-        "locationEnd": 3622,
-        "tokenStart": 621,
-        "tokenEnd": 624,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_39",
-        "surfaceForm": "Nederlands Hervormde kerk",
-        "category": "ORG",
-        "locationStart": 3597,
-        "locationEnd": 3622,
-        "tokenStart": 621,
-        "tokenEnd": 624,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_30",
-        "category": "ORG",
-        "surfaceForm": "Nederlands Hervormde kerk",
-        "locationStart": 3597,
-        "locationEnd": 3622,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gold_40",
-        "surfaceForm": "1921",
-        "category": "TIME",
-        "locationStart": 3627,
-        "locationEnd": 3631,
-        "tokenStart": 626,
-        "tokenEnd": 627,
-        "method": "human_gold"
-      },
-      {
-        "ID": "gysbert_hist_32",
-        "category": "TIME",
-        "surfaceForm": "1921",
-        "locationStart": 3627,
-        "locationEnd": 3631,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_50",
-        "surfaceForm": "Vereeniging van Academisch Gevormde Christenvrouwen",
-        "category": "ORG",
-        "locationStart": 3671,
-        "locationEnd": 3722,
-        "tokenStart": 635,
-        "tokenEnd": 640,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_41",
-        "surfaceForm": "Vereeniging van Academisch Gevormde Christenvrouwen ( VACV )",
-        "category": "ORG",
-        "locationStart": 3671,
-        "locationEnd": 3729,
-        "tokenStart": 635,
-        "tokenEnd": 643,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_31",
-        "category": "ORG",
-        "surfaceForm": "Vereeniging van Academisch Gevormde Christenvrouwen",
-        "locationStart": 3671,
-        "locationEnd": 3722,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "stanza_nl_51",
-        "surfaceForm": "VACV",
-        "category": "ORG",
-        "locationStart": 3724,
-        "locationEnd": 3728,
-        "tokenStart": 641,
-        "tokenEnd": 642,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "flair_31",
-        "category": "ORG",
-        "surfaceForm": "VACV",
-        "locationStart": 3724,
-        "locationEnd": 3728,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "stanza_nl_52",
-        "surfaceForm": "Duinoordkerk",
-        "category": "LOC",
-        "locationStart": 3751,
-        "locationEnd": 3763,
-        "tokenStart": 648,
-        "tokenEnd": 649,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_42",
-        "surfaceForm": "Duinoordkerk",
-        "category": "ORG",
-        "locationStart": 3751,
-        "locationEnd": 3763,
-        "tokenStart": 648,
-        "tokenEnd": 649,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_32",
-        "category": "LOC",
-        "surfaceForm": "Duinoordkerk",
-        "locationStart": 3751,
-        "locationEnd": 3763,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_33",
-        "category": "LOC",
-        "surfaceForm": "duinoordkerk",
-        "locationStart": 3751,
-        "locationEnd": 3763,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_53",
-        "surfaceForm": "Den Haag",
-        "category": "LOC",
-        "locationStart": 3767,
-        "locationEnd": 3775,
-        "tokenStart": 650,
-        "tokenEnd": 652,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_43",
-        "surfaceForm": "Den Haag",
-        "category": "LOC",
-        "locationStart": 3767,
-        "locationEnd": 3775,
-        "tokenStart": 650,
-        "tokenEnd": 652,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_32",
-        "category": "LOC",
-        "surfaceForm": "Den Haag",
-        "locationStart": 3767,
-        "locationEnd": 3775,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_33",
-        "category": "LOC",
-        "surfaceForm": "haag",
-        "locationStart": 3771,
-        "locationEnd": 3775,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "Zij",
-        "locationStart": 0,
-        "locationEnd": 3,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "PERSON",
-        "surfaceForm": "Gerrit Hendrik Heinen",
-        "locationStart": 19,
-        "locationEnd": 38,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "PERSON",
-        "surfaceForm": "Marie Streuli",
-        "locationStart": 63,
-        "locationEnd": 76,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Openbare Meisjesschool",
-        "locationStart": 82,
-        "locationEnd": 104,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "LOCATION",
-        "surfaceForm": "Amsterdam",
-        "locationStart": 108,
-        "locationEnd": 117,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "PERSON",
-        "surfaceForm": "Marie Heinen",
-        "locationStart": 119,
-        "locationEnd": 130,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_6",
-        "category": "LOCATION",
-        "surfaceForm": "Zwitserse",
-        "locationStart": 134,
-        "locationEnd": 143,
-        "method": "gpt-3.5-turbo"
+        "locationStart": 140,
+        "locationEnd": 152,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gpt-3.5-turbo_7",
@@ -13436,6 +11920,34 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "gold_36",
+        "surfaceForm": "half jaar",
+        "category": "TIME",
+        "locationStart": 332,
+        "locationEnd": 341,
+        "tokenStart": 59,
+        "tokenEnd": 61,
+        "method": "human_gold"
+      },
+      {
+        "ID": "stanza_nl_6",
+        "surfaceForm": "Zwitserse",
+        "category": "MISC",
+        "locationStart": 351,
+        "locationEnd": 360,
+        "tokenStart": 63,
+        "tokenEnd": 64,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_3",
+        "category": "MISC",
+        "surfaceForm": "Zwitserse",
+        "locationStart": 351,
+        "locationEnd": 360,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
         "ID": "gpt-3.5-turbo_21",
         "category": "DATE",
         "surfaceForm": "1901",
@@ -13484,6 +11996,42 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "stanza_nl_7",
+        "surfaceForm": "Zrich",
+        "category": "LOC",
+        "locationStart": 447,
+        "locationEnd": 452,
+        "tokenStart": 78,
+        "tokenEnd": 79,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_44",
+        "surfaceForm": "Zrich",
+        "category": "LOC",
+        "locationStart": 447,
+        "locationEnd": 452,
+        "tokenStart": 78,
+        "tokenEnd": 79,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_4",
+        "category": "LOC",
+        "surfaceForm": "Zrich",
+        "locationStart": 447,
+        "locationEnd": 452,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_4",
+        "category": "LOC",
+        "surfaceForm": "Zrich",
+        "locationStart": 447,
+        "locationEnd": 452,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gpt-3.5-turbo_27",
         "category": "DATE",
         "surfaceForm": "1920",
@@ -13522,6 +12070,50 @@
         "locationStart": 494,
         "locationEnd": 530,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "stanza_nl_8",
+        "surfaceForm": "Marie Heinen",
+        "category": "PER",
+        "locationStart": 504,
+        "locationEnd": 516,
+        "tokenStart": 88,
+        "tokenEnd": 90,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_45",
+        "surfaceForm": "Marie Heinen",
+        "category": "PER",
+        "locationStart": 504,
+        "locationEnd": 516,
+        "tokenStart": 88,
+        "tokenEnd": 90,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_5",
+        "category": "PER",
+        "surfaceForm": "Marie Heinen",
+        "locationStart": 504,
+        "locationEnd": 516,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_5",
+        "category": "PER",
+        "surfaceForm": "marie heinen",
+        "locationStart": 504,
+        "locationEnd": 516,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_5",
+        "category": "PER",
+        "surfaceForm": "Marie Heinen",
+        "locationStart": 504,
+        "locationEnd": 516,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gpt-3.5-turbo_32",
@@ -13580,12 +12172,110 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "stanza_nl_9",
+        "surfaceForm": "Spaans",
+        "category": "MISC",
+        "locationStart": 657,
+        "locationEnd": 663,
+        "tokenStart": 115,
+        "tokenEnd": 116,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_6",
+        "category": "MISC",
+        "surfaceForm": "Spaans",
+        "locationStart": 657,
+        "locationEnd": 663,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
         "ID": "gpt-3.5-turbo_39",
         "category": "ORGANIZATION",
         "surfaceForm": "Centrale Commissie van bijstand voor Arbeid en Migratie",
         "locationStart": 661,
         "locationEnd": 706,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "stanza_nl_10",
+        "surfaceForm": "Portugees",
+        "category": "MISC",
+        "locationStart": 665,
+        "locationEnd": 674,
+        "tokenStart": 117,
+        "tokenEnd": 118,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_6",
+        "category": "MISC",
+        "surfaceForm": "Portugees",
+        "locationStart": 665,
+        "locationEnd": 674,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "stanza_nl_11",
+        "surfaceForm": "Italiaans",
+        "category": "MISC",
+        "locationStart": 678,
+        "locationEnd": 687,
+        "tokenStart": 119,
+        "tokenEnd": 120,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_6",
+        "category": "MISC",
+        "surfaceForm": "Italiaans",
+        "locationStart": 678,
+        "locationEnd": 687,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gold_46",
+        "surfaceForm": "Van 1902 tot 1904",
+        "category": "TIME",
+        "locationStart": 689,
+        "locationEnd": 706,
+        "tokenStart": 121,
+        "tokenEnd": 125,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_7",
+        "category": "TIME",
+        "surfaceForm": "1902",
+        "locationStart": 693,
+        "locationEnd": 697,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gysbert_hist_7",
+        "category": "TIME",
+        "surfaceForm": "1904",
+        "locationStart": 702,
+        "locationEnd": 706,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_12",
+        "surfaceForm": "Spaans",
+        "category": "MISC",
+        "locationStart": 737,
+        "locationEnd": 743,
+        "tokenStart": 129,
+        "tokenEnd": 130,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_7",
+        "category": "MISC",
+        "surfaceForm": "Spaans",
+        "locationStart": 737,
+        "locationEnd": 743,
+        "method": "flair/ner-dutch-large_0.12.2"
       },
       {
         "ID": "gpt-3.5-turbo_40",
@@ -13610,6 +12300,60 @@
         "locationStart": 775,
         "locationEnd": 786,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "stanza_nl_13",
+        "surfaceForm": "Zwitserse",
+        "category": "MISC",
+        "locationStart": 776,
+        "locationEnd": 785,
+        "tokenStart": 135,
+        "tokenEnd": 136,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_7",
+        "category": "MISC",
+        "surfaceForm": "Zwitserse",
+        "locationStart": 776,
+        "locationEnd": 785,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "stanza_nl_14",
+        "surfaceForm": "Herisau",
+        "category": "LOC",
+        "locationStart": 786,
+        "locationEnd": 793,
+        "tokenStart": 136,
+        "tokenEnd": 137,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_48",
+        "surfaceForm": "Herisau",
+        "category": "LOC",
+        "locationStart": 786,
+        "locationEnd": 793,
+        "tokenStart": 136,
+        "tokenEnd": 137,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_7",
+        "category": "LOC",
+        "surfaceForm": "Herisau",
+        "locationStart": 786,
+        "locationEnd": 793,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_7",
+        "category": "LOC",
+        "surfaceForm": "Herisau",
+        "locationStart": 786,
+        "locationEnd": 793,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gpt-3.5-turbo_43",
@@ -13676,6 +12420,32 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "gold_49",
+        "surfaceForm": "Van 1904 tot begin 1908",
+        "category": "TIME",
+        "locationStart": 969,
+        "locationEnd": 992,
+        "tokenStart": 161,
+        "tokenEnd": 166,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_9",
+        "category": "TIME",
+        "surfaceForm": "1904",
+        "locationStart": 973,
+        "locationEnd": 977,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gysbert_hist_9",
+        "category": "TIME",
+        "surfaceForm": "1908",
+        "locationStart": 988,
+        "locationEnd": 992,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
         "ID": "gpt-3.5-turbo_51",
         "category": "ORGANIZATION",
         "surfaceForm": "Duinoordkerk",
@@ -13698,6 +12468,1556 @@
         "locationStart": 1016,
         "locationEnd": 1033,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "stanza_nl_15",
+        "surfaceForm": "Spaans",
+        "category": "MISC",
+        "locationStart": 1023,
+        "locationEnd": 1029,
+        "tokenStart": 170,
+        "tokenEnd": 171,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_9",
+        "category": "MISC",
+        "surfaceForm": "Spaans",
+        "locationStart": 1023,
+        "locationEnd": 1029,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "stanza_nl_16",
+        "surfaceForm": "Portugees",
+        "category": "MISC",
+        "locationStart": 1033,
+        "locationEnd": 1042,
+        "tokenStart": 172,
+        "tokenEnd": 173,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_9",
+        "category": "MISC",
+        "surfaceForm": "Portugees",
+        "locationStart": 1033,
+        "locationEnd": 1042,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "stanza_nl_17",
+        "surfaceForm": "Duitse",
+        "category": "MISC",
+        "locationStart": 1076,
+        "locationEnd": 1082,
+        "tokenStart": 178,
+        "tokenEnd": 179,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_9",
+        "category": "MISC",
+        "surfaceForm": "Duitse",
+        "locationStart": 1076,
+        "locationEnd": 1082,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "stanza_nl_18",
+        "surfaceForm": "Koblenz",
+        "category": "LOC",
+        "locationStart": 1083,
+        "locationEnd": 1090,
+        "tokenStart": 179,
+        "tokenEnd": 180,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_0",
+        "surfaceForm": "Koblenz",
+        "category": "LOC",
+        "locationStart": 1083,
+        "locationEnd": 1090,
+        "tokenStart": 179,
+        "tokenEnd": 180,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_9",
+        "category": "LOC",
+        "surfaceForm": "Koblenz",
+        "locationStart": 1083,
+        "locationEnd": 1090,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_9",
+        "category": "LOC",
+        "surfaceForm": "koblen",
+        "locationStart": 1083,
+        "locationEnd": 1089,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_9",
+        "category": "LOC",
+        "surfaceForm": "Koblenz",
+        "locationStart": 1083,
+        "locationEnd": 1090,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gold_1",
+        "surfaceForm": "1907",
+        "category": "TIME",
+        "locationStart": 1199,
+        "locationEnd": 1203,
+        "tokenStart": 201,
+        "tokenEnd": 202,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_11",
+        "category": "TIME",
+        "surfaceForm": "1907",
+        "locationStart": 1199,
+        "locationEnd": 1203,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gold_3",
+        "surfaceForm": "1901",
+        "category": "TIME",
+        "locationStart": 1272,
+        "locationEnd": 1276,
+        "tokenStart": 214,
+        "tokenEnd": 215,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_11",
+        "category": "TIME",
+        "surfaceForm": "1901",
+        "locationStart": 1272,
+        "locationEnd": 1276,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_19",
+        "surfaceForm": "Nationaal Bureau voor Vrouwenarbeid",
+        "category": "ORG",
+        "locationStart": 1288,
+        "locationEnd": 1323,
+        "tokenStart": 216,
+        "tokenEnd": 220,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_4",
+        "surfaceForm": "Nationaal Bureau voor Vrouwenarbeid ( NBV )",
+        "category": "ORG",
+        "locationStart": 1288,
+        "locationEnd": 1329,
+        "tokenStart": 216,
+        "tokenEnd": 223,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_11",
+        "category": "ORG",
+        "surfaceForm": "Nationaal Bureau voor Vrouwenarbeid",
+        "locationStart": 1288,
+        "locationEnd": 1323,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_11",
+        "category": "ORG",
+        "surfaceForm": "Nationaal Bureau voor VrouwenarbeidNBV",
+        "locationStart": 1288,
+        "locationEnd": 1328,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "stanza_nl_20",
+        "surfaceForm": "NBV",
+        "category": "ORG",
+        "locationStart": 1325,
+        "locationEnd": 1328,
+        "tokenStart": 221,
+        "tokenEnd": 222,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_11",
+        "category": "ORG",
+        "surfaceForm": "NBV",
+        "locationStart": 1325,
+        "locationEnd": 1328,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "stanza_nl_21",
+        "surfaceForm": "Den Haag",
+        "category": "LOC",
+        "locationStart": 1333,
+        "locationEnd": 1341,
+        "tokenStart": 224,
+        "tokenEnd": 226,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_5",
+        "surfaceForm": "Den Haag",
+        "category": "LOC",
+        "locationStart": 1333,
+        "locationEnd": 1341,
+        "tokenStart": 224,
+        "tokenEnd": 226,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_11",
+        "category": "LOC",
+        "surfaceForm": "Den Haag",
+        "locationStart": 1333,
+        "locationEnd": 1341,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_11",
+        "category": "LOC",
+        "surfaceForm": "Den Haag",
+        "locationStart": 1333,
+        "locationEnd": 1341,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gysbert_hist_11",
+        "category": "LOC",
+        "surfaceForm": "haag",
+        "locationStart": 1337,
+        "locationEnd": 1341,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gold_7",
+        "surfaceForm": "1908",
+        "category": "TIME",
+        "locationStart": 1520,
+        "locationEnd": 1524,
+        "tokenStart": 260,
+        "tokenEnd": 261,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_13",
+        "category": "TIME",
+        "surfaceForm": "1908",
+        "locationStart": 1520,
+        "locationEnd": 1524,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_22",
+        "surfaceForm": "Anna Polak",
+        "category": "PER",
+        "locationStart": 1628,
+        "locationEnd": 1638,
+        "tokenStart": 277,
+        "tokenEnd": 279,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_8",
+        "surfaceForm": "Anna Polak",
+        "category": "PER",
+        "locationStart": 1628,
+        "locationEnd": 1638,
+        "tokenStart": 277,
+        "tokenEnd": 279,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_14",
+        "category": "PER",
+        "surfaceForm": "Anna Polak",
+        "locationStart": 1628,
+        "locationEnd": 1638,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_14",
+        "category": "PER",
+        "surfaceForm": "anna polak",
+        "locationStart": 1628,
+        "locationEnd": 1638,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_14",
+        "category": "PER",
+        "surfaceForm": "Anna Polak",
+        "locationStart": 1628,
+        "locationEnd": 1638,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "stanza_nl_23",
+        "surfaceForm": "NBV",
+        "category": "ORG",
+        "locationStart": 1697,
+        "locationEnd": 1700,
+        "tokenStart": 291,
+        "tokenEnd": 292,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_9",
+        "surfaceForm": "NBV",
+        "category": "ORG",
+        "locationStart": 1697,
+        "locationEnd": 1700,
+        "tokenStart": 291,
+        "tokenEnd": 292,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_15",
+        "category": "ORG",
+        "surfaceForm": "NBV",
+        "locationStart": 1697,
+        "locationEnd": 1700,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_15",
+        "category": "ORG",
+        "surfaceForm": "NBV",
+        "locationStart": 1697,
+        "locationEnd": 1700,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "stanza_nl_24",
+        "surfaceForm": "Heinen",
+        "category": "PER",
+        "locationStart": 1711,
+        "locationEnd": 1717,
+        "tokenStart": 293,
+        "tokenEnd": 294,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_10",
+        "surfaceForm": "Heinen",
+        "category": "PER",
+        "locationStart": 1711,
+        "locationEnd": 1717,
+        "tokenStart": 293,
+        "tokenEnd": 294,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_15",
+        "category": "PER",
+        "surfaceForm": "Heinen",
+        "locationStart": 1711,
+        "locationEnd": 1717,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_15",
+        "category": "PER",
+        "surfaceForm": "Heinen",
+        "locationStart": 1711,
+        "locationEnd": 1717,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gold_11",
+        "surfaceForm": "van 1909 tot 1920",
+        "category": "TIME",
+        "locationStart": 1760,
+        "locationEnd": 1777,
+        "tokenStart": 301,
+        "tokenEnd": 305,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_15",
+        "category": "TIME",
+        "surfaceForm": "1909",
+        "locationStart": 1764,
+        "locationEnd": 1768,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gysbert_hist_15",
+        "category": "TIME",
+        "surfaceForm": "1920",
+        "locationStart": 1773,
+        "locationEnd": 1777,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_25",
+        "surfaceForm": "Vrouwenjaarboekjes",
+        "category": "MISC",
+        "locationStart": 1789,
+        "locationEnd": 1807,
+        "tokenStart": 306,
+        "tokenEnd": 307,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_12",
+        "surfaceForm": "Vrouwenjaarboekjes voor Nederland",
+        "category": "ARTWORK",
+        "locationStart": 1789,
+        "locationEnd": 1822,
+        "tokenStart": 306,
+        "tokenEnd": 309,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_15",
+        "category": "MISC",
+        "surfaceForm": "Vrouwenjaarboekjes voor Nederland",
+        "locationStart": 1789,
+        "locationEnd": 1822,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "stanza_nl_26",
+        "surfaceForm": "Nederland",
+        "category": "LOC",
+        "locationStart": 1813,
+        "locationEnd": 1822,
+        "tokenStart": 308,
+        "tokenEnd": 309,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "xlmr_ner_15",
+        "category": "LOC",
+        "surfaceForm": "Nederland",
+        "locationStart": 1813,
+        "locationEnd": 1822,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "stanza_nl_27",
+        "surfaceForm": "Heinen",
+        "category": "PER",
+        "locationStart": 1961,
+        "locationEnd": 1967,
+        "tokenStart": 330,
+        "tokenEnd": 331,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_13",
+        "surfaceForm": "Heinen",
+        "category": "PER",
+        "locationStart": 1961,
+        "locationEnd": 1967,
+        "tokenStart": 330,
+        "tokenEnd": 331,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_16",
+        "category": "PER",
+        "surfaceForm": "Heinen",
+        "locationStart": 1961,
+        "locationEnd": 1967,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_17",
+        "category": "",
+        "surfaceForm": "heine",
+        "locationStart": 1961,
+        "locationEnd": 1966,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_17",
+        "category": "PER",
+        "surfaceForm": "Hein",
+        "locationStart": 1961,
+        "locationEnd": 1965,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "stanza_nl_28",
+        "surfaceForm": "Nederlandse Vereniging voor Huisvrouwen",
+        "category": "ORG",
+        "locationStart": 2031,
+        "locationEnd": 2070,
+        "tokenStart": 344,
+        "tokenEnd": 348,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_14",
+        "surfaceForm": "Nederlandse Vereniging voor Huisvrouwen",
+        "category": "ORG",
+        "locationStart": 2031,
+        "locationEnd": 2070,
+        "tokenStart": 344,
+        "tokenEnd": 348,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_17",
+        "category": "ORG",
+        "surfaceForm": "Nederlandse Vereniging voor Huisvrouwen",
+        "locationStart": 2031,
+        "locationEnd": 2070,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_18",
+        "category": "ORG",
+        "surfaceForm": "Nederlandse Vereniging voor Huisvrouwen",
+        "locationStart": 2031,
+        "locationEnd": 2070,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gold_15",
+        "surfaceForm": "1912",
+        "category": "TIME",
+        "locationStart": 2083,
+        "locationEnd": 2087,
+        "tokenStart": 352,
+        "tokenEnd": 353,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_18",
+        "category": "TIME",
+        "surfaceForm": "1912",
+        "locationStart": 2083,
+        "locationEnd": 2087,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_29",
+        "surfaceForm": "Anna Polak",
+        "category": "PER",
+        "locationStart": 2092,
+        "locationEnd": 2102,
+        "tokenStart": 354,
+        "tokenEnd": 356,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_16",
+        "surfaceForm": "Anna Polak",
+        "category": "PER",
+        "locationStart": 2092,
+        "locationEnd": 2102,
+        "tokenStart": 354,
+        "tokenEnd": 356,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_17",
+        "category": "PER",
+        "surfaceForm": "Anna Polak",
+        "locationStart": 2092,
+        "locationEnd": 2102,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_18",
+        "category": "PER",
+        "surfaceForm": "anna polak",
+        "locationStart": 2092,
+        "locationEnd": 2102,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_18",
+        "category": "PER",
+        "surfaceForm": "Anna Polak",
+        "locationStart": 2092,
+        "locationEnd": 2102,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "stanza_nl_30",
+        "surfaceForm": "Heinen",
+        "category": "PER",
+        "locationStart": 2160,
+        "locationEnd": 2166,
+        "tokenStart": 367,
+        "tokenEnd": 368,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_17",
+        "surfaceForm": "Heinen",
+        "category": "PER",
+        "locationStart": 2160,
+        "locationEnd": 2166,
+        "tokenStart": 367,
+        "tokenEnd": 368,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_18",
+        "category": "PER",
+        "surfaceForm": "Heinen",
+        "locationStart": 2160,
+        "locationEnd": 2166,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_19",
+        "category": "PER",
+        "surfaceForm": "Heinen",
+        "locationStart": 2160,
+        "locationEnd": 2166,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "stanza_nl_31",
+        "surfaceForm": "NBV",
+        "category": "ORG",
+        "locationStart": 2194,
+        "locationEnd": 2197,
+        "tokenStart": 374,
+        "tokenEnd": 375,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_18",
+        "surfaceForm": "NBV",
+        "category": "ORG",
+        "locationStart": 2194,
+        "locationEnd": 2197,
+        "tokenStart": 374,
+        "tokenEnd": 375,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_18",
+        "category": "ORG",
+        "surfaceForm": "NBV",
+        "locationStart": 2194,
+        "locationEnd": 2197,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_19",
+        "category": "ORG",
+        "surfaceForm": "NBV",
+        "locationStart": 2194,
+        "locationEnd": 2197,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gold_19",
+        "surfaceForm": "1937",
+        "category": "TIME",
+        "locationStart": 2340,
+        "locationEnd": 2344,
+        "tokenStart": 397,
+        "tokenEnd": 398,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_20",
+        "category": "TIME",
+        "surfaceForm": "1937",
+        "locationStart": 2340,
+        "locationEnd": 2344,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_32",
+        "surfaceForm": "Heinen Polak",
+        "category": "PER",
+        "locationStart": 2352,
+        "locationEnd": 2364,
+        "tokenStart": 399,
+        "tokenEnd": 401,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_20",
+        "surfaceForm": "Heinen Polak",
+        "category": "PER",
+        "locationStart": 2352,
+        "locationEnd": 2364,
+        "tokenStart": 399,
+        "tokenEnd": 401,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_19",
+        "category": "PER",
+        "surfaceForm": "Heinen",
+        "locationStart": 2352,
+        "locationEnd": 2358,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_20",
+        "category": "PER",
+        "surfaceForm": "heinen polak",
+        "locationStart": 2352,
+        "locationEnd": 2364,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_20",
+        "category": "PER",
+        "surfaceForm": "Heinen Polak",
+        "locationStart": 2352,
+        "locationEnd": 2364,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "flair_19",
+        "category": "PER",
+        "surfaceForm": "Polak",
+        "locationStart": 2359,
+        "locationEnd": 2364,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "stanza_nl_33",
+        "surfaceForm": "NBV",
+        "category": "ORG",
+        "locationStart": 2391,
+        "locationEnd": 2394,
+        "tokenStart": 406,
+        "tokenEnd": 407,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_21",
+        "surfaceForm": "NBV",
+        "category": "ORG",
+        "locationStart": 2391,
+        "locationEnd": 2394,
+        "tokenStart": 406,
+        "tokenEnd": 407,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_19",
+        "category": "ORG",
+        "surfaceForm": "NBV",
+        "locationStart": 2391,
+        "locationEnd": 2394,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_20",
+        "category": "ORG",
+        "surfaceForm": "NBV",
+        "locationStart": 2391,
+        "locationEnd": 2394,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "stanza_nl_34",
+        "surfaceForm": "NBV",
+        "category": "ORG",
+        "locationStart": 2434,
+        "locationEnd": 2437,
+        "tokenStart": 415,
+        "tokenEnd": 416,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_23",
+        "surfaceForm": "NBV",
+        "category": "ORG",
+        "locationStart": 2434,
+        "locationEnd": 2437,
+        "tokenStart": 415,
+        "tokenEnd": 416,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_20",
+        "category": "ORG",
+        "surfaceForm": "NBV",
+        "locationStart": 2434,
+        "locationEnd": 2437,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_21",
+        "category": "LOC",
+        "surfaceForm": "NBV",
+        "locationStart": 2434,
+        "locationEnd": 2437,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gold_24",
+        "surfaceForm": "1947",
+        "category": "TIME",
+        "locationStart": 2591,
+        "locationEnd": 2595,
+        "tokenStart": 446,
+        "tokenEnd": 447,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_23",
+        "category": "TIME",
+        "surfaceForm": "1947",
+        "locationStart": 2591,
+        "locationEnd": 2595,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_35",
+        "surfaceForm": "Orde van Oranje-Nassau",
+        "category": "MISC",
+        "locationStart": 2630,
+        "locationEnd": 2652,
+        "tokenStart": 454,
+        "tokenEnd": 457,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_25",
+        "surfaceForm": "Orde van Oranje-Nassau",
+        "category": "ORG",
+        "locationStart": 2630,
+        "locationEnd": 2652,
+        "tokenStart": 454,
+        "tokenEnd": 457,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_22",
+        "category": "ORG",
+        "surfaceForm": "Orde van Oranje-Nassau",
+        "locationStart": 2630,
+        "locationEnd": 2652,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_23",
+        "category": "ORG",
+        "surfaceForm": "Orde van Oranje-Nassau",
+        "locationStart": 2630,
+        "locationEnd": 2652,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "stanza_nl_36",
+        "surfaceForm": "Marie Heinen",
+        "category": "PER",
+        "locationStart": 2654,
+        "locationEnd": 2666,
+        "tokenStart": 458,
+        "tokenEnd": 460,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_26",
+        "surfaceForm": "Marie Heinen",
+        "category": "PER",
+        "locationStart": 2654,
+        "locationEnd": 2666,
+        "tokenStart": 458,
+        "tokenEnd": 460,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_23",
+        "category": "PER",
+        "surfaceForm": "Marie Heinen",
+        "locationStart": 2654,
+        "locationEnd": 2666,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_24",
+        "category": "PER",
+        "surfaceForm": "marie heinen",
+        "locationStart": 2654,
+        "locationEnd": 2666,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_24",
+        "category": "PER",
+        "surfaceForm": "Marie Heinen",
+        "locationStart": 2654,
+        "locationEnd": 2666,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "stanza_nl_37",
+        "surfaceForm": "Hoge Raad van Arbeid",
+        "category": "ORG",
+        "locationStart": 2787,
+        "locationEnd": 2807,
+        "tokenStart": 483,
+        "tokenEnd": 487,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_27",
+        "surfaceForm": "Hoge Raad van Arbeid",
+        "category": "ORG",
+        "locationStart": 2787,
+        "locationEnd": 2807,
+        "tokenStart": 483,
+        "tokenEnd": 487,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_24",
+        "category": "ORG",
+        "surfaceForm": "Hoge Raad van Arbeid",
+        "locationStart": 2787,
+        "locationEnd": 2807,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_25",
+        "category": "ORG",
+        "surfaceForm": "Hoge Raad van Arbeid",
+        "locationStart": 2787,
+        "locationEnd": 2807,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "stanza_nl_38",
+        "surfaceForm": "Centrale Commissie van bijstand voor Arbeid en Migratie",
+        "category": "ORG",
+        "locationStart": 2816,
+        "locationEnd": 2871,
+        "tokenStart": 490,
+        "tokenEnd": 498,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_28",
+        "surfaceForm": "Centrale Commissie van bijstand voor Arbeid en Migratie",
+        "category": "ORG",
+        "locationStart": 2816,
+        "locationEnd": 2871,
+        "tokenStart": 490,
+        "tokenEnd": 498,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_24",
+        "category": "ORG",
+        "surfaceForm": "Centrale Commissie van bijstand voor Arbeid en Migratie",
+        "locationStart": 2816,
+        "locationEnd": 2871,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_25",
+        "category": "ORG",
+        "surfaceForm": "Centrale Commissie van bijstand voor Arbeid en Migratie",
+        "locationStart": 2816,
+        "locationEnd": 2871,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gold_29",
+        "surfaceForm": "internationaal comit voor vrouwenarbeid van de Nationale Vrouwenraad van Nederland",
+        "category": "ORG",
+        "locationStart": 2881,
+        "locationEnd": 2963,
+        "tokenStart": 501,
+        "tokenEnd": 511,
+        "method": "human_gold"
+      },
+      {
+        "ID": "stanza_nl_39",
+        "surfaceForm": "Nationale Vrouwenraad van Nederland",
+        "category": "ORG",
+        "locationStart": 2928,
+        "locationEnd": 2963,
+        "tokenStart": 507,
+        "tokenEnd": 511,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_24",
+        "category": "ORG",
+        "surfaceForm": "Nationale Vrouwenraad van Nederland",
+        "locationStart": 2928,
+        "locationEnd": 2963,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_25",
+        "category": "ORG",
+        "surfaceForm": "Nationale Vrouwenraad van Nederland",
+        "locationStart": 2928,
+        "locationEnd": 2963,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gysbert_hist_25",
+        "category": "LOC",
+        "surfaceForm": "nederland",
+        "locationStart": 2954,
+        "locationEnd": 2963,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_40",
+        "surfaceForm": "Internationale Arbeidsbureau",
+        "category": "ORG",
+        "locationStart": 2975,
+        "locationEnd": 3003,
+        "tokenStart": 514,
+        "tokenEnd": 516,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_30",
+        "surfaceForm": "Internationale Arbeidsbureau",
+        "category": "ORG",
+        "locationStart": 2975,
+        "locationEnd": 3003,
+        "tokenStart": 514,
+        "tokenEnd": 516,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_24",
+        "category": "ORG",
+        "surfaceForm": "Internationale Arbeidsbureau",
+        "locationStart": 2975,
+        "locationEnd": 3003,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_25",
+        "category": "ORG",
+        "surfaceForm": "Internationale Arbeidsbureau",
+        "locationStart": 2975,
+        "locationEnd": 3003,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "stanza_nl_41",
+        "surfaceForm": "Genve",
+        "category": "ORG",
+        "locationStart": 3007,
+        "locationEnd": 3012,
+        "tokenStart": 517,
+        "tokenEnd": 518,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_31",
+        "surfaceForm": "Genve",
+        "category": "LOC",
+        "locationStart": 3007,
+        "locationEnd": 3012,
+        "tokenStart": 517,
+        "tokenEnd": 518,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_24",
+        "category": "LOC",
+        "surfaceForm": "Genve",
+        "locationStart": 3007,
+        "locationEnd": 3012,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_25",
+        "category": "LOC",
+        "surfaceForm": "Genve",
+        "locationStart": 3007,
+        "locationEnd": 3012,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "stanza_nl_42",
+        "surfaceForm": "Marie Heinen",
+        "category": "PER",
+        "locationStart": 3014,
+        "locationEnd": 3026,
+        "tokenStart": 519,
+        "tokenEnd": 521,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_32",
+        "surfaceForm": "Marie Heinen",
+        "category": "PER",
+        "locationStart": 3014,
+        "locationEnd": 3026,
+        "tokenStart": 519,
+        "tokenEnd": 521,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_25",
+        "category": "PER",
+        "surfaceForm": "Marie Heinen",
+        "locationStart": 3014,
+        "locationEnd": 3026,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_26",
+        "category": "PER",
+        "surfaceForm": "marie heinen",
+        "locationStart": 3014,
+        "locationEnd": 3026,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_26",
+        "category": "PER",
+        "surfaceForm": "Marie Heinen",
+        "locationStart": 3014,
+        "locationEnd": 3026,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "stanza_nl_43",
+        "surfaceForm": "Raad van Advies van het Internationaal Archief voor de Vrouwenbeweging",
+        "category": "ORG",
+        "locationStart": 3171,
+        "locationEnd": 3241,
+        "tokenStart": 547,
+        "tokenEnd": 557,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_33",
+        "surfaceForm": "Raad van Advies van het Internationaal Archief voor de Vrouwenbeweging ( IAV )",
+        "category": "ORG",
+        "locationStart": 3171,
+        "locationEnd": 3247,
+        "tokenStart": 547,
+        "tokenEnd": 560,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_27",
+        "category": "ORG",
+        "surfaceForm": "Raad van Advies",
+        "locationStart": 3171,
+        "locationEnd": 3186,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_28",
+        "category": "ORG",
+        "surfaceForm": "Raad van Advies van het",
+        "locationStart": 3171,
+        "locationEnd": 3194,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "flair_27",
+        "category": "ORG",
+        "surfaceForm": "Internationaal Archief voor de Vrouwenbeweging",
+        "locationStart": 3195,
+        "locationEnd": 3241,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_28",
+        "category": "ORG",
+        "surfaceForm": "Internationaal Archief voor de VrouwenbewegingIAV",
+        "locationStart": 3195,
+        "locationEnd": 3246,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "stanza_nl_44",
+        "surfaceForm": "IAV",
+        "category": "ORG",
+        "locationStart": 3243,
+        "locationEnd": 3246,
+        "tokenStart": 558,
+        "tokenEnd": 559,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_27",
+        "category": "ORG",
+        "surfaceForm": "IAV",
+        "locationStart": 3243,
+        "locationEnd": 3246,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gold_34",
+        "surfaceForm": "Van 1937 tot haar dood in 1948",
+        "category": "TIME",
+        "locationStart": 3249,
+        "locationEnd": 3279,
+        "tokenStart": 561,
+        "tokenEnd": 568,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_29",
+        "category": "TIME",
+        "surfaceForm": "1937",
+        "locationStart": 3253,
+        "locationEnd": 3257,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gysbert_hist_29",
+        "category": "TIME",
+        "surfaceForm": "1948",
+        "locationStart": 3275,
+        "locationEnd": 3279,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_45",
+        "surfaceForm": "Soroptimistclub Den Haag",
+        "category": "ORG",
+        "locationStart": 3299,
+        "locationEnd": 3323,
+        "tokenStart": 573,
+        "tokenEnd": 576,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_35",
+        "surfaceForm": "Soroptimistclub Den Haag",
+        "category": "ORG",
+        "locationStart": 3299,
+        "locationEnd": 3323,
+        "tokenStart": 573,
+        "tokenEnd": 576,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_28",
+        "category": "ORG",
+        "surfaceForm": "Soroptimistclub Den Haag",
+        "locationStart": 3299,
+        "locationEnd": 3323,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_29",
+        "category": "ORG",
+        "surfaceForm": "Soroptimistclub Den Haag",
+        "locationStart": 3299,
+        "locationEnd": 3323,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "stanza_nl_46",
+        "surfaceForm": "Rotary",
+        "category": "ORG",
+        "locationStart": 3390,
+        "locationEnd": 3396,
+        "tokenStart": 586,
+        "tokenEnd": 587,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_37",
+        "surfaceForm": "Rotary",
+        "category": "ORG",
+        "locationStart": 3390,
+        "locationEnd": 3396,
+        "tokenStart": 586,
+        "tokenEnd": 587,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_28",
+        "category": "ORG",
+        "surfaceForm": "Rotary",
+        "locationStart": 3390,
+        "locationEnd": 3396,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_29",
+        "category": "ORG",
+        "surfaceForm": "Rotary",
+        "locationStart": 3390,
+        "locationEnd": 3396,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "stanza_nl_47",
+        "surfaceForm": "Marie Heinen",
+        "category": "PER",
+        "locationStart": 3453,
+        "locationEnd": 3465,
+        "tokenStart": 596,
+        "tokenEnd": 598,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_38",
+        "surfaceForm": "Marie Heinen",
+        "category": "PER",
+        "locationStart": 3453,
+        "locationEnd": 3465,
+        "tokenStart": 596,
+        "tokenEnd": 598,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_29",
+        "category": "PER",
+        "surfaceForm": "Marie Heinen",
+        "locationStart": 3453,
+        "locationEnd": 3465,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_30",
+        "category": "PER",
+        "surfaceForm": "marie heinen",
+        "locationStart": 3453,
+        "locationEnd": 3465,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_30",
+        "category": "PER",
+        "surfaceForm": "Marie Heinen",
+        "locationStart": 3453,
+        "locationEnd": 3465,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "stanza_nl_48",
+        "surfaceForm": "Christelijk",
+        "category": "MISC",
+        "locationStart": 3515,
+        "locationEnd": 3526,
+        "tokenStart": 608,
+        "tokenEnd": 609,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_30",
+        "category": "MISC",
+        "surfaceForm": "Christelijk",
+        "locationStart": 3515,
+        "locationEnd": 3526,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "stanza_nl_49",
+        "surfaceForm": "Nederlands Hervormde kerk",
+        "category": "ORG",
+        "locationStart": 3597,
+        "locationEnd": 3622,
+        "tokenStart": 621,
+        "tokenEnd": 624,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_39",
+        "surfaceForm": "Nederlands Hervormde kerk",
+        "category": "ORG",
+        "locationStart": 3597,
+        "locationEnd": 3622,
+        "tokenStart": 621,
+        "tokenEnd": 624,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_30",
+        "category": "ORG",
+        "surfaceForm": "Nederlands Hervormde kerk",
+        "locationStart": 3597,
+        "locationEnd": 3622,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_31",
+        "category": "ORG",
+        "surfaceForm": "Nederlands Hervormde kerk",
+        "locationStart": 3597,
+        "locationEnd": 3622,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gold_40",
+        "surfaceForm": "1921",
+        "category": "TIME",
+        "locationStart": 3627,
+        "locationEnd": 3631,
+        "tokenStart": 626,
+        "tokenEnd": 627,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_32",
+        "category": "TIME",
+        "surfaceForm": "1921",
+        "locationStart": 3627,
+        "locationEnd": 3631,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_50",
+        "surfaceForm": "Vereeniging van Academisch Gevormde Christenvrouwen",
+        "category": "ORG",
+        "locationStart": 3671,
+        "locationEnd": 3722,
+        "tokenStart": 635,
+        "tokenEnd": 640,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_41",
+        "surfaceForm": "Vereeniging van Academisch Gevormde Christenvrouwen ( VACV )",
+        "category": "ORG",
+        "locationStart": 3671,
+        "locationEnd": 3729,
+        "tokenStart": 635,
+        "tokenEnd": 643,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_31",
+        "category": "ORG",
+        "surfaceForm": "Vereeniging van Academisch Gevormde Christenvrouwen",
+        "locationStart": 3671,
+        "locationEnd": 3722,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_32",
+        "category": "ORG",
+        "surfaceForm": "Vereeniging van Academisch Gevormde ChristenvrouwenVACV",
+        "locationStart": 3671,
+        "locationEnd": 3728,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "stanza_nl_51",
+        "surfaceForm": "VACV",
+        "category": "ORG",
+        "locationStart": 3724,
+        "locationEnd": 3728,
+        "tokenStart": 641,
+        "tokenEnd": 642,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_31",
+        "category": "ORG",
+        "surfaceForm": "VACV",
+        "locationStart": 3724,
+        "locationEnd": 3728,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "stanza_nl_52",
+        "surfaceForm": "Duinoordkerk",
+        "category": "LOC",
+        "locationStart": 3751,
+        "locationEnd": 3763,
+        "tokenStart": 648,
+        "tokenEnd": 649,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_42",
+        "surfaceForm": "Duinoordkerk",
+        "category": "ORG",
+        "locationStart": 3751,
+        "locationEnd": 3763,
+        "tokenStart": 648,
+        "tokenEnd": 649,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_32",
+        "category": "LOC",
+        "surfaceForm": "Duinoordkerk",
+        "locationStart": 3751,
+        "locationEnd": 3763,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_33",
+        "category": "LOC",
+        "surfaceForm": "duinoordkerk",
+        "locationStart": 3751,
+        "locationEnd": 3763,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_33",
+        "category": "LOC",
+        "surfaceForm": "Duinoordkerk",
+        "locationStart": 3751,
+        "locationEnd": 3763,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "stanza_nl_53",
+        "surfaceForm": "Den Haag",
+        "category": "LOC",
+        "locationStart": 3767,
+        "locationEnd": 3775,
+        "tokenStart": 650,
+        "tokenEnd": 652,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_43",
+        "surfaceForm": "Den Haag",
+        "category": "LOC",
+        "locationStart": 3767,
+        "locationEnd": 3775,
+        "tokenStart": 650,
+        "tokenEnd": 652,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_32",
+        "category": "LOC",
+        "surfaceForm": "Den Haag",
+        "locationStart": 3767,
+        "locationEnd": 3775,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_33",
+        "category": "LOC",
+        "surfaceForm": "Den Haag",
+        "locationStart": 3767,
+        "locationEnd": 3775,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gysbert_hist_33",
+        "category": "LOC",
+        "surfaceForm": "haag",
+        "locationStart": 3771,
+        "locationEnd": 3775,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
       }
     ],
     "time_expressions": [

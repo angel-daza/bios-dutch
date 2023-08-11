@@ -1687,6 +1687,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "Thorbecke",
+        "locationStart": 52,
+        "locationEnd": 61,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_2",
         "surfaceForm": "Buitenlandse Zaken",
         "category": "ORG",
@@ -1703,6 +1711,14 @@
         "locationStart": 102,
         "locationEnd": 120,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "ORG",
+        "surfaceForm": "Buitenlandse Zaken",
+        "locationStart": 102,
+        "locationEnd": 120,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gysbert_hist_1",
@@ -1765,6 +1781,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_2",
+        "category": "PER",
+        "surfaceForm": "Rochussen",
+        "locationStart": 278,
+        "locationEnd": 287,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_5",
         "surfaceForm": "Zuylianen",
         "category": "ORG",
@@ -1801,6 +1825,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_3",
+        "category": "ORG",
+        "surfaceForm": "Tweede Kamer",
+        "locationStart": 433,
+        "locationEnd": 445,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_7",
         "surfaceForm": "Parijs",
         "category": "LOC",
@@ -1825,6 +1857,14 @@
         "locationStart": 521,
         "locationEnd": 527,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_4",
+        "category": "LOC",
+        "surfaceForm": "Parijs",
+        "locationStart": 521,
+        "locationEnd": 527,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_8",

@@ -992,26 +992,6 @@
         "method": "human_gold"
       },
       {
-        "ID": "stanza_nl_1",
-        "surfaceForm": "Schilder",
-        "category": "PER",
-        "locationStart": 15,
-        "locationEnd": 23,
-        "tokenStart": 3,
-        "tokenEnd": 4,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "stanza_nl_2",
-        "surfaceForm": "Man",
-        "category": "PER",
-        "locationStart": 49,
-        "locationEnd": 52,
-        "tokenStart": 9,
-        "tokenEnd": 10,
-        "method": "stanza_nl"
-      },
-      {
         "ID": "gpt-3.5-turbo_0",
         "category": "PERSON",
         "surfaceForm": "VERELST",
@@ -1020,12 +1000,30 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "VERELST",
+        "locationStart": 0,
+        "locationEnd": 7,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gpt-3.5-turbo_1",
         "category": "ORGANIZATION",
         "surfaceForm": "Schilder",
         "locationStart": 12,
         "locationEnd": 19,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "stanza_nl_1",
+        "surfaceForm": "Schilder",
+        "category": "PER",
+        "locationStart": 15,
+        "locationEnd": 23,
+        "tokenStart": 3,
+        "tokenEnd": 4,
+        "method": "stanza_nl"
       },
       {
         "ID": "gpt-3.5-turbo_2",
@@ -1042,6 +1040,16 @@
         "locationStart": 33,
         "locationEnd": 36,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "stanza_nl_2",
+        "surfaceForm": "Man",
+        "category": "PER",
+        "locationStart": 49,
+        "locationEnd": 52,
+        "tokenStart": 9,
+        "tokenEnd": 10,
+        "method": "stanza_nl"
       },
       {
         "ID": "gpt-3.5-turbo_4",

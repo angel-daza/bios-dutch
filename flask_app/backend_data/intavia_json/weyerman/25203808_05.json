@@ -856,6 +856,30 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "LOUIS",
+        "locationStart": 0,
+        "locationEnd": 5,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "L",
+        "locationStart": 0,
+        "locationEnd": 1,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "ARTWORK",
+        "surfaceForm": "Mechelsche Maan",
+        "locationStart": 34,
+        "locationEnd": 49,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_1",
         "surfaceForm": "Mechelsche Maan",
         "category": "PER",
@@ -872,6 +896,14 @@
         "locationStart": 44,
         "locationEnd": 59,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "ARTWORK",
+        "surfaceForm": "Fransche Zon",
+        "locationStart": 76,
+        "locationEnd": 88,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_2",
@@ -892,6 +924,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "ARTWORK",
+        "surfaceForm": "Leevensbeschryving",
+        "locationStart": 97,
+        "locationEnd": 115,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_3",
         "surfaceForm": "Leevensbeschryving",
         "category": "MISC",
@@ -910,6 +950,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "PERSON",
+        "surfaceForm": "Leonard Franois Louis",
+        "locationStart": 119,
+        "locationEnd": 140,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_4",
         "surfaceForm": "Konterfytzelschilder",
         "category": "MISC",
@@ -926,6 +974,14 @@
         "locationStart": 150,
         "locationEnd": 170,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "LOCATION",
+        "surfaceForm": "'s Gravenhaage",
+        "locationStart": 161,
+        "locationEnd": 174,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_5",
@@ -964,6 +1020,30 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "PER",
+        "surfaceForm": "Leonard Franois Louis",
+        "locationStart": 176,
+        "locationEnd": 197,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_6",
+        "category": "TIME",
+        "surfaceForm": "Bloeimaand",
+        "locationStart": 187,
+        "locationEnd": 197,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_7",
+        "category": "TIME",
+        "surfaceForm": "Jaar duizent zes",
+        "locationStart": 209,
+        "locationEnd": 224,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_6",
         "surfaceForm": "'s Gravenhaage",
         "category": "PER",
@@ -990,6 +1070,14 @@
         "locationStart": 212,
         "locationEnd": 213,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "' Gravenhaage",
+        "locationStart": 212,
+        "locationEnd": 226,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "flair_1",
@@ -1026,6 +1114,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "Bloeimaand",
+        "locationStart": 259,
+        "locationEnd": 269,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_7",
         "surfaceForm": "Jaar duizent",
         "category": "MISC",
@@ -1042,70 +1138,6 @@
         "locationStart": 283,
         "locationEnd": 294,
         "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "LOUIS",
-        "locationStart": 0,
-        "locationEnd": 5,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "ARTWORK",
-        "surfaceForm": "Mechelsche Maan",
-        "locationStart": 34,
-        "locationEnd": 49,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "ARTWORK",
-        "surfaceForm": "Fransche Zon",
-        "locationStart": 76,
-        "locationEnd": 88,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "ARTWORK",
-        "surfaceForm": "Leevensbeschryving",
-        "locationStart": 97,
-        "locationEnd": 115,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "PERSON",
-        "surfaceForm": "Leonard Franois Louis",
-        "locationStart": 119,
-        "locationEnd": 140,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "LOCATION",
-        "surfaceForm": "'s Gravenhaage",
-        "locationStart": 161,
-        "locationEnd": 174,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_6",
-        "category": "TIME",
-        "surfaceForm": "Bloeimaand",
-        "locationStart": 187,
-        "locationEnd": 197,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_7",
-        "category": "TIME",
-        "surfaceForm": "Jaar duizent zes",
-        "locationStart": 209,
-        "locationEnd": 224,
-        "method": "gpt-3.5-turbo"
       }
     ],
     "time_expressions": []

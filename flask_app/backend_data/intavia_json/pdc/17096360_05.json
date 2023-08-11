@@ -847,6 +847,30 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "LOCATION",
+        "surfaceForm": "Enkhuizer",
+        "locationStart": 0,
+        "locationEnd": 9,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "Enkhuizer",
+        "locationStart": 0,
+        "locationEnd": 9,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "LOCATION",
+        "surfaceForm": "Delftse",
+        "locationStart": 28,
+        "locationEnd": 34,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_1",
         "surfaceForm": "Delftse",
         "category": "MISC",
@@ -863,6 +887,14 @@
         "locationStart": 39,
         "locationEnd": 46,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "LOCATION",
+        "surfaceForm": "Den Haag",
+        "locationStart": 47,
+        "locationEnd": 55,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_2",
@@ -893,12 +925,36 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "Den Haaggevende Lichaam",
+        "locationStart": 59,
+        "locationEnd": 142,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gysbert_hist_1",
         "category": "LOC",
         "surfaceForm": "haag",
         "locationStart": 63,
         "locationEnd": 67,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Bataafse Wetgevende Lichaam",
+        "locationStart": 77,
+        "locationEnd": 103,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Staten-Generaal",
+        "locationStart": 105,
+        "locationEnd": 120,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_3",
@@ -929,6 +985,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Eerste Kamer",
+        "locationStart": 125,
+        "locationEnd": 136,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_4",
         "surfaceForm": "Staten-Generaal",
         "category": "MISC",
@@ -955,6 +1019,22 @@
         "locationStart": 147,
         "locationEnd": 162,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_1",
+        "category": "ORG",
+        "surfaceForm": "Staten-Generaal",
+        "locationStart": 147,
+        "locationEnd": 162,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_6",
+        "category": "LOCATION",
+        "surfaceForm": "Republiek",
+        "locationStart": 160,
+        "locationEnd": 169,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_3",
@@ -1003,6 +1083,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "ORG",
+        "surfaceForm": "Eerste Kamer",
+        "locationStart": 192,
+        "locationEnd": 204,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_5",
         "surfaceForm": "tijdens de Republiek",
         "category": "TIME",
@@ -1031,60 +1119,12 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "LOCATION",
-        "surfaceForm": "Enkhuizer",
-        "locationStart": 0,
-        "locationEnd": 9,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "LOCATION",
-        "surfaceForm": "Delftse",
-        "locationStart": 28,
-        "locationEnd": 34,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "LOCATION",
-        "surfaceForm": "Den Haag",
-        "locationStart": 47,
-        "locationEnd": 55,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Bataafse Wetgevende Lichaam",
-        "locationStart": 77,
-        "locationEnd": 103,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Staten-Generaal",
-        "locationStart": 105,
-        "locationEnd": 120,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Eerste Kamer",
-        "locationStart": 125,
-        "locationEnd": 136,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_6",
-        "category": "LOCATION",
-        "surfaceForm": "Republiek",
-        "locationStart": 160,
-        "locationEnd": 169,
-        "method": "gpt-3.5-turbo"
+        "ID": "xlmr_ner_2",
+        "category": "LOC",
+        "surfaceForm": "Re",
+        "locationStart": 245,
+        "locationEnd": 247,
+        "method": "xlmr_ner_"
       }
     ],
     "time_expressions": [

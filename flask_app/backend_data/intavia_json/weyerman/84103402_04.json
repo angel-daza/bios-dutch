@@ -804,6 +804,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "WAAL JANSZ",
+        "locationStart": 0,
+        "locationEnd": 9,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "WAAL JANSZ",
+        "locationStart": 0,
+        "locationEnd": 10,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_1",
         "surfaceForm": "Man",
         "category": "PER",
@@ -820,6 +836,14 @@
         "locationStart": 16,
         "locationEnd": 19,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "LOCATION",
+        "surfaceForm": "Antwerpen",
+        "locationStart": 24,
+        "locationEnd": 33,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_2",
@@ -858,6 +882,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "Antwerpen",
+        "locationStart": 36,
+        "locationEnd": 45,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "PERSON",
+        "surfaceForm": "Lukas",
+        "locationStart": 45,
+        "locationEnd": 50,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_2",
         "surfaceForm": "duyzentvyf hondert een en negentig",
         "category": "TIME",
@@ -874,6 +914,14 @@
         "locationStart": 59,
         "locationEnd": 93,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "PERSON",
+        "surfaceForm": "Schilder",
+        "locationStart": 97,
+        "locationEnd": 104,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_3",
@@ -912,6 +960,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_2",
+        "category": "PER",
+        "surfaceForm": "Lukas",
+        "locationStart": 99,
+        "locationEnd": 104,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_4",
         "surfaceForm": "Katten",
         "category": "PER",
@@ -930,44 +986,20 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_2",
+        "category": "PER",
+        "surfaceForm": "Katten",
+        "locationStart": 168,
+        "locationEnd": 174,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "flair_2",
         "category": "MISC",
         "surfaceForm": "Schilder",
         "locationStart": 194,
         "locationEnd": 202,
         "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "WAAL JANSZ",
-        "locationStart": 0,
-        "locationEnd": 9,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "LOCATION",
-        "surfaceForm": "Antwerpen",
-        "locationStart": 24,
-        "locationEnd": 33,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "PERSON",
-        "surfaceForm": "Lukas",
-        "locationStart": 45,
-        "locationEnd": 50,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "PERSON",
-        "surfaceForm": "Schilder",
-        "locationStart": 97,
-        "locationEnd": 104,
-        "method": "gpt-3.5-turbo"
       }
     ],
     "time_expressions": [

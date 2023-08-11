@@ -14799,12 +14799,28 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "J. ACKERSDIJCK",
+        "locationStart": 24,
+        "locationEnd": 38,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "flair_1",
         "category": "PER",
         "surfaceForm": "H.",
         "locationStart": 45,
         "locationEnd": 47,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "H. J. KOENEN",
+        "locationStart": 45,
+        "locationEnd": 57,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_0",
@@ -14853,6 +14869,14 @@
         "method": "stanza_nl"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "PER",
+        "surfaceForm": "Heeren",
+        "locationStart": 132,
+        "locationEnd": 138,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_3",
         "surfaceForm": "Hoogleeraar Ackeesdijck",
         "category": "MISC",
@@ -14877,6 +14901,14 @@
         "locationStart": 182,
         "locationEnd": 193,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_1",
+        "category": "PER",
+        "surfaceForm": "Ackeesdijck",
+        "locationStart": 182,
+        "locationEnd": 193,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_4",
@@ -14905,6 +14937,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "PER",
+        "surfaceForm": "Holtius",
+        "locationStart": 212,
+        "locationEnd": 219,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_5",
         "surfaceForm": "Vaderlands",
         "category": "PER",
@@ -14921,6 +14961,14 @@
         "locationStart": 697,
         "locationEnd": 707,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_3",
+        "category": "LOC",
+        "surfaceForm": "Vaderlands",
+        "locationStart": 697,
+        "locationEnd": 707,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_6",
@@ -14985,6 +15033,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_4",
+        "category": "LOC",
+        "surfaceForm": "Koningrijk",
+        "locationStart": 962,
+        "locationEnd": 972,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "xlmr_ner_4",
+        "category": "LOC",
+        "surfaceForm": "Belgie",
+        "locationStart": 973,
+        "locationEnd": 979,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_9",
         "surfaceForm": "Holtitjs",
         "category": "PER",
@@ -15011,6 +15075,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_6",
+        "category": "PER",
+        "surfaceForm": "Holtitjs",
+        "locationStart": 1099,
+        "locationEnd": 1107,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_10",
         "surfaceForm": "Ackersdijck",
         "category": "PER",
@@ -15035,6 +15107,14 @@
         "locationStart": 1273,
         "locationEnd": 1284,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_8",
+        "category": "PER",
+        "surfaceForm": "Ackersdijck",
+        "locationStart": 1273,
+        "locationEnd": 1284,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_11",
@@ -15065,6 +15145,14 @@
         "method": "stanza_nl"
       },
       {
+        "ID": "xlmr_ner_8",
+        "category": "ORG",
+        "surfaceForm": "Regeringen",
+        "locationStart": 1404,
+        "locationEnd": 1414,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_13",
         "surfaceForm": "Gouvernement",
         "category": "LOC",
@@ -15083,12 +15171,28 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_9",
+        "category": "ORG",
+        "surfaceForm": "Gouvernement",
+        "locationStart": 1525,
+        "locationEnd": 1537,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gysbert_hist_11",
         "category": "PER",
         "surfaceForm": "holt",
         "locationStart": 2137,
         "locationEnd": 2141,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_11",
+        "category": "PER",
+        "surfaceForm": "Holtius",
+        "locationStart": 2137,
+        "locationEnd": 2144,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_14",
@@ -15117,6 +15221,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_11",
+        "category": "PER",
+        "surfaceForm": "Ackeesdijck",
+        "locationStart": 2221,
+        "locationEnd": 2232,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_15",
         "surfaceForm": "Ackeesdijck",
         "category": "PER",
@@ -15143,6 +15255,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_11",
+        "category": "PER",
+        "surfaceForm": "Holtius",
+        "locationStart": 2321,
+        "locationEnd": 2328,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_16",
         "surfaceForm": "Holtius",
         "category": "PER",
@@ -15167,6 +15287,14 @@
         "locationStart": 2514,
         "locationEnd": 2525,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_12",
+        "category": "PER",
+        "surfaceForm": "Ackeesdijck",
+        "locationStart": 2514,
+        "locationEnd": 2525,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_17",
@@ -15255,6 +15383,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_14",
+        "category": "PER",
+        "surfaceForm": "Savigny",
+        "locationStart": 2933,
+        "locationEnd": 2940,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "xlmr_ner_14",
+        "category": "PER",
+        "surfaceForm": "Hugo",
+        "locationStart": 2944,
+        "locationEnd": 2948,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_20",
         "surfaceForm": "Hugo",
         "category": "PER",
@@ -15281,6 +15425,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_15",
+        "category": "PER",
+        "surfaceForm": "Adah Smith",
+        "locationStart": 3004,
+        "locationEnd": 3014,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_21",
         "surfaceForm": "Adah Smith",
         "category": "PER",
@@ -15305,6 +15457,14 @@
         "locationStart": 3018,
         "locationEnd": 3022,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_15",
+        "category": "PER",
+        "surfaceForm": "Jean Baptiste Say",
+        "locationStart": 3018,
+        "locationEnd": 3035,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_22",
@@ -15377,6 +15537,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_17",
+        "category": "PER",
+        "surfaceForm": "Ackeesduck",
+        "locationStart": 3789,
+        "locationEnd": 3799,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_25",
         "surfaceForm": "Ackeesduck",
         "category": "ORG",
@@ -15413,12 +15581,28 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_18",
+        "category": "",
+        "surfaceForm": "broeder",
+        "locationStart": 4247,
+        "locationEnd": 4253,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gysbert_hist_18",
         "category": "LOC",
         "surfaceForm": "luik",
         "locationStart": 4352,
         "locationEnd": 4356,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_18",
+        "category": "LOC",
+        "surfaceForm": "Luik",
+        "locationStart": 4352,
+        "locationEnd": 4356,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_27",
@@ -15493,6 +15677,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_20",
+        "category": "PER",
+        "surfaceForm": "Barbar",
+        "locationStart": 4878,
+        "locationEnd": 4884,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_31",
         "surfaceForm": "Barbaren",
         "category": "PER",
@@ -15509,6 +15701,14 @@
         "locationStart": 4880,
         "locationEnd": 4888,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_20",
+        "category": "LOC",
+        "surfaceForm": "Vaderland",
+        "locationStart": 5010,
+        "locationEnd": 5019,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_32",

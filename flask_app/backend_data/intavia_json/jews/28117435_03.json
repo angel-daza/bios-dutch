@@ -1007,6 +1007,30 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "Eduard Veterman",
+        "locationStart": 0,
+        "locationEnd": 14,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "Eduard Veterman",
+        "locationStart": 0,
+        "locationEnd": 15,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "TIME",
+        "surfaceForm": "9 november 1901",
+        "locationStart": 18,
+        "locationEnd": 34,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_2",
         "surfaceForm": "9 november 1901",
         "category": "TIME",
@@ -1023,6 +1047,14 @@
         "locationStart": 24,
         "locationEnd": 39,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "LOCATION",
+        "surfaceForm": "Den Haag",
+        "locationStart": 38,
+        "locationEnd": 46,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_1",
@@ -1053,12 +1085,44 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Den Haag",
+        "locationStart": 43,
+        "locationEnd": 51,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gysbert_hist_0",
         "category": "LOC",
         "surfaceForm": "haag",
         "locationStart": 47,
         "locationEnd": 51,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "ORGANIZATION",
+        "surfaceForm": "joodse",
+        "locationStart": 61,
+        "locationEnd": 67,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "PERSON",
+        "surfaceForm": "Veterman",
+        "locationStart": 68,
+        "locationEnd": 76,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "ARTWORK",
+        "surfaceForm": "decors",
+        "locationStart": 96,
+        "locationEnd": 102,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_2",
@@ -1097,98 +1161,12 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
-        "ID": "stanza_nl_3",
-        "surfaceForm": "Veterman",
-        "category": "PER",
-        "locationStart": 247,
-        "locationEnd": 255,
-        "tokenStart": 41,
-        "tokenEnd": 42,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_1",
-        "surfaceForm": "Veterman",
-        "category": "PER",
-        "locationStart": 247,
-        "locationEnd": 255,
-        "tokenStart": 41,
-        "tokenEnd": 42,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_3",
+        "ID": "xlmr_ner_1",
         "category": "PER",
         "surfaceForm": "Veterman",
-        "locationStart": 247,
-        "locationEnd": 255,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gold_3",
-        "surfaceForm": "1946",
-        "category": "TIME",
-        "locationStart": 274,
-        "locationEnd": 278,
-        "tokenStart": 47,
-        "tokenEnd": 48,
-        "method": "human_gold"
-      },
-      {
-        "ID": "gysbert_hist_4",
-        "category": "TIME",
-        "surfaceForm": "1946",
-        "locationStart": 274,
-        "locationEnd": 278,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "Eduard Veterman",
-        "locationStart": 0,
-        "locationEnd": 14,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "TIME",
-        "surfaceForm": "9 november 1901",
-        "locationStart": 18,
-        "locationEnd": 34,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "LOCATION",
-        "surfaceForm": "Den Haag",
-        "locationStart": 38,
-        "locationEnd": 46,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "ORGANIZATION",
-        "surfaceForm": "joodse",
-        "locationStart": 61,
-        "locationEnd": 67,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "PERSON",
-        "surfaceForm": "Veterman",
-        "locationStart": 68,
-        "locationEnd": 76,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "ARTWORK",
-        "surfaceForm": "decors",
-        "locationStart": 96,
-        "locationEnd": 102,
-        "method": "gpt-3.5-turbo"
+        "locationStart": 99,
+        "locationEnd": 107,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gpt-3.5-turbo_6",
@@ -1229,6 +1207,60 @@
         "locationStart": 209,
         "locationEnd": 221,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "stanza_nl_3",
+        "surfaceForm": "Veterman",
+        "category": "PER",
+        "locationStart": 247,
+        "locationEnd": 255,
+        "tokenStart": 41,
+        "tokenEnd": 42,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_1",
+        "surfaceForm": "Veterman",
+        "category": "PER",
+        "locationStart": 247,
+        "locationEnd": 255,
+        "tokenStart": 41,
+        "tokenEnd": 42,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_3",
+        "category": "PER",
+        "surfaceForm": "Veterman",
+        "locationStart": 247,
+        "locationEnd": 255,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_3",
+        "category": "PER",
+        "surfaceForm": "Veterman",
+        "locationStart": 247,
+        "locationEnd": 255,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gold_3",
+        "surfaceForm": "1946",
+        "category": "TIME",
+        "locationStart": 274,
+        "locationEnd": 278,
+        "tokenStart": 47,
+        "tokenEnd": 48,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_4",
+        "category": "TIME",
+        "surfaceForm": "1946",
+        "locationStart": 274,
+        "locationEnd": 278,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
       }
     ],
     "time_expressions": [

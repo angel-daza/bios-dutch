@@ -1487,6 +1487,22 @@
     },
     "entities": [
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "Schilder",
+        "locationStart": 0,
+        "locationEnd": 7,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "PERSON",
+        "surfaceForm": "tekenaar",
+        "locationStart": 10,
+        "locationEnd": 18,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_13",
         "surfaceForm": "6 november 1881",
         "category": "TIME",
@@ -1503,6 +1519,14 @@
         "locationStart": 29,
         "locationEnd": 44,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "LOCATION",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 37,
+        "locationEnd": 46,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_0",
@@ -1539,6 +1563,22 @@
         "locationStart": 46,
         "locationEnd": 55,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 46,
+        "locationEnd": 55,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "LOCATION",
+        "surfaceForm": "Alkmaar",
+        "locationStart": 67,
+        "locationEnd": 74,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_19",
@@ -1595,6 +1635,30 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_2",
+        "category": "LOC",
+        "surfaceForm": "Alkmaar",
+        "locationStart": 83,
+        "locationEnd": 90,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "LOCATION",
+        "surfaceForm": "Spanje",
+        "locationStart": 98,
+        "locationEnd": 104,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "LOCATION",
+        "surfaceForm": "Italie",
+        "locationStart": 118,
+        "locationEnd": 124,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_2",
         "surfaceForm": "Spanje",
         "category": "LOC",
@@ -1631,6 +1695,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_4",
+        "category": "LOC",
+        "surfaceForm": "Spanje",
+        "locationStart": 128,
+        "locationEnd": 134,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_1",
         "surfaceForm": "van 1911 tot 1911",
         "category": "TIME",
@@ -1639,6 +1711,14 @@
         "tokenStart": 28,
         "tokenEnd": 32,
         "method": "human_gold"
+      },
+      {
+        "ID": "gpt-3.5-turbo_6",
+        "category": "LOCATION",
+        "surfaceForm": "Dalmatie",
+        "locationStart": 137,
+        "locationEnd": 145,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gysbert_hist_4",
@@ -1665,6 +1745,14 @@
         "tokenStart": 32,
         "tokenEnd": 34,
         "method": "human_gold"
+      },
+      {
+        "ID": "gpt-3.5-turbo_7",
+        "category": "LOCATION",
+        "surfaceForm": "Schoorl",
+        "locationStart": 157,
+        "locationEnd": 164,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gysbert_hist_4",
@@ -1711,6 +1799,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_5",
+        "category": "LOC",
+        "surfaceForm": "Italie",
+        "locationStart": 164,
+        "locationEnd": 170,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_4",
         "surfaceForm": "van 1923 tot 1923",
         "category": "TIME",
@@ -1727,6 +1823,14 @@
         "locationStart": 176,
         "locationEnd": 180,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_8",
+        "category": "LOCATION",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 176,
+        "locationEnd": 185,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gysbert_hist_5",
@@ -1755,6 +1859,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_9",
+        "category": "LOCATION",
+        "surfaceForm": "Schoorl",
+        "locationStart": 197,
+        "locationEnd": 204,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_4",
         "surfaceForm": "Dalmatie",
         "category": "MISC",
@@ -1779,6 +1891,14 @@
         "locationStart": 200,
         "locationEnd": 203,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_6",
+        "category": "LOC",
+        "surfaceForm": "Dalmatie",
+        "locationStart": 200,
+        "locationEnd": 208,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_6",
@@ -1827,6 +1947,14 @@
         "locationStart": 246,
         "locationEnd": 253,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_7",
+        "category": "PER",
+        "surfaceForm": "Schoorl",
+        "locationStart": 246,
+        "locationEnd": 253,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_9",
@@ -1895,6 +2023,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_8",
+        "category": "LOC",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 283,
+        "locationEnd": 292,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_14",
         "surfaceForm": "1945 tot 1945 Tot",
         "category": "TIME",
@@ -1933,6 +2069,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_9",
+        "category": "PER",
+        "surfaceForm": "Schoorl",
+        "locationStart": 322,
+        "locationEnd": 329,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_16",
         "surfaceForm": ", van",
         "category": "LOC",
@@ -1951,86 +2095,6 @@
         "tokenStart": 77,
         "tokenEnd": 81,
         "method": "human_gold"
-      },
-      {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "Schilder",
-        "locationStart": 0,
-        "locationEnd": 7,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "PERSON",
-        "surfaceForm": "tekenaar",
-        "locationStart": 10,
-        "locationEnd": 18,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "LOCATION",
-        "surfaceForm": "Amsterdam",
-        "locationStart": 37,
-        "locationEnd": 46,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "LOCATION",
-        "surfaceForm": "Alkmaar",
-        "locationStart": 67,
-        "locationEnd": 74,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "LOCATION",
-        "surfaceForm": "Spanje",
-        "locationStart": 98,
-        "locationEnd": 104,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "LOCATION",
-        "surfaceForm": "Italie",
-        "locationStart": 118,
-        "locationEnd": 124,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_6",
-        "category": "LOCATION",
-        "surfaceForm": "Dalmatie",
-        "locationStart": 137,
-        "locationEnd": 145,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_7",
-        "category": "LOCATION",
-        "surfaceForm": "Schoorl",
-        "locationStart": 157,
-        "locationEnd": 164,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_8",
-        "category": "LOCATION",
-        "surfaceForm": "Amsterdam",
-        "locationStart": 176,
-        "locationEnd": 185,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_9",
-        "category": "LOCATION",
-        "surfaceForm": "Schoorl",
-        "locationStart": 197,
-        "locationEnd": 204,
-        "method": "gpt-3.5-turbo"
       }
     ],
     "time_expressions": [

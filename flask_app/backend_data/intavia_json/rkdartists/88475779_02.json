@@ -428,6 +428,22 @@
     },
     "entities": [
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "Aquarellist",
+        "locationStart": 0,
+        "locationEnd": 10,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "LOCATION",
+        "surfaceForm": "Den Haag",
+        "locationStart": 35,
+        "locationEnd": 43,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_0",
         "surfaceForm": "7 mei 1906",
         "category": "TIME",
@@ -482,12 +498,28 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "Den Haag",
+        "locationStart": 54,
+        "locationEnd": 62,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gysbert_hist_1",
         "category": "LOC",
         "surfaceForm": "haag",
         "locationStart": 58,
         "locationEnd": 62,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "LOCATION",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 61,
+        "locationEnd": 70,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_2",
@@ -544,28 +576,12 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "Aquarellist",
-        "locationStart": 0,
-        "locationEnd": 10,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "LOCATION",
-        "surfaceForm": "Den Haag",
-        "locationStart": 35,
-        "locationEnd": 43,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "LOCATION",
+        "ID": "xlmr_ner_2",
+        "category": "LOC",
         "surfaceForm": "Amsterdam",
-        "locationStart": 61,
-        "locationEnd": 70,
-        "method": "gpt-3.5-turbo"
+        "locationStart": 89,
+        "locationEnd": 98,
+        "method": "xlmr_ner_"
       }
     ],
     "time_expressions": [

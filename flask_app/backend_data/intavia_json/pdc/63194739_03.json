@@ -1060,6 +1060,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_2",
+        "category": "ORG",
+        "surfaceForm": "Raad van State",
+        "locationStart": 135,
+        "locationEnd": 149,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_4",
         "surfaceForm": "Den Haag",
         "category": "ORG",
@@ -1076,6 +1084,14 @@
         "locationStart": 184,
         "locationEnd": 192,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_2",
+        "category": "LOC",
+        "surfaceForm": "Den Haag",
+        "locationStart": 184,
+        "locationEnd": 192,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gysbert_hist_2",
@@ -1104,6 +1120,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_2",
+        "category": "ORG",
+        "surfaceForm": "Buitenlandse Zaken",
+        "locationStart": 209,
+        "locationEnd": 227,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_6",
         "surfaceForm": "Zuid-Holland",
         "category": "LOC",
@@ -1130,6 +1154,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_3",
+        "category": "LOC",
+        "surfaceForm": "Zuid-Holland",
+        "locationStart": 260,
+        "locationEnd": 272,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_7",
         "surfaceForm": "Gouda",
         "category": "LOC",
@@ -1154,6 +1186,14 @@
         "locationStart": 310,
         "locationEnd": 315,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_4",
+        "category": "LOC",
+        "surfaceForm": "Gouda",
+        "locationStart": 310,
+        "locationEnd": 315,
+        "method": "xlmr_ner_"
       }
     ],
     "time_expressions": [

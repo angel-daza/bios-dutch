@@ -26673,6 +26673,30 @@
     },
     "entities": [
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "ORGANIZATION",
+        "surfaceForm": "organisator",
+        "locationStart": 0,
+        "locationEnd": 10,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "ORGANIZATION",
+        "surfaceForm": "arbeiderscooperatie",
+        "locationStart": 10,
+        "locationEnd": 29,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "ORGANIZATION",
+        "surfaceForm": "SDAP",
+        "locationStart": 34,
+        "locationEnd": 38,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_0",
         "surfaceForm": "SDAP-gedeputeerde",
         "category": "MISC",
@@ -26689,6 +26713,14 @@
         "locationStart": 42,
         "locationEnd": 59,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "LOCATION",
+        "surfaceForm": "Friesland",
+        "locationStart": 52,
+        "locationEnd": 61,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_1",
@@ -26727,6 +26759,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Friesland",
+        "locationStart": 63,
+        "locationEnd": 72,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "LOCATION",
+        "surfaceForm": "Middelburg",
+        "locationStart": 65,
+        "locationEnd": 75,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_2",
         "surfaceForm": "Middelburg",
         "category": "LOC",
@@ -26763,6 +26811,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Middelburg",
+        "locationStart": 88,
+        "locationEnd": 98,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "LOCATION",
+        "surfaceForm": "Leeuwarden",
+        "locationStart": 92,
+        "locationEnd": 102,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_1",
         "surfaceForm": "2 mei 1880",
         "category": "TIME",
@@ -26779,6 +26843,14 @@
         "locationStart": 102,
         "locationEnd": 112,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_6",
+        "category": "PERSON",
+        "surfaceForm": "Willem Simon Besuijen",
+        "locationStart": 106,
+        "locationEnd": 126,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_3",
@@ -26817,6 +26889,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Leeuwarden",
+        "locationStart": 129,
+        "locationEnd": 139,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_13",
         "surfaceForm": "23 december 1916",
         "category": "TIME",
@@ -26833,6 +26913,14 @@
         "locationStart": 143,
         "locationEnd": 159,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_7",
+        "category": "PERSON",
+        "surfaceForm": "Maria Wilhelmina Dorothea Muller",
+        "locationStart": 161,
+        "locationEnd": 193,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_4",
@@ -26871,6 +26959,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "PER",
+        "surfaceForm": "Willem Simon Besuijen",
+        "locationStart": 181,
+        "locationEnd": 202,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_8",
+        "category": "PERSON",
+        "surfaceForm": "Louisa Maria Lindeboom",
+        "locationStart": 222,
+        "locationEnd": 245,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_5",
         "surfaceForm": "Maria Wilhelmina Dorothea Muller",
         "category": "PER",
@@ -26907,6 +27011,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "PER",
+        "surfaceForm": "Maria Wilhelmina Dorothea Muller",
+        "locationStart": 235,
+        "locationEnd": 267,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_9",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Amsterdamsche Spaarkas",
+        "locationStart": 258,
+        "locationEnd": 278,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_42",
         "surfaceForm": "1 oktober 1903",
         "category": "TIME",
@@ -26923,6 +27043,14 @@
         "locationStart": 272,
         "locationEnd": 286,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_10",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Provinciale Staten van Friesland",
+        "locationStart": 297,
+        "locationEnd": 328,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_6",
@@ -26961,6 +27089,30 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_2",
+        "category": "PER",
+        "surfaceForm": "Louisa Maria Lindeboom",
+        "locationStart": 316,
+        "locationEnd": 338,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_11",
+        "category": "LOCATION",
+        "surfaceForm": "Middelburg",
+        "locationStart": 334,
+        "locationEnd": 344,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_12",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Rijks Hoogere Burgerschool",
+        "locationStart": 366,
+        "locationEnd": 392,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_7",
         "surfaceForm": "Amsterdamsche Spaarkas",
         "category": "ORG",
@@ -26989,6 +27141,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_2",
+        "category": "LOC",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 382,
+        "locationEnd": 391,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_64",
         "surfaceForm": "van 1918 tot 1939",
         "category": "TIME",
@@ -27013,6 +27173,14 @@
         "locationStart": 421,
         "locationEnd": 425,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_13",
+        "category": "LOCATION",
+        "surfaceForm": "Delft",
+        "locationStart": 428,
+        "locationEnd": 433,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_8",
@@ -27041,6 +27209,14 @@
         "locationStart": 430,
         "locationEnd": 448,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_2",
+        "category": "ORG",
+        "surfaceForm": "Provinciale Staten van Friesland",
+        "locationStart": 430,
+        "locationEnd": 462,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_9",
@@ -27079,6 +27255,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_14",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Koninklijke Militaire Academie",
+        "locationStart": 455,
+        "locationEnd": 482,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_15",
+        "category": "LOCATION",
+        "surfaceForm": "Breda",
+        "locationStart": 486,
+        "locationEnd": 491,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_10",
         "surfaceForm": "Besuijen",
         "category": "PER",
@@ -27105,6 +27297,30 @@
         "locationStart": 495,
         "locationEnd": 503,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_4",
+        "category": "PER",
+        "surfaceForm": "Besuijen",
+        "locationStart": 495,
+        "locationEnd": 503,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_16",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Twentsche Bank",
+        "locationStart": 516,
+        "locationEnd": 530,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_17",
+        "category": "LOCATION",
+        "surfaceForm": "Almelo",
+        "locationStart": 534,
+        "locationEnd": 540,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_11",
@@ -27143,6 +27359,30 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_4",
+        "category": "LOC",
+        "surfaceForm": "Middelburg",
+        "locationStart": 543,
+        "locationEnd": 553,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_18",
+        "category": "LOCATION",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 557,
+        "locationEnd": 566,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_19",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Vereeniging van Handelsbedienden 'Mercurius",
+        "locationStart": 582,
+        "locationEnd": 621,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_12",
         "surfaceForm": "Rijks Hoogere Burgerschool",
         "category": "MISC",
@@ -27169,6 +27409,38 @@
         "locationStart": 624,
         "locationEnd": 650,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_4",
+        "category": "ORG",
+        "surfaceForm": "Rijks Hoogere Burgerschool",
+        "locationStart": 624,
+        "locationEnd": 650,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_20",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Commissie van Propaganda en Bijstand",
+        "locationStart": 642,
+        "locationEnd": 676,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_21",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Nationale Bond van Handels- en Kantoorbedienden",
+        "locationStart": 707,
+        "locationEnd": 751,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_22",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Amsterdamse afdeling",
+        "locationStart": 759,
+        "locationEnd": 778,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_13",
@@ -27207,6 +27479,46 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_6",
+        "category": "LOC",
+        "surfaceForm": "Delft",
+        "locationStart": 801,
+        "locationEnd": 806,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_23",
+        "category": "ORGANIZATION",
+        "surfaceForm": "SDAP",
+        "locationStart": 805,
+        "locationEnd": 809,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_24",
+        "category": "LOCATION",
+        "surfaceForm": "Leeuwarden",
+        "locationStart": 823,
+        "locationEnd": 833,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_25",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Excelsior",
+        "locationStart": 857,
+        "locationEnd": 866,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_26",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Algemeene Nederlandsche Bond van Handels- en Kantoorbedienden",
+        "locationStart": 892,
+        "locationEnd": 947,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_14",
         "surfaceForm": "Koninklijke Militaire Academie",
         "category": "ORG",
@@ -27233,6 +27545,14 @@
         "locationStart": 898,
         "locationEnd": 928,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_7",
+        "category": "ORG",
+        "surfaceForm": "Koninklijke Militaire Academie",
+        "locationStart": 898,
+        "locationEnd": 928,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_15",
@@ -27271,6 +27591,30 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_7",
+        "category": "LOC",
+        "surfaceForm": "Breda",
+        "locationStart": 932,
+        "locationEnd": 937,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_27",
+        "category": "ORGANIZATION",
+        "surfaceForm": "NVV",
+        "locationStart": 972,
+        "locationEnd": 975,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_28",
+        "category": "LOCATION",
+        "surfaceForm": "Leeuwarden",
+        "locationStart": 1001,
+        "locationEnd": 1011,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_16",
         "surfaceForm": "Besuijen",
         "category": "PER",
@@ -27307,6 +27651,38 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_8",
+        "category": "PER",
+        "surfaceForm": "Besuijen",
+        "locationStart": 1013,
+        "locationEnd": 1021,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_29",
+        "category": "ARTWORK",
+        "surfaceForm": "Vervroegde winkelsluiting",
+        "locationStart": 1051,
+        "locationEnd": 1074,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_30",
+        "category": "LOCATION",
+        "surfaceForm": "Rotterdam",
+        "locationStart": 1075,
+        "locationEnd": 1084,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_31",
+        "category": "LOCATION",
+        "surfaceForm": "Delft",
+        "locationStart": 1086,
+        "locationEnd": 1091,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_17",
         "surfaceForm": "Twentsche Bank",
         "category": "ORG",
@@ -27333,6 +27709,22 @@
         "locationStart": 1100,
         "locationEnd": 1114,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_8",
+        "category": "ORG",
+        "surfaceForm": "Twentsche Bank",
+        "locationStart": 1101,
+        "locationEnd": 1115,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_32",
+        "category": "PERSON",
+        "surfaceForm": "A. van der Heide",
+        "locationStart": 1115,
+        "locationEnd": 1131,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_18",
@@ -27369,6 +27761,14 @@
         "locationStart": 1119,
         "locationEnd": 1125,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_8",
+        "category": "LOC",
+        "surfaceForm": "Almelo",
+        "locationStart": 1119,
+        "locationEnd": 1125,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_4",
@@ -27417,6 +27817,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_8",
+        "category": "LOC",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 1160,
+        "locationEnd": 1169,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_33",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Excelsior",
+        "locationStart": 1175,
+        "locationEnd": 1184,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_6",
         "surfaceForm": "september 1901",
         "category": "TIME",
@@ -27433,6 +27849,14 @@
         "locationStart": 1188,
         "locationEnd": 1197,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_34",
+        "category": "LOCATION",
+        "surfaceForm": "Friesland",
+        "locationStart": 1188,
+        "locationEnd": 1197,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gysbert_hist_8",
@@ -27479,6 +27903,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_9",
+        "category": "LOC",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 1228,
+        "locationEnd": 1237,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_35",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Cooperatie-Gids",
+        "locationStart": 1236,
+        "locationEnd": 1251,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_21",
         "surfaceForm": "Vereeniging van Handelsbedienden 'Mercurius",
         "category": "ORG",
@@ -27507,12 +27947,36 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_9",
+        "category": "ORG",
+        "surfaceForm": "Vereeniging van Handelsbedienden 'Mercurius",
+        "locationStart": 1254,
+        "locationEnd": 1297,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_36",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Bond van Nederlandsche Arbeiders- Cooperaties",
+        "locationStart": 1256,
+        "locationEnd": 1297,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "flair_8",
         "category": "ORG",
         "surfaceForm": "Mercurius'",
         "locationStart": 1287,
         "locationEnd": 1297,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_37",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Het Cooperatieve V",
+        "locationStart": 1304,
+        "locationEnd": 1321,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_10",
@@ -27579,6 +28043,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_9",
+        "category": "ORG",
+        "surfaceForm": "Commissie van Propaganda en Bijstand",
+        "locationStart": 1354,
+        "locationEnd": 1390,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_23",
         "surfaceForm": "Amsterdamse",
         "category": "MISC",
@@ -27625,6 +28097,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_10",
+        "category": "ORG",
+        "surfaceForm": "Nationale Bond van Handels- en Kantoorbedienden",
+        "locationStart": 1512,
+        "locationEnd": 1559,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_25",
         "surfaceForm": "Nederland",
         "category": "LOC",
@@ -27651,6 +28131,14 @@
         "locationStart": 1562,
         "locationEnd": 1571,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_10",
+        "category": "LOC",
+        "surfaceForm": "Nederland",
+        "locationStart": 1563,
+        "locationEnd": 1572,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_16",
@@ -27709,6 +28197,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_11",
+        "category": "PER",
+        "surfaceForm": "Besuijen",
+        "locationStart": 1707,
+        "locationEnd": 1715,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_27",
         "surfaceForm": "Almelo",
         "category": "LOC",
@@ -27745,6 +28241,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_11",
+        "category": "LOC",
+        "surfaceForm": "Almelo",
+        "locationStart": 1728,
+        "locationEnd": 1734,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_28",
         "surfaceForm": "SDAP",
         "category": "ORG",
@@ -27771,6 +28275,14 @@
         "locationStart": 1810,
         "locationEnd": 1814,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_11",
+        "category": "ORG",
+        "surfaceForm": "SDAP",
+        "locationStart": 1811,
+        "locationEnd": 1815,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_29",
@@ -27807,6 +28319,14 @@
         "locationStart": 1854,
         "locationEnd": 1864,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_12",
+        "category": "LOC",
+        "surfaceForm": "Leeuwarden",
+        "locationStart": 1854,
+        "locationEnd": 1864,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_23",
@@ -27891,6 +28411,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_12",
+        "category": "ORG",
+        "surfaceForm": "Excelsior",
+        "locationStart": 1981,
+        "locationEnd": 1990,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_27",
         "surfaceForm": "september 1905",
         "category": "TIME",
@@ -27937,6 +28465,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_13",
+        "category": "PER",
+        "surfaceForm": "Besuijen",
+        "locationStart": 2029,
+        "locationEnd": 2037,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_32",
         "surfaceForm": "Algemeene Nederlandsche Bond van Handels- en Kantoorbedienden",
         "category": "ORG",
@@ -27963,6 +28499,14 @@
         "locationStart": 2121,
         "locationEnd": 2182,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_13",
+        "category": "ORG",
+        "surfaceForm": "Algemeene Nederlandsche Bond van Handels- en Kantoorbedienden",
+        "locationStart": 2122,
+        "locationEnd": 2183,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_33",
@@ -27993,6 +28537,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_13",
+        "category": "ORG",
+        "surfaceForm": "NVV",
+        "locationStart": 2230,
+        "locationEnd": 2233,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_34",
         "surfaceForm": "Besuijen",
         "category": "PER",
@@ -28019,6 +28571,14 @@
         "locationStart": 2243,
         "locationEnd": 2251,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_14",
+        "category": "PER",
+        "surfaceForm": "Besuijen",
+        "locationStart": 2244,
+        "locationEnd": 2252,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_32",
@@ -28073,6 +28633,14 @@
         "locationStart": 2293,
         "locationEnd": 2303,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_14",
+        "category": "LOC",
+        "surfaceForm": "Leeuwarden",
+        "locationStart": 2293,
+        "locationEnd": 2303,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_35",
@@ -28157,6 +28725,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_15",
+        "category": "LOC",
+        "surfaceForm": "Rotterdam",
+        "locationStart": 2632,
+        "locationEnd": 2640,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_38",
         "surfaceForm": "1906 ;",
         "category": "TIME",
@@ -28209,6 +28785,14 @@
         "locationStart": 2647,
         "locationEnd": 2652,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_16",
+        "category": "LOC",
+        "surfaceForm": "Delft",
+        "locationStart": 2647,
+        "locationEnd": 2652,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_40",
@@ -28311,6 +28895,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_18",
+        "category": "PER",
+        "surfaceForm": "A. van der Heide",
+        "locationStart": 2796,
+        "locationEnd": 2812,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gysbert_hist_18",
         "category": "PER",
         "surfaceForm": "van der heide",
@@ -28347,6 +28939,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_22",
+        "category": "PER",
+        "surfaceForm": "Besuijen",
+        "locationStart": 3193,
+        "locationEnd": 3201,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_43",
         "surfaceForm": "Excelsior",
         "category": "ORG",
@@ -28373,6 +28973,14 @@
         "locationStart": 3220,
         "locationEnd": 3229,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_22",
+        "category": "PER",
+        "surfaceForm": "Excelsior",
+        "locationStart": 3221,
+        "locationEnd": 3230,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_44",
@@ -28409,6 +29017,14 @@
         "locationStart": 3425,
         "locationEnd": 3434,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_23",
+        "category": "LOC",
+        "surfaceForm": "Friesland",
+        "locationStart": 3425,
+        "locationEnd": 3434,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_48",
@@ -28475,6 +29091,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_26",
+        "category": "ORG",
+        "surfaceForm": "Cooperatie-Gids",
+        "locationStart": 3573,
+        "locationEnd": 3588,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_46",
         "surfaceForm": "Bond van Nederlandsche Arbeiders- Cooperaties",
         "category": "ORG",
@@ -28501,6 +29125,14 @@
         "locationStart": 3610,
         "locationEnd": 3655,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_26",
+        "category": "ORG",
+        "surfaceForm": "Bond van Nederlandsche Arbeiders- Cooperaties",
+        "locationStart": 3611,
+        "locationEnd": 3656,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_52",
@@ -28549,6 +29181,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_26",
+        "category": "ORG",
+        "surfaceForm": "Het Cooperatieve Volksblad",
+        "locationStart": 3710,
+        "locationEnd": 3736,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_48",
         "surfaceForm": "De Socialistische Gids",
         "category": "MISC",
@@ -28575,6 +29215,14 @@
         "locationStart": 3817,
         "locationEnd": 3839,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_27",
+        "category": "ORG",
+        "surfaceForm": "De Socialistische Gids",
+        "locationStart": 3818,
+        "locationEnd": 3840,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_56",
@@ -28669,6 +29317,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_28",
+        "category": "PER",
+        "surfaceForm": "Besuijen",
+        "locationStart": 3938,
+        "locationEnd": 3946,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_51",
         "surfaceForm": "Provinciale Staten",
         "category": "LOC",
@@ -28695,6 +29351,14 @@
         "locationStart": 3951,
         "locationEnd": 3969,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_28",
+        "category": "LOC",
+        "surfaceForm": "Provinciale Staten van Friesland",
+        "locationStart": 3953,
+        "locationEnd": 3985,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_52",
@@ -28769,6 +29433,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_28",
+        "category": "PER",
+        "surfaceForm": "J.G. Jansonius",
+        "locationStart": 4022,
+        "locationEnd": 4036,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "flair_26",
         "category": "PER",
         "surfaceForm": "Jansonius",
@@ -28813,6 +29485,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_28",
+        "category": "PER",
+        "surfaceForm": "G.L. van der Zwaag",
+        "locationStart": 4040,
+        "locationEnd": 4058,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_55",
         "surfaceForm": "Besuijen",
         "category": "PER",
@@ -28839,6 +29519,14 @@
         "locationStart": 4208,
         "locationEnd": 4216,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_29",
+        "category": "PER",
+        "surfaceForm": "Besuijen",
+        "locationStart": 4210,
+        "locationEnd": 4218,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_56",
@@ -28875,6 +29563,14 @@
         "locationStart": 4424,
         "locationEnd": 4428,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_31",
+        "category": "ORG",
+        "surfaceForm": "SDAP",
+        "locationStart": 4426,
+        "locationEnd": 4430,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_68",
@@ -28987,6 +29683,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_32",
+        "category": "PER",
+        "surfaceForm": "Besuijen",
+        "locationStart": 4615,
+        "locationEnd": 4623,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_61",
         "surfaceForm": "Excelsior",
         "category": "ORG",
@@ -29015,6 +29719,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_33",
+        "category": "ORG",
+        "surfaceForm": "Excelsior",
+        "locationStart": 4713,
+        "locationEnd": 4722,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_62",
         "surfaceForm": "Besuijen",
         "category": "PER",
@@ -29041,6 +29753,14 @@
         "locationStart": 4786,
         "locationEnd": 4794,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_33",
+        "category": "PER",
+        "surfaceForm": "Besuijen",
+        "locationStart": 4788,
+        "locationEnd": 4796,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_74",
@@ -29081,6 +29801,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_34",
+        "category": "PER",
+        "surfaceForm": "Edo Fimmen",
+        "locationStart": 4966,
+        "locationEnd": 4976,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_64",
         "surfaceForm": "Algemeene",
         "category": "ORG",
@@ -29109,6 +29837,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_34",
+        "category": "ORG",
+        "surfaceForm": "Algemeene",
+        "locationStart": 4984,
+        "locationEnd": 4993,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_65",
         "surfaceForm": "Besuijen",
         "category": "ORG",
@@ -29135,6 +29871,14 @@
         "locationStart": 4997,
         "locationEnd": 5005,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_34",
+        "category": "PER",
+        "surfaceForm": "Besuijen",
+        "locationStart": 4999,
+        "locationEnd": 5007,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_66",
@@ -29211,6 +29955,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_34",
+        "category": "ORG",
+        "surfaceForm": "Nationaal Comite voor Vervroegde Winkelsluiting",
+        "locationStart": 5196,
+        "locationEnd": 5243,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_82",
         "surfaceForm": "1912",
         "category": "TIME",
@@ -29257,6 +30009,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_35",
+        "category": "LOC",
+        "surfaceForm": "Provinciale Staten",
+        "locationStart": 5259,
+        "locationEnd": 5277,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_84",
         "surfaceForm": "Besuijen",
         "category": "PER",
@@ -29273,6 +30033,14 @@
         "locationStart": 5276,
         "locationEnd": 5284,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_35",
+        "category": "PER",
+        "surfaceForm": "Besuijen",
+        "locationStart": 5278,
+        "locationEnd": 5286,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_69",
@@ -29311,6 +30079,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_36",
+        "category": "PER",
+        "surfaceForm": "Van der Zwaag",
+        "locationStart": 5308,
+        "locationEnd": 5321,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_70",
         "surfaceForm": "Nederland",
         "category": "LOC",
@@ -29337,6 +30113,14 @@
         "locationStart": 5369,
         "locationEnd": 5378,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_36",
+        "category": "LOC",
+        "surfaceForm": "Nederland",
+        "locationStart": 5371,
+        "locationEnd": 5380,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_71",
@@ -29367,6 +30151,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_36",
+        "category": "ORG",
+        "surfaceForm": "SDAP",
+        "locationStart": 5392,
+        "locationEnd": 5396,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_72",
         "surfaceForm": "Provinciale Keuringsdienst",
         "category": "ORG",
@@ -29395,6 +30187,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_38",
+        "category": "ORG",
+        "surfaceForm": "Provinciale Keuringsdienst",
+        "locationStart": 5530,
+        "locationEnd": 5556,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_73",
         "surfaceForm": "Provinciale Electriciteitsbedrijf",
         "category": "ORG",
@@ -29421,6 +30221,14 @@
         "locationStart": 5562,
         "locationEnd": 5595,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_38",
+        "category": "ORG",
+        "surfaceForm": "Provinciale Electriciteitsbedrijf",
+        "locationStart": 5564,
+        "locationEnd": 5597,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_91",
@@ -29469,6 +30277,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_39",
+        "category": "PER",
+        "surfaceForm": "Besuijen",
+        "locationStart": 5627,
+        "locationEnd": 5635,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_75",
         "surfaceForm": "Leeuwarden",
         "category": "LOC",
@@ -29505,6 +30321,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_39",
+        "category": "LOC",
+        "surfaceForm": "Leeuwarden",
+        "locationStart": 5656,
+        "locationEnd": 5666,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_76",
         "surfaceForm": "Het Volk",
         "category": "MISC",
@@ -29533,6 +30357,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_40",
+        "category": "ORG",
+        "surfaceForm": "Het Volk",
+        "locationStart": 5743,
+        "locationEnd": 5751,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_77",
         "surfaceForm": "F.E. Posthuma",
         "category": "PER",
@@ -29559,6 +30391,14 @@
         "locationStart": 5865,
         "locationEnd": 5869,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_40",
+        "category": "PER",
+        "surfaceForm": "F.E. Posthuma",
+        "locationStart": 5867,
+        "locationEnd": 5880,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "flair_39",
@@ -29603,6 +30443,14 @@
         "locationStart": 5990,
         "locationEnd": 5998,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_41",
+        "category": "PER",
+        "surfaceForm": "Besuijen",
+        "locationStart": 5992,
+        "locationEnd": 6000,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_97",
@@ -29697,6 +30545,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_44",
+        "category": "LOC",
+        "surfaceForm": "Westerveld",
+        "locationStart": 6242,
+        "locationEnd": 6252,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_80",
         "surfaceForm": "Van der Heide",
         "category": "PER",
@@ -29733,6 +30589,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_45",
+        "category": "PER",
+        "surfaceForm": "Van der Heide",
+        "locationStart": 6265,
+        "locationEnd": 6278,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_81",
         "surfaceForm": "Besuijen",
         "category": "PER",
@@ -29759,6 +30623,14 @@
         "locationStart": 6284,
         "locationEnd": 6292,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_45",
+        "category": "PER",
+        "surfaceForm": "Besuijen",
+        "locationStart": 6286,
+        "locationEnd": 6294,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_82",
@@ -29789,6 +30661,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_50",
+        "category": "PER",
+        "surfaceForm": "Vliegen",
+        "locationStart": 6818,
+        "locationEnd": 6825,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_83",
         "surfaceForm": "Besuijen",
         "category": "PER",
@@ -29817,6 +30697,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_51",
+        "category": "PER",
+        "surfaceForm": "Besuijen",
+        "locationStart": 7137,
+        "locationEnd": 7145,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_84",
         "surfaceForm": "J.J. Kalma",
         "category": "PER",
@@ -29843,6 +30731,14 @@
         "locationStart": 7256,
         "locationEnd": 7260,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_51",
+        "category": "PER",
+        "surfaceForm": "J.J. Kalma",
+        "locationStart": 7258,
+        "locationEnd": 7268,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gysbert_hist_51",
@@ -29879,6 +30775,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_52",
+        "category": "PER",
+        "surfaceForm": "K.P.W. Besuijen",
+        "locationStart": 7290,
+        "locationEnd": 7305,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "flair_53",
         "category": "PER",
         "surfaceForm": "Besuijen",
@@ -29905,6 +30809,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_52",
+        "category": "ORG",
+        "surfaceForm": "Provinciale Staten",
+        "locationStart": 7319,
+        "locationEnd": 7337,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_87",
         "surfaceForm": "C.B. Menalda",
         "category": "PER",
@@ -29921,6 +30833,14 @@
         "locationStart": 7340,
         "locationEnd": 7344,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_52",
+        "category": "PER",
+        "surfaceForm": "C.B. Menaldaef",
+        "locationStart": 7342,
+        "locationEnd": 7370,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gysbert_hist_52",
@@ -29955,6 +30875,14 @@
         "locationStart": 7356,
         "locationEnd": 7378,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_52",
+        "category": "LOC",
+        "surfaceForm": "FrieslandLeeuwarden",
+        "locationStart": 7371,
+        "locationEnd": 7392,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_89",
@@ -30027,6 +30955,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_55",
+        "category": "PER",
+        "surfaceForm": "J. Kramer",
+        "locationStart": 7510,
+        "locationEnd": 7519,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_92",
         "surfaceForm": "Leeuwarden",
         "category": "LOC",
@@ -30053,6 +30989,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_55",
+        "category": "LOC",
+        "surfaceForm": "Leeuwarden",
+        "locationStart": 7523,
+        "locationEnd": 7533,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_93",
         "surfaceForm": "Leeuwarden",
         "category": "LOC",
@@ -30077,6 +31021,14 @@
         "locationStart": 7608,
         "locationEnd": 7618,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_56",
+        "category": "LOC",
+        "surfaceForm": "Leeuwar",
+        "locationStart": 7609,
+        "locationEnd": 7615,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gysbert_hist_56",
@@ -30113,6 +31065,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_58",
+        "category": "ORG",
+        "surfaceForm": "Excelsior",
+        "locationStart": 7732,
+        "locationEnd": 7741,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "flair_59",
         "category": "LOC",
         "surfaceForm": "Leeuwarden",
@@ -30127,6 +31087,14 @@
         "locationStart": 7745,
         "locationEnd": 7755,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_58",
+        "category": "LOC",
+        "surfaceForm": "LeeuwardenLeeuwarden",
+        "locationStart": 7745,
+        "locationEnd": 7767,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_95",
@@ -30187,6 +31155,14 @@
         "locationStart": 7811,
         "locationEnd": 7831,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_60",
+        "category": "ORG",
+        "surfaceForm": "Arbeiders-cooperatieAmsterdam",
+        "locationStart": 7814,
+        "locationEnd": 7845,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_97",
@@ -30265,6 +31241,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_61",
+        "category": "LOC",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 7886,
+        "locationEnd": 7894,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gysbert_hist_61",
         "category": "TIME",
         "surfaceForm": "1914",
@@ -30307,6 +31291,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_62",
+        "category": "LOC",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 7931,
+        "locationEnd": 7939,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gysbert_hist_62",
         "category": "TIME",
         "surfaceForm": "1916",
@@ -30341,6 +31333,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_63",
+        "category": "LOC",
+        "surfaceForm": "Friesland",
+        "locationStart": 7973,
+        "locationEnd": 7982,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_101",
         "surfaceForm": "Friesch Volksblad",
         "category": "ORG",
@@ -30357,6 +31357,14 @@
         "locationStart": 8012,
         "locationEnd": 8029,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_64",
+        "category": "ORG",
+        "surfaceForm": "Friesch Volksblad",
+        "locationStart": 8015,
+        "locationEnd": 8032,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gysbert_hist_64",
@@ -30383,6 +31391,14 @@
         "locationStart": 8042,
         "locationEnd": 8060,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_65",
+        "category": "ORG",
+        "surfaceForm": "Leeuwarder Courant",
+        "locationStart": 8045,
+        "locationEnd": 8063,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gysbert_hist_65",
@@ -30501,6 +31517,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_66",
+        "category": "PER",
+        "surfaceForm": "A. van der Heide",
+        "locationStart": 8126,
+        "locationEnd": 8142,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_105",
         "surfaceForm": "In memoriam K.P.W. Besuyen",
         "category": "MISC",
@@ -30525,6 +31549,14 @@
         "locationStart": 8154,
         "locationEnd": 8159,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_66",
+        "category": "PER",
+        "surfaceForm": "K.P.W.",
+        "locationStart": 8157,
+        "locationEnd": 8163,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "flair_61",
@@ -30569,12 +31601,28 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_68",
+        "category": "PER",
+        "surfaceForm": "V",
+        "locationStart": 8214,
+        "locationEnd": 8215,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "flair_61",
         "category": "ORG",
         "surfaceForm": "Kracht",
         "locationStart": 8220,
         "locationEnd": 8226,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_68",
+        "category": "ORG",
+        "surfaceForm": "Kracht",
+        "locationStart": 8223,
+        "locationEnd": 8229,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_107",
@@ -30603,6 +31651,14 @@
         "locationStart": 8240,
         "locationEnd": 8244,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_69",
+        "category": "PER",
+        "surfaceForm": "P.J. MeertensKarel Paulus Willem",
+        "locationStart": 8243,
+        "locationEnd": 8288,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "flair_62",
@@ -30673,6 +31729,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_70",
+        "category": "ORG",
+        "surfaceForm": "Mededelingenblad",
+        "locationStart": 8295,
+        "locationEnd": 8311,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gysbert_hist_70",
         "category": "TIME",
         "surfaceForm": "januari 1954 p wiersma",
@@ -30699,6 +31763,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_70",
+        "category": "PER",
+        "surfaceForm": "J.P. Wiersma",
+        "locationStart": 8339,
+        "locationEnd": 8351,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "flair_63",
         "category": "PER",
         "surfaceForm": "Wiersma",
@@ -30723,6 +31795,14 @@
         "locationStart": 8350,
         "locationEnd": 8380,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_70",
+        "category": "PER",
+        "surfaceForm": "Th.M. Th. van Welderen RengersDen Haag",
+        "locationStart": 8353,
+        "locationEnd": 8393,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gysbert_hist_70",
@@ -30819,6 +31899,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_70",
+        "category": "PER",
+        "surfaceForm": "B. ReinaldaNijmegen",
+        "locationStart": 8405,
+        "locationEnd": 8451,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_116",
         "surfaceForm": "Nijmegen",
         "category": "LOC",
@@ -30879,6 +31967,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_71",
+        "category": "PER",
+        "surfaceForm": "W. Olthof",
+        "locationStart": 8459,
+        "locationEnd": 8468,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_118",
         "surfaceForm": "Friesland",
         "category": "LOC",
@@ -30903,6 +31999,14 @@
         "locationStart": 8497,
         "locationEnd": 8506,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_71",
+        "category": "LOC",
+        "surfaceForm": "Friesland",
+        "locationStart": 8497,
+        "locationEnd": 8506,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_119",
@@ -30975,6 +32079,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_72",
+        "category": "LOC",
+        "surfaceForm": "FrieslandAkkrum",
+        "locationStart": 8592,
+        "locationEnd": 8609,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_122",
         "surfaceForm": "Akkrum",
         "category": "LOC",
@@ -31035,6 +32147,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_73",
+        "category": "PER",
+        "surfaceForm": "R. van der Woude",
+        "locationStart": 8625,
+        "locationEnd": 8641,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_124",
         "surfaceForm": "Leeuwarden",
         "category": "LOC",
@@ -31059,6 +32179,14 @@
         "locationStart": 8643,
         "locationEnd": 8653,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_73",
+        "category": "LOC",
+        "surfaceForm": "Leeuwarden",
+        "locationStart": 8643,
+        "locationEnd": 8653,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gysbert_hist_73",
@@ -31103,6 +32231,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_74",
+        "category": "LOC",
+        "surfaceForm": "Leeuwarden",
+        "locationStart": 8713,
+        "locationEnd": 8722,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_126",
         "surfaceForm": "J. de Roos",
         "category": "PER",
@@ -31129,6 +32265,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_75",
+        "category": "PER",
+        "surfaceForm": "J. de Roos",
+        "locationStart": 8730,
+        "locationEnd": 8740,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_127",
         "surfaceForm": "Amsterdam",
         "category": "LOC",
@@ -31153,6 +32297,14 @@
         "locationStart": 8807,
         "locationEnd": 8816,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_76",
+        "category": "LOC",
+        "surfaceForm": "AmsterdamK.P.W. Besuijen",
+        "locationStart": 8808,
+        "locationEnd": 8846,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_128",
@@ -31213,6 +32365,14 @@
         "locationStart": 8854,
         "locationEnd": 8857,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_76",
+        "category": "ORG",
+        "surfaceForm": "IISGuijenP.J. Meertens",
+        "locationStart": 8854,
+        "locationEnd": 8915,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_130",
@@ -31293,6 +32453,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_76",
+        "category": "PER",
+        "surfaceForm": "Bob ReinaldaBWSA",
+        "locationStart": 8917,
+        "locationEnd": 8965,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_133",
         "surfaceForm": ":BWSA 2",
         "category": "MISC",
@@ -31317,310 +32485,6 @@
         "locationStart": 8969,
         "locationEnd": 8973,
         "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "ORGANIZATION",
-        "surfaceForm": "organisator",
-        "locationStart": 0,
-        "locationEnd": 10,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "ORGANIZATION",
-        "surfaceForm": "arbeiderscooperatie",
-        "locationStart": 10,
-        "locationEnd": 29,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "ORGANIZATION",
-        "surfaceForm": "SDAP",
-        "locationStart": 34,
-        "locationEnd": 38,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "LOCATION",
-        "surfaceForm": "Friesland",
-        "locationStart": 52,
-        "locationEnd": 61,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "LOCATION",
-        "surfaceForm": "Middelburg",
-        "locationStart": 65,
-        "locationEnd": 75,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "LOCATION",
-        "surfaceForm": "Leeuwarden",
-        "locationStart": 92,
-        "locationEnd": 102,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_6",
-        "category": "PERSON",
-        "surfaceForm": "Willem Simon Besuijen",
-        "locationStart": 106,
-        "locationEnd": 126,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_7",
-        "category": "PERSON",
-        "surfaceForm": "Maria Wilhelmina Dorothea Muller",
-        "locationStart": 161,
-        "locationEnd": 193,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_8",
-        "category": "PERSON",
-        "surfaceForm": "Louisa Maria Lindeboom",
-        "locationStart": 222,
-        "locationEnd": 245,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_9",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Amsterdamsche Spaarkas",
-        "locationStart": 258,
-        "locationEnd": 278,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_10",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Provinciale Staten van Friesland",
-        "locationStart": 297,
-        "locationEnd": 328,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_11",
-        "category": "LOCATION",
-        "surfaceForm": "Middelburg",
-        "locationStart": 334,
-        "locationEnd": 344,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_12",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Rijks Hoogere Burgerschool",
-        "locationStart": 366,
-        "locationEnd": 392,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_13",
-        "category": "LOCATION",
-        "surfaceForm": "Delft",
-        "locationStart": 428,
-        "locationEnd": 433,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_14",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Koninklijke Militaire Academie",
-        "locationStart": 455,
-        "locationEnd": 482,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_15",
-        "category": "LOCATION",
-        "surfaceForm": "Breda",
-        "locationStart": 486,
-        "locationEnd": 491,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_16",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Twentsche Bank",
-        "locationStart": 516,
-        "locationEnd": 530,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_17",
-        "category": "LOCATION",
-        "surfaceForm": "Almelo",
-        "locationStart": 534,
-        "locationEnd": 540,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_18",
-        "category": "LOCATION",
-        "surfaceForm": "Amsterdam",
-        "locationStart": 557,
-        "locationEnd": 566,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_19",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Vereeniging van Handelsbedienden 'Mercurius",
-        "locationStart": 582,
-        "locationEnd": 621,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_20",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Commissie van Propaganda en Bijstand",
-        "locationStart": 642,
-        "locationEnd": 676,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_21",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Nationale Bond van Handels- en Kantoorbedienden",
-        "locationStart": 707,
-        "locationEnd": 751,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_22",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Amsterdamse afdeling",
-        "locationStart": 759,
-        "locationEnd": 778,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_23",
-        "category": "ORGANIZATION",
-        "surfaceForm": "SDAP",
-        "locationStart": 805,
-        "locationEnd": 809,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_24",
-        "category": "LOCATION",
-        "surfaceForm": "Leeuwarden",
-        "locationStart": 823,
-        "locationEnd": 833,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_25",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Excelsior",
-        "locationStart": 857,
-        "locationEnd": 866,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_26",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Algemeene Nederlandsche Bond van Handels- en Kantoorbedienden",
-        "locationStart": 892,
-        "locationEnd": 947,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_27",
-        "category": "ORGANIZATION",
-        "surfaceForm": "NVV",
-        "locationStart": 972,
-        "locationEnd": 975,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_28",
-        "category": "LOCATION",
-        "surfaceForm": "Leeuwarden",
-        "locationStart": 1001,
-        "locationEnd": 1011,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_29",
-        "category": "ARTWORK",
-        "surfaceForm": "Vervroegde winkelsluiting",
-        "locationStart": 1051,
-        "locationEnd": 1074,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_30",
-        "category": "LOCATION",
-        "surfaceForm": "Rotterdam",
-        "locationStart": 1075,
-        "locationEnd": 1084,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_31",
-        "category": "LOCATION",
-        "surfaceForm": "Delft",
-        "locationStart": 1086,
-        "locationEnd": 1091,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_32",
-        "category": "PERSON",
-        "surfaceForm": "A. van der Heide",
-        "locationStart": 1115,
-        "locationEnd": 1131,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_33",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Excelsior",
-        "locationStart": 1175,
-        "locationEnd": 1184,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_34",
-        "category": "LOCATION",
-        "surfaceForm": "Friesland",
-        "locationStart": 1188,
-        "locationEnd": 1197,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_35",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Cooperatie-Gids",
-        "locationStart": 1236,
-        "locationEnd": 1251,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_36",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Bond van Nederlandsche Arbeiders- Cooperaties",
-        "locationStart": 1256,
-        "locationEnd": 1297,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_37",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Het Cooperatieve V",
-        "locationStart": 1304,
-        "locationEnd": 1321,
-        "method": "gpt-3.5-turbo"
       }
     ],
     "time_expressions": [

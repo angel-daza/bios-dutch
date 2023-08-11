@@ -675,6 +675,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Tiel",
+        "locationStart": 46,
+        "locationEnd": 50,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_1",
         "surfaceForm": "Kamer",
         "category": "ORG",
@@ -691,6 +699,14 @@
         "locationStart": 141,
         "locationEnd": 146,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "ORG",
+        "surfaceForm": "Kamer",
+        "locationStart": 141,
+        "locationEnd": 146,
+        "method": "xlmr_ner_"
       }
     ],
     "time_expressions": []

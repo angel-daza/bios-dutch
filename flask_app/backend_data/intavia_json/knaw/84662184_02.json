@@ -17622,6 +17622,22 @@
     },
     "entities": [
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Levensbericht",
+        "locationStart": 0,
+        "locationEnd": 12,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "PERSON",
+        "surfaceForm": "D. de Wied",
+        "locationStart": 16,
+        "locationEnd": 25,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_0",
         "surfaceForm": "D. de Wied",
         "category": "PER",
@@ -17658,6 +17674,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "D. de Wied",
+        "locationStart": 19,
+        "locationEnd": 29,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "PERSON",
+        "surfaceForm": "F.P. Nijkamp",
+        "locationStart": 28,
+        "locationEnd": 39,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_1",
         "surfaceForm": "F.P. Nijkamp Wybren de Jong",
         "category": "PER",
@@ -17686,12 +17718,28 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "F.P. Nijkamp",
+        "locationStart": 33,
+        "locationEnd": 45,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "flair_1",
         "category": "PER",
         "surfaceForm": "Nijkamp",
         "locationStart": 38,
         "locationEnd": 45,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "PERSON",
+        "surfaceForm": "Wybren de Jong",
+        "locationStart": 40,
+        "locationEnd": 54,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "flair_1",
@@ -17708,6 +17756,22 @@
         "locationStart": 46,
         "locationEnd": 60,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "Wybren de Jong",
+        "locationStart": 46,
+        "locationEnd": 60,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "DATE",
+        "surfaceForm": "16 juli 1939",
+        "locationStart": 55,
+        "locationEnd": 67,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_44",
@@ -17728,12 +17792,28 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "DATE",
+        "surfaceForm": "29 april 2001",
+        "locationStart": 70,
+        "locationEnd": 83,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gysbert_hist_0",
         "category": "TIME",
         "surfaceForm": "29 april 200",
         "locationStart": 76,
         "locationEnd": 88,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_6",
+        "category": "PERSON",
+        "surfaceForm": "Wybren de Jong",
+        "locationStart": 84,
+        "locationEnd": 98,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_2",
@@ -17772,6 +17852,30 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "Wybren de Jong",
+        "locationStart": 90,
+        "locationEnd": 104,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_7",
+        "category": "ORGANIZATION",
+        "surfaceForm": "37",
+        "locationStart": 99,
+        "locationEnd": 101,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_8",
+        "category": "DATE",
+        "surfaceForm": "29 april 2001",
+        "locationStart": 105,
+        "locationEnd": 118,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_2",
         "surfaceForm": "29 april 2001",
         "category": "TIME",
@@ -17788,6 +17892,30 @@
         "locationStart": 111,
         "locationEnd": 123,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_9",
+        "category": "DATE",
+        "surfaceForm": "61-jarige leeftijd",
+        "locationStart": 122,
+        "locationEnd": 139,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_10",
+        "category": "PERSON",
+        "surfaceForm": "Wybren de Jong",
+        "locationStart": 140,
+        "locationEnd": 154,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_11",
+        "category": "DATE",
+        "surfaceForm": "1939",
+        "locationStart": 159,
+        "locationEnd": 163,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_3",
@@ -17824,6 +17952,30 @@
         "locationStart": 160,
         "locationEnd": 174,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "Wybren de Jong",
+        "locationStart": 160,
+        "locationEnd": 174,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_12",
+        "category": "LOCATION",
+        "surfaceForm": "Akkrum",
+        "locationStart": 167,
+        "locationEnd": 173,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_13",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Landbouw Hoge- school",
+        "locationStart": 193,
+        "locationEnd": 212,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_27",
@@ -17880,6 +18032,38 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "Akkrum",
+        "locationStart": 211,
+        "locationEnd": 217,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_14",
+        "category": "LOCATION",
+        "surfaceForm": "Wageningen",
+        "locationStart": 216,
+        "locationEnd": 226,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_15",
+        "category": "LOCATION",
+        "surfaceForm": "Groningen",
+        "locationStart": 234,
+        "locationEnd": 243,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_16",
+        "category": "DATE",
+        "surfaceForm": "1960",
+        "locationStart": 249,
+        "locationEnd": 253,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_5",
         "surfaceForm": "Landbouw Hoge-",
         "category": "ORG",
@@ -17906,6 +18090,22 @@
         "locationStart": 251,
         "locationEnd": 265,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_2",
+        "category": "ORG",
+        "surfaceForm": "Landbouw Hoge- school",
+        "locationStart": 251,
+        "locationEnd": 272,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_17",
+        "category": "LOCATION",
+        "surfaceForm": "Groningen",
+        "locationStart": 275,
+        "locationEnd": 284,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_6",
@@ -17944,6 +18144,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_2",
+        "category": "LOC",
+        "surfaceForm": "Wageningen",
+        "locationStart": 276,
+        "locationEnd": 286,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_18",
+        "category": "ORGANIZATION",
+        "surfaceForm": "endocrinologie",
+        "locationStart": 297,
+        "locationEnd": 311,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_7",
         "surfaceForm": "Groningen",
         "category": "LOC",
@@ -17980,6 +18196,30 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_2",
+        "category": "LOC",
+        "surfaceForm": "Groningen",
+        "locationStart": 323,
+        "locationEnd": 332,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_19",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Leidse Universiteit",
+        "locationStart": 328,
+        "locationEnd": 347,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_20",
+        "category": "LOCATION",
+        "surfaceForm": "Groningse",
+        "locationStart": 363,
+        "locationEnd": 371,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_39",
         "surfaceForm": "1960",
         "category": "TIME",
@@ -17996,6 +18236,38 @@
         "locationStart": 366,
         "locationEnd": 370,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_21",
+        "category": "DATE",
+        "surfaceForm": "1963",
+        "locationStart": 375,
+        "locationEnd": 379,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_22",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Leidse Universiteit",
+        "locationStart": 407,
+        "locationEnd": 426,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_23",
+        "category": "DATE",
+        "surfaceForm": "1963",
+        "locationStart": 432,
+        "locationEnd": 436,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_24",
+        "category": "DATE",
+        "surfaceForm": "1964",
+        "locationStart": 451,
+        "locationEnd": 455,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_8",
@@ -18034,1328 +18306,12 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
-        "ID": "stanza_nl_9",
-        "surfaceForm": "Leidse Universiteit",
-        "category": "ORG",
-        "locationStart": 685,
-        "locationEnd": 704,
-        "tokenStart": 118,
-        "tokenEnd": 120,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_46",
-        "surfaceForm": "Leidse Universiteit",
-        "category": "ORG",
-        "locationStart": 685,
-        "locationEnd": 704,
-        "tokenStart": 118,
-        "tokenEnd": 120,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_8",
-        "category": "ORG",
-        "surfaceForm": "Leidse Universiteit",
-        "locationStart": 685,
-        "locationEnd": 704,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "stanza_nl_10",
-        "surfaceForm": "Groningse",
-        "category": "MISC",
-        "locationStart": 751,
-        "locationEnd": 760,
-        "tokenStart": 127,
-        "tokenEnd": 128,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "flair_9",
-        "category": "MISC",
-        "surfaceForm": "Groningse",
-        "locationStart": 751,
-        "locationEnd": 760,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gold_47",
-        "surfaceForm": "1963",
-        "category": "TIME",
-        "locationStart": 909,
-        "locationEnd": 913,
-        "tokenStart": 154,
-        "tokenEnd": 155,
-        "method": "human_gold"
-      },
-      {
-        "ID": "gysbert_hist_9",
-        "category": "TIME",
-        "surfaceForm": "1963",
-        "locationStart": 909,
-        "locationEnd": 913,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_11",
-        "surfaceForm": "Leidse Universiteit",
-        "category": "ORG",
-        "locationStart": 945,
-        "locationEnd": 964,
-        "tokenStart": 160,
-        "tokenEnd": 162,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_49",
-        "surfaceForm": "Leidse Universiteit",
-        "category": "ORG",
-        "locationStart": 945,
-        "locationEnd": 964,
-        "tokenStart": 160,
-        "tokenEnd": 162,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_11",
-        "category": "ORG",
-        "surfaceForm": "Leidse Universiteit",
-        "locationStart": 945,
-        "locationEnd": 964,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gold_50",
-        "surfaceForm": "1963",
-        "category": "TIME",
-        "locationStart": 993,
-        "locationEnd": 997,
-        "tokenStart": 167,
-        "tokenEnd": 168,
-        "method": "human_gold"
-      },
-      {
-        "ID": "gysbert_hist_9",
-        "category": "TIME",
-        "surfaceForm": "1963",
-        "locationStart": 993,
-        "locationEnd": 997,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gold_0",
-        "surfaceForm": "1964",
-        "category": "TIME",
-        "locationStart": 1010,
-        "locationEnd": 1014,
-        "tokenStart": 171,
-        "tokenEnd": 172,
-        "method": "human_gold"
-      },
-      {
-        "ID": "gysbert_hist_9",
-        "category": "TIME",
-        "surfaceForm": "1964",
-        "locationStart": 1010,
-        "locationEnd": 1014,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_12",
-        "surfaceForm": "Rudolf Magnus Instituut",
-        "category": "ORG",
-        "locationStart": 1093,
-        "locationEnd": 1116,
-        "tokenStart": 182,
-        "tokenEnd": 185,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_1",
-        "surfaceForm": "Rudolf Magnus Instituut",
-        "category": "ORG",
-        "locationStart": 1093,
-        "locationEnd": 1116,
-        "tokenStart": 182,
-        "tokenEnd": 185,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_11",
-        "category": "ORG",
-        "surfaceForm": "Rudolf Magnus Instituut",
-        "locationStart": 1093,
-        "locationEnd": 1116,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "stanza_nl_13",
-        "surfaceForm": "Utrecht",
+        "ID": "xlmr_ner_3",
         "category": "LOC",
-        "locationStart": 1121,
-        "locationEnd": 1128,
-        "tokenStart": 187,
-        "tokenEnd": 188,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_3",
-        "surfaceForm": "Utrecht",
-        "category": "LOC",
-        "locationStart": 1121,
-        "locationEnd": 1128,
-        "tokenStart": 187,
-        "tokenEnd": 188,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_11",
-        "category": "LOC",
-        "surfaceForm": "Utrecht",
-        "locationStart": 1121,
-        "locationEnd": 1128,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_9",
-        "category": "LOC",
-        "surfaceForm": "utrecht",
-        "locationStart": 1121,
-        "locationEnd": 1128,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gold_4",
-        "surfaceForm": "1967",
-        "category": "TIME",
-        "locationStart": 1319,
-        "locationEnd": 1323,
-        "tokenStart": 218,
-        "tokenEnd": 219,
-        "method": "human_gold"
-      },
-      {
-        "ID": "gysbert_hist_12",
-        "category": "TIME",
-        "surfaceForm": "1967",
-        "locationStart": 1319,
-        "locationEnd": 1323,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_14",
-        "surfaceForm": "Utrecht",
-        "category": "LOC",
-        "locationStart": 1340,
-        "locationEnd": 1347,
-        "tokenStart": 222,
-        "tokenEnd": 223,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_5",
-        "surfaceForm": "Utrecht",
-        "category": "LOC",
-        "locationStart": 1340,
-        "locationEnd": 1347,
-        "tokenStart": 222,
-        "tokenEnd": 223,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_13",
-        "category": "LOC",
-        "surfaceForm": "Utrecht",
-        "locationStart": 1340,
-        "locationEnd": 1347,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_12",
-        "category": "LOC",
-        "surfaceForm": "utrecht",
-        "locationStart": 1340,
-        "locationEnd": 1347,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gold_6",
-        "surfaceForm": "1970",
-        "category": "TIME",
-        "locationStart": 1368,
-        "locationEnd": 1372,
-        "tokenStart": 227,
-        "tokenEnd": 228,
-        "method": "human_gold"
-      },
-      {
-        "ID": "gysbert_hist_13",
-        "category": "TIME",
-        "surfaceForm": "1970",
-        "locationStart": 1368,
-        "locationEnd": 1372,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_15",
-        "surfaceForm": "Albert Sjoerdsma",
-        "category": "PER",
-        "locationStart": 1401,
-        "locationEnd": 1417,
-        "tokenStart": 234,
-        "tokenEnd": 236,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_7",
-        "surfaceForm": "Albert Sjoerdsma",
-        "category": "PER",
-        "locationStart": 1401,
-        "locationEnd": 1417,
-        "tokenStart": 234,
-        "tokenEnd": 236,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_15",
-        "category": "PER",
-        "surfaceForm": "Albert Sjoerdsma",
-        "locationStart": 1401,
-        "locationEnd": 1417,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_13",
-        "category": "PER",
-        "surfaceForm": "albert sjoerdsma",
-        "locationStart": 1401,
-        "locationEnd": 1417,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_16",
-        "surfaceForm": "Walt Lovenberg",
-        "category": "PER",
-        "locationStart": 1425,
-        "locationEnd": 1439,
-        "tokenStart": 238,
-        "tokenEnd": 240,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_8",
-        "surfaceForm": "Walt Lovenberg",
-        "category": "PER",
-        "locationStart": 1425,
-        "locationEnd": 1439,
-        "tokenStart": 238,
-        "tokenEnd": 240,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_16",
-        "category": "PER",
-        "surfaceForm": "Walt Lovenberg",
-        "locationStart": 1425,
-        "locationEnd": 1439,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_13",
-        "category": "PER",
-        "surfaceForm": "walt lovenberg",
-        "locationStart": 1425,
-        "locationEnd": 1439,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_17",
-        "surfaceForm": "National Heart and Lung Institute",
-        "category": "ORG",
-        "locationStart": 1447,
-        "locationEnd": 1480,
-        "tokenStart": 242,
-        "tokenEnd": 247,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_9",
-        "surfaceForm": "National Heart and Lung Institute",
-        "category": "ORG",
-        "locationStart": 1447,
-        "locationEnd": 1480,
-        "tokenStart": 242,
-        "tokenEnd": 247,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_16",
-        "category": "LOC",
-        "surfaceForm": "National Heart and Lung Institute",
-        "locationStart": 1447,
-        "locationEnd": 1480,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "stanza_nl_18",
-        "surfaceForm": "National Institutes of Health",
-        "category": "ORG",
-        "locationStart": 1488,
-        "locationEnd": 1517,
-        "tokenStart": 249,
-        "tokenEnd": 253,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_10",
-        "surfaceForm": "National Institutes of Health",
-        "category": "ORG",
-        "locationStart": 1488,
-        "locationEnd": 1517,
-        "tokenStart": 249,
-        "tokenEnd": 253,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_16",
-        "category": "ORG",
-        "surfaceForm": "National Institutes of Health",
-        "locationStart": 1488,
-        "locationEnd": 1517,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "stanza_nl_19",
-        "surfaceForm": "Bethesda",
-        "category": "LOC",
-        "locationStart": 1521,
-        "locationEnd": 1529,
-        "tokenStart": 254,
-        "tokenEnd": 255,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_11",
-        "surfaceForm": "Bethesda",
-        "category": "LOC",
-        "locationStart": 1521,
-        "locationEnd": 1529,
-        "tokenStart": 254,
-        "tokenEnd": 255,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_16",
-        "category": "LOC",
-        "surfaceForm": "Bethesda",
-        "locationStart": 1521,
-        "locationEnd": 1529,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_13",
-        "category": "LOC",
-        "surfaceForm": "bethesda",
-        "locationStart": 1521,
-        "locationEnd": 1529,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_20",
-        "surfaceForm": "Maryland",
-        "category": "LOC",
-        "locationStart": 1531,
-        "locationEnd": 1539,
-        "tokenStart": 256,
-        "tokenEnd": 257,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_12",
-        "surfaceForm": "Maryland",
-        "category": "LOC",
-        "locationStart": 1531,
-        "locationEnd": 1539,
-        "tokenStart": 256,
-        "tokenEnd": 257,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_16",
-        "category": "LOC",
-        "surfaceForm": "Maryland",
-        "locationStart": 1531,
-        "locationEnd": 1539,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_13",
-        "category": "LOC",
-        "surfaceForm": "maryland",
-        "locationStart": 1531,
-        "locationEnd": 1539,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_21",
-        "surfaceForm": "Verenigde Staten",
-        "category": "LOC",
-        "locationStart": 1546,
-        "locationEnd": 1562,
-        "tokenStart": 259,
-        "tokenEnd": 261,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_13",
-        "surfaceForm": "Verenigde Staten",
-        "category": "LOC",
-        "locationStart": 1546,
-        "locationEnd": 1562,
-        "tokenStart": 259,
-        "tokenEnd": 261,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_16",
-        "category": "LOC",
-        "surfaceForm": "Verenigde Staten",
-        "locationStart": 1546,
-        "locationEnd": 1562,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gold_14",
-        "surfaceForm": "1987",
-        "category": "TIME",
-        "locationStart": 1597,
-        "locationEnd": 1601,
-        "tokenStart": 266,
-        "tokenEnd": 267,
-        "method": "human_gold"
-      },
-      {
-        "ID": "gysbert_hist_14",
-        "category": "TIME",
-        "surfaceForm": "1987",
-        "locationStart": 1597,
-        "locationEnd": 1601,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_22",
-        "surfaceForm": "Department of Pharmacology",
-        "category": "ORG",
-        "locationStart": 1636,
-        "locationEnd": 1662,
-        "tokenStart": 273,
-        "tokenEnd": 276,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_16",
-        "surfaceForm": "Department of Pharmacology",
-        "category": "ORG",
-        "locationStart": 1636,
-        "locationEnd": 1662,
-        "tokenStart": 273,
-        "tokenEnd": 276,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_17",
-        "category": "ORG",
-        "surfaceForm": "Department of Pharmacology",
-        "locationStart": 1636,
-        "locationEnd": 1662,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "stanza_nl_23",
-        "surfaceForm": "Osaka",
-        "category": "LOC",
-        "locationStart": 1687,
-        "locationEnd": 1692,
-        "tokenStart": 280,
-        "tokenEnd": 281,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_17",
-        "surfaceForm": "Osaka",
-        "category": "LOC",
-        "locationStart": 1687,
-        "locationEnd": 1692,
-        "tokenStart": 280,
-        "tokenEnd": 281,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_17",
-        "category": "LOC",
-        "surfaceForm": "Osaka",
-        "locationStart": 1687,
-        "locationEnd": 1692,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_14",
-        "category": "LOC",
-        "surfaceForm": "osaka",
-        "locationStart": 1687,
-        "locationEnd": 1692,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gold_18",
-        "surfaceForm": "tussen 1987 en 1989",
-        "category": "TIME",
-        "locationStart": 1696,
-        "locationEnd": 1715,
-        "tokenStart": 282,
-        "tokenEnd": 286,
-        "method": "human_gold"
-      },
-      {
-        "ID": "gysbert_hist_14",
-        "category": "TIME",
-        "surfaceForm": "1987",
-        "locationStart": 1703,
-        "locationEnd": 1707,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gysbert_hist_14",
-        "category": "TIME",
-        "surfaceForm": "1989",
-        "locationStart": 1711,
-        "locationEnd": 1715,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_24",
-        "surfaceForm": "Depart-",
-        "category": "MISC",
-        "locationStart": 1770,
-        "locationEnd": 1777,
-        "tokenStart": 294,
-        "tokenEnd": 295,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_19",
-        "surfaceForm": "Depart- ment of Pharmacology",
-        "category": "ORG",
-        "locationStart": 1770,
-        "locationEnd": 1798,
-        "tokenStart": 294,
-        "tokenEnd": 298,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_17",
-        "category": "ORG",
-        "surfaceForm": "Depart-",
-        "locationStart": 1770,
-        "locationEnd": 1777,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "flair_17",
-        "category": "ORG",
-        "surfaceForm": "of Pharmacology",
-        "locationStart": 1783,
-        "locationEnd": 1798,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "stanza_nl_25",
-        "surfaceForm": "Pharmacology",
-        "category": "ORG",
-        "locationStart": 1786,
-        "locationEnd": 1798,
-        "tokenStart": 297,
-        "tokenEnd": 298,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "stanza_nl_26",
-        "surfaceForm": "Toronto",
-        "category": "LOC",
-        "locationStart": 1823,
-        "locationEnd": 1830,
-        "tokenStart": 302,
-        "tokenEnd": 303,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_20",
-        "surfaceForm": "Toronto",
-        "category": "LOC",
-        "locationStart": 1823,
-        "locationEnd": 1830,
-        "tokenStart": 302,
-        "tokenEnd": 303,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_17",
-        "category": "LOC",
-        "surfaceForm": "Toronto",
-        "locationStart": 1823,
-        "locationEnd": 1830,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_14",
-        "category": "LOC",
-        "surfaceForm": "toronto",
-        "locationStart": 1823,
-        "locationEnd": 1830,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gold_21",
-        "surfaceForm": "1972",
-        "category": "TIME",
-        "locationStart": 1835,
-        "locationEnd": 1839,
-        "tokenStart": 305,
-        "tokenEnd": 306,
-        "method": "human_gold"
-      },
-      {
-        "ID": "gysbert_hist_15",
-        "category": "TIME",
-        "surfaceForm": "1972",
-        "locationStart": 1835,
-        "locationEnd": 1839,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gold_22",
-        "surfaceForm": "1980",
-        "category": "TIME",
-        "locationStart": 1874,
-        "locationEnd": 1878,
-        "tokenStart": 313,
-        "tokenEnd": 314,
-        "method": "human_gold"
-      },
-      {
-        "ID": "gysbert_hist_15",
-        "category": "TIME",
-        "surfaceForm": "1980",
-        "locationStart": 1874,
-        "locationEnd": 1878,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gold_23",
-        "surfaceForm": "1976",
-        "category": "TIME",
-        "locationStart": 1917,
-        "locationEnd": 1921,
-        "tokenStart": 321,
-        "tokenEnd": 322,
-        "method": "human_gold"
-      },
-      {
-        "ID": "gysbert_hist_16",
-        "category": "TIME",
-        "surfaceForm": "1976",
-        "locationStart": 1917,
-        "locationEnd": 1921,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_27",
-        "surfaceForm": "S.E. de Jongh",
-        "category": "PER",
-        "locationStart": 1952,
-        "locationEnd": 1965,
-        "tokenStart": 327,
-        "tokenEnd": 330,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_24",
-        "surfaceForm": "S.E. de Jongh",
-        "category": "PER",
-        "locationStart": 1952,
-        "locationEnd": 1965,
-        "tokenStart": 327,
-        "tokenEnd": 330,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_19",
-        "category": "PER",
-        "surfaceForm": "S.E. de Jongh",
-        "locationStart": 1952,
-        "locationEnd": 1965,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_16",
-        "category": "PER",
-        "surfaceForm": "de jongh",
-        "locationStart": 1957,
-        "locationEnd": 1965,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_28",
-        "surfaceForm": "Leidse Universiteit",
-        "category": "ORG",
-        "locationStart": 1981,
-        "locationEnd": 2000,
-        "tokenStart": 333,
-        "tokenEnd": 335,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_25",
-        "surfaceForm": "Leidse Universiteit",
-        "category": "ORG",
-        "locationStart": 1981,
-        "locationEnd": 2000,
-        "tokenStart": 333,
-        "tokenEnd": 335,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_19",
-        "category": "ORG",
-        "surfaceForm": "Leidse Universiteit",
-        "locationStart": 1981,
-        "locationEnd": 2000,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_16",
-        "category": "LOC",
-        "surfaceForm": "leid",
-        "locationStart": 1981,
-        "locationEnd": 1985,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_29",
-        "surfaceForm": "Utrecht",
-        "category": "LOC",
-        "locationStart": 2122,
-        "locationEnd": 2129,
-        "tokenStart": 355,
-        "tokenEnd": 356,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_29",
-        "surfaceForm": "Utrecht",
-        "category": "LOC",
-        "locationStart": 2122,
-        "locationEnd": 2129,
-        "tokenStart": 355,
-        "tokenEnd": 356,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_20",
-        "category": "LOC",
-        "surfaceForm": "Utrecht",
-        "locationStart": 2122,
-        "locationEnd": 2129,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_17",
-        "category": "LOC",
-        "surfaceForm": "utrecht",
-        "locationStart": 2122,
-        "locationEnd": 2129,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_30",
-        "surfaceForm": "Neder-",
-        "category": "MISC",
-        "locationStart": 2701,
-        "locationEnd": 2707,
-        "tokenStart": 439,
-        "tokenEnd": 440,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_31",
-        "surfaceForm": "Neder- land",
-        "category": "LOC",
-        "locationStart": 2701,
-        "locationEnd": 2712,
-        "tokenStart": 439,
-        "tokenEnd": 441,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_23",
-        "category": "LOC",
-        "surfaceForm": "Neder",
-        "locationStart": 2701,
-        "locationEnd": 2706,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "flair_23",
-        "category": "LOC",
-        "surfaceForm": "land",
-        "locationStart": 2708,
-        "locationEnd": 2712,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "stanza_nl_31",
-        "surfaceForm": "Japan",
-        "category": "LOC",
-        "locationStart": 2722,
-        "locationEnd": 2727,
-        "tokenStart": 444,
-        "tokenEnd": 445,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_32",
-        "surfaceForm": "Japan",
-        "category": "LOC",
-        "locationStart": 2722,
-        "locationEnd": 2727,
-        "tokenStart": 444,
-        "tokenEnd": 445,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_23",
-        "category": "LOC",
-        "surfaceForm": "Japan",
-        "locationStart": 2722,
-        "locationEnd": 2727,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_20",
-        "category": "LOC",
-        "surfaceForm": "japan",
-        "locationStart": 2722,
-        "locationEnd": 2727,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gold_33",
-        "surfaceForm": "begin van de jaren zeventig",
-        "category": "TIME",
-        "locationStart": 2765,
-        "locationEnd": 2792,
-        "tokenStart": 451,
-        "tokenEnd": 456,
-        "method": "human_gold"
-      },
-      {
-        "ID": "gysbert_hist_21",
-        "category": "TIME",
-        "surfaceForm": "zeventig",
-        "locationStart": 2784,
-        "locationEnd": 2792,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_32",
-        "surfaceForm": "Wybren de Jong",
-        "category": "PER",
-        "locationStart": 2800,
-        "locationEnd": 2814,
-        "tokenStart": 457,
-        "tokenEnd": 460,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_35",
-        "surfaceForm": "Wybren de Jong",
-        "category": "PER",
-        "locationStart": 2800,
-        "locationEnd": 2814,
-        "tokenStart": 457,
-        "tokenEnd": 460,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_24",
-        "category": "PER",
-        "surfaceForm": "Wybren de Jong",
-        "locationStart": 2800,
-        "locationEnd": 2814,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_21",
-        "category": "PER",
-        "surfaceForm": "wybren de jong",
-        "locationStart": 2800,
-        "locationEnd": 2814,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_33",
-        "surfaceForm": "Wybren de Jong",
-        "category": "PER",
-        "locationStart": 3332,
-        "locationEnd": 3346,
-        "tokenStart": 547,
-        "tokenEnd": 550,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_37",
-        "surfaceForm": "Wybren de Jong",
-        "category": "PER",
-        "locationStart": 3332,
-        "locationEnd": 3346,
-        "tokenStart": 547,
-        "tokenEnd": 550,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_27",
-        "category": "PER",
-        "surfaceForm": "Wybren de Jong",
-        "locationStart": 3332,
-        "locationEnd": 3346,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_24",
-        "category": "PER",
-        "surfaceForm": "wybren de jong",
-        "locationStart": 3332,
-        "locationEnd": 3346,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_34",
-        "surfaceForm": "Verenigde Staten",
-        "category": "LOC",
-        "locationStart": 4227,
-        "locationEnd": 4243,
-        "tokenStart": 684,
-        "tokenEnd": 686,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_40",
-        "surfaceForm": "Verenigde Staten",
-        "category": "LOC",
-        "locationStart": 4227,
-        "locationEnd": 4243,
-        "tokenStart": 684,
-        "tokenEnd": 686,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_32",
-        "category": "LOC",
-        "surfaceForm": "Verenigde Staten",
-        "locationStart": 4227,
-        "locationEnd": 4243,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "stanza_nl_35",
-        "surfaceForm": "Rudolf Magnus Instituut",
-        "category": "ORG",
-        "locationStart": 4484,
-        "locationEnd": 4507,
-        "tokenStart": 727,
-        "tokenEnd": 730,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_41",
-        "surfaceForm": "Rudolf Magnus Instituut",
-        "category": "ORG",
-        "locationStart": 4484,
-        "locationEnd": 4507,
-        "tokenStart": 727,
-        "tokenEnd": 730,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_33",
-        "category": "LOC",
-        "surfaceForm": "Rudolf Magnus Instituut",
-        "locationStart": 4484,
-        "locationEnd": 4507,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "flair_34",
-        "category": "MISC",
-        "surfaceForm": "a-methyldopa",
-        "locationStart": 4729,
-        "locationEnd": 4741,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "flair_35",
-        "category": "MISC",
-        "surfaceForm": "a-methyldopa",
-        "locationStart": 5141,
-        "locationEnd": 5153,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gold_43",
-        "surfaceForm": "halverwege de jaren zeventig",
-        "category": "TIME",
-        "locationStart": 5734,
-        "locationEnd": 5762,
-        "tokenStart": 898,
-        "tokenEnd": 902,
-        "method": "human_gold"
-      },
-      {
-        "ID": "stanza_nl_36",
-        "surfaceForm": "Wybren de Jong",
-        "category": "PER",
-        "locationStart": 6519,
-        "locationEnd": 6533,
-        "tokenStart": 1013,
-        "tokenEnd": 1016,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_45",
-        "surfaceForm": "Wybren de Jong",
-        "category": "PER",
-        "locationStart": 6519,
-        "locationEnd": 6533,
-        "tokenStart": 1013,
-        "tokenEnd": 1016,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_42",
-        "category": "PER",
-        "surfaceForm": "Wybren de Jong",
-        "locationStart": 6519,
-        "locationEnd": 6533,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_39",
-        "category": "PER",
-        "surfaceForm": "wybren de jong",
-        "locationStart": 6519,
-        "locationEnd": 6533,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Levensbericht",
-        "locationStart": 0,
-        "locationEnd": 12,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "PERSON",
-        "surfaceForm": "D. de Wied",
-        "locationStart": 16,
-        "locationEnd": 25,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "PERSON",
-        "surfaceForm": "F.P. Nijkamp",
-        "locationStart": 28,
-        "locationEnd": 39,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "PERSON",
-        "surfaceForm": "Wybren de Jong",
-        "locationStart": 40,
-        "locationEnd": 54,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "DATE",
-        "surfaceForm": "16 juli 1939",
-        "locationStart": 55,
-        "locationEnd": 67,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "DATE",
-        "surfaceForm": "29 april 2001",
-        "locationStart": 70,
-        "locationEnd": 83,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_6",
-        "category": "PERSON",
-        "surfaceForm": "Wybren de Jong",
-        "locationStart": 84,
-        "locationEnd": 98,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_7",
-        "category": "ORGANIZATION",
-        "surfaceForm": "37",
-        "locationStart": 99,
-        "locationEnd": 101,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_8",
-        "category": "DATE",
-        "surfaceForm": "29 april 2001",
-        "locationStart": 105,
-        "locationEnd": 118,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_9",
-        "category": "DATE",
-        "surfaceForm": "61-jarige leeftijd",
-        "locationStart": 122,
-        "locationEnd": 139,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_10",
-        "category": "PERSON",
-        "surfaceForm": "Wybren de Jong",
-        "locationStart": 140,
-        "locationEnd": 154,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_11",
-        "category": "DATE",
-        "surfaceForm": "1939",
-        "locationStart": 159,
-        "locationEnd": 163,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_12",
-        "category": "LOCATION",
-        "surfaceForm": "Akkrum",
-        "locationStart": 167,
-        "locationEnd": 173,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_13",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Landbouw Hoge- school",
-        "locationStart": 193,
-        "locationEnd": 212,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_14",
-        "category": "LOCATION",
-        "surfaceForm": "Wageningen",
-        "locationStart": 216,
-        "locationEnd": 226,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_15",
-        "category": "LOCATION",
         "surfaceForm": "Groningen",
-        "locationStart": 234,
-        "locationEnd": 243,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_16",
-        "category": "DATE",
-        "surfaceForm": "1960",
-        "locationStart": 249,
-        "locationEnd": 253,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_17",
-        "category": "LOCATION",
-        "surfaceForm": "Groningen",
-        "locationStart": 275,
-        "locationEnd": 284,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_18",
-        "category": "ORGANIZATION",
-        "surfaceForm": "endocrinologie",
-        "locationStart": 297,
-        "locationEnd": 311,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_19",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Leidse Universiteit",
-        "locationStart": 328,
-        "locationEnd": 347,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_20",
-        "category": "LOCATION",
-        "surfaceForm": "Groningse",
-        "locationStart": 363,
-        "locationEnd": 371,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_21",
-        "category": "DATE",
-        "surfaceForm": "1963",
-        "locationStart": 375,
-        "locationEnd": 379,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_22",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Leidse Universiteit",
-        "locationStart": 407,
-        "locationEnd": 426,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_23",
-        "category": "DATE",
-        "surfaceForm": "1963",
-        "locationStart": 432,
-        "locationEnd": 436,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_24",
-        "category": "DATE",
-        "surfaceForm": "1964",
-        "locationStart": 451,
-        "locationEnd": 455,
-        "method": "gpt-3.5-turbo"
+        "locationStart": 456,
+        "locationEnd": 465,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gpt-3.5-turbo_25",
@@ -19462,6 +18418,42 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "stanza_nl_9",
+        "surfaceForm": "Leidse Universiteit",
+        "category": "ORG",
+        "locationStart": 685,
+        "locationEnd": 704,
+        "tokenStart": 118,
+        "tokenEnd": 120,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_46",
+        "surfaceForm": "Leidse Universiteit",
+        "category": "ORG",
+        "locationStart": 685,
+        "locationEnd": 704,
+        "tokenStart": 118,
+        "tokenEnd": 120,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_8",
+        "category": "ORG",
+        "surfaceForm": "Leidse Universiteit",
+        "locationStart": 685,
+        "locationEnd": 704,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_6",
+        "category": "ORG",
+        "surfaceForm": "Leid Universiteit",
+        "locationStart": 685,
+        "locationEnd": 704,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gpt-3.5-turbo_38",
         "category": "LOCATION",
         "surfaceForm": "Verenigde Staten",
@@ -19484,6 +18476,32 @@
         "locationStart": 724,
         "locationEnd": 749,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "stanza_nl_10",
+        "surfaceForm": "Groningse",
+        "category": "MISC",
+        "locationStart": 751,
+        "locationEnd": 760,
+        "tokenStart": 127,
+        "tokenEnd": 128,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_9",
+        "category": "MISC",
+        "surfaceForm": "Groningse",
+        "locationStart": 751,
+        "locationEnd": 760,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_7",
+        "category": "ORG",
+        "surfaceForm": "Groningse laboratorium",
+        "locationStart": 751,
+        "locationEnd": 773,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gpt-3.5-turbo_41",
@@ -19558,6 +18576,24 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "gold_47",
+        "surfaceForm": "1963",
+        "category": "TIME",
+        "locationStart": 909,
+        "locationEnd": 913,
+        "tokenStart": 154,
+        "tokenEnd": 155,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_9",
+        "category": "TIME",
+        "surfaceForm": "1963",
+        "locationStart": 909,
+        "locationEnd": 913,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
         "ID": "gpt-3.5-turbo_50",
         "category": "LOCATION",
         "surfaceForm": "Utrecht",
@@ -19574,12 +18610,56 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "stanza_nl_11",
+        "surfaceForm": "Leidse Universiteit",
+        "category": "ORG",
+        "locationStart": 945,
+        "locationEnd": 964,
+        "tokenStart": 160,
+        "tokenEnd": 162,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_49",
+        "surfaceForm": "Leidse Universiteit",
+        "category": "ORG",
+        "locationStart": 945,
+        "locationEnd": 964,
+        "tokenStart": 160,
+        "tokenEnd": 162,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_11",
+        "category": "ORG",
+        "surfaceForm": "Leidse Universiteit",
+        "locationStart": 945,
+        "locationEnd": 964,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_9",
+        "category": "LOC",
+        "surfaceForm": "Leid",
+        "locationStart": 945,
+        "locationEnd": 949,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gpt-3.5-turbo_52",
         "category": "LOCATION",
         "surfaceForm": "Utrecht",
         "locationStart": 950,
         "locationEnd": 957,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_9",
+        "category": "ORG",
+        "surfaceForm": "Universiteit",
+        "locationStart": 952,
+        "locationEnd": 964,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gpt-3.5-turbo_53",
@@ -19598,6 +18678,24 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "gold_50",
+        "surfaceForm": "1963",
+        "category": "TIME",
+        "locationStart": 993,
+        "locationEnd": 997,
+        "tokenStart": 167,
+        "tokenEnd": 168,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_9",
+        "category": "TIME",
+        "surfaceForm": "1963",
+        "locationStart": 993,
+        "locationEnd": 997,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
         "ID": "gpt-3.5-turbo_55",
         "category": "DATE",
         "surfaceForm": "1976",
@@ -19612,6 +18710,24 @@
         "locationStart": 1009,
         "locationEnd": 1016,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gold_0",
+        "surfaceForm": "1964",
+        "category": "TIME",
+        "locationStart": 1010,
+        "locationEnd": 1014,
+        "tokenStart": 171,
+        "tokenEnd": 172,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_9",
+        "category": "TIME",
+        "surfaceForm": "1964",
+        "locationStart": 1010,
+        "locationEnd": 1014,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
         "ID": "gpt-3.5-turbo_57",
@@ -19662,6 +18778,42 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "stanza_nl_12",
+        "surfaceForm": "Rudolf Magnus Instituut",
+        "category": "ORG",
+        "locationStart": 1093,
+        "locationEnd": 1116,
+        "tokenStart": 182,
+        "tokenEnd": 185,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_1",
+        "surfaceForm": "Rudolf Magnus Instituut",
+        "category": "ORG",
+        "locationStart": 1093,
+        "locationEnd": 1116,
+        "tokenStart": 182,
+        "tokenEnd": 185,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_11",
+        "category": "ORG",
+        "surfaceForm": "Rudolf Magnus Instituut",
+        "locationStart": 1093,
+        "locationEnd": 1116,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_9",
+        "category": "ORG",
+        "surfaceForm": "Rudolf Magnus Instituut",
+        "locationStart": 1093,
+        "locationEnd": 1116,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gpt-3.5-turbo_63",
         "category": "ARTWORK",
         "surfaceForm": "renine",
@@ -19676,6 +18828,50 @@
         "locationStart": 1109,
         "locationEnd": 1124,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "stanza_nl_13",
+        "surfaceForm": "Utrecht",
+        "category": "LOC",
+        "locationStart": 1121,
+        "locationEnd": 1128,
+        "tokenStart": 187,
+        "tokenEnd": 188,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_3",
+        "surfaceForm": "Utrecht",
+        "category": "LOC",
+        "locationStart": 1121,
+        "locationEnd": 1128,
+        "tokenStart": 187,
+        "tokenEnd": 188,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_11",
+        "category": "LOC",
+        "surfaceForm": "Utrecht",
+        "locationStart": 1121,
+        "locationEnd": 1128,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_9",
+        "category": "LOC",
+        "surfaceForm": "utrecht",
+        "locationStart": 1121,
+        "locationEnd": 1128,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_9",
+        "category": "LOC",
+        "surfaceForm": "Utrecht",
+        "locationStart": 1121,
+        "locationEnd": 1128,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gpt-3.5-turbo_65",
@@ -19732,6 +18928,1114 @@
         "locationStart": 1258,
         "locationEnd": 1282,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gold_4",
+        "surfaceForm": "1967",
+        "category": "TIME",
+        "locationStart": 1319,
+        "locationEnd": 1323,
+        "tokenStart": 218,
+        "tokenEnd": 219,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_12",
+        "category": "TIME",
+        "surfaceForm": "1967",
+        "locationStart": 1319,
+        "locationEnd": 1323,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_14",
+        "surfaceForm": "Utrecht",
+        "category": "LOC",
+        "locationStart": 1340,
+        "locationEnd": 1347,
+        "tokenStart": 222,
+        "tokenEnd": 223,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_5",
+        "surfaceForm": "Utrecht",
+        "category": "LOC",
+        "locationStart": 1340,
+        "locationEnd": 1347,
+        "tokenStart": 222,
+        "tokenEnd": 223,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_13",
+        "category": "LOC",
+        "surfaceForm": "Utrecht",
+        "locationStart": 1340,
+        "locationEnd": 1347,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_12",
+        "category": "LOC",
+        "surfaceForm": "utrecht",
+        "locationStart": 1340,
+        "locationEnd": 1347,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_12",
+        "category": "LOC",
+        "surfaceForm": "Utrecht",
+        "locationStart": 1340,
+        "locationEnd": 1347,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gold_6",
+        "surfaceForm": "1970",
+        "category": "TIME",
+        "locationStart": 1368,
+        "locationEnd": 1372,
+        "tokenStart": 227,
+        "tokenEnd": 228,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_13",
+        "category": "TIME",
+        "surfaceForm": "1970",
+        "locationStart": 1368,
+        "locationEnd": 1372,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_15",
+        "surfaceForm": "Albert Sjoerdsma",
+        "category": "PER",
+        "locationStart": 1401,
+        "locationEnd": 1417,
+        "tokenStart": 234,
+        "tokenEnd": 236,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_7",
+        "surfaceForm": "Albert Sjoerdsma",
+        "category": "PER",
+        "locationStart": 1401,
+        "locationEnd": 1417,
+        "tokenStart": 234,
+        "tokenEnd": 236,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_15",
+        "category": "PER",
+        "surfaceForm": "Albert Sjoerdsma",
+        "locationStart": 1401,
+        "locationEnd": 1417,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_13",
+        "category": "PER",
+        "surfaceForm": "albert sjoerdsma",
+        "locationStart": 1401,
+        "locationEnd": 1417,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_13",
+        "category": "PER",
+        "surfaceForm": "Albert Sjoerdsma",
+        "locationStart": 1401,
+        "locationEnd": 1417,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "stanza_nl_16",
+        "surfaceForm": "Walt Lovenberg",
+        "category": "PER",
+        "locationStart": 1425,
+        "locationEnd": 1439,
+        "tokenStart": 238,
+        "tokenEnd": 240,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_8",
+        "surfaceForm": "Walt Lovenberg",
+        "category": "PER",
+        "locationStart": 1425,
+        "locationEnd": 1439,
+        "tokenStart": 238,
+        "tokenEnd": 240,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_16",
+        "category": "PER",
+        "surfaceForm": "Walt Lovenberg",
+        "locationStart": 1425,
+        "locationEnd": 1439,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_13",
+        "category": "PER",
+        "surfaceForm": "walt lovenberg",
+        "locationStart": 1425,
+        "locationEnd": 1439,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_13",
+        "category": "PER",
+        "surfaceForm": "Walt Lovenberg",
+        "locationStart": 1425,
+        "locationEnd": 1439,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "stanza_nl_17",
+        "surfaceForm": "National Heart and Lung Institute",
+        "category": "ORG",
+        "locationStart": 1447,
+        "locationEnd": 1480,
+        "tokenStart": 242,
+        "tokenEnd": 247,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_9",
+        "surfaceForm": "National Heart and Lung Institute",
+        "category": "ORG",
+        "locationStart": 1447,
+        "locationEnd": 1480,
+        "tokenStart": 242,
+        "tokenEnd": 247,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_16",
+        "category": "LOC",
+        "surfaceForm": "National Heart and Lung Institute",
+        "locationStart": 1447,
+        "locationEnd": 1480,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_13",
+        "category": "ORG",
+        "surfaceForm": "National Heart and Lung Institute",
+        "locationStart": 1447,
+        "locationEnd": 1480,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "stanza_nl_18",
+        "surfaceForm": "National Institutes of Health",
+        "category": "ORG",
+        "locationStart": 1488,
+        "locationEnd": 1517,
+        "tokenStart": 249,
+        "tokenEnd": 253,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_10",
+        "surfaceForm": "National Institutes of Health",
+        "category": "ORG",
+        "locationStart": 1488,
+        "locationEnd": 1517,
+        "tokenStart": 249,
+        "tokenEnd": 253,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_16",
+        "category": "ORG",
+        "surfaceForm": "National Institutes of Health",
+        "locationStart": 1488,
+        "locationEnd": 1517,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_13",
+        "category": "ORG",
+        "surfaceForm": "National Institutes of Health",
+        "locationStart": 1488,
+        "locationEnd": 1517,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "stanza_nl_19",
+        "surfaceForm": "Bethesda",
+        "category": "LOC",
+        "locationStart": 1521,
+        "locationEnd": 1529,
+        "tokenStart": 254,
+        "tokenEnd": 255,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_11",
+        "surfaceForm": "Bethesda",
+        "category": "LOC",
+        "locationStart": 1521,
+        "locationEnd": 1529,
+        "tokenStart": 254,
+        "tokenEnd": 255,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_16",
+        "category": "LOC",
+        "surfaceForm": "Bethesda",
+        "locationStart": 1521,
+        "locationEnd": 1529,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_13",
+        "category": "LOC",
+        "surfaceForm": "bethesda",
+        "locationStart": 1521,
+        "locationEnd": 1529,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_13",
+        "category": "LOC",
+        "surfaceForm": "Bethesda",
+        "locationStart": 1521,
+        "locationEnd": 1529,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "stanza_nl_20",
+        "surfaceForm": "Maryland",
+        "category": "LOC",
+        "locationStart": 1531,
+        "locationEnd": 1539,
+        "tokenStart": 256,
+        "tokenEnd": 257,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_12",
+        "surfaceForm": "Maryland",
+        "category": "LOC",
+        "locationStart": 1531,
+        "locationEnd": 1539,
+        "tokenStart": 256,
+        "tokenEnd": 257,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_16",
+        "category": "LOC",
+        "surfaceForm": "Maryland",
+        "locationStart": 1531,
+        "locationEnd": 1539,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_13",
+        "category": "LOC",
+        "surfaceForm": "maryland",
+        "locationStart": 1531,
+        "locationEnd": 1539,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_13",
+        "category": "LOC",
+        "surfaceForm": "Maryland",
+        "locationStart": 1531,
+        "locationEnd": 1539,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "stanza_nl_21",
+        "surfaceForm": "Verenigde Staten",
+        "category": "LOC",
+        "locationStart": 1546,
+        "locationEnd": 1562,
+        "tokenStart": 259,
+        "tokenEnd": 261,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_13",
+        "surfaceForm": "Verenigde Staten",
+        "category": "LOC",
+        "locationStart": 1546,
+        "locationEnd": 1562,
+        "tokenStart": 259,
+        "tokenEnd": 261,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_16",
+        "category": "LOC",
+        "surfaceForm": "Verenigde Staten",
+        "locationStart": 1546,
+        "locationEnd": 1562,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_13",
+        "category": "LOC",
+        "surfaceForm": "Verenigde Staten",
+        "locationStart": 1546,
+        "locationEnd": 1562,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gold_14",
+        "surfaceForm": "1987",
+        "category": "TIME",
+        "locationStart": 1597,
+        "locationEnd": 1601,
+        "tokenStart": 266,
+        "tokenEnd": 267,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_14",
+        "category": "TIME",
+        "surfaceForm": "1987",
+        "locationStart": 1597,
+        "locationEnd": 1601,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_22",
+        "surfaceForm": "Department of Pharmacology",
+        "category": "ORG",
+        "locationStart": 1636,
+        "locationEnd": 1662,
+        "tokenStart": 273,
+        "tokenEnd": 276,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_16",
+        "surfaceForm": "Department of Pharmacology",
+        "category": "ORG",
+        "locationStart": 1636,
+        "locationEnd": 1662,
+        "tokenStart": 273,
+        "tokenEnd": 276,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_17",
+        "category": "ORG",
+        "surfaceForm": "Department of Pharmacology",
+        "locationStart": 1636,
+        "locationEnd": 1662,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_14",
+        "category": "ORG",
+        "surfaceForm": "Department of Pharmacology",
+        "locationStart": 1636,
+        "locationEnd": 1662,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "stanza_nl_23",
+        "surfaceForm": "Osaka",
+        "category": "LOC",
+        "locationStart": 1687,
+        "locationEnd": 1692,
+        "tokenStart": 280,
+        "tokenEnd": 281,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_17",
+        "surfaceForm": "Osaka",
+        "category": "LOC",
+        "locationStart": 1687,
+        "locationEnd": 1692,
+        "tokenStart": 280,
+        "tokenEnd": 281,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_17",
+        "category": "LOC",
+        "surfaceForm": "Osaka",
+        "locationStart": 1687,
+        "locationEnd": 1692,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_14",
+        "category": "LOC",
+        "surfaceForm": "osaka",
+        "locationStart": 1687,
+        "locationEnd": 1692,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_14",
+        "category": "LOC",
+        "surfaceForm": "Osaka",
+        "locationStart": 1687,
+        "locationEnd": 1692,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gold_18",
+        "surfaceForm": "tussen 1987 en 1989",
+        "category": "TIME",
+        "locationStart": 1696,
+        "locationEnd": 1715,
+        "tokenStart": 282,
+        "tokenEnd": 286,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_14",
+        "category": "TIME",
+        "surfaceForm": "1987",
+        "locationStart": 1703,
+        "locationEnd": 1707,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gysbert_hist_14",
+        "category": "TIME",
+        "surfaceForm": "1989",
+        "locationStart": 1711,
+        "locationEnd": 1715,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_24",
+        "surfaceForm": "Depart-",
+        "category": "MISC",
+        "locationStart": 1770,
+        "locationEnd": 1777,
+        "tokenStart": 294,
+        "tokenEnd": 295,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_19",
+        "surfaceForm": "Depart- ment of Pharmacology",
+        "category": "ORG",
+        "locationStart": 1770,
+        "locationEnd": 1798,
+        "tokenStart": 294,
+        "tokenEnd": 298,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_17",
+        "category": "ORG",
+        "surfaceForm": "Depart-",
+        "locationStart": 1770,
+        "locationEnd": 1777,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_14",
+        "category": "ORG",
+        "surfaceForm": "Depart ment of Pharmacology",
+        "locationStart": 1770,
+        "locationEnd": 1798,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "flair_17",
+        "category": "ORG",
+        "surfaceForm": "of Pharmacology",
+        "locationStart": 1783,
+        "locationEnd": 1798,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "stanza_nl_25",
+        "surfaceForm": "Pharmacology",
+        "category": "ORG",
+        "locationStart": 1786,
+        "locationEnd": 1798,
+        "tokenStart": 297,
+        "tokenEnd": 298,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "stanza_nl_26",
+        "surfaceForm": "Toronto",
+        "category": "LOC",
+        "locationStart": 1823,
+        "locationEnd": 1830,
+        "tokenStart": 302,
+        "tokenEnd": 303,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_20",
+        "surfaceForm": "Toronto",
+        "category": "LOC",
+        "locationStart": 1823,
+        "locationEnd": 1830,
+        "tokenStart": 302,
+        "tokenEnd": 303,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_17",
+        "category": "LOC",
+        "surfaceForm": "Toronto",
+        "locationStart": 1823,
+        "locationEnd": 1830,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_14",
+        "category": "LOC",
+        "surfaceForm": "toronto",
+        "locationStart": 1823,
+        "locationEnd": 1830,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_14",
+        "category": "LOC",
+        "surfaceForm": "Toronto",
+        "locationStart": 1823,
+        "locationEnd": 1830,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gold_21",
+        "surfaceForm": "1972",
+        "category": "TIME",
+        "locationStart": 1835,
+        "locationEnd": 1839,
+        "tokenStart": 305,
+        "tokenEnd": 306,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_15",
+        "category": "TIME",
+        "surfaceForm": "1972",
+        "locationStart": 1835,
+        "locationEnd": 1839,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gold_22",
+        "surfaceForm": "1980",
+        "category": "TIME",
+        "locationStart": 1874,
+        "locationEnd": 1878,
+        "tokenStart": 313,
+        "tokenEnd": 314,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_15",
+        "category": "TIME",
+        "surfaceForm": "1980",
+        "locationStart": 1874,
+        "locationEnd": 1878,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gold_23",
+        "surfaceForm": "1976",
+        "category": "TIME",
+        "locationStart": 1917,
+        "locationEnd": 1921,
+        "tokenStart": 321,
+        "tokenEnd": 322,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_16",
+        "category": "TIME",
+        "surfaceForm": "1976",
+        "locationStart": 1917,
+        "locationEnd": 1921,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_27",
+        "surfaceForm": "S.E. de Jongh",
+        "category": "PER",
+        "locationStart": 1952,
+        "locationEnd": 1965,
+        "tokenStart": 327,
+        "tokenEnd": 330,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_24",
+        "surfaceForm": "S.E. de Jongh",
+        "category": "PER",
+        "locationStart": 1952,
+        "locationEnd": 1965,
+        "tokenStart": 327,
+        "tokenEnd": 330,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_19",
+        "category": "PER",
+        "surfaceForm": "S.E. de Jongh",
+        "locationStart": 1952,
+        "locationEnd": 1965,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_16",
+        "category": "PER",
+        "surfaceForm": "S.E. de Jongh",
+        "locationStart": 1952,
+        "locationEnd": 1965,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gysbert_hist_16",
+        "category": "PER",
+        "surfaceForm": "de jongh",
+        "locationStart": 1957,
+        "locationEnd": 1965,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_28",
+        "surfaceForm": "Leidse Universiteit",
+        "category": "ORG",
+        "locationStart": 1981,
+        "locationEnd": 2000,
+        "tokenStart": 333,
+        "tokenEnd": 335,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_25",
+        "surfaceForm": "Leidse Universiteit",
+        "category": "ORG",
+        "locationStart": 1981,
+        "locationEnd": 2000,
+        "tokenStart": 333,
+        "tokenEnd": 335,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_19",
+        "category": "ORG",
+        "surfaceForm": "Leidse Universiteit",
+        "locationStart": 1981,
+        "locationEnd": 2000,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_16",
+        "category": "LOC",
+        "surfaceForm": "leid",
+        "locationStart": 1981,
+        "locationEnd": 1985,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_16",
+        "category": "ORG",
+        "surfaceForm": "Leidse Universiteit",
+        "locationStart": 1981,
+        "locationEnd": 2000,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "stanza_nl_29",
+        "surfaceForm": "Utrecht",
+        "category": "LOC",
+        "locationStart": 2122,
+        "locationEnd": 2129,
+        "tokenStart": 355,
+        "tokenEnd": 356,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_29",
+        "surfaceForm": "Utrecht",
+        "category": "LOC",
+        "locationStart": 2122,
+        "locationEnd": 2129,
+        "tokenStart": 355,
+        "tokenEnd": 356,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_20",
+        "category": "LOC",
+        "surfaceForm": "Utrecht",
+        "locationStart": 2122,
+        "locationEnd": 2129,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_17",
+        "category": "LOC",
+        "surfaceForm": "utrecht",
+        "locationStart": 2122,
+        "locationEnd": 2129,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_17",
+        "category": "LOC",
+        "surfaceForm": "Utrecht",
+        "locationStart": 2122,
+        "locationEnd": 2129,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "stanza_nl_30",
+        "surfaceForm": "Neder-",
+        "category": "MISC",
+        "locationStart": 2701,
+        "locationEnd": 2707,
+        "tokenStart": 439,
+        "tokenEnd": 440,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_31",
+        "surfaceForm": "Neder- land",
+        "category": "LOC",
+        "locationStart": 2701,
+        "locationEnd": 2712,
+        "tokenStart": 439,
+        "tokenEnd": 441,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_23",
+        "category": "LOC",
+        "surfaceForm": "Neder",
+        "locationStart": 2701,
+        "locationEnd": 2706,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_20",
+        "category": "LOC",
+        "surfaceForm": "Neder",
+        "locationStart": 2701,
+        "locationEnd": 2706,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "flair_23",
+        "category": "LOC",
+        "surfaceForm": "land",
+        "locationStart": 2708,
+        "locationEnd": 2712,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "stanza_nl_31",
+        "surfaceForm": "Japan",
+        "category": "LOC",
+        "locationStart": 2722,
+        "locationEnd": 2727,
+        "tokenStart": 444,
+        "tokenEnd": 445,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_32",
+        "surfaceForm": "Japan",
+        "category": "LOC",
+        "locationStart": 2722,
+        "locationEnd": 2727,
+        "tokenStart": 444,
+        "tokenEnd": 445,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_23",
+        "category": "LOC",
+        "surfaceForm": "Japan",
+        "locationStart": 2722,
+        "locationEnd": 2727,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_20",
+        "category": "LOC",
+        "surfaceForm": "japan",
+        "locationStart": 2722,
+        "locationEnd": 2727,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_20",
+        "category": "LOC",
+        "surfaceForm": "Japan",
+        "locationStart": 2722,
+        "locationEnd": 2727,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gold_33",
+        "surfaceForm": "begin van de jaren zeventig",
+        "category": "TIME",
+        "locationStart": 2765,
+        "locationEnd": 2792,
+        "tokenStart": 451,
+        "tokenEnd": 456,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_21",
+        "category": "TIME",
+        "surfaceForm": "zeventig",
+        "locationStart": 2784,
+        "locationEnd": 2792,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_32",
+        "surfaceForm": "Wybren de Jong",
+        "category": "PER",
+        "locationStart": 2800,
+        "locationEnd": 2814,
+        "tokenStart": 457,
+        "tokenEnd": 460,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_35",
+        "surfaceForm": "Wybren de Jong",
+        "category": "PER",
+        "locationStart": 2800,
+        "locationEnd": 2814,
+        "tokenStart": 457,
+        "tokenEnd": 460,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_24",
+        "category": "PER",
+        "surfaceForm": "Wybren de Jong",
+        "locationStart": 2800,
+        "locationEnd": 2814,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_21",
+        "category": "PER",
+        "surfaceForm": "wybren de jong",
+        "locationStart": 2800,
+        "locationEnd": 2814,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_21",
+        "category": "PER",
+        "surfaceForm": "Wybren de Jong",
+        "locationStart": 2800,
+        "locationEnd": 2814,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "stanza_nl_33",
+        "surfaceForm": "Wybren de Jong",
+        "category": "PER",
+        "locationStart": 3332,
+        "locationEnd": 3346,
+        "tokenStart": 547,
+        "tokenEnd": 550,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_37",
+        "surfaceForm": "Wybren de Jong",
+        "category": "PER",
+        "locationStart": 3332,
+        "locationEnd": 3346,
+        "tokenStart": 547,
+        "tokenEnd": 550,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_27",
+        "category": "PER",
+        "surfaceForm": "Wybren de Jong",
+        "locationStart": 3332,
+        "locationEnd": 3346,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_24",
+        "category": "PER",
+        "surfaceForm": "wybren de jong",
+        "locationStart": 3332,
+        "locationEnd": 3346,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_24",
+        "category": "PER",
+        "surfaceForm": "Wybren de Jong",
+        "locationStart": 3332,
+        "locationEnd": 3346,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "stanza_nl_34",
+        "surfaceForm": "Verenigde Staten",
+        "category": "LOC",
+        "locationStart": 4227,
+        "locationEnd": 4243,
+        "tokenStart": 684,
+        "tokenEnd": 686,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_40",
+        "surfaceForm": "Verenigde Staten",
+        "category": "LOC",
+        "locationStart": 4227,
+        "locationEnd": 4243,
+        "tokenStart": 684,
+        "tokenEnd": 686,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_32",
+        "category": "LOC",
+        "surfaceForm": "Verenigde Staten",
+        "locationStart": 4227,
+        "locationEnd": 4243,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_29",
+        "category": "LOC",
+        "surfaceForm": "Verenigde Staten",
+        "locationStart": 4227,
+        "locationEnd": 4243,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "stanza_nl_35",
+        "surfaceForm": "Rudolf Magnus Instituut",
+        "category": "ORG",
+        "locationStart": 4484,
+        "locationEnd": 4507,
+        "tokenStart": 727,
+        "tokenEnd": 730,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_41",
+        "surfaceForm": "Rudolf Magnus Instituut",
+        "category": "ORG",
+        "locationStart": 4484,
+        "locationEnd": 4507,
+        "tokenStart": 727,
+        "tokenEnd": 730,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_33",
+        "category": "LOC",
+        "surfaceForm": "Rudolf Magnus Instituut",
+        "locationStart": 4484,
+        "locationEnd": 4507,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_30",
+        "category": "LOC",
+        "surfaceForm": "Rudolf Magnus Instituut",
+        "locationStart": 4484,
+        "locationEnd": 4507,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "flair_34",
+        "category": "MISC",
+        "surfaceForm": "a-methyldopa",
+        "locationStart": 4729,
+        "locationEnd": 4741,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "flair_35",
+        "category": "MISC",
+        "surfaceForm": "a-methyldopa",
+        "locationStart": 5141,
+        "locationEnd": 5153,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gold_43",
+        "surfaceForm": "halverwege de jaren zeventig",
+        "category": "TIME",
+        "locationStart": 5734,
+        "locationEnd": 5762,
+        "tokenStart": 898,
+        "tokenEnd": 902,
+        "method": "human_gold"
+      },
+      {
+        "ID": "stanza_nl_36",
+        "surfaceForm": "Wybren de Jong",
+        "category": "PER",
+        "locationStart": 6519,
+        "locationEnd": 6533,
+        "tokenStart": 1013,
+        "tokenEnd": 1016,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_45",
+        "surfaceForm": "Wybren de Jong",
+        "category": "PER",
+        "locationStart": 6519,
+        "locationEnd": 6533,
+        "tokenStart": 1013,
+        "tokenEnd": 1016,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_42",
+        "category": "PER",
+        "surfaceForm": "Wybren de Jong",
+        "locationStart": 6519,
+        "locationEnd": 6533,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_39",
+        "category": "PER",
+        "surfaceForm": "wybren de jong",
+        "locationStart": 6519,
+        "locationEnd": 6533,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_39",
+        "category": "PER",
+        "surfaceForm": "Wybren de Jong",
+        "locationStart": 6519,
+        "locationEnd": 6533,
+        "method": "xlmr_ner_"
       }
     ],
     "time_expressions": [

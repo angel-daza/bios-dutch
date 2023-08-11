@@ -1414,6 +1414,14 @@
     },
     "entities": [
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Rector van de Latijnse School in Vlissingen",
+        "locationStart": 0,
+        "locationEnd": 37,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_0",
         "surfaceForm": "Latijnse School",
         "category": "ORG",
@@ -1440,6 +1448,14 @@
         "locationStart": 14,
         "locationEnd": 29,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "ORG",
+        "surfaceForm": "Latijnse School",
+        "locationStart": 14,
+        "locationEnd": 29,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_1",
@@ -1478,6 +1494,38 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Vlissingen",
+        "locationStart": 33,
+        "locationEnd": 43,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "LOCATION",
+        "surfaceForm": "Vlissingen",
+        "locationStart": 38,
+        "locationEnd": 47,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "TIME",
+        "surfaceForm": "1795",
+        "locationStart": 54,
+        "locationEnd": 58,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "TIME",
+        "surfaceForm": "1844",
+        "locationStart": 63,
+        "locationEnd": 67,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_8",
         "surfaceForm": "tussen 1795 en 1844",
         "category": "TIME",
@@ -1496,12 +1544,36 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Zeeuwse",
+        "locationStart": 85,
+        "locationEnd": 92,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gysbert_hist_0",
         "category": "TIME",
         "surfaceForm": "1844",
         "locationStart": 88,
         "locationEnd": 92,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "TIME",
+        "surfaceForm": "1795",
+        "locationStart": 100,
+        "locationEnd": 104,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_6",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Staatsraad",
+        "locationStart": 137,
+        "locationEnd": 147,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_0",
@@ -1540,6 +1612,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "gpt-3.5-turbo_7",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Staatsraad",
+        "locationStart": 179,
+        "locationEnd": 189,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_8",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Staatsraad",
+        "locationStart": 221,
+        "locationEnd": 231,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_3",
         "surfaceForm": "Marine",
         "category": "ORG",
@@ -1568,6 +1656,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "ORG",
+        "surfaceForm": "Marine",
+        "locationStart": 251,
+        "locationEnd": 257,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_9",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Wetgevend Lichaam",
+        "locationStart": 263,
+        "locationEnd": 279,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_4",
         "surfaceForm": "Staatsraad",
         "category": "ORG",
@@ -1594,6 +1698,30 @@
         "locationStart": 270,
         "locationEnd": 280,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_1",
+        "category": "ORG",
+        "surfaceForm": "Staatsraad",
+        "locationStart": 270,
+        "locationEnd": 280,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_10",
+        "category": "LOCATION",
+        "surfaceForm": "Parijs",
+        "locationStart": 283,
+        "locationEnd": 289,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_11",
+        "category": "TIME",
+        "surfaceForm": "1815",
+        "locationStart": 294,
+        "locationEnd": 298,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_5",
@@ -1642,6 +1770,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "ORG",
+        "surfaceForm": "Wetgevend Lichaam",
+        "locationStart": 357,
+        "locationEnd": 374,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_7",
         "surfaceForm": "Parijs",
         "category": "LOC",
@@ -1678,6 +1814,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "Parijs",
+        "locationStart": 378,
+        "locationEnd": 384,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_7",
         "surfaceForm": "1815",
         "category": "TIME",
@@ -1694,102 +1838,6 @@
         "locationStart": 389,
         "locationEnd": 393,
         "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Rector van de Latijnse School in Vlissingen",
-        "locationStart": 0,
-        "locationEnd": 37,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "LOCATION",
-        "surfaceForm": "Vlissingen",
-        "locationStart": 38,
-        "locationEnd": 47,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "TIME",
-        "surfaceForm": "1795",
-        "locationStart": 54,
-        "locationEnd": 58,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "TIME",
-        "surfaceForm": "1844",
-        "locationStart": 63,
-        "locationEnd": 67,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Zeeuwse",
-        "locationStart": 85,
-        "locationEnd": 92,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "TIME",
-        "surfaceForm": "1795",
-        "locationStart": 100,
-        "locationEnd": 104,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_6",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Staatsraad",
-        "locationStart": 137,
-        "locationEnd": 147,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_7",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Staatsraad",
-        "locationStart": 179,
-        "locationEnd": 189,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_8",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Staatsraad",
-        "locationStart": 221,
-        "locationEnd": 231,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_9",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Wetgevend Lichaam",
-        "locationStart": 263,
-        "locationEnd": 279,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_10",
-        "category": "LOCATION",
-        "surfaceForm": "Parijs",
-        "locationStart": 283,
-        "locationEnd": 289,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_11",
-        "category": "TIME",
-        "surfaceForm": "1815",
-        "locationStart": 294,
-        "locationEnd": 298,
-        "method": "gpt-3.5-turbo"
       }
     ],
     "time_expressions": [

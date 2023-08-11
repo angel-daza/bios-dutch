@@ -677,6 +677,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "LUSTIG (Dorothea)",
+        "locationStart": 0,
+        "locationEnd": 14,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "LUSTIGDorothea",
+        "locationStart": 0,
+        "locationEnd": 16,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_1",
         "surfaceForm": "Dorothea",
         "category": "PER",
@@ -701,6 +717,14 @@
         "locationStart": 8,
         "locationEnd": 16,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "LOCATION",
+        "surfaceForm": "Groningen",
+        "locationStart": 29,
+        "locationEnd": 38,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_1",
@@ -757,6 +781,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Groningen",
+        "locationStart": 59,
+        "locationEnd": 68,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "PERSON",
+        "surfaceForm": "Gregoir",
+        "locationStart": 107,
+        "locationEnd": 114,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_3",
         "surfaceForm": "Gregoir",
         "category": "PER",
@@ -775,28 +815,12 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "LUSTIG (Dorothea)",
-        "locationStart": 0,
-        "locationEnd": 14,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "LOCATION",
-        "surfaceForm": "Groningen",
-        "locationStart": 29,
-        "locationEnd": 38,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "PERSON",
+        "ID": "xlmr_ner_1",
+        "category": "PER",
         "surfaceForm": "Gregoir",
-        "locationStart": 107,
-        "locationEnd": 114,
-        "method": "gpt-3.5-turbo"
+        "locationStart": 169,
+        "locationEnd": 176,
+        "method": "xlmr_ner_"
       }
     ],
     "time_expressions": [

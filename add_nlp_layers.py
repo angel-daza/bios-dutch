@@ -71,7 +71,6 @@ def main_bionet_intavia_files(nlp_config: Dict[str, Any]):
             json.dump(intavia_obj, open(filepath, "w"), indent=2, ensure_ascii=False)
             ctr += 1
 
-
 def main_bionet_intavia_mongo(nlp_config: Dict[str, Any]):
     client = MongoClient("mongodb://localhost:27017/")
     db = client[DB_NAME]
@@ -189,11 +188,11 @@ def add_bert_based_ner(intavia_obj: Dict[str, Any], stanza_nlp: Any, bert_nlp: s
     # Process NER with a BERT-based model (only if needed)
     bert_nlp = run_bert_ner(bert_nlp, stanza_nlp, intavia_obj["data"]["text"], wordpiece_chars)
 
-    flair_ents = _add_json_bert_ner(bert_nlp)
+    bert_ents = _add_json_bert_ner(bert_nlp)
     if len(intavia_obj['data'].get('entities', [])) > 0:
-        intavia_obj['data']['entities'] += flair_ents
+        intavia_obj['data']['entities'] += bert_ents
     else:
-        intavia_obj['data']['entities'] = flair_ents
+        intavia_obj['data']['entities'] = bert_ents
     intavia_obj['data']['entities'] = sorted(intavia_obj['data']['entities'], key=lambda x: x['locationStart'])
     
     return intavia_obj
@@ -250,6 +249,7 @@ if __name__ == "__main__":
 
             python add_nlp_layers.py --mode files --gysbert_ner 
             python add_nlp_layers.py --mode files --chatgpt_ner 
+            python add_nlp_layers.py --mode files --xlm_roberta_ner
 
     """
 
@@ -263,6 +263,7 @@ if __name__ == "__main__":
     parser.add_argument('-gn', '--gold_ner', help='', action='store_true', default=False)
     parser.add_argument('-fn', '--flair_ner', help='', action='store_true', default=False)
     parser.add_argument('-bn', '--gysbert_ner', help='', action='store_true', default=False)
+    parser.add_argument('-xlmr', '--xlm_roberta_ner', help='', action='store_true', default=False)
     parser.add_argument('-gpt', '--chatgpt_ner', help='', action='store_true', default=False)
 
     args = parser.parse_args()
@@ -301,6 +302,20 @@ if __name__ == "__main__":
             "bert_pipeline": bert_nlp,
             "wordpiece_chars": "##"
         }
+    if args.xlm_roberta_ner:
+        checkpoint = "Davlan/xlm-roberta-base-ner-hrl"
+        tokenizer = AutoTokenizer.from_pretrained(checkpoint)
+        model = AutoModelForTokenClassification.from_pretrained(checkpoint)
+        stanza_nlp = stanza.Pipeline(lang="nl", processors="tokenize,lemma,pos, depparse, ner", model_dir="/Users/daza/stanza_resources/")
+        bert_nlp = pipeline('token-classification', model=model, tokenizer=tokenizer, device=-1)
+        NLP_CONFIG["bert_ner"] = {
+            "model_config_label": "XLM RoBERTa NER",
+            "model_json_label": "xlmr_ner",
+            "model_json_version": "",
+            "stanza": stanza_nlp,
+            "bert_pipeline": bert_nlp,
+            "wordpiece_chars": '▁'
+                }
     if args.chatgpt_ner:
         # For security, this mode sssumes the model predictions were already run.
         # Here we only read the outputs as they were saved in the disk

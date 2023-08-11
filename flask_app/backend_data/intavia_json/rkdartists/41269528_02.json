@@ -777,194 +777,6 @@
         "method": "stanza_nl"
       },
       {
-        "ID": "gold_5",
-        "surfaceForm": "15 februari 1912",
-        "category": "TIME",
-        "locationStart": 66,
-        "locationEnd": 82,
-        "tokenStart": 10,
-        "tokenEnd": 13,
-        "method": "human_gold"
-      },
-      {
-        "ID": "gysbert_hist_1",
-        "category": "TIME",
-        "surfaceForm": "15 februari 1912",
-        "locationStart": 66,
-        "locationEnd": 82,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_1",
-        "surfaceForm": "Den Haag",
-        "category": "LOC",
-        "locationStart": 84,
-        "locationEnd": 92,
-        "tokenStart": 14,
-        "tokenEnd": 16,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_6",
-        "surfaceForm": "Den Haag",
-        "category": "LOC",
-        "locationStart": 84,
-        "locationEnd": 92,
-        "tokenStart": 14,
-        "tokenEnd": 16,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_1",
-        "category": "LOC",
-        "surfaceForm": "Den Haag",
-        "locationStart": 84,
-        "locationEnd": 92,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_1",
-        "category": "LOC",
-        "surfaceForm": "haag",
-        "locationStart": 88,
-        "locationEnd": 92,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gold_0",
-        "surfaceForm": "25 augustus 1992",
-        "category": "TIME",
-        "locationStart": 105,
-        "locationEnd": 121,
-        "tokenStart": 19,
-        "tokenEnd": 22,
-        "method": "human_gold"
-      },
-      {
-        "ID": "gysbert_hist_2",
-        "category": "TIME",
-        "surfaceForm": "25 augustus",
-        "locationStart": 105,
-        "locationEnd": 116,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_2",
-        "surfaceForm": "Den Haag",
-        "category": "LOC",
-        "locationStart": 123,
-        "locationEnd": 131,
-        "tokenStart": 23,
-        "tokenEnd": 25,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_1",
-        "surfaceForm": "Den Haag",
-        "category": "LOC",
-        "locationStart": 123,
-        "locationEnd": 131,
-        "tokenStart": 23,
-        "tokenEnd": 25,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_2",
-        "category": "LOC",
-        "surfaceForm": "Den Haag",
-        "locationStart": 123,
-        "locationEnd": 131,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_2",
-        "category": "LOC",
-        "surfaceForm": "haag",
-        "locationStart": 127,
-        "locationEnd": 131,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_3",
-        "surfaceForm": "Den Haag",
-        "category": "LOC",
-        "locationStart": 169,
-        "locationEnd": 177,
-        "tokenStart": 32,
-        "tokenEnd": 34,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_2",
-        "surfaceForm": "Den Haag",
-        "category": "LOC",
-        "locationStart": 169,
-        "locationEnd": 177,
-        "tokenStart": 32,
-        "tokenEnd": 34,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_3",
-        "category": "LOC",
-        "surfaceForm": "Den Haag",
-        "locationStart": 169,
-        "locationEnd": 177,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_4",
-        "category": "LOC",
-        "surfaceForm": "den",
-        "locationStart": 169,
-        "locationEnd": 172,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gysbert_hist_4",
-        "category": "LOC",
-        "surfaceForm": "haag",
-        "locationStart": 173,
-        "locationEnd": 177,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gold_3",
-        "surfaceForm": "van 1912 tot 1992",
-        "category": "TIME",
-        "locationStart": 179,
-        "locationEnd": 196,
-        "tokenStart": 35,
-        "tokenEnd": 39,
-        "method": "human_gold"
-      },
-      {
-        "ID": "gysbert_hist_4",
-        "category": "TIME",
-        "surfaceForm": "1912",
-        "locationStart": 183,
-        "locationEnd": 187,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gysbert_hist_4",
-        "category": "TIME",
-        "surfaceForm": "199",
-        "locationStart": 192,
-        "locationEnd": 195,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gold_4",
-        "surfaceForm": "Tot 1992",
-        "category": "TIME",
-        "locationStart": 197,
-        "locationEnd": 205,
-        "tokenStart": 39,
-        "tokenEnd": 41,
-        "method": "human_gold"
-      },
-      {
         "ID": "gpt-3.5-turbo_0",
         "category": "ARTWORK",
         "surfaceForm": "Gouache-tekenaar",
@@ -1013,12 +825,74 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "gold_5",
+        "surfaceForm": "15 februari 1912",
+        "category": "TIME",
+        "locationStart": 66,
+        "locationEnd": 82,
+        "tokenStart": 10,
+        "tokenEnd": 13,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_1",
+        "category": "TIME",
+        "surfaceForm": "15 februari 1912",
+        "locationStart": 66,
+        "locationEnd": 82,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
         "ID": "gpt-3.5-turbo_6",
         "category": "LOCATION",
         "surfaceForm": "Den Haag",
         "locationStart": 80,
         "locationEnd": 88,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "stanza_nl_1",
+        "surfaceForm": "Den Haag",
+        "category": "LOC",
+        "locationStart": 84,
+        "locationEnd": 92,
+        "tokenStart": 14,
+        "tokenEnd": 16,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_6",
+        "surfaceForm": "Den Haag",
+        "category": "LOC",
+        "locationStart": 84,
+        "locationEnd": 92,
+        "tokenStart": 14,
+        "tokenEnd": 16,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_1",
+        "category": "LOC",
+        "surfaceForm": "Den Haag",
+        "locationStart": 84,
+        "locationEnd": 92,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "Den Haag",
+        "locationStart": 84,
+        "locationEnd": 92,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gysbert_hist_1",
+        "category": "LOC",
+        "surfaceForm": "haag",
+        "locationStart": 88,
+        "locationEnd": 92,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
         "ID": "gpt-3.5-turbo_7",
@@ -1037,12 +911,74 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "gold_0",
+        "surfaceForm": "25 augustus 1992",
+        "category": "TIME",
+        "locationStart": 105,
+        "locationEnd": 121,
+        "tokenStart": 19,
+        "tokenEnd": 22,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_2",
+        "category": "TIME",
+        "surfaceForm": "25 augustus",
+        "locationStart": 105,
+        "locationEnd": 116,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
         "ID": "gpt-3.5-turbo_9",
         "category": "LOCATION",
         "surfaceForm": "Den Haag",
         "locationStart": 119,
         "locationEnd": 127,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "stanza_nl_2",
+        "surfaceForm": "Den Haag",
+        "category": "LOC",
+        "locationStart": 123,
+        "locationEnd": 131,
+        "tokenStart": 23,
+        "tokenEnd": 25,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_1",
+        "surfaceForm": "Den Haag",
+        "category": "LOC",
+        "locationStart": 123,
+        "locationEnd": 131,
+        "tokenStart": 23,
+        "tokenEnd": 25,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_2",
+        "category": "LOC",
+        "surfaceForm": "Den Haag",
+        "locationStart": 123,
+        "locationEnd": 131,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_2",
+        "category": "LOC",
+        "surfaceForm": "Den Haag",
+        "locationStart": 123,
+        "locationEnd": 131,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gysbert_hist_2",
+        "category": "LOC",
+        "surfaceForm": "haag",
+        "locationStart": 127,
+        "locationEnd": 131,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
         "ID": "gpt-3.5-turbo_10",
@@ -1061,6 +997,58 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "stanza_nl_3",
+        "surfaceForm": "Den Haag",
+        "category": "LOC",
+        "locationStart": 169,
+        "locationEnd": 177,
+        "tokenStart": 32,
+        "tokenEnd": 34,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_2",
+        "surfaceForm": "Den Haag",
+        "category": "LOC",
+        "locationStart": 169,
+        "locationEnd": 177,
+        "tokenStart": 32,
+        "tokenEnd": 34,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_3",
+        "category": "LOC",
+        "surfaceForm": "Den Haag",
+        "locationStart": 169,
+        "locationEnd": 177,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_4",
+        "category": "LOC",
+        "surfaceForm": "den",
+        "locationStart": 169,
+        "locationEnd": 172,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_4",
+        "category": "LOC",
+        "surfaceForm": "Den Haag",
+        "locationStart": 169,
+        "locationEnd": 177,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gysbert_hist_4",
+        "category": "LOC",
+        "surfaceForm": "haag",
+        "locationStart": 173,
+        "locationEnd": 177,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
         "ID": "gpt-3.5-turbo_12",
         "category": "DATE",
         "surfaceForm": "1912 tot 1992",
@@ -1069,12 +1057,48 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "gold_3",
+        "surfaceForm": "van 1912 tot 1992",
+        "category": "TIME",
+        "locationStart": 179,
+        "locationEnd": 196,
+        "tokenStart": 35,
+        "tokenEnd": 39,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_4",
+        "category": "TIME",
+        "surfaceForm": "1912",
+        "locationStart": 183,
+        "locationEnd": 187,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
         "ID": "gpt-3.5-turbo_13",
         "category": "DATE",
         "surfaceForm": "Tot 1992",
         "locationStart": 189,
         "locationEnd": 197,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gysbert_hist_4",
+        "category": "TIME",
+        "surfaceForm": "199",
+        "locationStart": 192,
+        "locationEnd": 195,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gold_4",
+        "surfaceForm": "Tot 1992",
+        "category": "TIME",
+        "locationStart": 197,
+        "locationEnd": 205,
+        "tokenStart": 39,
+        "tokenEnd": 41,
+        "method": "human_gold"
       }
     ],
     "time_expressions": [

@@ -846,6 +846,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "BRIZE",
+        "locationStart": 0,
+        "locationEnd": 4,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "BRIZE",
+        "locationStart": 0,
+        "locationEnd": 5,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_0",
         "surfaceForm": "Schilder van Harnassen",
         "category": "PER",
@@ -856,12 +872,28 @@
         "method": "stanza_nl"
       },
       {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "ARTWORK",
+        "surfaceForm": "Harnassen",
+        "locationStart": 28,
+        "locationEnd": 37,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "flair_0",
         "category": "MISC",
         "surfaceForm": "Harnassen",
         "locationStart": 33,
         "locationEnd": 42,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "ARTWORK",
+        "surfaceForm": "Stormmutsen",
+        "locationStart": 39,
+        "locationEnd": 50,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_1",
@@ -882,6 +914,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "ARTWORK",
+        "surfaceForm": "Zwaarden",
+        "locationStart": 52,
+        "locationEnd": 59,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_2",
         "surfaceForm": "Zwaarden",
         "category": "PER",
@@ -900,6 +940,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "ARTWORK",
+        "surfaceForm": "Krygsmans Zomerkleeders",
+        "locationStart": 61,
+        "locationEnd": 82,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_3",
         "surfaceForm": "Krygsmans Zomerkleeders",
         "category": "PER",
@@ -916,138 +964,6 @@
         "locationStart": 79,
         "locationEnd": 102,
         "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "stanza_nl_4",
-        "surfaceForm": "Thresory",
-        "category": "MISC",
-        "locationStart": 199,
-        "locationEnd": 207,
-        "tokenStart": 31,
-        "tokenEnd": 32,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_1",
-        "surfaceForm": "Thresory",
-        "category": "LOC",
-        "locationStart": 199,
-        "locationEnd": 207,
-        "tokenStart": 31,
-        "tokenEnd": 32,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_0",
-        "category": "LOC",
-        "surfaceForm": "Thresory",
-        "locationStart": 199,
-        "locationEnd": 207,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "stanza_nl_5",
-        "surfaceForm": "Amsterdams Raadhuys",
-        "category": "LOC",
-        "locationStart": 216,
-        "locationEnd": 235,
-        "tokenStart": 34,
-        "tokenEnd": 36,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_2",
-        "surfaceForm": "Amsterdams Raadhuys",
-        "category": "ORG",
-        "locationStart": 216,
-        "locationEnd": 235,
-        "tokenStart": 34,
-        "tokenEnd": 36,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_0",
-        "category": "LOC",
-        "surfaceForm": "Amsterdams Raadhuys",
-        "locationStart": 216,
-        "locationEnd": 235,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_1",
-        "category": "LOC",
-        "surfaceForm": "amsterdamj v . vondel",
-        "locationStart": 216,
-        "locationEnd": 282,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gold_3",
-        "surfaceForm": "DichterJ. v. Vondel",
-        "category": "PER",
-        "locationStart": 263,
-        "locationEnd": 282,
-        "tokenStart": 41,
-        "tokenEnd": 44,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_0",
-        "category": "PER",
-        "surfaceForm": "DichterJ. v. Vondel",
-        "locationStart": 263,
-        "locationEnd": 282,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "stanza_nl_6",
-        "surfaceForm": "v. Vondel",
-        "category": "PER",
-        "locationStart": 273,
-        "locationEnd": 282,
-        "tokenStart": 42,
-        "tokenEnd": 44,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "BRIZE",
-        "locationStart": 0,
-        "locationEnd": 4,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "ARTWORK",
-        "surfaceForm": "Harnassen",
-        "locationStart": 28,
-        "locationEnd": 37,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "ARTWORK",
-        "surfaceForm": "Stormmutsen",
-        "locationStart": 39,
-        "locationEnd": 50,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "ARTWORK",
-        "surfaceForm": "Zwaarden",
-        "locationStart": 52,
-        "locationEnd": 59,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "ARTWORK",
-        "surfaceForm": "Krygsmans Zomerkleeders",
-        "locationStart": 61,
-        "locationEnd": 82,
-        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gpt-3.5-turbo_5",
@@ -1096,6 +1012,114 @@
         "locationStart": 176,
         "locationEnd": 194,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "stanza_nl_4",
+        "surfaceForm": "Thresory",
+        "category": "MISC",
+        "locationStart": 199,
+        "locationEnd": 207,
+        "tokenStart": 31,
+        "tokenEnd": 32,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_1",
+        "surfaceForm": "Thresory",
+        "category": "LOC",
+        "locationStart": 199,
+        "locationEnd": 207,
+        "tokenStart": 31,
+        "tokenEnd": 32,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_0",
+        "category": "LOC",
+        "surfaceForm": "Thresory",
+        "locationStart": 199,
+        "locationEnd": 207,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "Thresory",
+        "locationStart": 199,
+        "locationEnd": 207,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "stanza_nl_5",
+        "surfaceForm": "Amsterdams Raadhuys",
+        "category": "LOC",
+        "locationStart": 216,
+        "locationEnd": 235,
+        "tokenStart": 34,
+        "tokenEnd": 36,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_2",
+        "surfaceForm": "Amsterdams Raadhuys",
+        "category": "ORG",
+        "locationStart": 216,
+        "locationEnd": 235,
+        "tokenStart": 34,
+        "tokenEnd": 36,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_0",
+        "category": "LOC",
+        "surfaceForm": "Amsterdams Raadhuys",
+        "locationStart": 216,
+        "locationEnd": 235,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_1",
+        "category": "LOC",
+        "surfaceForm": "amsterdamj v . vondel",
+        "locationStart": 216,
+        "locationEnd": 282,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "RaadhuysJ. v. Vondel",
+        "locationStart": 227,
+        "locationEnd": 282,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gold_3",
+        "surfaceForm": "DichterJ. v. Vondel",
+        "category": "PER",
+        "locationStart": 263,
+        "locationEnd": 282,
+        "tokenStart": 41,
+        "tokenEnd": 44,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_0",
+        "category": "PER",
+        "surfaceForm": "DichterJ. v. Vondel",
+        "locationStart": 263,
+        "locationEnd": 282,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "stanza_nl_6",
+        "surfaceForm": "v. Vondel",
+        "category": "PER",
+        "locationStart": 273,
+        "locationEnd": 282,
+        "tokenStart": 42,
+        "tokenEnd": 44,
+        "method": "stanza_nl"
       }
     ],
     "time_expressions": []

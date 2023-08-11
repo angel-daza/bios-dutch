@@ -1650,6 +1650,14 @@
     },
     "entities": [
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "Feministe",
+        "locationStart": 0,
+        "locationEnd": 9,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_0",
         "surfaceForm": "aan het einde van de negentiende en begin van de twintigste eeuw",
         "category": "TIME",
@@ -1658,134 +1666,6 @@
         "tokenStart": 1,
         "tokenEnd": 13,
         "method": "human_gold"
-      },
-      {
-        "ID": "stanza_nl_0",
-        "surfaceForm": "Sociaal-Democratische Bond",
-        "category": "ORG",
-        "locationStart": 314,
-        "locationEnd": 340,
-        "tokenStart": 55,
-        "tokenEnd": 57,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_1",
-        "surfaceForm": "Sociaal-Democratische Bond",
-        "category": "ORG",
-        "locationStart": 314,
-        "locationEnd": 340,
-        "tokenStart": 55,
-        "tokenEnd": 57,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_4",
-        "category": "ORG",
-        "surfaceForm": "Sociaal-Democratische Bond",
-        "locationStart": 314,
-        "locationEnd": 340,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gold_2",
-        "surfaceForm": "1889",
-        "category": "TIME",
-        "locationStart": 355,
-        "locationEnd": 359,
-        "tokenStart": 60,
-        "tokenEnd": 61,
-        "method": "human_gold"
-      },
-      {
-        "ID": "gysbert_hist_4",
-        "category": "TIME",
-        "surfaceForm": "1889",
-        "locationStart": 355,
-        "locationEnd": 359,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_1",
-        "surfaceForm": "Vrije Vrouwen Vereniging",
-        "category": "ORG",
-        "locationStart": 363,
-        "locationEnd": 387,
-        "tokenStart": 62,
-        "tokenEnd": 65,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_3",
-        "surfaceForm": "Vrije Vrouwen Vereniging",
-        "category": "ORG",
-        "locationStart": 363,
-        "locationEnd": 387,
-        "tokenStart": 62,
-        "tokenEnd": 65,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_4",
-        "category": "ORG",
-        "surfaceForm": "Vrije Vrouwen Vereniging",
-        "locationStart": 363,
-        "locationEnd": 387,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gold_4",
-        "surfaceForm": "1894",
-        "category": "TIME",
-        "locationStart": 395,
-        "locationEnd": 399,
-        "tokenStart": 68,
-        "tokenEnd": 69,
-        "method": "human_gold"
-      },
-      {
-        "ID": "gysbert_hist_5",
-        "category": "TIME",
-        "surfaceForm": "1894",
-        "locationStart": 395,
-        "locationEnd": 399,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_2",
-        "surfaceForm": "Vereeniging voor Vrouwenkiesrecht",
-        "category": "ORG",
-        "locationStart": 423,
-        "locationEnd": 456,
-        "tokenStart": 72,
-        "tokenEnd": 75,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_5",
-        "surfaceForm": "Vereeniging voor Vrouwenkiesrecht",
-        "category": "ORG",
-        "locationStart": 423,
-        "locationEnd": 456,
-        "tokenStart": 72,
-        "tokenEnd": 75,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_5",
-        "category": "ORG",
-        "surfaceForm": "Vereeniging voor Vrouwenkiesrecht",
-        "locationStart": 423,
-        "locationEnd": 456,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "Feministe",
-        "locationStart": 0,
-        "locationEnd": 9,
-        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gpt-3.5-turbo_1",
@@ -1842,6 +1722,150 @@
         "locationStart": 285,
         "locationEnd": 316,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "stanza_nl_0",
+        "surfaceForm": "Sociaal-Democratische Bond",
+        "category": "ORG",
+        "locationStart": 314,
+        "locationEnd": 340,
+        "tokenStart": 55,
+        "tokenEnd": 57,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_1",
+        "surfaceForm": "Sociaal-Democratische Bond",
+        "category": "ORG",
+        "locationStart": 314,
+        "locationEnd": 340,
+        "tokenStart": 55,
+        "tokenEnd": 57,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_4",
+        "category": "ORG",
+        "surfaceForm": "Sociaal-Democratische Bond",
+        "locationStart": 314,
+        "locationEnd": 340,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_4",
+        "category": "ORG",
+        "surfaceForm": "Sociaal-Democratische Bond",
+        "locationStart": 314,
+        "locationEnd": 340,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gold_2",
+        "surfaceForm": "1889",
+        "category": "TIME",
+        "locationStart": 355,
+        "locationEnd": 359,
+        "tokenStart": 60,
+        "tokenEnd": 61,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_4",
+        "category": "TIME",
+        "surfaceForm": "1889",
+        "locationStart": 355,
+        "locationEnd": 359,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_1",
+        "surfaceForm": "Vrije Vrouwen Vereniging",
+        "category": "ORG",
+        "locationStart": 363,
+        "locationEnd": 387,
+        "tokenStart": 62,
+        "tokenEnd": 65,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_3",
+        "surfaceForm": "Vrije Vrouwen Vereniging",
+        "category": "ORG",
+        "locationStart": 363,
+        "locationEnd": 387,
+        "tokenStart": 62,
+        "tokenEnd": 65,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_4",
+        "category": "ORG",
+        "surfaceForm": "Vrije Vrouwen Vereniging",
+        "locationStart": 363,
+        "locationEnd": 387,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_4",
+        "category": "ORG",
+        "surfaceForm": "Vrije Vrouwen Vereniging",
+        "locationStart": 363,
+        "locationEnd": 387,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gold_4",
+        "surfaceForm": "1894",
+        "category": "TIME",
+        "locationStart": 395,
+        "locationEnd": 399,
+        "tokenStart": 68,
+        "tokenEnd": 69,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_5",
+        "category": "TIME",
+        "surfaceForm": "1894",
+        "locationStart": 395,
+        "locationEnd": 399,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_2",
+        "surfaceForm": "Vereeniging voor Vrouwenkiesrecht",
+        "category": "ORG",
+        "locationStart": 423,
+        "locationEnd": 456,
+        "tokenStart": 72,
+        "tokenEnd": 75,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_5",
+        "surfaceForm": "Vereeniging voor Vrouwenkiesrecht",
+        "category": "ORG",
+        "locationStart": 423,
+        "locationEnd": 456,
+        "tokenStart": 72,
+        "tokenEnd": 75,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_5",
+        "category": "ORG",
+        "surfaceForm": "Vereeniging voor Vrouwenkiesrecht",
+        "locationStart": 423,
+        "locationEnd": 456,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_5",
+        "category": "ORG",
+        "surfaceForm": "Vereeniging voor Vrouwenkiesrecht",
+        "locationStart": 423,
+        "locationEnd": 456,
+        "method": "xlmr_ner_"
       }
     ],
     "time_expressions": [

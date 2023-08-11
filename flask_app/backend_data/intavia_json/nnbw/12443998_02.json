@@ -1568,6 +1568,30 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "BILSEN",
+        "locationStart": 0,
+        "locationEnd": 5,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "BILSENNorbertus van",
+        "locationStart": 0,
+        "locationEnd": 21,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "PERSON",
+        "surfaceForm": "Norbertus van",
+        "locationStart": 7,
+        "locationEnd": 20,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_1",
         "surfaceForm": "Norbertus",
         "category": "PER",
@@ -1612,6 +1636,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "LOCATION",
+        "surfaceForm": "Mechelen",
+        "locationStart": 46,
+        "locationEnd": 54,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "LOCATION",
+        "surfaceForm": "Leuven",
+        "locationStart": 63,
+        "locationEnd": 69,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_2",
         "surfaceForm": "Mechelen",
         "category": "LOC",
@@ -1646,6 +1686,38 @@
         "locationStart": 83,
         "locationEnd": 91,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "Mechelen",
+        "locationStart": 83,
+        "locationEnd": 91,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "LOCATION",
+        "surfaceForm": "Mechelen",
+        "locationStart": 88,
+        "locationEnd": 96,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "TIME",
+        "surfaceForm": "1723",
+        "locationStart": 100,
+        "locationEnd": 104,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_6",
+        "category": "TIME",
+        "surfaceForm": "1735",
+        "locationStart": 109,
+        "locationEnd": 113,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_1",
@@ -1702,6 +1774,30 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_7",
+        "category": "LOCATION",
+        "surfaceForm": "Nijmegen",
+        "locationStart": 142,
+        "locationEnd": 150,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "Leuven",
+        "locationStart": 142,
+        "locationEnd": 148,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_8",
+        "category": "PERSON",
+        "surfaceForm": "G.A. Meijer",
+        "locationStart": 152,
+        "locationEnd": 163,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_4",
         "surfaceForm": "Mechelen",
         "category": "LOC",
@@ -1736,6 +1832,14 @@
         "locationStart": 182,
         "locationEnd": 190,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "Mechelen",
+        "locationStart": 182,
+        "locationEnd": 190,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_4",
@@ -1800,6 +1904,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_3",
+        "category": "PER",
+        "surfaceForm": "G.A. Meijer",
+        "locationStart": 383,
+        "locationEnd": 394,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "flair_5",
         "category": "PER",
         "surfaceForm": "Meijer",
@@ -1858,6 +1970,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_3",
+        "category": "LOC",
+        "surfaceForm": "HertogenboschNijmegen",
+        "locationStart": 418,
+        "locationEnd": 441,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_7",
         "surfaceForm": "Nijmegen",
         "category": "LOC",
@@ -1910,6 +2030,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_4",
+        "category": "PER",
+        "surfaceForm": "G.A. Meijer",
+        "locationStart": 453,
+        "locationEnd": 464,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gysbert_hist_4",
         "category": "",
         "surfaceForm": "a . meijer",
@@ -1924,78 +2052,6 @@
         "locationStart": 458,
         "locationEnd": 464,
         "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "BILSEN",
-        "locationStart": 0,
-        "locationEnd": 5,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "PERSON",
-        "surfaceForm": "Norbertus van",
-        "locationStart": 7,
-        "locationEnd": 20,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "LOCATION",
-        "surfaceForm": "Mechelen",
-        "locationStart": 46,
-        "locationEnd": 54,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "LOCATION",
-        "surfaceForm": "Leuven",
-        "locationStart": 63,
-        "locationEnd": 69,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "LOCATION",
-        "surfaceForm": "Mechelen",
-        "locationStart": 88,
-        "locationEnd": 96,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "TIME",
-        "surfaceForm": "1723",
-        "locationStart": 100,
-        "locationEnd": 104,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_6",
-        "category": "TIME",
-        "surfaceForm": "1735",
-        "locationStart": 109,
-        "locationEnd": 113,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_7",
-        "category": "LOCATION",
-        "surfaceForm": "Nijmegen",
-        "locationStart": 142,
-        "locationEnd": 150,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_8",
-        "category": "PERSON",
-        "surfaceForm": "G.A. Meijer",
-        "locationStart": 152,
-        "locationEnd": 163,
-        "method": "gpt-3.5-turbo"
       }
     ],
     "time_expressions": [

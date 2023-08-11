@@ -1118,6 +1118,30 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "SCHIMMELPENNING",
+        "locationStart": 0,
+        "locationEnd": 14,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "SCHIMMELPENNING (G.",
+        "locationStart": 0,
+        "locationEnd": 19,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "PERSON",
+        "surfaceForm": "G.",
+        "locationStart": 16,
+        "locationEnd": 17,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_1",
         "surfaceForm": "G.",
         "category": "PER",
@@ -1134,6 +1158,22 @@
         "locationStart": 17,
         "locationEnd": 19,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "LOCATION",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 46,
+        "locationEnd": 55,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "PERSON",
+        "surfaceForm": "Kramm",
+        "locationStart": 64,
+        "locationEnd": 68,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_2",
@@ -1172,12 +1212,28 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 82,
+        "locationEnd": 91,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "flair_0",
         "category": "MISC",
         "surfaceForm": "schilderkunst",
         "locationStart": 113,
         "locationEnd": 126,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Nederl. Kunstsch.",
+        "locationStart": 123,
+        "locationEnd": 139,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_3",
@@ -1208,6 +1264,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "PER",
+        "surfaceForm": "Kramm",
+        "locationStart": 128,
+        "locationEnd": 133,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_4",
         "surfaceForm": "Kramm",
         "category": "PER",
@@ -1226,6 +1290,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_3",
+        "category": "PER",
+        "surfaceForm": "Kramm",
+        "locationStart": 235,
+        "locationEnd": 240,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "flair_2",
         "category": "PER",
         "surfaceForm": "van Eynden",
@@ -1240,6 +1312,14 @@
         "locationStart": 242,
         "locationEnd": 251,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_3",
+        "category": "PER",
+        "surfaceForm": "van Eynden",
+        "locationStart": 242,
+        "locationEnd": 252,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_5",
@@ -1278,6 +1358,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_3",
+        "category": "PER",
+        "surfaceForm": "van der Willigen",
+        "locationStart": 256,
+        "locationEnd": 272,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_7",
         "surfaceForm": "Levens der Nederl",
         "category": "MISC",
@@ -1302,46 +1390,6 @@
         "locationStart": 293,
         "locationEnd": 302,
         "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "SCHIMMELPENNING",
-        "locationStart": 0,
-        "locationEnd": 14,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "PERSON",
-        "surfaceForm": "G.",
-        "locationStart": 16,
-        "locationEnd": 17,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "LOCATION",
-        "surfaceForm": "Amsterdam",
-        "locationStart": 46,
-        "locationEnd": 55,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "PERSON",
-        "surfaceForm": "Kramm",
-        "locationStart": 64,
-        "locationEnd": 68,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Nederl. Kunstsch.",
-        "locationStart": 123,
-        "locationEnd": 139,
-        "method": "gpt-3.5-turbo"
       }
     ],
     "time_expressions": [

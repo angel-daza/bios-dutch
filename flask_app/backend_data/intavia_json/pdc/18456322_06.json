@@ -1651,6 +1651,22 @@
     },
     "entities": [
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "Voormalige doopsgezinde predikant",
+        "locationStart": 0,
+        "locationEnd": 30,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "LOCATION",
+        "surfaceForm": "Groningen",
+        "locationStart": 34,
+        "locationEnd": 43,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_0",
         "surfaceForm": "Groningen",
         "category": "LOC",
@@ -1687,6 +1703,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Groningen",
+        "locationStart": 38,
+        "locationEnd": 47,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "TIME",
+        "surfaceForm": "1851",
+        "locationStart": 48,
+        "locationEnd": 52,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_2",
         "surfaceForm": "1851",
         "category": "TIME",
@@ -1703,6 +1735,14 @@
         "locationStart": 56,
         "locationEnd": 60,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Tweede Kamer",
+        "locationStart": 63,
+        "locationEnd": 75,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_1",
@@ -1733,54 +1773,12 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
-        "ID": "gold_1",
-        "surfaceForm": "1859",
-        "category": "TIME",
-        "locationStart": 492,
-        "locationEnd": 496,
-        "tokenStart": 78,
-        "tokenEnd": 79,
-        "method": "human_gold"
-      },
-      {
-        "ID": "gysbert_hist_3",
-        "category": "TIME",
-        "surfaceForm": "1859",
-        "locationStart": 492,
-        "locationEnd": 496,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "Voormalige doopsgezinde predikant",
-        "locationStart": 0,
-        "locationEnd": 30,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "LOCATION",
-        "surfaceForm": "Groningen",
-        "locationStart": 34,
-        "locationEnd": 43,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "TIME",
-        "surfaceForm": "1851",
-        "locationStart": 48,
-        "locationEnd": 52,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "ORGANIZATION",
+        "ID": "xlmr_ner_0",
+        "category": "ORG",
         "surfaceForm": "Tweede Kamer",
-        "locationStart": 63,
-        "locationEnd": 75,
-        "method": "gpt-3.5-turbo"
+        "locationStart": 79,
+        "locationEnd": 91,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gpt-3.5-turbo_4",
@@ -1901,6 +1899,24 @@
         "locationStart": 419,
         "locationEnd": 431,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gold_1",
+        "surfaceForm": "1859",
+        "category": "TIME",
+        "locationStart": 492,
+        "locationEnd": 496,
+        "tokenStart": 78,
+        "tokenEnd": 79,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_3",
+        "category": "TIME",
+        "surfaceForm": "1859",
+        "locationStart": 492,
+        "locationEnd": 496,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
       }
     ],
     "time_expressions": [

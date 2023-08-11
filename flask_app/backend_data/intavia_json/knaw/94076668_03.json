@@ -16343,6 +16343,14 @@
     },
     "entities": [
       {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "LEVENSBERICHT",
+        "locationStart": 0,
+        "locationEnd": 13,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "flair_0",
         "category": "PER",
         "surfaceForm": "GOSEWINUS ACKER STRATINGH",
@@ -16365,6 +16373,14 @@
         "locationStart": 50,
         "locationEnd": 52,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "J. C. G. BOOT",
+        "locationStart": 50,
+        "locationEnd": 63,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "flair_2",
@@ -16411,6 +16427,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "ORG",
+        "surfaceForm": "Koninklijke Akademie van Wetenschappen",
+        "locationStart": 162,
+        "locationEnd": 200,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_2",
         "surfaceForm": "Acker Stratingh",
         "category": "PER",
@@ -16437,6 +16461,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "PER",
+        "surfaceForm": "Acker Stratingh",
+        "locationStart": 235,
+        "locationEnd": 250,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_3",
         "surfaceForm": "Stratingh",
         "category": "PER",
@@ -16461,6 +16493,14 @@
         "locationStart": 705,
         "locationEnd": 709,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_4",
+        "category": "PER",
+        "surfaceForm": "Stratingh",
+        "locationStart": 705,
+        "locationEnd": 714,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "flair_7",
@@ -16525,6 +16565,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_8",
+        "category": "PER",
+        "surfaceForm": "H. O. Peith",
+        "locationStart": 1063,
+        "locationEnd": 1074,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gysbert_hist_8",
         "category": "",
         "surfaceForm": "o pei",
@@ -16569,6 +16617,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_8",
+        "category": "ORG",
+        "surfaceForm": "Ma",
+        "locationStart": 1104,
+        "locationEnd": 1106,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gysbert_hist_10",
         "category": "",
         "surfaceForm": "jaarboek",
@@ -16611,6 +16667,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_10",
+        "category": "PER",
+        "surfaceForm": "Gosewinus Acker Stratingh",
+        "locationStart": 1299,
+        "locationEnd": 1324,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gysbert_hist_10",
         "category": "TIME",
         "surfaceForm": "25 maart 1804",
@@ -16643,6 +16707,14 @@
         "locationStart": 1358,
         "locationEnd": 1367,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_10",
+        "category": "LOC",
+        "surfaceForm": "Groningen",
+        "locationStart": 1358,
+        "locationEnd": 1367,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gysbert_hist_10",
@@ -16689,6 +16761,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_13",
+        "category": "PER",
+        "surfaceForm": "Dollard",
+        "locationStart": 2087,
+        "locationEnd": 2094,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_13",
         "surfaceForm": "G. A. Venema",
         "category": "PER",
@@ -16713,6 +16793,14 @@
         "locationStart": 2108,
         "locationEnd": 2120,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_13",
+        "category": "PER",
+        "surfaceForm": "G. A. Venema van Winschoten",
+        "locationStart": 2108,
+        "locationEnd": 2135,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "flair_16",
@@ -16809,6 +16897,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_15",
+        "category": "LOC",
+        "surfaceForm": "Groningen",
+        "locationStart": 2391,
+        "locationEnd": 2400,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gysbert_hist_15",
         "category": "TIME",
         "surfaceForm": "1847",
@@ -16851,6 +16947,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_15",
+        "category": "PER",
+        "surfaceForm": "R. J. Sehierbeek",
+        "locationStart": 2432,
+        "locationEnd": 2448,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "flair_19",
         "category": "PER",
         "surfaceForm": "J. Sehierbeek",
@@ -16883,6 +16987,14 @@
         "locationStart": 2506,
         "locationEnd": 2508,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_15",
+        "category": "PER",
+        "surfaceForm": "E. M. Engelberts",
+        "locationStart": 2506,
+        "locationEnd": 2522,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "flair_20",
@@ -16927,6 +17039,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_15",
+        "category": "LOC",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 2531,
+        "locationEnd": 2540,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gysbert_hist_15",
         "category": "TIME",
         "surfaceForm": "1784",
@@ -16969,6 +17089,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_16",
+        "category": "LOC",
+        "surfaceForm": "Nederland",
+        "locationStart": 2684,
+        "locationEnd": 2693,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_21",
         "surfaceForm": "Koninklijk Nederlandsch Instituut",
         "category": "ORG",
@@ -16987,6 +17115,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_17",
+        "category": "ORG",
+        "surfaceForm": "Koninklijk Nederlandsch Instituut",
+        "locationStart": 2879,
+        "locationEnd": 2912,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_22",
         "surfaceForm": "Regeering",
         "category": "ORG",
@@ -16995,6 +17131,14 @@
         "tokenStart": 523,
         "tokenEnd": 524,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "xlmr_ner_17",
+        "category": "ORG",
+        "surfaceForm": "Regeering",
+        "locationStart": 2975,
+        "locationEnd": 2984,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_23",
@@ -17013,6 +17157,14 @@
         "locationStart": 3040,
         "locationEnd": 3049,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_17",
+        "category": "ORG",
+        "surfaceForm": "Com",
+        "locationStart": 3040,
+        "locationEnd": 3043,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_24",
@@ -17041,12 +17193,28 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_18",
+        "category": "LOC",
+        "surfaceForm": "Nederland",
+        "locationStart": 3329,
+        "locationEnd": 3338,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "flair_24",
         "category": "MISC",
         "surfaceForm": "Jaarboek",
         "locationStart": 3350,
         "locationEnd": 3358,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_19",
+        "category": "ORG",
+        "surfaceForm": "Jaarboek",
+        "locationStart": 3350,
+        "locationEnd": 3358,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gysbert_hist_19",
@@ -17111,6 +17279,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_21",
+        "category": "LOC",
+        "surfaceForm": "Hunebedden",
+        "locationStart": 3679,
+        "locationEnd": 3689,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_28",
         "surfaceForm": "Neder-laud's",
         "category": "MISC",
@@ -17171,6 +17347,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_23",
+        "category": "PER",
+        "surfaceForm": "Stratingli",
+        "locationStart": 4108,
+        "locationEnd": 4118,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_30",
         "surfaceForm": "Matheseos Magister et Philosophiae naturalis Doctor",
         "category": "MISC",
@@ -17215,6 +17399,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_23",
+        "category": "ORG",
+        "surfaceForm": "Groninger Hoogeschool",
+        "locationStart": 4216,
+        "locationEnd": 4237,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gysbert_hist_23",
         "category": "TIME",
         "surfaceForm": "1850",
@@ -17239,6 +17431,14 @@
         "locationStart": 4323,
         "locationEnd": 4349,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_24",
+        "category": "ORG",
+        "surfaceForm": "Akademie van Wetenschappen",
+        "locationStart": 4323,
+        "locationEnd": 4349,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_33",
@@ -17267,6 +17467,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_24",
+        "category": "PER",
+        "surfaceForm": "Bakhuizen van den Brink",
+        "locationStart": 4444,
+        "locationEnd": 4467,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_34",
         "surfaceForm": "Acker Stratingh",
         "category": "PER",
@@ -17291,6 +17499,14 @@
         "locationStart": 4507,
         "locationEnd": 4521,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_24",
+        "category": "PER",
+        "surfaceForm": "Acker Stratingh",
+        "locationStart": 4507,
+        "locationEnd": 4522,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_35",
@@ -17327,6 +17543,14 @@
         "locationStart": 4606,
         "locationEnd": 4608,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_25",
+        "category": "PER",
+        "surfaceForm": "Z. M.",
+        "locationStart": 4606,
+        "locationEnd": 4611,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "flair_30",
@@ -17381,6 +17605,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_25",
+        "category": "PER",
+        "surfaceForm": "Stratingh",
+        "locationStart": 4666,
+        "locationEnd": 4675,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_39",
         "surfaceForm": "S. Vissering",
         "category": "PER",
@@ -17405,6 +17637,14 @@
         "locationStart": 4690,
         "locationEnd": 4702,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_25",
+        "category": "PER",
+        "surfaceForm": "S. Vissering",
+        "locationStart": 4690,
+        "locationEnd": 4702,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "flair_31",
@@ -17439,6 +17679,14 @@
         "locationStart": 4706,
         "locationEnd": 4721,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_25",
+        "category": "PER",
+        "surfaceForm": "L. A. te Winkel",
+        "locationStart": 4706,
+        "locationEnd": 4721,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "flair_32",
@@ -17517,6 +17765,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_29",
+        "category": "LOC",
+        "surfaceForm": "Marken",
+        "locationStart": 5339,
+        "locationEnd": 5345,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_43",
         "surfaceForm": "Friesland",
         "category": "LOC",
@@ -17541,6 +17797,14 @@
         "locationStart": 5349,
         "locationEnd": 5358,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_29",
+        "category": "LOC",
+        "surfaceForm": "Friesland",
+        "locationStart": 5349,
+        "locationEnd": 5358,
+        "method": "xlmr_ner_"
       }
     ],
     "time_expressions": [

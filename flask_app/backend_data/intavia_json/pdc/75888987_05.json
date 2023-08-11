@@ -1762,6 +1762,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "Haagse jurist",
+        "locationStart": 0,
+        "locationEnd": 13,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_1",
         "surfaceForm": "Leiden",
         "category": "LOC",
@@ -1798,132 +1806,12 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
-        "ID": "stanza_nl_2",
-        "surfaceForm": "Lodewijk",
-        "category": "PER",
-        "locationStart": 195,
-        "locationEnd": 203,
-        "tokenStart": 33,
-        "tokenEnd": 34,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_0",
-        "surfaceForm": "Lodewijk",
-        "category": "PER",
-        "locationStart": 195,
-        "locationEnd": 203,
-        "tokenStart": 33,
-        "tokenEnd": 34,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_2",
-        "category": "PER",
-        "surfaceForm": "Lodewijk",
-        "locationStart": 195,
-        "locationEnd": 203,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "stanza_nl_3",
-        "surfaceForm": "Hof van Cassatie",
-        "category": "ORG",
-        "locationStart": 300,
-        "locationEnd": 316,
-        "tokenStart": 50,
-        "tokenEnd": 53,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_2",
-        "surfaceForm": "Hof van Cassatie",
-        "category": "ORG",
-        "locationStart": 300,
-        "locationEnd": 316,
-        "tokenStart": 50,
-        "tokenEnd": 53,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_2",
-        "category": "ORG",
-        "surfaceForm": "Hof van Cassatie",
-        "locationStart": 300,
-        "locationEnd": 316,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gold_3",
-        "surfaceForm": "1826",
-        "category": "TIME",
-        "locationStart": 387,
-        "locationEnd": 391,
-        "tokenStart": 68,
-        "tokenEnd": 69,
-        "method": "human_gold"
-      },
-      {
-        "ID": "gysbert_hist_3",
-        "category": "TIME",
-        "surfaceForm": "1826",
-        "locationStart": 387,
-        "locationEnd": 391,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_4",
-        "surfaceForm": "Raad van State",
-        "category": "ORG",
-        "locationStart": 403,
-        "locationEnd": 417,
-        "tokenStart": 72,
-        "tokenEnd": 75,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_4",
-        "surfaceForm": "Raad van State",
-        "category": "ORG",
-        "locationStart": 403,
-        "locationEnd": 417,
-        "tokenStart": 72,
-        "tokenEnd": 75,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_3",
-        "category": "ORG",
-        "surfaceForm": "Raad van State",
-        "locationStart": 403,
-        "locationEnd": 417,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gold_5",
-        "surfaceForm": "sinds 1830",
-        "category": "TIME",
-        "locationStart": 537,
-        "locationEnd": 547,
-        "tokenStart": 95,
-        "tokenEnd": 97,
-        "method": "human_gold"
-      },
-      {
-        "ID": "gysbert_hist_5",
-        "category": "TIME",
-        "surfaceForm": "1830",
-        "locationStart": 543,
-        "locationEnd": 547,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "Haagse jurist",
-        "locationStart": 0,
-        "locationEnd": 13,
-        "method": "gpt-3.5-turbo"
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Leiden",
+        "locationStart": 22,
+        "locationEnd": 28,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gpt-3.5-turbo_1",
@@ -1990,6 +1878,42 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "stanza_nl_2",
+        "surfaceForm": "Lodewijk",
+        "category": "PER",
+        "locationStart": 195,
+        "locationEnd": 203,
+        "tokenStart": 33,
+        "tokenEnd": 34,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_0",
+        "surfaceForm": "Lodewijk",
+        "category": "PER",
+        "locationStart": 195,
+        "locationEnd": 203,
+        "tokenStart": 33,
+        "tokenEnd": 34,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_2",
+        "category": "PER",
+        "surfaceForm": "Lodewijk",
+        "locationStart": 195,
+        "locationEnd": 203,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_2",
+        "category": "PER",
+        "surfaceForm": "Lodewijk",
+        "locationStart": 195,
+        "locationEnd": 203,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gpt-3.5-turbo_9",
         "category": "ORGANIZATION",
         "surfaceForm": "financiele wetten",
@@ -2022,6 +1946,42 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "stanza_nl_3",
+        "surfaceForm": "Hof van Cassatie",
+        "category": "ORG",
+        "locationStart": 300,
+        "locationEnd": 316,
+        "tokenStart": 50,
+        "tokenEnd": 53,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_2",
+        "surfaceForm": "Hof van Cassatie",
+        "category": "ORG",
+        "locationStart": 300,
+        "locationEnd": 316,
+        "tokenStart": 50,
+        "tokenEnd": 53,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_2",
+        "category": "ORG",
+        "surfaceForm": "Hof van Cassatie",
+        "locationStart": 300,
+        "locationEnd": 316,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_2",
+        "category": "ORG",
+        "surfaceForm": "Hof van Cassatie",
+        "locationStart": 300,
+        "locationEnd": 316,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gpt-3.5-turbo_13",
         "category": "ORGANIZATION",
         "surfaceForm": "1826",
@@ -2046,12 +2006,66 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "gold_3",
+        "surfaceForm": "1826",
+        "category": "TIME",
+        "locationStart": 387,
+        "locationEnd": 391,
+        "tokenStart": 68,
+        "tokenEnd": 69,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_3",
+        "category": "TIME",
+        "surfaceForm": "1826",
+        "locationStart": 387,
+        "locationEnd": 391,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
         "ID": "gpt-3.5-turbo_16",
         "category": "ORGANIZATION",
         "surfaceForm": "Vrijmetselaar",
         "locationStart": 394,
         "locationEnd": 406,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "stanza_nl_4",
+        "surfaceForm": "Raad van State",
+        "category": "ORG",
+        "locationStart": 403,
+        "locationEnd": 417,
+        "tokenStart": 72,
+        "tokenEnd": 75,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_4",
+        "surfaceForm": "Raad van State",
+        "category": "ORG",
+        "locationStart": 403,
+        "locationEnd": 417,
+        "tokenStart": 72,
+        "tokenEnd": 75,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_3",
+        "category": "ORG",
+        "surfaceForm": "Raad van State",
+        "locationStart": 403,
+        "locationEnd": 417,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_3",
+        "category": "ORG",
+        "surfaceForm": "Raad van State",
+        "locationStart": 403,
+        "locationEnd": 417,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gpt-3.5-turbo_17",
@@ -2068,6 +2082,24 @@
         "locationStart": 418,
         "locationEnd": 425,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gold_5",
+        "surfaceForm": "sinds 1830",
+        "category": "TIME",
+        "locationStart": 537,
+        "locationEnd": 547,
+        "tokenStart": 95,
+        "tokenEnd": 97,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_5",
+        "category": "TIME",
+        "surfaceForm": "1830",
+        "locationStart": 543,
+        "locationEnd": 547,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
       }
     ],
     "time_expressions": [

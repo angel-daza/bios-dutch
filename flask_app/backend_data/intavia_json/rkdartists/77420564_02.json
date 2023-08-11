@@ -716,6 +716,22 @@
     },
     "entities": [
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "Beeldhouwer",
+        "locationStart": 0,
+        "locationEnd": 10,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "LOCATION",
+        "surfaceForm": "Haarlem",
+        "locationStart": 43,
+        "locationEnd": 50,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_4",
         "surfaceForm": "24 november 1879",
         "category": "TIME",
@@ -732,6 +748,14 @@
         "locationStart": 56,
         "locationEnd": 72,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "LOCATION",
+        "surfaceForm": "Haarlem",
+        "locationStart": 70,
+        "locationEnd": 77,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_0",
@@ -768,6 +792,14 @@
         "locationStart": 74,
         "locationEnd": 81,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "Haarlem",
+        "locationStart": 74,
+        "locationEnd": 81,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_6",
@@ -824,6 +856,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_2",
+        "category": "LOC",
+        "surfaceForm": "Haarlem",
+        "locationStart": 109,
+        "locationEnd": 116,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_2",
         "surfaceForm": "Haarlem",
         "category": "LOC",
@@ -860,6 +900,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_4",
+        "category": "LOC",
+        "surfaceForm": "Haarlem",
+        "locationStart": 154,
+        "locationEnd": 161,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_2",
         "surfaceForm": "van 1894 tot 1953",
         "category": "TIME",
@@ -878,30 +926,6 @@
         "tokenStart": 34,
         "tokenEnd": 38,
         "method": "human_gold"
-      },
-      {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "Beeldhouwer",
-        "locationStart": 0,
-        "locationEnd": 10,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "LOCATION",
-        "surfaceForm": "Haarlem",
-        "locationStart": 43,
-        "locationEnd": 50,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "LOCATION",
-        "surfaceForm": "Haarlem",
-        "locationStart": 70,
-        "locationEnd": 77,
-        "method": "gpt-3.5-turbo"
       }
     ],
     "time_expressions": [

@@ -575,6 +575,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "Daniel Hendriksz",
+        "locationStart": 12,
+        "locationEnd": 28,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "Daniel Hendriksz",
+        "locationStart": 14,
+        "locationEnd": 29,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_4",
         "surfaceForm": "1766 - 1841",
         "category": "TIME",
@@ -599,6 +615,22 @@
         "locationStart": 37,
         "locationEnd": 41,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "LOCATION",
+        "surfaceForm": "Groningen",
+        "locationStart": 47,
+        "locationEnd": 56,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "ARTWORK",
+        "surfaceForm": "StCC-g00030",
+        "locationStart": 58,
+        "locationEnd": 69,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_1",
@@ -637,12 +669,28 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Groningen",
+        "locationStart": 63,
+        "locationEnd": 72,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "flair_2",
         "category": "MISC",
         "surfaceForm": "StCC-g00030",
         "locationStart": 74,
         "locationEnd": 85,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Museum Catharijneconvent",
+        "locationStart": 82,
+        "locationEnd": 105,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_2",
@@ -661,6 +709,22 @@
         "locationStart": 102,
         "locationEnd": 114,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Vrije Universiteit",
+        "locationStart": 110,
+        "locationEnd": 128,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "LOCATION",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 129,
+        "locationEnd": 138,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_3",
@@ -689,6 +753,14 @@
         "locationStart": 130,
         "locationEnd": 154,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "Museum Catharijneconvent",
+        "locationStart": 130,
+        "locationEnd": 154,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gysbert_hist_1",
@@ -727,6 +799,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "ORG",
+        "surfaceForm": "Vrije Universiteit",
+        "locationStart": 158,
+        "locationEnd": 176,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_5",
         "surfaceForm": "Amsterdam",
         "category": "LOC",
@@ -763,52 +843,12 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "Daniel Hendriksz",
-        "locationStart": 14,
-        "locationEnd": 29,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "LOCATION",
-        "surfaceForm": "Groningen",
-        "locationStart": 47,
-        "locationEnd": 56,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "ARTWORK",
-        "surfaceForm": "StCC-g00030",
-        "locationStart": 58,
-        "locationEnd": 69,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Museum Catharijneconvent",
-        "locationStart": 82,
-        "locationEnd": 105,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Vrije Universiteit",
-        "locationStart": 110,
-        "locationEnd": 128,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "LOCATION",
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
         "surfaceForm": "Amsterdam",
-        "locationStart": 129,
-        "locationEnd": 138,
-        "method": "gpt-3.5-turbo"
+        "locationStart": 178,
+        "locationEnd": 187,
+        "method": "xlmr_ner_"
       }
     ],
     "time_expressions": [

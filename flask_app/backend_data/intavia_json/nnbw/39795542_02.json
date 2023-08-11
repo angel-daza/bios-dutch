@@ -3612,6 +3612,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "HAEN (Dirk)",
+        "locationStart": 0,
+        "locationEnd": 10,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "HAENDirk",
+        "locationStart": 0,
+        "locationEnd": 10,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_1",
         "surfaceForm": "Dirk",
         "category": "PER",
@@ -3636,6 +3652,14 @@
         "locationStart": 6,
         "locationEnd": 10,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "LOCATION",
+        "surfaceForm": "Roermond",
+        "locationStart": 19,
+        "locationEnd": 28,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_2",
@@ -3674,6 +3698,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Roermond",
+        "locationStart": 23,
+        "locationEnd": 31,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "LOCATION",
+        "surfaceForm": "Roermond",
+        "locationStart": 47,
+        "locationEnd": 56,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_3",
         "surfaceForm": "Roermond",
         "category": "LOC",
@@ -3710,6 +3750,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "Roermond",
+        "locationStart": 52,
+        "locationEnd": 60,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "LOCATION",
+        "surfaceForm": "Mechelen",
+        "locationStart": 77,
+        "locationEnd": 85,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_15",
         "surfaceForm": "1570",
         "category": "TIME",
@@ -3726,6 +3782,22 @@
         "locationStart": 91,
         "locationEnd": 95,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "ORGANIZATION",
+        "surfaceForm": "H. Stoel",
+        "locationStart": 100,
+        "locationEnd": 108,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "LOCATION",
+        "surfaceForm": "Roermond",
+        "locationStart": 122,
+        "locationEnd": 131,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_4",
@@ -3764,6 +3836,38 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "Mechelen",
+        "locationStart": 136,
+        "locationEnd": 144,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_6",
+        "category": "PERSON",
+        "surfaceForm": "Prins Willem",
+        "locationStart": 146,
+        "locationEnd": 158,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_7",
+        "category": "LOCATION",
+        "surfaceForm": "Roermond",
+        "locationStart": 177,
+        "locationEnd": 186,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_8",
+        "category": "PERSON",
+        "surfaceForm": "Lindanus",
+        "locationStart": 201,
+        "locationEnd": 209,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_5",
         "surfaceForm": "H. Stoel",
         "category": "PER",
@@ -3792,12 +3896,44 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "PER",
+        "surfaceForm": "H. Stoel",
+        "locationStart": 218,
+        "locationEnd": 226,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "flair_3",
         "category": "PER",
         "surfaceForm": "Stoel",
         "locationStart": 221,
         "locationEnd": 226,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_9",
+        "category": "LOCATION",
+        "surfaceForm": "Luik",
+        "locationStart": 222,
+        "locationEnd": 226,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_10",
+        "category": "TIME",
+        "surfaceForm": "1586",
+        "locationStart": 238,
+        "locationEnd": 242,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_11",
+        "category": "LOCATION",
+        "surfaceForm": "Roermond",
+        "locationStart": 248,
+        "locationEnd": 257,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_6",
@@ -3836,6 +3972,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_2",
+        "category": "LOC",
+        "surfaceForm": "Roermonds Willem",
+        "locationStart": 250,
+        "locationEnd": 299,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_7",
         "surfaceForm": "1572",
         "category": "TIME",
@@ -3852,6 +3996,22 @@
         "locationStart": 262,
         "locationEnd": 266,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_12",
+        "category": "PERSON",
+        "surfaceForm": "Habets",
+        "locationStart": 264,
+        "locationEnd": 270,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_13",
+        "category": "ARTWORK",
+        "surfaceForm": "Gesch. v.h. bisd. Roermond III",
+        "locationStart": 272,
+        "locationEnd": 297,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_7",
@@ -3880,6 +4040,14 @@
         "locationStart": 287,
         "locationEnd": 299,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_14",
+        "category": "PERSON",
+        "surfaceForm": "Kleijntjens",
+        "locationStart": 298,
+        "locationEnd": 309,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_8",
@@ -3954,6 +4122,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_5",
+        "category": "PER",
+        "surfaceForm": "Lindanus",
+        "locationStart": 546,
+        "locationEnd": 554,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_10",
         "surfaceForm": "Haen",
         "category": "PER",
@@ -4018,6 +4194,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_6",
+        "category": "LOC",
+        "surfaceForm": "Luik",
+        "locationStart": 614,
+        "locationEnd": 618,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_14",
         "surfaceForm": "1586",
         "category": "TIME",
@@ -4072,6 +4256,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_11",
+        "category": "LOC",
+        "surfaceForm": "Habets",
+        "locationStart": 1030,
+        "locationEnd": 1036,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "flair_12",
         "category": "PER",
         "surfaceForm": "Gesch",
@@ -4116,6 +4308,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_12",
+        "category": "PER",
+        "surfaceForm": "Roermond III",
+        "locationStart": 1056,
+        "locationEnd": 1068,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_14",
         "surfaceForm": "Kleijntjens",
         "category": "PER",
@@ -4134,124 +4334,12 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "HAEN (Dirk)",
-        "locationStart": 0,
-        "locationEnd": 10,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "LOCATION",
-        "surfaceForm": "Roermond",
-        "locationStart": 19,
-        "locationEnd": 28,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "LOCATION",
-        "surfaceForm": "Roermond",
-        "locationStart": 47,
-        "locationEnd": 56,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "LOCATION",
-        "surfaceForm": "Mechelen",
-        "locationStart": 77,
-        "locationEnd": 85,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "ORGANIZATION",
-        "surfaceForm": "H. Stoel",
-        "locationStart": 100,
-        "locationEnd": 108,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "LOCATION",
-        "surfaceForm": "Roermond",
-        "locationStart": 122,
-        "locationEnd": 131,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_6",
-        "category": "PERSON",
-        "surfaceForm": "Prins Willem",
-        "locationStart": 146,
-        "locationEnd": 158,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_7",
-        "category": "LOCATION",
-        "surfaceForm": "Roermond",
-        "locationStart": 177,
-        "locationEnd": 186,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_8",
-        "category": "PERSON",
-        "surfaceForm": "Lindanus",
-        "locationStart": 201,
-        "locationEnd": 209,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_9",
-        "category": "LOCATION",
-        "surfaceForm": "Luik",
-        "locationStart": 222,
-        "locationEnd": 226,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_10",
-        "category": "TIME",
-        "surfaceForm": "1586",
-        "locationStart": 238,
-        "locationEnd": 242,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_11",
-        "category": "LOCATION",
-        "surfaceForm": "Roermond",
-        "locationStart": 248,
-        "locationEnd": 257,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_12",
-        "category": "PERSON",
-        "surfaceForm": "Habets",
-        "locationStart": 264,
-        "locationEnd": 270,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_13",
-        "category": "ARTWORK",
-        "surfaceForm": "Gesch. v.h. bisd. Roermond III",
-        "locationStart": 272,
-        "locationEnd": 297,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_14",
-        "category": "PERSON",
+        "ID": "xlmr_ner_13",
+        "category": "PER",
         "surfaceForm": "Kleijntjens",
-        "locationStart": 298,
-        "locationEnd": 309,
-        "method": "gpt-3.5-turbo"
+        "locationStart": 1070,
+        "locationEnd": 1081,
+        "method": "xlmr_ner_"
       }
     ],
     "time_expressions": [

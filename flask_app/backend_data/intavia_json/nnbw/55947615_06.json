@@ -9742,6 +9742,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "ALBERTHOMA",
+        "locationStart": 0,
+        "locationEnd": 10,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "ALBERTHOMARobertus",
+        "locationStart": 0,
+        "locationEnd": 20,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_1",
         "surfaceForm": "Robertus",
         "category": "PER",
@@ -9766,6 +9782,22 @@
         "locationStart": 12,
         "locationEnd": 20,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "PERSON",
+        "surfaceForm": "Robertus",
+        "locationStart": 12,
+        "locationEnd": 20,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "LOCATION",
+        "surfaceForm": "Groningen",
+        "locationStart": 24,
+        "locationEnd": 33,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_2",
@@ -9804,6 +9836,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Groningen",
+        "locationStart": 31,
+        "locationEnd": 40,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "DATE",
+        "surfaceForm": "10 Nov.",
+        "locationStart": 34,
+        "locationEnd": 40,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_55",
         "surfaceForm": "10 Nov. ( o.st. ) 1690",
         "category": "TIME",
@@ -9822,6 +9870,30 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "DATE",
+        "surfaceForm": "1690",
+        "locationStart": 41,
+        "locationEnd": 45,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "DATE",
+        "surfaceForm": "12 Jan.",
+        "locationStart": 59,
+        "locationEnd": 66,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_6",
+        "category": "DATE",
+        "surfaceForm": "1772",
+        "locationStart": 67,
+        "locationEnd": 71,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_57",
         "surfaceForm": "12 Jan. 1772",
         "category": "TIME",
@@ -9838,6 +9910,14 @@
         "locationStart": 76,
         "locationEnd": 83,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_7",
+        "category": "PERSON",
+        "surfaceForm": "Margaretha Keuchenius",
+        "locationStart": 83,
+        "locationEnd": 103,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gysbert_hist_0",
@@ -9884,1836 +9964,12 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
-        "ID": "gold_21",
-        "surfaceForm": "1712",
-        "category": "TIME",
-        "locationStart": 208,
-        "locationEnd": 212,
-        "tokenStart": 40,
-        "tokenEnd": 41,
-        "method": "human_gold"
-      },
-      {
-        "ID": "gysbert_hist_1",
-        "category": "TIME",
-        "surfaceForm": "1712",
-        "locationStart": 208,
-        "locationEnd": 212,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_4",
-        "surfaceForm": "Leiden",
-        "category": "LOC",
-        "locationStart": 224,
-        "locationEnd": 230,
-        "tokenStart": 43,
-        "tokenEnd": 44,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_22",
-        "surfaceForm": "Leiden",
-        "category": "LOC",
-        "locationStart": 224,
-        "locationEnd": 230,
-        "tokenStart": 43,
-        "tokenEnd": 44,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_3",
-        "category": "LOC",
-        "surfaceForm": "Leiden",
-        "locationStart": 224,
-        "locationEnd": 230,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_1",
-        "category": "LOC",
-        "surfaceForm": "leiden",
-        "locationStart": 224,
-        "locationEnd": 230,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gold_23",
-        "surfaceForm": "15 Dec. 1715",
-        "category": "TIME",
-        "locationStart": 237,
-        "locationEnd": 249,
-        "tokenStart": 46,
-        "tokenEnd": 49,
-        "method": "human_gold"
-      },
-      {
-        "ID": "gysbert_hist_1",
-        "category": "TIME",
-        "surfaceForm": "15 dec . 1715",
-        "locationStart": 237,
-        "locationEnd": 249,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_5",
-        "surfaceForm": "Dec. 1715",
-        "category": "MISC",
-        "locationStart": 240,
-        "locationEnd": 249,
-        "tokenStart": 47,
-        "tokenEnd": 49,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "stanza_nl_6",
-        "surfaceForm": "Eelde",
-        "category": "LOC",
-        "locationStart": 282,
-        "locationEnd": 287,
-        "tokenStart": 55,
-        "tokenEnd": 56,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_47",
-        "surfaceForm": "Eelde",
-        "category": "LOC",
-        "locationStart": 282,
-        "locationEnd": 287,
-        "tokenStart": 55,
-        "tokenEnd": 56,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_3",
-        "category": "LOC",
-        "surfaceForm": "Eelde",
-        "locationStart": 282,
-        "locationEnd": 287,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_1",
-        "category": "LOC",
-        "surfaceForm": "eel",
-        "locationStart": 282,
-        "locationEnd": 285,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gold_49",
-        "surfaceForm": "9 Febr. 1721",
-        "category": "TIME",
-        "locationStart": 294,
-        "locationEnd": 306,
-        "tokenStart": 58,
-        "tokenEnd": 61,
-        "method": "human_gold"
-      },
-      {
-        "ID": "gysbert_hist_1",
-        "category": "TIME",
-        "surfaceForm": "9 febr . 1721",
-        "locationStart": 294,
-        "locationEnd": 306,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gold_50",
-        "surfaceForm": "ds. Lambertus Bieruma",
+        "ID": "xlmr_ner_1",
         "category": "PER",
-        "locationStart": 312,
-        "locationEnd": 333,
-        "tokenStart": 62,
-        "tokenEnd": 65,
-        "method": "human_gold"
-      },
-      {
-        "ID": "stanza_nl_7",
-        "surfaceForm": "Lambertus Bieruma",
-        "category": "PER",
-        "locationStart": 316,
-        "locationEnd": 333,
-        "tokenStart": 63,
-        "tokenEnd": 65,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "flair_5",
-        "category": "PER",
-        "surfaceForm": "Lambertus Bieruma",
-        "locationStart": 316,
-        "locationEnd": 333,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_1",
-        "category": "PER",
-        "surfaceForm": "lambertus bieruma",
-        "locationStart": 316,
-        "locationEnd": 333,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_8",
-        "surfaceForm": "Hervormden van Groningen",
-        "category": "ORG",
-        "locationStart": 365,
-        "locationEnd": 389,
-        "tokenStart": 70,
-        "tokenEnd": 73,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_52",
-        "surfaceForm": "Hervormden",
-        "category": "ORG",
-        "locationStart": 365,
-        "locationEnd": 375,
-        "tokenStart": 70,
-        "tokenEnd": 71,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_5",
-        "category": "ORG",
-        "surfaceForm": "Hervormden van Groningen",
-        "locationStart": 365,
-        "locationEnd": 389,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gold_53",
-        "surfaceForm": "Groningen",
-        "category": "LOC",
-        "locationStart": 380,
-        "locationEnd": 389,
-        "tokenStart": 72,
-        "tokenEnd": 73,
-        "method": "human_gold"
-      },
-      {
-        "ID": "gysbert_hist_1",
-        "category": "LOC",
-        "surfaceForm": "groningen",
-        "locationStart": 380,
-        "locationEnd": 389,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gold_54",
-        "surfaceForm": "tot 21 Nov. 1769",
-        "category": "TIME",
-        "locationStart": 405,
-        "locationEnd": 421,
-        "tokenStart": 78,
-        "tokenEnd": 82,
-        "method": "human_gold"
-      },
-      {
-        "ID": "gysbert_hist_1",
-        "category": "TIME",
-        "surfaceForm": "21 nov . 1769",
-        "locationStart": 409,
-        "locationEnd": 421,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_9",
-        "surfaceForm": "Nov. 1769",
-        "category": "MISC",
-        "locationStart": 412,
-        "locationEnd": 421,
-        "tokenStart": 80,
-        "tokenEnd": 82,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_56",
-        "surfaceForm": "praes . D. Jansonius",
-        "category": "PER",
-        "locationStart": 492,
-        "locationEnd": 511,
-        "tokenStart": 97,
-        "tokenEnd": 101,
-        "method": "human_gold"
-      },
-      {
-        "ID": "stanza_nl_10",
-        "surfaceForm": "D. Jansonius",
-        "category": "PER",
-        "locationStart": 499,
-        "locationEnd": 511,
-        "tokenStart": 99,
-        "tokenEnd": 101,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "flair_6",
-        "category": "PER",
-        "surfaceForm": "D. Jansonius",
-        "locationStart": 499,
-        "locationEnd": 511,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_1",
-        "category": "PER",
-        "surfaceForm": "jansoni",
-        "locationStart": 502,
-        "locationEnd": 509,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_11",
-        "surfaceForm": "W. Eerw.",
-        "category": "MISC",
-        "locationStart": 717,
-        "locationEnd": 725,
-        "tokenStart": 138,
-        "tokenEnd": 140,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "flair_7",
-        "category": "PER",
-        "surfaceForm": "W. Eerw",
-        "locationStart": 717,
-        "locationEnd": 724,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "stanza_nl_12",
-        "surfaceForm": "Alberthoma",
-        "category": "PER",
-        "locationStart": 908,
-        "locationEnd": 918,
-        "tokenStart": 178,
-        "tokenEnd": 179,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_58",
-        "surfaceForm": "Alberthoma",
-        "category": "PER",
-        "locationStart": 908,
-        "locationEnd": 918,
-        "tokenStart": 178,
-        "tokenEnd": 179,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_9",
-        "category": "PER",
-        "surfaceForm": "Alberthoma",
-        "locationStart": 908,
-        "locationEnd": 918,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_4",
-        "category": "",
-        "surfaceForm": "albertho",
-        "locationStart": 908,
-        "locationEnd": 916,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gold_59",
-        "surfaceForm": "10 Nov. 1720",
-        "category": "TIME",
-        "locationStart": 973,
-        "locationEnd": 985,
-        "tokenStart": 189,
-        "tokenEnd": 192,
-        "method": "human_gold"
-      },
-      {
-        "ID": "gysbert_hist_5",
-        "category": "TIME",
-        "surfaceForm": "10 nov . 1720",
-        "locationStart": 973,
-        "locationEnd": 985,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_13",
-        "surfaceForm": "Baltina Adriana Alberthoma",
-        "category": "PER",
-        "locationStart": 1011,
-        "locationEnd": 1037,
-        "tokenStart": 196,
-        "tokenEnd": 199,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_1",
-        "surfaceForm": "Baltina Adriana Alberthoma",
-        "category": "PER",
-        "locationStart": 1011,
-        "locationEnd": 1037,
-        "tokenStart": 196,
-        "tokenEnd": 199,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_10",
-        "category": "PER",
-        "surfaceForm": "Baltina Adriana Alberthoma",
-        "locationStart": 1011,
-        "locationEnd": 1037,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_5",
-        "category": "PER",
-        "surfaceForm": "baltina adriana alberthoma",
-        "locationStart": 1011,
-        "locationEnd": 1037,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_14",
-        "surfaceForm": "Albertus Alberthoma",
-        "category": "PER",
-        "locationStart": 1054,
-        "locationEnd": 1073,
-        "tokenStart": 203,
-        "tokenEnd": 205,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_2",
-        "surfaceForm": "Albertus Alberthoma",
-        "category": "PER",
-        "locationStart": 1054,
-        "locationEnd": 1073,
-        "tokenStart": 203,
-        "tokenEnd": 205,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_10",
-        "category": "PER",
-        "surfaceForm": "Albertus Alberthoma",
-        "locationStart": 1054,
-        "locationEnd": 1073,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_5",
-        "category": "PER",
-        "surfaceForm": "albertus alberthoma",
-        "locationStart": 1054,
-        "locationEnd": 1073,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_15",
-        "surfaceForm": "Thomas",
-        "category": "PER",
-        "locationStart": 1088,
-        "locationEnd": 1094,
-        "tokenStart": 209,
-        "tokenEnd": 210,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_3",
-        "surfaceForm": "Thomas",
-        "category": "PER",
-        "locationStart": 1088,
-        "locationEnd": 1094,
-        "tokenStart": 209,
-        "tokenEnd": 210,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_10",
-        "category": "PER",
-        "surfaceForm": "Thomas",
-        "locationStart": 1088,
-        "locationEnd": 1094,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_5",
-        "category": "PER",
-        "surfaceForm": "thomas",
-        "locationStart": 1088,
-        "locationEnd": 1094,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_16",
-        "surfaceForm": "Robertus",
-        "category": "PER",
-        "locationStart": 1130,
-        "locationEnd": 1138,
-        "tokenStart": 219,
-        "tokenEnd": 220,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_4",
-        "surfaceForm": "Robertus",
-        "category": "PER",
-        "locationStart": 1130,
-        "locationEnd": 1138,
-        "tokenStart": 219,
-        "tokenEnd": 220,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_10",
-        "category": "PER",
-        "surfaceForm": "Robertus",
-        "locationStart": 1130,
-        "locationEnd": 1138,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_5",
-        "category": "PER",
-        "surfaceForm": "robert",
-        "locationStart": 1130,
-        "locationEnd": 1136,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_17",
-        "surfaceForm": "Baltina",
-        "category": "PER",
-        "locationStart": 1176,
-        "locationEnd": 1183,
-        "tokenStart": 228,
-        "tokenEnd": 229,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_5",
-        "surfaceForm": "Baltina",
-        "category": "PER",
-        "locationStart": 1176,
-        "locationEnd": 1183,
-        "tokenStart": 228,
-        "tokenEnd": 229,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_11",
-        "category": "PER",
-        "surfaceForm": "Baltina",
-        "locationStart": 1176,
-        "locationEnd": 1183,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gold_7",
-        "surfaceForm": "den tweeden Kerstdag 1766",
-        "category": "TIME",
-        "locationStart": 1198,
-        "locationEnd": 1223,
-        "tokenStart": 233,
-        "tokenEnd": 237,
-        "method": "human_gold"
-      },
-      {
-        "ID": "gysbert_hist_6",
-        "category": "TIME",
-        "surfaceForm": "tweeden kerstdag 1766",
-        "locationStart": 1202,
-        "locationEnd": 1223,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_18",
-        "surfaceForm": "Robertus",
-        "category": "PER",
-        "locationStart": 1246,
-        "locationEnd": 1254,
-        "tokenStart": 243,
-        "tokenEnd": 244,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_8",
-        "surfaceForm": "Robertus",
-        "category": "PER",
-        "locationStart": 1246,
-        "locationEnd": 1254,
-        "tokenStart": 243,
-        "tokenEnd": 244,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_11",
-        "category": "PER",
-        "surfaceForm": "Robertus",
-        "locationStart": 1246,
-        "locationEnd": 1254,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_6",
-        "category": "PER",
-        "surfaceForm": "robert",
-        "locationStart": 1246,
-        "locationEnd": 1252,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_19",
-        "surfaceForm": "Christina Baltina",
-        "category": "PER",
-        "locationStart": 1280,
-        "locationEnd": 1297,
-        "tokenStart": 249,
-        "tokenEnd": 251,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_9",
-        "surfaceForm": "Christina Baltina",
-        "category": "PER",
-        "locationStart": 1280,
-        "locationEnd": 1297,
-        "tokenStart": 249,
-        "tokenEnd": 251,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_12",
-        "category": "PER",
-        "surfaceForm": "Christina Baltina",
-        "locationStart": 1280,
-        "locationEnd": 1297,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_7",
-        "category": "PER",
-        "surfaceForm": "christina baltina",
-        "locationStart": 1280,
-        "locationEnd": 1297,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gold_10",
-        "surfaceForm": "14 Juli 1752",
-        "category": "TIME",
-        "locationStart": 1306,
-        "locationEnd": 1318,
-        "tokenStart": 253,
-        "tokenEnd": 256,
-        "method": "human_gold"
-      },
-      {
-        "ID": "gysbert_hist_7",
-        "category": "TIME",
-        "surfaceForm": "14 juli 1752",
-        "locationStart": 1306,
-        "locationEnd": 1318,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_20",
-        "surfaceForm": "De Heere",
-        "category": "PER",
-        "locationStart": 1385,
-        "locationEnd": 1393,
-        "tokenStart": 272,
-        "tokenEnd": 274,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "flair_12",
-        "category": "PER",
-        "surfaceForm": "Heere",
-        "locationStart": 1388,
-        "locationEnd": 1393,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "stanza_nl_21",
-        "surfaceForm": "Margaretha Geertruid",
-        "category": "PER",
-        "locationStart": 1464,
-        "locationEnd": 1484,
-        "tokenStart": 288,
-        "tokenEnd": 290,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_11",
-        "surfaceForm": "Margaretha Geertruid",
-        "category": "PER",
-        "locationStart": 1464,
-        "locationEnd": 1484,
-        "tokenStart": 288,
-        "tokenEnd": 290,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_13",
-        "category": "PER",
-        "surfaceForm": "Margaretha Geertruid",
-        "locationStart": 1464,
-        "locationEnd": 1484,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_8",
-        "category": "PER",
-        "surfaceForm": "margaretha geertruid",
-        "locationStart": 1464,
-        "locationEnd": 1484,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_22",
-        "surfaceForm": "Paulus Chevallier",
-        "category": "PER",
-        "locationStart": 1510,
-        "locationEnd": 1527,
-        "tokenStart": 295,
-        "tokenEnd": 297,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_12",
-        "surfaceForm": "Paulus Chevallier",
-        "category": "PER",
-        "locationStart": 1510,
-        "locationEnd": 1527,
-        "tokenStart": 295,
-        "tokenEnd": 297,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_13",
-        "category": "PER",
-        "surfaceForm": "Paulus Chevallier",
-        "locationStart": 1510,
-        "locationEnd": 1527,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_8",
-        "category": "PER",
-        "surfaceForm": "paulus chevallier",
-        "locationStart": 1510,
-        "locationEnd": 1527,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gold_13",
-        "surfaceForm": "sinds 8 Sept . 1752",
-        "category": "TIME",
-        "locationStart": 1529,
-        "locationEnd": 1547,
-        "tokenStart": 298,
-        "tokenEnd": 303,
-        "method": "human_gold"
-      },
-      {
-        "ID": "gysbert_hist_8",
-        "category": "TIME",
-        "surfaceForm": "8 sept .",
-        "locationStart": 1535,
-        "locationEnd": 1542,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_23",
-        "surfaceForm": "Sept",
-        "category": "ORG",
-        "locationStart": 1537,
-        "locationEnd": 1541,
-        "tokenStart": 300,
-        "tokenEnd": 301,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gysbert_hist_9",
-        "category": "",
-        "surfaceForm": "1752",
-        "locationStart": 1543,
-        "locationEnd": 1547,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_24",
-        "surfaceForm": "Groningen",
-        "category": "LOC",
-        "locationStart": 1584,
-        "locationEnd": 1593,
-        "tokenStart": 308,
-        "tokenEnd": 309,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_14",
-        "surfaceForm": "Groningen",
-        "category": "LOC",
-        "locationStart": 1584,
-        "locationEnd": 1593,
-        "tokenStart": 308,
-        "tokenEnd": 309,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_13",
-        "category": "LOC",
-        "surfaceForm": "Groningen",
-        "locationStart": 1584,
-        "locationEnd": 1593,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_9",
-        "category": "LOC",
-        "surfaceForm": "groningen",
-        "locationStart": 1584,
-        "locationEnd": 1593,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_25",
-        "surfaceForm": "Robertus",
-        "category": "PER",
-        "locationStart": 1600,
-        "locationEnd": 1608,
-        "tokenStart": 311,
-        "tokenEnd": 312,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_15",
-        "surfaceForm": "Robertus",
-        "category": "PER",
-        "locationStart": 1600,
-        "locationEnd": 1608,
-        "tokenStart": 311,
-        "tokenEnd": 312,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_14",
-        "category": "PER",
-        "surfaceForm": "Robertus",
-        "locationStart": 1600,
-        "locationEnd": 1608,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "stanza_nl_26",
-        "surfaceForm": "J.W. Chevallier",
-        "category": "PER",
-        "locationStart": 1776,
-        "locationEnd": 1791,
-        "tokenStart": 340,
-        "tokenEnd": 342,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_16",
-        "surfaceForm": "J.W. Chevallier",
-        "category": "PER",
-        "locationStart": 1776,
-        "locationEnd": 1791,
-        "tokenStart": 340,
-        "tokenEnd": 342,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_14",
-        "category": "PER",
-        "surfaceForm": "J.W",
-        "locationStart": 1776,
-        "locationEnd": 1779,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_10",
-        "category": "PER",
-        "surfaceForm": "j w cheval",
-        "locationStart": 1776,
-        "locationEnd": 1787,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "flair_15",
-        "category": "PER",
-        "surfaceForm": "Chevallier",
-        "locationStart": 1781,
-        "locationEnd": 1791,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "stanza_nl_27",
-        "surfaceForm": "Brummen",
-        "category": "LOC",
-        "locationStart": 1795,
-        "locationEnd": 1802,
-        "tokenStart": 343,
-        "tokenEnd": 344,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_17",
-        "surfaceForm": "Brummen",
-        "category": "LOC",
-        "locationStart": 1795,
-        "locationEnd": 1802,
-        "tokenStart": 343,
-        "tokenEnd": 344,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_15",
-        "category": "LOC",
-        "surfaceForm": "Brummen",
-        "locationStart": 1795,
-        "locationEnd": 1802,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_10",
-        "category": "LOC",
-        "surfaceForm": "brummen",
-        "locationStart": 1795,
-        "locationEnd": 1802,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gold_18",
-        "surfaceForm": "9 Februari 1721",
-        "category": "TIME",
-        "locationStart": 1816,
-        "locationEnd": 1831,
-        "tokenStart": 347,
-        "tokenEnd": 350,
-        "method": "human_gold"
-      },
-      {
-        "ID": "gysbert_hist_11",
-        "category": "TIME",
-        "surfaceForm": "9 februari 1721",
-        "locationStart": 1816,
-        "locationEnd": 1831,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_28",
-        "surfaceForm": "R's",
-        "category": "MISC",
-        "locationStart": 1845,
-        "locationEnd": 1848,
-        "tokenStart": 354,
-        "tokenEnd": 355,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "flair_16",
-        "category": "PER",
-        "surfaceForm": "R",
-        "locationStart": 1845,
-        "locationEnd": 1846,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "stanza_nl_29",
-        "surfaceForm": "Groningen",
-        "category": "LOC",
-        "locationStart": 1860,
-        "locationEnd": 1869,
-        "tokenStart": 357,
-        "tokenEnd": 358,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_19",
-        "surfaceForm": "Groningen",
-        "category": "LOC",
-        "locationStart": 1860,
-        "locationEnd": 1869,
-        "tokenStart": 357,
-        "tokenEnd": 358,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_16",
-        "category": "LOC",
-        "surfaceForm": "Groningen",
-        "locationStart": 1860,
-        "locationEnd": 1869,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_11",
-        "category": "LOC",
-        "surfaceForm": "groningen",
-        "locationStart": 1860,
-        "locationEnd": 1869,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gold_20",
-        "surfaceForm": "11 Januari 1770",
-        "category": "TIME",
-        "locationStart": 1882,
-        "locationEnd": 1897,
-        "tokenStart": 360,
-        "tokenEnd": 363,
-        "method": "human_gold"
-      },
-      {
-        "ID": "gysbert_hist_11",
-        "category": "TIME",
-        "surfaceForm": "11 januari 1770",
-        "locationStart": 1882,
-        "locationEnd": 1897,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_30",
-        "surfaceForm": "Voetianen",
-        "category": "MISC",
-        "locationStart": 2148,
-        "locationEnd": 2157,
-        "tokenStart": 403,
-        "tokenEnd": 404,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "flair_16",
-        "category": "PER",
-        "surfaceForm": "Voetianen",
-        "locationStart": 2148,
-        "locationEnd": 2157,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "stanza_nl_31",
-        "surfaceForm": "Coccejanen",
-        "category": "MISC",
-        "locationStart": 2161,
-        "locationEnd": 2171,
-        "tokenStart": 405,
-        "tokenEnd": 406,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "flair_16",
-        "category": "PER",
-        "surfaceForm": "Coccejanen",
-        "locationStart": 2161,
-        "locationEnd": 2171,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "flair_16",
-        "category": "MISC",
-        "surfaceForm": "groningsche",
-        "locationStart": 2314,
-        "locationEnd": 2325,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "stanza_nl_32",
-        "surfaceForm": "Lere der Waarheit",
-        "category": "PER",
-        "locationStart": 2382,
-        "locationEnd": 2399,
-        "tokenStart": 443,
-        "tokenEnd": 446,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_24",
-        "surfaceForm": "Lere der Waarheit , die naar de godzaligheid is",
-        "category": "ARTWORK",
-        "locationStart": 2382,
-        "locationEnd": 2428,
-        "tokenStart": 443,
-        "tokenEnd": 452,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_17",
-        "category": "MISC",
-        "surfaceForm": "Lere der Waarheit",
-        "locationStart": 2382,
-        "locationEnd": 2399,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gold_25",
-        "surfaceForm": "Gron.",
-        "category": "LOC",
-        "locationStart": 2430,
-        "locationEnd": 2435,
-        "tokenStart": 453,
-        "tokenEnd": 454,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_17",
-        "category": "PER",
-        "surfaceForm": "Gron",
-        "locationStart": 2430,
-        "locationEnd": 2434,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gold_26",
-        "surfaceForm": "1729",
-        "category": "TIME",
-        "locationStart": 2436,
-        "locationEnd": 2440,
-        "tokenStart": 454,
-        "tokenEnd": 455,
-        "method": "human_gold"
-      },
-      {
-        "ID": "gysbert_hist_16",
-        "category": "TIME",
-        "surfaceForm": "1729",
-        "locationStart": 2436,
-        "locationEnd": 2440,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gold_27",
-        "surfaceForm": "17343",
-        "category": "TIME",
-        "locationStart": 2442,
-        "locationEnd": 2447,
-        "tokenStart": 456,
-        "tokenEnd": 457,
-        "method": "human_gold"
-      },
-      {
-        "ID": "gysbert_hist_16",
-        "category": "TIME",
-        "surfaceForm": "17343",
-        "locationStart": 2442,
-        "locationEnd": 2447,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gold_28",
-        "surfaceForm": "17708",
-        "category": "TIME",
-        "locationStart": 2449,
-        "locationEnd": 2454,
-        "tokenStart": 458,
-        "tokenEnd": 459,
-        "method": "human_gold"
-      },
-      {
-        "ID": "gysbert_hist_16",
-        "category": "TIME",
-        "surfaceForm": "17708",
-        "locationStart": 2449,
-        "locationEnd": 2454,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_33",
-        "surfaceForm": "Onderwijzingliederen van des Heeren",
-        "category": "MISC",
-        "locationStart": 2457,
-        "locationEnd": 2492,
-        "tokenStart": 461,
-        "tokenEnd": 465,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_29",
-        "surfaceForm": "Onderwijzingliederen van des Heeren wegen",
-        "category": "ARTWORK",
-        "locationStart": 2457,
-        "locationEnd": 2498,
-        "tokenStart": 461,
-        "tokenEnd": 466,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_18",
-        "category": "MISC",
-        "surfaceForm": "Onderwijzingliederen van des Heeren wegen",
-        "locationStart": 2457,
-        "locationEnd": 2498,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gold_30",
-        "surfaceForm": "Gron.",
-        "category": "LOC",
-        "locationStart": 2500,
-        "locationEnd": 2505,
-        "tokenStart": 467,
-        "tokenEnd": 468,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_18",
-        "category": "LOC",
-        "surfaceForm": "Gron.",
-        "locationStart": 2500,
-        "locationEnd": 2505,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gold_31",
-        "surfaceForm": "1730",
-        "category": "TIME",
-        "locationStart": 2506,
-        "locationEnd": 2510,
-        "tokenStart": 468,
-        "tokenEnd": 469,
-        "method": "human_gold"
-      },
-      {
-        "ID": "gysbert_hist_17",
-        "category": "TIME",
-        "surfaceForm": "1730",
-        "locationStart": 2506,
-        "locationEnd": 2510,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gold_32",
-        "surfaceForm": "17542",
-        "category": "TIME",
-        "locationStart": 2512,
-        "locationEnd": 2517,
-        "tokenStart": 470,
-        "tokenEnd": 471,
-        "method": "human_gold"
-      },
-      {
-        "ID": "gysbert_hist_17",
-        "category": "TIME",
-        "surfaceForm": "17542",
-        "locationStart": 2512,
-        "locationEnd": 2517,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gold_33",
-        "surfaceForm": "Leerredenen",
-        "category": "ARTWORK",
-        "locationStart": 2520,
-        "locationEnd": 2531,
-        "tokenStart": 473,
-        "tokenEnd": 474,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_18",
-        "category": "MISC",
-        "surfaceForm": "Leerredenen",
-        "locationStart": 2520,
-        "locationEnd": 2531,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gold_34",
-        "surfaceForm": "Gron.",
-        "category": "LOC",
-        "locationStart": 2533,
-        "locationEnd": 2538,
-        "tokenStart": 475,
-        "tokenEnd": 476,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_18",
-        "category": "LOC",
-        "surfaceForm": "Gron",
-        "locationStart": 2533,
-        "locationEnd": 2537,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_18",
-        "category": "LOC",
-        "surfaceForm": "gron",
-        "locationStart": 2533,
-        "locationEnd": 2537,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gold_35",
-        "surfaceForm": "1730",
-        "category": "TIME",
-        "locationStart": 2539,
-        "locationEnd": 2543,
-        "tokenStart": 476,
-        "tokenEnd": 477,
-        "method": "human_gold"
-      },
-      {
-        "ID": "gysbert_hist_18",
-        "category": "TIME",
-        "surfaceForm": "1730",
-        "locationStart": 2539,
-        "locationEnd": 2543,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_34",
-        "surfaceForm": "Eliza",
-        "category": "PER",
-        "locationStart": 2546,
-        "locationEnd": 2551,
-        "tokenStart": 479,
-        "tokenEnd": 480,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_36",
-        "surfaceForm": "Eliza de profeet gezalfd met Elias geest",
-        "category": "ARTWORK",
-        "locationStart": 2546,
-        "locationEnd": 2586,
-        "tokenStart": 479,
-        "tokenEnd": 486,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_19",
-        "category": "PER",
-        "surfaceForm": "Eliza",
-        "locationStart": 2546,
-        "locationEnd": 2551,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_19",
-        "category": "PER",
-        "surfaceForm": "eliza de profeet",
-        "locationStart": 2546,
-        "locationEnd": 2562,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_35",
-        "surfaceForm": "Elias",
-        "category": "PER",
-        "locationStart": 2575,
-        "locationEnd": 2580,
-        "tokenStart": 484,
-        "tokenEnd": 485,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "flair_19",
-        "category": "PER",
-        "surfaceForm": "Elias",
-        "locationStart": 2575,
-        "locationEnd": 2580,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_19",
-        "category": "PER",
-        "surfaceForm": "elias geest",
-        "locationStart": 2575,
-        "locationEnd": 2586,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gold_37",
-        "surfaceForm": "Gron.",
-        "category": "LOC",
-        "locationStart": 2605,
-        "locationEnd": 2610,
-        "tokenStart": 491,
-        "tokenEnd": 492,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_19",
-        "category": "LOC",
-        "surfaceForm": "Gron.",
-        "locationStart": 2605,
-        "locationEnd": 2610,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_19",
-        "category": "LOC",
-        "surfaceForm": "gron .",
-        "locationStart": 2605,
-        "locationEnd": 2610,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gold_38",
-        "surfaceForm": "1741",
-        "category": "TIME",
-        "locationStart": 2611,
-        "locationEnd": 2615,
-        "tokenStart": 492,
-        "tokenEnd": 493,
-        "method": "human_gold"
-      },
-      {
-        "ID": "gysbert_hist_19",
-        "category": "TIME",
-        "surfaceForm": "1741",
-        "locationStart": 2611,
-        "locationEnd": 2615,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_36",
-        "surfaceForm": "Groningens",
-        "category": "MISC",
-        "locationStart": 2618,
-        "locationEnd": 2628,
-        "tokenStart": 495,
-        "tokenEnd": 496,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_39",
-        "surfaceForm": "Groningens derde jubeljaar",
-        "category": "ARTWORK",
-        "locationStart": 2618,
-        "locationEnd": 2644,
-        "tokenStart": 495,
-        "tokenEnd": 498,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_19",
-        "category": "MISC",
-        "surfaceForm": "Groningens derde jubeljaar",
-        "locationStart": 2618,
-        "locationEnd": 2644,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_20",
-        "category": "LOC",
-        "surfaceForm": "groningen",
-        "locationStart": 2618,
-        "locationEnd": 2627,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gold_40",
-        "surfaceForm": "Gron.",
-        "category": "LOC",
-        "locationStart": 2646,
-        "locationEnd": 2651,
-        "tokenStart": 499,
-        "tokenEnd": 500,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_19",
-        "category": "LOC",
-        "surfaceForm": "Gron.",
-        "locationStart": 2646,
-        "locationEnd": 2651,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_20",
-        "category": "LOC",
-        "surfaceForm": "gron .",
-        "locationStart": 2646,
-        "locationEnd": 2651,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gold_41",
-        "surfaceForm": "1744",
-        "category": "TIME",
-        "locationStart": 2652,
-        "locationEnd": 2656,
-        "tokenStart": 500,
-        "tokenEnd": 501,
-        "method": "human_gold"
-      },
-      {
-        "ID": "gysbert_hist_20",
-        "category": "TIME",
-        "surfaceForm": "1744",
-        "locationStart": 2652,
-        "locationEnd": 2656,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_37",
-        "surfaceForm": "Mengeldichten",
-        "category": "MISC",
-        "locationStart": 2659,
-        "locationEnd": 2672,
-        "tokenStart": 503,
-        "tokenEnd": 504,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_42",
-        "surfaceForm": "Mengeldichten",
-        "category": "ARTWORK",
-        "locationStart": 2659,
-        "locationEnd": 2672,
-        "tokenStart": 503,
-        "tokenEnd": 504,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_19",
-        "category": "MISC",
-        "surfaceForm": "Mengeldichten",
-        "locationStart": 2659,
-        "locationEnd": 2672,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gold_43",
-        "surfaceForm": "Gron.",
-        "category": "LOC",
-        "locationStart": 2674,
-        "locationEnd": 2679,
-        "tokenStart": 505,
-        "tokenEnd": 506,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_19",
-        "category": "LOC",
-        "surfaceForm": "Gron",
-        "locationStart": 2674,
-        "locationEnd": 2678,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gold_44",
-        "surfaceForm": "17542",
-        "category": "TIME",
-        "locationStart": 2680,
-        "locationEnd": 2685,
-        "tokenStart": 506,
-        "tokenEnd": 507,
-        "method": "human_gold"
-      },
-      {
-        "ID": "gysbert_hist_21",
-        "category": "TIME",
-        "surfaceForm": "17542",
-        "locationStart": 2680,
-        "locationEnd": 2685,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "flair_20",
-        "category": "MISC",
-        "surfaceForm": "Korte Aanteijkeningen",
-        "locationStart": 2688,
-        "locationEnd": 2709,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "stanza_nl_38",
-        "surfaceForm": "Groningen",
-        "category": "LOC",
-        "locationStart": 2762,
-        "locationEnd": 2771,
-        "tokenStart": 519,
-        "tokenEnd": 520,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "flair_20",
-        "category": "LOC",
-        "surfaceForm": "Groningen",
-        "locationStart": 2762,
-        "locationEnd": 2771,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_22",
-        "category": "LOC",
-        "surfaceForm": "groningen w cheval",
-        "locationStart": 2762,
-        "locationEnd": 2808,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_39",
-        "surfaceForm": "J.W. Chevallier",
-        "category": "PER",
-        "locationStart": 2797,
-        "locationEnd": 2812,
-        "tokenStart": 524,
-        "tokenEnd": 526,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_45",
-        "surfaceForm": "J.W. Chevallier",
-        "category": "PER",
-        "locationStart": 2797,
-        "locationEnd": 2812,
-        "tokenStart": 524,
-        "tokenEnd": 526,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_21",
-        "category": "PER",
-        "surfaceForm": "J.W.",
-        "locationStart": 2797,
-        "locationEnd": 2801,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "flair_22",
-        "category": "PER",
-        "surfaceForm": "Chevallier",
-        "locationStart": 2802,
-        "locationEnd": 2812,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "stanza_nl_40",
-        "surfaceForm": "Gron. Volksalm",
-        "category": "MISC",
-        "locationStart": 2816,
-        "locationEnd": 2830,
-        "tokenStart": 527,
-        "tokenEnd": 529,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_46",
-        "surfaceForm": "Gron. Volksalm .",
-        "category": "MISC",
-        "locationStart": 2816,
-        "locationEnd": 2831,
-        "tokenStart": 527,
-        "tokenEnd": 530,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_22",
-        "category": "LOC",
-        "surfaceForm": "Gron",
-        "locationStart": 2816,
-        "locationEnd": 2820,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_22",
-        "category": "LOC",
-        "surfaceForm": "gron",
-        "locationStart": 2816,
-        "locationEnd": 2820,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "flair_23",
-        "category": "ORG",
-        "surfaceForm": "Volksalm",
-        "locationStart": 2822,
-        "locationEnd": 2830,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gold_48",
-        "surfaceForm": "1910",
-        "category": "TIME",
-        "locationStart": 2832,
-        "locationEnd": 2836,
-        "tokenStart": 530,
-        "tokenEnd": 531,
-        "method": "human_gold"
-      },
-      {
-        "ID": "gysbert_hist_23",
-        "category": "",
-        "surfaceForm": "1910",
-        "locationStart": 2832,
-        "locationEnd": 2836,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gysbert_hist_25",
-        "category": "TIME",
-        "surfaceForm": "1739",
-        "locationStart": 2859,
-        "locationEnd": 2863,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_41",
-        "surfaceForm": "Visscher",
-        "category": "PER",
-        "locationStart": 2878,
-        "locationEnd": 2886,
-        "tokenStart": 543,
-        "tokenEnd": 544,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "flair_25",
-        "category": "PER",
-        "surfaceForm": "Visscher",
-        "locationStart": 2878,
-        "locationEnd": 2886,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_26",
-        "category": "",
-        "surfaceForm": "visscher",
-        "locationStart": 2878,
-        "locationEnd": 2886,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "flair_25",
-        "category": "PER",
-        "surfaceForm": "van Langeraad",
-        "locationStart": 2890,
-        "locationEnd": 2903,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_26",
-        "category": "PER",
-        "surfaceForm": "van langeraad",
-        "locationStart": 2890,
-        "locationEnd": 2903,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_42",
-        "surfaceForm": "Langeraad",
-        "category": "ORG",
-        "locationStart": 2894,
-        "locationEnd": 2903,
-        "tokenStart": 546,
-        "tokenEnd": 547,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "stanza_nl_43",
-        "surfaceForm": "Het Protest",
-        "category": "MISC",
-        "locationStart": 2905,
-        "locationEnd": 2916,
-        "tokenStart": 548,
-        "tokenEnd": 550,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "flair_25",
-        "category": "MISC",
-        "surfaceForm": "Het Protest",
-        "locationStart": 2905,
-        "locationEnd": 2916,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "flair_26",
-        "category": "MISC",
-        "surfaceForm": "Vaderland",
-        "locationStart": 2918,
-        "locationEnd": 2927,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "stanza_nl_44",
-        "surfaceForm": "Knappert",
-        "category": "PER",
-        "locationStart": 2939,
-        "locationEnd": 2947,
-        "tokenStart": 556,
-        "tokenEnd": 557,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "flair_27",
-        "category": "LOC",
-        "surfaceForm": "Knappert",
-        "locationStart": 2939,
-        "locationEnd": 2947,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "ALBERTHOMA",
-        "locationStart": 0,
-        "locationEnd": 10,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "PERSON",
-        "surfaceForm": "Robertus",
-        "locationStart": 12,
-        "locationEnd": 20,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "LOCATION",
-        "surfaceForm": "Groningen",
-        "locationStart": 24,
-        "locationEnd": 33,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "DATE",
-        "surfaceForm": "10 Nov.",
-        "locationStart": 34,
-        "locationEnd": 40,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "DATE",
-        "surfaceForm": "1690",
-        "locationStart": 41,
-        "locationEnd": 45,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "DATE",
-        "surfaceForm": "12 Jan.",
-        "locationStart": 59,
-        "locationEnd": 66,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_6",
-        "category": "DATE",
-        "surfaceForm": "1772",
-        "locationStart": 67,
-        "locationEnd": 71,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_7",
-        "category": "PERSON",
         "surfaceForm": "Margaretha Keuchenius",
-        "locationStart": 83,
-        "locationEnd": 103,
-        "method": "gpt-3.5-turbo"
+        "locationStart": 117,
+        "locationEnd": 138,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gpt-3.5-turbo_8",
@@ -11764,12 +10020,102 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "gold_21",
+        "surfaceForm": "1712",
+        "category": "TIME",
+        "locationStart": 208,
+        "locationEnd": 212,
+        "tokenStart": 40,
+        "tokenEnd": 41,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_1",
+        "category": "TIME",
+        "surfaceForm": "1712",
+        "locationStart": 208,
+        "locationEnd": 212,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
         "ID": "gpt-3.5-turbo_14",
         "category": "PERSON",
         "surfaceForm": "Lambertus Bieruma",
         "locationStart": 216,
         "locationEnd": 232,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "stanza_nl_4",
+        "surfaceForm": "Leiden",
+        "category": "LOC",
+        "locationStart": 224,
+        "locationEnd": 230,
+        "tokenStart": 43,
+        "tokenEnd": 44,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_22",
+        "surfaceForm": "Leiden",
+        "category": "LOC",
+        "locationStart": 224,
+        "locationEnd": 230,
+        "tokenStart": 43,
+        "tokenEnd": 44,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_3",
+        "category": "LOC",
+        "surfaceForm": "Leiden",
+        "locationStart": 224,
+        "locationEnd": 230,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_1",
+        "category": "LOC",
+        "surfaceForm": "leiden",
+        "locationStart": 224,
+        "locationEnd": 230,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "Leiden",
+        "locationStart": 224,
+        "locationEnd": 230,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gold_23",
+        "surfaceForm": "15 Dec. 1715",
+        "category": "TIME",
+        "locationStart": 237,
+        "locationEnd": 249,
+        "tokenStart": 46,
+        "tokenEnd": 49,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_1",
+        "category": "TIME",
+        "surfaceForm": "15 dec . 1715",
+        "locationStart": 237,
+        "locationEnd": 249,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_5",
+        "surfaceForm": "Dec. 1715",
+        "category": "MISC",
+        "locationStart": 240,
+        "locationEnd": 249,
+        "tokenStart": 47,
+        "tokenEnd": 49,
+        "method": "stanza_nl"
       },
       {
         "ID": "gpt-3.5-turbo_15",
@@ -11804,6 +10150,68 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "stanza_nl_6",
+        "surfaceForm": "Eelde",
+        "category": "LOC",
+        "locationStart": 282,
+        "locationEnd": 287,
+        "tokenStart": 55,
+        "tokenEnd": 56,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_47",
+        "surfaceForm": "Eelde",
+        "category": "LOC",
+        "locationStart": 282,
+        "locationEnd": 287,
+        "tokenStart": 55,
+        "tokenEnd": 56,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_3",
+        "category": "LOC",
+        "surfaceForm": "Eelde",
+        "locationStart": 282,
+        "locationEnd": 287,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_1",
+        "category": "LOC",
+        "surfaceForm": "eel",
+        "locationStart": 282,
+        "locationEnd": 285,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "Eelde",
+        "locationStart": 282,
+        "locationEnd": 287,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gold_49",
+        "surfaceForm": "9 Febr. 1721",
+        "category": "TIME",
+        "locationStart": 294,
+        "locationEnd": 306,
+        "tokenStart": 58,
+        "tokenEnd": 61,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_1",
+        "category": "TIME",
+        "surfaceForm": "9 febr . 1721",
+        "locationStart": 294,
+        "locationEnd": 306,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
         "ID": "gpt-3.5-turbo_19",
         "category": "PERSON",
         "surfaceForm": "D. Jansonius",
@@ -11812,12 +10220,138 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "gold_50",
+        "surfaceForm": "ds. Lambertus Bieruma",
+        "category": "PER",
+        "locationStart": 312,
+        "locationEnd": 333,
+        "tokenStart": 62,
+        "tokenEnd": 65,
+        "method": "human_gold"
+      },
+      {
+        "ID": "stanza_nl_7",
+        "surfaceForm": "Lambertus Bieruma",
+        "category": "PER",
+        "locationStart": 316,
+        "locationEnd": 333,
+        "tokenStart": 63,
+        "tokenEnd": 65,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_5",
+        "category": "PER",
+        "surfaceForm": "Lambertus Bieruma",
+        "locationStart": 316,
+        "locationEnd": 333,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_1",
+        "category": "PER",
+        "surfaceForm": "lambertus bieruma",
+        "locationStart": 316,
+        "locationEnd": 333,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_1",
+        "category": "PER",
+        "surfaceForm": "Lambertus Bieruma",
+        "locationStart": 316,
+        "locationEnd": 333,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "stanza_nl_8",
+        "surfaceForm": "Hervormden van Groningen",
+        "category": "ORG",
+        "locationStart": 365,
+        "locationEnd": 389,
+        "tokenStart": 70,
+        "tokenEnd": 73,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_52",
+        "surfaceForm": "Hervormden",
+        "category": "ORG",
+        "locationStart": 365,
+        "locationEnd": 375,
+        "tokenStart": 70,
+        "tokenEnd": 71,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_5",
+        "category": "ORG",
+        "surfaceForm": "Hervormden van Groningen",
+        "locationStart": 365,
+        "locationEnd": 389,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_1",
+        "category": "ORG",
+        "surfaceForm": "Hervormden van Groningen",
+        "locationStart": 365,
+        "locationEnd": 389,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gold_53",
+        "surfaceForm": "Groningen",
+        "category": "LOC",
+        "locationStart": 380,
+        "locationEnd": 389,
+        "tokenStart": 72,
+        "tokenEnd": 73,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_1",
+        "category": "LOC",
+        "surfaceForm": "groningen",
+        "locationStart": 380,
+        "locationEnd": 389,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gold_54",
+        "surfaceForm": "tot 21 Nov. 1769",
+        "category": "TIME",
+        "locationStart": 405,
+        "locationEnd": 421,
+        "tokenStart": 78,
+        "tokenEnd": 82,
+        "method": "human_gold"
+      },
+      {
         "ID": "gpt-3.5-turbo_20",
         "category": "PERSON",
         "surfaceForm": "Christina Baltina",
         "locationStart": 407,
         "locationEnd": 423,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gysbert_hist_1",
+        "category": "TIME",
+        "surfaceForm": "21 nov . 1769",
+        "locationStart": 409,
+        "locationEnd": 421,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_9",
+        "surfaceForm": "Nov. 1769",
+        "category": "MISC",
+        "locationStart": 412,
+        "locationEnd": 421,
+        "tokenStart": 80,
+        "tokenEnd": 82,
+        "method": "stanza_nl"
       },
       {
         "ID": "gpt-3.5-turbo_21",
@@ -11844,12 +10378,56 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "gold_56",
+        "surfaceForm": "praes . D. Jansonius",
+        "category": "PER",
+        "locationStart": 492,
+        "locationEnd": 511,
+        "tokenStart": 97,
+        "tokenEnd": 101,
+        "method": "human_gold"
+      },
+      {
         "ID": "gpt-3.5-turbo_24",
         "category": "PERSON",
         "surfaceForm": "Paulus Chevallier",
         "locationStart": 493,
         "locationEnd": 510,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "stanza_nl_10",
+        "surfaceForm": "D. Jansonius",
+        "category": "PER",
+        "locationStart": 499,
+        "locationEnd": 511,
+        "tokenStart": 99,
+        "tokenEnd": 101,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_6",
+        "category": "PER",
+        "surfaceForm": "D. Jansonius",
+        "locationStart": 499,
+        "locationEnd": 511,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_1",
+        "category": "PER",
+        "surfaceForm": "D. Jansonius",
+        "locationStart": 499,
+        "locationEnd": 511,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gysbert_hist_1",
+        "category": "PER",
+        "surfaceForm": "jansoni",
+        "locationStart": 502,
+        "locationEnd": 509,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
         "ID": "gpt-3.5-turbo_25",
@@ -11930,6 +10508,32 @@
         "locationStart": 700,
         "locationEnd": 704,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "stanza_nl_11",
+        "surfaceForm": "W. Eerw.",
+        "category": "MISC",
+        "locationStart": 717,
+        "locationEnd": 725,
+        "tokenStart": 138,
+        "tokenEnd": 140,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_7",
+        "category": "PER",
+        "surfaceForm": "W. Eerw",
+        "locationStart": 717,
+        "locationEnd": 724,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_2",
+        "category": "PER",
+        "surfaceForm": "W. Eerw.",
+        "locationStart": 717,
+        "locationEnd": 725,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gpt-3.5-turbo_35",
@@ -12164,6 +10768,50 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "stanza_nl_12",
+        "surfaceForm": "Alberthoma",
+        "category": "PER",
+        "locationStart": 908,
+        "locationEnd": 918,
+        "tokenStart": 178,
+        "tokenEnd": 179,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_58",
+        "surfaceForm": "Alberthoma",
+        "category": "PER",
+        "locationStart": 908,
+        "locationEnd": 918,
+        "tokenStart": 178,
+        "tokenEnd": 179,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_9",
+        "category": "PER",
+        "surfaceForm": "Alberthoma",
+        "locationStart": 908,
+        "locationEnd": 918,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_4",
+        "category": "",
+        "surfaceForm": "albertho",
+        "locationStart": 908,
+        "locationEnd": 916,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_4",
+        "category": "PER",
+        "surfaceForm": "Alberthoma",
+        "locationStart": 908,
+        "locationEnd": 918,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gpt-3.5-turbo_64",
         "category": "DATE",
         "surfaceForm": "1754",
@@ -12244,6 +10892,24 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "gold_59",
+        "surfaceForm": "10 Nov. 1720",
+        "category": "TIME",
+        "locationStart": 973,
+        "locationEnd": 985,
+        "tokenStart": 189,
+        "tokenEnd": 192,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_5",
+        "category": "TIME",
+        "surfaceForm": "10 nov . 1720",
+        "locationStart": 973,
+        "locationEnd": 985,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
         "ID": "gpt-3.5-turbo_74",
         "category": "DATE",
         "surfaceForm": "1754",
@@ -12290,6 +10956,50 @@
         "locationStart": 1006,
         "locationEnd": 1011,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "stanza_nl_13",
+        "surfaceForm": "Baltina Adriana Alberthoma",
+        "category": "PER",
+        "locationStart": 1011,
+        "locationEnd": 1037,
+        "tokenStart": 196,
+        "tokenEnd": 199,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_1",
+        "surfaceForm": "Baltina Adriana Alberthoma",
+        "category": "PER",
+        "locationStart": 1011,
+        "locationEnd": 1037,
+        "tokenStart": 196,
+        "tokenEnd": 199,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_10",
+        "category": "PER",
+        "surfaceForm": "Baltina Adriana Alberthoma",
+        "locationStart": 1011,
+        "locationEnd": 1037,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_5",
+        "category": "PER",
+        "surfaceForm": "baltina adriana alberthoma",
+        "locationStart": 1011,
+        "locationEnd": 1037,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_5",
+        "category": "PER",
+        "surfaceForm": "Baltina Adriana Alberthoma",
+        "locationStart": 1011,
+        "locationEnd": 1037,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gpt-3.5-turbo_80",
@@ -12348,6 +11058,50 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "stanza_nl_14",
+        "surfaceForm": "Albertus Alberthoma",
+        "category": "PER",
+        "locationStart": 1054,
+        "locationEnd": 1073,
+        "tokenStart": 203,
+        "tokenEnd": 205,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_2",
+        "surfaceForm": "Albertus Alberthoma",
+        "category": "PER",
+        "locationStart": 1054,
+        "locationEnd": 1073,
+        "tokenStart": 203,
+        "tokenEnd": 205,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_10",
+        "category": "PER",
+        "surfaceForm": "Albertus Alberthoma",
+        "locationStart": 1054,
+        "locationEnd": 1073,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_5",
+        "category": "PER",
+        "surfaceForm": "albertus alberthoma",
+        "locationStart": 1054,
+        "locationEnd": 1073,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_5",
+        "category": "PER",
+        "surfaceForm": "Albertus Alberthoma",
+        "locationStart": 1054,
+        "locationEnd": 1073,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gpt-3.5-turbo_87",
         "category": "ORGANIZATION",
         "surfaceForm": "Gron.",
@@ -12386,6 +11140,50 @@
         "locationStart": 1084,
         "locationEnd": 1089,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "stanza_nl_15",
+        "surfaceForm": "Thomas",
+        "category": "PER",
+        "locationStart": 1088,
+        "locationEnd": 1094,
+        "tokenStart": 209,
+        "tokenEnd": 210,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_3",
+        "surfaceForm": "Thomas",
+        "category": "PER",
+        "locationStart": 1088,
+        "locationEnd": 1094,
+        "tokenStart": 209,
+        "tokenEnd": 210,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_10",
+        "category": "PER",
+        "surfaceForm": "Thomas",
+        "locationStart": 1088,
+        "locationEnd": 1094,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_5",
+        "category": "PER",
+        "surfaceForm": "thomas",
+        "locationStart": 1088,
+        "locationEnd": 1094,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_5",
+        "category": "PER",
+        "surfaceForm": "Thomas",
+        "locationStart": 1088,
+        "locationEnd": 1094,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gpt-3.5-turbo_92",
@@ -12436,12 +11234,56 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "stanza_nl_16",
+        "surfaceForm": "Robertus",
+        "category": "PER",
+        "locationStart": 1130,
+        "locationEnd": 1138,
+        "tokenStart": 219,
+        "tokenEnd": 220,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_4",
+        "surfaceForm": "Robertus",
+        "category": "PER",
+        "locationStart": 1130,
+        "locationEnd": 1138,
+        "tokenStart": 219,
+        "tokenEnd": 220,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_10",
+        "category": "PER",
+        "surfaceForm": "Robertus",
+        "locationStart": 1130,
+        "locationEnd": 1138,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_5",
+        "category": "PER",
+        "surfaceForm": "robert",
+        "locationStart": 1130,
+        "locationEnd": 1136,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
         "ID": "gpt-3.5-turbo_98",
         "category": "DATE",
         "surfaceForm": "1754",
         "locationStart": 1130,
         "locationEnd": 1134,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_5",
+        "category": "PER",
+        "surfaceForm": "Robertus",
+        "locationStart": 1130,
+        "locationEnd": 1138,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gpt-3.5-turbo_99",
@@ -12500,6 +11342,34 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "stanza_nl_17",
+        "surfaceForm": "Baltina",
+        "category": "PER",
+        "locationStart": 1176,
+        "locationEnd": 1183,
+        "tokenStart": 228,
+        "tokenEnd": 229,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_5",
+        "surfaceForm": "Baltina",
+        "category": "PER",
+        "locationStart": 1176,
+        "locationEnd": 1183,
+        "tokenStart": 228,
+        "tokenEnd": 229,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_11",
+        "category": "PER",
+        "surfaceForm": "Baltina",
+        "locationStart": 1176,
+        "locationEnd": 1183,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
         "ID": "gpt-3.5-turbo_106",
         "category": "DATE",
         "surfaceForm": "1754",
@@ -12524,12 +11394,30 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "gold_7",
+        "surfaceForm": "den tweeden Kerstdag 1766",
+        "category": "TIME",
+        "locationStart": 1198,
+        "locationEnd": 1223,
+        "tokenStart": 233,
+        "tokenEnd": 237,
+        "method": "human_gold"
+      },
+      {
         "ID": "gpt-3.5-turbo_109",
         "category": "ORGANIZATION",
         "surfaceForm": "Gron.",
         "locationStart": 1201,
         "locationEnd": 1206,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gysbert_hist_6",
+        "category": "TIME",
+        "surfaceForm": "tweeden kerstdag 1766",
+        "locationStart": 1202,
+        "locationEnd": 1223,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
         "ID": "gpt-3.5-turbo_110",
@@ -12580,6 +11468,50 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "stanza_nl_18",
+        "surfaceForm": "Robertus",
+        "category": "PER",
+        "locationStart": 1246,
+        "locationEnd": 1254,
+        "tokenStart": 243,
+        "tokenEnd": 244,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_8",
+        "surfaceForm": "Robertus",
+        "category": "PER",
+        "locationStart": 1246,
+        "locationEnd": 1254,
+        "tokenStart": 243,
+        "tokenEnd": 244,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_11",
+        "category": "PER",
+        "surfaceForm": "Robertus",
+        "locationStart": 1246,
+        "locationEnd": 1254,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_6",
+        "category": "PER",
+        "surfaceForm": "robert",
+        "locationStart": 1246,
+        "locationEnd": 1252,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_6",
+        "category": "PER",
+        "surfaceForm": "Robertus",
+        "locationStart": 1246,
+        "locationEnd": 1254,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gpt-3.5-turbo_116",
         "category": "DATE",
         "surfaceForm": "1754",
@@ -12628,6 +11560,50 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "stanza_nl_19",
+        "surfaceForm": "Christina Baltina",
+        "category": "PER",
+        "locationStart": 1280,
+        "locationEnd": 1297,
+        "tokenStart": 249,
+        "tokenEnd": 251,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_9",
+        "surfaceForm": "Christina Baltina",
+        "category": "PER",
+        "locationStart": 1280,
+        "locationEnd": 1297,
+        "tokenStart": 249,
+        "tokenEnd": 251,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_12",
+        "category": "PER",
+        "surfaceForm": "Christina Baltina",
+        "locationStart": 1280,
+        "locationEnd": 1297,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_7",
+        "category": "PER",
+        "surfaceForm": "christina baltina",
+        "locationStart": 1280,
+        "locationEnd": 1297,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_7",
+        "category": "PER",
+        "surfaceForm": "Christina Baltina",
+        "locationStart": 1280,
+        "locationEnd": 1297,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gpt-3.5-turbo_122",
         "category": "DATE",
         "surfaceForm": "1754",
@@ -12658,6 +11634,24 @@
         "locationStart": 1305,
         "locationEnd": 1310,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gold_10",
+        "surfaceForm": "14 Juli 1752",
+        "category": "TIME",
+        "locationStart": 1306,
+        "locationEnd": 1318,
+        "tokenStart": 253,
+        "tokenEnd": 256,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_7",
+        "category": "TIME",
+        "surfaceForm": "14 juli 1752",
+        "locationStart": 1306,
+        "locationEnd": 1318,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
         "ID": "gpt-3.5-turbo_126",
@@ -12756,6 +11750,24 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "stanza_nl_20",
+        "surfaceForm": "De Heere",
+        "category": "PER",
+        "locationStart": 1385,
+        "locationEnd": 1393,
+        "tokenStart": 272,
+        "tokenEnd": 274,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_12",
+        "category": "PER",
+        "surfaceForm": "Heere",
+        "locationStart": 1388,
+        "locationEnd": 1393,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
         "ID": "gpt-3.5-turbo_138",
         "category": "DATE",
         "surfaceForm": "1754",
@@ -12852,6 +11864,50 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "stanza_nl_21",
+        "surfaceForm": "Margaretha Geertruid",
+        "category": "PER",
+        "locationStart": 1464,
+        "locationEnd": 1484,
+        "tokenStart": 288,
+        "tokenEnd": 290,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_11",
+        "surfaceForm": "Margaretha Geertruid",
+        "category": "PER",
+        "locationStart": 1464,
+        "locationEnd": 1484,
+        "tokenStart": 288,
+        "tokenEnd": 290,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_13",
+        "category": "PER",
+        "surfaceForm": "Margaretha Geertruid",
+        "locationStart": 1464,
+        "locationEnd": 1484,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_8",
+        "category": "PER",
+        "surfaceForm": "margaretha geertruid",
+        "locationStart": 1464,
+        "locationEnd": 1484,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_8",
+        "category": "PER",
+        "surfaceForm": "Margaretha Geertruid",
+        "locationStart": 1464,
+        "locationEnd": 1484,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gpt-3.5-turbo_150",
         "category": "DATE",
         "surfaceForm": "1754",
@@ -12908,6 +11964,50 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "stanza_nl_22",
+        "surfaceForm": "Paulus Chevallier",
+        "category": "PER",
+        "locationStart": 1510,
+        "locationEnd": 1527,
+        "tokenStart": 295,
+        "tokenEnd": 297,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_12",
+        "surfaceForm": "Paulus Chevallier",
+        "category": "PER",
+        "locationStart": 1510,
+        "locationEnd": 1527,
+        "tokenStart": 295,
+        "tokenEnd": 297,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_13",
+        "category": "PER",
+        "surfaceForm": "Paulus Chevallier",
+        "locationStart": 1510,
+        "locationEnd": 1527,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_8",
+        "category": "PER",
+        "surfaceForm": "paulus chevallier",
+        "locationStart": 1510,
+        "locationEnd": 1527,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_8",
+        "category": "PER",
+        "surfaceForm": "Paulus Chevallier",
+        "locationStart": 1510,
+        "locationEnd": 1527,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gpt-3.5-turbo_157",
         "category": "ORGANIZATION",
         "surfaceForm": "Gron.",
@@ -12932,6 +12032,16 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "gold_13",
+        "surfaceForm": "sinds 8 Sept . 1752",
+        "category": "TIME",
+        "locationStart": 1529,
+        "locationEnd": 1547,
+        "tokenStart": 298,
+        "tokenEnd": 303,
+        "method": "human_gold"
+      },
+      {
         "ID": "gpt-3.5-turbo_160",
         "category": "DATE",
         "surfaceForm": "1754",
@@ -12940,12 +12050,38 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "gysbert_hist_8",
+        "category": "TIME",
+        "surfaceForm": "8 sept .",
+        "locationStart": 1535,
+        "locationEnd": 1542,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_23",
+        "surfaceForm": "Sept",
+        "category": "ORG",
+        "locationStart": 1537,
+        "locationEnd": 1541,
+        "tokenStart": 300,
+        "tokenEnd": 301,
+        "method": "stanza_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_161",
         "category": "ORGANIZATION",
         "surfaceForm": "Gron.",
         "locationStart": 1539,
         "locationEnd": 1544,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gysbert_hist_9",
+        "category": "",
+        "surfaceForm": "1752",
+        "locationStart": 1543,
+        "locationEnd": 1547,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
         "ID": "gpt-3.5-turbo_162",
@@ -12996,6 +12132,50 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "stanza_nl_24",
+        "surfaceForm": "Groningen",
+        "category": "LOC",
+        "locationStart": 1584,
+        "locationEnd": 1593,
+        "tokenStart": 308,
+        "tokenEnd": 309,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_14",
+        "surfaceForm": "Groningen",
+        "category": "LOC",
+        "locationStart": 1584,
+        "locationEnd": 1593,
+        "tokenStart": 308,
+        "tokenEnd": 309,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_13",
+        "category": "LOC",
+        "surfaceForm": "Groningen",
+        "locationStart": 1584,
+        "locationEnd": 1593,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_9",
+        "category": "LOC",
+        "surfaceForm": "groningen",
+        "locationStart": 1584,
+        "locationEnd": 1593,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_9",
+        "category": "LOC",
+        "surfaceForm": "Groningen",
+        "locationStart": 1584,
+        "locationEnd": 1593,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gpt-3.5-turbo_168",
         "category": "DATE",
         "surfaceForm": "1754",
@@ -13018,6 +12198,42 @@
         "locationStart": 1598,
         "locationEnd": 1602,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "stanza_nl_25",
+        "surfaceForm": "Robertus",
+        "category": "PER",
+        "locationStart": 1600,
+        "locationEnd": 1608,
+        "tokenStart": 311,
+        "tokenEnd": 312,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_15",
+        "surfaceForm": "Robertus",
+        "category": "PER",
+        "locationStart": 1600,
+        "locationEnd": 1608,
+        "tokenStart": 311,
+        "tokenEnd": 312,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_14",
+        "category": "PER",
+        "surfaceForm": "Robertus",
+        "locationStart": 1600,
+        "locationEnd": 1608,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_10",
+        "category": "PER",
+        "surfaceForm": "Robertus",
+        "locationStart": 1600,
+        "locationEnd": 1608,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gpt-3.5-turbo_171",
@@ -13236,12 +12452,64 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "stanza_nl_26",
+        "surfaceForm": "J.W. Chevallier",
+        "category": "PER",
+        "locationStart": 1776,
+        "locationEnd": 1791,
+        "tokenStart": 340,
+        "tokenEnd": 342,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_16",
+        "surfaceForm": "J.W. Chevallier",
+        "category": "PER",
+        "locationStart": 1776,
+        "locationEnd": 1791,
+        "tokenStart": 340,
+        "tokenEnd": 342,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_14",
+        "category": "PER",
+        "surfaceForm": "J.W",
+        "locationStart": 1776,
+        "locationEnd": 1779,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_10",
+        "category": "PER",
+        "surfaceForm": "j w cheval",
+        "locationStart": 1776,
+        "locationEnd": 1787,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_10",
+        "category": "PER",
+        "surfaceForm": "J.W. Chevallier",
+        "locationStart": 1776,
+        "locationEnd": 1791,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gpt-3.5-turbo_198",
         "category": "DATE",
         "surfaceForm": "1754",
         "locationStart": 1780,
         "locationEnd": 1784,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "flair_15",
+        "category": "PER",
+        "surfaceForm": "Chevallier",
+        "locationStart": 1781,
+        "locationEnd": 1791,
+        "method": "flair/ner-dutch-large_0.12.2"
       },
       {
         "ID": "gpt-3.5-turbo_199",
@@ -13258,6 +12526,50 @@
         "locationStart": 1793,
         "locationEnd": 1797,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "stanza_nl_27",
+        "surfaceForm": "Brummen",
+        "category": "LOC",
+        "locationStart": 1795,
+        "locationEnd": 1802,
+        "tokenStart": 343,
+        "tokenEnd": 344,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_17",
+        "surfaceForm": "Brummen",
+        "category": "LOC",
+        "locationStart": 1795,
+        "locationEnd": 1802,
+        "tokenStart": 343,
+        "tokenEnd": 344,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_15",
+        "category": "LOC",
+        "surfaceForm": "Brummen",
+        "locationStart": 1795,
+        "locationEnd": 1802,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_10",
+        "category": "LOC",
+        "surfaceForm": "brummen",
+        "locationStart": 1795,
+        "locationEnd": 1802,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_10",
+        "category": "LOC",
+        "surfaceForm": "Brummen",
+        "locationStart": 1795,
+        "locationEnd": 1802,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gpt-3.5-turbo_201",
@@ -13282,6 +12594,24 @@
         "locationStart": 1812,
         "locationEnd": 1817,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gold_18",
+        "surfaceForm": "9 Februari 1721",
+        "category": "TIME",
+        "locationStart": 1816,
+        "locationEnd": 1831,
+        "tokenStart": 347,
+        "tokenEnd": 350,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_11",
+        "category": "TIME",
+        "surfaceForm": "9 februari 1721",
+        "locationStart": 1816,
+        "locationEnd": 1831,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
         "ID": "gpt-3.5-turbo_204",
@@ -13316,6 +12646,24 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "stanza_nl_28",
+        "surfaceForm": "R's",
+        "category": "MISC",
+        "locationStart": 1845,
+        "locationEnd": 1848,
+        "tokenStart": 354,
+        "tokenEnd": 355,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_16",
+        "category": "PER",
+        "surfaceForm": "R",
+        "locationStart": 1845,
+        "locationEnd": 1846,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
         "ID": "gpt-3.5-turbo_208",
         "category": "DATE",
         "surfaceForm": "1754",
@@ -13338,6 +12686,930 @@
         "locationStart": 1858,
         "locationEnd": 1862,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "stanza_nl_29",
+        "surfaceForm": "Groningen",
+        "category": "LOC",
+        "locationStart": 1860,
+        "locationEnd": 1869,
+        "tokenStart": 357,
+        "tokenEnd": 358,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_19",
+        "surfaceForm": "Groningen",
+        "category": "LOC",
+        "locationStart": 1860,
+        "locationEnd": 1869,
+        "tokenStart": 357,
+        "tokenEnd": 358,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_16",
+        "category": "LOC",
+        "surfaceForm": "Groningen",
+        "locationStart": 1860,
+        "locationEnd": 1869,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_11",
+        "category": "LOC",
+        "surfaceForm": "groningen",
+        "locationStart": 1860,
+        "locationEnd": 1869,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_11",
+        "category": "LOC",
+        "surfaceForm": "Groningen",
+        "locationStart": 1860,
+        "locationEnd": 1869,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gold_20",
+        "surfaceForm": "11 Januari 1770",
+        "category": "TIME",
+        "locationStart": 1882,
+        "locationEnd": 1897,
+        "tokenStart": 360,
+        "tokenEnd": 363,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_11",
+        "category": "TIME",
+        "surfaceForm": "11 januari 1770",
+        "locationStart": 1882,
+        "locationEnd": 1897,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_30",
+        "surfaceForm": "Voetianen",
+        "category": "MISC",
+        "locationStart": 2148,
+        "locationEnd": 2157,
+        "tokenStart": 403,
+        "tokenEnd": 404,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_16",
+        "category": "PER",
+        "surfaceForm": "Voetianen",
+        "locationStart": 2148,
+        "locationEnd": 2157,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "stanza_nl_31",
+        "surfaceForm": "Coccejanen",
+        "category": "MISC",
+        "locationStart": 2161,
+        "locationEnd": 2171,
+        "tokenStart": 405,
+        "tokenEnd": 406,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_16",
+        "category": "PER",
+        "surfaceForm": "Coccejanen",
+        "locationStart": 2161,
+        "locationEnd": 2171,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "flair_16",
+        "category": "MISC",
+        "surfaceForm": "groningsche",
+        "locationStart": 2314,
+        "locationEnd": 2325,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "stanza_nl_32",
+        "surfaceForm": "Lere der Waarheit",
+        "category": "PER",
+        "locationStart": 2382,
+        "locationEnd": 2399,
+        "tokenStart": 443,
+        "tokenEnd": 446,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_24",
+        "surfaceForm": "Lere der Waarheit , die naar de godzaligheid is",
+        "category": "ARTWORK",
+        "locationStart": 2382,
+        "locationEnd": 2428,
+        "tokenStart": 443,
+        "tokenEnd": 452,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_17",
+        "category": "MISC",
+        "surfaceForm": "Lere der Waarheit",
+        "locationStart": 2382,
+        "locationEnd": 2399,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gold_25",
+        "surfaceForm": "Gron.",
+        "category": "LOC",
+        "locationStart": 2430,
+        "locationEnd": 2435,
+        "tokenStart": 453,
+        "tokenEnd": 454,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_17",
+        "category": "PER",
+        "surfaceForm": "Gron",
+        "locationStart": 2430,
+        "locationEnd": 2434,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_16",
+        "category": "PER",
+        "surfaceForm": "Gron",
+        "locationStart": 2431,
+        "locationEnd": 2434,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gold_26",
+        "surfaceForm": "1729",
+        "category": "TIME",
+        "locationStart": 2436,
+        "locationEnd": 2440,
+        "tokenStart": 454,
+        "tokenEnd": 455,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_16",
+        "category": "TIME",
+        "surfaceForm": "1729",
+        "locationStart": 2436,
+        "locationEnd": 2440,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gold_27",
+        "surfaceForm": "17343",
+        "category": "TIME",
+        "locationStart": 2442,
+        "locationEnd": 2447,
+        "tokenStart": 456,
+        "tokenEnd": 457,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_16",
+        "category": "TIME",
+        "surfaceForm": "17343",
+        "locationStart": 2442,
+        "locationEnd": 2447,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gold_28",
+        "surfaceForm": "17708",
+        "category": "TIME",
+        "locationStart": 2449,
+        "locationEnd": 2454,
+        "tokenStart": 458,
+        "tokenEnd": 459,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_16",
+        "category": "TIME",
+        "surfaceForm": "17708",
+        "locationStart": 2449,
+        "locationEnd": 2454,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_33",
+        "surfaceForm": "Onderwijzingliederen van des Heeren",
+        "category": "MISC",
+        "locationStart": 2457,
+        "locationEnd": 2492,
+        "tokenStart": 461,
+        "tokenEnd": 465,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_29",
+        "surfaceForm": "Onderwijzingliederen van des Heeren wegen",
+        "category": "ARTWORK",
+        "locationStart": 2457,
+        "locationEnd": 2498,
+        "tokenStart": 461,
+        "tokenEnd": 466,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_18",
+        "category": "MISC",
+        "surfaceForm": "Onderwijzingliederen van des Heeren wegen",
+        "locationStart": 2457,
+        "locationEnd": 2498,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gold_30",
+        "surfaceForm": "Gron.",
+        "category": "LOC",
+        "locationStart": 2500,
+        "locationEnd": 2505,
+        "tokenStart": 467,
+        "tokenEnd": 468,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_18",
+        "category": "LOC",
+        "surfaceForm": "Gron.",
+        "locationStart": 2500,
+        "locationEnd": 2505,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_17",
+        "category": "PER",
+        "surfaceForm": "G",
+        "locationStart": 2501,
+        "locationEnd": 2501,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gold_31",
+        "surfaceForm": "1730",
+        "category": "TIME",
+        "locationStart": 2506,
+        "locationEnd": 2510,
+        "tokenStart": 468,
+        "tokenEnd": 469,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_17",
+        "category": "TIME",
+        "surfaceForm": "1730",
+        "locationStart": 2506,
+        "locationEnd": 2510,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gold_32",
+        "surfaceForm": "17542",
+        "category": "TIME",
+        "locationStart": 2512,
+        "locationEnd": 2517,
+        "tokenStart": 470,
+        "tokenEnd": 471,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_17",
+        "category": "TIME",
+        "surfaceForm": "17542",
+        "locationStart": 2512,
+        "locationEnd": 2517,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gold_33",
+        "surfaceForm": "Leerredenen",
+        "category": "ARTWORK",
+        "locationStart": 2520,
+        "locationEnd": 2531,
+        "tokenStart": 473,
+        "tokenEnd": 474,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_18",
+        "category": "MISC",
+        "surfaceForm": "Leerredenen",
+        "locationStart": 2520,
+        "locationEnd": 2531,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gold_34",
+        "surfaceForm": "Gron.",
+        "category": "LOC",
+        "locationStart": 2533,
+        "locationEnd": 2538,
+        "tokenStart": 475,
+        "tokenEnd": 476,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_18",
+        "category": "LOC",
+        "surfaceForm": "Gron",
+        "locationStart": 2533,
+        "locationEnd": 2537,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_18",
+        "category": "LOC",
+        "surfaceForm": "gron",
+        "locationStart": 2533,
+        "locationEnd": 2537,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gold_35",
+        "surfaceForm": "1730",
+        "category": "TIME",
+        "locationStart": 2539,
+        "locationEnd": 2543,
+        "tokenStart": 476,
+        "tokenEnd": 477,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_18",
+        "category": "TIME",
+        "surfaceForm": "1730",
+        "locationStart": 2539,
+        "locationEnd": 2543,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_34",
+        "surfaceForm": "Eliza",
+        "category": "PER",
+        "locationStart": 2546,
+        "locationEnd": 2551,
+        "tokenStart": 479,
+        "tokenEnd": 480,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_36",
+        "surfaceForm": "Eliza de profeet gezalfd met Elias geest",
+        "category": "ARTWORK",
+        "locationStart": 2546,
+        "locationEnd": 2586,
+        "tokenStart": 479,
+        "tokenEnd": 486,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_19",
+        "category": "PER",
+        "surfaceForm": "Eliza",
+        "locationStart": 2546,
+        "locationEnd": 2551,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_19",
+        "category": "PER",
+        "surfaceForm": "eliza de profeet",
+        "locationStart": 2546,
+        "locationEnd": 2562,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_19",
+        "category": "PER",
+        "surfaceForm": "Eliza",
+        "locationStart": 2546,
+        "locationEnd": 2551,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "stanza_nl_35",
+        "surfaceForm": "Elias",
+        "category": "PER",
+        "locationStart": 2575,
+        "locationEnd": 2580,
+        "tokenStart": 484,
+        "tokenEnd": 485,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_19",
+        "category": "PER",
+        "surfaceForm": "Elias",
+        "locationStart": 2575,
+        "locationEnd": 2580,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_19",
+        "category": "PER",
+        "surfaceForm": "elias geest",
+        "locationStart": 2575,
+        "locationEnd": 2586,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_19",
+        "category": "PER",
+        "surfaceForm": "EliasGron.",
+        "locationStart": 2575,
+        "locationEnd": 2610,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gold_37",
+        "surfaceForm": "Gron.",
+        "category": "LOC",
+        "locationStart": 2605,
+        "locationEnd": 2610,
+        "tokenStart": 491,
+        "tokenEnd": 492,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_19",
+        "category": "LOC",
+        "surfaceForm": "Gron.",
+        "locationStart": 2605,
+        "locationEnd": 2610,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_19",
+        "category": "LOC",
+        "surfaceForm": "gron .",
+        "locationStart": 2605,
+        "locationEnd": 2610,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gold_38",
+        "surfaceForm": "1741",
+        "category": "TIME",
+        "locationStart": 2611,
+        "locationEnd": 2615,
+        "tokenStart": 492,
+        "tokenEnd": 493,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_19",
+        "category": "TIME",
+        "surfaceForm": "1741",
+        "locationStart": 2611,
+        "locationEnd": 2615,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_36",
+        "surfaceForm": "Groningens",
+        "category": "MISC",
+        "locationStart": 2618,
+        "locationEnd": 2628,
+        "tokenStart": 495,
+        "tokenEnd": 496,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_39",
+        "surfaceForm": "Groningens derde jubeljaar",
+        "category": "ARTWORK",
+        "locationStart": 2618,
+        "locationEnd": 2644,
+        "tokenStart": 495,
+        "tokenEnd": 498,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_19",
+        "category": "MISC",
+        "surfaceForm": "Groningens derde jubeljaar",
+        "locationStart": 2618,
+        "locationEnd": 2644,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_20",
+        "category": "LOC",
+        "surfaceForm": "groningen",
+        "locationStart": 2618,
+        "locationEnd": 2627,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gold_40",
+        "surfaceForm": "Gron.",
+        "category": "LOC",
+        "locationStart": 2646,
+        "locationEnd": 2651,
+        "tokenStart": 499,
+        "tokenEnd": 500,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_19",
+        "category": "LOC",
+        "surfaceForm": "Gron.",
+        "locationStart": 2646,
+        "locationEnd": 2651,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_20",
+        "category": "LOC",
+        "surfaceForm": "gron .",
+        "locationStart": 2646,
+        "locationEnd": 2651,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gold_41",
+        "surfaceForm": "1744",
+        "category": "TIME",
+        "locationStart": 2652,
+        "locationEnd": 2656,
+        "tokenStart": 500,
+        "tokenEnd": 501,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_20",
+        "category": "TIME",
+        "surfaceForm": "1744",
+        "locationStart": 2652,
+        "locationEnd": 2656,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_37",
+        "surfaceForm": "Mengeldichten",
+        "category": "MISC",
+        "locationStart": 2659,
+        "locationEnd": 2672,
+        "tokenStart": 503,
+        "tokenEnd": 504,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_42",
+        "surfaceForm": "Mengeldichten",
+        "category": "ARTWORK",
+        "locationStart": 2659,
+        "locationEnd": 2672,
+        "tokenStart": 503,
+        "tokenEnd": 504,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_19",
+        "category": "MISC",
+        "surfaceForm": "Mengeldichten",
+        "locationStart": 2659,
+        "locationEnd": 2672,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gold_43",
+        "surfaceForm": "Gron.",
+        "category": "LOC",
+        "locationStart": 2674,
+        "locationEnd": 2679,
+        "tokenStart": 505,
+        "tokenEnd": 506,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_19",
+        "category": "LOC",
+        "surfaceForm": "Gron",
+        "locationStart": 2674,
+        "locationEnd": 2678,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gold_44",
+        "surfaceForm": "17542",
+        "category": "TIME",
+        "locationStart": 2680,
+        "locationEnd": 2685,
+        "tokenStart": 506,
+        "tokenEnd": 507,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_21",
+        "category": "TIME",
+        "surfaceForm": "17542",
+        "locationStart": 2680,
+        "locationEnd": 2685,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "flair_20",
+        "category": "MISC",
+        "surfaceForm": "Korte Aanteijkeningen",
+        "locationStart": 2688,
+        "locationEnd": 2709,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "stanza_nl_38",
+        "surfaceForm": "Groningen",
+        "category": "LOC",
+        "locationStart": 2762,
+        "locationEnd": 2771,
+        "tokenStart": 519,
+        "tokenEnd": 520,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_20",
+        "category": "LOC",
+        "surfaceForm": "Groningen",
+        "locationStart": 2762,
+        "locationEnd": 2771,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_22",
+        "category": "LOC",
+        "surfaceForm": "groningen w cheval",
+        "locationStart": 2762,
+        "locationEnd": 2808,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_22",
+        "category": "LOC",
+        "surfaceForm": "Groningen",
+        "locationStart": 2762,
+        "locationEnd": 2771,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "stanza_nl_39",
+        "surfaceForm": "J.W. Chevallier",
+        "category": "PER",
+        "locationStart": 2797,
+        "locationEnd": 2812,
+        "tokenStart": 524,
+        "tokenEnd": 526,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_45",
+        "surfaceForm": "J.W. Chevallier",
+        "category": "PER",
+        "locationStart": 2797,
+        "locationEnd": 2812,
+        "tokenStart": 524,
+        "tokenEnd": 526,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_21",
+        "category": "PER",
+        "surfaceForm": "J.W.",
+        "locationStart": 2797,
+        "locationEnd": 2801,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_22",
+        "category": "PER",
+        "surfaceForm": "J.W. Chevallier",
+        "locationStart": 2797,
+        "locationEnd": 2812,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "flair_22",
+        "category": "PER",
+        "surfaceForm": "Chevallier",
+        "locationStart": 2802,
+        "locationEnd": 2812,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "stanza_nl_40",
+        "surfaceForm": "Gron. Volksalm",
+        "category": "MISC",
+        "locationStart": 2816,
+        "locationEnd": 2830,
+        "tokenStart": 527,
+        "tokenEnd": 529,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_46",
+        "surfaceForm": "Gron. Volksalm .",
+        "category": "MISC",
+        "locationStart": 2816,
+        "locationEnd": 2831,
+        "tokenStart": 527,
+        "tokenEnd": 530,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_22",
+        "category": "LOC",
+        "surfaceForm": "Gron",
+        "locationStart": 2816,
+        "locationEnd": 2820,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_22",
+        "category": "LOC",
+        "surfaceForm": "gron",
+        "locationStart": 2816,
+        "locationEnd": 2820,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_22",
+        "category": "LOC",
+        "surfaceForm": "Gron. Volksalm",
+        "locationStart": 2816,
+        "locationEnd": 2830,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "flair_23",
+        "category": "ORG",
+        "surfaceForm": "Volksalm",
+        "locationStart": 2822,
+        "locationEnd": 2830,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gold_48",
+        "surfaceForm": "1910",
+        "category": "TIME",
+        "locationStart": 2832,
+        "locationEnd": 2836,
+        "tokenStart": 530,
+        "tokenEnd": 531,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_23",
+        "category": "",
+        "surfaceForm": "1910",
+        "locationStart": 2832,
+        "locationEnd": 2836,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_25",
+        "category": "LOC",
+        "surfaceForm": "Boekzaal",
+        "locationStart": 2850,
+        "locationEnd": 2858,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gysbert_hist_25",
+        "category": "TIME",
+        "surfaceForm": "1739",
+        "locationStart": 2859,
+        "locationEnd": 2863,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_41",
+        "surfaceForm": "Visscher",
+        "category": "PER",
+        "locationStart": 2878,
+        "locationEnd": 2886,
+        "tokenStart": 543,
+        "tokenEnd": 544,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_25",
+        "category": "PER",
+        "surfaceForm": "Visscher",
+        "locationStart": 2878,
+        "locationEnd": 2886,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_26",
+        "category": "",
+        "surfaceForm": "visscher",
+        "locationStart": 2878,
+        "locationEnd": 2886,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_26",
+        "category": "PER",
+        "surfaceForm": "Visscher",
+        "locationStart": 2878,
+        "locationEnd": 2886,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "flair_25",
+        "category": "PER",
+        "surfaceForm": "van Langeraad",
+        "locationStart": 2890,
+        "locationEnd": 2903,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_26",
+        "category": "PER",
+        "surfaceForm": "van langeraad",
+        "locationStart": 2890,
+        "locationEnd": 2903,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_26",
+        "category": "PER",
+        "surfaceForm": "van Langeraad",
+        "locationStart": 2890,
+        "locationEnd": 2903,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "stanza_nl_42",
+        "surfaceForm": "Langeraad",
+        "category": "ORG",
+        "locationStart": 2894,
+        "locationEnd": 2903,
+        "tokenStart": 546,
+        "tokenEnd": 547,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "stanza_nl_43",
+        "surfaceForm": "Het Protest",
+        "category": "MISC",
+        "locationStart": 2905,
+        "locationEnd": 2916,
+        "tokenStart": 548,
+        "tokenEnd": 550,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_25",
+        "category": "MISC",
+        "surfaceForm": "Het Protest",
+        "locationStart": 2905,
+        "locationEnd": 2916,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "flair_26",
+        "category": "MISC",
+        "surfaceForm": "Vaderland",
+        "locationStart": 2918,
+        "locationEnd": 2927,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "stanza_nl_44",
+        "surfaceForm": "Knappert",
+        "category": "PER",
+        "locationStart": 2939,
+        "locationEnd": 2947,
+        "tokenStart": 556,
+        "tokenEnd": 557,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_27",
+        "category": "LOC",
+        "surfaceForm": "Knappert",
+        "locationStart": 2939,
+        "locationEnd": 2947,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_27",
+        "category": "PER",
+        "surfaceForm": "Knappert",
+        "locationStart": 2939,
+        "locationEnd": 2947,
+        "method": "xlmr_ner_"
       }
     ],
     "time_expressions": [

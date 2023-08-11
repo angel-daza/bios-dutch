@@ -1364,6 +1364,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "ORG",
+        "surfaceForm": "PvdA",
+        "locationStart": 24,
+        "locationEnd": 28,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "xlmr_ner_1",
+        "category": "PER",
+        "surfaceForm": "Begon",
+        "locationStart": 62,
+        "locationEnd": 67,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gysbert_hist_1",
         "category": "TIME",
         "surfaceForm": "1936",
@@ -1398,6 +1414,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "Rotterdam",
+        "locationStart": 106,
+        "locationEnd": 115,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_3",
         "surfaceForm": "Metaalbewerkersbond",
         "category": "ORG",
@@ -1414,6 +1438,14 @@
         "locationStart": 148,
         "locationEnd": 167,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_1",
+        "category": "ORG",
+        "surfaceForm": "MetaalbewerkersbondANMB",
+        "locationStart": 148,
+        "locationEnd": 173,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_4",
@@ -1460,6 +1492,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_2",
+        "category": "ORG",
+        "surfaceForm": "ANMB",
+        "locationStart": 207,
+        "locationEnd": 211,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_6",
         "surfaceForm": "NVV",
         "category": "ORG",
@@ -1476,6 +1516,14 @@
         "locationStart": 238,
         "locationEnd": 241,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_2",
+        "category": "ORG",
+        "surfaceForm": "NVV",
+        "locationStart": 238,
+        "locationEnd": 241,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gysbert_hist_3",

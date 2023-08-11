@@ -1848,6 +1848,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "Paul-Henri Spaak",
+        "locationStart": 3,
+        "locationEnd": 17,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_14",
         "surfaceForm": "Paul- Henri Spaak",
         "category": "PER",
@@ -1872,6 +1880,14 @@
         "locationStart": 8,
         "locationEnd": 13,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "Paul- Henri Spaak",
+        "locationStart": 8,
+        "locationEnd": 25,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_1",
@@ -1918,6 +1934,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Europese samenwerking",
+        "locationStart": 54,
+        "locationEnd": 75,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Tweede Wereldoorlog",
+        "locationStart": 79,
+        "locationEnd": 98,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_2",
         "surfaceForm": "Europese",
         "category": "MISC",
@@ -1934,6 +1966,14 @@
         "locationStart": 95,
         "locationEnd": 103,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Benelux",
+        "locationStart": 113,
+        "locationEnd": 120,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_3",
@@ -1964,6 +2004,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Raad van Europa",
+        "locationStart": 139,
+        "locationEnd": 154,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_1",
         "surfaceForm": "1944",
         "category": "TIME",
@@ -1980,6 +2028,14 @@
         "locationStart": 151,
         "locationEnd": 155,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Europese Commissie voor Kolen en Staal",
+        "locationStart": 179,
+        "locationEnd": 214,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_4",
@@ -2008,6 +2064,14 @@
         "locationStart": 203,
         "locationEnd": 210,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "Benelux",
+        "locationStart": 203,
+        "locationEnd": 210,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_3",
@@ -2064,12 +2128,28 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "ORG",
+        "surfaceForm": "Raad van Europa",
+        "locationStart": 248,
+        "locationEnd": 263,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gysbert_hist_1",
         "category": "LOC",
         "surfaceForm": "europa",
         "locationStart": 257,
         "locationEnd": 263,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_6",
+        "category": "ORGANIZATION",
+        "surfaceForm": "algemene vergadering van de Verenigde Naties",
+        "locationStart": 267,
+        "locationEnd": 309,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_5",
@@ -2126,6 +2206,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "ORG",
+        "surfaceForm": "Europese Commissie",
+        "locationStart": 304,
+        "locationEnd": 322,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_7",
         "surfaceForm": "Kolen en Staal",
         "category": "ORG",
@@ -2134,6 +2222,14 @@
         "tokenStart": 59,
         "tokenEnd": 62,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "gpt-3.5-turbo_7",
+        "category": "ORGANIZATION",
+        "surfaceForm": "NAVO",
+        "locationStart": 337,
+        "locationEnd": 341,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_8",
@@ -2152,6 +2248,14 @@
         "locationStart": 362,
         "locationEnd": 366,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_8",
+        "category": "LOCATION",
+        "surfaceForm": "Belgie",
+        "locationStart": 369,
+        "locationEnd": 375,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_8",
@@ -2180,6 +2284,14 @@
         "locationStart": 423,
         "locationEnd": 439,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_2",
+        "category": "ORG",
+        "surfaceForm": "Verenigde Naties",
+        "locationStart": 423,
+        "locationEnd": 439,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_10",
@@ -2236,6 +2348,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_2",
+        "category": "ORG",
+        "surfaceForm": "NAVO",
+        "locationStart": 489,
+        "locationEnd": 493,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_12",
         "surfaceForm": "Tussen 1936 en 1966",
         "category": "TIME",
@@ -2290,6 +2410,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_3",
+        "category": "ORG",
+        "surfaceForm": "Buitenlandse Zaken van Belgie",
+        "locationStart": 553,
+        "locationEnd": 582,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_11",
         "surfaceForm": "Belgie",
         "category": "LOC",
@@ -2314,78 +2442,6 @@
         "locationStart": 576,
         "locationEnd": 582,
         "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "Paul-Henri Spaak",
-        "locationStart": 3,
-        "locationEnd": 17,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Europese samenwerking",
-        "locationStart": 54,
-        "locationEnd": 75,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Tweede Wereldoorlog",
-        "locationStart": 79,
-        "locationEnd": 98,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Benelux",
-        "locationStart": 113,
-        "locationEnd": 120,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Raad van Europa",
-        "locationStart": 139,
-        "locationEnd": 154,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Europese Commissie voor Kolen en Staal",
-        "locationStart": 179,
-        "locationEnd": 214,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_6",
-        "category": "ORGANIZATION",
-        "surfaceForm": "algemene vergadering van de Verenigde Naties",
-        "locationStart": 267,
-        "locationEnd": 309,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_7",
-        "category": "ORGANIZATION",
-        "surfaceForm": "NAVO",
-        "locationStart": 337,
-        "locationEnd": 341,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_8",
-        "category": "LOCATION",
-        "surfaceForm": "Belgie",
-        "locationStart": 369,
-        "locationEnd": 375,
-        "method": "gpt-3.5-turbo"
       }
     ],
     "time_expressions": [

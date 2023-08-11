@@ -360,6 +360,14 @@
     },
     "entities": [
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "Schilder",
+        "locationStart": 0,
+        "locationEnd": 7,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_0",
         "surfaceForm": "4 maart 1883",
         "category": "TIME",
@@ -376,6 +384,14 @@
         "locationStart": 19,
         "locationEnd": 31,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "LOCATION",
+        "surfaceForm": "Leiden",
+        "locationStart": 23,
+        "locationEnd": 29,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_0",
@@ -412,6 +428,22 @@
         "locationStart": 33,
         "locationEnd": 39,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "Leiden",
+        "locationStart": 33,
+        "locationEnd": 39,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "LOCATION",
+        "surfaceForm": "Den Haag",
+        "locationStart": 47,
+        "locationEnd": 55,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_2",
@@ -468,36 +500,20 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_2",
+        "category": "LOC",
+        "surfaceForm": "Den Haag",
+        "locationStart": 68,
+        "locationEnd": 76,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gysbert_hist_2",
         "category": "LOC",
         "surfaceForm": "haag",
         "locationStart": 72,
         "locationEnd": 76,
         "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "Schilder",
-        "locationStart": 0,
-        "locationEnd": 7,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "LOCATION",
-        "surfaceForm": "Leiden",
-        "locationStart": 23,
-        "locationEnd": 29,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "LOCATION",
-        "surfaceForm": "Den Haag",
-        "locationStart": 47,
-        "locationEnd": 55,
-        "method": "gpt-3.5-turbo"
       }
     ],
     "time_expressions": [

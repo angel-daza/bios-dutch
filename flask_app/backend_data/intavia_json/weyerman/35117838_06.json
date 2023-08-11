@@ -947,12 +947,36 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "NEVE",
+        "locationStart": 0,
+        "locationEnd": 4,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "PERSON",
+        "surfaceForm": "Historieschilder",
+        "locationStart": 5,
+        "locationEnd": 20,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "flair_0",
         "category": "MISC",
         "surfaceForm": "Historieschilder",
         "locationStart": 17,
         "locationEnd": 33,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "PERSON",
+        "surfaceForm": "P. P. Rubens",
+        "locationStart": 54,
+        "locationEnd": 66,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_0",
@@ -971,6 +995,14 @@
         "locationStart": 66,
         "locationEnd": 81,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "PERSON",
+        "surfaceForm": "A. v. Dyk",
+        "locationStart": 80,
+        "locationEnd": 89,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_1",
@@ -1001,12 +1033,36 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "P. P. Rubens",
+        "locationStart": 98,
+        "locationEnd": 110,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "LOCATION",
+        "surfaceForm": "Romen",
+        "locationStart": 99,
+        "locationEnd": 104,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "flair_1",
         "category": "PER",
         "surfaceForm": "P. Rubens,en",
         "locationStart": 101,
         "locationEnd": 113,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "PERSON",
+        "surfaceForm": "Schilder",
+        "locationStart": 119,
+        "locationEnd": 126,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_2",
@@ -1037,6 +1093,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "A. v. Dyk",
+        "locationStart": 133,
+        "locationEnd": 142,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gysbert_hist_0",
         "category": "PER",
         "surfaceForm": "v . dyk",
@@ -1053,6 +1117,14 @@
         "tokenStart": 25,
         "tokenEnd": 26,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "xlmr_ner_1",
+        "category": "PER",
+        "surfaceForm": "Hy",
+        "locationStart": 144,
+        "locationEnd": 146,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_4",
@@ -1083,60 +1155,20 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "Rom",
+        "locationStart": 181,
+        "locationEnd": 184,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "flair_2",
         "category": "MISC",
         "surfaceForm": "Schilder",
         "locationStart": 213,
         "locationEnd": 221,
         "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "NEVE",
-        "locationStart": 0,
-        "locationEnd": 4,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "PERSON",
-        "surfaceForm": "Historieschilder",
-        "locationStart": 5,
-        "locationEnd": 20,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "PERSON",
-        "surfaceForm": "P. P. Rubens",
-        "locationStart": 54,
-        "locationEnd": 66,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "PERSON",
-        "surfaceForm": "A. v. Dyk",
-        "locationStart": 80,
-        "locationEnd": 89,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "LOCATION",
-        "surfaceForm": "Romen",
-        "locationStart": 99,
-        "locationEnd": 104,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "PERSON",
-        "surfaceForm": "Schilder",
-        "locationStart": 119,
-        "locationEnd": 126,
-        "method": "gpt-3.5-turbo"
       }
     ],
     "time_expressions": []

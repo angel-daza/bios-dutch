@@ -2728,12 +2728,36 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "LAREN SR.",
+        "locationStart": 0,
+        "locationEnd": 8,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "LAREN SR.",
+        "locationStart": 0,
+        "locationEnd": 9,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gysbert_hist_0",
         "category": "PER",
         "surfaceForm": ", joo",
         "locationStart": 9,
         "locationEnd": 14,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "PERSON",
+        "surfaceForm": "JOOS VAN",
+        "locationStart": 10,
+        "locationEnd": 17,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_0",
@@ -2754,6 +2778,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "JOOS VAN",
+        "locationStart": 11,
+        "locationEnd": 19,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "PERSON",
+        "surfaceForm": "Komen",
+        "locationStart": 19,
+        "locationEnd": 24,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_6",
         "surfaceForm": "Komen",
         "category": "LOC",
@@ -2770,6 +2810,22 @@
         "locationStart": 23,
         "locationEnd": 28,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "KomenBelgi",
+        "locationStart": 23,
+        "locationEnd": 35,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "LOCATION",
+        "surfaceForm": "Belgi\"",
+        "locationStart": 25,
+        "locationEnd": 31,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_1",
@@ -2800,6 +2856,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "TIME",
+        "surfaceForm": "15 aug. 1563",
+        "locationStart": 33,
+        "locationEnd": 45,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_19",
         "surfaceForm": "15 aug . 1563",
         "category": "TIME",
@@ -2816,6 +2880,14 @@
         "locationStart": 38,
         "locationEnd": 45,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "LOCATION",
+        "surfaceForm": "t Vlissingen",
+        "locationStart": 47,
+        "locationEnd": 59,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_2",
@@ -2854,6 +2926,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "Vlissingen",
+        "locationStart": 54,
+        "locationEnd": 64,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_6",
+        "category": "TIME",
+        "surfaceForm": "24 okt. 1618",
+        "locationStart": 61,
+        "locationEnd": 73,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_31",
         "surfaceForm": "24 okt. 1618",
         "category": "TIME",
@@ -2870,6 +2958,14 @@
         "locationStart": 65,
         "locationEnd": 77,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_7",
+        "category": "PERSON",
+        "surfaceForm": "Joos van Laren Jooszn.",
+        "locationStart": 76,
+        "locationEnd": 98,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_3",
@@ -2908,6 +3004,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_2",
+        "category": "PER",
+        "surfaceForm": "Joos van Laren Jooszn.",
+        "locationStart": 87,
+        "locationEnd": 109,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_8",
+        "category": "PERSON",
+        "surfaceForm": "Jaquemijntje van Damme Jacobsd.",
+        "locationStart": 101,
+        "locationEnd": 131,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_4",
         "surfaceForm": "Jaquemijntje van Damme Jacobsd",
         "category": "PER",
@@ -2944,6 +3056,46 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_2",
+        "category": "PER",
+        "surfaceForm": "Jaquemijntje van Damme Jacobsd.",
+        "locationStart": 129,
+        "locationEnd": 160,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_9",
+        "category": "LOCATION",
+        "surfaceForm": "leper",
+        "locationStart": 135,
+        "locationEnd": 140,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_10",
+        "category": "TIME",
+        "surfaceForm": "1580 - 1582",
+        "locationStart": 142,
+        "locationEnd": 153,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_11",
+        "category": "LOCATION",
+        "surfaceForm": "leper",
+        "locationStart": 156,
+        "locationEnd": 161,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_12",
+        "category": "PERSON",
+        "surfaceForm": "Mayken Knockaert",
+        "locationStart": 176,
+        "locationEnd": 192,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_2",
         "surfaceForm": "leper",
         "category": "LOC",
@@ -2972,6 +3124,22 @@
         "method": "human_gold"
       },
       {
+        "ID": "gpt-3.5-turbo_13",
+        "category": "TIME",
+        "surfaceForm": "t 1599",
+        "locationStart": 193,
+        "locationEnd": 199,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_14",
+        "category": "PERSON",
+        "surfaceForm": "Catelina Lebouck",
+        "locationStart": 204,
+        "locationEnd": 220,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_4",
         "surfaceForm": "leper",
         "category": "LOC",
@@ -2980,6 +3148,14 @@
         "tokenStart": 51,
         "tokenEnd": 52,
         "method": "human_gold"
+      },
+      {
+        "ID": "gpt-3.5-turbo_15",
+        "category": "PERSON",
+        "surfaceForm": "Le Blonde",
+        "locationStart": 221,
+        "locationEnd": 231,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_5",
@@ -3006,6 +3182,14 @@
         "locationStart": 230,
         "locationEnd": 234,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_16",
+        "category": "TIME",
+        "surfaceForm": "t 1602",
+        "locationStart": 232,
+        "locationEnd": 238,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gysbert_hist_5",
@@ -3052,6 +3236,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_5",
+        "category": "LOC",
+        "surfaceForm": "Antwerpen",
+        "locationStart": 241,
+        "locationEnd": 250,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_17",
+        "category": "PERSON",
+        "surfaceForm": "Mayken Berents",
+        "locationStart": 243,
+        "locationEnd": 257,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_8",
         "surfaceForm": "juni 1584-aug",
         "category": "TIME",
@@ -3068,6 +3268,14 @@
         "locationStart": 251,
         "locationEnd": 261,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_18",
+        "category": "PERSON",
+        "surfaceForm": "Barends",
+        "locationStart": 258,
+        "locationEnd": 265,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gysbert_hist_5",
@@ -3094,6 +3302,14 @@
         "locationStart": 266,
         "locationEnd": 270,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_19",
+        "category": "TIME",
+        "surfaceForm": "t 1638",
+        "locationStart": 266,
+        "locationEnd": 272,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_6",
@@ -3130,6 +3346,14 @@
         "locationStart": 272,
         "locationEnd": 282,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_6",
+        "category": "LOC",
+        "surfaceForm": "Arnemu",
+        "locationStart": 272,
+        "locationEnd": 278,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_11",
@@ -3186,6 +3410,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_6",
+        "category": "LOC",
+        "surfaceForm": "Vlissingen",
+        "locationStart": 295,
+        "locationEnd": 305,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_20",
+        "category": "PERSON",
+        "surfaceForm": "Dani\"l van Laren",
+        "locationStart": 301,
+        "locationEnd": 317,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_13",
         "surfaceForm": "1608- 1618",
         "category": "TIME",
@@ -3212,6 +3452,14 @@
         "locationStart": 334,
         "locationEnd": 345,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_21",
+        "category": "PERSON",
+        "surfaceForm": "Joos van Laren jr.",
+        "locationStart": 342,
+        "locationEnd": 359,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_16",
@@ -3266,6 +3514,14 @@
         "locationStart": 359,
         "locationEnd": 375,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_7",
+        "category": "PER",
+        "surfaceForm": "Mayken Knockaert",
+        "locationStart": 359,
+        "locationEnd": 375,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_18",
@@ -3338,6 +3594,14 @@
         "locationStart": 409,
         "locationEnd": 425,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_8",
+        "category": "PER",
+        "surfaceForm": "Catelina LebouckLe Blonde",
+        "locationStart": 409,
+        "locationEnd": 436,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_10",
@@ -3448,6 +3712,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_9",
+        "category": "PER",
+        "surfaceForm": "Mayken BerentsBarends",
+        "locationStart": 470,
+        "locationEnd": 493,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_12",
         "surfaceForm": "Barends",
         "category": "LOC",
@@ -3538,6 +3810,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_10",
+        "category": "PER",
+        "surfaceForm": "Dani\"l van Laren",
+        "locationStart": 600,
+        "locationEnd": 616,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gysbert_hist_10",
         "category": "PER",
         "surfaceForm": "l van laren",
@@ -3582,180 +3862,12 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "LAREN SR.",
-        "locationStart": 0,
-        "locationEnd": 8,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "PERSON",
-        "surfaceForm": "JOOS VAN",
-        "locationStart": 10,
-        "locationEnd": 17,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "PERSON",
-        "surfaceForm": "Komen",
-        "locationStart": 19,
-        "locationEnd": 24,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "LOCATION",
-        "surfaceForm": "Belgi\"",
-        "locationStart": 25,
-        "locationEnd": 31,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "TIME",
-        "surfaceForm": "15 aug. 1563",
-        "locationStart": 33,
-        "locationEnd": 45,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "LOCATION",
-        "surfaceForm": "t Vlissingen",
-        "locationStart": 47,
-        "locationEnd": 59,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_6",
-        "category": "TIME",
-        "surfaceForm": "24 okt. 1618",
-        "locationStart": 61,
-        "locationEnd": 73,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_7",
-        "category": "PERSON",
-        "surfaceForm": "Joos van Laren Jooszn.",
-        "locationStart": 76,
-        "locationEnd": 98,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_8",
-        "category": "PERSON",
-        "surfaceForm": "Jaquemijntje van Damme Jacobsd.",
-        "locationStart": 101,
-        "locationEnd": 131,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_9",
-        "category": "LOCATION",
-        "surfaceForm": "leper",
-        "locationStart": 135,
-        "locationEnd": 140,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_10",
-        "category": "TIME",
-        "surfaceForm": "1580 - 1582",
-        "locationStart": 142,
-        "locationEnd": 153,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_11",
-        "category": "LOCATION",
-        "surfaceForm": "leper",
-        "locationStart": 156,
-        "locationEnd": 161,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_12",
-        "category": "PERSON",
-        "surfaceForm": "Mayken Knockaert",
-        "locationStart": 176,
-        "locationEnd": 192,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_13",
-        "category": "TIME",
-        "surfaceForm": "t 1599",
-        "locationStart": 193,
-        "locationEnd": 199,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_14",
-        "category": "PERSON",
-        "surfaceForm": "Catelina Lebouck",
-        "locationStart": 204,
-        "locationEnd": 220,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_15",
-        "category": "PERSON",
-        "surfaceForm": "Le Blonde",
-        "locationStart": 221,
-        "locationEnd": 231,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_16",
-        "category": "TIME",
-        "surfaceForm": "t 1602",
-        "locationStart": 232,
-        "locationEnd": 238,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_17",
-        "category": "PERSON",
-        "surfaceForm": "Mayken Berents",
-        "locationStart": 243,
-        "locationEnd": 257,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_18",
-        "category": "PERSON",
-        "surfaceForm": "Barends",
-        "locationStart": 258,
-        "locationEnd": 265,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_19",
-        "category": "TIME",
-        "surfaceForm": "t 1638",
-        "locationStart": 266,
-        "locationEnd": 272,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_20",
-        "category": "PERSON",
-        "surfaceForm": "Dani\"l van Laren",
-        "locationStart": 301,
-        "locationEnd": 317,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_21",
-        "category": "PERSON",
-        "surfaceForm": "Joos van Laren jr.",
-        "locationStart": 342,
-        "locationEnd": 359,
-        "method": "gpt-3.5-turbo"
+        "ID": "xlmr_ner_10",
+        "category": "PER",
+        "surfaceForm": "Joos van Laren jr",
+        "locationStart": 627,
+        "locationEnd": 644,
+        "method": "xlmr_ner_"
       }
     ],
     "time_expressions": [

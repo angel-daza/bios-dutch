@@ -2966,6 +2966,30 @@
     },
     "entities": [
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "Zij",
+        "locationStart": 0,
+        "locationEnd": 3,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "LOCATION",
+        "surfaceForm": "Noord Celebes",
+        "locationStart": 32,
+        "locationEnd": 45,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "PERSON",
+        "surfaceForm": "Marie Thomas",
+        "locationStart": 47,
+        "locationEnd": 58,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_0",
         "surfaceForm": "Noord Celebes",
         "category": "LOC",
@@ -3002,6 +3026,14 @@
         "locationStart": 56,
         "locationEnd": 69,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Noord Celebes",
+        "locationStart": 56,
+        "locationEnd": 69,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gysbert_hist_0",
@@ -3056,6 +3088,22 @@
         "locationStart": 71,
         "locationEnd": 83,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_1",
+        "category": "PER",
+        "surfaceForm": "Marie Thomas",
+        "locationStart": 71,
+        "locationEnd": 83,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "ORGANIZATION",
+        "surfaceForm": "School Tot Opleiding Van Inlandsche Artsen",
+        "locationStart": 76,
+        "locationEnd": 116,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_7",
@@ -3124,6 +3172,30 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "ORG",
+        "surfaceForm": "School Tot Opleiding Van Inlandsche ArtsenSTOVIA",
+        "locationStart": 115,
+        "locationEnd": 165,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "ORGANIZATION",
+        "surfaceForm": "STOVIA",
+        "locationStart": 117,
+        "locationEnd": 123,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Gouvernement van Nederlands-Indi",
+        "locationStart": 152,
+        "locationEnd": 184,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_3",
         "surfaceForm": "STOVIA",
         "category": "ORG",
@@ -3172,6 +3244,22 @@
         "method": "human_gold"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "ORG",
+        "surfaceForm": "Gouvernement van Nederlands-Indi",
+        "locationStart": 202,
+        "locationEnd": 234,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_6",
+        "category": "PERSON",
+        "surfaceForm": "Marie Thomas",
+        "locationStart": 204,
+        "locationEnd": 215,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "flair_1",
         "category": "LOC",
         "surfaceForm": "Nederlands-Indi",
@@ -3186,6 +3274,30 @@
         "locationStart": 219,
         "locationEnd": 233,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_7",
+        "category": "ARTWORK",
+        "surfaceForm": "Indisch arts",
+        "locationStart": 238,
+        "locationEnd": 250,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_8",
+        "category": "NUMBER",
+        "surfaceForm": "281",
+        "locationStart": 256,
+        "locationEnd": 259,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_9",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Centrale Burgerlijke Ziekeninrichting",
+        "locationStart": 281,
+        "locationEnd": 317,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_5",
@@ -3234,6 +3346,54 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_2",
+        "category": "PER",
+        "surfaceForm": "Marie Thomas",
+        "locationStart": 304,
+        "locationEnd": 316,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_10",
+        "category": "LOCATION",
+        "surfaceForm": "Djakarta",
+        "locationStart": 321,
+        "locationEnd": 328,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_11",
+        "category": "LOCATION",
+        "surfaceForm": "Medan",
+        "locationStart": 346,
+        "locationEnd": 351,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_12",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Boedi Kemoelian",
+        "locationStart": 363,
+        "locationEnd": 377,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_13",
+        "category": "LOCATION",
+        "surfaceForm": "Djakarta",
+        "locationStart": 381,
+        "locationEnd": 388,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_14",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Stichting Steun Onderwijs Vrouwelijke Inlandse Artsen",
+        "locationStart": 407,
+        "locationEnd": 455,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_3",
         "surfaceForm": "1922",
         "category": "TIME",
@@ -3262,6 +3422,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_15",
+        "category": "ORGANIZATION",
+        "surfaceForm": "SOVIA",
+        "locationStart": 456,
+        "locationEnd": 461,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_18",
         "surfaceForm": "diploma van Indisch arts",
         "category": "MISC",
@@ -3288,6 +3456,22 @@
         "locationStart": 478,
         "locationEnd": 485,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_16",
+        "category": "PERSON",
+        "surfaceForm": "Charlotte Jacobs",
+        "locationStart": 485,
+        "locationEnd": 500,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_17",
+        "category": "PERSON",
+        "surfaceForm": "Aletta Jacobs",
+        "locationStart": 515,
+        "locationEnd": 528,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_7",
@@ -3326,6 +3510,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_6",
+        "category": "PER",
+        "surfaceForm": "Marie Thomas",
+        "locationStart": 548,
+        "locationEnd": 560,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_18",
+        "category": "PERSON",
+        "surfaceForm": "haar",
+        "locationStart": 554,
+        "locationEnd": 558,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_8",
         "surfaceForm": "Centrale Burgerlijke Ziekeninrichting",
         "category": "MISC",
@@ -3352,6 +3552,14 @@
         "locationStart": 608,
         "locationEnd": 645,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_6",
+        "category": "ORG",
+        "surfaceForm": "Central Burger Zieken",
+        "locationStart": 608,
+        "locationEnd": 635,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_9",
@@ -3390,6 +3598,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_6",
+        "category": "LOC",
+        "surfaceForm": "Djakarta",
+        "locationStart": 649,
+        "locationEnd": 657,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_10",
         "surfaceForm": "Medan",
         "category": "LOC",
@@ -3424,6 +3640,14 @@
         "locationStart": 704,
         "locationEnd": 708,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_7",
+        "category": "LOC",
+        "surfaceForm": "Medan",
+        "locationStart": 704,
+        "locationEnd": 709,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_11",
@@ -3462,6 +3686,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_7",
+        "category": "LOC",
+        "surfaceForm": "Boedi Kemoelian",
+        "locationStart": 727,
+        "locationEnd": 742,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_12",
         "surfaceForm": "Djakarta",
         "category": "LOC",
@@ -3498,6 +3730,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_7",
+        "category": "LOC",
+        "surfaceForm": "Djakarta",
+        "locationStart": 746,
+        "locationEnd": 754,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_13",
         "surfaceForm": "Steun Onderwijs Vrouwelijke Inlandse Artsen",
         "category": "ORG",
@@ -3524,6 +3764,14 @@
         "locationStart": 808,
         "locationEnd": 851,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_8",
+        "category": "ORG",
+        "surfaceForm": "Steun Onderwijs Vrouwelijke Inlandse ArtsenSOVIA",
+        "locationStart": 808,
+        "locationEnd": 858,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_14",
@@ -3580,6 +3828,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_8",
+        "category": "PER",
+        "surfaceForm": "Charlotte Jacobs",
+        "locationStart": 879,
+        "locationEnd": 895,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_16",
         "surfaceForm": "Aletta Jacobs",
         "category": "PER",
@@ -3616,156 +3872,12 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "Zij",
-        "locationStart": 0,
-        "locationEnd": 3,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "LOCATION",
-        "surfaceForm": "Noord Celebes",
-        "locationStart": 32,
-        "locationEnd": 45,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "PERSON",
-        "surfaceForm": "Marie Thomas",
-        "locationStart": 47,
-        "locationEnd": 58,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "ORGANIZATION",
-        "surfaceForm": "School Tot Opleiding Van Inlandsche Artsen",
-        "locationStart": 76,
-        "locationEnd": 116,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "ORGANIZATION",
-        "surfaceForm": "STOVIA",
-        "locationStart": 117,
-        "locationEnd": 123,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Gouvernement van Nederlands-Indi",
-        "locationStart": 152,
-        "locationEnd": 184,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_6",
-        "category": "PERSON",
-        "surfaceForm": "Marie Thomas",
-        "locationStart": 204,
-        "locationEnd": 215,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_7",
-        "category": "ARTWORK",
-        "surfaceForm": "Indisch arts",
-        "locationStart": 238,
-        "locationEnd": 250,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_8",
-        "category": "NUMBER",
-        "surfaceForm": "281",
-        "locationStart": 256,
-        "locationEnd": 259,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_9",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Centrale Burgerlijke Ziekeninrichting",
-        "locationStart": 281,
-        "locationEnd": 317,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_10",
-        "category": "LOCATION",
-        "surfaceForm": "Djakarta",
-        "locationStart": 321,
-        "locationEnd": 328,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_11",
-        "category": "LOCATION",
-        "surfaceForm": "Medan",
-        "locationStart": 346,
-        "locationEnd": 351,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_12",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Boedi Kemoelian",
-        "locationStart": 363,
-        "locationEnd": 377,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_13",
-        "category": "LOCATION",
-        "surfaceForm": "Djakarta",
-        "locationStart": 381,
-        "locationEnd": 388,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_14",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Stichting Steun Onderwijs Vrouwelijke Inlandse Artsen",
-        "locationStart": 407,
-        "locationEnd": 455,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_15",
-        "category": "ORGANIZATION",
-        "surfaceForm": "SOVIA",
-        "locationStart": 456,
-        "locationEnd": 461,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_16",
-        "category": "PERSON",
-        "surfaceForm": "Charlotte Jacobs",
-        "locationStart": 485,
-        "locationEnd": 500,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_17",
-        "category": "PERSON",
+        "ID": "xlmr_ner_8",
+        "category": "PER",
         "surfaceForm": "Aletta Jacobs",
-        "locationStart": 515,
-        "locationEnd": 528,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_18",
-        "category": "PERSON",
-        "surfaceForm": "haar",
-        "locationStart": 554,
-        "locationEnd": 558,
-        "method": "gpt-3.5-turbo"
+        "locationStart": 908,
+        "locationEnd": 921,
+        "method": "xlmr_ner_"
       }
     ],
     "time_expressions": [

@@ -3677,6 +3677,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "ROOLEEUW",
+        "locationStart": 0,
+        "locationEnd": 8,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "ROOLEEUWINIER",
+        "locationStart": 0,
+        "locationEnd": 17,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_0",
         "surfaceForm": "REINIER",
         "category": "PER",
@@ -3701,6 +3717,22 @@
         "locationStart": 10,
         "locationEnd": 14,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "PERSON",
+        "surfaceForm": "REINIER",
+        "locationStart": 10,
+        "locationEnd": 17,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "LOCATION",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 19,
+        "locationEnd": 28,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_1",
@@ -3739,6 +3771,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 21,
+        "locationEnd": 30,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "TIME",
+        "surfaceForm": "6 jan. 1627",
+        "locationStart": 29,
+        "locationEnd": 40,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_10",
         "surfaceForm": "6 jan. 1627",
         "category": "TIME",
@@ -3755,6 +3803,14 @@
         "locationStart": 31,
         "locationEnd": 42,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "LOCATION",
+        "surfaceForm": "t Amsterdam",
+        "locationStart": 42,
+        "locationEnd": 53,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_2",
@@ -3793,6 +3849,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 46,
+        "locationEnd": 55,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "TIME",
+        "surfaceForm": "11 mei 1684",
+        "locationStart": 54,
+        "locationEnd": 65,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_17",
         "surfaceForm": "11 mei 1684",
         "category": "TIME",
@@ -3809,6 +3881,14 @@
         "locationStart": 56,
         "locationEnd": 67,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_6",
+        "category": "PERSON",
+        "surfaceForm": "Isaac Jacobsz. Rooleeuw",
+        "locationStart": 68,
+        "locationEnd": 89,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_3",
@@ -3847,6 +3927,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "PER",
+        "surfaceForm": "Isaac Jacobsz",
+        "locationStart": 77,
+        "locationEnd": 90,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "flair_3",
         "category": "PER",
         "surfaceForm": "Rooleeuw",
@@ -3861,6 +3949,38 @@
         "locationStart": 92,
         "locationEnd": 100,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_2",
+        "category": "PER",
+        "surfaceForm": "Rooleeuw",
+        "locationStart": 92,
+        "locationEnd": 100,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_7",
+        "category": "PERSON",
+        "surfaceForm": "Ytien Reiniersd.",
+        "locationStart": 94,
+        "locationEnd": 109,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_8",
+        "category": "LOCATION",
+        "surfaceForm": "Leiden",
+        "locationStart": 116,
+        "locationEnd": 122,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_9",
+        "category": "TIME",
+        "surfaceForm": "1651",
+        "locationStart": 123,
+        "locationEnd": 127,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_4",
@@ -3899,6 +4019,30 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_2",
+        "category": "PER",
+        "surfaceForm": "Ytien Reiniersd",
+        "locationStart": 126,
+        "locationEnd": 141,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_10",
+        "category": "PERSON",
+        "surfaceForm": "R.",
+        "locationStart": 132,
+        "locationEnd": 133,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_11",
+        "category": "TIME",
+        "surfaceForm": "4 mrt. 1646",
+        "locationStart": 137,
+        "locationEnd": 148,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_5",
         "surfaceForm": "Leiden",
         "category": "LOC",
@@ -3935,6 +4079,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_3",
+        "category": "LOC",
+        "surfaceForm": "Leiden",
+        "locationStart": 154,
+        "locationEnd": 160,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_12",
+        "category": "LOCATION",
+        "surfaceForm": "Wa- terlandse",
+        "locationStart": 162,
+        "locationEnd": 173,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_4",
         "surfaceForm": "1651",
         "category": "TIME",
@@ -3951,6 +4111,14 @@
         "locationStart": 171,
         "locationEnd": 175,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_13",
+        "category": "PERSON",
+        "surfaceForm": "Anthonie",
+        "locationStart": 193,
+        "locationEnd": 201,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_6",
@@ -3981,6 +4149,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_6",
+        "category": "PER",
+        "surfaceForm": "R.",
+        "locationStart": 201,
+        "locationEnd": 203,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_14",
+        "category": "TIME",
+        "surfaceForm": "1630 - 1700",
+        "locationStart": 203,
+        "locationEnd": 213,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_6",
         "surfaceForm": "4 mrt. 1646",
         "category": "TIME",
@@ -3997,6 +4181,30 @@
         "locationStart": 212,
         "locationEnd": 223,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_15",
+        "category": "PERSON",
+        "surfaceForm": "R.",
+        "locationStart": 216,
+        "locationEnd": 217,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_16",
+        "category": "TIME",
+        "surfaceForm": "1681",
+        "locationStart": 221,
+        "locationEnd": 225,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_17",
+        "category": "PERSON",
+        "surfaceForm": "R.",
+        "locationStart": 227,
+        "locationEnd": 228,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_7",
@@ -4045,6 +4253,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_7",
+        "category": "PER",
+        "surfaceForm": "Anthonie",
+        "locationStart": 299,
+        "locationEnd": 307,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_18",
+        "category": "TIME",
+        "surfaceForm": "1688",
+        "locationStart": 305,
+        "locationEnd": 309,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_9",
         "surfaceForm": "1630 - 1700",
         "category": "TIME",
@@ -4071,6 +4295,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_19",
+        "category": "TIME",
+        "surfaceForm": "5",
+        "locationStart": 319,
+        "locationEnd": 320,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_20",
+        "category": "TIME",
+        "surfaceForm": "1690 - 1759",
+        "locationStart": 323,
+        "locationEnd": 334,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_11",
         "surfaceForm": "R.",
         "category": "PER",
@@ -4089,6 +4329,30 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_7",
+        "category": "PER",
+        "surfaceForm": "R.",
+        "locationStart": 326,
+        "locationEnd": 328,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_21",
+        "category": "PERSON",
+        "surfaceForm": "R.",
+        "locationStart": 336,
+        "locationEnd": 337,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_22",
+        "category": "PERSON",
+        "surfaceForm": "D.R. Camphuysen",
+        "locationStart": 343,
+        "locationEnd": 357,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_12",
         "surfaceForm": "geduren- de enige maanden",
         "category": "TIME",
@@ -4097,6 +4361,14 @@
         "tokenStart": 82,
         "tokenEnd": 86,
         "method": "human_gold"
+      },
+      {
+        "ID": "gpt-3.5-turbo_23",
+        "category": "TIME",
+        "surfaceForm": "1678",
+        "locationStart": 381,
+        "locationEnd": 385,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_14",
@@ -4173,6 +4445,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_10",
+        "category": "PER",
+        "surfaceForm": "R.",
+        "locationStart": 567,
+        "locationEnd": 569,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_11",
         "surfaceForm": "Maria",
         "category": "PER",
@@ -4199,6 +4479,14 @@
         "locationStart": 743,
         "locationEnd": 748,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_12",
+        "category": "PER",
+        "surfaceForm": "Maria",
+        "locationStart": 743,
+        "locationEnd": 748,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_12",
@@ -4245,6 +4533,14 @@
         "locationStart": 831,
         "locationEnd": 835,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_14",
+        "category": "PER",
+        "surfaceForm": "D.R. Camphuysen",
+        "locationStart": 831,
+        "locationEnd": 846,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "flair_16",
@@ -4335,6 +4631,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_17",
+        "category": "PER",
+        "surfaceForm": "R.",
+        "locationStart": 952,
+        "locationEnd": 954,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_15",
         "surfaceForm": "Schat der ziele ofte",
         "category": "MISC",
@@ -4397,198 +4701,6 @@
         "locationStart": 1018,
         "locationEnd": 1022,
         "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "ROOLEEUW",
-        "locationStart": 0,
-        "locationEnd": 8,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "PERSON",
-        "surfaceForm": "REINIER",
-        "locationStart": 10,
-        "locationEnd": 17,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "LOCATION",
-        "surfaceForm": "Amsterdam",
-        "locationStart": 19,
-        "locationEnd": 28,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "TIME",
-        "surfaceForm": "6 jan. 1627",
-        "locationStart": 29,
-        "locationEnd": 40,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "LOCATION",
-        "surfaceForm": "t Amsterdam",
-        "locationStart": 42,
-        "locationEnd": 53,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "TIME",
-        "surfaceForm": "11 mei 1684",
-        "locationStart": 54,
-        "locationEnd": 65,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_6",
-        "category": "PERSON",
-        "surfaceForm": "Isaac Jacobsz. Rooleeuw",
-        "locationStart": 68,
-        "locationEnd": 89,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_7",
-        "category": "PERSON",
-        "surfaceForm": "Ytien Reiniersd.",
-        "locationStart": 94,
-        "locationEnd": 109,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_8",
-        "category": "LOCATION",
-        "surfaceForm": "Leiden",
-        "locationStart": 116,
-        "locationEnd": 122,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_9",
-        "category": "TIME",
-        "surfaceForm": "1651",
-        "locationStart": 123,
-        "locationEnd": 127,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_10",
-        "category": "PERSON",
-        "surfaceForm": "R.",
-        "locationStart": 132,
-        "locationEnd": 133,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_11",
-        "category": "TIME",
-        "surfaceForm": "4 mrt. 1646",
-        "locationStart": 137,
-        "locationEnd": 148,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_12",
-        "category": "LOCATION",
-        "surfaceForm": "Wa- terlandse",
-        "locationStart": 162,
-        "locationEnd": 173,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_13",
-        "category": "PERSON",
-        "surfaceForm": "Anthonie",
-        "locationStart": 193,
-        "locationEnd": 201,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_14",
-        "category": "TIME",
-        "surfaceForm": "1630 - 1700",
-        "locationStart": 203,
-        "locationEnd": 213,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_15",
-        "category": "PERSON",
-        "surfaceForm": "R.",
-        "locationStart": 216,
-        "locationEnd": 217,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_16",
-        "category": "TIME",
-        "surfaceForm": "1681",
-        "locationStart": 221,
-        "locationEnd": 225,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_17",
-        "category": "PERSON",
-        "surfaceForm": "R.",
-        "locationStart": 227,
-        "locationEnd": 228,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_18",
-        "category": "TIME",
-        "surfaceForm": "1688",
-        "locationStart": 305,
-        "locationEnd": 309,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_19",
-        "category": "TIME",
-        "surfaceForm": "5",
-        "locationStart": 319,
-        "locationEnd": 320,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_20",
-        "category": "TIME",
-        "surfaceForm": "1690 - 1759",
-        "locationStart": 323,
-        "locationEnd": 334,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_21",
-        "category": "PERSON",
-        "surfaceForm": "R.",
-        "locationStart": 336,
-        "locationEnd": 337,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_22",
-        "category": "PERSON",
-        "surfaceForm": "D.R. Camphuysen",
-        "locationStart": 343,
-        "locationEnd": 357,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_23",
-        "category": "TIME",
-        "surfaceForm": "1678",
-        "locationStart": 381,
-        "locationEnd": 385,
-        "method": "gpt-3.5-turbo"
       }
     ],
     "time_expressions": [

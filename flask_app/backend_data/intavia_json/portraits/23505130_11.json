@@ -548,6 +548,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "Willem Moll",
+        "locationStart": 12,
+        "locationEnd": 23,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gysbert_hist_0",
         "category": "TIME",
         "surfaceForm": "1812",
@@ -588,6 +596,14 @@
         "locationStart": 60,
         "locationEnd": 69,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 60,
+        "locationEnd": 69,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "flair_1",
@@ -634,6 +650,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "Museum Catharijneconvent",
+        "locationStart": 126,
+        "locationEnd": 150,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gysbert_hist_1",
         "category": "LOC",
         "surfaceForm": "catharijneconvent",
@@ -668,6 +692,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "ORG",
+        "surfaceForm": "Vrije Universiteit",
+        "locationStart": 154,
+        "locationEnd": 172,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_5",
         "surfaceForm": "Amsterdam",
         "category": "LOC",
@@ -692,6 +724,14 @@
         "locationStart": 174,
         "locationEnd": 183,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 174,
+        "locationEnd": 183,
+        "method": "xlmr_ner_"
       }
     ],
     "time_expressions": [

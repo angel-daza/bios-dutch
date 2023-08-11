@@ -864,6 +864,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "ORG",
+        "surfaceForm": "Eerste Kamer",
+        "locationStart": 106,
+        "locationEnd": 118,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "flair_1",
         "category": "MISC",
         "surfaceForm": "officier",
@@ -896,6 +904,14 @@
         "locationStart": 175,
         "locationEnd": 184,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_2",
+        "category": "LOC",
+        "surfaceForm": "Friesland",
+        "locationStart": 175,
+        "locationEnd": 184,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gysbert_hist_3",

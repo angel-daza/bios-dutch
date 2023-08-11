@@ -1193,6 +1193,14 @@
     },
     "entities": [
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "Evenwichtige Overijsselse boerenzoon",
+        "locationStart": 0,
+        "locationEnd": 34,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_0",
         "surfaceForm": "Overijsselse",
         "category": "MISC",
@@ -1209,6 +1217,38 @@
         "locationStart": 13,
         "locationEnd": 25,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "PERSON",
+        "surfaceForm": "sociaaldemocraat",
+        "locationStart": 36,
+        "locationEnd": 51,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "LOCATION",
+        "surfaceForm": "Enschede",
+        "locationStart": 83,
+        "locationEnd": 91,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "LOCATION",
+        "surfaceForm": "Doetinchem",
+        "locationStart": 109,
+        "locationEnd": 119,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "ORGANIZATION",
+        "surfaceForm": "vierde kabinet- Drees",
+        "locationStart": 123,
+        "locationEnd": 142,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_1",
@@ -1247,6 +1287,30 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Enschede",
+        "locationStart": 164,
+        "locationEnd": 172,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Oorlog",
+        "locationStart": 167,
+        "locationEnd": 173,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_6",
+        "category": "PERSON",
+        "surfaceForm": "F.J. Kranenburg",
+        "locationStart": 202,
+        "locationEnd": 217,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_2",
         "surfaceForm": "Doetinchem",
         "category": "LOC",
@@ -1283,6 +1347,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Doetinchem",
+        "locationStart": 223,
+        "locationEnd": 233,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_7",
+        "category": "ORGANIZATION",
+        "surfaceForm": "commissies",
+        "locationStart": 271,
+        "locationEnd": 280,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_3",
         "surfaceForm": "Drees",
         "category": "PER",
@@ -1301,6 +1381,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "PER",
+        "surfaceForm": "Drees",
+        "locationStart": 273,
+        "locationEnd": 278,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_2",
         "surfaceForm": "twee maanden",
         "category": "TIME",
@@ -1309,6 +1397,14 @@
         "tokenStart": 43,
         "tokenEnd": 45,
         "method": "human_gold"
+      },
+      {
+        "ID": "gpt-3.5-turbo_8",
+        "category": "ORGANIZATION",
+        "surfaceForm": "raden",
+        "locationStart": 285,
+        "locationEnd": 290,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_4",
@@ -1339,6 +1435,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "ORG",
+        "surfaceForm": "Oorlog",
+        "locationStart": 317,
+        "locationEnd": 323,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_5",
         "surfaceForm": "F.J. Kranenburg",
         "category": "PER",
@@ -1367,6 +1471,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "PER",
+        "surfaceForm": "F.J. Kranenburg",
+        "locationStart": 381,
+        "locationEnd": 396,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "flair_2",
         "category": "PER",
         "surfaceForm": "Kranenburg",
@@ -1381,78 +1493,6 @@
         "locationStart": 386,
         "locationEnd": 396,
         "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "Evenwichtige Overijsselse boerenzoon",
-        "locationStart": 0,
-        "locationEnd": 34,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "PERSON",
-        "surfaceForm": "sociaaldemocraat",
-        "locationStart": 36,
-        "locationEnd": 51,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "LOCATION",
-        "surfaceForm": "Enschede",
-        "locationStart": 83,
-        "locationEnd": 91,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "LOCATION",
-        "surfaceForm": "Doetinchem",
-        "locationStart": 109,
-        "locationEnd": 119,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "ORGANIZATION",
-        "surfaceForm": "vierde kabinet- Drees",
-        "locationStart": 123,
-        "locationEnd": 142,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Oorlog",
-        "locationStart": 167,
-        "locationEnd": 173,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_6",
-        "category": "PERSON",
-        "surfaceForm": "F.J. Kranenburg",
-        "locationStart": 202,
-        "locationEnd": 217,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_7",
-        "category": "ORGANIZATION",
-        "surfaceForm": "commissies",
-        "locationStart": 271,
-        "locationEnd": 280,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_8",
-        "category": "ORGANIZATION",
-        "surfaceForm": "raden",
-        "locationStart": 285,
-        "locationEnd": 290,
-        "method": "gpt-3.5-turbo"
       }
     ],
     "time_expressions": [

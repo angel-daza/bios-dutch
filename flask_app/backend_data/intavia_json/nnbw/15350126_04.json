@@ -1764,6 +1764,30 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "AMALIA",
+        "locationStart": 0,
+        "locationEnd": 5,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "AMALIAAmalia Maria da Gloria Augusta",
+        "locationStart": 0,
+        "locationEnd": 38,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "PERSON",
+        "surfaceForm": "Amalia Maria da Gloria Augusta",
+        "locationStart": 7,
+        "locationEnd": 35,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_1",
         "surfaceForm": "Amalia Maria da Gloria Augusta",
         "category": "PER",
@@ -1788,6 +1812,14 @@
         "locationStart": 8,
         "locationEnd": 38,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Saksen-Weimar- Eisenach",
+        "locationStart": 37,
+        "locationEnd": 58,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_2",
@@ -1826,12 +1858,52 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Saksen-Weimar- Eisenach",
+        "locationStart": 54,
+        "locationEnd": 77,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "LOCATION",
+        "surfaceForm": "Nederlanden",
+        "locationStart": 59,
+        "locationEnd": 69,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "flair_0",
         "category": "LOC",
         "surfaceForm": "Eisenach",
         "locationStart": 69,
         "locationEnd": 77,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "LOCATION",
+        "surfaceForm": "Gent",
+        "locationStart": 73,
+        "locationEnd": 77,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "LOCATION",
+        "surfaceForm": "Belgie",
+        "locationStart": 79,
+        "locationEnd": 85,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_6",
+        "category": "TIME",
+        "surfaceForm": "20 Mei 1830",
+        "locationStart": 87,
+        "locationEnd": 98,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_3",
@@ -1860,6 +1932,14 @@
         "locationStart": 90,
         "locationEnd": 101,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_7",
+        "category": "LOCATION",
+        "surfaceForm": "Wolferdingen",
+        "locationStart": 100,
+        "locationEnd": 112,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_4",
@@ -1898,6 +1978,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "GentBelgie",
+        "locationStart": 111,
+        "locationEnd": 123,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_8",
+        "category": "LOCATION",
+        "surfaceForm": "Lux.",
+        "locationStart": 114,
+        "locationEnd": 118,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_5",
         "surfaceForm": "Belgie",
         "category": "LOC",
@@ -1926,6 +2022,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "gpt-3.5-turbo_9",
+        "category": "TIME",
+        "surfaceForm": "1 Mei 1872",
+        "locationStart": 120,
+        "locationEnd": 131,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_3",
         "surfaceForm": "20 Mei 1830",
         "category": "TIME",
@@ -1942,6 +2046,14 @@
         "locationStart": 125,
         "locationEnd": 136,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_10",
+        "category": "PERSON",
+        "surfaceForm": "Karel Bernhard",
+        "locationStart": 135,
+        "locationEnd": 148,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_6",
@@ -1978,6 +2090,22 @@
         "locationStart": 148,
         "locationEnd": 160,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "WolferdingenLux.",
+        "locationStart": 148,
+        "locationEnd": 166,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_11",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Saksen-Weimar- Eisenach",
+        "locationStart": 150,
+        "locationEnd": 171,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_7",
@@ -2034,6 +2162,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_12",
+        "category": "PERSON",
+        "surfaceForm": "Ida",
+        "locationStart": 174,
+        "locationEnd": 177,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_13",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Saksen-Meiningen",
+        "locationStart": 179,
+        "locationEnd": 194,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_8",
         "surfaceForm": "Karel Bernhard",
         "category": "PER",
@@ -2070,6 +2214,30 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "Karel Bernhard",
+        "locationStart": 192,
+        "locationEnd": 206,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_14",
+        "category": "TIME",
+        "surfaceForm": "19 Mei 1853",
+        "locationStart": 199,
+        "locationEnd": 210,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_15",
+        "category": "LOCATION",
+        "surfaceForm": "Weimar",
+        "locationStart": 212,
+        "locationEnd": 218,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_9",
         "surfaceForm": "Saksen-Weimar- Eisenach",
         "category": "PER",
@@ -2104,6 +2272,22 @@
         "locationStart": 219,
         "locationEnd": 242,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Saksen-Weimar- Eisenach",
+        "locationStart": 219,
+        "locationEnd": 242,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_16",
+        "category": "PERSON",
+        "surfaceForm": "Hendrik der Nederlanden",
+        "locationStart": 223,
+        "locationEnd": 245,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "flair_3",
@@ -2150,6 +2334,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "Ida",
+        "locationStart": 247,
+        "locationEnd": 250,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_17",
+        "category": "LOCATION",
+        "surfaceForm": "Luxemburg",
+        "locationStart": 263,
+        "locationEnd": 272,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_11",
         "surfaceForm": "Saksen-Meiningen",
         "category": "LOC",
@@ -2186,6 +2386,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Saksen-Meiningen",
+        "locationStart": 265,
+        "locationEnd": 281,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_11",
         "surfaceForm": "19 Mei 1853",
         "category": "TIME",
@@ -2202,6 +2410,14 @@
         "locationStart": 293,
         "locationEnd": 304,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_18",
+        "category": "LOCATION",
+        "surfaceForm": "Luxemburg",
+        "locationStart": 297,
+        "locationEnd": 306,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_12",
@@ -2240,6 +2456,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "Weimar",
+        "locationStart": 308,
+        "locationEnd": 314,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_13",
         "surfaceForm": "prins . Hendrik der Nederlanden",
         "category": "PER",
@@ -2274,6 +2498,30 @@
         "locationStart": 326,
         "locationEnd": 333,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_2",
+        "category": "PER",
+        "surfaceForm": "Hendrik der Nederlanden",
+        "locationStart": 326,
+        "locationEnd": 349,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_19",
+        "category": "LOCATION",
+        "surfaceForm": "Luxemburg",
+        "locationStart": 334,
+        "locationEnd": 343,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_20",
+        "category": "LOCATION",
+        "surfaceForm": "Luxemburg",
+        "locationStart": 365,
+        "locationEnd": 374,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_14",
@@ -2312,6 +2560,38 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_2",
+        "category": "LOC",
+        "surfaceForm": "Luxemburg",
+        "locationStart": 386,
+        "locationEnd": 395,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_21",
+        "category": "LOCATION",
+        "surfaceForm": "Luxemburg",
+        "locationStart": 396,
+        "locationEnd": 405,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_22",
+        "category": "LOCATION",
+        "surfaceForm": "Luxemburg",
+        "locationStart": 427,
+        "locationEnd": 436,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_23",
+        "category": "LOCATION",
+        "surfaceForm": "Luxemburg",
+        "locationStart": 458,
+        "locationEnd": 467,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_15",
         "surfaceForm": "Luxemburg",
         "category": "LOC",
@@ -2348,204 +2628,12 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
-        "ID": "flair_7",
-        "category": "PER",
-        "surfaceForm": "Blok",
-        "locationStart": 509,
-        "locationEnd": 513,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "AMALIA",
-        "locationStart": 0,
-        "locationEnd": 5,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "PERSON",
-        "surfaceForm": "Amalia Maria da Gloria Augusta",
-        "locationStart": 7,
-        "locationEnd": 35,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Saksen-Weimar- Eisenach",
-        "locationStart": 37,
-        "locationEnd": 58,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "LOCATION",
-        "surfaceForm": "Nederlanden",
-        "locationStart": 59,
-        "locationEnd": 69,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "LOCATION",
-        "surfaceForm": "Gent",
-        "locationStart": 73,
-        "locationEnd": 77,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "LOCATION",
-        "surfaceForm": "Belgie",
-        "locationStart": 79,
-        "locationEnd": 85,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_6",
-        "category": "TIME",
-        "surfaceForm": "20 Mei 1830",
-        "locationStart": 87,
-        "locationEnd": 98,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_7",
-        "category": "LOCATION",
-        "surfaceForm": "Wolferdingen",
-        "locationStart": 100,
-        "locationEnd": 112,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_8",
-        "category": "LOCATION",
-        "surfaceForm": "Lux.",
-        "locationStart": 114,
-        "locationEnd": 118,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_9",
-        "category": "TIME",
-        "surfaceForm": "1 Mei 1872",
-        "locationStart": 120,
-        "locationEnd": 131,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_10",
-        "category": "PERSON",
-        "surfaceForm": "Karel Bernhard",
-        "locationStart": 135,
-        "locationEnd": 148,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_11",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Saksen-Weimar- Eisenach",
-        "locationStart": 150,
-        "locationEnd": 171,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_12",
-        "category": "PERSON",
-        "surfaceForm": "Ida",
-        "locationStart": 174,
-        "locationEnd": 177,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_13",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Saksen-Meiningen",
-        "locationStart": 179,
-        "locationEnd": 194,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_14",
-        "category": "TIME",
-        "surfaceForm": "19 Mei 1853",
-        "locationStart": 199,
-        "locationEnd": 210,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_15",
-        "category": "LOCATION",
-        "surfaceForm": "Weimar",
-        "locationStart": 212,
-        "locationEnd": 218,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_16",
-        "category": "PERSON",
-        "surfaceForm": "Hendrik der Nederlanden",
-        "locationStart": 223,
-        "locationEnd": 245,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_17",
-        "category": "LOCATION",
+        "ID": "xlmr_ner_3",
+        "category": "LOC",
         "surfaceForm": "Luxemburg",
-        "locationStart": 263,
-        "locationEnd": 272,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_18",
-        "category": "LOCATION",
-        "surfaceForm": "Luxemburg",
-        "locationStart": 297,
-        "locationEnd": 306,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_19",
-        "category": "LOCATION",
-        "surfaceForm": "Luxemburg",
-        "locationStart": 334,
-        "locationEnd": 343,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_20",
-        "category": "LOCATION",
-        "surfaceForm": "Luxemburg",
-        "locationStart": 365,
-        "locationEnd": 374,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_21",
-        "category": "LOCATION",
-        "surfaceForm": "Luxemburg",
-        "locationStart": 396,
-        "locationEnd": 405,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_22",
-        "category": "LOCATION",
-        "surfaceForm": "Luxemburg",
-        "locationStart": 427,
-        "locationEnd": 436,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_23",
-        "category": "LOCATION",
-        "surfaceForm": "Luxemburg",
-        "locationStart": 458,
-        "locationEnd": 467,
-        "method": "gpt-3.5-turbo"
+        "locationStart": 464,
+        "locationEnd": 473,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gpt-3.5-turbo_24",
@@ -2554,6 +2642,22 @@
         "locationStart": 489,
         "locationEnd": 498,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "flair_7",
+        "category": "PER",
+        "surfaceForm": "Blok",
+        "locationStart": 509,
+        "locationEnd": 513,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_4",
+        "category": "PER",
+        "surfaceForm": "Blok",
+        "locationStart": 509,
+        "locationEnd": 513,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gpt-3.5-turbo_25",

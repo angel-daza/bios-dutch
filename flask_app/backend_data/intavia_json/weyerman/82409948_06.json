@@ -889,6 +889,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 60,
+        "locationEnd": 69,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "Groot",
+        "locationStart": 75,
+        "locationEnd": 80,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_2",
         "surfaceForm": "Sekretaris",
         "category": "MISC",
@@ -917,6 +933,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "ORG",
+        "surfaceForm": "Assurantiekamer",
+        "locationStart": 124,
+        "locationEnd": 139,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_4",
         "surfaceForm": "Vader",
         "category": "PER",
@@ -925,6 +949,14 @@
         "tokenStart": 22,
         "tokenEnd": 23,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "Vader",
+        "locationStart": 145,
+        "locationEnd": 150,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_5",

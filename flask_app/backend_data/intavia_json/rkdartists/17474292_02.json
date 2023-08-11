@@ -411,6 +411,30 @@
     },
     "entities": [
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "ARTWORK",
+        "surfaceForm": "Textielkunstenaar",
+        "locationStart": 0,
+        "locationEnd": 15,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Geboren",
+        "locationStart": 17,
+        "locationEnd": 23,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "DATE",
+        "surfaceForm": "16 november 1905",
+        "locationStart": 25,
+        "locationEnd": 41,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_1",
         "surfaceForm": "16 november 1905",
         "category": "TIME",
@@ -427,6 +451,14 @@
         "locationStart": 28,
         "locationEnd": 44,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "LOCATION",
+        "surfaceForm": "Hardinxveld (Hardinxveld- Giessendam)",
+        "locationStart": 43,
+        "locationEnd": 76,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_0",
@@ -463,6 +495,14 @@
         "locationStart": 46,
         "locationEnd": 57,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "HardinxveldHardinxveld Giessendam",
+        "locationStart": 46,
+        "locationEnd": 82,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_1",
@@ -527,6 +567,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Gestorven",
+        "locationStart": 78,
+        "locationEnd": 86,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "DATE",
+        "surfaceForm": "3 september 1987",
+        "locationStart": 88,
+        "locationEnd": 104,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_4",
         "surfaceForm": "3 september 1987",
         "category": "TIME",
@@ -543,6 +599,14 @@
         "locationStart": 96,
         "locationEnd": 107,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_6",
+        "category": "LOCATION",
+        "surfaceForm": "Breda",
+        "locationStart": 106,
+        "locationEnd": 111,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_3",
@@ -581,60 +645,12 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "ARTWORK",
-        "surfaceForm": "Textielkunstenaar",
-        "locationStart": 0,
-        "locationEnd": 15,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Geboren",
-        "locationStart": 17,
-        "locationEnd": 23,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "DATE",
-        "surfaceForm": "16 november 1905",
-        "locationStart": 25,
-        "locationEnd": 41,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "LOCATION",
-        "surfaceForm": "Hardinxveld (Hardinxveld- Giessendam)",
-        "locationStart": 43,
-        "locationEnd": 76,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Gestorven",
-        "locationStart": 78,
-        "locationEnd": 86,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "DATE",
-        "surfaceForm": "3 september 1987",
-        "locationStart": 88,
-        "locationEnd": 104,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_6",
-        "category": "LOCATION",
+        "ID": "xlmr_ner_2",
+        "category": "LOC",
         "surfaceForm": "Breda",
-        "locationStart": 106,
-        "locationEnd": 111,
-        "method": "gpt-3.5-turbo"
+        "locationStart": 114,
+        "locationEnd": 119,
+        "method": "xlmr_ner_"
       }
     ],
     "time_expressions": [

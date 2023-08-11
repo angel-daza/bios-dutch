@@ -360,6 +360,14 @@
     },
     "entities": [
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "Knipkunstenaar",
+        "locationStart": 0,
+        "locationEnd": 14,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_0",
         "surfaceForm": "2 september 1791",
         "category": "TIME",
@@ -414,6 +422,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "LOCATION",
+        "surfaceForm": "Delft",
+        "locationStart": 43,
+        "locationEnd": 48,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "Delft",
+        "locationStart": 43,
+        "locationEnd": 48,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_2",
         "surfaceForm": "5 december 1874",
         "category": "TIME",
@@ -460,36 +484,28 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
-        "ID": "gysbert_hist_2",
-        "category": "LOC",
-        "surfaceForm": "haag",
-        "locationStart": 82,
-        "locationEnd": 86,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "Knipkunstenaar",
-        "locationStart": 0,
-        "locationEnd": 14,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "LOCATION",
-        "surfaceForm": "Delft",
-        "locationStart": 43,
-        "locationEnd": 48,
-        "method": "gpt-3.5-turbo"
-      },
-      {
         "ID": "gpt-3.5-turbo_2",
         "category": "LOCATION",
         "surfaceForm": "Den Haag",
         "locationStart": 78,
         "locationEnd": 86,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_2",
+        "category": "LOC",
+        "surfaceForm": "Den Haag",
+        "locationStart": 78,
+        "locationEnd": 86,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gysbert_hist_2",
+        "category": "LOC",
+        "surfaceForm": "haag",
+        "locationStart": 82,
+        "locationEnd": 86,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
       }
     ],
     "time_expressions": [

@@ -877,6 +877,54 @@
     },
     "entities": [
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "Graveur",
+        "locationStart": 0,
+        "locationEnd": 6,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "PERSON",
+        "surfaceForm": "reproductiegraficus",
+        "locationStart": 9,
+        "locationEnd": 28,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "PERSON",
+        "surfaceForm": "etser",
+        "locationStart": 30,
+        "locationEnd": 34,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "PERSON",
+        "surfaceForm": "schilder",
+        "locationStart": 36,
+        "locationEnd": 43,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "PERSON",
+        "surfaceForm": "tekenaar",
+        "locationStart": 45,
+        "locationEnd": 53,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "PERSON",
+        "surfaceForm": "Geboren: 17 februari 1842",
+        "locationStart": 55,
+        "locationEnd": 80,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_7",
         "surfaceForm": "17 februari 1842",
         "category": "TIME",
@@ -893,6 +941,14 @@
         "locationStart": 66,
         "locationEnd": 82,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_6",
+        "category": "LOCATION",
+        "surfaceForm": "Dusseldorf",
+        "locationStart": 82,
+        "locationEnd": 92,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_0",
@@ -931,6 +987,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "Dusseldorf",
+        "locationStart": 84,
+        "locationEnd": 94,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_7",
+        "category": "LOCATION",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 110,
+        "locationEnd": 119,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_1",
         "surfaceForm": "Amsterdam",
         "category": "LOC",
@@ -967,6 +1039,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_3",
+        "category": "LOC",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 132,
+        "locationEnd": 141,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_8",
+        "category": "ORGANIZATION",
+        "surfaceForm": "1874 tot 1874",
+        "locationStart": 135,
+        "locationEnd": 148,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_1",
         "surfaceForm": "van 1874 tot 1874",
         "category": "TIME",
@@ -983,6 +1071,14 @@
         "locationStart": 147,
         "locationEnd": 151,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_9",
+        "category": "LOCATION",
+        "surfaceForm": "Londen",
+        "locationStart": 150,
+        "locationEnd": 156,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gysbert_hist_3",
@@ -1047,6 +1143,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_4",
+        "category": "LOC",
+        "surfaceForm": "Londen",
+        "locationStart": 171,
+        "locationEnd": 177,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_10",
+        "category": "ORGANIZATION",
+        "surfaceForm": "1873 tot 1873",
+        "locationStart": 174,
+        "locationEnd": 187,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_4",
         "surfaceForm": "van 1873 tot 1873",
         "category": "TIME",
@@ -1083,6 +1195,14 @@
         "method": "human_gold"
       },
       {
+        "ID": "gpt-3.5-turbo_11",
+        "category": "ORGANIZATION",
+        "surfaceForm": "scheen 1981 tot 1883",
+        "locationStart": 198,
+        "locationEnd": 218,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_6",
         "surfaceForm": "1981 tot 1883",
         "category": "TIME",
@@ -1107,102 +1227,6 @@
         "locationStart": 228,
         "locationEnd": 232,
         "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "Graveur",
-        "locationStart": 0,
-        "locationEnd": 6,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "PERSON",
-        "surfaceForm": "reproductiegraficus",
-        "locationStart": 9,
-        "locationEnd": 28,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "PERSON",
-        "surfaceForm": "etser",
-        "locationStart": 30,
-        "locationEnd": 34,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "PERSON",
-        "surfaceForm": "schilder",
-        "locationStart": 36,
-        "locationEnd": 43,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "PERSON",
-        "surfaceForm": "tekenaar",
-        "locationStart": 45,
-        "locationEnd": 53,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "PERSON",
-        "surfaceForm": "Geboren: 17 februari 1842",
-        "locationStart": 55,
-        "locationEnd": 80,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_6",
-        "category": "LOCATION",
-        "surfaceForm": "Dusseldorf",
-        "locationStart": 82,
-        "locationEnd": 92,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_7",
-        "category": "LOCATION",
-        "surfaceForm": "Amsterdam",
-        "locationStart": 110,
-        "locationEnd": 119,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_8",
-        "category": "ORGANIZATION",
-        "surfaceForm": "1874 tot 1874",
-        "locationStart": 135,
-        "locationEnd": 148,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_9",
-        "category": "LOCATION",
-        "surfaceForm": "Londen",
-        "locationStart": 150,
-        "locationEnd": 156,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_10",
-        "category": "ORGANIZATION",
-        "surfaceForm": "1873 tot 1873",
-        "locationStart": 174,
-        "locationEnd": 187,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_11",
-        "category": "ORGANIZATION",
-        "surfaceForm": "scheen 1981 tot 1883",
-        "locationStart": 198,
-        "locationEnd": 218,
-        "method": "gpt-3.5-turbo"
       }
     ],
     "time_expressions": [

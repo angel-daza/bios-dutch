@@ -1056,6 +1056,38 @@
     },
     "entities": [
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "Tekenaar",
+        "locationStart": 0,
+        "locationEnd": 8,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "PERSON",
+        "surfaceForm": "beeldhouwer",
+        "locationStart": 10,
+        "locationEnd": 20,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "PERSON",
+        "surfaceForm": "meubelontwerper",
+        "locationStart": 22,
+        "locationEnd": 38,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "TIME",
+        "surfaceForm": "Geboren",
+        "locationStart": 41,
+        "locationEnd": 47,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_5",
         "surfaceForm": "17 oktober 1943",
         "category": "TIME",
@@ -1072,6 +1104,14 @@
         "locationStart": 49,
         "locationEnd": 64,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "TIME",
+        "surfaceForm": "17 oktober 1943",
+        "locationStart": 49,
+        "locationEnd": 65,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_0",
@@ -1110,6 +1150,30 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "Venray",
+        "locationStart": 66,
+        "locationEnd": 72,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "LOCATION",
+        "surfaceForm": "Venray",
+        "locationStart": 67,
+        "locationEnd": 73,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_6",
+        "category": "TIME",
+        "surfaceForm": "Gestorven",
+        "locationStart": 76,
+        "locationEnd": 84,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_7",
         "surfaceForm": "18 november 1984",
         "category": "TIME",
@@ -1126,6 +1190,14 @@
         "locationStart": 85,
         "locationEnd": 96,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_7",
+        "category": "TIME",
+        "surfaceForm": "18 november 1984",
+        "locationStart": 86,
+        "locationEnd": 103,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_1",
@@ -1164,6 +1236,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_2",
+        "category": "LOC",
+        "surfaceForm": "DeurneNoord- Brabant",
+        "locationStart": 103,
+        "locationEnd": 125,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_8",
+        "category": "LOCATION",
+        "surfaceForm": "Deurne",
+        "locationStart": 105,
+        "locationEnd": 111,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_2",
         "surfaceForm": "Noord-",
         "category": "LOC",
@@ -1192,6 +1280,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "gpt-3.5-turbo_9",
+        "category": "LOCATION",
+        "surfaceForm": "Noord-Brabant",
+        "locationStart": 113,
+        "locationEnd": 125,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_3",
         "surfaceForm": "Brabant",
         "category": "LOC",
@@ -1200,6 +1296,22 @@
         "tokenStart": 23,
         "tokenEnd": 24,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "gpt-3.5-turbo_10",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Plaats en periode van werkzaamheid",
+        "locationStart": 128,
+        "locationEnd": 160,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_11",
+        "category": "LOCATION",
+        "surfaceForm": "Dordogne",
+        "locationStart": 163,
+        "locationEnd": 171,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_4",
@@ -1238,136 +1350,12 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
-        "ID": "gold_3",
-        "surfaceForm": "van 1966 tot 1966",
-        "category": "TIME",
-        "locationStart": 182,
-        "locationEnd": 199,
-        "tokenStart": 37,
-        "tokenEnd": 41,
-        "method": "human_gold"
-      },
-      {
-        "ID": "gysbert_hist_4",
-        "category": "TIME",
-        "surfaceForm": "1966",
-        "locationStart": 186,
-        "locationEnd": 190,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gysbert_hist_4",
-        "category": "TIME",
-        "surfaceForm": "1966",
-        "locationStart": 195,
-        "locationEnd": 199,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gold_4",
-        "surfaceForm": "vier maanden",
-        "category": "TIME",
-        "locationStart": 209,
-        "locationEnd": 221,
-        "tokenStart": 42,
-        "tokenEnd": 44,
-        "method": "human_gold"
-      },
-      {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "Tekenaar",
-        "locationStart": 0,
-        "locationEnd": 8,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "PERSON",
-        "surfaceForm": "beeldhouwer",
-        "locationStart": 10,
-        "locationEnd": 20,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "PERSON",
-        "surfaceForm": "meubelontwerper",
-        "locationStart": 22,
-        "locationEnd": 38,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "TIME",
-        "surfaceForm": "Geboren",
-        "locationStart": 41,
-        "locationEnd": 47,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "TIME",
-        "surfaceForm": "17 oktober 1943",
-        "locationStart": 49,
-        "locationEnd": 65,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "LOCATION",
-        "surfaceForm": "Venray",
-        "locationStart": 67,
-        "locationEnd": 73,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_6",
-        "category": "TIME",
-        "surfaceForm": "Gestorven",
-        "locationStart": 76,
-        "locationEnd": 84,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_7",
-        "category": "TIME",
-        "surfaceForm": "18 november 1984",
-        "locationStart": 86,
-        "locationEnd": 103,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_8",
-        "category": "LOCATION",
-        "surfaceForm": "Deurne",
-        "locationStart": 105,
-        "locationEnd": 111,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_9",
-        "category": "LOCATION",
-        "surfaceForm": "Noord-Brabant",
-        "locationStart": 113,
-        "locationEnd": 125,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_10",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Plaats en periode van werkzaamheid",
-        "locationStart": 128,
-        "locationEnd": 160,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_11",
-        "category": "LOCATION",
+        "ID": "xlmr_ner_4",
+        "category": "LOC",
         "surfaceForm": "Dordogne",
-        "locationStart": 163,
-        "locationEnd": 171,
-        "method": "gpt-3.5-turbo"
+        "locationStart": 164,
+        "locationEnd": 172,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gpt-3.5-turbo_12",
@@ -1378,12 +1366,30 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "gold_3",
+        "surfaceForm": "van 1966 tot 1966",
+        "category": "TIME",
+        "locationStart": 182,
+        "locationEnd": 199,
+        "tokenStart": 37,
+        "tokenEnd": 41,
+        "method": "human_gold"
+      },
+      {
         "ID": "gpt-3.5-turbo_13",
         "category": "TIME",
         "surfaceForm": "1966",
         "locationStart": 183,
         "locationEnd": 187,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gysbert_hist_4",
+        "category": "TIME",
+        "surfaceForm": "1966",
+        "locationStart": 186,
+        "locationEnd": 190,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
         "ID": "gpt-3.5-turbo_14",
@@ -1394,12 +1400,30 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "gysbert_hist_4",
+        "category": "TIME",
+        "surfaceForm": "1966",
+        "locationStart": 195,
+        "locationEnd": 199,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
         "ID": "gpt-3.5-turbo_15",
         "category": "TIME",
         "surfaceForm": "vier maanden",
         "locationStart": 198,
         "locationEnd": 210,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gold_4",
+        "surfaceForm": "vier maanden",
+        "category": "TIME",
+        "locationStart": 209,
+        "locationEnd": 221,
+        "tokenStart": 42,
+        "tokenEnd": 44,
+        "method": "human_gold"
       },
       {
         "ID": "gpt-3.5-turbo_16",

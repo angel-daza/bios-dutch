@@ -1703,6 +1703,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "FRANOIS",
+        "locationStart": 0,
+        "locationEnd": 7,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "FRANOIS (Daniel)",
+        "locationStart": 0,
+        "locationEnd": 16,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_1",
         "surfaceForm": "Daniel",
         "category": "PER",
@@ -1729,6 +1745,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "PERSON",
+        "surfaceForm": "Daniel",
+        "locationStart": 9,
+        "locationEnd": 15,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_3",
         "surfaceForm": "het begin der negentiende eeuw",
         "category": "TIME",
@@ -1737,6 +1761,14 @@
         "tokenStart": 6,
         "tokenEnd": 11,
         "method": "human_gold"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "LOCATION",
+        "surfaceForm": "Leiden",
+        "locationStart": 34,
+        "locationEnd": 40,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_2",
@@ -1775,6 +1807,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Leiden",
+        "locationStart": 64,
+        "locationEnd": 70,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "PERSON",
+        "surfaceForm": "Bilderdijk",
+        "locationStart": 81,
+        "locationEnd": 91,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_3",
         "surfaceForm": "Procureur",
         "category": "PER",
@@ -1791,6 +1839,14 @@
         "locationStart": 109,
         "locationEnd": 118,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "ARTWORK",
+        "surfaceForm": "Schamele proeven van edele pogingen",
+        "locationStart": 135,
+        "locationEnd": 168,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_4",
@@ -1829,6 +1885,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "'s Gravenhage",
+        "locationStart": 146,
+        "locationEnd": 159,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gysbert_hist_0",
         "category": "LOC",
         "surfaceForm": "s",
@@ -1843,6 +1907,38 @@
         "locationStart": 149,
         "locationEnd": 159,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "LOCATION",
+        "surfaceForm": "Leiden",
+        "locationStart": 172,
+        "locationEnd": 178,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_6",
+        "category": "TIME",
+        "surfaceForm": "1804",
+        "locationStart": 180,
+        "locationEnd": 184,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_7",
+        "category": "MISC",
+        "surfaceForm": "8o",
+        "locationStart": 186,
+        "locationEnd": 188,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_8",
+        "category": "PERSON",
+        "surfaceForm": "van der Aa",
+        "locationStart": 193,
+        "locationEnd": 202,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_5",
@@ -1871,6 +1967,38 @@
         "locationStart": 199,
         "locationEnd": 209,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_1",
+        "category": "PER",
+        "surfaceForm": "Bilderdijk",
+        "locationStart": 199,
+        "locationEnd": 209,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_9",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Woordenb. van Ned. Dicht.",
+        "locationStart": 204,
+        "locationEnd": 227,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_10",
+        "category": "ORGANIZATION",
+        "surfaceForm": "D. II.",
+        "locationStart": 229,
+        "locationEnd": 234,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_11",
+        "category": "MISC",
+        "surfaceForm": "bl. 163, 164",
+        "locationStart": 236,
+        "locationEnd": 247,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "flair_2",
@@ -1915,6 +2043,14 @@
         "locationStart": 352,
         "locationEnd": 358,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_3",
+        "category": "LOC",
+        "surfaceForm": "Leiden",
+        "locationStart": 352,
+        "locationEnd": 358,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_5",
@@ -1973,6 +2109,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_4",
+        "category": "PER",
+        "surfaceForm": "van der A",
+        "locationStart": 404,
+        "locationEnd": 413,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gysbert_hist_4",
         "category": "",
         "surfaceForm": "der aa",
@@ -2017,100 +2161,20 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "FRANOIS",
-        "locationStart": 0,
-        "locationEnd": 7,
-        "method": "gpt-3.5-turbo"
+        "ID": "xlmr_ner_5",
+        "category": "PER",
+        "surfaceForm": "Ned. Dicht.",
+        "locationStart": 430,
+        "locationEnd": 441,
+        "method": "xlmr_ner_"
       },
       {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "PERSON",
-        "surfaceForm": "Daniel",
-        "locationStart": 9,
-        "locationEnd": 15,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "LOCATION",
-        "surfaceForm": "Leiden",
-        "locationStart": 34,
-        "locationEnd": 40,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "PERSON",
-        "surfaceForm": "Bilderdijk",
-        "locationStart": 81,
-        "locationEnd": 91,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "ARTWORK",
-        "surfaceForm": "Schamele proeven van edele pogingen",
-        "locationStart": 135,
-        "locationEnd": 168,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "LOCATION",
-        "surfaceForm": "Leiden",
-        "locationStart": 172,
-        "locationEnd": 178,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_6",
-        "category": "TIME",
-        "surfaceForm": "1804",
-        "locationStart": 180,
-        "locationEnd": 184,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_7",
-        "category": "MISC",
-        "surfaceForm": "8o",
-        "locationStart": 186,
-        "locationEnd": 188,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_8",
-        "category": "PERSON",
-        "surfaceForm": "van der Aa",
-        "locationStart": 193,
-        "locationEnd": 202,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_9",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Woordenb. van Ned. Dicht.",
-        "locationStart": 204,
-        "locationEnd": 227,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_10",
-        "category": "ORGANIZATION",
+        "ID": "xlmr_ner_6",
+        "category": "PER",
         "surfaceForm": "D. II.",
-        "locationStart": 229,
-        "locationEnd": 234,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_11",
-        "category": "MISC",
-        "surfaceForm": "bl. 163, 164",
-        "locationStart": 236,
-        "locationEnd": 247,
-        "method": "gpt-3.5-turbo"
+        "locationStart": 442,
+        "locationEnd": 448,
+        "method": "xlmr_ner_"
       }
     ],
     "time_expressions": [

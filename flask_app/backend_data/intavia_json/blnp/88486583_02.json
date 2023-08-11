@@ -1592,6 +1592,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "BEVERSLUIS",
+        "locationStart": 0,
+        "locationEnd": 10,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "BEVERSLUIS",
+        "locationStart": 0,
+        "locationEnd": 10,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_1",
         "surfaceForm": "MARTINUS",
         "category": "PER",
@@ -1608,6 +1624,30 @@
         "locationStart": 12,
         "locationEnd": 20,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "PERSON",
+        "surfaceForm": "MARTINUS",
+        "locationStart": 12,
+        "locationEnd": 20,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "MARTINUS",
+        "locationStart": 12,
+        "locationEnd": 20,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "LOCATION",
+        "surfaceForm": "Dordrecht",
+        "locationStart": 22,
+        "locationEnd": 31,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_2",
@@ -1646,6 +1686,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Dordrecht",
+        "locationStart": 24,
+        "locationEnd": 33,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "TIME",
+        "surfaceForm": "14 aug. 1856",
+        "locationStart": 32,
+        "locationEnd": 44,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_17",
         "surfaceForm": "14 aug . 1856",
         "category": "TIME",
@@ -1670,6 +1726,14 @@
         "locationStart": 42,
         "locationEnd": 46,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "LOCATION",
+        "surfaceForm": "t Schiedam",
+        "locationStart": 46,
+        "locationEnd": 56,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_3",
@@ -1708,6 +1772,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "Schiedam",
+        "locationStart": 50,
+        "locationEnd": 58,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "TIME",
+        "surfaceForm": "21 okt. 1948",
+        "locationStart": 58,
+        "locationEnd": 70,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_23",
         "surfaceForm": "21 okt. 1948",
         "category": "TIME",
@@ -1724,6 +1804,14 @@
         "locationStart": 59,
         "locationEnd": 65,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_6",
+        "category": "PERSON",
+        "surfaceForm": "Pieter Hendrik Beversluis",
+        "locationStart": 73,
+        "locationEnd": 97,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_4",
@@ -1762,6 +1850,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_2",
+        "category": "PER",
+        "surfaceForm": "Pieter Hendrik Beversluis",
+        "locationStart": 81,
+        "locationEnd": 106,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_7",
+        "category": "PERSON",
+        "surfaceForm": "Gijsberta Christina Martina Los",
+        "locationStart": 101,
+        "locationEnd": 133,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_5",
         "surfaceForm": "Gijsberta Christina Martina",
         "category": "PER",
@@ -1796,6 +1900,62 @@
         "locationStart": 130,
         "locationEnd": 161,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_3",
+        "category": "LOC",
+        "surfaceForm": "Gijsberta",
+        "locationStart": 130,
+        "locationEnd": 139,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_8",
+        "category": "LOCATION",
+        "surfaceForm": "Utrecht",
+        "locationStart": 135,
+        "locationEnd": 142,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_3",
+        "category": "PER",
+        "surfaceForm": "Christina",
+        "locationStart": 140,
+        "locationEnd": 149,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_9",
+        "category": "TIME",
+        "surfaceForm": "1878",
+        "locationStart": 144,
+        "locationEnd": 148,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_10",
+        "category": "LOCATION",
+        "surfaceForm": "Sleen",
+        "locationStart": 150,
+        "locationEnd": 155,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_11",
+        "category": "LOCATION",
+        "surfaceForm": "Oldemarkt",
+        "locationStart": 157,
+        "locationEnd": 165,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_12",
+        "category": "LOCATION",
+        "surfaceForm": "Barendrecht",
+        "locationStart": 167,
+        "locationEnd": 178,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_6",
@@ -1834,6 +1994,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_4",
+        "category": "LOC",
+        "surfaceForm": "Utrecht",
+        "locationStart": 176,
+        "locationEnd": 183,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_13",
+        "category": "LOCATION",
+        "surfaceForm": "Veenwouden",
+        "locationStart": 180,
+        "locationEnd": 190,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_3",
         "surfaceForm": "1878",
         "category": "TIME",
@@ -1862,6 +2038,22 @@
         "method": "stanza_nl"
       },
       {
+        "ID": "xlmr_ner_5",
+        "category": "PER",
+        "surfaceForm": "Herv. pred. Sleen",
+        "locationStart": 190,
+        "locationEnd": 207,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_14",
+        "category": "LOCATION",
+        "surfaceForm": "Zuidwolde",
+        "locationStart": 192,
+        "locationEnd": 201,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_4",
         "surfaceForm": "Sleen",
         "category": "LOC",
@@ -1886,6 +2078,14 @@
         "locationStart": 202,
         "locationEnd": 206,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_15",
+        "category": "TIME",
+        "surfaceForm": "1 jan. 1930",
+        "locationStart": 203,
+        "locationEnd": 213,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_5",
@@ -1942,6 +2142,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_5",
+        "category": "LOC",
+        "surfaceForm": "Oldemarkt",
+        "locationStart": 214,
+        "locationEnd": 223,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_16",
+        "category": "PERSON",
+        "surfaceForm": "Maria Antonia van der Hucht",
+        "locationStart": 216,
+        "locationEnd": 243,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_7",
         "surfaceForm": "1888",
         "category": "TIME",
@@ -1996,6 +2212,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_5",
+        "category": "LOC",
+        "surfaceForm": "Barendrecht",
+        "locationStart": 230,
+        "locationEnd": 241,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_9",
         "surfaceForm": "1892",
         "category": "TIME",
@@ -2012,6 +2236,14 @@
         "locationStart": 242,
         "locationEnd": 246,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_17",
+        "category": "TIME",
+        "surfaceForm": "1862 - 1892",
+        "locationStart": 245,
+        "locationEnd": 256,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_10",
@@ -2050,6 +2282,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_5",
+        "category": "LOC",
+        "surfaceForm": "Veenwouden",
+        "locationStart": 248,
+        "locationEnd": 258,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_12",
         "surfaceForm": "1907",
         "category": "TIME",
@@ -2066,6 +2306,14 @@
         "locationStart": 259,
         "locationEnd": 263,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_18",
+        "category": "LOCATION",
+        "surfaceForm": "Nijmegen",
+        "locationStart": 260,
+        "locationEnd": 268,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_11",
@@ -2104,6 +2352,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_5",
+        "category": "LOC",
+        "surfaceForm": "Zuidwolde",
+        "locationStart": 265,
+        "locationEnd": 274,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_19",
+        "category": "TIME",
+        "surfaceForm": "6 febr. 1884",
+        "locationStart": 272,
+        "locationEnd": 284,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_14",
         "surfaceForm": "1908-1 jan. 1930",
         "category": "TIME",
@@ -2128,6 +2392,22 @@
         "locationStart": 280,
         "locationEnd": 291,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_20",
+        "category": "LOCATION",
+        "surfaceForm": "Maassluis",
+        "locationStart": 288,
+        "locationEnd": 297,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_21",
+        "category": "TIME",
+        "surfaceForm": "9 juni 1893",
+        "locationStart": 300,
+        "locationEnd": 312,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_12",
@@ -2164,6 +2444,14 @@
         "locationStart": 317,
         "locationEnd": 325,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_6",
+        "category": "LOC",
+        "surfaceForm": "Nijmegen",
+        "locationStart": 317,
+        "locationEnd": 325,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gysbert_hist_6",
@@ -2208,6 +2496,14 @@
         "locationStart": 346,
         "locationEnd": 373,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_6",
+        "category": "PER",
+        "surfaceForm": "Maria Antonia van der Hucht",
+        "locationStart": 346,
+        "locationEnd": 373,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_18",
@@ -2282,6 +2578,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_7",
+        "category": "LOC",
+        "surfaceForm": "Maassluis",
+        "locationStart": 395,
+        "locationEnd": 404,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gysbert_hist_7",
         "category": "TIME",
         "surfaceForm": "9 juni 1893",
@@ -2298,182 +2602,6 @@
         "tokenStart": 86,
         "tokenEnd": 420,
         "method": "human_gold"
-      },
-      {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "BEVERSLUIS",
-        "locationStart": 0,
-        "locationEnd": 10,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "PERSON",
-        "surfaceForm": "MARTINUS",
-        "locationStart": 12,
-        "locationEnd": 20,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "LOCATION",
-        "surfaceForm": "Dordrecht",
-        "locationStart": 22,
-        "locationEnd": 31,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "TIME",
-        "surfaceForm": "14 aug. 1856",
-        "locationStart": 32,
-        "locationEnd": 44,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "LOCATION",
-        "surfaceForm": "t Schiedam",
-        "locationStart": 46,
-        "locationEnd": 56,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "TIME",
-        "surfaceForm": "21 okt. 1948",
-        "locationStart": 58,
-        "locationEnd": 70,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_6",
-        "category": "PERSON",
-        "surfaceForm": "Pieter Hendrik Beversluis",
-        "locationStart": 73,
-        "locationEnd": 97,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_7",
-        "category": "PERSON",
-        "surfaceForm": "Gijsberta Christina Martina Los",
-        "locationStart": 101,
-        "locationEnd": 133,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_8",
-        "category": "LOCATION",
-        "surfaceForm": "Utrecht",
-        "locationStart": 135,
-        "locationEnd": 142,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_9",
-        "category": "TIME",
-        "surfaceForm": "1878",
-        "locationStart": 144,
-        "locationEnd": 148,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_10",
-        "category": "LOCATION",
-        "surfaceForm": "Sleen",
-        "locationStart": 150,
-        "locationEnd": 155,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_11",
-        "category": "LOCATION",
-        "surfaceForm": "Oldemarkt",
-        "locationStart": 157,
-        "locationEnd": 165,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_12",
-        "category": "LOCATION",
-        "surfaceForm": "Barendrecht",
-        "locationStart": 167,
-        "locationEnd": 178,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_13",
-        "category": "LOCATION",
-        "surfaceForm": "Veenwouden",
-        "locationStart": 180,
-        "locationEnd": 190,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_14",
-        "category": "LOCATION",
-        "surfaceForm": "Zuidwolde",
-        "locationStart": 192,
-        "locationEnd": 201,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_15",
-        "category": "TIME",
-        "surfaceForm": "1 jan. 1930",
-        "locationStart": 203,
-        "locationEnd": 213,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_16",
-        "category": "PERSON",
-        "surfaceForm": "Maria Antonia van der Hucht",
-        "locationStart": 216,
-        "locationEnd": 243,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_17",
-        "category": "TIME",
-        "surfaceForm": "1862 - 1892",
-        "locationStart": 245,
-        "locationEnd": 256,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_18",
-        "category": "LOCATION",
-        "surfaceForm": "Nijmegen",
-        "locationStart": 260,
-        "locationEnd": 268,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_19",
-        "category": "TIME",
-        "surfaceForm": "6 febr. 1884",
-        "locationStart": 272,
-        "locationEnd": 284,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_20",
-        "category": "LOCATION",
-        "surfaceForm": "Maassluis",
-        "locationStart": 288,
-        "locationEnd": 297,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_21",
-        "category": "TIME",
-        "surfaceForm": "9 juni 1893",
-        "locationStart": 300,
-        "locationEnd": 312,
-        "method": "gpt-3.5-turbo"
       }
     ],
     "time_expressions": [

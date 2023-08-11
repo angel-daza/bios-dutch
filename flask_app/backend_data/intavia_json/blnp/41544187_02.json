@@ -2050,6 +2050,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "COEVERDEN ADRIANI",
+        "locationStart": 0,
+        "locationEnd": 16,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "COEVERDEN ADRIANI",
+        "locationStart": 0,
+        "locationEnd": 17,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_0",
         "surfaceForm": "ADRIANI",
         "category": "PER",
@@ -2058,6 +2074,14 @@
         "tokenStart": 1,
         "tokenEnd": 2,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "PERSON",
+        "surfaceForm": "CHRISTOFFEL LAMBERTUS DANIL VAN",
+        "locationStart": 18,
+        "locationEnd": 49,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_1",
@@ -2086,12 +2110,28 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "CHRISTOFFEL LAMBERTUS DANIL VAN",
+        "locationStart": 19,
+        "locationEnd": 50,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "flair_0",
         "category": "PER",
         "surfaceForm": "DANIL VAN",
         "locationStart": 41,
         "locationEnd": 50,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "LOCATION",
+        "surfaceForm": "Kampen",
+        "locationStart": 51,
+        "locationEnd": 57,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_2",
@@ -2130,6 +2170,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Kampen",
+        "locationStart": 54,
+        "locationEnd": 60,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "LOCATION",
+        "surfaceForm": "Velp",
+        "locationStart": 59,
+        "locationEnd": 63,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_27",
         "surfaceForm": "19 mei 1843",
         "category": "TIME",
@@ -2146,6 +2202,14 @@
         "locationStart": 61,
         "locationEnd": 72,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "PERSON",
+        "surfaceForm": "Lambertus Grimmus Adriani",
+        "locationStart": 73,
+        "locationEnd": 95,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_28",
@@ -2174,6 +2238,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Velp",
+        "locationStart": 76,
+        "locationEnd": 80,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_29",
         "surfaceForm": "21 jan. 1911",
         "category": "TIME",
@@ -2190,6 +2262,14 @@
         "locationStart": 81,
         "locationEnd": 93,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "PERSON",
+        "surfaceForm": "Wilhelmina Frede- rika van Coeverden",
+        "locationStart": 100,
+        "locationEnd": 133,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_3",
@@ -2228,6 +2308,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "PER",
+        "surfaceForm": "Lambertus Grimmus Adriani",
+        "locationStart": 103,
+        "locationEnd": 128,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_4",
         "surfaceForm": "Wilhelmina Frede-",
         "category": "PER",
@@ -2264,12 +2352,36 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "PER",
+        "surfaceForm": "Wilhelmina Frede rika van Coeverden",
+        "locationStart": 142,
+        "locationEnd": 178,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_6",
+        "category": "LOCATION",
+        "surfaceForm": "Leiden",
+        "locationStart": 143,
+        "locationEnd": 149,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gysbert_hist_1",
         "category": "PER",
         "surfaceForm": "rika van coeverden",
         "locationStart": 160,
         "locationEnd": 178,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_7",
+        "category": "LOCATION",
+        "surfaceForm": "Benthuizen",
+        "locationStart": 161,
+        "locationEnd": 171,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_5",
@@ -2288,6 +2400,22 @@
         "locationStart": 169,
         "locationEnd": 178,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_8",
+        "category": "LOCATION",
+        "surfaceForm": "Zijderveld",
+        "locationStart": 173,
+        "locationEnd": 183,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_9",
+        "category": "LOCATION",
+        "surfaceForm": "Baambrugge",
+        "locationStart": 185,
+        "locationEnd": 195,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_3",
@@ -2314,6 +2442,22 @@
         "locationStart": 193,
         "locationEnd": 199,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_3",
+        "category": "LOC",
+        "surfaceForm": "Leiden",
+        "locationStart": 193,
+        "locationEnd": 199,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_10",
+        "category": "LOCATION",
+        "surfaceForm": "Harderwijk",
+        "locationStart": 197,
+        "locationEnd": 207,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_4",
@@ -2344,6 +2488,22 @@
         "method": "stanza_nl"
       },
       {
+        "ID": "gpt-3.5-turbo_11",
+        "category": "LOCATION",
+        "surfaceForm": "Rijnsa- terwoude",
+        "locationStart": 209,
+        "locationEnd": 224,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_4",
+        "category": "",
+        "surfaceForm": ".",
+        "locationStart": 211,
+        "locationEnd": 211,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_5",
         "surfaceForm": "Benthuizen",
         "category": "LOC",
@@ -2368,6 +2528,22 @@
         "locationStart": 218,
         "locationEnd": 228,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_4",
+        "category": "LOC",
+        "surfaceForm": "Benthuizen",
+        "locationStart": 218,
+        "locationEnd": 228,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_12",
+        "category": "LOCATION",
+        "surfaceForm": "Oude/ Nieuwe Wetering",
+        "locationStart": 226,
+        "locationEnd": 247,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_6",
@@ -2424,6 +2600,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_4",
+        "category": "LOC",
+        "surfaceForm": "Zijderveld",
+        "locationStart": 235,
+        "locationEnd": 245,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_8",
         "surfaceForm": "1870",
         "category": "TIME",
@@ -2440,6 +2624,14 @@
         "locationStart": 246,
         "locationEnd": 250,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_13",
+        "category": "LOCATION",
+        "surfaceForm": "Oud- Beijerland",
+        "locationStart": 249,
+        "locationEnd": 264,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_8",
@@ -2478,6 +2670,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_4",
+        "category": "LOC",
+        "surfaceForm": "Baambrugge",
+        "locationStart": 252,
+        "locationEnd": 262,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_10",
         "surfaceForm": "1871",
         "category": "TIME",
@@ -2494,6 +2694,14 @@
         "locationStart": 263,
         "locationEnd": 267,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_14",
+        "category": "LOCATION",
+        "surfaceForm": "Harlingen",
+        "locationStart": 266,
+        "locationEnd": 275,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_9",
@@ -2530,6 +2738,14 @@
         "locationStart": 269,
         "locationEnd": 279,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_4",
+        "category": "LOC",
+        "surfaceForm": "Harderwijk",
+        "locationStart": 269,
+        "locationEnd": 279,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_12",
@@ -2594,6 +2810,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_4",
+        "category": "LOC",
+        "surfaceForm": "Rijnsa- terwoude",
+        "locationStart": 293,
+        "locationEnd": 309,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_15",
+        "category": "LOCATION",
+        "surfaceForm": "Kam- pen",
+        "locationStart": 295,
+        "locationEnd": 303,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gysbert_hist_4",
         "category": "LOC",
         "surfaceForm": "terwoude",
@@ -2618,6 +2850,14 @@
         "locationStart": 310,
         "locationEnd": 314,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_16",
+        "category": "PERSON",
+        "surfaceForm": "Petronella Gezina van Gelder",
+        "locationStart": 313,
+        "locationEnd": 342,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_11",
@@ -2654,6 +2894,14 @@
         "locationStart": 316,
         "locationEnd": 320,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_4",
+        "category": "LOC",
+        "surfaceForm": "Oude/ Nieuwe Wetering",
+        "locationStart": 316,
+        "locationEnd": 337,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "flair_5",
@@ -2726,6 +2974,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_4",
+        "category": "LOC",
+        "surfaceForm": "Oud- Beijerland",
+        "locationStart": 344,
+        "locationEnd": 359,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_18",
         "surfaceForm": "1883 - 1887",
         "category": "TIME",
@@ -2742,6 +2998,14 @@
         "locationStart": 360,
         "locationEnd": 364,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_17",
+        "category": "PERSON",
+        "surfaceForm": "Gerharda Sebilla Verhoeven",
+        "locationStart": 363,
+        "locationEnd": 389,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gysbert_hist_4",
@@ -2794,6 +3058,14 @@
         "locationStart": 386,
         "locationEnd": 395,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_5",
+        "category": "LOC",
+        "surfaceForm": "Harlingen",
+        "locationStart": 386,
+        "locationEnd": 395,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_20",
@@ -2866,6 +3138,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_6",
+        "category": "LOC",
+        "surfaceForm": "Kam pen",
+        "locationStart": 441,
+        "locationEnd": 449,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gysbert_hist_6",
         "category": "LOC",
         "surfaceForm": "pen",
@@ -2908,6 +3188,14 @@
         "locationStart": 454,
         "locationEnd": 482,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_6",
+        "category": "PER",
+        "surfaceForm": "Petronella Gezina van Gelder",
+        "locationStart": 454,
+        "locationEnd": 482,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gysbert_hist_6",
@@ -2970,6 +3258,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_6",
+        "category": "LOC",
+        "surfaceForm": "Velp",
+        "locationStart": 512,
+        "locationEnd": 516,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_17",
         "surfaceForm": "Gerharda Sebilla Verhoeven",
         "category": "PER",
@@ -3006,6 +3302,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_6",
+        "category": "PER",
+        "surfaceForm": "Gerharda Sebilla Verhoeven",
+        "locationStart": 521,
+        "locationEnd": 547,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gysbert_hist_6",
         "category": "TIME",
         "surfaceForm": "1846",
@@ -3030,150 +3334,6 @@
         "locationStart": 556,
         "locationEnd": 560,
         "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "COEVERDEN ADRIANI",
-        "locationStart": 0,
-        "locationEnd": 16,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "PERSON",
-        "surfaceForm": "CHRISTOFFEL LAMBERTUS DANIL VAN",
-        "locationStart": 18,
-        "locationEnd": 49,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "LOCATION",
-        "surfaceForm": "Kampen",
-        "locationStart": 51,
-        "locationEnd": 57,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "LOCATION",
-        "surfaceForm": "Velp",
-        "locationStart": 59,
-        "locationEnd": 63,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "PERSON",
-        "surfaceForm": "Lambertus Grimmus Adriani",
-        "locationStart": 73,
-        "locationEnd": 95,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "PERSON",
-        "surfaceForm": "Wilhelmina Frede- rika van Coeverden",
-        "locationStart": 100,
-        "locationEnd": 133,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_6",
-        "category": "LOCATION",
-        "surfaceForm": "Leiden",
-        "locationStart": 143,
-        "locationEnd": 149,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_7",
-        "category": "LOCATION",
-        "surfaceForm": "Benthuizen",
-        "locationStart": 161,
-        "locationEnd": 171,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_8",
-        "category": "LOCATION",
-        "surfaceForm": "Zijderveld",
-        "locationStart": 173,
-        "locationEnd": 183,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_9",
-        "category": "LOCATION",
-        "surfaceForm": "Baambrugge",
-        "locationStart": 185,
-        "locationEnd": 195,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_10",
-        "category": "LOCATION",
-        "surfaceForm": "Harderwijk",
-        "locationStart": 197,
-        "locationEnd": 207,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_11",
-        "category": "LOCATION",
-        "surfaceForm": "Rijnsa- terwoude",
-        "locationStart": 209,
-        "locationEnd": 224,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_12",
-        "category": "LOCATION",
-        "surfaceForm": "Oude/ Nieuwe Wetering",
-        "locationStart": 226,
-        "locationEnd": 247,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_13",
-        "category": "LOCATION",
-        "surfaceForm": "Oud- Beijerland",
-        "locationStart": 249,
-        "locationEnd": 264,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_14",
-        "category": "LOCATION",
-        "surfaceForm": "Harlingen",
-        "locationStart": 266,
-        "locationEnd": 275,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_15",
-        "category": "LOCATION",
-        "surfaceForm": "Kam- pen",
-        "locationStart": 295,
-        "locationEnd": 303,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_16",
-        "category": "PERSON",
-        "surfaceForm": "Petronella Gezina van Gelder",
-        "locationStart": 313,
-        "locationEnd": 342,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_17",
-        "category": "PERSON",
-        "surfaceForm": "Gerharda Sebilla Verhoeven",
-        "locationStart": 363,
-        "locationEnd": 389,
-        "method": "gpt-3.5-turbo"
       }
     ],
     "time_expressions": [

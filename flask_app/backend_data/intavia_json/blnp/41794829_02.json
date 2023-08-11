@@ -4350,6 +4350,30 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "BIESTERVELD",
+        "locationStart": 0,
+        "locationEnd": 11,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "BIESTERVELD",
+        "locationStart": 0,
+        "locationEnd": 11,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "PERSON",
+        "surfaceForm": "PETRUS",
+        "locationStart": 12,
+        "locationEnd": 18,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_0",
         "surfaceForm": "PETRUS",
         "category": "PER",
@@ -4374,6 +4398,22 @@
         "locationStart": 13,
         "locationEnd": 19,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "PETRUS",
+        "locationStart": 13,
+        "locationEnd": 19,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "LOCATION",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 20,
+        "locationEnd": 29,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_1",
@@ -4412,6 +4452,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 23,
+        "locationEnd": 32,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "TIME",
+        "surfaceForm": "13 juni 1863",
+        "locationStart": 30,
+        "locationEnd": 42,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_21",
         "surfaceForm": "13 juni 1863",
         "category": "TIME",
@@ -4428,6 +4484,14 @@
         "locationStart": 33,
         "locationEnd": 45,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "LOCATION",
+        "surfaceForm": "t Amsterdam",
+        "locationStart": 44,
+        "locationEnd": 55,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_2",
@@ -4466,6 +4530,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 49,
+        "locationEnd": 58,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "TIME",
+        "surfaceForm": "14 dec. 1908",
+        "locationStart": 56,
+        "locationEnd": 68,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_30",
         "surfaceForm": "14 dec. 1908",
         "category": "TIME",
@@ -4482,6 +4562,14 @@
         "locationStart": 59,
         "locationEnd": 71,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_6",
+        "category": "PERSON",
+        "surfaceForm": "Petrus Biesterveld",
+        "locationStart": 71,
+        "locationEnd": 88,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_3",
@@ -4520,6 +4608,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "PER",
+        "surfaceForm": "Petrus Biesterveld",
+        "locationStart": 81,
+        "locationEnd": 99,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_7",
+        "category": "PERSON",
+        "surfaceForm": "Marga- retha Rijfkogel",
+        "locationStart": 93,
+        "locationEnd": 113,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_4",
         "surfaceForm": "Marga-",
         "category": "MISC",
@@ -4556,12 +4660,28 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "PER",
+        "surfaceForm": "Marga retha Rijfkogel",
+        "locationStart": 115,
+        "locationEnd": 137,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gysbert_hist_1",
         "category": "PER",
         "surfaceForm": "retha rijfkogel",
         "locationStart": 122,
         "locationEnd": 137,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_8",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Theol. School Kampen",
+        "locationStart": 126,
+        "locationEnd": 145,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_5",
@@ -4600,6 +4720,14 @@
         "tokenStart": 29,
         "tokenEnd": 32,
         "method": "human_gold"
+      },
+      {
+        "ID": "gpt-3.5-turbo_9",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Geref. pred. Sexbierum",
+        "locationStart": 147,
+        "locationEnd": 167,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_7",
@@ -4664,6 +4792,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_10",
+        "category": "LOCATION",
+        "surfaceForm": "Gorin- chem",
+        "locationStart": 168,
+        "locationEnd": 178,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_8",
         "surfaceForm": "Geref. pred. Sexbierum",
         "category": "MISC",
@@ -4672,6 +4808,14 @@
         "tokenStart": 35,
         "tokenEnd": 38,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "gpt-3.5-turbo_11",
+        "category": "LOCATION",
+        "surfaceForm": "Rotterdam",
+        "locationStart": 179,
+        "locationEnd": 188,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_9",
@@ -4698,6 +4842,22 @@
         "locationStart": 185,
         "locationEnd": 194,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_4",
+        "category": "LOC",
+        "surfaceForm": "Sexbierum",
+        "locationStart": 185,
+        "locationEnd": 194,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_12",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Theol. School Kampen",
+        "locationStart": 190,
+        "locationEnd": 209,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_10",
@@ -4754,12 +4914,28 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_4",
+        "category": "LOC",
+        "surfaceForm": "Gorin chem",
+        "locationStart": 201,
+        "locationEnd": 212,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gysbert_hist_4",
         "category": "LOC",
         "surfaceForm": "chem",
         "locationStart": 208,
         "locationEnd": 212,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_13",
+        "category": "ORGANIZATION",
+        "surfaceForm": "V.U.",
+        "locationStart": 210,
+        "locationEnd": 213,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_12",
@@ -4816,6 +4992,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_4",
+        "category": "LOC",
+        "surfaceForm": "Rotterdam",
+        "locationStart": 219,
+        "locationEnd": 228,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_14",
+        "category": "PERSON",
+        "surfaceForm": "Bregtje Nomes",
+        "locationStart": 221,
+        "locationEnd": 234,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_14",
         "surfaceForm": "1890 - 1894",
         "category": "TIME",
@@ -4852,6 +5044,22 @@
         "method": "stanza_nl"
       },
       {
+        "ID": "xlmr_ner_5",
+        "category": "ORG",
+        "surfaceForm": "Hoogl. Theol. School",
+        "locationStart": 242,
+        "locationEnd": 262,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_15",
+        "category": "PERSON",
+        "surfaceForm": "Martje Visser",
+        "locationStart": 246,
+        "locationEnd": 258,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_16",
         "surfaceForm": "Theol . School",
         "category": "ORG",
@@ -4870,6 +5078,14 @@
         "tokenStart": 52,
         "tokenEnd": 54,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "gpt-3.5-turbo_16",
+        "category": "PERSON",
+        "surfaceForm": "B.",
+        "locationStart": 260,
+        "locationEnd": 261,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_17",
@@ -4924,6 +5140,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_17",
+        "category": "PERSON",
+        "surfaceForm": "A. Kuyper",
+        "locationStart": 287,
+        "locationEnd": 296,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_19",
         "surfaceForm": "V.U.",
         "category": "ORG",
@@ -4968,6 +5192,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_18",
+        "category": "TIME",
+        "surfaceForm": "30-jarige leeftijd",
+        "locationStart": 331,
+        "locationEnd": 348,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_13",
         "surfaceForm": "N.T.",
         "category": "PER",
@@ -4984,6 +5216,22 @@
         "locationStart": 348,
         "locationEnd": 352,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_6",
+        "category": "PER",
+        "surfaceForm": "N.T.",
+        "locationStart": 348,
+        "locationEnd": 352,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_19",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Theol. School te Kampen",
+        "locationStart": 354,
+        "locationEnd": 377,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_22",
@@ -5038,6 +5286,14 @@
         "locationStart": 388,
         "locationEnd": 401,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_7",
+        "category": "PER",
+        "surfaceForm": "Bregtje Nomes",
+        "locationStart": 388,
+        "locationEnd": 401,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_24",
@@ -5112,6 +5368,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_7",
+        "category": "PER",
+        "surfaceForm": "Martje Visser",
+        "locationStart": 433,
+        "locationEnd": 446,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_27",
         "surfaceForm": "1867 - 1909",
         "category": "TIME",
@@ -5166,6 +5430,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_8",
+        "category": "PER",
+        "surfaceForm": "B.",
+        "locationStart": 462,
+        "locationEnd": 464,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_17",
         "surfaceForm": "A. Kuyper",
         "category": "PER",
@@ -5194,6 +5466,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_10",
+        "category": "PER",
+        "surfaceForm": "A. Kuyper",
+        "locationStart": 938,
+        "locationEnd": 946,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_18",
         "surfaceForm": "B.",
         "category": "PER",
@@ -5220,6 +5500,14 @@
         "locationStart": 1001,
         "locationEnd": 1003,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_11",
+        "category": "PER",
+        "surfaceForm": "B.",
+        "locationStart": 1001,
+        "locationEnd": 1003,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_19",
@@ -5258,6 +5546,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_12",
+        "category": "ORG",
+        "surfaceForm": "School",
+        "locationStart": 1051,
+        "locationEnd": 1057,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_20",
         "surfaceForm": "Kampen",
         "category": "LOC",
@@ -5294,6 +5590,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_12",
+        "category": "LOC",
+        "surfaceForm": "Kampen",
+        "locationStart": 1061,
+        "locationEnd": 1067,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_21",
         "surfaceForm": "B.",
         "category": "PER",
@@ -5322,164 +5626,12 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "BIESTERVELD",
-        "locationStart": 0,
-        "locationEnd": 11,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "PERSON",
-        "surfaceForm": "PETRUS",
-        "locationStart": 12,
-        "locationEnd": 18,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "LOCATION",
-        "surfaceForm": "Amsterdam",
-        "locationStart": 20,
-        "locationEnd": 29,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "TIME",
-        "surfaceForm": "13 juni 1863",
-        "locationStart": 30,
-        "locationEnd": 42,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "LOCATION",
-        "surfaceForm": "t Amsterdam",
-        "locationStart": 44,
-        "locationEnd": 55,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "TIME",
-        "surfaceForm": "14 dec. 1908",
-        "locationStart": 56,
-        "locationEnd": 68,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_6",
-        "category": "PERSON",
-        "surfaceForm": "Petrus Biesterveld",
-        "locationStart": 71,
-        "locationEnd": 88,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_7",
-        "category": "PERSON",
-        "surfaceForm": "Marga- retha Rijfkogel",
-        "locationStart": 93,
-        "locationEnd": 113,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_8",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Theol. School Kampen",
-        "locationStart": 126,
-        "locationEnd": 145,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_9",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Geref. pred. Sexbierum",
-        "locationStart": 147,
-        "locationEnd": 167,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_10",
-        "category": "LOCATION",
-        "surfaceForm": "Gorin- chem",
-        "locationStart": 168,
-        "locationEnd": 178,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_11",
-        "category": "LOCATION",
-        "surfaceForm": "Rotterdam",
-        "locationStart": 179,
-        "locationEnd": 188,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_12",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Theol. School Kampen",
-        "locationStart": 190,
-        "locationEnd": 209,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_13",
-        "category": "ORGANIZATION",
-        "surfaceForm": "V.U.",
-        "locationStart": 210,
-        "locationEnd": 213,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_14",
-        "category": "PERSON",
-        "surfaceForm": "Bregtje Nomes",
-        "locationStart": 221,
-        "locationEnd": 234,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_15",
-        "category": "PERSON",
-        "surfaceForm": "Martje Visser",
-        "locationStart": 246,
-        "locationEnd": 258,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_16",
-        "category": "PERSON",
+        "ID": "xlmr_ner_13",
+        "category": "PER",
         "surfaceForm": "B.",
-        "locationStart": 260,
-        "locationEnd": 261,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_17",
-        "category": "PERSON",
-        "surfaceForm": "A. Kuyper",
-        "locationStart": 287,
-        "locationEnd": 296,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_18",
-        "category": "TIME",
-        "surfaceForm": "30-jarige leeftijd",
-        "locationStart": 331,
-        "locationEnd": 348,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_19",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Theol. School te Kampen",
-        "locationStart": 354,
-        "locationEnd": 377,
-        "method": "gpt-3.5-turbo"
+        "locationStart": 1198,
+        "locationEnd": 1200,
+        "method": "xlmr_ner_"
       }
     ],
     "time_expressions": [

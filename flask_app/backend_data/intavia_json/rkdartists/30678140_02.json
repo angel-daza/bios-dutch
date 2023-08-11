@@ -445,6 +445,46 @@
     },
     "entities": [
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Wandschilder",
+        "locationStart": 0,
+        "locationEnd": 11,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "ORGANIZATION",
+        "surfaceForm": "amateur",
+        "locationStart": 13,
+        "locationEnd": 20,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "ORGANIZATION",
+        "surfaceForm": "kopiist",
+        "locationStart": 22,
+        "locationEnd": 29,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "ORGANIZATION",
+        "surfaceForm": "schilder",
+        "locationStart": 31,
+        "locationEnd": 38,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "LOCATION",
+        "surfaceForm": "Rotterdam",
+        "locationStart": 42,
+        "locationEnd": 51,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_1",
         "surfaceForm": "15 maart 1896",
         "category": "TIME",
@@ -461,6 +501,14 @@
         "locationStart": 51,
         "locationEnd": 64,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "LOCATION",
+        "surfaceForm": "Bolsward",
+        "locationStart": 64,
+        "locationEnd": 72,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_0",
@@ -497,6 +545,14 @@
         "locationStart": 66,
         "locationEnd": 75,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "Rotterdam",
+        "locationStart": 66,
+        "locationEnd": 75,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_3",
@@ -553,52 +609,12 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Wandschilder",
-        "locationStart": 0,
-        "locationEnd": 11,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "ORGANIZATION",
-        "surfaceForm": "amateur",
-        "locationStart": 13,
-        "locationEnd": 20,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "ORGANIZATION",
-        "surfaceForm": "kopiist",
-        "locationStart": 22,
-        "locationEnd": 29,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "ORGANIZATION",
-        "surfaceForm": "schilder",
-        "locationStart": 31,
-        "locationEnd": 38,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "LOCATION",
-        "surfaceForm": "Rotterdam",
-        "locationStart": 42,
-        "locationEnd": 51,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "LOCATION",
+        "ID": "xlmr_ner_2",
+        "category": "LOC",
         "surfaceForm": "Bolsward",
-        "locationStart": 64,
-        "locationEnd": 72,
-        "method": "gpt-3.5-turbo"
+        "locationStart": 105,
+        "locationEnd": 113,
+        "method": "xlmr_ner_"
       }
     ],
     "time_expressions": [

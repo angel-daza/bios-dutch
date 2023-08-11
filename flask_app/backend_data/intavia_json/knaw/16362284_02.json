@@ -18454,6 +18454,14 @@
     },
     "entities": [
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "Johannes Christiaan Brandt Corstius",
+        "locationStart": 0,
+        "locationEnd": 31,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_0",
         "surfaceForm": "Johannes Christiaan Brandt",
         "category": "PER",
@@ -18490,12 +18498,36 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "Johannes Christiaan Brandt Corstius",
+        "locationStart": 4,
+        "locationEnd": 39,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gysbert_hist_0",
         "category": "PER",
         "surfaceForm": "cors steinmet",
         "locationStart": 31,
         "locationEnd": 67,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "PERSON",
+        "surfaceForm": "H. Steinmetz",
+        "locationStart": 32,
+        "locationEnd": 44,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "PERSON",
+        "surfaceForm": "Johannes Christiaan Brandt Corstius",
+        "locationStart": 46,
+        "locationEnd": 77,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_1",
@@ -18524,6 +18556,14 @@
         "locationStart": 56,
         "locationEnd": 58,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "H. Steinmetz",
+        "locationStart": 56,
+        "locationEnd": 68,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "flair_1",
@@ -18570,12 +18610,36 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "Johannes Christiaan Brandt Corstius",
+        "locationStart": 69,
+        "locationEnd": 104,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "DATE",
+        "surfaceForm": "31 december 1908",
+        "locationStart": 78,
+        "locationEnd": 95,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gysbert_hist_0",
         "category": "PER",
         "surfaceForm": "corsti",
         "locationStart": 96,
         "locationEnd": 102,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "DATE",
+        "surfaceForm": "3 december 1985",
+        "locationStart": 96,
+        "locationEnd": 111,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_0",
@@ -18594,6 +18658,14 @@
         "locationStart": 105,
         "locationEnd": 121,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "PERSON",
+        "surfaceForm": "Johannes Christiaan Brandt Corstius",
+        "locationStart": 115,
+        "locationEnd": 146,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gysbert_hist_0",
@@ -18620,6 +18692,14 @@
         "locationStart": 141,
         "locationEnd": 156,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_6",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Akademie",
+        "locationStart": 160,
+        "locationEnd": 168,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_3",
@@ -18658,6 +18738,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "PER",
+        "surfaceForm": "Johannes Christiaan Brandt Corstius",
+        "locationStart": 170,
+        "locationEnd": 205,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_7",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Nederlandse",
+        "locationStart": 198,
+        "locationEnd": 208,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_19",
         "surfaceForm": "sedert 1959",
         "category": "TIME",
@@ -18666,6 +18762,14 @@
         "tokenStart": 29,
         "tokenEnd": 31,
         "method": "human_gold"
+      },
+      {
+        "ID": "gpt-3.5-turbo_8",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Vergelijkende Literatuurwetenschap",
+        "locationStart": 209,
+        "locationEnd": 238,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gysbert_hist_1",
@@ -18704,6 +18808,30 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "ORG",
+        "surfaceForm": "Akademie",
+        "locationStart": 230,
+        "locationEnd": 238,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_9",
+        "category": "LOCATION",
+        "surfaceForm": "Nederland",
+        "locationStart": 255,
+        "locationEnd": 263,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_10",
+        "category": "PERSON",
+        "surfaceForm": "Johannes Christiaan Brandt Corstius",
+        "locationStart": 265,
+        "locationEnd": 296,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_5",
         "surfaceForm": "Nederlandse",
         "category": "MISC",
@@ -18720,6 +18848,14 @@
         "locationStart": 269,
         "locationEnd": 280,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_11",
+        "category": "LOCATION",
+        "surfaceForm": "Rotterdam",
+        "locationStart": 307,
+        "locationEnd": 316,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_6",
@@ -18740,6 +18876,46 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "gpt-3.5-turbo_12",
+        "category": "ORGANIZATION",
+        "surfaceForm": "HBS-B",
+        "locationStart": 324,
+        "locationEnd": 329,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_13",
+        "category": "ORGANIZATION",
+        "surfaceForm": "gymnasium A",
+        "locationStart": 338,
+        "locationEnd": 349,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_14",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Universiteit van Utrecht",
+        "locationStart": 363,
+        "locationEnd": 385,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_15",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Utrechtse",
+        "locationStart": 386,
+        "locationEnd": 395,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_16",
+        "category": "DATE",
+        "surfaceForm": "1934",
+        "locationStart": 408,
+        "locationEnd": 412,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_7",
         "surfaceForm": "Vergelijkende Literatuurwetenschap",
         "category": "ORG",
@@ -18756,6 +18932,14 @@
         "locationStart": 411,
         "locationEnd": 445,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_17",
+        "category": "PERSON",
+        "surfaceForm": "Wilhelmina Wytske Molenaar",
+        "locationStart": 429,
+        "locationEnd": 452,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_8",
@@ -18786,6 +18970,54 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_2",
+        "category": "LOC",
+        "surfaceForm": "Nederland",
+        "locationStart": 449,
+        "locationEnd": 458,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_18",
+        "category": "NUMBER",
+        "surfaceForm": "drie",
+        "locationStart": 454,
+        "locationEnd": 458,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_19",
+        "category": "LOCATION",
+        "surfaceForm": "Den Haag",
+        "locationStart": 482,
+        "locationEnd": 490,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_20",
+        "category": "LOCATION",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 492,
+        "locationEnd": 501,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_21",
+        "category": "LOCATION",
+        "surfaceForm": "Eindhoven",
+        "locationStart": 503,
+        "locationEnd": 512,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_22",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Utrechts Stedelijk Gymnasium",
+        "locationStart": 522,
+        "locationEnd": 546,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_9",
         "surfaceForm": "Nederland",
         "category": "LOC",
@@ -18812,6 +19044,54 @@
         "locationStart": 564,
         "locationEnd": 573,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_2",
+        "category": "LOC",
+        "surfaceForm": "Nederland",
+        "locationStart": 564,
+        "locationEnd": 573,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_23",
+        "category": "DATE",
+        "surfaceForm": "1947",
+        "locationStart": 571,
+        "locationEnd": 575,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_24",
+        "category": "DATE",
+        "surfaceForm": "1959",
+        "locationStart": 579,
+        "locationEnd": 583,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_25",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Utrechtse",
+        "locationStart": 600,
+        "locationEnd": 609,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_26",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Leidse",
+        "locationStart": 628,
+        "locationEnd": 634,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_27",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Nederlandse",
+        "locationStart": 642,
+        "locationEnd": 652,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_10",
@@ -18850,6 +19130,30 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_3",
+        "category": "PER",
+        "surfaceForm": "Johannes Christiaan Brandt Corstius",
+        "locationStart": 661,
+        "locationEnd": 696,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_28",
+        "category": "DATE",
+        "surfaceForm": "1960",
+        "locationStart": 672,
+        "locationEnd": 676,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_29",
+        "category": "LOCATION",
+        "surfaceForm": "Utrecht",
+        "locationStart": 694,
+        "locationEnd": 701,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_44",
         "surfaceForm": "31 december 1908",
         "category": "TIME",
@@ -18866,6 +19170,14 @@
         "locationStart": 705,
         "locationEnd": 721,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_30",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Utrechtse Faculteit der Letteren",
+        "locationStart": 705,
+        "locationEnd": 734,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_11",
@@ -18904,6 +19216,30 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_3",
+        "category": "LOC",
+        "surfaceForm": "Rotterdam",
+        "locationStart": 725,
+        "locationEnd": 734,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_31",
+        "category": "NUMBER",
+        "surfaceForm": "twaalf",
+        "locationStart": 741,
+        "locationEnd": 746,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_32",
+        "category": "ORGANIZATION",
+        "surfaceForm": "'In- stituut voor Vergelijkend Literatuuronderzoek'",
+        "locationStart": 748,
+        "locationEnd": 792,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_12",
         "surfaceForm": "HBS-B",
         "category": "ORG",
@@ -18922,6 +19258,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_4",
+        "category": "ORG",
+        "surfaceForm": "HBS-",
+        "locationStart": 771,
+        "locationEnd": 775,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "xlmr_ner_4",
+        "category": "ORG",
+        "surfaceForm": "gym",
+        "locationStart": 788,
+        "locationEnd": 791,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_13",
         "surfaceForm": "A",
         "category": "ORG",
@@ -18938,6 +19290,22 @@
         "locationStart": 798,
         "locationEnd": 799,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_33",
+        "category": "PERSON",
+        "surfaceForm": "W.A.P. Smit",
+        "locationStart": 808,
+        "locationEnd": 818,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_34",
+        "category": "PERSON",
+        "surfaceForm": "H. Sparnaay",
+        "locationStart": 820,
+        "locationEnd": 830,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_14",
@@ -18968,6 +19336,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_5",
+        "category": "ORG",
+        "surfaceForm": "Universiteit van Utrecht",
+        "locationStart": 822,
+        "locationEnd": 846,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_35",
+        "category": "PERSON",
+        "surfaceForm": "H.P.H. Teesing",
+        "locationStart": 835,
+        "locationEnd": 848,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gysbert_hist_5",
         "category": "LOC",
         "surfaceForm": "utrecht",
@@ -18992,6 +19376,22 @@
         "locationStart": 847,
         "locationEnd": 858,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_36",
+        "category": "PERSON",
+        "surfaceForm": "Brandt Corstius",
+        "locationStart": 850,
+        "locationEnd": 864,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_37",
+        "category": "PERSON",
+        "surfaceForm": "Brandt Corstius",
+        "locationStart": 877,
+        "locationEnd": 891,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_16",
@@ -19022,6 +19422,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "gpt-3.5-turbo_38",
+        "category": "PERSON",
+        "surfaceForm": "Brandt Corstius",
+        "locationStart": 912,
+        "locationEnd": 926,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_48",
         "surfaceForm": "1934",
         "category": "TIME",
@@ -19038,6 +19446,14 @@
         "locationStart": 923,
         "locationEnd": 927,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_39",
+        "category": "PERSON",
+        "surfaceForm": "Brandt Corstius",
+        "locationStart": 942,
+        "locationEnd": 956,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_49",
@@ -19086,6 +19502,54 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_6",
+        "category": "PER",
+        "surfaceForm": "Wilhelmina Wytske Molenaar",
+        "locationStart": 991,
+        "locationEnd": 1017,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_40",
+        "category": "PERSON",
+        "surfaceForm": "Brandt Corstius",
+        "locationStart": 1000,
+        "locationEnd": 1014,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_41",
+        "category": "PERSON",
+        "surfaceForm": "Brandt Corstius",
+        "locationStart": 1019,
+        "locationEnd": 1033,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_42",
+        "category": "PERSON",
+        "surfaceForm": "Brandt Corstius",
+        "locationStart": 1039,
+        "locationEnd": 1053,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_43",
+        "category": "PERSON",
+        "surfaceForm": "Brandt Corstius",
+        "locationStart": 1059,
+        "locationEnd": 1073,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_44",
+        "category": "PERSON",
+        "surfaceForm": "Brandt Corstius",
+        "locationStart": 1079,
+        "locationEnd": 1093,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_1",
         "surfaceForm": "Na zijn doctoraalexamen",
         "category": "TIME",
@@ -19094,6 +19558,14 @@
         "tokenStart": 169,
         "tokenEnd": 172,
         "method": "human_gold"
+      },
+      {
+        "ID": "gpt-3.5-turbo_45",
+        "category": "PERSON",
+        "surfaceForm": "Brandt Corstius",
+        "locationStart": 1099,
+        "locationEnd": 1113,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_18",
@@ -19132,6 +19604,54 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_8",
+        "category": "PER",
+        "surfaceForm": "Brandt Corstius",
+        "locationStart": 1117,
+        "locationEnd": 1132,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_46",
+        "category": "PERSON",
+        "surfaceForm": "Brandt Corstius",
+        "locationStart": 1119,
+        "locationEnd": 1133,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_47",
+        "category": "PERSON",
+        "surfaceForm": "Brandt Corstius",
+        "locationStart": 1139,
+        "locationEnd": 1153,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_48",
+        "category": "PERSON",
+        "surfaceForm": "Brandt Corstius",
+        "locationStart": 1159,
+        "locationEnd": 1173,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_49",
+        "category": "PERSON",
+        "surfaceForm": "Brandt Corstius",
+        "locationStart": 1179,
+        "locationEnd": 1193,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_50",
+        "category": "PERSON",
+        "surfaceForm": "Brandt Corstius",
+        "locationStart": 1199,
+        "locationEnd": 1213,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_19",
         "surfaceForm": "Den Haag",
         "category": "LOC",
@@ -19160,12 +19680,28 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_8",
+        "category": "LOC",
+        "surfaceForm": "Den Haag",
+        "locationStart": 1211,
+        "locationEnd": 1219,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gysbert_hist_8",
         "category": "LOC",
         "surfaceForm": "haag",
         "locationStart": 1215,
         "locationEnd": 1219,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_51",
+        "category": "PERSON",
+        "surfaceForm": "Brandt Corstius",
+        "locationStart": 1219,
+        "locationEnd": 1233,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_20",
@@ -19204,6 +19740,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_8",
+        "category": "LOC",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 1221,
+        "locationEnd": 1230,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_21",
         "surfaceForm": "Eindhoven",
         "category": "LOC",
@@ -19238,6 +19782,38 @@
         "locationStart": 1232,
         "locationEnd": 1241,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_8",
+        "category": "LOC",
+        "surfaceForm": "Eindhoven",
+        "locationStart": 1232,
+        "locationEnd": 1241,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_52",
+        "category": "PERSON",
+        "surfaceForm": "Brandt Corstius",
+        "locationStart": 1239,
+        "locationEnd": 1253,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_53",
+        "category": "PERSON",
+        "surfaceForm": "Brandt Corstius",
+        "locationStart": 1259,
+        "locationEnd": 1273,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_54",
+        "category": "PERSON",
+        "surfaceForm": "Brandt Corstius",
+        "locationStart": 1279,
+        "locationEnd": 1293,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_22",
@@ -19284,6 +19860,30 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_9",
+        "category": "ORG",
+        "surfaceForm": "Stedelijk Gymnasium",
+        "locationStart": 1295,
+        "locationEnd": 1314,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_55",
+        "category": "PERSON",
+        "surfaceForm": "Brandt Corstius",
+        "locationStart": 1299,
+        "locationEnd": 1313,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_56",
+        "category": "PERSON",
+        "surfaceForm": "Brandt Corstius",
+        "locationStart": 1319,
+        "locationEnd": 1333,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_7",
         "surfaceForm": "1947 tot 1959",
         "category": "TIME",
@@ -19308,6 +19908,30 @@
         "locationStart": 1329,
         "locationEnd": 1332,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_57",
+        "category": "PERSON",
+        "surfaceForm": "Brandt Corstius",
+        "locationStart": 1339,
+        "locationEnd": 1353,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_58",
+        "category": "PERSON",
+        "surfaceForm": "Brandt Corstius",
+        "locationStart": 1359,
+        "locationEnd": 1373,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_59",
+        "category": "PERSON",
+        "surfaceForm": "Brandt Corstius",
+        "locationStart": 1379,
+        "locationEnd": 1393,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_23",
@@ -19356,1388 +19980,6 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
-        "ID": "stanza_nl_25",
-        "surfaceForm": "Leidse",
-        "category": "MISC",
-        "locationStart": 1488,
-        "locationEnd": 1494,
-        "tokenStart": 236,
-        "tokenEnd": 237,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_10",
-        "surfaceForm": "Leidse universiteit",
-        "category": "ORG",
-        "locationStart": 1488,
-        "locationEnd": 1507,
-        "tokenStart": 236,
-        "tokenEnd": 238,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_10",
-        "category": "MISC",
-        "surfaceForm": "Leidse",
-        "locationStart": 1488,
-        "locationEnd": 1494,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_11",
-        "category": "LOC",
-        "surfaceForm": "leid",
-        "locationStart": 1488,
-        "locationEnd": 1492,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_26",
-        "surfaceForm": "Nederlandse",
-        "category": "MISC",
-        "locationStart": 1533,
-        "locationEnd": 1544,
-        "tokenStart": 244,
-        "tokenEnd": 245,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "flair_10",
-        "category": "MISC",
-        "surfaceForm": "Nederlandse",
-        "locationStart": 1533,
-        "locationEnd": 1544,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gold_11",
-        "surfaceForm": "1960",
-        "category": "TIME",
-        "locationStart": 1574,
-        "locationEnd": 1578,
-        "tokenStart": 251,
-        "tokenEnd": 252,
-        "method": "human_gold"
-      },
-      {
-        "ID": "gysbert_hist_11",
-        "category": "TIME",
-        "surfaceForm": "1960",
-        "locationStart": 1574,
-        "locationEnd": 1578,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_27",
-        "surfaceForm": "Vergelijkende Literatuurwetenschap",
-        "category": "MISC",
-        "locationStart": 1608,
-        "locationEnd": 1642,
-        "tokenStart": 257,
-        "tokenEnd": 259,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "flair_10",
-        "category": "MISC",
-        "surfaceForm": "Vergelijkende Literatuurwetenschap na de mid",
-        "locationStart": 1608,
-        "locationEnd": 1652,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "stanza_nl_28",
-        "surfaceForm": "Universiteit van Utrecht",
-        "category": "ORG",
-        "locationStart": 1671,
-        "locationEnd": 1695,
-        "tokenStart": 265,
-        "tokenEnd": 268,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_12",
-        "surfaceForm": "Universiteit van Utrecht",
-        "category": "ORG",
-        "locationStart": 1671,
-        "locationEnd": 1695,
-        "tokenStart": 265,
-        "tokenEnd": 268,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_10",
-        "category": "ORG",
-        "surfaceForm": "Universiteit van Utrecht",
-        "locationStart": 1671,
-        "locationEnd": 1695,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_11",
-        "category": "LOC",
-        "surfaceForm": "utrecht",
-        "locationStart": 1688,
-        "locationEnd": 1695,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_29",
-        "surfaceForm": "Utrechtse Faculteit der Letteren",
-        "category": "ORG",
-        "locationStart": 1703,
-        "locationEnd": 1735,
-        "tokenStart": 271,
-        "tokenEnd": 275,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_13",
-        "surfaceForm": "Utrechtse Faculteit der Letteren",
-        "category": "ORG",
-        "locationStart": 1703,
-        "locationEnd": 1735,
-        "tokenStart": 271,
-        "tokenEnd": 275,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_11",
-        "category": "MISC",
-        "surfaceForm": "Utrechtse",
-        "locationStart": 1703,
-        "locationEnd": 1712,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "flair_11",
-        "category": "ORG",
-        "surfaceForm": "Faculteit der Letteren",
-        "locationStart": 1713,
-        "locationEnd": 1735,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "stanza_nl_30",
-        "surfaceForm": "In- stituut voor Vergelijkend Literatuuronderzoek",
-        "category": "MISC",
-        "locationStart": 1778,
-        "locationEnd": 1827,
-        "tokenStart": 283,
-        "tokenEnd": 288,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "flair_11",
-        "category": "ORG",
-        "surfaceForm": "In-",
-        "locationStart": 1778,
-        "locationEnd": 1781,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "flair_11",
-        "category": "ORG",
-        "surfaceForm": "voor Vergelijkend Literatuuronderzoek",
-        "locationStart": 1790,
-        "locationEnd": 1827,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "stanza_nl_31",
-        "surfaceForm": "W.A.P. Smit",
-        "category": "PER",
-        "locationStart": 1910,
-        "locationEnd": 1921,
-        "tokenStart": 302,
-        "tokenEnd": 304,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_15",
-        "surfaceForm": "W.A.P. Smit",
-        "category": "PER",
-        "locationStart": 1910,
-        "locationEnd": 1921,
-        "tokenStart": 302,
-        "tokenEnd": 304,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_11",
-        "category": "PER",
-        "surfaceForm": "W.A.P.",
-        "locationStart": 1910,
-        "locationEnd": 1916,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_12",
-        "category": "PER",
-        "surfaceForm": "p smit",
-        "locationStart": 1914,
-        "locationEnd": 1921,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "flair_12",
-        "category": "PER",
-        "surfaceForm": "Smit",
-        "locationStart": 1917,
-        "locationEnd": 1921,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "stanza_nl_32",
-        "surfaceForm": "H. Sparnaay",
-        "category": "PER",
-        "locationStart": 1923,
-        "locationEnd": 1934,
-        "tokenStart": 305,
-        "tokenEnd": 307,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_16",
-        "surfaceForm": "H. Sparnaay",
-        "category": "PER",
-        "locationStart": 1923,
-        "locationEnd": 1934,
-        "tokenStart": 305,
-        "tokenEnd": 307,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_12",
-        "category": "PER",
-        "surfaceForm": "H. Sparnaay",
-        "locationStart": 1923,
-        "locationEnd": 1934,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_12",
-        "category": "PER",
-        "surfaceForm": "h sparnaay",
-        "locationStart": 1923,
-        "locationEnd": 1934,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_33",
-        "surfaceForm": "H.P.H. Teesing",
-        "category": "PER",
-        "locationStart": 1938,
-        "locationEnd": 1952,
-        "tokenStart": 308,
-        "tokenEnd": 310,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_17",
-        "surfaceForm": "H.P.H. Teesing",
-        "category": "PER",
-        "locationStart": 1938,
-        "locationEnd": 1952,
-        "tokenStart": 308,
-        "tokenEnd": 310,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_12",
-        "category": "PER",
-        "surfaceForm": "H.P.H.",
-        "locationStart": 1938,
-        "locationEnd": 1944,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_12",
-        "category": "PER",
-        "surfaceForm": "h . teesing",
-        "locationStart": 1942,
-        "locationEnd": 1952,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "flair_13",
-        "category": "PER",
-        "surfaceForm": "Teesing",
-        "locationStart": 1945,
-        "locationEnd": 1952,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "stanza_nl_34",
-        "surfaceForm": "Brandt Corstius",
-        "category": "PER",
-        "locationStart": 2033,
-        "locationEnd": 2048,
-        "tokenStart": 322,
-        "tokenEnd": 324,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_18",
-        "surfaceForm": "Brandt Corstius",
-        "category": "PER",
-        "locationStart": 2033,
-        "locationEnd": 2048,
-        "tokenStart": 322,
-        "tokenEnd": 324,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_14",
-        "category": "PER",
-        "surfaceForm": "Brandt Corstius",
-        "locationStart": 2033,
-        "locationEnd": 2048,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_13",
-        "category": "PER",
-        "surfaceForm": "brandt corstius",
-        "locationStart": 2033,
-        "locationEnd": 2048,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_35",
-        "surfaceForm": "Brandt Corstius",
-        "category": "PER",
-        "locationStart": 3050,
-        "locationEnd": 3065,
-        "tokenStart": 497,
-        "tokenEnd": 499,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_21",
-        "surfaceForm": "Brandt Corstius",
-        "category": "PER",
-        "locationStart": 3050,
-        "locationEnd": 3065,
-        "tokenStart": 497,
-        "tokenEnd": 499,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_20",
-        "category": "PER",
-        "surfaceForm": "Brandt Corstius",
-        "locationStart": 3050,
-        "locationEnd": 3065,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_19",
-        "category": "PER",
-        "surfaceForm": "brandt corstius",
-        "locationStart": 3050,
-        "locationEnd": 3065,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "flair_21",
-        "category": "MISC",
-        "surfaceForm": "De muze in het morgenlicht",
-        "locationStart": 3165,
-        "locationEnd": 3191,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "stanza_nl_36",
-        "surfaceForm": "Brandt Corstius",
-        "category": "PER",
-        "locationStart": 3561,
-        "locationEnd": 3576,
-        "tokenStart": 581,
-        "tokenEnd": 583,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_22",
-        "surfaceForm": "Brandt Corstius",
-        "category": "PER",
-        "locationStart": 3561,
-        "locationEnd": 3576,
-        "tokenStart": 581,
-        "tokenEnd": 583,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_24",
-        "category": "PER",
-        "surfaceForm": "Brandt Corstius",
-        "locationStart": 3561,
-        "locationEnd": 3576,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_24",
-        "category": "PER",
-        "surfaceForm": "brandt corsti",
-        "locationStart": 3561,
-        "locationEnd": 3574,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gold_23",
-        "surfaceForm": "1975",
-        "category": "TIME",
-        "locationStart": 3580,
-        "locationEnd": 3584,
-        "tokenStart": 584,
-        "tokenEnd": 585,
-        "method": "human_gold"
-      },
-      {
-        "ID": "gysbert_hist_24",
-        "category": "TIME",
-        "surfaceForm": "1975",
-        "locationStart": 3580,
-        "locationEnd": 3584,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gold_24",
-        "surfaceForm": "1975",
-        "category": "TIME",
-        "locationStart": 3934,
-        "locationEnd": 3938,
-        "tokenStart": 640,
-        "tokenEnd": 641,
-        "method": "human_gold"
-      },
-      {
-        "ID": "gysbert_hist_25",
-        "category": "TIME",
-        "surfaceForm": "1975",
-        "locationStart": 3934,
-        "locationEnd": 3938,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_37",
-        "surfaceForm": "Brandt Corstius",
-        "category": "PER",
-        "locationStart": 3964,
-        "locationEnd": 3979,
-        "tokenStart": 646,
-        "tokenEnd": 648,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_25",
-        "surfaceForm": "Brandt Corstius",
-        "category": "PER",
-        "locationStart": 3964,
-        "locationEnd": 3979,
-        "tokenStart": 646,
-        "tokenEnd": 648,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_25",
-        "category": "PER",
-        "surfaceForm": "Brandt Corstius",
-        "locationStart": 3964,
-        "locationEnd": 3979,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_25",
-        "category": "PER",
-        "surfaceForm": "brandt corsti",
-        "locationStart": 3964,
-        "locationEnd": 3977,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_38",
-        "surfaceForm": "Schrijven",
-        "category": "MISC",
-        "locationStart": 4072,
-        "locationEnd": 4081,
-        "tokenStart": 663,
-        "tokenEnd": 664,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_26",
-        "surfaceForm": "Schrijven is het niet alleen",
-        "category": "ARTWORK",
-        "locationStart": 4072,
-        "locationEnd": 4100,
-        "tokenStart": 663,
-        "tokenEnd": 668,
-        "method": "human_gold"
-      },
-      {
-        "ID": "stanza_nl_39",
-        "surfaceForm": "Brandt Corstius",
-        "category": "PER",
-        "locationStart": 4284,
-        "locationEnd": 4299,
-        "tokenStart": 698,
-        "tokenEnd": 700,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_27",
-        "surfaceForm": "Brandt Corstius",
-        "category": "PER",
-        "locationStart": 4284,
-        "locationEnd": 4299,
-        "tokenStart": 698,
-        "tokenEnd": 700,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_27",
-        "category": "PER",
-        "surfaceForm": "Brandt Corstius",
-        "locationStart": 4284,
-        "locationEnd": 4299,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_27",
-        "category": "PER",
-        "surfaceForm": "brandt corstius",
-        "locationStart": 4284,
-        "locationEnd": 4299,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gold_28",
-        "surfaceForm": "Sinds zijn jeugd",
-        "category": "TIME",
-        "locationStart": 4472,
-        "locationEnd": 4488,
-        "tokenStart": 728,
-        "tokenEnd": 731,
-        "method": "human_gold"
-      },
-      {
-        "ID": "stanza_nl_40",
-        "surfaceForm": "Nederlandse Bond van Abstinent Stu-",
-        "category": "ORG",
-        "locationStart": 4585,
-        "locationEnd": 4620,
-        "tokenStart": 750,
-        "tokenEnd": 755,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_30",
-        "surfaceForm": "Nederlandse Bond van Abstinent Stu- derenden",
-        "category": "ORG",
-        "locationStart": 4585,
-        "locationEnd": 4629,
-        "tokenStart": 750,
-        "tokenEnd": 756,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_28",
-        "category": "ORG",
-        "surfaceForm": "Nederlandse Bond van Abstinent Stu",
-        "locationStart": 4585,
-        "locationEnd": 4619,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "flair_28",
-        "category": "ORG",
-        "surfaceForm": "derenden",
-        "locationStart": 4621,
-        "locationEnd": 4629,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "stanza_nl_41",
-        "surfaceForm": "Humanistisch Verbond",
-        "category": "ORG",
-        "locationStart": 4669,
-        "locationEnd": 4689,
-        "tokenStart": 765,
-        "tokenEnd": 767,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_31",
-        "surfaceForm": "Humanistisch Verbond",
-        "category": "ORG",
-        "locationStart": 4669,
-        "locationEnd": 4689,
-        "tokenStart": 765,
-        "tokenEnd": 767,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_28",
-        "category": "ORG",
-        "surfaceForm": "Humanistisch Verbond",
-        "locationStart": 4669,
-        "locationEnd": 4689,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "stanza_nl_42",
-        "surfaceForm": "Brandt Corstius",
-        "category": "PER",
-        "locationStart": 5199,
-        "locationEnd": 5214,
-        "tokenStart": 850,
-        "tokenEnd": 852,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_33",
-        "surfaceForm": "Brandt Corstius",
-        "category": "PER",
-        "locationStart": 5199,
-        "locationEnd": 5214,
-        "tokenStart": 850,
-        "tokenEnd": 852,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_31",
-        "category": "PER",
-        "surfaceForm": "Brandt Corstius",
-        "locationStart": 5199,
-        "locationEnd": 5214,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_32",
-        "category": "PER",
-        "surfaceForm": "brandt corsti",
-        "locationStart": 5199,
-        "locationEnd": 5212,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_43",
-        "surfaceForm": "Herman Gorter",
-        "category": "PER",
-        "locationStart": 5324,
-        "locationEnd": 5337,
-        "tokenStart": 870,
-        "tokenEnd": 872,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_34",
-        "surfaceForm": "Herman Gorter",
-        "category": "PER",
-        "locationStart": 5324,
-        "locationEnd": 5337,
-        "tokenStart": 870,
-        "tokenEnd": 872,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_33",
-        "category": "PER",
-        "surfaceForm": "Herman Gorter",
-        "locationStart": 5324,
-        "locationEnd": 5337,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_34",
-        "category": "PER",
-        "surfaceForm": "herman gorter",
-        "locationStart": 5324,
-        "locationEnd": 5337,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_44",
-        "surfaceForm": "Gorters",
-        "category": "PER",
-        "locationStart": 5411,
-        "locationEnd": 5418,
-        "tokenStart": 885,
-        "tokenEnd": 886,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "flair_33",
-        "category": "MISC",
-        "surfaceForm": "Gorters",
-        "locationStart": 5411,
-        "locationEnd": 5418,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "flair_34",
-        "category": "MISC",
-        "surfaceForm": "De dichter Marsman en zijn kring",
-        "locationStart": 5526,
-        "locationEnd": 5558,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "stanza_nl_45",
-        "surfaceForm": "Marsman",
-        "category": "PER",
-        "locationStart": 5537,
-        "locationEnd": 5544,
-        "tokenStart": 908,
-        "tokenEnd": 909,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_35",
-        "surfaceForm": "Marsman",
-        "category": "PER",
-        "locationStart": 5537,
-        "locationEnd": 5544,
-        "tokenStart": 908,
-        "tokenEnd": 909,
-        "method": "human_gold"
-      },
-      {
-        "ID": "gysbert_hist_36",
-        "category": "PER",
-        "surfaceForm": "marsman",
-        "locationStart": 5537,
-        "locationEnd": 5544,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gold_36",
-        "surfaceForm": "1951",
-        "category": "TIME",
-        "locationStart": 5560,
-        "locationEnd": 5564,
-        "tokenStart": 913,
-        "tokenEnd": 914,
-        "method": "human_gold"
-      },
-      {
-        "ID": "gysbert_hist_36",
-        "category": "TIME",
-        "surfaceForm": "195",
-        "locationStart": 5560,
-        "locationEnd": 5563,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_46",
-        "surfaceForm": "Lessen in Literatuur",
-        "category": "MISC",
-        "locationStart": 5584,
-        "locationEnd": 5604,
-        "tokenStart": 921,
-        "tokenEnd": 924,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_37",
-        "surfaceForm": "Lessen in Literatuur",
-        "category": "ARTWORK",
-        "locationStart": 5584,
-        "locationEnd": 5604,
-        "tokenStart": 921,
-        "tokenEnd": 924,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_34",
-        "category": "MISC",
-        "surfaceForm": "Lessen in Literatuur",
-        "locationStart": 5584,
-        "locationEnd": 5604,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "stanza_nl_47",
-        "surfaceForm": "Brandt Corstius",
-        "category": "PER",
-        "locationStart": 5730,
-        "locationEnd": 5745,
-        "tokenStart": 947,
-        "tokenEnd": 949,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_40",
-        "surfaceForm": "Brandt Corstius",
-        "category": "PER",
-        "locationStart": 5730,
-        "locationEnd": 5745,
-        "tokenStart": 947,
-        "tokenEnd": 949,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_35",
-        "category": "PER",
-        "surfaceForm": "Brandt Corstius",
-        "locationStart": 5730,
-        "locationEnd": 5745,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_37",
-        "category": "PER",
-        "surfaceForm": "brandt corstius",
-        "locationStart": 5730,
-        "locationEnd": 5745,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_48",
-        "surfaceForm": "Marsman",
-        "category": "PER",
-        "locationStart": 5976,
-        "locationEnd": 5983,
-        "tokenStart": 992,
-        "tokenEnd": 993,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_41",
-        "surfaceForm": "Marsman",
-        "category": "PER",
-        "locationStart": 5976,
-        "locationEnd": 5983,
-        "tokenStart": 992,
-        "tokenEnd": 993,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_36",
-        "category": "PER",
-        "surfaceForm": "Marsman",
-        "locationStart": 5976,
-        "locationEnd": 5983,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "stanza_nl_49",
-        "surfaceForm": "Marsmans",
-        "category": "MISC",
-        "locationStart": 6071,
-        "locationEnd": 6079,
-        "tokenStart": 1010,
-        "tokenEnd": 1011,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "flair_36",
-        "category": "MISC",
-        "surfaceForm": "Marsmans",
-        "locationStart": 6071,
-        "locationEnd": 6079,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "stanza_nl_50",
-        "surfaceForm": "Brandt Corstius",
-        "category": "PER",
-        "locationStart": 6246,
-        "locationEnd": 6261,
-        "tokenStart": 1035,
-        "tokenEnd": 1037,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "flair_38",
-        "category": "PER",
-        "surfaceForm": "Brandt Corstius'",
-        "locationStart": 6246,
-        "locationEnd": 6262,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "Johannes Christiaan Brandt Corstius",
-        "locationStart": 0,
-        "locationEnd": 31,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "PERSON",
-        "surfaceForm": "H. Steinmetz",
-        "locationStart": 32,
-        "locationEnd": 44,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "PERSON",
-        "surfaceForm": "Johannes Christiaan Brandt Corstius",
-        "locationStart": 46,
-        "locationEnd": 77,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "DATE",
-        "surfaceForm": "31 december 1908",
-        "locationStart": 78,
-        "locationEnd": 95,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "DATE",
-        "surfaceForm": "3 december 1985",
-        "locationStart": 96,
-        "locationEnd": 111,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "PERSON",
-        "surfaceForm": "Johannes Christiaan Brandt Corstius",
-        "locationStart": 115,
-        "locationEnd": 146,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_6",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Akademie",
-        "locationStart": 160,
-        "locationEnd": 168,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_7",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Nederlandse",
-        "locationStart": 198,
-        "locationEnd": 208,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_8",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Vergelijkende Literatuurwetenschap",
-        "locationStart": 209,
-        "locationEnd": 238,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_9",
-        "category": "LOCATION",
-        "surfaceForm": "Nederland",
-        "locationStart": 255,
-        "locationEnd": 263,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_10",
-        "category": "PERSON",
-        "surfaceForm": "Johannes Christiaan Brandt Corstius",
-        "locationStart": 265,
-        "locationEnd": 296,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_11",
-        "category": "LOCATION",
-        "surfaceForm": "Rotterdam",
-        "locationStart": 307,
-        "locationEnd": 316,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_12",
-        "category": "ORGANIZATION",
-        "surfaceForm": "HBS-B",
-        "locationStart": 324,
-        "locationEnd": 329,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_13",
-        "category": "ORGANIZATION",
-        "surfaceForm": "gymnasium A",
-        "locationStart": 338,
-        "locationEnd": 349,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_14",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Universiteit van Utrecht",
-        "locationStart": 363,
-        "locationEnd": 385,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_15",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Utrechtse",
-        "locationStart": 386,
-        "locationEnd": 395,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_16",
-        "category": "DATE",
-        "surfaceForm": "1934",
-        "locationStart": 408,
-        "locationEnd": 412,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_17",
-        "category": "PERSON",
-        "surfaceForm": "Wilhelmina Wytske Molenaar",
-        "locationStart": 429,
-        "locationEnd": 452,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_18",
-        "category": "NUMBER",
-        "surfaceForm": "drie",
-        "locationStart": 454,
-        "locationEnd": 458,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_19",
-        "category": "LOCATION",
-        "surfaceForm": "Den Haag",
-        "locationStart": 482,
-        "locationEnd": 490,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_20",
-        "category": "LOCATION",
-        "surfaceForm": "Amsterdam",
-        "locationStart": 492,
-        "locationEnd": 501,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_21",
-        "category": "LOCATION",
-        "surfaceForm": "Eindhoven",
-        "locationStart": 503,
-        "locationEnd": 512,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_22",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Utrechts Stedelijk Gymnasium",
-        "locationStart": 522,
-        "locationEnd": 546,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_23",
-        "category": "DATE",
-        "surfaceForm": "1947",
-        "locationStart": 571,
-        "locationEnd": 575,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_24",
-        "category": "DATE",
-        "surfaceForm": "1959",
-        "locationStart": 579,
-        "locationEnd": 583,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_25",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Utrechtse",
-        "locationStart": 600,
-        "locationEnd": 609,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_26",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Leidse",
-        "locationStart": 628,
-        "locationEnd": 634,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_27",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Nederlandse",
-        "locationStart": 642,
-        "locationEnd": 652,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_28",
-        "category": "DATE",
-        "surfaceForm": "1960",
-        "locationStart": 672,
-        "locationEnd": 676,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_29",
-        "category": "LOCATION",
-        "surfaceForm": "Utrecht",
-        "locationStart": 694,
-        "locationEnd": 701,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_30",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Utrechtse Faculteit der Letteren",
-        "locationStart": 705,
-        "locationEnd": 734,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_31",
-        "category": "NUMBER",
-        "surfaceForm": "twaalf",
-        "locationStart": 741,
-        "locationEnd": 746,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_32",
-        "category": "ORGANIZATION",
-        "surfaceForm": "'In- stituut voor Vergelijkend Literatuuronderzoek'",
-        "locationStart": 748,
-        "locationEnd": 792,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_33",
-        "category": "PERSON",
-        "surfaceForm": "W.A.P. Smit",
-        "locationStart": 808,
-        "locationEnd": 818,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_34",
-        "category": "PERSON",
-        "surfaceForm": "H. Sparnaay",
-        "locationStart": 820,
-        "locationEnd": 830,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_35",
-        "category": "PERSON",
-        "surfaceForm": "H.P.H. Teesing",
-        "locationStart": 835,
-        "locationEnd": 848,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_36",
-        "category": "PERSON",
-        "surfaceForm": "Brandt Corstius",
-        "locationStart": 850,
-        "locationEnd": 864,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_37",
-        "category": "PERSON",
-        "surfaceForm": "Brandt Corstius",
-        "locationStart": 877,
-        "locationEnd": 891,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_38",
-        "category": "PERSON",
-        "surfaceForm": "Brandt Corstius",
-        "locationStart": 912,
-        "locationEnd": 926,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_39",
-        "category": "PERSON",
-        "surfaceForm": "Brandt Corstius",
-        "locationStart": 942,
-        "locationEnd": 956,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_40",
-        "category": "PERSON",
-        "surfaceForm": "Brandt Corstius",
-        "locationStart": 1000,
-        "locationEnd": 1014,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_41",
-        "category": "PERSON",
-        "surfaceForm": "Brandt Corstius",
-        "locationStart": 1019,
-        "locationEnd": 1033,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_42",
-        "category": "PERSON",
-        "surfaceForm": "Brandt Corstius",
-        "locationStart": 1039,
-        "locationEnd": 1053,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_43",
-        "category": "PERSON",
-        "surfaceForm": "Brandt Corstius",
-        "locationStart": 1059,
-        "locationEnd": 1073,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_44",
-        "category": "PERSON",
-        "surfaceForm": "Brandt Corstius",
-        "locationStart": 1079,
-        "locationEnd": 1093,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_45",
-        "category": "PERSON",
-        "surfaceForm": "Brandt Corstius",
-        "locationStart": 1099,
-        "locationEnd": 1113,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_46",
-        "category": "PERSON",
-        "surfaceForm": "Brandt Corstius",
-        "locationStart": 1119,
-        "locationEnd": 1133,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_47",
-        "category": "PERSON",
-        "surfaceForm": "Brandt Corstius",
-        "locationStart": 1139,
-        "locationEnd": 1153,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_48",
-        "category": "PERSON",
-        "surfaceForm": "Brandt Corstius",
-        "locationStart": 1159,
-        "locationEnd": 1173,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_49",
-        "category": "PERSON",
-        "surfaceForm": "Brandt Corstius",
-        "locationStart": 1179,
-        "locationEnd": 1193,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_50",
-        "category": "PERSON",
-        "surfaceForm": "Brandt Corstius",
-        "locationStart": 1199,
-        "locationEnd": 1213,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_51",
-        "category": "PERSON",
-        "surfaceForm": "Brandt Corstius",
-        "locationStart": 1219,
-        "locationEnd": 1233,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_52",
-        "category": "PERSON",
-        "surfaceForm": "Brandt Corstius",
-        "locationStart": 1239,
-        "locationEnd": 1253,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_53",
-        "category": "PERSON",
-        "surfaceForm": "Brandt Corstius",
-        "locationStart": 1259,
-        "locationEnd": 1273,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_54",
-        "category": "PERSON",
-        "surfaceForm": "Brandt Corstius",
-        "locationStart": 1279,
-        "locationEnd": 1293,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_55",
-        "category": "PERSON",
-        "surfaceForm": "Brandt Corstius",
-        "locationStart": 1299,
-        "locationEnd": 1313,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_56",
-        "category": "PERSON",
-        "surfaceForm": "Brandt Corstius",
-        "locationStart": 1319,
-        "locationEnd": 1333,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_57",
-        "category": "PERSON",
-        "surfaceForm": "Brandt Corstius",
-        "locationStart": 1339,
-        "locationEnd": 1353,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_58",
-        "category": "PERSON",
-        "surfaceForm": "Brandt Corstius",
-        "locationStart": 1359,
-        "locationEnd": 1373,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_59",
-        "category": "PERSON",
-        "surfaceForm": "Brandt Corstius",
-        "locationStart": 1379,
-        "locationEnd": 1393,
-        "method": "gpt-3.5-turbo"
-      },
-      {
         "ID": "gpt-3.5-turbo_60",
         "category": "PERSON",
         "surfaceForm": "Brandt Corstius",
@@ -20778,6 +20020,42 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "stanza_nl_25",
+        "surfaceForm": "Leidse",
+        "category": "MISC",
+        "locationStart": 1488,
+        "locationEnd": 1494,
+        "tokenStart": 236,
+        "tokenEnd": 237,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_10",
+        "surfaceForm": "Leidse universiteit",
+        "category": "ORG",
+        "locationStart": 1488,
+        "locationEnd": 1507,
+        "tokenStart": 236,
+        "tokenEnd": 238,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_10",
+        "category": "MISC",
+        "surfaceForm": "Leidse",
+        "locationStart": 1488,
+        "locationEnd": 1494,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_11",
+        "category": "LOC",
+        "surfaceForm": "leid",
+        "locationStart": 1488,
+        "locationEnd": 1492,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
         "ID": "gpt-3.5-turbo_65",
         "category": "PERSON",
         "surfaceForm": "Brandt Corstius",
@@ -20792,6 +20070,24 @@
         "locationStart": 1519,
         "locationEnd": 1533,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "stanza_nl_26",
+        "surfaceForm": "Nederlandse",
+        "category": "MISC",
+        "locationStart": 1533,
+        "locationEnd": 1544,
+        "tokenStart": 244,
+        "tokenEnd": 245,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_10",
+        "category": "MISC",
+        "surfaceForm": "Nederlandse",
+        "locationStart": 1533,
+        "locationEnd": 1544,
+        "method": "flair/ner-dutch-large_0.12.2"
       },
       {
         "ID": "gpt-3.5-turbo_67",
@@ -20810,6 +20106,24 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "gold_11",
+        "surfaceForm": "1960",
+        "category": "TIME",
+        "locationStart": 1574,
+        "locationEnd": 1578,
+        "tokenStart": 251,
+        "tokenEnd": 252,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_11",
+        "category": "TIME",
+        "surfaceForm": "1960",
+        "locationStart": 1574,
+        "locationEnd": 1578,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
         "ID": "gpt-3.5-turbo_69",
         "category": "PERSON",
         "surfaceForm": "Brandt Corstius",
@@ -20824,6 +20138,24 @@
         "locationStart": 1599,
         "locationEnd": 1613,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "stanza_nl_27",
+        "surfaceForm": "Vergelijkende Literatuurwetenschap",
+        "category": "MISC",
+        "locationStart": 1608,
+        "locationEnd": 1642,
+        "tokenStart": 257,
+        "tokenEnd": 259,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_10",
+        "category": "MISC",
+        "surfaceForm": "Vergelijkende Literatuurwetenschap na de mid",
+        "locationStart": 1608,
+        "locationEnd": 1652,
+        "method": "flair/ner-dutch-large_0.12.2"
       },
       {
         "ID": "gpt-3.5-turbo_71",
@@ -20850,6 +20182,42 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "stanza_nl_28",
+        "surfaceForm": "Universiteit van Utrecht",
+        "category": "ORG",
+        "locationStart": 1671,
+        "locationEnd": 1695,
+        "tokenStart": 265,
+        "tokenEnd": 268,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_12",
+        "surfaceForm": "Universiteit van Utrecht",
+        "category": "ORG",
+        "locationStart": 1671,
+        "locationEnd": 1695,
+        "tokenStart": 265,
+        "tokenEnd": 268,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_10",
+        "category": "ORG",
+        "surfaceForm": "Universiteit van Utrecht",
+        "locationStart": 1671,
+        "locationEnd": 1695,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_11",
+        "category": "ORG",
+        "surfaceForm": "Universiteit van Utrecht",
+        "locationStart": 1671,
+        "locationEnd": 1695,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gpt-3.5-turbo_74",
         "category": "PERSON",
         "surfaceForm": "Brandt Corstius",
@@ -20858,12 +20226,64 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "gysbert_hist_11",
+        "category": "LOC",
+        "surfaceForm": "utrecht",
+        "locationStart": 1688,
+        "locationEnd": 1695,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
         "ID": "gpt-3.5-turbo_75",
         "category": "PERSON",
         "surfaceForm": "Brandt Corstius",
         "locationStart": 1699,
         "locationEnd": 1713,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "stanza_nl_29",
+        "surfaceForm": "Utrechtse Faculteit der Letteren",
+        "category": "ORG",
+        "locationStart": 1703,
+        "locationEnd": 1735,
+        "tokenStart": 271,
+        "tokenEnd": 275,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_13",
+        "surfaceForm": "Utrechtse Faculteit der Letteren",
+        "category": "ORG",
+        "locationStart": 1703,
+        "locationEnd": 1735,
+        "tokenStart": 271,
+        "tokenEnd": 275,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_11",
+        "category": "MISC",
+        "surfaceForm": "Utrechtse",
+        "locationStart": 1703,
+        "locationEnd": 1712,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "flair_11",
+        "category": "ORG",
+        "surfaceForm": "Faculteit der Letteren",
+        "locationStart": 1713,
+        "locationEnd": 1735,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_12",
+        "category": "ORG",
+        "surfaceForm": "Faculteit der LetterenIn stituut voor Vergelijkend Literatuuronderzoek",
+        "locationStart": 1713,
+        "locationEnd": 1827,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gpt-3.5-turbo_76",
@@ -20890,12 +20310,38 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "stanza_nl_30",
+        "surfaceForm": "In- stituut voor Vergelijkend Literatuuronderzoek",
+        "category": "MISC",
+        "locationStart": 1778,
+        "locationEnd": 1827,
+        "tokenStart": 283,
+        "tokenEnd": 288,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_11",
+        "category": "ORG",
+        "surfaceForm": "In-",
+        "locationStart": 1778,
+        "locationEnd": 1781,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
         "ID": "gpt-3.5-turbo_79",
         "category": "PERSON",
         "surfaceForm": "Brandt Corstius",
         "locationStart": 1779,
         "locationEnd": 1793,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "flair_11",
+        "category": "ORG",
+        "surfaceForm": "voor Vergelijkend Literatuuronderzoek",
+        "locationStart": 1790,
+        "locationEnd": 1827,
+        "method": "flair/ner-dutch-large_0.12.2"
       },
       {
         "ID": "gpt-3.5-turbo_80",
@@ -20946,6 +20392,58 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "stanza_nl_31",
+        "surfaceForm": "W.A.P. Smit",
+        "category": "PER",
+        "locationStart": 1910,
+        "locationEnd": 1921,
+        "tokenStart": 302,
+        "tokenEnd": 304,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_15",
+        "surfaceForm": "W.A.P. Smit",
+        "category": "PER",
+        "locationStart": 1910,
+        "locationEnd": 1921,
+        "tokenStart": 302,
+        "tokenEnd": 304,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_11",
+        "category": "PER",
+        "surfaceForm": "W.A.P.",
+        "locationStart": 1910,
+        "locationEnd": 1916,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_12",
+        "category": "PER",
+        "surfaceForm": "W.A.P. Smit",
+        "locationStart": 1910,
+        "locationEnd": 1921,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gysbert_hist_12",
+        "category": "PER",
+        "surfaceForm": "p smit",
+        "locationStart": 1914,
+        "locationEnd": 1921,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "flair_12",
+        "category": "PER",
+        "surfaceForm": "Smit",
+        "locationStart": 1917,
+        "locationEnd": 1921,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
         "ID": "gpt-3.5-turbo_86",
         "category": "PERSON",
         "surfaceForm": "Brandt Corstius",
@@ -20954,12 +20452,108 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "stanza_nl_32",
+        "surfaceForm": "H. Sparnaay",
+        "category": "PER",
+        "locationStart": 1923,
+        "locationEnd": 1934,
+        "tokenStart": 305,
+        "tokenEnd": 307,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_16",
+        "surfaceForm": "H. Sparnaay",
+        "category": "PER",
+        "locationStart": 1923,
+        "locationEnd": 1934,
+        "tokenStart": 305,
+        "tokenEnd": 307,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_12",
+        "category": "PER",
+        "surfaceForm": "H. Sparnaay",
+        "locationStart": 1923,
+        "locationEnd": 1934,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_12",
+        "category": "PER",
+        "surfaceForm": "h sparnaay",
+        "locationStart": 1923,
+        "locationEnd": 1934,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_12",
+        "category": "PER",
+        "surfaceForm": "H. Sparnaay",
+        "locationStart": 1923,
+        "locationEnd": 1934,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "stanza_nl_33",
+        "surfaceForm": "H.P.H. Teesing",
+        "category": "PER",
+        "locationStart": 1938,
+        "locationEnd": 1952,
+        "tokenStart": 308,
+        "tokenEnd": 310,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_17",
+        "surfaceForm": "H.P.H. Teesing",
+        "category": "PER",
+        "locationStart": 1938,
+        "locationEnd": 1952,
+        "tokenStart": 308,
+        "tokenEnd": 310,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_12",
+        "category": "PER",
+        "surfaceForm": "H.P.H.",
+        "locationStart": 1938,
+        "locationEnd": 1944,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_12",
+        "category": "PER",
+        "surfaceForm": "H.P.H. Teesing",
+        "locationStart": 1938,
+        "locationEnd": 1952,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gpt-3.5-turbo_87",
         "category": "PERSON",
         "surfaceForm": "Brandt Corstius",
         "locationStart": 1939,
         "locationEnd": 1953,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gysbert_hist_12",
+        "category": "PER",
+        "surfaceForm": "h . teesing",
+        "locationStart": 1942,
+        "locationEnd": 1952,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "flair_13",
+        "category": "PER",
+        "surfaceForm": "Teesing",
+        "locationStart": 1945,
+        "locationEnd": 1952,
+        "method": "flair/ner-dutch-large_0.12.2"
       },
       {
         "ID": "gpt-3.5-turbo_88",
@@ -20992,6 +20586,50 @@
         "locationStart": 2019,
         "locationEnd": 2033,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "stanza_nl_34",
+        "surfaceForm": "Brandt Corstius",
+        "category": "PER",
+        "locationStart": 2033,
+        "locationEnd": 2048,
+        "tokenStart": 322,
+        "tokenEnd": 324,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_18",
+        "surfaceForm": "Brandt Corstius",
+        "category": "PER",
+        "locationStart": 2033,
+        "locationEnd": 2048,
+        "tokenStart": 322,
+        "tokenEnd": 324,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_14",
+        "category": "PER",
+        "surfaceForm": "Brandt Corstius",
+        "locationStart": 2033,
+        "locationEnd": 2048,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_13",
+        "category": "PER",
+        "surfaceForm": "brandt corstius",
+        "locationStart": 2033,
+        "locationEnd": 2048,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_13",
+        "category": "PER",
+        "surfaceForm": "Brandt Corstius",
+        "locationStart": 2033,
+        "locationEnd": 2048,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gpt-3.5-turbo_92",
@@ -21402,6 +21040,50 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "stanza_nl_35",
+        "surfaceForm": "Brandt Corstius",
+        "category": "PER",
+        "locationStart": 3050,
+        "locationEnd": 3065,
+        "tokenStart": 497,
+        "tokenEnd": 499,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_21",
+        "surfaceForm": "Brandt Corstius",
+        "category": "PER",
+        "locationStart": 3050,
+        "locationEnd": 3065,
+        "tokenStart": 497,
+        "tokenEnd": 499,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_20",
+        "category": "PER",
+        "surfaceForm": "Brandt Corstius",
+        "locationStart": 3050,
+        "locationEnd": 3065,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_19",
+        "category": "PER",
+        "surfaceForm": "brandt corstius",
+        "locationStart": 3050,
+        "locationEnd": 3065,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_19",
+        "category": "PER",
+        "surfaceForm": "Brandt Corstius",
+        "locationStart": 3050,
+        "locationEnd": 3065,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gpt-3.5-turbo_143",
         "category": "PERSON",
         "surfaceForm": "Brandt Corstius",
@@ -21448,6 +21130,14 @@
         "locationStart": 3159,
         "locationEnd": 3173,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "flair_21",
+        "category": "MISC",
+        "surfaceForm": "De muze in het morgenlicht",
+        "locationStart": 3165,
+        "locationEnd": 3191,
+        "method": "flair/ner-dutch-large_0.12.2"
       },
       {
         "ID": "gpt-3.5-turbo_149",
@@ -21608,6 +21298,604 @@
         "locationStart": 3559,
         "locationEnd": 3573,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "stanza_nl_36",
+        "surfaceForm": "Brandt Corstius",
+        "category": "PER",
+        "locationStart": 3561,
+        "locationEnd": 3576,
+        "tokenStart": 581,
+        "tokenEnd": 583,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_22",
+        "surfaceForm": "Brandt Corstius",
+        "category": "PER",
+        "locationStart": 3561,
+        "locationEnd": 3576,
+        "tokenStart": 581,
+        "tokenEnd": 583,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_24",
+        "category": "PER",
+        "surfaceForm": "Brandt Corstius",
+        "locationStart": 3561,
+        "locationEnd": 3576,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_24",
+        "category": "PER",
+        "surfaceForm": "brandt corsti",
+        "locationStart": 3561,
+        "locationEnd": 3574,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_24",
+        "category": "PER",
+        "surfaceForm": "Brandt Corstius",
+        "locationStart": 3561,
+        "locationEnd": 3576,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gold_23",
+        "surfaceForm": "1975",
+        "category": "TIME",
+        "locationStart": 3580,
+        "locationEnd": 3584,
+        "tokenStart": 584,
+        "tokenEnd": 585,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_24",
+        "category": "TIME",
+        "surfaceForm": "1975",
+        "locationStart": 3580,
+        "locationEnd": 3584,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gold_24",
+        "surfaceForm": "1975",
+        "category": "TIME",
+        "locationStart": 3934,
+        "locationEnd": 3938,
+        "tokenStart": 640,
+        "tokenEnd": 641,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_25",
+        "category": "TIME",
+        "surfaceForm": "1975",
+        "locationStart": 3934,
+        "locationEnd": 3938,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_37",
+        "surfaceForm": "Brandt Corstius",
+        "category": "PER",
+        "locationStart": 3964,
+        "locationEnd": 3979,
+        "tokenStart": 646,
+        "tokenEnd": 648,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_25",
+        "surfaceForm": "Brandt Corstius",
+        "category": "PER",
+        "locationStart": 3964,
+        "locationEnd": 3979,
+        "tokenStart": 646,
+        "tokenEnd": 648,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_25",
+        "category": "PER",
+        "surfaceForm": "Brandt Corstius",
+        "locationStart": 3964,
+        "locationEnd": 3979,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_25",
+        "category": "PER",
+        "surfaceForm": "brandt corsti",
+        "locationStart": 3964,
+        "locationEnd": 3977,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_25",
+        "category": "PER",
+        "surfaceForm": "Brandt Corstius",
+        "locationStart": 3964,
+        "locationEnd": 3979,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "stanza_nl_38",
+        "surfaceForm": "Schrijven",
+        "category": "MISC",
+        "locationStart": 4072,
+        "locationEnd": 4081,
+        "tokenStart": 663,
+        "tokenEnd": 664,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_26",
+        "surfaceForm": "Schrijven is het niet alleen",
+        "category": "ARTWORK",
+        "locationStart": 4072,
+        "locationEnd": 4100,
+        "tokenStart": 663,
+        "tokenEnd": 668,
+        "method": "human_gold"
+      },
+      {
+        "ID": "stanza_nl_39",
+        "surfaceForm": "Brandt Corstius",
+        "category": "PER",
+        "locationStart": 4284,
+        "locationEnd": 4299,
+        "tokenStart": 698,
+        "tokenEnd": 700,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_27",
+        "surfaceForm": "Brandt Corstius",
+        "category": "PER",
+        "locationStart": 4284,
+        "locationEnd": 4299,
+        "tokenStart": 698,
+        "tokenEnd": 700,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_27",
+        "category": "PER",
+        "surfaceForm": "Brandt Corstius",
+        "locationStart": 4284,
+        "locationEnd": 4299,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_27",
+        "category": "PER",
+        "surfaceForm": "brandt corstius",
+        "locationStart": 4284,
+        "locationEnd": 4299,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_27",
+        "category": "PER",
+        "surfaceForm": "Brandt Corstius",
+        "locationStart": 4284,
+        "locationEnd": 4299,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gold_28",
+        "surfaceForm": "Sinds zijn jeugd",
+        "category": "TIME",
+        "locationStart": 4472,
+        "locationEnd": 4488,
+        "tokenStart": 728,
+        "tokenEnd": 731,
+        "method": "human_gold"
+      },
+      {
+        "ID": "stanza_nl_40",
+        "surfaceForm": "Nederlandse Bond van Abstinent Stu-",
+        "category": "ORG",
+        "locationStart": 4585,
+        "locationEnd": 4620,
+        "tokenStart": 750,
+        "tokenEnd": 755,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_30",
+        "surfaceForm": "Nederlandse Bond van Abstinent Stu- derenden",
+        "category": "ORG",
+        "locationStart": 4585,
+        "locationEnd": 4629,
+        "tokenStart": 750,
+        "tokenEnd": 756,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_28",
+        "category": "ORG",
+        "surfaceForm": "Nederlandse Bond van Abstinent Stu",
+        "locationStart": 4585,
+        "locationEnd": 4619,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_29",
+        "category": "ORG",
+        "surfaceForm": "Nederlandse Bond van Abstinent Stu derenden",
+        "locationStart": 4586,
+        "locationEnd": 4629,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "flair_28",
+        "category": "ORG",
+        "surfaceForm": "derenden",
+        "locationStart": 4621,
+        "locationEnd": 4629,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "stanza_nl_41",
+        "surfaceForm": "Humanistisch Verbond",
+        "category": "ORG",
+        "locationStart": 4669,
+        "locationEnd": 4689,
+        "tokenStart": 765,
+        "tokenEnd": 767,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_31",
+        "surfaceForm": "Humanistisch Verbond",
+        "category": "ORG",
+        "locationStart": 4669,
+        "locationEnd": 4689,
+        "tokenStart": 765,
+        "tokenEnd": 767,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_28",
+        "category": "ORG",
+        "surfaceForm": "Humanistisch Verbond",
+        "locationStart": 4669,
+        "locationEnd": 4689,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_29",
+        "category": "ORG",
+        "surfaceForm": "Humanistisch Verbond",
+        "locationStart": 4669,
+        "locationEnd": 4689,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "stanza_nl_42",
+        "surfaceForm": "Brandt Corstius",
+        "category": "PER",
+        "locationStart": 5199,
+        "locationEnd": 5214,
+        "tokenStart": 850,
+        "tokenEnd": 852,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_33",
+        "surfaceForm": "Brandt Corstius",
+        "category": "PER",
+        "locationStart": 5199,
+        "locationEnd": 5214,
+        "tokenStart": 850,
+        "tokenEnd": 852,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_31",
+        "category": "PER",
+        "surfaceForm": "Brandt Corstius",
+        "locationStart": 5199,
+        "locationEnd": 5214,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_32",
+        "category": "PER",
+        "surfaceForm": "brandt corsti",
+        "locationStart": 5199,
+        "locationEnd": 5212,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_32",
+        "category": "PER",
+        "surfaceForm": "Brandt Corstius",
+        "locationStart": 5199,
+        "locationEnd": 5214,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "stanza_nl_43",
+        "surfaceForm": "Herman Gorter",
+        "category": "PER",
+        "locationStart": 5324,
+        "locationEnd": 5337,
+        "tokenStart": 870,
+        "tokenEnd": 872,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_34",
+        "surfaceForm": "Herman Gorter",
+        "category": "PER",
+        "locationStart": 5324,
+        "locationEnd": 5337,
+        "tokenStart": 870,
+        "tokenEnd": 872,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_33",
+        "category": "PER",
+        "surfaceForm": "Herman Gorter",
+        "locationStart": 5324,
+        "locationEnd": 5337,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_34",
+        "category": "PER",
+        "surfaceForm": "herman gorter",
+        "locationStart": 5324,
+        "locationEnd": 5337,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_34",
+        "category": "PER",
+        "surfaceForm": "Herman Gorter",
+        "locationStart": 5324,
+        "locationEnd": 5337,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "stanza_nl_44",
+        "surfaceForm": "Gorters",
+        "category": "PER",
+        "locationStart": 5411,
+        "locationEnd": 5418,
+        "tokenStart": 885,
+        "tokenEnd": 886,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_33",
+        "category": "MISC",
+        "surfaceForm": "Gorters",
+        "locationStart": 5411,
+        "locationEnd": 5418,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "flair_34",
+        "category": "MISC",
+        "surfaceForm": "De dichter Marsman en zijn kring",
+        "locationStart": 5526,
+        "locationEnd": 5558,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "stanza_nl_45",
+        "surfaceForm": "Marsman",
+        "category": "PER",
+        "locationStart": 5537,
+        "locationEnd": 5544,
+        "tokenStart": 908,
+        "tokenEnd": 909,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_35",
+        "surfaceForm": "Marsman",
+        "category": "PER",
+        "locationStart": 5537,
+        "locationEnd": 5544,
+        "tokenStart": 908,
+        "tokenEnd": 909,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_36",
+        "category": "PER",
+        "surfaceForm": "marsman",
+        "locationStart": 5537,
+        "locationEnd": 5544,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_36",
+        "category": "PER",
+        "surfaceForm": "Marsman",
+        "locationStart": 5537,
+        "locationEnd": 5544,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gold_36",
+        "surfaceForm": "1951",
+        "category": "TIME",
+        "locationStart": 5560,
+        "locationEnd": 5564,
+        "tokenStart": 913,
+        "tokenEnd": 914,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_36",
+        "category": "TIME",
+        "surfaceForm": "195",
+        "locationStart": 5560,
+        "locationEnd": 5563,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "stanza_nl_46",
+        "surfaceForm": "Lessen in Literatuur",
+        "category": "MISC",
+        "locationStart": 5584,
+        "locationEnd": 5604,
+        "tokenStart": 921,
+        "tokenEnd": 924,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_37",
+        "surfaceForm": "Lessen in Literatuur",
+        "category": "ARTWORK",
+        "locationStart": 5584,
+        "locationEnd": 5604,
+        "tokenStart": 921,
+        "tokenEnd": 924,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_34",
+        "category": "MISC",
+        "surfaceForm": "Lessen in Literatuur",
+        "locationStart": 5584,
+        "locationEnd": 5604,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "stanza_nl_47",
+        "surfaceForm": "Brandt Corstius",
+        "category": "PER",
+        "locationStart": 5730,
+        "locationEnd": 5745,
+        "tokenStart": 947,
+        "tokenEnd": 949,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_40",
+        "surfaceForm": "Brandt Corstius",
+        "category": "PER",
+        "locationStart": 5730,
+        "locationEnd": 5745,
+        "tokenStart": 947,
+        "tokenEnd": 949,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_35",
+        "category": "PER",
+        "surfaceForm": "Brandt Corstius",
+        "locationStart": 5730,
+        "locationEnd": 5745,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_37",
+        "category": "PER",
+        "surfaceForm": "brandt corstius",
+        "locationStart": 5730,
+        "locationEnd": 5745,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_37",
+        "category": "PER",
+        "surfaceForm": "Brandt Corstius",
+        "locationStart": 5730,
+        "locationEnd": 5745,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "stanza_nl_48",
+        "surfaceForm": "Marsman",
+        "category": "PER",
+        "locationStart": 5976,
+        "locationEnd": 5983,
+        "tokenStart": 992,
+        "tokenEnd": 993,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_41",
+        "surfaceForm": "Marsman",
+        "category": "PER",
+        "locationStart": 5976,
+        "locationEnd": 5983,
+        "tokenStart": 992,
+        "tokenEnd": 993,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_36",
+        "category": "PER",
+        "surfaceForm": "Marsman",
+        "locationStart": 5976,
+        "locationEnd": 5983,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_38",
+        "category": "PER",
+        "surfaceForm": "Marsman",
+        "locationStart": 5976,
+        "locationEnd": 5983,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "stanza_nl_49",
+        "surfaceForm": "Marsmans",
+        "category": "MISC",
+        "locationStart": 6071,
+        "locationEnd": 6079,
+        "tokenStart": 1010,
+        "tokenEnd": 1011,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_36",
+        "category": "MISC",
+        "surfaceForm": "Marsmans",
+        "locationStart": 6071,
+        "locationEnd": 6079,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "stanza_nl_50",
+        "surfaceForm": "Brandt Corstius",
+        "category": "PER",
+        "locationStart": 6246,
+        "locationEnd": 6261,
+        "tokenStart": 1035,
+        "tokenEnd": 1037,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_38",
+        "category": "PER",
+        "surfaceForm": "Brandt Corstius'",
+        "locationStart": 6246,
+        "locationEnd": 6262,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_40",
+        "category": "PER",
+        "surfaceForm": "Brandt Corstius",
+        "locationStart": 6246,
+        "locationEnd": 6261,
+        "method": "xlmr_ner_"
       }
     ],
     "time_expressions": [
