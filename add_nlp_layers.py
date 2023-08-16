@@ -292,7 +292,7 @@ if __name__ == "__main__":
         gysbert_checkpoint = "/Users/daza/gysbert_saved_models/EPOCH_2"
         bert_tokenizer = AutoTokenizer.from_pretrained(gysbert_checkpoint)
         bert_model = AutoModelForTokenClassification.from_pretrained(gysbert_checkpoint)
-        stanza_nlp = stanza.Pipeline(lang="nl", processors="tokenize,lemma,pos, depparse, ner", model_dir="/Users/daza/stanza_resources/")
+        stanza_nlp = stanza.Pipeline(lang="nl", processors="tokenize,lemma,pos,depparse", model_dir="/Users/daza/stanza_resources/")
         bert_nlp = pipeline('token-classification', model=bert_model, tokenizer=bert_tokenizer, device=-1)
         NLP_CONFIG["bert_ner"] = {
             "model_config_label": "GysBERT NER",
@@ -306,7 +306,7 @@ if __name__ == "__main__":
         checkpoint = "Davlan/xlm-roberta-base-ner-hrl"
         tokenizer = AutoTokenizer.from_pretrained(checkpoint)
         model = AutoModelForTokenClassification.from_pretrained(checkpoint)
-        stanza_nlp = stanza.Pipeline(lang="nl", processors="tokenize,lemma,pos, depparse, ner", model_dir="/Users/daza/stanza_resources/")
+        stanza_nlp = stanza.Pipeline(lang="nl", processors="tokenize,lemma,pos,depparse", model_dir="/Users/daza/stanza_resources/")
         bert_nlp = pipeline('token-classification', model=model, tokenizer=tokenizer, device=-1)
         NLP_CONFIG["bert_ner"] = {
             "model_config_label": "XLM RoBERTa NER",
