@@ -154,14 +154,22 @@
     <!-- Model vs Model List of Cards -->
     <div class="container-fluid">
       {% for title, eval in evaluation["eval"].items() %}
+      <div id="accordion">
         <div class="card mt-5 w-100 border-primary">
-            <div class="card-header">{{title}}</div>
+            <div class="card-header">  
+              <button class="btn btn-link" data-toggle="collapse" data-target="#collapse_metadata_{{title}}" aria-expanded="true" aria-controls="collapse_metadata_{{title}}">
+                {{title}}
+              </button>
+            </div>
+            <div id="collapse_metadata_{{title}}" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
             <div class="card-body">
               {% for metric, val in eval["errors"].items() %}
                 <h5 class="card-title"> <b>{{metric}}:</b> {{val}}</h5>
                 {% endfor %}
             </div>
+          </div>
         </div>
+      </div>
       {% endfor %}
     </div>
 
@@ -231,13 +239,20 @@
     <div class="container-fluid">
       <div>
         {% for method, anno in html_annotated.items() %}
-  
+        <div id="accordion">
         <div class="card mt-5 border-primary">
-          <div class="card-header"> {{ method }} </div>
+          <div class="card-header">  
+            <button class="btn btn-link" data-toggle="collapse" data-target="#collapse_metadata_{{method}}" aria-expanded="true" aria-controls="collapse_metadata_{{method}}">
+              {{method}}
+            </button>
+          </div>
+          <div id="collapse_metadata_{{method}}" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
           <div class="card-body">
             <div class="mt-2 ml-5 mr-5 scrollable"> {{ anno | safe }} </div>
           </div>
           </div>
+        </div>
+        </div>
         {% endfor %}
       </div>
     </div>

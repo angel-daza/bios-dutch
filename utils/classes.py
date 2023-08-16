@@ -323,7 +323,7 @@ class IntaviaDocument:
             raise NotImplementedError
 
         entity_agreement = []
-        methods = self.get_available_methods("entities")
+        methods = [m for m in self.get_available_methods("entities") if m != "gpt-3.5-turbo"]
         max_agreement = len(methods)
         
         if max_agreement == 0: return []
@@ -335,7 +335,7 @@ class IntaviaDocument:
                     charstart2token[token.MISC['StartChar']] = token.ID
                     charend2token[token.MISC['EndChar']] = token.ID
 
-        for ent_obj in self.get_entities():
+        for ent_obj in self.get_entities(methods=methods):
             key = f"{ent_obj.surfaceForm}#{ent_obj.locationStart}#{ent_obj.locationEnd}#{ent_obj.category}"
             entity_agreement.append(key)
         entity_agreement = Counter(entity_agreement).most_common()
