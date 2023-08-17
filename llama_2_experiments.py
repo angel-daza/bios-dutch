@@ -2,7 +2,7 @@ from transformers import AutoTokenizer
 import transformers
 import torch
 
-model = "meta-llama/Llama-2-13b-hf"
+model = "/home/adaza/Repos/llama/llama-2-7b-chat"
 
 tokenizer = AutoTokenizer.from_pretrained(model)
 pipeline = transformers.pipeline(
@@ -13,7 +13,9 @@ pipeline = transformers.pipeline(
     # use_auth_token=True
 )
 
-prompt = "Give me a list of the Named Entitites (PERSON, LOCATION, ORGANIZATION, TIME, WORK_OF_ART, OCCUPATION) in the following sentence: 'Yumi Matsutoya (松任谷 由実, Matsutōya Yumi, born January 19, 1954), nicknamed Yuming (ユーミン, Yūmin), is a Japanese singer, composer, lyricist and pianist.'\n"
+#prompt = "Give me a list of the Named Entitites (PERSON, LOCATION, ORGANIZATION, TIME, WORK_OF_ART, OCCUPATION) in the following sentence: 'Yumi Matsutoya (松任谷 由実, Matsutōya Yumi, born January 19, 1954), nicknamed Yuming (ユーミン, Yūmin), is a Japanese singer, composer, lyricist and pianist.'\n"
+
+prompt = "What is the capital of France?"
 
 sequences = pipeline(
     prompt,
