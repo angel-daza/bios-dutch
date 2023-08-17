@@ -2,7 +2,7 @@ from transformers import AutoTokenizer
 import transformers
 import torch
 
-model = "/home/adaza/Repos/llama/llama-2-7b-chat"
+model = "meta-llama/Llama-2-7b-hf"
 
 tokenizer = AutoTokenizer.from_pretrained(model)
 pipeline = transformers.pipeline(
