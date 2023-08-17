@@ -15,7 +15,7 @@ pipeline = transformers.pipeline(
 
 #prompt = "Give me a list of the Named Entitites (PERSON, LOCATION, ORGANIZATION, TIME, WORK_OF_ART, OCCUPATION) in the following sentence: 'Yumi Matsutoya (松任谷 由実, Matsutōya Yumi, born January 19, 1954), nicknamed Yuming (ユーミン, Yūmin), is a Japanese singer, composer, lyricist and pianist.'\n"
 
-prompt = "What is the capital of France?"
+prompt = "I will ask you one question. Give a single fact as an answer. The question is 'What is the capital of France?' Answer:\n"
 
 sequences = pipeline(
     prompt,
