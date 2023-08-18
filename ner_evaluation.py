@@ -121,7 +121,7 @@ def save_entity_errors_table(collected_errors: List[Dict[str, Any]], eval_type: 
                 fp_fn_errors.append({"text_id": text_id, "method": sys_name, "type": "FP", "error_span": fp[0], "error_text": fp[1], "error_label": fp[2]})
             for fn in row["errors"]["Missed Entities"]: # FN_Exact_Match: (553, 'Buitenlandse Zaken van Belgie', 'ORG', 'FN')
                 #print("FN", fn)
-                fp_fn_errors.append({"text_id": text_id, "method": sys_name, "type": "FN", "error_span": fp[0], "error_text": fn[1], "error_label": fn[2]})
+                fp_fn_errors.append({"text_id": text_id, "method": sys_name, "type": "FN", "error_span": fn[0], "error_text": fn[1], "error_label": fn[2]})
             for sp_err in row["errors"]["Span Errors"]: # SP ('J.M. Pfeil ,', 'J.M. Pfeil', 'FP')
                 #print("SP", sp_err)
                 sp_lb_errors.append({"text_id": text_id, "method": sys_name, "type": "SPAN", "true_text": sp_err[0], "error_text": sp_err[1], "true_label": "-", "error_label": "-"})
