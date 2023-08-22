@@ -5,6 +5,10 @@
   type="text/javascript"
   src="{{ url_for('static', filename='scripts/overview_google_charts.js') }}"
 ></script>
+<script
+  type="text/javascript"
+  src="{{ url_for('static', filename='scripts/buttons.js') }}"
+></script>
 
 <section>
   <div class="container" id="main-home">
@@ -157,15 +161,60 @@
 
     <div class="row justify-content-center mt-5">{{pagination.links}}</div>
 
-    <div class="row">
-      <div class="card mt-5 w-50 border-primary">
-        <div class="card-body justify-content-center">
-          <div id="chart_method_total" class="w-50"></div>
+    <div class="row justify-content-center mt-5">
+      <div>
+        <p>
+          <a
+            class="btn btn-info"
+            data-toggle="collapse"
+            href="#collapseExample"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapseExample"
+          >
+            Show total statistics
+          </a>
+        </p>
+        <div class="collapse" id="collapseExample">
+          <div class="row">
+            <div class="card mt-5 w-50 border-primary">
+              <div class="card-body justify-content-center">
+                <div id="chart_method_total" class="w-50"></div>
+              </div>
+            </div>
+            <div class="card mt-5 w-50 border-primary">
+              <div class="card-body justify-content-center">
+                <div id="chart_category_total" class="w-50"></div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="card mt-5 w-50 border-primary">
-        <div class="card-body justify-content-center">
-          <div id="chart_category_total" class="w-50"></div>
+
+      <div class="dropdown ml-5 w-50 border-primary">
+        <button
+          class="btn btn-primary dropdown-toggle"
+          type="button"
+          id="dropdownMenuButton"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
+          Sort by method (total #entities)
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" id="gpt-3.5-turbo" href="#">gpt3.5</a>
+          <a class="dropdown-item" id="stanza_nl" href="#">Stanza</a>
+          <a class="dropdown-item" id="human_gold" href="#">human gold</a>
+          <a class="dropdown-item" id="flair/ner-dutch-large_0.12.2" href="#"
+            >flair</a
+          >
+          <a
+            class="dropdown-item"
+            id="gysbert_hist_fx_finetuned_epoch2"
+            href="#"
+            >gysbert</a
+          >
         </div>
       </div>
     </div>

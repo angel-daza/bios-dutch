@@ -112,20 +112,19 @@ def bio_detail_google_charts(source: str, text_id: str):
 
 @app.route("/bio_viewer", methods=['GET','POST'])
 def bio_viewer():
-    import pandas as pd
     global biographies_search
     global GLOBAL_QUERY
     global STATISTICS
 
     page, per_page, offset = get_page_args(page_parameter="page", per_page_parameter="per_page")
-    ids_sorted_per_method = STATISTICS["ids_sorted_per_method"]
+    
+    """ ids_sorted_per_method = STATISTICS["ids_sorted_per_method"]
     gpt3 = ids_sorted_per_method["gpt-3.5-turbo"]
     gpt3 = [id.split("_")[0] for id in gpt3]
     all_ids = biographies_search["display_id"].tolist()
     diff = list(set(all_ids) - set(gpt3))
     biographies_search.drop( index=diff, inplace=True)
-    #sorted_biographies = biographies_search.set_index('display_id').reindex(gpt3)#.reset_index()
-    biographies_search.sort_values(by="display_id", key=lambda column: column.map(lambda e: gpt3.index(e)), inplace=True)
+    biographies_search.sort_values(by="display_id", key=lambda column: column.map(lambda e: gpt3.index(e)), inplace=True) """
     
     if request.method == "GET":
         if len(GLOBAL_QUERY) == 0:
@@ -142,32 +141,51 @@ def bio_viewer():
         return render_template('biography_viewer.html', biographies=returned_bios, occupations=occupations_catalogue, 
                 locations=locations_catalogue, sources=MY_SOURCES, n_rows=n_rows, page=page, per_page=per_page, pagination=pagination, method_summary=method_summary)
     else:
-        queried_string = request.form.get('search', None)
-        search_type=request.form.getlist('search_by_option', None) #['option_search_name'] or ['option_search_id']
-        queried_ids, queried_names = process_query_string(queried_string, search_type)
-        query_occupation = request.form.get('input_occupation', None)
-        query_location = request.form.get('input_location', None)
-        query_century = request.form.get('input_century', None)
-        query_source = request.form.get('input_source', None)
-        query_partition = request.form.get('input_partition', None)
+        if request.json["method"] is not None:
+            print("ge^^")
+            method = request.json["method"]
 
-        query_params = {
-            'specific_ids': queried_ids,
-            'specific_names': queried_names,
-            'vals': [query_occupation, query_location, query_century, query_source, query_partition],
-            'fields': ['search_occupations', 'search_places', 'search_person_century', 'search_sources', 'search_partitions'],
-            'string_exact_match': [False, False, True, False, False]
-        }
+            ids_sorted_per_method = STATISTICS["ids_sorted_per_method"]
+            sorted_ids = ids_sorted_per_method[method]
+            sorted_ids = [id.split("_")[0] for id in sorted_ids]
+            all_ids = biographies_search["display_id"].tolist()
+            diff = list(set(all_ids) - set(sorted_ids))
+            biographies_search.drop( index=diff, inplace=True)
+            #sorted_biographies = biographies_search.set_index('display_id').reindex(gpt3)#.reset_index()
+            biographies_search.sort_values(by="display_id", key=lambda column: column.map(lambda e: sorted_ids.index(e)), inplace=True)
+            print(biographies_search)
+            n_rows, _ = biographies_search.shape
+            returned_bios = biographies_search.iloc[offset:offset+10,:].to_dict(orient='records')
+            pagination = Pagination(page=page, per_page=10, total=n_rows, css_framework="bootstrap4")
+            return render_template('biography_viewer.html', biographies=returned_bios, occupations=occupations_catalogue, 
+                locations=locations_catalogue, sources=MY_SOURCES, n_rows=n_rows, page=page, per_page=per_page, pagination=pagination)
+        else:
+            queried_string = request.form.get('search', None)
+            search_type=request.form.getlist('search_by_option', None) #['option_search_name'] or ['option_search_id']
+            queried_ids, queried_names = process_query_string(queried_string, search_type)
+            query_occupation = request.form.get('input_occupation', None)
+            query_location = request.form.get('input_location', None)
+            query_century = request.form.get('input_century', None)
+            query_source = request.form.get('input_source', None)
+            query_partition = request.form.get('input_partition', None)
 
-        # FOR LATER: https://www.statology.org/pandas-loc-multiple-conditions/ and filter in a single query for locations, occupations, and other fields...
-        returned_bios = my_data.get_biographies(biographies_search, query_params)
-        n_rows = len(returned_bios)
-        pagination = Pagination(page=1, per_page=10, total=n_rows, css_framework="bootstrap4")
-        GLOBAL_QUERY = returned_bios
+            query_params = {
+                'specific_ids': queried_ids,
+                'specific_names': queried_names,
+                'vals': [query_occupation, query_location, query_century, query_source, query_partition],
+                'fields': ['search_occupations', 'search_places', 'search_person_century', 'search_sources', 'search_partitions'],
+                'string_exact_match': [False, False, True, False, False]
+            }
+
+            # FOR LATER: https://www.statology.org/pandas-loc-multiple-conditions/ and filter in a single query for locations, occupations, and other fields...
+            returned_bios = my_data.get_biographies(biographies_search, query_params)
+            n_rows = len(returned_bios)
+            pagination = Pagination(page=1, per_page=10, total=n_rows, css_framework="bootstrap4")
+            GLOBAL_QUERY = returned_bios
 
 
-        return render_template('biography_viewer.html', biographies=returned_bios, occupations=occupations_catalogue, 
-            locations=locations_catalogue, sources=MY_SOURCES, n_rows=n_rows, page=page, per_page=per_page, pagination=pagination)
+            return render_template('biography_viewer.html', biographies=returned_bios, occupations=occupations_catalogue, 
+                locations=locations_catalogue, sources=MY_SOURCES, n_rows=n_rows, page=page, per_page=per_page, pagination=pagination)
 
 
 @app.route("/bio_detail/<source>/<text_id>", methods=['GET'])
@@ -295,6 +313,30 @@ def bio_overview_google_charts():
     }
 
     return jsonify(response)
+
+@app.route("/bio_viewer_sort", methods=['GET', 'POST'])
+def biography_sort():
+    method = request.json["method"]
+    global biographies_search
+    global GLOBAL_QUERY
+    global STATISTICS
+
+    page, per_page, offset = get_page_args(page_parameter="page", per_page_parameter="per_page")
+
+    ids_sorted_per_method = STATISTICS["ids_sorted_per_method"]
+    sorted_ids = ids_sorted_per_method[method]
+    sorted_ids = [id.split("_")[0] for id in sorted_ids]
+    all_ids = biographies_search["display_id"].tolist()
+    diff = list(set(all_ids) - set(sorted_ids))
+    biographies_search.drop( index=diff, inplace=True)
+    #sorted_biographies = biographies_search.set_index('display_id').reindex(gpt3)#.reset_index()
+    biographies_search.sort_values(by="display_id", key=lambda column: column.map(lambda e: sorted_ids.index(e)), inplace=True)
+    
+    n_rows, _ = biographies_search.shape
+    returned_bios = biographies_search.iloc[offset:offset+10,:].to_dict(orient='records')
+    pagination = Pagination(page=page, per_page=10, total=n_rows, css_framework="bootstrap4")
+    return render_template('biography_viewer.html', biographies=returned_bios, occupations=occupations_catalogue, 
+                locations=locations_catalogue, sources=MY_SOURCES, n_rows=n_rows, page=page, per_page=per_page, pagination=pagination)
 
 if __name__ == '__main__':
 
