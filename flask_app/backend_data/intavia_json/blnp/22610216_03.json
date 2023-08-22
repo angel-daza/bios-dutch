@@ -4487,6 +4487,30 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "GERBADE",
+        "locationStart": 0,
+        "locationEnd": 6,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "GERBADE",
+        "locationStart": 0,
+        "locationEnd": 7,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "PERSON",
+        "surfaceForm": "HERMANNUS",
+        "locationStart": 8,
+        "locationEnd": 17,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_1",
         "surfaceForm": "HERMANNUS",
         "category": "PER",
@@ -4511,6 +4535,22 @@
         "locationStart": 9,
         "locationEnd": 19,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "HERMANNUS",
+        "locationStart": 9,
+        "locationEnd": 18,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "LOCATION",
+        "surfaceForm": "Bremen",
+        "locationStart": 19,
+        "locationEnd": 25,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_2",
@@ -4549,6 +4589,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Bremen",
+        "locationStart": 22,
+        "locationEnd": 28,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "TIME",
+        "surfaceForm": "26 okt. 1667",
+        "locationStart": 27,
+        "locationEnd": 39,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_13",
         "surfaceForm": "26 okt . 1667",
         "category": "TIME",
@@ -4573,6 +4629,14 @@
         "locationStart": 37,
         "locationEnd": 41,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "LOCATION",
+        "surfaceForm": "t 's- Hertogenbosch",
+        "locationStart": 41,
+        "locationEnd": 61,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_25",
@@ -4627,6 +4691,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "Hertogenbosch",
+        "locationStart": 49,
+        "locationEnd": 62,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_29",
         "surfaceForm": "15 nov. 1736",
         "category": "TIME",
@@ -4643,6 +4715,22 @@
         "locationStart": 63,
         "locationEnd": 75,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "TIME",
+        "surfaceForm": "15 nov. 1736",
+        "locationStart": 63,
+        "locationEnd": 75,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_6",
+        "category": "PERSON",
+        "surfaceForm": "Hermannus Gerbade",
+        "locationStart": 78,
+        "locationEnd": 94,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_4",
@@ -4681,6 +4769,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_2",
+        "category": "PER",
+        "surfaceForm": "Hermannus Gerbade",
+        "locationStart": 85,
+        "locationEnd": 102,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_7",
+        "category": "PERSON",
+        "surfaceForm": "Elisa- beth Uythoff",
+        "locationStart": 99,
+        "locationEnd": 116,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_5",
         "surfaceForm": "Elisa- beth Uythoff",
         "category": "MISC",
@@ -4717,6 +4821,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_2",
+        "category": "PER",
+        "surfaceForm": "Elisa- beth Uythoff",
+        "locationStart": 114,
+        "locationEnd": 133,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_8",
+        "category": "LOCATION",
+        "surfaceForm": "Bremen",
+        "locationStart": 118,
+        "locationEnd": 124,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gysbert_hist_2",
         "category": "PER",
         "surfaceForm": "-",
@@ -4739,6 +4859,30 @@
         "locationStart": 121,
         "locationEnd": 133,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_9",
+        "category": "LOCATION",
+        "surfaceForm": "Groningen",
+        "locationStart": 126,
+        "locationEnd": 135,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_10",
+        "category": "TIME",
+        "surfaceForm": "1690",
+        "locationStart": 137,
+        "locationEnd": 141,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_11",
+        "category": "LOCATION",
+        "surfaceForm": "Franeker",
+        "locationStart": 143,
+        "locationEnd": 151,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_6",
@@ -4777,6 +4921,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_3",
+        "category": "LOC",
+        "surfaceForm": "Bremen",
+        "locationStart": 148,
+        "locationEnd": 154,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_12",
+        "category": "TIME",
+        "surfaceForm": "1691",
+        "locationStart": 153,
+        "locationEnd": 157,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_7",
         "surfaceForm": "Groningen",
         "category": "LOC",
@@ -4813,6 +4973,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_3",
+        "category": "LOC",
+        "surfaceForm": "Groningen",
+        "locationStart": 156,
+        "locationEnd": 165,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_5",
         "surfaceForm": "1690",
         "category": "TIME",
@@ -4829,6 +4997,14 @@
         "locationStart": 166,
         "locationEnd": 170,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_13",
+        "category": "PERSON",
+        "surfaceForm": "Hekeren",
+        "locationStart": 169,
+        "locationEnd": 176,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_8",
@@ -4867,6 +5043,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_3",
+        "category": "LOC",
+        "surfaceForm": "Franeker",
+        "locationStart": 172,
+        "locationEnd": 180,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_14",
+        "category": "TIME",
+        "surfaceForm": "1693",
+        "locationStart": 178,
+        "locationEnd": 182,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_7",
         "surfaceForm": "1691",
         "category": "TIME",
@@ -4885,6 +5077,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_15",
+        "category": "LOCATION",
+        "surfaceForm": "St.-Truiden",
+        "locationStart": 184,
+        "locationEnd": 194,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_9",
         "surfaceForm": "Legerpred",
         "category": "ORG",
@@ -4893,6 +5093,38 @@
         "tokenStart": 41,
         "tokenEnd": 42,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "gpt-3.5-turbo_16",
+        "category": "TIME",
+        "surfaceForm": "1693",
+        "locationStart": 196,
+        "locationEnd": 200,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_17",
+        "category": "LOCATION",
+        "surfaceForm": "'s- Hertogenbosch",
+        "locationStart": 202,
+        "locationEnd": 218,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_18",
+        "category": "TIME",
+        "surfaceForm": "1694",
+        "locationStart": 220,
+        "locationEnd": 224,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_19",
+        "category": "PERSON",
+        "surfaceForm": "J. Cuchlinus",
+        "locationStart": 226,
+        "locationEnd": 237,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "flair_6",
@@ -4921,6 +5153,14 @@
         "method": "human_gold"
       },
       {
+        "ID": "xlmr_ner_5",
+        "category": "",
+        "surfaceForm": "Hekeren",
+        "locationStart": 231,
+        "locationEnd": 238,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_10",
         "surfaceForm": "1693",
         "category": "TIME",
@@ -4937,6 +5177,30 @@
         "locationStart": 239,
         "locationEnd": 243,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_20",
+        "category": "LOCATION",
+        "surfaceForm": "Rosmalen",
+        "locationStart": 239,
+        "locationEnd": 247,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_21",
+        "category": "LOCATION",
+        "surfaceForm": "Empel",
+        "locationStart": 251,
+        "locationEnd": 256,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_22",
+        "category": "TIME",
+        "surfaceForm": "1696",
+        "locationStart": 258,
+        "locationEnd": 262,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_11",
@@ -4957,6 +5221,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_6",
+        "category": "LOC",
+        "surfaceForm": "St.-Truiden",
+        "locationStart": 263,
+        "locationEnd": 274,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_12",
         "surfaceForm": "1693",
         "category": "TIME",
@@ -4975,6 +5247,30 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_23",
+        "category": "TIME",
+        "surfaceForm": "1698",
+        "locationStart": 275,
+        "locationEnd": 279,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_24",
+        "category": "PERSON",
+        "surfaceForm": "Maria Ebbinck",
+        "locationStart": 281,
+        "locationEnd": 293,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_25",
+        "category": "LOCATION",
+        "surfaceForm": "Franeker",
+        "locationStart": 296,
+        "locationEnd": 304,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_14",
         "surfaceForm": "'s- Hertogenbosch",
         "category": "LOC",
@@ -4991,6 +5287,14 @@
         "locationStart": 303,
         "locationEnd": 304,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_7",
+        "category": "LOC",
+        "surfaceForm": "'",
+        "locationStart": 303,
+        "locationEnd": 304,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gysbert_hist_7",
@@ -5019,6 +5323,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_7",
+        "category": "LOC",
+        "surfaceForm": "Hertogenbosch",
+        "locationStart": 307,
+        "locationEnd": 320,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_26",
+        "category": "PERSON",
+        "surfaceForm": "H.A. Rell",
+        "locationStart": 308,
+        "locationEnd": 316,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_15",
         "surfaceForm": "1694",
         "category": "TIME",
@@ -5037,6 +5357,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_27",
+        "category": "PERSON",
+        "surfaceForm": "C. Vitringa sr.",
+        "locationStart": 321,
+        "locationEnd": 334,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_16",
         "surfaceForm": "prof. J. Cuchlinus",
         "category": "PER",
@@ -5045,6 +5373,14 @@
         "tokenStart": 67,
         "tokenEnd": 70,
         "method": "human_gold"
+      },
+      {
+        "ID": "gpt-3.5-turbo_28",
+        "category": "TIME",
+        "surfaceForm": "1692",
+        "locationStart": 339,
+        "locationEnd": 343,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_11",
@@ -5071,6 +5407,22 @@
         "locationStart": 340,
         "locationEnd": 352,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_7",
+        "category": "PER",
+        "surfaceForm": "J. Cuchlinus",
+        "locationStart": 340,
+        "locationEnd": 352,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_29",
+        "category": "ARTWORK",
+        "surfaceForm": "Zach. 4",
+        "locationStart": 346,
+        "locationEnd": 353,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_12",
@@ -5109,6 +5461,30 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_7",
+        "category": "LOC",
+        "surfaceForm": "Rosmalen",
+        "locationStart": 361,
+        "locationEnd": 369,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_30",
+        "category": "PERSON",
+        "surfaceForm": "Rell",
+        "locationStart": 365,
+        "locationEnd": 369,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_31",
+        "category": "ARTWORK",
+        "surfaceForm": "'t Heiligdom den Heidenen geopent door den Brief van Paulus aan d' Efezers",
+        "locationStart": 371,
+        "locationEnd": 446,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_13",
         "surfaceForm": "Empel",
         "category": "LOC",
@@ -5143,6 +5519,14 @@
         "locationStart": 373,
         "locationEnd": 378,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_7",
+        "category": "LOC",
+        "surfaceForm": "Empel",
+        "locationStart": 373,
+        "locationEnd": 378,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_19",
@@ -5217,6 +5601,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_8",
+        "category": "PER",
+        "surfaceForm": "Maria Ebbinck",
+        "locationStart": 407,
+        "locationEnd": 420,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_15",
         "surfaceForm": "G.",
         "category": "PER",
@@ -5243,6 +5635,14 @@
         "locationStart": 422,
         "locationEnd": 424,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_9",
+        "category": "PER",
+        "surfaceForm": "G.",
+        "locationStart": 422,
+        "locationEnd": 424,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_16",
@@ -5281,6 +5681,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_9",
+        "category": "LOC",
+        "surfaceForm": "Franeker",
+        "locationStart": 438,
+        "locationEnd": 446,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_32",
+        "category": "TIME",
+        "surfaceForm": "1707",
+        "locationStart": 448,
+        "locationEnd": 452,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_17",
         "surfaceForm": "H.A. Rell",
         "category": "PER",
@@ -5309,12 +5725,28 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_9",
+        "category": "PER",
+        "surfaceForm": "H.A. Rell",
+        "locationStart": 451,
+        "locationEnd": 460,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gysbert_hist_9",
         "category": "PER",
         "surfaceForm": "a .",
         "locationStart": 453,
         "locationEnd": 455,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_33",
+        "category": "ARTWORK",
+        "surfaceForm": "Ef. 1:3",
+        "locationStart": 454,
+        "locationEnd": 461,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "flair_14",
@@ -5369,12 +5801,44 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_9",
+        "category": "PER",
+        "surfaceForm": "C. Vitringa",
+        "locationStart": 464,
+        "locationEnd": 475,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "flair_15",
         "category": "PER",
         "surfaceForm": "Vitringa",
         "locationStart": 467,
         "locationEnd": 475,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_34",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Gelderse",
+        "locationStart": 482,
+        "locationEnd": 490,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_35",
+        "category": "TIME",
+        "surfaceForm": "1707",
+        "locationStart": 492,
+        "locationEnd": 496,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_36",
+        "category": "PERSON",
+        "surfaceForm": "Vitringa",
+        "locationStart": 498,
+        "locationEnd": 506,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_27",
@@ -5393,6 +5857,46 @@
         "locationStart": 511,
         "locationEnd": 515,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_37",
+        "category": "LOCATION",
+        "surfaceForm": "Utrecht",
+        "locationStart": 515,
+        "locationEnd": 522,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_38",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Utrechtse",
+        "locationStart": 524,
+        "locationEnd": 533,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_39",
+        "category": "PERSON",
+        "surfaceForm": "G.s",
+        "locationStart": 535,
+        "locationEnd": 538,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_40",
+        "category": "LOCATION",
+        "surfaceForm": "Utrecht",
+        "locationStart": 540,
+        "locationEnd": 547,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_41",
+        "category": "PERSON",
+        "surfaceForm": "G.s",
+        "locationStart": 549,
+        "locationEnd": 552,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "flair_15",
@@ -5439,6 +5943,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_10",
+        "category": "PER",
+        "surfaceForm": "Rell",
+        "locationStart": 577,
+        "locationEnd": 581,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_20",
         "surfaceForm": "'t Heiligdom den Heidenen",
         "category": "MISC",
@@ -5457,6 +5969,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_10",
+        "category": "LOC",
+        "surfaceForm": "Heiligdom den Heidenen",
+        "locationStart": 606,
+        "locationEnd": 628,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "flair_16",
         "category": "MISC",
         "surfaceForm": "Brief van Paulus aan d' Efezers",
@@ -5473,6 +5993,14 @@
         "tokenStart": 135,
         "tokenEnd": 136,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "xlmr_ner_10",
+        "category": "PER",
+        "surfaceForm": "Paulus d Efezers",
+        "locationStart": 656,
+        "locationEnd": 677,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_22",
@@ -5547,6 +6075,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_11",
+        "category": "PER",
+        "surfaceForm": "Zo",
+        "locationStart": 797,
+        "locationEnd": 799,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_25",
         "surfaceForm": "Vader",
         "category": "MISC",
@@ -5563,6 +6099,14 @@
         "locationStart": 809,
         "locationEnd": 814,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_11",
+        "category": "PER",
+        "surfaceForm": "Vader",
+        "locationStart": 809,
+        "locationEnd": 814,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_26",
@@ -5599,6 +6143,14 @@
         "locationStart": 848,
         "locationEnd": 852,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_12",
+        "category": "LOC",
+        "surfaceForm": "Zuid-Holland",
+        "locationStart": 848,
+        "locationEnd": 860,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gysbert_hist_12",
@@ -5699,6 +6251,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_13",
+        "category": "PER",
+        "surfaceForm": "Vitringa",
+        "locationStart": 965,
+        "locationEnd": 973,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_30",
         "surfaceForm": "Utrecht",
         "category": "LOC",
@@ -5725,6 +6285,14 @@
         "locationStart": 1116,
         "locationEnd": 1123,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_14",
+        "category": "LOC",
+        "surfaceForm": "Utrecht",
+        "locationStart": 1116,
+        "locationEnd": 1123,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_31",
@@ -5761,342 +6329,6 @@
         "locationStart": 1257,
         "locationEnd": 1260,
         "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "GERBADE",
-        "locationStart": 0,
-        "locationEnd": 6,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "PERSON",
-        "surfaceForm": "HERMANNUS",
-        "locationStart": 8,
-        "locationEnd": 17,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "LOCATION",
-        "surfaceForm": "Bremen",
-        "locationStart": 19,
-        "locationEnd": 25,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "TIME",
-        "surfaceForm": "26 okt. 1667",
-        "locationStart": 27,
-        "locationEnd": 39,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "LOCATION",
-        "surfaceForm": "t 's- Hertogenbosch",
-        "locationStart": 41,
-        "locationEnd": 61,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "TIME",
-        "surfaceForm": "15 nov. 1736",
-        "locationStart": 63,
-        "locationEnd": 75,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_6",
-        "category": "PERSON",
-        "surfaceForm": "Hermannus Gerbade",
-        "locationStart": 78,
-        "locationEnd": 94,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_7",
-        "category": "PERSON",
-        "surfaceForm": "Elisa- beth Uythoff",
-        "locationStart": 99,
-        "locationEnd": 116,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_8",
-        "category": "LOCATION",
-        "surfaceForm": "Bremen",
-        "locationStart": 118,
-        "locationEnd": 124,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_9",
-        "category": "LOCATION",
-        "surfaceForm": "Groningen",
-        "locationStart": 126,
-        "locationEnd": 135,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_10",
-        "category": "TIME",
-        "surfaceForm": "1690",
-        "locationStart": 137,
-        "locationEnd": 141,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_11",
-        "category": "LOCATION",
-        "surfaceForm": "Franeker",
-        "locationStart": 143,
-        "locationEnd": 151,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_12",
-        "category": "TIME",
-        "surfaceForm": "1691",
-        "locationStart": 153,
-        "locationEnd": 157,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_13",
-        "category": "PERSON",
-        "surfaceForm": "Hekeren",
-        "locationStart": 169,
-        "locationEnd": 176,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_14",
-        "category": "TIME",
-        "surfaceForm": "1693",
-        "locationStart": 178,
-        "locationEnd": 182,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_15",
-        "category": "LOCATION",
-        "surfaceForm": "St.-Truiden",
-        "locationStart": 184,
-        "locationEnd": 194,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_16",
-        "category": "TIME",
-        "surfaceForm": "1693",
-        "locationStart": 196,
-        "locationEnd": 200,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_17",
-        "category": "LOCATION",
-        "surfaceForm": "'s- Hertogenbosch",
-        "locationStart": 202,
-        "locationEnd": 218,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_18",
-        "category": "TIME",
-        "surfaceForm": "1694",
-        "locationStart": 220,
-        "locationEnd": 224,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_19",
-        "category": "PERSON",
-        "surfaceForm": "J. Cuchlinus",
-        "locationStart": 226,
-        "locationEnd": 237,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_20",
-        "category": "LOCATION",
-        "surfaceForm": "Rosmalen",
-        "locationStart": 239,
-        "locationEnd": 247,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_21",
-        "category": "LOCATION",
-        "surfaceForm": "Empel",
-        "locationStart": 251,
-        "locationEnd": 256,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_22",
-        "category": "TIME",
-        "surfaceForm": "1696",
-        "locationStart": 258,
-        "locationEnd": 262,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_23",
-        "category": "TIME",
-        "surfaceForm": "1698",
-        "locationStart": 275,
-        "locationEnd": 279,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_24",
-        "category": "PERSON",
-        "surfaceForm": "Maria Ebbinck",
-        "locationStart": 281,
-        "locationEnd": 293,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_25",
-        "category": "LOCATION",
-        "surfaceForm": "Franeker",
-        "locationStart": 296,
-        "locationEnd": 304,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_26",
-        "category": "PERSON",
-        "surfaceForm": "H.A. Rell",
-        "locationStart": 308,
-        "locationEnd": 316,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_27",
-        "category": "PERSON",
-        "surfaceForm": "C. Vitringa sr.",
-        "locationStart": 321,
-        "locationEnd": 334,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_28",
-        "category": "TIME",
-        "surfaceForm": "1692",
-        "locationStart": 339,
-        "locationEnd": 343,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_29",
-        "category": "ARTWORK",
-        "surfaceForm": "Zach. 4",
-        "locationStart": 346,
-        "locationEnd": 353,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_30",
-        "category": "PERSON",
-        "surfaceForm": "Rell",
-        "locationStart": 365,
-        "locationEnd": 369,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_31",
-        "category": "ARTWORK",
-        "surfaceForm": "'t Heiligdom den Heidenen geopent door den Brief van Paulus aan d' Efezers",
-        "locationStart": 371,
-        "locationEnd": 446,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_32",
-        "category": "TIME",
-        "surfaceForm": "1707",
-        "locationStart": 448,
-        "locationEnd": 452,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_33",
-        "category": "ARTWORK",
-        "surfaceForm": "Ef. 1:3",
-        "locationStart": 454,
-        "locationEnd": 461,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_34",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Gelderse",
-        "locationStart": 482,
-        "locationEnd": 490,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_35",
-        "category": "TIME",
-        "surfaceForm": "1707",
-        "locationStart": 492,
-        "locationEnd": 496,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_36",
-        "category": "PERSON",
-        "surfaceForm": "Vitringa",
-        "locationStart": 498,
-        "locationEnd": 506,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_37",
-        "category": "LOCATION",
-        "surfaceForm": "Utrecht",
-        "locationStart": 515,
-        "locationEnd": 522,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_38",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Utrechtse",
-        "locationStart": 524,
-        "locationEnd": 533,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_39",
-        "category": "PERSON",
-        "surfaceForm": "G.s",
-        "locationStart": 535,
-        "locationEnd": 538,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_40",
-        "category": "LOCATION",
-        "surfaceForm": "Utrecht",
-        "locationStart": 540,
-        "locationEnd": 547,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_41",
-        "category": "PERSON",
-        "surfaceForm": "G.s",
-        "locationStart": 549,
-        "locationEnd": 552,
-        "method": "gpt-3.5-turbo"
       }
     ],
     "time_expressions": [

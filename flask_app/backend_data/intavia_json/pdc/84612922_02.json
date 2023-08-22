@@ -870,6 +870,14 @@
     },
     "entities": [
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "Deftige Haagse advocaat",
+        "locationStart": 0,
+        "locationEnd": 22,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_0",
         "surfaceForm": "Haagse",
         "category": "MISC",
@@ -886,6 +894,14 @@
         "locationStart": 8,
         "locationEnd": 14,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Tweede Kamerlid",
+        "locationStart": 38,
+        "locationEnd": 53,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_1",
@@ -906,6 +922,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Vrij-Liberalen",
+        "locationStart": 58,
+        "locationEnd": 72,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "TIME",
+        "surfaceForm": "1913",
+        "locationStart": 77,
+        "locationEnd": 81,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_5",
         "surfaceForm": "vijf jaar",
         "category": "TIME",
@@ -914,6 +946,14 @@
         "tokenStart": 12,
         "tokenEnd": 14,
         "method": "human_gold"
+      },
+      {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "LOCATION",
+        "surfaceForm": "Utrecht I",
+        "locationStart": 85,
+        "locationEnd": 94,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_2",
@@ -932,6 +972,14 @@
         "locationStart": 89,
         "locationEnd": 104,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Kamer",
+        "locationStart": 99,
+        "locationEnd": 104,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_3",
@@ -960,6 +1008,22 @@
         "locationStart": 113,
         "locationEnd": 127,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "ORG",
+        "surfaceForm": "Vrij-Liberalen",
+        "locationStart": 113,
+        "locationEnd": 127,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_6",
+        "category": "ARTWORK",
+        "surfaceForm": "Grondwettelijk onderwijsartikel",
+        "locationStart": 137,
+        "locationEnd": 167,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_1",
@@ -1016,6 +1080,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "Utrecht I",
+        "locationStart": 162,
+        "locationEnd": 171,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_5",
         "surfaceForm": "Kamer",
         "category": "ORG",
@@ -1044,6 +1116,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_2",
+        "category": "ORG",
+        "surfaceForm": "Kamer",
+        "locationStart": 187,
+        "locationEnd": 192,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_6",
         "surfaceForm": "Grondwettelijk onderwijsartikel",
         "category": "MISC",
@@ -1070,62 +1150,6 @@
         "locationStart": 272,
         "locationEnd": 303,
         "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "Deftige Haagse advocaat",
-        "locationStart": 0,
-        "locationEnd": 22,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Tweede Kamerlid",
-        "locationStart": 38,
-        "locationEnd": 53,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Vrij-Liberalen",
-        "locationStart": 58,
-        "locationEnd": 72,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "TIME",
-        "surfaceForm": "1913",
-        "locationStart": 77,
-        "locationEnd": 81,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "LOCATION",
-        "surfaceForm": "Utrecht I",
-        "locationStart": 85,
-        "locationEnd": 94,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Kamer",
-        "locationStart": 99,
-        "locationEnd": 104,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_6",
-        "category": "ARTWORK",
-        "surfaceForm": "Grondwettelijk onderwijsartikel",
-        "locationStart": 137,
-        "locationEnd": 167,
-        "method": "gpt-3.5-turbo"
       }
     ],
     "time_expressions": [

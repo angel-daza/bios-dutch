@@ -3340,6 +3340,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "SOERMANS",
+        "locationStart": 0,
+        "locationEnd": 8,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "SOERMANS (Martinus",
+        "locationStart": 0,
+        "locationEnd": 18,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_1",
         "surfaceForm": "Martinus",
         "category": "LOC",
@@ -3366,6 +3382,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "PERSON",
+        "surfaceForm": "Martinus",
+        "locationStart": 10,
+        "locationEnd": 18,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_1",
         "surfaceForm": "van 1663 tot 1699",
         "category": "TIME",
@@ -3390,6 +3414,14 @@
         "locationStart": 34,
         "locationEnd": 38,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "LOCATION",
+        "surfaceForm": "Goudriaan",
+        "locationStart": 38,
+        "locationEnd": 47,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_2",
@@ -3428,6 +3460,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Goudriaan",
+        "locationStart": 52,
+        "locationEnd": 61,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "TIME",
+        "surfaceForm": "1705",
+        "locationStart": 61,
+        "locationEnd": 65,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_18",
         "surfaceForm": "1705",
         "category": "TIME",
@@ -3444,6 +3492,14 @@
         "locationStart": 78,
         "locationEnd": 82,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Nederduitsche",
+        "locationStart": 85,
+        "locationEnd": 98,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_3",
@@ -3464,6 +3520,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "ARTWORK",
+        "surfaceForm": "Kerklijk Register",
+        "locationStart": 118,
+        "locationEnd": 135,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_6",
+        "category": "ARTWORK",
+        "surfaceForm": "Plaatsen en Namen der Predikanten van alle de Classen van Zuid-Holland",
+        "locationStart": 139,
+        "locationEnd": 202,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_4",
         "surfaceForm": "Kerklijk Register van de Plaatsen",
         "category": "MISC",
@@ -3482,6 +3554,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "gpt-3.5-turbo_7",
+        "category": "ARTWORK",
+        "surfaceForm": "Reformatie",
+        "locationStart": 216,
+        "locationEnd": 226,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_5",
         "surfaceForm": "Namen der Predikanten van alle de Classen van Zuid-Holland",
         "category": "ORG",
@@ -3490,6 +3570,30 @@
         "tokenStart": 40,
         "tokenEnd": 49,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "gpt-3.5-turbo_8",
+        "category": "TIME",
+        "surfaceForm": "1701",
+        "locationStart": 230,
+        "locationEnd": 234,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_9",
+        "category": "LOCATION",
+        "surfaceForm": "Dordrecht",
+        "locationStart": 248,
+        "locationEnd": 257,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_10",
+        "category": "ARTWORK",
+        "surfaceForm": "Synodaal Register",
+        "locationStart": 267,
+        "locationEnd": 284,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "flair_1",
@@ -3508,6 +3612,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_2",
+        "category": "LOC",
+        "surfaceForm": "Zuid-Holland",
+        "locationStart": 271,
+        "locationEnd": 283,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gysbert_hist_2",
         "category": "LOC",
         "surfaceForm": "holland",
@@ -3524,6 +3636,14 @@
         "tokenStart": 50,
         "tokenEnd": 58,
         "method": "human_gold"
+      },
+      {
+        "ID": "gpt-3.5-turbo_11",
+        "category": "ARTWORK",
+        "surfaceForm": "Namen en Bedieningen dergenen die in het jaar 1579 en vervolgens tot 1703 afgezonden en verschenen zijn in de Zuid-Hollandsche Synodus",
+        "locationStart": 288,
+        "locationEnd": 397,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_6",
@@ -3568,6 +3688,14 @@
         "locationStart": 327,
         "locationEnd": 332,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_3",
+        "category": "LOC",
+        "surfaceForm": "Haarl",
+        "locationStart": 327,
+        "locationEnd": 332,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gysbert_hist_3",
@@ -3650,6 +3778,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_5",
+        "category": "LOC",
+        "surfaceForm": "Dordrecht",
+        "locationStart": 386,
+        "locationEnd": 395,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_7",
         "surfaceForm": "1695",
         "category": "TIME",
@@ -3666,6 +3802,14 @@
         "locationStart": 396,
         "locationEnd": 400,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_12",
+        "category": "ARTWORK",
+        "surfaceForm": "Tweede Deel",
+        "locationStart": 401,
+        "locationEnd": 412,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_8",
@@ -3686,6 +3830,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "gpt-3.5-turbo_13",
+        "category": "ARTWORK",
+        "surfaceForm": "Tweede Deel",
+        "locationStart": 416,
+        "locationEnd": 427,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_14",
+        "category": "ARTWORK",
+        "surfaceForm": "Kerklijk Register",
+        "locationStart": 431,
+        "locationEnd": 448,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_8",
         "surfaceForm": "Namen",
         "category": "MISC",
@@ -3704,6 +3864,22 @@
         "tokenStart": 84,
         "tokenEnd": 85,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "gpt-3.5-turbo_15",
+        "category": "ARTWORK",
+        "surfaceForm": "Academisch Register",
+        "locationStart": 458,
+        "locationEnd": 477,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_16",
+        "category": "ARTWORK",
+        "surfaceForm": "Namen en de Waardigheden dergenen, welke zijn geweest in bedieningen der universiteit te Leiden, of eenige betrekking tot dezelve hebben",
+        "locationStart": 481,
+        "locationEnd": 590,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_9",
@@ -3788,6 +3964,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "gpt-3.5-turbo_17",
+        "category": "PERSON",
+        "surfaceForm": "v.d. Aa",
+        "locationStart": 594,
+        "locationEnd": 600,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_18",
+        "category": "ORGANIZATION",
+        "surfaceForm": "N.B.A.C. Woordenb.",
+        "locationStart": 602,
+        "locationEnd": 619,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_12",
         "surfaceForm": "Tweede Deel",
         "category": "MISC",
@@ -3804,6 +3996,14 @@
         "locationStart": 605,
         "locationEnd": 616,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_19",
+        "category": "PERSON",
+        "surfaceForm": "Soermans",
+        "locationStart": 621,
+        "locationEnd": 628,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_13",
@@ -3834,6 +4034,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "gpt-3.5-turbo_20",
+        "category": "ARTWORK",
+        "surfaceForm": "Kerk. Reg.",
+        "locationStart": 630,
+        "locationEnd": 639,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_21",
+        "category": "PERSON",
+        "surfaceForm": "Brans",
+        "locationStart": 641,
+        "locationEnd": 646,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_14",
         "surfaceForm": "Amst.",
         "category": "LOC",
@@ -3860,6 +4076,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_22",
+        "category": "ARTWORK",
+        "surfaceForm": "Kerk. Reg.",
+        "locationStart": 648,
+        "locationEnd": 657,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_15",
         "surfaceForm": "1704",
         "category": "TIME",
@@ -3880,12 +4104,28 @@
         "method": "human_gold"
       },
       {
+        "ID": "gpt-3.5-turbo_23",
+        "category": "PERSON",
+        "surfaceForm": "Abcoude",
+        "locationStart": 659,
+        "locationEnd": 666,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "flair_11",
         "category": "MISC",
         "surfaceForm": "Academisch Register",
         "locationStart": 660,
         "locationEnd": 679,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_24",
+        "category": "PERSON",
+        "surfaceForm": "Arrenberg",
+        "locationStart": 668,
+        "locationEnd": 677,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_14",
@@ -3942,6 +4182,14 @@
         "locationStart": 784,
         "locationEnd": 790,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_7",
+        "category": "LOC",
+        "surfaceForm": "Leiden",
+        "locationStart": 784,
+        "locationEnd": 790,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_19",
@@ -4024,6 +4272,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_10",
+        "category": "",
+        "surfaceForm": "A",
+        "locationStart": 867,
+        "locationEnd": 867,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_19",
         "surfaceForm": "Soermans",
         "category": "PER",
@@ -4042,6 +4298,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_11",
+        "category": "PER",
+        "surfaceForm": "Soermans",
+        "locationStart": 882,
+        "locationEnd": 890,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_20",
         "surfaceForm": "Kerk",
         "category": "LOC",
@@ -4058,6 +4322,14 @@
         "locationStart": 892,
         "locationEnd": 897,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_11",
+        "category": "ORG",
+        "surfaceForm": "Kerk. Reg",
+        "locationStart": 892,
+        "locationEnd": 901,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "flair_17",
@@ -4094,6 +4366,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_12",
+        "category": "PER",
+        "surfaceForm": "Brans",
+        "locationStart": 912,
+        "locationEnd": 917,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_22",
         "surfaceForm": "Kerk",
         "category": "LOC",
@@ -4110,6 +4390,14 @@
         "locationStart": 919,
         "locationEnd": 924,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_12",
+        "category": "ORG",
+        "surfaceForm": "Kerk. Reg.",
+        "locationStart": 919,
+        "locationEnd": 929,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "flair_19",
@@ -4146,6 +4434,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_12",
+        "category": "ORG",
+        "surfaceForm": "Abcoude",
+        "locationStart": 931,
+        "locationEnd": 938,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_24",
         "surfaceForm": "Arrenberg",
         "category": "PER",
@@ -4172,204 +4468,12 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "SOERMANS",
-        "locationStart": 0,
-        "locationEnd": 8,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "PERSON",
-        "surfaceForm": "Martinus",
-        "locationStart": 10,
-        "locationEnd": 18,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "LOCATION",
-        "surfaceForm": "Goudriaan",
-        "locationStart": 38,
-        "locationEnd": 47,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "TIME",
-        "surfaceForm": "1705",
-        "locationStart": 61,
-        "locationEnd": 65,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Nederduitsche",
-        "locationStart": 85,
-        "locationEnd": 98,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "ARTWORK",
-        "surfaceForm": "Kerklijk Register",
-        "locationStart": 118,
-        "locationEnd": 135,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_6",
-        "category": "ARTWORK",
-        "surfaceForm": "Plaatsen en Namen der Predikanten van alle de Classen van Zuid-Holland",
-        "locationStart": 139,
-        "locationEnd": 202,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_7",
-        "category": "ARTWORK",
-        "surfaceForm": "Reformatie",
-        "locationStart": 216,
-        "locationEnd": 226,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_8",
-        "category": "TIME",
-        "surfaceForm": "1701",
-        "locationStart": 230,
-        "locationEnd": 234,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_9",
-        "category": "LOCATION",
-        "surfaceForm": "Dordrecht",
-        "locationStart": 248,
-        "locationEnd": 257,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_10",
-        "category": "ARTWORK",
-        "surfaceForm": "Synodaal Register",
-        "locationStart": 267,
-        "locationEnd": 284,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_11",
-        "category": "ARTWORK",
-        "surfaceForm": "Namen en Bedieningen dergenen die in het jaar 1579 en vervolgens tot 1703 afgezonden en verschenen zijn in de Zuid-Hollandsche Synodus",
-        "locationStart": 288,
-        "locationEnd": 397,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_12",
-        "category": "ARTWORK",
-        "surfaceForm": "Tweede Deel",
-        "locationStart": 401,
-        "locationEnd": 412,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_13",
-        "category": "ARTWORK",
-        "surfaceForm": "Tweede Deel",
-        "locationStart": 416,
-        "locationEnd": 427,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_14",
-        "category": "ARTWORK",
-        "surfaceForm": "Kerklijk Register",
-        "locationStart": 431,
-        "locationEnd": 448,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_15",
-        "category": "ARTWORK",
-        "surfaceForm": "Academisch Register",
-        "locationStart": 458,
-        "locationEnd": 477,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_16",
-        "category": "ARTWORK",
-        "surfaceForm": "Namen en de Waardigheden dergenen, welke zijn geweest in bedieningen der universiteit te Leiden, of eenige betrekking tot dezelve hebben",
-        "locationStart": 481,
-        "locationEnd": 590,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_17",
-        "category": "PERSON",
-        "surfaceForm": "v.d. Aa",
-        "locationStart": 594,
-        "locationEnd": 600,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_18",
-        "category": "ORGANIZATION",
-        "surfaceForm": "N.B.A.C. Woordenb.",
-        "locationStart": 602,
-        "locationEnd": 619,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_19",
-        "category": "PERSON",
-        "surfaceForm": "Soermans",
-        "locationStart": 621,
-        "locationEnd": 628,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_20",
-        "category": "ARTWORK",
-        "surfaceForm": "Kerk. Reg.",
-        "locationStart": 630,
-        "locationEnd": 639,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_21",
-        "category": "PERSON",
-        "surfaceForm": "Brans",
-        "locationStart": 641,
-        "locationEnd": 646,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_22",
-        "category": "ARTWORK",
-        "surfaceForm": "Kerk. Reg.",
-        "locationStart": 648,
-        "locationEnd": 657,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_23",
-        "category": "PERSON",
-        "surfaceForm": "Abcoude",
-        "locationStart": 659,
-        "locationEnd": 666,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_24",
-        "category": "PERSON",
+        "ID": "xlmr_ner_13",
+        "category": "PER",
         "surfaceForm": "Arrenberg",
-        "locationStart": 668,
-        "locationEnd": 677,
-        "method": "gpt-3.5-turbo"
+        "locationStart": 949,
+        "locationEnd": 958,
+        "method": "xlmr_ner_"
       }
     ],
     "time_expressions": [

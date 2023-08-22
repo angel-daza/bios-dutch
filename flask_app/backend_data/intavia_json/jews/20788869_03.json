@@ -1228,6 +1228,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "Abel J. Herzberg",
+        "locationStart": 0,
+        "locationEnd": 15,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "Abel J. Herzberg",
+        "locationStart": 0,
+        "locationEnd": 16,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_4",
         "surfaceForm": "1893 - 1989",
         "category": "TIME",
@@ -1244,6 +1260,14 @@
         "locationStart": 18,
         "locationEnd": 22,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "LOCATION",
+        "surfaceForm": "Nederlands",
+        "locationStart": 23,
+        "locationEnd": 33,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gysbert_hist_0",
@@ -1270,6 +1294,22 @@
         "locationStart": 39,
         "locationEnd": 49,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "LOCATION",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 57,
+        "locationEnd": 66,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "ARTWORK",
+        "surfaceForm": "Vaderland",
+        "locationStart": 82,
+        "locationEnd": 91,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_2",
@@ -1306,6 +1346,30 @@
         "locationStart": 98,
         "locationEnd": 107,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 98,
+        "locationEnd": 107,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "ARTWORK",
+        "surfaceForm": "jodenvervolging",
+        "locationStart": 106,
+        "locationEnd": 121,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "LOCATION",
+        "surfaceForm": "Duitsland",
+        "locationStart": 125,
+        "locationEnd": 134,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_3",
@@ -1354,6 +1418,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_6",
+        "category": "LOCATION",
+        "surfaceForm": "Westerbork",
+        "locationStart": 156,
+        "locationEnd": 166,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_7",
+        "category": "LOCATION",
+        "surfaceForm": "Bergen-Belsen",
+        "locationStart": 172,
+        "locationEnd": 185,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_3",
         "surfaceForm": "jodenvervolging",
         "category": "MISC",
@@ -1400,6 +1480,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_2",
+        "category": "LOC",
+        "surfaceForm": "Duitsland",
+        "locationStart": 192,
+        "locationEnd": 201,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_6",
         "surfaceForm": "1944",
         "category": "TIME",
@@ -1416,6 +1504,14 @@
         "locationStart": 206,
         "locationEnd": 210,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_8",
+        "category": "ARTWORK",
+        "surfaceForm": "Amor Fati",
+        "locationStart": 221,
+        "locationEnd": 230,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_5",
@@ -1454,6 +1550,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_3",
+        "category": "LOC",
+        "surfaceForm": "Westerbork",
+        "locationStart": 227,
+        "locationEnd": 237,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_9",
+        "category": "ARTWORK",
+        "surfaceForm": "Tweestromenland",
+        "locationStart": 235,
+        "locationEnd": 250,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_6",
         "surfaceForm": "Bergen-Belsen",
         "category": "LOC",
@@ -1488,6 +1600,14 @@
         "locationStart": 243,
         "locationEnd": 250,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_3",
+        "category": "LOC",
+        "surfaceForm": "Bergen-Belsen",
+        "locationStart": 243,
+        "locationEnd": 256,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gysbert_hist_3",
@@ -1552,86 +1672,6 @@
         "locationStart": 369,
         "locationEnd": 384,
         "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "Abel J. Herzberg",
-        "locationStart": 0,
-        "locationEnd": 15,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "LOCATION",
-        "surfaceForm": "Nederlands",
-        "locationStart": 23,
-        "locationEnd": 33,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "LOCATION",
-        "surfaceForm": "Amsterdam",
-        "locationStart": 57,
-        "locationEnd": 66,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "ARTWORK",
-        "surfaceForm": "Vaderland",
-        "locationStart": 82,
-        "locationEnd": 91,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "ARTWORK",
-        "surfaceForm": "jodenvervolging",
-        "locationStart": 106,
-        "locationEnd": 121,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "LOCATION",
-        "surfaceForm": "Duitsland",
-        "locationStart": 125,
-        "locationEnd": 134,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_6",
-        "category": "LOCATION",
-        "surfaceForm": "Westerbork",
-        "locationStart": 156,
-        "locationEnd": 166,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_7",
-        "category": "LOCATION",
-        "surfaceForm": "Bergen-Belsen",
-        "locationStart": 172,
-        "locationEnd": 185,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_8",
-        "category": "ARTWORK",
-        "surfaceForm": "Amor Fati",
-        "locationStart": 221,
-        "locationEnd": 230,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_9",
-        "category": "ARTWORK",
-        "surfaceForm": "Tweestromenland",
-        "locationStart": 235,
-        "locationEnd": 250,
-        "method": "gpt-3.5-turbo"
       }
     ],
     "time_expressions": [

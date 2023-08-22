@@ -930,6 +930,14 @@
     },
     "entities": [
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "Tydgenoot",
+        "locationStart": 13,
+        "locationEnd": 22,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_0",
         "surfaceForm": "Tydgenoot",
         "category": "MISC",
@@ -938,6 +946,14 @@
         "tokenStart": 4,
         "tokenEnd": 5,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "PERSON",
+        "surfaceForm": "Steenwinkel",
+        "locationStart": 38,
+        "locationEnd": 49,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_1",
@@ -966,6 +982,38 @@
         "locationStart": 45,
         "locationEnd": 56,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "ORG",
+        "surfaceForm": "Steenwinkel",
+        "locationStart": 45,
+        "locationEnd": 56,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "LOCATION",
+        "surfaceForm": "Breda",
+        "locationStart": 95,
+        "locationEnd": 100,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "PERSON",
+        "surfaceForm": "Konstenaar",
+        "locationStart": 105,
+        "locationEnd": 115,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "PERSON",
+        "surfaceForm": "God",
+        "locationStart": 157,
+        "locationEnd": 160,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_2",
@@ -1004,6 +1052,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Breda",
+        "locationStart": 174,
+        "locationEnd": 179,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_3",
         "surfaceForm": "Konstenaar",
         "category": "MISC",
@@ -1040,44 +1096,12 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "Tydgenoot",
-        "locationStart": 13,
-        "locationEnd": 22,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "PERSON",
-        "surfaceForm": "Steenwinkel",
-        "locationStart": 38,
-        "locationEnd": 49,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "LOCATION",
-        "surfaceForm": "Breda",
-        "locationStart": 95,
-        "locationEnd": 100,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "PERSON",
-        "surfaceForm": "Konstenaar",
-        "locationStart": 105,
-        "locationEnd": 115,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "PERSON",
+        "ID": "xlmr_ner_1",
+        "category": "PER",
         "surfaceForm": "God",
-        "locationStart": 157,
-        "locationEnd": 160,
-        "method": "gpt-3.5-turbo"
+        "locationStart": 276,
+        "locationEnd": 279,
+        "method": "xlmr_ner_"
       }
     ],
     "time_expressions": []

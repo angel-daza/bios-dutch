@@ -848,6 +848,30 @@
         "method": "human_gold"
       },
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "BORGT",
+        "locationStart": 0,
+        "locationEnd": 5,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "BORGT Wort",
+        "locationStart": 0,
+        "locationEnd": 10,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Konstschilders",
+        "locationStart": 27,
+        "locationEnd": 41,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_1",
         "surfaceForm": "Konstschilders",
         "category": "MISC",
@@ -866,6 +890,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "LOCATION",
+        "surfaceForm": "Brussels",
+        "locationStart": 47,
+        "locationEnd": 55,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_2",
         "surfaceForm": "Brussels",
         "category": "MISC",
@@ -882,6 +914,14 @@
         "locationStart": 65,
         "locationEnd": 73,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Landschapschilderen",
+        "locationStart": 94,
+        "locationEnd": 113,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_3",
@@ -920,6 +960,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Landschapschilders",
+        "locationStart": 157,
+        "locationEnd": 175,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "ORGANIZATION",
+        "surfaceForm": "konstige Landschapschilders",
+        "locationStart": 221,
+        "locationEnd": 248,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_5",
         "surfaceForm": "Landschapschildersis",
         "category": "MISC",
@@ -944,54 +1000,6 @@
         "locationStart": 297,
         "locationEnd": 300,
         "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "BORGT",
-        "locationStart": 0,
-        "locationEnd": 5,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Konstschilders",
-        "locationStart": 27,
-        "locationEnd": 41,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "LOCATION",
-        "surfaceForm": "Brussels",
-        "locationStart": 47,
-        "locationEnd": 55,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Landschapschilderen",
-        "locationStart": 94,
-        "locationEnd": 113,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Landschapschilders",
-        "locationStart": 157,
-        "locationEnd": 175,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "ORGANIZATION",
-        "surfaceForm": "konstige Landschapschilders",
-        "locationStart": 221,
-        "locationEnd": 248,
-        "method": "gpt-3.5-turbo"
       }
     ],
     "time_expressions": []

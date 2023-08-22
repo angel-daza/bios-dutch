@@ -3417,6 +3417,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "MOREAU (Boudewijn)",
+        "locationStart": 0,
+        "locationEnd": 16,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "MOREAUBoudewijn",
+        "locationStart": 0,
+        "locationEnd": 17,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_1",
         "surfaceForm": "Boudewijn",
         "category": "LOC",
@@ -3451,6 +3467,14 @@
         "tokenStart": 5,
         "tokenEnd": 7,
         "method": "human_gold"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "LOCATION",
+        "surfaceForm": "Henegouwen",
+        "locationStart": 26,
+        "locationEnd": 35,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gysbert_hist_0",
@@ -3497,6 +3521,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Henegouwen",
+        "locationStart": 38,
+        "locationEnd": 48,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Cistercienser",
+        "locationStart": 53,
+        "locationEnd": 66,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_3",
         "surfaceForm": "Cistercienser",
         "category": "PER",
@@ -3513,6 +3553,14 @@
         "locationStart": 76,
         "locationEnd": 89,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "LOCATION",
+        "surfaceForm": "Douai",
+        "locationStart": 80,
+        "locationEnd": 85,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_4",
@@ -3551,6 +3599,54 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Douai",
+        "locationStart": 113,
+        "locationEnd": 118,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Citeaux",
+        "locationStart": 122,
+        "locationEnd": 129,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "DATE",
+        "surfaceForm": "1618",
+        "locationStart": 161,
+        "locationEnd": 165,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_6",
+        "category": "LOCATION",
+        "surfaceForm": "Rosieres",
+        "locationStart": 169,
+        "locationEnd": 177,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_7",
+        "category": "LOCATION",
+        "surfaceForm": "Franche-comte",
+        "locationStart": 181,
+        "locationEnd": 194,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_8",
+        "category": "PERSON",
+        "surfaceForm": "Nicolaas Boucherai",
+        "locationStart": 196,
+        "locationEnd": 213,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_5",
         "surfaceForm": "Citeaux",
         "category": "PER",
@@ -3585,6 +3681,14 @@
         "locationStart": 202,
         "locationEnd": 205,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Citeaux",
+        "locationStart": 202,
+        "locationEnd": 209,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_4",
@@ -3641,6 +3745,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "Rosieres",
+        "locationStart": 230,
+        "locationEnd": 238,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_9",
+        "category": "LOCATION",
+        "surfaceForm": "Rome",
+        "locationStart": 234,
+        "locationEnd": 238,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_7",
         "surfaceForm": "Franche-comte",
         "category": "MISC",
@@ -3675,6 +3795,22 @@
         "locationStart": 242,
         "locationEnd": 247,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Franche-comte",
+        "locationStart": 242,
+        "locationEnd": 255,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_10",
+        "category": "DATE",
+        "surfaceForm": "December 1621",
+        "locationStart": 252,
+        "locationEnd": 265,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_8",
@@ -3713,6 +3849,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "PER",
+        "surfaceForm": "Nicolaas Boucherai",
+        "locationStart": 257,
+        "locationEnd": 275,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_9",
         "surfaceForm": "Citeaux",
         "category": "PER",
@@ -3747,6 +3891,62 @@
         "locationStart": 285,
         "locationEnd": 292,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_11",
+        "category": "DATE",
+        "surfaceForm": "paschen",
+        "locationStart": 285,
+        "locationEnd": 292,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "Citeaux",
+        "locationStart": 285,
+        "locationEnd": 292,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_12",
+        "category": "ARTWORK",
+        "surfaceForm": "Regula S. Benedicti",
+        "locationStart": 297,
+        "locationEnd": 315,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_13",
+        "category": "LOCATION",
+        "surfaceForm": "Duaci",
+        "locationStart": 317,
+        "locationEnd": 322,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_14",
+        "category": "DATE",
+        "surfaceForm": "1318",
+        "locationStart": 324,
+        "locationEnd": 328,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_15",
+        "category": "LOCATION",
+        "surfaceForm": "Colon",
+        "locationStart": 330,
+        "locationEnd": 335,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_16",
+        "category": "DATE",
+        "surfaceForm": "1620",
+        "locationStart": 337,
+        "locationEnd": 341,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_10",
@@ -3785,6 +3985,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "Rome",
+        "locationStart": 340,
+        "locationEnd": 344,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_17",
+        "category": "ARTWORK",
+        "surfaceForm": "Historia Oisterciensis",
+        "locationStart": 343,
+        "locationEnd": 363,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_10",
         "surfaceForm": "het eind van December 1621",
         "category": "TIME",
@@ -3793,6 +4009,14 @@
         "tokenStart": 69,
         "tokenEnd": 74,
         "method": "human_gold"
+      },
+      {
+        "ID": "gpt-3.5-turbo_18",
+        "category": "PERSON",
+        "surfaceForm": "Val. Andreas",
+        "locationStart": 367,
+        "locationEnd": 379,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_11",
@@ -3813,6 +4037,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_19",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Bibl. Belg.",
+        "locationStart": 381,
+        "locationEnd": 391,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_20",
+        "category": "PERSON",
+        "surfaceForm": "Sweertii",
+        "locationStart": 393,
+        "locationEnd": 401,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_12",
         "surfaceForm": "tegen paschen van 't volgende jaar",
         "category": "TIME",
@@ -3821,6 +4061,46 @@
         "tokenStart": 77,
         "tokenEnd": 83,
         "method": "human_gold"
+      },
+      {
+        "ID": "gpt-3.5-turbo_21",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Ath. Belg.",
+        "locationStart": 403,
+        "locationEnd": 412,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_22",
+        "category": "PERSON",
+        "surfaceForm": "Foppens",
+        "locationStart": 414,
+        "locationEnd": 421,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_23",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Bibl. Belg.",
+        "locationStart": 423,
+        "locationEnd": 433,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_24",
+        "category": "PERSON",
+        "surfaceForm": "Le Waitte",
+        "locationStart": 435,
+        "locationEnd": 444,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_25",
+        "category": "ARTWORK",
+        "surfaceForm": "Hist. Camberinae",
+        "locationStart": 446,
+        "locationEnd": 462,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_12",
@@ -3841,12 +4121,52 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "gpt-3.5-turbo_26",
+        "category": "PERSON",
+        "surfaceForm": "Brasseur",
+        "locationStart": 464,
+        "locationEnd": 471,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_27",
+        "category": "ARTWORK",
+        "surfaceForm": "Ill. Hannoniae sidera",
+        "locationStart": 473,
+        "locationEnd": 493,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_28",
+        "category": "PERSON",
+        "surfaceForm": "Paquot",
+        "locationStart": 495,
+        "locationEnd": 501,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "flair_3",
         "category": "MISC",
         "surfaceForm": "V",
         "locationStart": 501,
         "locationEnd": 502,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_29",
+        "category": "ARTWORK",
+        "surfaceForm": "Mem. T. II.",
+        "locationStart": 503,
+        "locationEnd": 512,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_30",
+        "category": "DATE",
+        "surfaceForm": "593",
+        "locationStart": 514,
+        "locationEnd": 517,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_13",
@@ -3883,6 +4203,14 @@
         "locationStart": 610,
         "locationEnd": 615,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_6",
+        "category": "PER",
+        "surfaceForm": "Duaci",
+        "locationStart": 610,
+        "locationEnd": 615,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gysbert_hist_6",
@@ -3945,6 +4273,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_7",
+        "category": "PER",
+        "surfaceForm": "Val",
+        "locationStart": 673,
+        "locationEnd": 676,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "flair_10",
         "category": "PER",
         "surfaceForm": "Andreas",
@@ -3979,6 +4315,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_8",
+        "category": "ORG",
+        "surfaceForm": "Belg",
+        "locationStart": 693,
+        "locationEnd": 697,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_18",
         "surfaceForm": "Sweertii",
         "category": "LOC",
@@ -4005,6 +4349,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_8",
+        "category": "PER",
+        "surfaceForm": "Sweertii",
+        "locationStart": 708,
+        "locationEnd": 716,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_19",
         "surfaceForm": "Ath. Belg.",
         "category": "LOC",
@@ -4021,6 +4373,14 @@
         "locationStart": 718,
         "locationEnd": 722,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_8",
+        "category": "ORG",
+        "surfaceForm": "Ath. Belg.",
+        "locationStart": 718,
+        "locationEnd": 728,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "flair_13",
@@ -4049,6 +4409,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_9",
+        "category": "PER",
+        "surfaceForm": "Foppens",
+        "locationStart": 738,
+        "locationEnd": 745,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_21",
         "surfaceForm": "Bibl",
         "category": "PER",
@@ -4075,6 +4443,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_10",
+        "category": "ORG",
+        "surfaceForm": "Belg",
+        "locationStart": 753,
+        "locationEnd": 757,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_22",
         "surfaceForm": "T. I.",
         "category": "PER",
@@ -4083,6 +4459,14 @@
         "tokenStart": 156,
         "tokenEnd": 158,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "xlmr_ner_10",
+        "category": "PER",
+        "surfaceForm": "T. I.",
+        "locationStart": 760,
+        "locationEnd": 765,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_23",
@@ -4109,6 +4493,14 @@
         "locationStart": 774,
         "locationEnd": 776,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_11",
+        "category": "PER",
+        "surfaceForm": "Le Waitte",
+        "locationStart": 774,
+        "locationEnd": 783,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_24",
@@ -4175,6 +4567,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_12",
+        "category": "PER",
+        "surfaceForm": "Brasseur",
+        "locationStart": 823,
+        "locationEnd": 831,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_28",
         "surfaceForm": "Ill. Hannoniae sidera",
         "category": "MISC",
@@ -4219,260 +4619,20 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_12",
+        "category": "PER",
+        "surfaceForm": "Paquot. T. II",
+        "locationStart": 863,
+        "locationEnd": 881,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "flair_18",
         "category": "MISC",
         "surfaceForm": "Mem",
         "locationStart": 871,
         "locationEnd": 874,
         "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "MOREAU (Boudewijn)",
-        "locationStart": 0,
-        "locationEnd": 16,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "LOCATION",
-        "surfaceForm": "Henegouwen",
-        "locationStart": 26,
-        "locationEnd": 35,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Cistercienser",
-        "locationStart": 53,
-        "locationEnd": 66,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "LOCATION",
-        "surfaceForm": "Douai",
-        "locationStart": 80,
-        "locationEnd": 85,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Citeaux",
-        "locationStart": 122,
-        "locationEnd": 129,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "DATE",
-        "surfaceForm": "1618",
-        "locationStart": 161,
-        "locationEnd": 165,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_6",
-        "category": "LOCATION",
-        "surfaceForm": "Rosieres",
-        "locationStart": 169,
-        "locationEnd": 177,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_7",
-        "category": "LOCATION",
-        "surfaceForm": "Franche-comte",
-        "locationStart": 181,
-        "locationEnd": 194,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_8",
-        "category": "PERSON",
-        "surfaceForm": "Nicolaas Boucherai",
-        "locationStart": 196,
-        "locationEnd": 213,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_9",
-        "category": "LOCATION",
-        "surfaceForm": "Rome",
-        "locationStart": 234,
-        "locationEnd": 238,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_10",
-        "category": "DATE",
-        "surfaceForm": "December 1621",
-        "locationStart": 252,
-        "locationEnd": 265,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_11",
-        "category": "DATE",
-        "surfaceForm": "paschen",
-        "locationStart": 285,
-        "locationEnd": 292,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_12",
-        "category": "ARTWORK",
-        "surfaceForm": "Regula S. Benedicti",
-        "locationStart": 297,
-        "locationEnd": 315,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_13",
-        "category": "LOCATION",
-        "surfaceForm": "Duaci",
-        "locationStart": 317,
-        "locationEnd": 322,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_14",
-        "category": "DATE",
-        "surfaceForm": "1318",
-        "locationStart": 324,
-        "locationEnd": 328,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_15",
-        "category": "LOCATION",
-        "surfaceForm": "Colon",
-        "locationStart": 330,
-        "locationEnd": 335,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_16",
-        "category": "DATE",
-        "surfaceForm": "1620",
-        "locationStart": 337,
-        "locationEnd": 341,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_17",
-        "category": "ARTWORK",
-        "surfaceForm": "Historia Oisterciensis",
-        "locationStart": 343,
-        "locationEnd": 363,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_18",
-        "category": "PERSON",
-        "surfaceForm": "Val. Andreas",
-        "locationStart": 367,
-        "locationEnd": 379,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_19",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Bibl. Belg.",
-        "locationStart": 381,
-        "locationEnd": 391,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_20",
-        "category": "PERSON",
-        "surfaceForm": "Sweertii",
-        "locationStart": 393,
-        "locationEnd": 401,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_21",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Ath. Belg.",
-        "locationStart": 403,
-        "locationEnd": 412,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_22",
-        "category": "PERSON",
-        "surfaceForm": "Foppens",
-        "locationStart": 414,
-        "locationEnd": 421,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_23",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Bibl. Belg.",
-        "locationStart": 423,
-        "locationEnd": 433,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_24",
-        "category": "PERSON",
-        "surfaceForm": "Le Waitte",
-        "locationStart": 435,
-        "locationEnd": 444,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_25",
-        "category": "ARTWORK",
-        "surfaceForm": "Hist. Camberinae",
-        "locationStart": 446,
-        "locationEnd": 462,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_26",
-        "category": "PERSON",
-        "surfaceForm": "Brasseur",
-        "locationStart": 464,
-        "locationEnd": 471,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_27",
-        "category": "ARTWORK",
-        "surfaceForm": "Ill. Hannoniae sidera",
-        "locationStart": 473,
-        "locationEnd": 493,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_28",
-        "category": "PERSON",
-        "surfaceForm": "Paquot",
-        "locationStart": 495,
-        "locationEnd": 501,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_29",
-        "category": "ARTWORK",
-        "surfaceForm": "Mem. T. II.",
-        "locationStart": 503,
-        "locationEnd": 512,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_30",
-        "category": "DATE",
-        "surfaceForm": "593",
-        "locationStart": 514,
-        "locationEnd": 517,
-        "method": "gpt-3.5-turbo"
       }
     ],
     "time_expressions": [

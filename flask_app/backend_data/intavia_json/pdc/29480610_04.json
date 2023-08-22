@@ -1209,6 +1209,14 @@
     },
     "entities": [
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "ARTWORK",
+        "surfaceForm": "'De kleine Stokvis'",
+        "locationStart": 0,
+        "locationEnd": 16,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_0",
         "surfaceForm": "De kleine Stokvis",
         "category": "MISC",
@@ -1237,6 +1245,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Joodse",
+        "locationStart": 18,
+        "locationEnd": 24,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_1",
         "surfaceForm": "Joodse",
         "category": "MISC",
@@ -1261,6 +1277,14 @@
         "locationStart": 21,
         "locationEnd": 27,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Kort Verslag van de Tweede Kamer",
+        "locationStart": 38,
+        "locationEnd": 70,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_2",
@@ -1319,6 +1343,30 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "LOCATION",
+        "surfaceForm": "Indie",
+        "locationStart": 82,
+        "locationEnd": 87,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_1",
+        "category": "",
+        "surfaceForm": "Kamer",
+        "locationStart": 87,
+        "locationEnd": 92,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "ARTWORK",
+        "surfaceForm": "'De Locomotief'",
+        "locationStart": 97,
+        "locationEnd": 112,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_0",
         "surfaceForm": "1910",
         "category": "TIME",
@@ -1373,6 +1421,30 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "Indie",
+        "locationStart": 111,
+        "locationEnd": 116,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "LOCATION",
+        "surfaceForm": "Indie",
+        "locationStart": 128,
+        "locationEnd": 133,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_6",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Volksraad",
+        "locationStart": 151,
+        "locationEnd": 160,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_5",
         "surfaceForm": "De Locomotief",
         "category": "ORG",
@@ -1399,6 +1471,30 @@
         "locationStart": 155,
         "locationEnd": 168,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_2",
+        "category": "ORG",
+        "surfaceForm": "De Locomotief",
+        "locationStart": 156,
+        "locationEnd": 168,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_7",
+        "category": "TIME",
+        "surfaceForm": "1937",
+        "locationStart": 165,
+        "locationEnd": 169,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_8",
+        "category": "ORGANIZATION",
+        "surfaceForm": "SDAP- Tweede Kamerfractie",
+        "locationStart": 185,
+        "locationEnd": 209,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_6",
@@ -1437,6 +1533,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_3",
+        "category": "LOC",
+        "surfaceForm": "Indie",
+        "locationStart": 231,
+        "locationEnd": 236,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_7",
         "surfaceForm": "Volksraad",
         "category": "ORG",
@@ -1463,6 +1567,14 @@
         "locationStart": 285,
         "locationEnd": 294,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_3",
+        "category": "ORG",
+        "surfaceForm": "Volksraad",
+        "locationStart": 285,
+        "locationEnd": 294,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_6",
@@ -1519,76 +1631,12 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "ARTWORK",
-        "surfaceForm": "'De kleine Stokvis'",
-        "locationStart": 0,
-        "locationEnd": 16,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Joodse",
-        "locationStart": 18,
-        "locationEnd": 24,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Kort Verslag van de Tweede Kamer",
-        "locationStart": 38,
-        "locationEnd": 70,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "LOCATION",
-        "surfaceForm": "Indie",
-        "locationStart": 82,
-        "locationEnd": 87,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "ARTWORK",
-        "surfaceForm": "'De Locomotief'",
-        "locationStart": 97,
-        "locationEnd": 112,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "LOCATION",
-        "surfaceForm": "Indie",
-        "locationStart": 128,
-        "locationEnd": 133,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_6",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Volksraad",
-        "locationStart": 151,
-        "locationEnd": 160,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_7",
-        "category": "TIME",
-        "surfaceForm": "1937",
-        "locationStart": 165,
-        "locationEnd": 169,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_8",
-        "category": "ORGANIZATION",
-        "surfaceForm": "SDAP- Tweede Kamerfractie",
-        "locationStart": 185,
-        "locationEnd": 209,
-        "method": "gpt-3.5-turbo"
+        "ID": "xlmr_ner_4",
+        "category": "ORG",
+        "surfaceForm": "Tweede Kamerfractie",
+        "locationStart": 343,
+        "locationEnd": 362,
+        "method": "xlmr_ner_"
       }
     ],
     "time_expressions": [

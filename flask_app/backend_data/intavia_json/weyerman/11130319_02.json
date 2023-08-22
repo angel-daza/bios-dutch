@@ -887,6 +887,22 @@
     },
     "entities": [
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "ORGANIZATION",
+        "surfaceForm": "zonvreeslyk",
+        "locationStart": 0,
+        "locationEnd": 11,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "ARTWORK",
+        "surfaceForm": "Altaartafel",
+        "locationStart": 40,
+        "locationEnd": 51,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_0",
         "surfaceForm": "Altaartafel",
         "category": "MISC",
@@ -913,6 +929,30 @@
         "locationStart": 62,
         "locationEnd": 73,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "PERSON",
+        "surfaceForm": "Santinne",
+        "locationStart": 72,
+        "locationEnd": 79,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "PERSON",
+        "surfaceForm": "scherprechter",
+        "locationStart": 84,
+        "locationEnd": 96,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "PERSON",
+        "surfaceForm": "Martelaares",
+        "locationStart": 111,
+        "locationEnd": 121,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_1",
@@ -943,6 +983,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "PER",
+        "surfaceForm": "Sant",
+        "locationStart": 121,
+        "locationEnd": 125,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_1",
         "surfaceForm": "De Martelaares",
         "category": "ARTWORK",
@@ -969,46 +1017,6 @@
         "locationStart": 180,
         "locationEnd": 191,
         "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "ORGANIZATION",
-        "surfaceForm": "zonvreeslyk",
-        "locationStart": 0,
-        "locationEnd": 11,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "ARTWORK",
-        "surfaceForm": "Altaartafel",
-        "locationStart": 40,
-        "locationEnd": 51,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "PERSON",
-        "surfaceForm": "Santinne",
-        "locationStart": 72,
-        "locationEnd": 79,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "PERSON",
-        "surfaceForm": "scherprechter",
-        "locationStart": 84,
-        "locationEnd": 96,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "PERSON",
-        "surfaceForm": "Martelaares",
-        "locationStart": 111,
-        "locationEnd": 121,
-        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gpt-3.5-turbo_5",

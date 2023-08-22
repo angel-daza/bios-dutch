@@ -10030,6 +10030,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "GILLESPIESir Robert Rollo",
+        "locationStart": 0,
+        "locationEnd": 27,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_1",
         "surfaceForm": "Sir Robert Rollo",
         "category": "PER",
@@ -10054,6 +10062,30 @@
         "locationStart": 15,
         "locationEnd": 27,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "LOCATION",
+        "surfaceForm": "Comber",
+        "locationStart": 16,
+        "locationEnd": 21,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "LOCATION",
+        "surfaceForm": "Down",
+        "locationStart": 23,
+        "locationEnd": 27,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "TIME",
+        "surfaceForm": "21 Jan. 1766",
+        "locationStart": 29,
+        "locationEnd": 41,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_2",
@@ -10092,6 +10124,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Comber",
+        "locationStart": 38,
+        "locationEnd": 44,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "TIME",
+        "surfaceForm": "31 Aug. 1814",
+        "locationStart": 44,
+        "locationEnd": 56,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_56",
         "surfaceForm": "graafsch . Down",
         "category": "LOC",
@@ -10120,6 +10168,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "LOCATION",
+        "surfaceForm": "Nepaul",
+        "locationStart": 60,
+        "locationEnd": 66,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_59",
         "surfaceForm": "21 Jan. 1766",
         "category": "TIME",
@@ -10138,6 +10194,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "TIME",
+        "surfaceForm": "1783",
+        "locationStart": 82,
+        "locationEnd": 86,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_64",
         "surfaceForm": "31 Aug. 1814",
         "category": "TIME",
@@ -10154,6 +10218,14 @@
         "locationStart": 83,
         "locationEnd": 95,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_6",
+        "category": "LOCATION",
+        "surfaceForm": "Dublin",
+        "locationStart": 90,
+        "locationEnd": 96,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_4",
@@ -10192,6 +10264,30 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "Nepaul",
+        "locationStart": 99,
+        "locationEnd": 105,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_7",
+        "category": "PERSON",
+        "surfaceForm": "Thomas Taylor",
+        "locationStart": 116,
+        "locationEnd": 129,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_8",
+        "category": "LOCATION",
+        "surfaceForm": "Schotland",
+        "locationStart": 148,
+        "locationEnd": 157,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_11",
         "surfaceForm": "1783",
         "category": "TIME",
@@ -10210,6 +10306,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_9",
+        "category": "TIME",
+        "surfaceForm": "1792",
+        "locationStart": 163,
+        "locationEnd": 167,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_13",
         "surfaceForm": "cavalerie",
         "category": "ORG",
@@ -10220,6 +10324,14 @@
         "method": "human_gold"
       },
       {
+        "ID": "gpt-3.5-turbo_10",
+        "category": "LOCATION",
+        "surfaceForm": "Jamaica",
+        "locationStart": 186,
+        "locationEnd": 193,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_16",
         "surfaceForm": "Drie jaar later",
         "category": "TIME",
@@ -10228,6 +10340,14 @@
         "tokenStart": 43,
         "tokenEnd": 46,
         "method": "human_gold"
+      },
+      {
+        "ID": "gpt-3.5-turbo_11",
+        "category": "LOCATION",
+        "surfaceForm": "Jamaica",
+        "locationStart": 207,
+        "locationEnd": 214,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_5",
@@ -10266,6 +10386,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_2",
+        "category": "LOC",
+        "surfaceForm": "Dublin",
+        "locationStart": 222,
+        "locationEnd": 228,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_12",
+        "category": "LOCATION",
+        "surfaceForm": "St.-Domingo",
+        "locationStart": 227,
+        "locationEnd": 237,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_6",
         "surfaceForm": "Annabell",
         "category": "PER",
@@ -10300,6 +10436,22 @@
         "locationStart": 253,
         "locationEnd": 261,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_2",
+        "category": "PER",
+        "surfaceForm": "Annabell",
+        "locationStart": 253,
+        "locationEnd": 261,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_13",
+        "category": "LOCATION",
+        "surfaceForm": "West-Indie",
+        "locationStart": 267,
+        "locationEnd": 276,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_7",
@@ -10338,6 +10490,46 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_2",
+        "category": "PER",
+        "surfaceForm": "Thomas Taylor",
+        "locationStart": 275,
+        "locationEnd": 288,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_14",
+        "category": "ORGANIZATION",
+        "surfaceForm": "majoor",
+        "locationStart": 312,
+        "locationEnd": 318,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_15",
+        "category": "PERSON",
+        "surfaceForm": "generaal Wilford",
+        "locationStart": 331,
+        "locationEnd": 346,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_16",
+        "category": "LOCATION",
+        "surfaceForm": "St. Domingo",
+        "locationStart": 358,
+        "locationEnd": 368,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_17",
+        "category": "PERSON",
+        "surfaceForm": "G.",
+        "locationStart": 370,
+        "locationEnd": 371,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_8",
         "surfaceForm": "Schotland",
         "category": "LOC",
@@ -10374,6 +10566,38 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_3",
+        "category": "LOC",
+        "surfaceForm": "Schotland",
+        "locationStart": 376,
+        "locationEnd": 385,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_18",
+        "category": "LOCATION",
+        "surfaceForm": "Jamaica",
+        "locationStart": 387,
+        "locationEnd": 394,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_19",
+        "category": "LOCATION",
+        "surfaceForm": "Amiens",
+        "locationStart": 408,
+        "locationEnd": 414,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_20",
+        "category": "ORGANIZATION",
+        "surfaceForm": "luit.-kolonel",
+        "locationStart": 423,
+        "locationEnd": 435,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_55",
         "surfaceForm": "1792",
         "category": "TIME",
@@ -10390,6 +10614,22 @@
         "locationStart": 428,
         "locationEnd": 432,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_21",
+        "category": "TIME",
+        "surfaceForm": "Juni 1804",
+        "locationStart": 442,
+        "locationEnd": 451,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_22",
+        "category": "LOCATION",
+        "surfaceForm": "Indie",
+        "locationStart": 464,
+        "locationEnd": 469,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_57",
@@ -10418,6 +10658,46 @@
         "locationStart": 480,
         "locationEnd": 498,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_23",
+        "category": "LOCATION",
+        "surfaceForm": "Arcot",
+        "locationStart": 481,
+        "locationEnd": 486,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_24",
+        "category": "LOCATION",
+        "surfaceForm": "Vellore",
+        "locationStart": 498,
+        "locationEnd": 505,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_25",
+        "category": "PERSON",
+        "surfaceForm": "G.",
+        "locationStart": 507,
+        "locationEnd": 508,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_26",
+        "category": "LOCATION",
+        "surfaceForm": "Java",
+        "locationStart": 524,
+        "locationEnd": 528,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_27",
+        "category": "PERSON",
+        "surfaceForm": "J.W. Janssens",
+        "locationStart": 533,
+        "locationEnd": 546,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_10",
@@ -10454,6 +10734,38 @@
         "locationStart": 554,
         "locationEnd": 561,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_6",
+        "category": "LOC",
+        "surfaceForm": "Jamaica",
+        "locationStart": 554,
+        "locationEnd": 561,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_28",
+        "category": "LOCATION",
+        "surfaceForm": "Palembang",
+        "locationStart": 586,
+        "locationEnd": 595,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_29",
+        "category": "LOCATION",
+        "surfaceForm": "Djokja",
+        "locationStart": 600,
+        "locationEnd": 606,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_30",
+        "category": "LOCATION",
+        "surfaceForm": "Java",
+        "locationStart": 616,
+        "locationEnd": 620,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "flair_7",
@@ -10500,6 +10812,62 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_8",
+        "category": "LOC",
+        "surfaceForm": "St.-Domingo",
+        "locationStart": 639,
+        "locationEnd": 650,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_31",
+        "category": "PERSON",
+        "surfaceForm": "Raffles",
+        "locationStart": 641,
+        "locationEnd": 648,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_32",
+        "category": "PERSON",
+        "surfaceForm": "G.",
+        "locationStart": 651,
+        "locationEnd": 652,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_33",
+        "category": "LOCATION",
+        "surfaceForm": "Indie",
+        "locationStart": 668,
+        "locationEnd": 673,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_34",
+        "category": "LOCATION",
+        "surfaceForm": "Meerut",
+        "locationStart": 694,
+        "locationEnd": 700,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_35",
+        "category": "LOCATION",
+        "surfaceForm": "Indie",
+        "locationStart": 716,
+        "locationEnd": 721,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_36",
+        "category": "LOCATION",
+        "surfaceForm": "Meerut",
+        "locationStart": 737,
+        "locationEnd": 743,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_12",
         "surfaceForm": "Engeland",
         "category": "LOC",
@@ -10536,6 +10904,30 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_8",
+        "category": "LOC",
+        "surfaceForm": "Engeland",
+        "locationStart": 752,
+        "locationEnd": 760,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_37",
+        "category": "TIME",
+        "surfaceForm": "1814",
+        "locationStart": 762,
+        "locationEnd": 766,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_38",
+        "category": "LOCATION",
+        "surfaceForm": "Meerut",
+        "locationStart": 770,
+        "locationEnd": 776,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_62",
         "surfaceForm": "1796",
         "category": "TIME",
@@ -10552,6 +10944,14 @@
         "locationStart": 774,
         "locationEnd": 778,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_39",
+        "category": "LOCATION",
+        "surfaceForm": "Kalunga",
+        "locationStart": 791,
+        "locationEnd": 798,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_13",
@@ -10590,6 +10990,62 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_8",
+        "category": "LOC",
+        "surfaceForm": "West-Indie",
+        "locationStart": 792,
+        "locationEnd": 802,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_40",
+        "category": "LOCATION",
+        "surfaceForm": "Himalaya",
+        "locationStart": 800,
+        "locationEnd": 808,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_41",
+        "category": "TIME",
+        "surfaceForm": "1821",
+        "locationStart": 813,
+        "locationEnd": 817,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_42",
+        "category": "LOCATION",
+        "surfaceForm": "St. Paul's",
+        "locationStart": 822,
+        "locationEnd": 831,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_43",
+        "category": "PERSON",
+        "surfaceForm": "H.R. Cook",
+        "locationStart": 835,
+        "locationEnd": 844,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_44",
+        "category": "PERSON",
+        "surfaceForm": "W. Haines",
+        "locationStart": 851,
+        "locationEnd": 860,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_45",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Dictionary of National Biography",
+        "locationStart": 866,
+        "locationEnd": 897,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_14",
         "surfaceForm": "Wilford",
         "category": "PER",
@@ -10624,6 +11080,22 @@
         "locationStart": 872,
         "locationEnd": 879,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_9",
+        "category": "PER",
+        "surfaceForm": "Wilford",
+        "locationStart": 872,
+        "locationEnd": 879,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_46",
+        "category": "LOCATION",
+        "surfaceForm": "Londen",
+        "locationStart": 899,
+        "locationEnd": 905,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_15",
@@ -10662,6 +11134,38 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_9",
+        "category": "LOC",
+        "surfaceForm": "St. Domingo",
+        "locationStart": 906,
+        "locationEnd": 917,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_47",
+        "category": "PERSON",
+        "surfaceForm": "J.W. Janssens",
+        "locationStart": 912,
+        "locationEnd": 925,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_48",
+        "category": "PERSON",
+        "surfaceForm": "Raffles",
+        "locationStart": 930,
+        "locationEnd": 937,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_49",
+        "category": "PERSON",
+        "surfaceForm": "Rooseboom",
+        "locationStart": 958,
+        "locationEnd": 967,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_16",
         "surfaceForm": "G.",
         "category": "PER",
@@ -10688,6 +11192,14 @@
         "locationStart": 999,
         "locationEnd": 1001,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_10",
+        "category": "PER",
+        "surfaceForm": "G.",
+        "locationStart": 999,
+        "locationEnd": 1001,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_17",
@@ -10726,6 +11238,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_11",
+        "category": "LOC",
+        "surfaceForm": "Jamaica",
+        "locationStart": 1141,
+        "locationEnd": 1148,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_18",
         "surfaceForm": "G.",
         "category": "PER",
@@ -10752,6 +11272,14 @@
         "locationStart": 1154,
         "locationEnd": 1156,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_11",
+        "category": "PER",
+        "surfaceForm": "G.",
+        "locationStart": 1154,
+        "locationEnd": 1156,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_3",
@@ -10790,6 +11318,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_11",
+        "category": "PER",
+        "surfaceForm": "Amiens",
+        "locationStart": 1227,
+        "locationEnd": 1233,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_20",
         "surfaceForm": "Engeland",
         "category": "LOC",
@@ -10824,6 +11360,14 @@
         "locationStart": 1245,
         "locationEnd": 1253,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_11",
+        "category": "LOC",
+        "surfaceForm": "Engeland",
+        "locationStart": 1245,
+        "locationEnd": 1253,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_5",
@@ -10892,6 +11436,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_14",
+        "category": "PER",
+        "surfaceForm": "G",
+        "locationStart": 1546,
+        "locationEnd": 1547,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_22",
         "surfaceForm": "Indie",
         "category": "MISC",
@@ -10918,6 +11470,14 @@
         "locationStart": 1554,
         "locationEnd": 1559,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_14",
+        "category": "LOC",
+        "surfaceForm": "Indie",
+        "locationStart": 1554,
+        "locationEnd": 1559,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_23",
@@ -10956,6 +11516,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_15",
+        "category": "LOC",
+        "surfaceForm": "Arcot",
+        "locationStart": 1600,
+        "locationEnd": 1605,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_24",
         "surfaceForm": "Vellore",
         "category": "MISC",
@@ -10990,6 +11558,14 @@
         "locationStart": 1655,
         "locationEnd": 1662,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_15",
+        "category": "LOC",
+        "surfaceForm": "Vellore",
+        "locationStart": 1655,
+        "locationEnd": 1662,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_25",
@@ -11066,6 +11642,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_18",
+        "category": "PER",
+        "surfaceForm": "G.",
+        "locationStart": 1880,
+        "locationEnd": 1882,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_28",
         "surfaceForm": "Britsch-Indie",
         "category": "LOC",
@@ -11100,6 +11684,14 @@
         "locationStart": 2056,
         "locationEnd": 2064,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_19",
+        "category": "LOC",
+        "surfaceForm": "Britsch-Indie",
+        "locationStart": 2056,
+        "locationEnd": 2069,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gysbert_hist_19",
@@ -11144,6 +11736,14 @@
         "locationStart": 2131,
         "locationEnd": 2140,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_20",
+        "category": "LOC",
+        "surfaceForm": "Bangalore",
+        "locationStart": 2131,
+        "locationEnd": 2140,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_30",
@@ -11256,6 +11856,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_21",
+        "category": "PER",
+        "surfaceForm": "Auchmuty",
+        "locationStart": 2303,
+        "locationEnd": 2311,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_24",
         "surfaceForm": "Java",
         "category": "LOC",
@@ -11280,6 +11888,14 @@
         "locationStart": 2312,
         "locationEnd": 2316,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_21",
+        "category": "LOC",
+        "surfaceForm": "Java",
+        "locationStart": 2312,
+        "locationEnd": 2316,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_33",
@@ -11308,6 +11924,14 @@
         "locationStart": 2336,
         "locationEnd": 2339,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_21",
+        "category": "PER",
+        "surfaceForm": "J.W. Janssens",
+        "locationStart": 2336,
+        "locationEnd": 2349,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "flair_17",
@@ -11354,6 +11978,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_22",
+        "category": "LOC",
+        "surfaceForm": "Java",
+        "locationStart": 2445,
+        "locationEnd": 2449,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_35",
         "surfaceForm": "Palembang",
         "category": "LOC",
@@ -11388,6 +12020,14 @@
         "locationStart": 2464,
         "locationEnd": 2473,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_22",
+        "category": "LOC",
+        "surfaceForm": "Palembang",
+        "locationStart": 2464,
+        "locationEnd": 2473,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_36",
@@ -11426,6 +12066,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_22",
+        "category": "LOC",
+        "surfaceForm": "Djokja",
+        "locationStart": 2492,
+        "locationEnd": 2498,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_37",
         "surfaceForm": "Raffles",
         "category": "PER",
@@ -11462,6 +12110,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_23",
+        "category": "PER",
+        "surfaceForm": "Raffles",
+        "locationStart": 2571,
+        "locationEnd": 2578,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_38",
         "surfaceForm": "G.",
         "category": "PER",
@@ -11488,6 +12144,14 @@
         "locationStart": 2595,
         "locationEnd": 2597,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_23",
+        "category": "PER",
+        "surfaceForm": "G.",
+        "locationStart": 2595,
+        "locationEnd": 2597,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_32",
@@ -11544,6 +12208,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_23",
+        "category": "LOC",
+        "surfaceForm": "Indie",
+        "locationStart": 2657,
+        "locationEnd": 2662,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_40",
         "surfaceForm": "Meerut",
         "category": "PER",
@@ -11570,6 +12242,14 @@
         "locationStart": 2692,
         "locationEnd": 2698,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_23",
+        "category": "LOC",
+        "surfaceForm": "Meerut",
+        "locationStart": 2692,
+        "locationEnd": 2698,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_41",
@@ -11608,6 +12288,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_24",
+        "category": "LOC",
+        "surfaceForm": "Indie",
+        "locationStart": 2719,
+        "locationEnd": 2724,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_42",
         "surfaceForm": "Raffles",
         "category": "LOC",
@@ -11642,6 +12330,14 @@
         "locationStart": 2777,
         "locationEnd": 2784,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_24",
+        "category": "PER",
+        "surfaceForm": "Raffles",
+        "locationStart": 2777,
+        "locationEnd": 2784,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_38",
@@ -11726,6 +12422,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_25",
+        "category": "LOC",
+        "surfaceForm": "Nepaul",
+        "locationStart": 2849,
+        "locationEnd": 2855,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_41",
         "surfaceForm": "fort Kalunga",
         "category": "LOC",
@@ -11768,6 +12472,14 @@
         "locationStart": 2896,
         "locationEnd": 2903,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_25",
+        "category": "LOC",
+        "surfaceForm": "KalungaHimalaya",
+        "locationStart": 2896,
+        "locationEnd": 2913,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_46",
@@ -11860,6 +12572,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_26",
+        "category": "LOC",
+        "surfaceForm": "St. Paul's",
+        "locationStart": 2954,
+        "locationEnd": 2964,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_48",
         "surfaceForm": "H.R. Cook",
         "category": "PER",
@@ -11886,6 +12606,14 @@
         "locationStart": 3008,
         "locationEnd": 3012,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_27",
+        "category": "PER",
+        "surfaceForm": "H.R. Cook",
+        "locationStart": 3008,
+        "locationEnd": 3017,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "flair_22",
@@ -11932,6 +12660,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_27",
+        "category": "PER",
+        "surfaceForm": "W. Haines",
+        "locationStart": 3023,
+        "locationEnd": 3032,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "flair_23",
         "category": "PER",
         "surfaceForm": "Haines",
@@ -11966,6 +12702,14 @@
         "locationStart": 3039,
         "locationEnd": 3075,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_28",
+        "category": "ORG",
+        "surfaceForm": "Dictionary of National Biography XXILondenJ.W. JanssensRaffles",
+        "locationStart": 3039,
+        "locationEnd": 3148,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_51",
@@ -12114,404 +12858,12 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "LOCATION",
-        "surfaceForm": "Comber",
-        "locationStart": 16,
-        "locationEnd": 21,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "LOCATION",
-        "surfaceForm": "Down",
-        "locationStart": 23,
-        "locationEnd": 27,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "TIME",
-        "surfaceForm": "21 Jan. 1766",
-        "locationStart": 29,
-        "locationEnd": 41,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "TIME",
-        "surfaceForm": "31 Aug. 1814",
-        "locationStart": 44,
-        "locationEnd": 56,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "LOCATION",
-        "surfaceForm": "Nepaul",
-        "locationStart": 60,
-        "locationEnd": 66,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "TIME",
-        "surfaceForm": "1783",
-        "locationStart": 82,
-        "locationEnd": 86,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_6",
-        "category": "LOCATION",
-        "surfaceForm": "Dublin",
-        "locationStart": 90,
-        "locationEnd": 96,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_7",
-        "category": "PERSON",
-        "surfaceForm": "Thomas Taylor",
-        "locationStart": 116,
-        "locationEnd": 129,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_8",
-        "category": "LOCATION",
-        "surfaceForm": "Schotland",
-        "locationStart": 148,
-        "locationEnd": 157,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_9",
-        "category": "TIME",
-        "surfaceForm": "1792",
-        "locationStart": 163,
-        "locationEnd": 167,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_10",
-        "category": "LOCATION",
-        "surfaceForm": "Jamaica",
-        "locationStart": 186,
-        "locationEnd": 193,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_11",
-        "category": "LOCATION",
-        "surfaceForm": "Jamaica",
-        "locationStart": 207,
-        "locationEnd": 214,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_12",
-        "category": "LOCATION",
-        "surfaceForm": "St.-Domingo",
-        "locationStart": 227,
-        "locationEnd": 237,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_13",
-        "category": "LOCATION",
-        "surfaceForm": "West-Indie",
-        "locationStart": 267,
-        "locationEnd": 276,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_14",
-        "category": "ORGANIZATION",
-        "surfaceForm": "majoor",
-        "locationStart": 312,
-        "locationEnd": 318,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_15",
-        "category": "PERSON",
-        "surfaceForm": "generaal Wilford",
-        "locationStart": 331,
-        "locationEnd": 346,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_16",
-        "category": "LOCATION",
-        "surfaceForm": "St. Domingo",
-        "locationStart": 358,
-        "locationEnd": 368,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_17",
-        "category": "PERSON",
-        "surfaceForm": "G.",
-        "locationStart": 370,
-        "locationEnd": 371,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_18",
-        "category": "LOCATION",
-        "surfaceForm": "Jamaica",
-        "locationStart": 387,
-        "locationEnd": 394,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_19",
-        "category": "LOCATION",
-        "surfaceForm": "Amiens",
-        "locationStart": 408,
-        "locationEnd": 414,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_20",
-        "category": "ORGANIZATION",
-        "surfaceForm": "luit.-kolonel",
-        "locationStart": 423,
-        "locationEnd": 435,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_21",
-        "category": "TIME",
-        "surfaceForm": "Juni 1804",
-        "locationStart": 442,
-        "locationEnd": 451,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_22",
-        "category": "LOCATION",
-        "surfaceForm": "Indie",
-        "locationStart": 464,
-        "locationEnd": 469,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_23",
-        "category": "LOCATION",
-        "surfaceForm": "Arcot",
-        "locationStart": 481,
-        "locationEnd": 486,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_24",
-        "category": "LOCATION",
-        "surfaceForm": "Vellore",
-        "locationStart": 498,
-        "locationEnd": 505,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_25",
-        "category": "PERSON",
-        "surfaceForm": "G.",
-        "locationStart": 507,
-        "locationEnd": 508,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_26",
-        "category": "LOCATION",
-        "surfaceForm": "Java",
-        "locationStart": 524,
-        "locationEnd": 528,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_27",
-        "category": "PERSON",
-        "surfaceForm": "J.W. Janssens",
-        "locationStart": 533,
-        "locationEnd": 546,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_28",
-        "category": "LOCATION",
-        "surfaceForm": "Palembang",
-        "locationStart": 586,
-        "locationEnd": 595,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_29",
-        "category": "LOCATION",
-        "surfaceForm": "Djokja",
-        "locationStart": 600,
-        "locationEnd": 606,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_30",
-        "category": "LOCATION",
-        "surfaceForm": "Java",
-        "locationStart": 616,
-        "locationEnd": 620,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_31",
-        "category": "PERSON",
-        "surfaceForm": "Raffles",
-        "locationStart": 641,
-        "locationEnd": 648,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_32",
-        "category": "PERSON",
-        "surfaceForm": "G.",
-        "locationStart": 651,
-        "locationEnd": 652,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_33",
-        "category": "LOCATION",
-        "surfaceForm": "Indie",
-        "locationStart": 668,
-        "locationEnd": 673,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_34",
-        "category": "LOCATION",
-        "surfaceForm": "Meerut",
-        "locationStart": 694,
-        "locationEnd": 700,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_35",
-        "category": "LOCATION",
-        "surfaceForm": "Indie",
-        "locationStart": 716,
-        "locationEnd": 721,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_36",
-        "category": "LOCATION",
-        "surfaceForm": "Meerut",
-        "locationStart": 737,
-        "locationEnd": 743,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_37",
-        "category": "TIME",
-        "surfaceForm": "1814",
-        "locationStart": 762,
-        "locationEnd": 766,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_38",
-        "category": "LOCATION",
-        "surfaceForm": "Meerut",
-        "locationStart": 770,
-        "locationEnd": 776,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_39",
-        "category": "LOCATION",
-        "surfaceForm": "Kalunga",
-        "locationStart": 791,
-        "locationEnd": 798,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_40",
-        "category": "LOCATION",
-        "surfaceForm": "Himalaya",
-        "locationStart": 800,
-        "locationEnd": 808,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_41",
-        "category": "TIME",
-        "surfaceForm": "1821",
-        "locationStart": 813,
-        "locationEnd": 817,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_42",
-        "category": "LOCATION",
-        "surfaceForm": "St. Paul's",
-        "locationStart": 822,
-        "locationEnd": 831,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_43",
-        "category": "PERSON",
-        "surfaceForm": "H.R. Cook",
-        "locationStart": 835,
-        "locationEnd": 844,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_44",
-        "category": "PERSON",
-        "surfaceForm": "W. Haines",
-        "locationStart": 851,
-        "locationEnd": 860,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_45",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Dictionary of National Biography",
-        "locationStart": 866,
-        "locationEnd": 897,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_46",
-        "category": "LOCATION",
-        "surfaceForm": "Londen",
-        "locationStart": 899,
-        "locationEnd": 905,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_47",
-        "category": "PERSON",
-        "surfaceForm": "J.W. Janssens",
-        "locationStart": 912,
-        "locationEnd": 925,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_48",
-        "category": "PERSON",
-        "surfaceForm": "Raffles",
-        "locationStart": 930,
-        "locationEnd": 937,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_49",
-        "category": "PERSON",
+        "ID": "xlmr_ner_29",
+        "category": "PER",
         "surfaceForm": "Rooseboom",
-        "locationStart": 958,
-        "locationEnd": 967,
-        "method": "gpt-3.5-turbo"
+        "locationStart": 3171,
+        "locationEnd": 3180,
+        "method": "xlmr_ner_"
       }
     ],
     "time_expressions": [

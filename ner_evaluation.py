@@ -17,10 +17,15 @@ def evaluate_bionet_intavia(nlp_systems: List[str], valid_labels: List[str], eva
     sys_general_dict = {}
     for sys in nlp_systems:
         sys_general_dict[sys] = {"TOTAL (micro)": {"TP": 0, "FP": 0, "FN": 0}}
-        for l in valid_labels:
-            sys_general_dict[sys][l] = {"TP": 0, "FP": 0, "FN": 0}
+        if sys == "gysbert_hist_fx_finetuned_epoch2":
+            for l in ["PER", "LOC"]:
+                sys_general_dict[sys][l] = {"TP": 0, "FP": 0, "FN": 0}
+        else:
+            for l in valid_labels:
+                sys_general_dict[sys][l] = {"TP": 0, "FP": 0, "FN": 0}
 
     # For Corpus Micro Eval
+    entity_errors_table = []
     for src_path in glob.glob(intavia_files_root):
         for bio_path in glob.glob(f"{src_path}/*"):
             bio_id = os.path.basename(bio_path).strip(".json")
@@ -28,14 +33,20 @@ def evaluate_bionet_intavia(nlp_systems: List[str], valid_labels: List[str], eva
                 # Predictions INFO
                 bio = IntaviaDocument(json.load(open(bio_path)))
                 for sys_name in nlp_systems:
-                    eval_dict = bio.evaluate_ner(gold_method, sys_name, eval_type, valid_labels, ignore_text_after_gold=False)
+                    if sys_name == "gysbert_hist_fx_finetuned_epoch2":
+                        eval_dict = bio.evaluate_ner(gold_method, sys_name, eval_type, ["PER", "LOC"], ignore_text_after_gold=False)
+                    else:
+                        eval_dict = bio.evaluate_ner(gold_method, sys_name, eval_type, valid_labels, ignore_text_after_gold=False)
                     if eval_dict:
+                        entity_errors_table.append({"text_id":bio.text_id, "method": sys_name, "errors": eval_dict["errors"]})
                         per_label = eval_dict["metrics"]
                         for lbl, metrics in per_label.items():
                             if lbl not in ["MICRO", "MACRO"]:
                                 sys_general_dict[sys_name][lbl]["TP"] += metrics["TP"]
                                 sys_general_dict[sys_name][lbl]["FP"] += metrics["FP"]
                                 sys_general_dict[sys_name][lbl]["FN"] += metrics["FN"]
+    save_entity_errors_table(entity_errors_table, eval_type)
+
     # For Corpus-Level Eval
     for sys_name, metrics in sys_general_dict.items():
         macro_p, macro_r, macro_f1 = [], [], []
@@ -80,7 +91,7 @@ def evaluate_bionet_intavia(nlp_systems: List[str], valid_labels: List[str], eva
             for metric_name, metric_val in metrics_dict.items():
                 row[metric_name] = metric_val
             final_eval_table.append(row)
-    pd.DataFrame.from_dict(final_eval_table).to_csv(f"local_outputs/BiographyNet_Systems_Eval_Final_{eval_type}.csv")
+    pd.DataFrame.from_dict(final_eval_table).to_csv(f"local_outputs/BiographyNet_Systems_Eval_Final_{eval_type}.csv", index=False)
 
 
 def system_label_report(systems_metrics: Dict[str, Any]) -> List[List[Any]]:
@@ -99,8 +110,44 @@ def system_label_report(systems_metrics: Dict[str, Any]) -> List[List[Any]]:
     return report_table
 
 
+def save_entity_errors_table(collected_errors: List[Dict[str, Any]], eval_type: str) -> List[Dict[str, Any]]:
+    if eval_type in ["full_match"]:
+        fp_fn_errors, sp_lb_errors = [], []
+        for i, row in enumerate(collected_errors):
+            text_id = row["text_id"]
+            sys_name = row["method"]
+            for fp in row["errors"]["Full Errors (not in Gold)"]: # FP_Exact_Match: ('3_17', 'Paul-Henri Spaak', 'PER', 'FP')
+                #print("FP", fp)
+                fp_fn_errors.append({"text_id": text_id, "method": sys_name, "type": "FP", "error_span": fp[0], "error_text": fp[1], "error_label": fp[2]})
+            for fn in row["errors"]["Missed Entities"]: # FN_Exact_Match: (553, 'Buitenlandse Zaken van Belgie', 'ORG', 'FN')
+                #print("FN", fn)
+                fp_fn_errors.append({"text_id": text_id, "method": sys_name, "type": "FN", "error_span": fn[0], "error_text": fn[1], "error_label": fn[2]})
+            for sp_err in row["errors"]["Span Errors"]: # SP ('J.M. Pfeil ,', 'J.M. Pfeil', 'FP')
+                #print("SP", sp_err)
+                sp_lb_errors.append({"text_id": text_id, "method": sys_name, "type": "SPAN", "true_text": sp_err[0], "error_text": sp_err[1], "true_label": "-", "error_label": "-"})
+            for lbl_err in row["errors"]["Label Errors"]: # LB ('Woesthoven', 'PER', 'LOC', 'FP')
+                #print("LB", lbl_err)
+                sp_lb_errors.append({"text_id": text_id, "method": sys_name, "type": "LABEL", "true_text": lbl_err[0], "error_text": "-", "true_label": lbl_err[1], "error_label": lbl_err[2]})
+            #print("-----")
+        pd.DataFrame(fp_fn_errors).sort_values("error_text").to_csv(f"local_outputs/1_Errors_FP_FN_{eval_type}.csv", index=False)
+        pd.DataFrame(sp_lb_errors).sort_values("true_text").to_csv(f"local_outputs/1_Errors_Span_Label_{eval_type}.csv", index=False)
+    elif eval_type == "bag_of_entities":
+        fp_fn_errors = []
+        for i, row in enumerate(collected_errors):
+            text_id = row["text_id"]
+            sys_name = row["method"]
+            for fp in row["errors"]["Full Errors (not in Gold)"]: # FP: ('ROYER', 'PER')
+                #print("FP", fp)
+                fp_fn_errors.append({"text_id": text_id, "method": sys_name, "type": "FP", "text": fp[0], "label": fp[1]})
+            for fn in row["errors"]["Missed Entities"]: # FN: ('ROYER', 'PER')
+                #print("FN", fn)
+                fp_fn_errors.append({"text_id": text_id, "method": sys_name, "type": "FN", "text": fn[0], "label": fn[1]})
+        pd.DataFrame(fp_fn_errors).sort_values("text").to_csv(f"local_outputs/1_Errors_FP_FN_{eval_type}.csv", index=False)
+    else:
+        raise NotImplementedError
+
 if __name__ == "__main__":
-    systems = ["stanza_nl", "human_gold", "flair/ner-dutch-large_0.12.2", "gpt-3.5-turbo"]
+    systems = ["stanza_nl", "human_gold", "flair/ner-dutch-large_0.12.2", "gpt-3.5-turbo", "gysbert_hist_fx_finetuned_epoch2", "xlmr_ner_"]
     valid_labels = ["PER", "LOC", "ORG"]
     evaluate_bionet_intavia(systems, valid_labels, eval_type="full_match")
     evaluate_bionet_intavia(systems, valid_labels, eval_type="bag_of_entities")

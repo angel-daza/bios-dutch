@@ -397,6 +397,30 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "Nicolaas Messchaert",
+        "locationStart": 12,
+        "locationEnd": 31,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "Nicolaas Messchaert",
+        "locationStart": 13,
+        "locationEnd": 30,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "LOCATION",
+        "surfaceForm": "Rotterdam",
+        "locationStart": 57,
+        "locationEnd": 66,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_1",
         "surfaceForm": "Nicolaas Messchaert",
         "category": "PER",
@@ -431,6 +455,14 @@
         "locationStart": 61,
         "locationEnd": 80,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "Nicolaas Messchaert",
+        "locationStart": 61,
+        "locationEnd": 80,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_2",
@@ -469,20 +501,12 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "Nicolaas Messchaert",
-        "locationStart": 13,
-        "locationEnd": 30,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "LOCATION",
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
         "surfaceForm": "Rotterdam",
-        "locationStart": 57,
-        "locationEnd": 66,
-        "method": "gpt-3.5-turbo"
+        "locationStart": 107,
+        "locationEnd": 116,
+        "method": "xlmr_ner_"
       }
     ],
     "time_expressions": []

@@ -19945,12 +19945,28 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "J.P. Gumbert",
+        "locationStart": 16,
+        "locationEnd": 28,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gysbert_hist_0",
         "category": "",
         "surfaceForm": "p .",
         "locationStart": 18,
         "locationEnd": 20,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "J.P. Gumbert",
+        "locationStart": 19,
+        "locationEnd": 31,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "flair_1",
@@ -19995,6 +20011,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "Gerard Isaac Lieftinck",
+        "locationStart": 29,
+        "locationEnd": 51,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "PERSON",
+        "surfaceForm": "Gerard Isaac Lieftinck",
+        "locationStart": 32,
+        "locationEnd": 53,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_36",
         "surfaceForm": "3 augustus 1902-9 mei 1994",
         "category": "TIME",
@@ -20013,12 +20045,28 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "DATE",
+        "surfaceForm": "3 augustus 1902",
+        "locationStart": 54,
+        "locationEnd": 69,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gysbert_hist_0",
         "category": "TIME",
         "surfaceForm": "9 mei 1994",
         "locationStart": 68,
         "locationEnd": 78,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "DATE",
+        "surfaceForm": "9 mei 1994",
+        "locationStart": 70,
+        "locationEnd": 81,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_2",
@@ -20057,6 +20105,30 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "Gerard Isaac Lieftinck",
+        "locationStart": 79,
+        "locationEnd": 101,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "PERSON",
+        "surfaceForm": "Gerard Lieftinck",
+        "locationStart": 82,
+        "locationEnd": 97,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "DATE",
+        "surfaceForm": "8 mei 1994",
+        "locationStart": 98,
+        "locationEnd": 108,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_1",
         "surfaceForm": "8 mei 1994",
         "category": "TIME",
@@ -20073,6 +20145,22 @@
         "locationStart": 108,
         "locationEnd": 118,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_6",
+        "category": "PERSON",
+        "surfaceForm": "Gerard Lieftinck",
+        "locationStart": 109,
+        "locationEnd": 124,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_7",
+        "category": "ARTWORK",
+        "surfaceForm": "een lang leven",
+        "locationStart": 125,
+        "locationEnd": 138,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_3",
@@ -20111,6 +20199,30 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "Gerard Lieftinck",
+        "locationStart": 126,
+        "locationEnd": 142,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_8",
+        "category": "ARTWORK",
+        "surfaceForm": "een lange eindfase",
+        "locationStart": 139,
+        "locationEnd": 156,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_9",
+        "category": "ARTWORK",
+        "surfaceForm": "Middeleeuwse handschrif- ten",
+        "locationStart": 157,
+        "locationEnd": 180,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_8",
         "surfaceForm": "de dag erna",
         "category": "TIME",
@@ -20119,6 +20231,102 @@
         "tokenStart": 27,
         "tokenEnd": 30,
         "method": "human_gold"
+      },
+      {
+        "ID": "gpt-3.5-turbo_10",
+        "category": "PERSON",
+        "surfaceForm": "Kruitwagen",
+        "locationStart": 199,
+        "locationEnd": 209,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_11",
+        "category": "PERSON",
+        "surfaceForm": "Hellinga",
+        "locationStart": 213,
+        "locationEnd": 220,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_12",
+        "category": "ARTWORK",
+        "surfaceForm": "paleografie",
+        "locationStart": 222,
+        "locationEnd": 232,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_13",
+        "category": "ARTWORK",
+        "surfaceForm": "handschriftenkunde",
+        "locationStart": 234,
+        "locationEnd": 250,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_14",
+        "category": "LOCATION",
+        "surfaceForm": "Nederland",
+        "locationStart": 254,
+        "locationEnd": 263,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_15",
+        "category": "ARTWORK",
+        "surfaceForm": "de studie der Middeleeuwse handschrif- ten",
+        "locationStart": 265,
+        "locationEnd": 302,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_16",
+        "category": "ARTWORK",
+        "surfaceForm": "een plaats aan de universiteit",
+        "locationStart": 334,
+        "locationEnd": 363,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_17",
+        "category": "ARTWORK",
+        "surfaceForm": "een eigentijds gezicht",
+        "locationStart": 365,
+        "locationEnd": 386,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_18",
+        "category": "ARTWORK",
+        "surfaceForm": "een aanmerkelijke uitstraling",
+        "locationStart": 388,
+        "locationEnd": 415,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_19",
+        "category": "LOCATION",
+        "surfaceForm": "ons land",
+        "locationStart": 416,
+        "locationEnd": 424,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_20",
+        "category": "ARTWORK",
+        "surfaceForm": "de internationale ontwikkelingen",
+        "locationStart": 426,
+        "locationEnd": 457,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_21",
+        "category": "PERSON",
+        "surfaceForm": "Gerard Isaac Lieftinck",
+        "locationStart": 459,
+        "locationEnd": 480,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_4",
@@ -20137,6 +20345,78 @@
         "locationStart": 465,
         "locationEnd": 477,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_22",
+        "category": "LOCATION",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 484,
+        "locationEnd": 493,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_23",
+        "category": "DATE",
+        "surfaceForm": "3 augustus 1902",
+        "locationStart": 497,
+        "locationEnd": 512,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_24",
+        "category": "ORGANIZATION",
+        "surfaceForm": "een makelaar in tabak",
+        "locationStart": 514,
+        "locationEnd": 535,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_25",
+        "category": "ORGANIZATION",
+        "surfaceForm": "een familie",
+        "locationStart": 536,
+        "locationEnd": 545,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_26",
+        "category": "PERSON",
+        "surfaceForm": "een libellen-deskundige",
+        "locationStart": 547,
+        "locationEnd": 568,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_27",
+        "category": "ORGANIZATION",
+        "surfaceForm": "een academische titel",
+        "locationStart": 570,
+        "locationEnd": 590,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_28",
+        "category": "ORGANIZATION",
+        "surfaceForm": "een eredoctoraat",
+        "locationStart": 591,
+        "locationEnd": 607,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_29",
+        "category": "PERSON",
+        "surfaceForm": "drie zusters",
+        "locationStart": 609,
+        "locationEnd": 621,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_30",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Gemeente- lijke Universiteit van Amsterdam",
+        "locationStart": 623,
+        "locationEnd": 660,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_5",
@@ -20175,6 +20455,54 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_4",
+        "category": "LOC",
+        "surfaceForm": "Nederland",
+        "locationStart": 651,
+        "locationEnd": 660,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_31",
+        "category": "DATE",
+        "surfaceForm": "1920",
+        "locationStart": 662,
+        "locationEnd": 666,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_32",
+        "category": "DATE",
+        "surfaceForm": "1925",
+        "locationStart": 671,
+        "locationEnd": 675,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_33",
+        "category": "ARTWORK",
+        "surfaceForm": "een studie Nederlands",
+        "locationStart": 677,
+        "locationEnd": 696,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_34",
+        "category": "ARTWORK",
+        "surfaceForm": "de mystiek van mevr. L. de Hartog-Meyjes",
+        "locationStart": 699,
+        "locationEnd": 738,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_35",
+        "category": "ARTWORK",
+        "surfaceForm": "een studie",
+        "locationStart": 741,
+        "locationEnd": 749,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_6",
         "surfaceForm": "Kruitwagen",
         "category": "MISC",
@@ -20209,6 +20537,22 @@
         "locationStart": 745,
         "locationEnd": 755,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_5",
+        "category": "ORG",
+        "surfaceForm": "Kruitwagen",
+        "locationStart": 745,
+        "locationEnd": 755,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_36",
+        "category": "ARTWORK",
+        "surfaceForm": "Nederlandsche handschriften",
+        "locationStart": 751,
+        "locationEnd": 775,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_7",
@@ -20247,6 +20591,118 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_5",
+        "category": "PER",
+        "surfaceForm": "Hellinga",
+        "locationStart": 759,
+        "locationEnd": 767,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_37",
+        "category": "PERSON",
+        "surfaceForm": "Hendrik Mande",
+        "locationStart": 777,
+        "locationEnd": 790,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_38",
+        "category": "ARTWORK",
+        "surfaceForm": "de Middelnederlandse Tauler-vertalingen",
+        "locationStart": 792,
+        "locationEnd": 827,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_39",
+        "category": "ARTWORK",
+        "surfaceForm": "de handschriften",
+        "locationStart": 829,
+        "locationEnd": 843,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_40",
+        "category": "ARTWORK",
+        "surfaceForm": "de koerswijziging",
+        "locationStart": 845,
+        "locationEnd": 861,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_41",
+        "category": "LOCATION",
+        "surfaceForm": "Rotterdam",
+        "locationStart": 863,
+        "locationEnd": 872,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_42",
+        "category": "PERSON",
+        "surfaceForm": "Willem de Vreese",
+        "locationStart": 874,
+        "locationEnd": 889,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_43",
+        "category": "ORGANIZATION",
+        "surfaceForm": "de bibliotheek van de Economische Hogeschool",
+        "locationStart": 891,
+        "locationEnd": 933,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_44",
+        "category": "DATE",
+        "surfaceForm": "1936",
+        "locationStart": 935,
+        "locationEnd": 939,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_45",
+        "category": "ARTWORK",
+        "surfaceForm": "enkele tractaten",
+        "locationStart": 941,
+        "locationEnd": 956,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_46",
+        "category": "ORGANIZATION",
+        "surfaceForm": "de Amsterdamse Universiteitsbibliotheek",
+        "locationStart": 959,
+        "locationEnd": 994,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_47",
+        "category": "ORGANIZATION",
+        "surfaceForm": "de Haagse Konink- lijke Bibliotheek",
+        "locationStart": 996,
+        "locationEnd": 1032,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_48",
+        "category": "DATE",
+        "surfaceForm": "september 1939",
+        "locationStart": 1034,
+        "locationEnd": 1049,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_49",
+        "category": "ORGANIZATION",
+        "surfaceForm": "de Universiteitsbibliotheek Leiden",
+        "locationStart": 1051,
+        "locationEnd": 1082,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_8",
         "surfaceForm": "Lieftincks",
         "category": "MISC",
@@ -20283,6 +20739,46 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_50",
+        "category": "ARTWORK",
+        "surfaceForm": "de Middelnederlandse handschriften",
+        "locationStart": 1084,
+        "locationEnd": 1117,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_51",
+        "category": "DATE",
+        "surfaceForm": "1942",
+        "locationStart": 1119,
+        "locationEnd": 1123,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_52",
+        "category": "ORGANIZATION",
+        "surfaceForm": "de Bibliotheca Neerlandica Manuscripta",
+        "locationStart": 1125,
+        "locationEnd": 1161,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_53",
+        "category": "ORGANIZATION",
+        "surfaceForm": "bnm",
+        "locationStart": 1164,
+        "locationEnd": 1167,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_54",
+        "category": "PERSON",
+        "surfaceForm": "De Vreese",
+        "locationStart": 1169,
+        "locationEnd": 1177,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_9",
         "surfaceForm": "Gerard Isaac Lieftinck",
         "category": "PER",
@@ -20317,6 +20813,14 @@
         "locationStart": 1223,
         "locationEnd": 1229,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_7",
+        "category": "PER",
+        "surfaceForm": "Gerard Isaac Lieftinck",
+        "locationStart": 1223,
+        "locationEnd": 1245,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gysbert_hist_7",
@@ -20361,6 +20865,14 @@
         "locationStart": 1262,
         "locationEnd": 1271,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_7",
+        "category": "LOC",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 1262,
+        "locationEnd": 1271,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_5",
@@ -20425,6 +20937,14 @@
         "locationStart": 1601,
         "locationEnd": 1633,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_9",
+        "category": "ORG",
+        "surfaceForm": "Gemeente- lijke Universiteit van Amsterdam",
+        "locationStart": 1601,
+        "locationEnd": 1643,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_12",
@@ -20535,6 +21055,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_11",
+        "category": "PER",
+        "surfaceForm": "L. de Hartog-Meyjes",
+        "locationStart": 1844,
+        "locationEnd": 1863,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_15",
         "surfaceForm": "Nederlandsche",
         "category": "MISC",
@@ -20605,6 +21133,14 @@
         "locationStart": 2046,
         "locationEnd": 2059,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_13",
+        "category": "PER",
+        "surfaceForm": "Hendrik Mande",
+        "locationStart": 2046,
+        "locationEnd": 2059,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_17",
@@ -20751,6 +21287,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_16",
+        "category": "LOC",
+        "surfaceForm": "Rotterdam",
+        "locationStart": 2619,
+        "locationEnd": 2628,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_23",
         "surfaceForm": "Willem de Vreese",
         "category": "PER",
@@ -20785,6 +21329,14 @@
         "locationStart": 2651,
         "locationEnd": 2667,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_16",
+        "category": "PER",
+        "surfaceForm": "Willem de Vreese",
+        "locationStart": 2651,
+        "locationEnd": 2667,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_18",
@@ -20825,6 +21377,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_16",
+        "category": "ORG",
+        "surfaceForm": "Economische Hogeschool",
+        "locationStart": 2739,
+        "locationEnd": 2761,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_25",
         "surfaceForm": "De Vreese",
         "category": "PER",
@@ -20859,6 +21419,14 @@
         "locationStart": 2768,
         "locationEnd": 2770,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_16",
+        "category": "PER",
+        "surfaceForm": "De Vreese",
+        "locationStart": 2768,
+        "locationEnd": 2777,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_21",
@@ -20915,6 +21483,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_19",
+        "category": "ORG",
+        "surfaceForm": "Universiteitsbibliotheek",
+        "locationStart": 3147,
+        "locationEnd": 3171,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_27",
         "surfaceForm": "Haagse Konink- lijke Bibliotheek",
         "category": "ORG",
@@ -20949,6 +21525,14 @@
         "locationStart": 3185,
         "locationEnd": 3192,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_19",
+        "category": "ORG",
+        "surfaceForm": "Konink lijke Bibliotheek",
+        "locationStart": 3185,
+        "locationEnd": 3210,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "flair_18",
@@ -20995,6 +21579,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_19",
+        "category": "PER",
+        "surfaceForm": "Gerard Isaac Lieftinck",
+        "locationStart": 3272,
+        "locationEnd": 3294,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_25",
         "surfaceForm": "september 1939",
         "category": "TIME",
@@ -21039,6 +21631,14 @@
         "locationStart": 3341,
         "locationEnd": 3372,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_19",
+        "category": "ORG",
+        "surfaceForm": "Universiteitsbibliotheek Leiden",
+        "locationStart": 3341,
+        "locationEnd": 3372,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_30",
@@ -21211,6 +21811,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_20",
+        "category": "ORG",
+        "surfaceForm": "UB",
+        "locationStart": 3744,
+        "locationEnd": 3746,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_29",
         "surfaceForm": "de komende jaren",
         "category": "TIME",
@@ -21353,6 +21961,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_25",
+        "category": "ORG",
+        "surfaceForm": "BNM",
+        "locationStart": 4611,
+        "locationEnd": 4614,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_31",
         "surfaceForm": "die vroege Leidse jaren",
         "category": "TIME",
@@ -21417,6 +22033,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_27",
+        "category": "PER",
+        "surfaceForm": "Lieftinck",
+        "locationStart": 4774,
+        "locationEnd": 4783,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "flair_26",
         "category": "ORG",
         "surfaceForm": "ub",
@@ -21451,6 +22075,14 @@
         "locationStart": 4952,
         "locationEnd": 4966,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_27",
+        "category": "PER",
+        "surfaceForm": "K.A. de Meyier",
+        "locationStart": 4952,
+        "locationEnd": 4966,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gysbert_hist_27",
@@ -21495,6 +22127,14 @@
         "locationStart": 4981,
         "locationEnd": 4996,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_27",
+        "category": "PER",
+        "surfaceForm": "E. Hulshoff Pol",
+        "locationStart": 4981,
+        "locationEnd": 4996,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_35",
@@ -21569,6 +22209,14 @@
         "locationStart": 5349,
         "locationEnd": 5359,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_30",
+        "category": "PER",
+        "surfaceForm": "Kruitwagen",
+        "locationStart": 5349,
+        "locationEnd": 5359,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_49",
@@ -21653,6 +22301,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_32",
+        "category": "ORG",
+        "surfaceForm": "Maatschappij der Nederlandsche Letter- kunde",
+        "locationStart": 5739,
+        "locationEnd": 5783,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_39",
         "surfaceForm": "1948",
         "category": "TIME",
@@ -21723,6 +22379,14 @@
         "locationStart": 6045,
         "locationEnd": 6053,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_37",
+        "category": "PER",
+        "surfaceForm": "Lieftinck",
+        "locationStart": 6045,
+        "locationEnd": 6054,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_55",
@@ -21843,6 +22507,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_39",
+        "category": "PER",
+        "surfaceForm": "S.G. de Vries",
+        "locationStart": 6435,
+        "locationEnd": 6448,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gysbert_hist_39",
         "category": "TIME",
         "surfaceForm": "1909 isaac lieftinck",
@@ -21879,444 +22551,12 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "J.P. Gumbert",
-        "locationStart": 19,
-        "locationEnd": 31,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "PERSON",
+        "ID": "xlmr_ner_39",
+        "category": "PER",
         "surfaceForm": "Gerard Isaac Lieftinck",
-        "locationStart": 32,
-        "locationEnd": 53,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "DATE",
-        "surfaceForm": "3 augustus 1902",
-        "locationStart": 54,
-        "locationEnd": 69,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "DATE",
-        "surfaceForm": "9 mei 1994",
-        "locationStart": 70,
-        "locationEnd": 81,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "PERSON",
-        "surfaceForm": "Gerard Lieftinck",
-        "locationStart": 82,
-        "locationEnd": 97,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "DATE",
-        "surfaceForm": "8 mei 1994",
-        "locationStart": 98,
-        "locationEnd": 108,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_6",
-        "category": "PERSON",
-        "surfaceForm": "Gerard Lieftinck",
-        "locationStart": 109,
-        "locationEnd": 124,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_7",
-        "category": "ARTWORK",
-        "surfaceForm": "een lang leven",
-        "locationStart": 125,
-        "locationEnd": 138,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_8",
-        "category": "ARTWORK",
-        "surfaceForm": "een lange eindfase",
-        "locationStart": 139,
-        "locationEnd": 156,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_9",
-        "category": "ARTWORK",
-        "surfaceForm": "Middeleeuwse handschrif- ten",
-        "locationStart": 157,
-        "locationEnd": 180,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_10",
-        "category": "PERSON",
-        "surfaceForm": "Kruitwagen",
-        "locationStart": 199,
-        "locationEnd": 209,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_11",
-        "category": "PERSON",
-        "surfaceForm": "Hellinga",
-        "locationStart": 213,
-        "locationEnd": 220,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_12",
-        "category": "ARTWORK",
-        "surfaceForm": "paleografie",
-        "locationStart": 222,
-        "locationEnd": 232,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_13",
-        "category": "ARTWORK",
-        "surfaceForm": "handschriftenkunde",
-        "locationStart": 234,
-        "locationEnd": 250,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_14",
-        "category": "LOCATION",
-        "surfaceForm": "Nederland",
-        "locationStart": 254,
-        "locationEnd": 263,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_15",
-        "category": "ARTWORK",
-        "surfaceForm": "de studie der Middeleeuwse handschrif- ten",
-        "locationStart": 265,
-        "locationEnd": 302,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_16",
-        "category": "ARTWORK",
-        "surfaceForm": "een plaats aan de universiteit",
-        "locationStart": 334,
-        "locationEnd": 363,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_17",
-        "category": "ARTWORK",
-        "surfaceForm": "een eigentijds gezicht",
-        "locationStart": 365,
-        "locationEnd": 386,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_18",
-        "category": "ARTWORK",
-        "surfaceForm": "een aanmerkelijke uitstraling",
-        "locationStart": 388,
-        "locationEnd": 415,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_19",
-        "category": "LOCATION",
-        "surfaceForm": "ons land",
-        "locationStart": 416,
-        "locationEnd": 424,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_20",
-        "category": "ARTWORK",
-        "surfaceForm": "de internationale ontwikkelingen",
-        "locationStart": 426,
-        "locationEnd": 457,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_21",
-        "category": "PERSON",
-        "surfaceForm": "Gerard Isaac Lieftinck",
-        "locationStart": 459,
-        "locationEnd": 480,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_22",
-        "category": "LOCATION",
-        "surfaceForm": "Amsterdam",
-        "locationStart": 484,
-        "locationEnd": 493,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_23",
-        "category": "DATE",
-        "surfaceForm": "3 augustus 1902",
-        "locationStart": 497,
-        "locationEnd": 512,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_24",
-        "category": "ORGANIZATION",
-        "surfaceForm": "een makelaar in tabak",
-        "locationStart": 514,
-        "locationEnd": 535,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_25",
-        "category": "ORGANIZATION",
-        "surfaceForm": "een familie",
-        "locationStart": 536,
-        "locationEnd": 545,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_26",
-        "category": "PERSON",
-        "surfaceForm": "een libellen-deskundige",
-        "locationStart": 547,
-        "locationEnd": 568,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_27",
-        "category": "ORGANIZATION",
-        "surfaceForm": "een academische titel",
-        "locationStart": 570,
-        "locationEnd": 590,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_28",
-        "category": "ORGANIZATION",
-        "surfaceForm": "een eredoctoraat",
-        "locationStart": 591,
-        "locationEnd": 607,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_29",
-        "category": "PERSON",
-        "surfaceForm": "drie zusters",
-        "locationStart": 609,
-        "locationEnd": 621,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_30",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Gemeente- lijke Universiteit van Amsterdam",
-        "locationStart": 623,
-        "locationEnd": 660,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_31",
-        "category": "DATE",
-        "surfaceForm": "1920",
-        "locationStart": 662,
-        "locationEnd": 666,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_32",
-        "category": "DATE",
-        "surfaceForm": "1925",
-        "locationStart": 671,
-        "locationEnd": 675,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_33",
-        "category": "ARTWORK",
-        "surfaceForm": "een studie Nederlands",
-        "locationStart": 677,
-        "locationEnd": 696,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_34",
-        "category": "ARTWORK",
-        "surfaceForm": "de mystiek van mevr. L. de Hartog-Meyjes",
-        "locationStart": 699,
-        "locationEnd": 738,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_35",
-        "category": "ARTWORK",
-        "surfaceForm": "een studie",
-        "locationStart": 741,
-        "locationEnd": 749,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_36",
-        "category": "ARTWORK",
-        "surfaceForm": "Nederlandsche handschriften",
-        "locationStart": 751,
-        "locationEnd": 775,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_37",
-        "category": "PERSON",
-        "surfaceForm": "Hendrik Mande",
-        "locationStart": 777,
-        "locationEnd": 790,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_38",
-        "category": "ARTWORK",
-        "surfaceForm": "de Middelnederlandse Tauler-vertalingen",
-        "locationStart": 792,
-        "locationEnd": 827,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_39",
-        "category": "ARTWORK",
-        "surfaceForm": "de handschriften",
-        "locationStart": 829,
-        "locationEnd": 843,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_40",
-        "category": "ARTWORK",
-        "surfaceForm": "de koerswijziging",
-        "locationStart": 845,
-        "locationEnd": 861,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_41",
-        "category": "LOCATION",
-        "surfaceForm": "Rotterdam",
-        "locationStart": 863,
-        "locationEnd": 872,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_42",
-        "category": "PERSON",
-        "surfaceForm": "Willem de Vreese",
-        "locationStart": 874,
-        "locationEnd": 889,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_43",
-        "category": "ORGANIZATION",
-        "surfaceForm": "de bibliotheek van de Economische Hogeschool",
-        "locationStart": 891,
-        "locationEnd": 933,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_44",
-        "category": "DATE",
-        "surfaceForm": "1936",
-        "locationStart": 935,
-        "locationEnd": 939,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_45",
-        "category": "ARTWORK",
-        "surfaceForm": "enkele tractaten",
-        "locationStart": 941,
-        "locationEnd": 956,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_46",
-        "category": "ORGANIZATION",
-        "surfaceForm": "de Amsterdamse Universiteitsbibliotheek",
-        "locationStart": 959,
-        "locationEnd": 994,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_47",
-        "category": "ORGANIZATION",
-        "surfaceForm": "de Haagse Konink- lijke Bibliotheek",
-        "locationStart": 996,
-        "locationEnd": 1032,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_48",
-        "category": "DATE",
-        "surfaceForm": "september 1939",
-        "locationStart": 1034,
-        "locationEnd": 1049,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_49",
-        "category": "ORGANIZATION",
-        "surfaceForm": "de Universiteitsbibliotheek Leiden",
-        "locationStart": 1051,
-        "locationEnd": 1082,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_50",
-        "category": "ARTWORK",
-        "surfaceForm": "de Middelnederlandse handschriften",
-        "locationStart": 1084,
-        "locationEnd": 1117,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_51",
-        "category": "DATE",
-        "surfaceForm": "1942",
-        "locationStart": 1119,
-        "locationEnd": 1123,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_52",
-        "category": "ORGANIZATION",
-        "surfaceForm": "de Bibliotheca Neerlandica Manuscripta",
-        "locationStart": 1125,
-        "locationEnd": 1161,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_53",
-        "category": "ORGANIZATION",
-        "surfaceForm": "bnm",
-        "locationStart": 1164,
-        "locationEnd": 1167,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_54",
-        "category": "PERSON",
-        "surfaceForm": "De Vreese",
-        "locationStart": 1169,
-        "locationEnd": 1177,
-        "method": "gpt-3.5-turbo"
+        "locationStart": 6456,
+        "locationEnd": 6478,
+        "method": "xlmr_ner_"
       }
     ],
     "time_expressions": [

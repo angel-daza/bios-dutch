@@ -6981,12 +6981,44 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "Hartog H. de Lemon",
+        "locationStart": 0,
+        "locationEnd": 17,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "Hartog H. de Lemon",
+        "locationStart": 0,
+        "locationEnd": 18,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gysbert_hist_0",
         "category": "PER",
         "surfaceForm": "h de lemon",
         "locationStart": 7,
         "locationEnd": 18,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "MISC",
+        "surfaceForm": "medicijnen",
+        "locationStart": 34,
+        "locationEnd": 44,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Hoogduitse gemeente",
+        "locationStart": 57,
+        "locationEnd": 76,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_40",
@@ -7007,6 +7039,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "PERSON",
+        "surfaceForm": "H. Bromet",
+        "locationStart": 91,
+        "locationEnd": 100,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "PERSON",
+        "surfaceForm": "joodse parlementslid",
+        "locationStart": 108,
+        "locationEnd": 128,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_1",
         "surfaceForm": "Hoogduitse",
         "category": "MISC",
@@ -7023,6 +7071,38 @@
         "locationStart": 124,
         "locationEnd": 134,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "Hoogduitse",
+        "locationStart": 124,
+        "locationEnd": 134,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "DATE",
+        "surfaceForm": "5 december 1823",
+        "locationStart": 139,
+        "locationEnd": 155,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_6",
+        "category": "DATE",
+        "surfaceForm": "het midden van de achttiende eeuw",
+        "locationStart": 182,
+        "locationEnd": 214,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_7",
+        "category": "LOCATION",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 218,
+        "locationEnd": 226,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_2",
@@ -7053,6 +7133,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_3",
+        "category": "PER",
+        "surfaceForm": "H. Bromet",
+        "locationStart": 224,
+        "locationEnd": 233,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "flair_4",
         "category": "PER",
         "surfaceForm": "Bromet",
@@ -7067,6 +7155,14 @@
         "locationStart": 227,
         "locationEnd": 233,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_8",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Hoogduitse Gemeente",
+        "locationStart": 244,
+        "locationEnd": 263,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_30",
@@ -7087,6 +7183,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_9",
+        "category": "MISC",
+        "surfaceForm": "joodse emancipatie",
+        "locationStart": 285,
+        "locationEnd": 305,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_31",
         "surfaceForm": "midden van de achttiende eeuw",
         "category": "TIME",
@@ -7097,12 +7201,28 @@
         "method": "human_gold"
       },
       {
+        "ID": "gpt-3.5-turbo_10",
+        "category": "PERSON",
+        "surfaceForm": "Mozes Salomon Asser",
+        "locationStart": 324,
+        "locationEnd": 343,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gysbert_hist_5",
         "category": "TIME",
         "surfaceForm": "achttiende",
         "locationStart": 328,
         "locationEnd": 338,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_11",
+        "category": "PERSON",
+        "surfaceForm": "Hartog Bromet",
+        "locationStart": 347,
+        "locationEnd": 360,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_3",
@@ -7139,6 +7259,14 @@
         "locationStart": 349,
         "locationEnd": 355,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_5",
+        "category": "PER",
+        "surfaceForm": "Hartog H. de Lemon",
+        "locationStart": 349,
+        "locationEnd": 367,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gysbert_hist_5",
@@ -7185,6 +7313,30 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_5",
+        "category": "LOC",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 371,
+        "locationEnd": 380,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_12",
+        "category": "ORGANIZATION",
+        "surfaceForm": "joodse patriottenclub Felix Libertate",
+        "locationStart": 375,
+        "locationEnd": 411,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_13",
+        "category": "PERSON",
+        "surfaceForm": "Marrianne Hartog de Lemon",
+        "locationStart": 437,
+        "locationEnd": 463,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_34",
         "surfaceForm": "1788",
         "category": "TIME",
@@ -7201,6 +7353,14 @@
         "locationStart": 456,
         "locationEnd": 460,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_14",
+        "category": "PERSON",
+        "surfaceForm": "Juda Littwak",
+        "locationStart": 477,
+        "locationEnd": 488,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_5",
@@ -7229,6 +7389,22 @@
         "locationStart": 504,
         "locationEnd": 523,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_15",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Felix Libertate",
+        "locationStart": 504,
+        "locationEnd": 518,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_7",
+        "category": "ORG",
+        "surfaceForm": "Hoogduitse Gemeente",
+        "locationStart": 504,
+        "locationEnd": 523,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_6",
@@ -7267,6 +7443,30 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_7",
+        "category": "LOC",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 527,
+        "locationEnd": 536,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_16",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Comite van Waakzaamheid",
+        "locationStart": 542,
+        "locationEnd": 565,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_17",
+        "category": "MISC",
+        "surfaceForm": "Rechten van den Mensch",
+        "locationStart": 586,
+        "locationEnd": 607,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_7",
         "surfaceForm": "Mozes Salomon Asser",
         "category": "PER",
@@ -7301,6 +7501,22 @@
         "locationStart": 621,
         "locationEnd": 640,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_9",
+        "category": "PER",
+        "surfaceForm": "Mozes Salomon Asser",
+        "locationStart": 621,
+        "locationEnd": 640,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_18",
+        "category": "MISC",
+        "surfaceForm": "Heilige Leer",
+        "locationStart": 641,
+        "locationEnd": 654,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_8",
@@ -7339,6 +7555,30 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_9",
+        "category": "PER",
+        "surfaceForm": "Hartog Bromet",
+        "locationStart": 644,
+        "locationEnd": 657,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_19",
+        "category": "PERSON",
+        "surfaceForm": "armendokter",
+        "locationStart": 677,
+        "locationEnd": 688,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_20",
+        "category": "DATE",
+        "surfaceForm": "1797",
+        "locationStart": 702,
+        "locationEnd": 706,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_9",
         "surfaceForm": "Felix Libertate",
         "category": "PER",
@@ -7367,6 +7607,46 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_9",
+        "category": "ORG",
+        "surfaceForm": "Felix Libertate",
+        "locationStart": 716,
+        "locationEnd": 731,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_21",
+        "category": "PERSON",
+        "surfaceForm": "Bromet",
+        "locationStart": 721,
+        "locationEnd": 727,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_22",
+        "category": "PERSON",
+        "surfaceForm": "joden",
+        "locationStart": 732,
+        "locationEnd": 737,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_23",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Nationale Vergadering",
+        "locationStart": 741,
+        "locationEnd": 761,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_24",
+        "category": "LOCATION",
+        "surfaceForm": "Europa",
+        "locationStart": 775,
+        "locationEnd": 781,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_41",
         "surfaceForm": "voor 1795",
         "category": "TIME",
@@ -7385,6 +7665,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_25",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Hoogduitse Gemeente",
+        "locationStart": 805,
+        "locationEnd": 824,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_26",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Nieuwe Gemeente Adath Jessurun",
+        "locationStart": 849,
+        "locationEnd": 877,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_10",
         "surfaceForm": "De Lemons",
         "category": "PER",
@@ -7401,6 +7697,14 @@
         "locationStart": 856,
         "locationEnd": 865,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_11",
+        "category": "PER",
+        "surfaceForm": "De Lemons",
+        "locationStart": 856,
+        "locationEnd": 865,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_11",
@@ -7439,6 +7743,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_11",
+        "category": "PER",
+        "surfaceForm": "Marianne Hartog de Lemon",
+        "locationStart": 881,
+        "locationEnd": 905,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_27",
+        "category": "DATE",
+        "surfaceForm": "1808",
+        "locationStart": 892,
+        "locationEnd": 896,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_43",
         "surfaceForm": "1794",
         "category": "TIME",
@@ -7455,6 +7775,14 @@
         "locationStart": 910,
         "locationEnd": 914,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_28",
+        "category": "PERSON",
+        "surfaceForm": "Lodewijk Napoleon",
+        "locationStart": 911,
+        "locationEnd": 927,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_12",
@@ -7493,6 +7821,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_11",
+        "category": "PER",
+        "surfaceForm": "Juda Littwak",
+        "locationStart": 928,
+        "locationEnd": 940,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_29",
+        "category": "LOCATION",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 951,
+        "locationEnd": 959,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_13",
         "surfaceForm": "Felix Libertate",
         "category": "PER",
@@ -7519,6 +7863,22 @@
         "locationStart": 967,
         "locationEnd": 982,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_11",
+        "category": "ORG",
+        "surfaceForm": "Felix Libertate",
+        "locationStart": 967,
+        "locationEnd": 982,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_30",
+        "category": "DATE",
+        "surfaceForm": "12 op 13 februari 1813",
+        "locationStart": 972,
+        "locationEnd": 993,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_14",
@@ -7557,6 +7917,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_12",
+        "category": "PER",
+        "surfaceForm": "Lemon",
+        "locationStart": 993,
+        "locationEnd": 998,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_31",
+        "category": "PERSON",
+        "surfaceForm": "De Lemon",
+        "locationStart": 1013,
+        "locationEnd": 1021,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_15",
         "surfaceForm": "Felix",
         "category": "PER",
@@ -7585,6 +7961,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_12",
+        "category": "PER",
+        "surfaceForm": "Felix",
+        "locationStart": 1039,
+        "locationEnd": 1044,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_32",
+        "category": "MISC",
+        "surfaceForm": "Orangistische samenzwering",
+        "locationStart": 1043,
+        "locationEnd": 1068,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_16",
         "surfaceForm": "Comite van Waakzaamheid",
         "category": "ORG",
@@ -7611,6 +8003,38 @@
         "locationStart": 1064,
         "locationEnd": 1087,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_12",
+        "category": "ORG",
+        "surfaceForm": "Comite van Waakzaamheid",
+        "locationStart": 1064,
+        "locationEnd": 1087,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_33",
+        "category": "PERSON",
+        "surfaceForm": "Napoleon",
+        "locationStart": 1093,
+        "locationEnd": 1101,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_34",
+        "category": "DATE",
+        "surfaceForm": "6 april 1814",
+        "locationStart": 1108,
+        "locationEnd": 1120,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_35",
+        "category": "LOCATION",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 1129,
+        "locationEnd": 1137,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_17",
@@ -7687,6 +8111,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_14",
+        "category": "PER",
+        "surfaceForm": "De Lemon",
+        "locationStart": 1316,
+        "locationEnd": 1324,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_5",
         "surfaceForm": "1797",
         "category": "TIME",
@@ -7733,6 +8165,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_15",
+        "category": "PER",
+        "surfaceForm": "De Lemon",
+        "locationStart": 1370,
+        "locationEnd": 1378,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_21",
         "surfaceForm": "Bromet",
         "category": "PER",
@@ -7769,6 +8209,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_15",
+        "category": "PER",
+        "surfaceForm": "Bromet",
+        "locationStart": 1389,
+        "locationEnd": 1395,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_22",
         "surfaceForm": "Nationale Vergadering",
         "category": "ORG",
@@ -7795,6 +8243,14 @@
         "locationStart": 1421,
         "locationEnd": 1442,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_15",
+        "category": "ORG",
+        "surfaceForm": "Nationale Vergadering",
+        "locationStart": 1421,
+        "locationEnd": 1442,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_23",
@@ -7833,6 +8289,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_16",
+        "category": "LOC",
+        "surfaceForm": "Europa",
+        "locationStart": 1511,
+        "locationEnd": 1517,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_10",
         "surfaceForm": "De Lemon",
         "category": "PER",
@@ -7851,6 +8315,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_17",
+        "category": "PER",
+        "surfaceForm": "De",
+        "locationStart": 1519,
+        "locationEnd": 1521,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_24",
         "surfaceForm": "Lemon",
         "category": "PER",
@@ -7859,6 +8331,14 @@
         "tokenStart": 271,
         "tokenEnd": 272,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "xlmr_ner_17",
+        "category": "PER",
+        "surfaceForm": "Lemon",
+        "locationStart": 1522,
+        "locationEnd": 1527,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_11",
@@ -7907,6 +8387,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_17",
+        "category": "ORG",
+        "surfaceForm": "Hoogduitse Gemeente",
+        "locationStart": 1589,
+        "locationEnd": 1608,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_26",
         "surfaceForm": "Nieuwe Gemeente Adath Jessurun",
         "category": "LOC",
@@ -7933,6 +8421,14 @@
         "locationStart": 1615,
         "locationEnd": 1645,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_17",
+        "category": "ORG",
+        "surfaceForm": "Nieuwe Gemeente Adath Jessurun",
+        "locationStart": 1615,
+        "locationEnd": 1645,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gysbert_hist_17",
@@ -8025,6 +8521,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_18",
+        "category": "PER",
+        "surfaceForm": "Lodewijk Napoleon",
+        "locationStart": 1705,
+        "locationEnd": 1722,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_29",
         "surfaceForm": "Oude Gemeente",
         "category": "LOC",
@@ -8051,6 +8555,14 @@
         "locationStart": 1749,
         "locationEnd": 1762,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_18",
+        "category": "ORG",
+        "surfaceForm": "Oude Gemeente",
+        "locationStart": 1749,
+        "locationEnd": 1762,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_18",
@@ -8107,6 +8619,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_19",
+        "category": "PER",
+        "surfaceForm": "De Lemon",
+        "locationStart": 1808,
+        "locationEnd": 1816,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_31",
         "surfaceForm": "Orangistische",
         "category": "MISC",
@@ -8151,6 +8671,14 @@
         "locationStart": 1915,
         "locationEnd": 1923,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_20",
+        "category": "PER",
+        "surfaceForm": "Napoleon",
+        "locationStart": 1915,
+        "locationEnd": 1923,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_21",
@@ -8207,6 +8735,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_21",
+        "category": "LOC",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 1988,
+        "locationEnd": 1997,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_23",
         "surfaceForm": "Iets over de nooit plaats gehad hebbende zamenzweering te Amsterdam in Februai 1813",
         "category": "ARTWORK",
@@ -8251,6 +8787,14 @@
         "locationStart": 2094,
         "locationEnd": 2103,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_22",
+        "category": "LOC",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 2094,
+        "locationEnd": 2103,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_35",
@@ -8309,6 +8853,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_24",
+        "category": "PER",
+        "surfaceForm": "De Lemon",
+        "locationStart": 2167,
+        "locationEnd": 2175,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_27",
         "surfaceForm": "5 december 1823",
         "category": "TIME",
@@ -8363,292 +8915,12 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "Hartog H. de Lemon",
-        "locationStart": 0,
-        "locationEnd": 17,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "MISC",
-        "surfaceForm": "medicijnen",
-        "locationStart": 34,
-        "locationEnd": 44,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Hoogduitse gemeente",
-        "locationStart": 57,
-        "locationEnd": 76,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "PERSON",
-        "surfaceForm": "H. Bromet",
-        "locationStart": 91,
-        "locationEnd": 100,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "PERSON",
-        "surfaceForm": "joodse parlementslid",
-        "locationStart": 108,
-        "locationEnd": 128,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "DATE",
-        "surfaceForm": "5 december 1823",
-        "locationStart": 139,
-        "locationEnd": 155,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_6",
-        "category": "DATE",
-        "surfaceForm": "het midden van de achttiende eeuw",
-        "locationStart": 182,
-        "locationEnd": 214,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_7",
-        "category": "LOCATION",
+        "ID": "xlmr_ner_25",
+        "category": "LOC",
         "surfaceForm": "Amsterdam",
-        "locationStart": 218,
-        "locationEnd": 226,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_8",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Hoogduitse Gemeente",
-        "locationStart": 244,
-        "locationEnd": 263,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_9",
-        "category": "MISC",
-        "surfaceForm": "joodse emancipatie",
-        "locationStart": 285,
-        "locationEnd": 305,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_10",
-        "category": "PERSON",
-        "surfaceForm": "Mozes Salomon Asser",
-        "locationStart": 324,
-        "locationEnd": 343,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_11",
-        "category": "PERSON",
-        "surfaceForm": "Hartog Bromet",
-        "locationStart": 347,
-        "locationEnd": 360,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_12",
-        "category": "ORGANIZATION",
-        "surfaceForm": "joodse patriottenclub Felix Libertate",
-        "locationStart": 375,
-        "locationEnd": 411,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_13",
-        "category": "PERSON",
-        "surfaceForm": "Marrianne Hartog de Lemon",
-        "locationStart": 437,
-        "locationEnd": 463,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_14",
-        "category": "PERSON",
-        "surfaceForm": "Juda Littwak",
-        "locationStart": 477,
-        "locationEnd": 488,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_15",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Felix Libertate",
-        "locationStart": 504,
-        "locationEnd": 518,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_16",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Comite van Waakzaamheid",
-        "locationStart": 542,
-        "locationEnd": 565,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_17",
-        "category": "MISC",
-        "surfaceForm": "Rechten van den Mensch",
-        "locationStart": 586,
-        "locationEnd": 607,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_18",
-        "category": "MISC",
-        "surfaceForm": "Heilige Leer",
-        "locationStart": 641,
-        "locationEnd": 654,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_19",
-        "category": "PERSON",
-        "surfaceForm": "armendokter",
-        "locationStart": 677,
-        "locationEnd": 688,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_20",
-        "category": "DATE",
-        "surfaceForm": "1797",
-        "locationStart": 702,
-        "locationEnd": 706,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_21",
-        "category": "PERSON",
-        "surfaceForm": "Bromet",
-        "locationStart": 721,
-        "locationEnd": 727,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_22",
-        "category": "PERSON",
-        "surfaceForm": "joden",
-        "locationStart": 732,
-        "locationEnd": 737,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_23",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Nationale Vergadering",
-        "locationStart": 741,
-        "locationEnd": 761,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_24",
-        "category": "LOCATION",
-        "surfaceForm": "Europa",
-        "locationStart": 775,
-        "locationEnd": 781,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_25",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Hoogduitse Gemeente",
-        "locationStart": 805,
-        "locationEnd": 824,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_26",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Nieuwe Gemeente Adath Jessurun",
-        "locationStart": 849,
-        "locationEnd": 877,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_27",
-        "category": "DATE",
-        "surfaceForm": "1808",
-        "locationStart": 892,
-        "locationEnd": 896,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_28",
-        "category": "PERSON",
-        "surfaceForm": "Lodewijk Napoleon",
-        "locationStart": 911,
-        "locationEnd": 927,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_29",
-        "category": "LOCATION",
-        "surfaceForm": "Amsterdam",
-        "locationStart": 951,
-        "locationEnd": 959,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_30",
-        "category": "DATE",
-        "surfaceForm": "12 op 13 februari 1813",
-        "locationStart": 972,
-        "locationEnd": 993,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_31",
-        "category": "PERSON",
-        "surfaceForm": "De Lemon",
-        "locationStart": 1013,
-        "locationEnd": 1021,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_32",
-        "category": "MISC",
-        "surfaceForm": "Orangistische samenzwering",
-        "locationStart": 1043,
-        "locationEnd": 1068,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_33",
-        "category": "PERSON",
-        "surfaceForm": "Napoleon",
-        "locationStart": 1093,
-        "locationEnd": 1101,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_34",
-        "category": "DATE",
-        "surfaceForm": "6 april 1814",
-        "locationStart": 1108,
-        "locationEnd": 1120,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_35",
-        "category": "LOCATION",
-        "surfaceForm": "Amsterdam",
-        "locationStart": 1129,
-        "locationEnd": 1137,
-        "method": "gpt-3.5-turbo"
+        "locationStart": 2212,
+        "locationEnd": 2221,
+        "method": "xlmr_ner_"
       }
     ],
     "time_expressions": [

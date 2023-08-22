@@ -2017,6 +2017,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "ROBINSON",
+        "locationStart": 0,
+        "locationEnd": 7,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "ROBINSON",
+        "locationStart": 0,
+        "locationEnd": 8,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_1",
         "surfaceForm": "JOHN",
         "category": "PER",
@@ -2041,6 +2057,30 @@
         "locationStart": 10,
         "locationEnd": 25,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "PERSON",
+        "surfaceForm": "John",
+        "locationStart": 10,
+        "locationEnd": 14,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "JOHN",
+        "locationStart": 10,
+        "locationEnd": 14,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "LOCATION",
+        "surfaceForm": "Sturton le Steeple",
+        "locationStart": 16,
+        "locationEnd": 34,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_2",
@@ -2069,6 +2109,22 @@
         "locationStart": 18,
         "locationEnd": 36,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "Sturton le SteepleNottinghamshire",
+        "locationStart": 18,
+        "locationEnd": 53,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "LOCATION",
+        "surfaceForm": "Nottinghamshire",
+        "locationStart": 35,
+        "locationEnd": 50,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_3",
@@ -2107,6 +2163,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "LOCATION",
+        "surfaceForm": "Leiden",
+        "locationStart": 52,
+        "locationEnd": 58,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_26",
         "surfaceForm": "ca. 1575",
         "category": "TIME",
@@ -2115,6 +2179,14 @@
         "tokenStart": 11,
         "tokenEnd": 13,
         "method": "human_gold"
+      },
+      {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "PERSON",
+        "surfaceForm": "John",
+        "locationStart": 61,
+        "locationEnd": 65,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_27",
@@ -2143,6 +2215,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Leiden",
+        "locationStart": 67,
+        "locationEnd": 73,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_6",
+        "category": "PERSON",
+        "surfaceForm": "Ann Robinson",
+        "locationStart": 68,
+        "locationEnd": 80,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_28",
         "surfaceForm": "1 mrt. 1625",
         "category": "TIME",
@@ -2159,6 +2247,22 @@
         "locationStart": 74,
         "locationEnd": 85,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_7",
+        "category": "LOCATION",
+        "surfaceForm": "Cambridge",
+        "locationStart": 84,
+        "locationEnd": 93,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_1",
+        "category": "",
+        "surfaceForm": ". van John",
+        "locationStart": 90,
+        "locationEnd": 99,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_4",
@@ -2197,6 +2301,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_8",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Master of Arts",
+        "locationStart": 95,
+        "locationEnd": 109,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_5",
         "surfaceForm": "Ann Robinson",
         "category": "PER",
@@ -2231,6 +2343,22 @@
         "locationStart": 103,
         "locationEnd": 115,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_1",
+        "category": "PER",
+        "surfaceForm": "Ann Robinson",
+        "locationStart": 103,
+        "locationEnd": 115,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_9",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Christ's College Cambridge",
+        "locationStart": 111,
+        "locationEnd": 134,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_6",
@@ -2269,6 +2397,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_3",
+        "category": "LOC",
+        "surfaceForm": "Cambridge",
+        "locationStart": 130,
+        "locationEnd": 139,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_3",
         "surfaceForm": "1592",
         "category": "TIME",
@@ -2277,6 +2413,14 @@
         "tokenStart": 31,
         "tokenEnd": 32,
         "method": "human_gold"
+      },
+      {
+        "ID": "gpt-3.5-turbo_10",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Graecus",
+        "locationStart": 144,
+        "locationEnd": 151,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_7",
@@ -2297,6 +2441,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "gpt-3.5-turbo_11",
+        "category": "LOCATION",
+        "surfaceForm": "Norwich",
+        "locationStart": 153,
+        "locationEnd": 160,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_4",
         "surfaceForm": "1599",
         "category": "TIME",
@@ -2305,6 +2457,14 @@
         "tokenStart": 36,
         "tokenEnd": 37,
         "method": "human_gold"
+      },
+      {
+        "ID": "gpt-3.5-turbo_12",
+        "category": "LOCATION",
+        "surfaceForm": "Norfolk",
+        "locationStart": 162,
+        "locationEnd": 169,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_8",
@@ -2335,12 +2495,28 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_5",
+        "category": "PER",
+        "surfaceForm": "Fellow Christ's College",
+        "locationStart": 167,
+        "locationEnd": 190,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "flair_5",
         "category": "ORG",
         "surfaceForm": "Christ's College",
         "locationStart": 174,
         "locationEnd": 190,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_13",
+        "category": "LOCATION",
+        "surfaceForm": "Gainsborough",
+        "locationStart": 186,
+        "locationEnd": 198,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "flair_5",
@@ -2359,6 +2535,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_5",
+        "category": "LOC",
+        "surfaceForm": "Cambridge",
+        "locationStart": 191,
+        "locationEnd": 200,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_14",
+        "category": "LOCATION",
+        "surfaceForm": "Lincolnshire",
+        "locationStart": 199,
+        "locationEnd": 211,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_7",
         "surfaceForm": "1597 - 1604",
         "category": "TIME",
@@ -2367,6 +2559,22 @@
         "tokenStart": 42,
         "tokenEnd": 45,
         "method": "human_gold"
+      },
+      {
+        "ID": "gpt-3.5-turbo_15",
+        "category": "LOCATION",
+        "surfaceForm": "Scrooby",
+        "locationStart": 216,
+        "locationEnd": 222,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_16",
+        "category": "LOCATION",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 231,
+        "locationEnd": 240,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_9",
@@ -2387,6 +2595,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_5",
+        "category": "LOC",
+        "surfaceForm": "Gra",
+        "locationStart": 232,
+        "locationEnd": 235,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_8",
         "surfaceForm": "1599",
         "category": "TIME",
@@ -2395,6 +2611,22 @@
         "tokenStart": 49,
         "tokenEnd": 50,
         "method": "human_gold"
+      },
+      {
+        "ID": "gpt-3.5-turbo_17",
+        "category": "LOCATION",
+        "surfaceForm": "Leiden",
+        "locationStart": 242,
+        "locationEnd": 248,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_18",
+        "category": "TIME",
+        "surfaceForm": "15 febr. 1604",
+        "locationStart": 253,
+        "locationEnd": 266,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_9",
@@ -2417,6 +2649,14 @@
         "method": "stanza_nl"
       },
       {
+        "ID": "gpt-3.5-turbo_19",
+        "category": "LOCATION",
+        "surfaceForm": "Greasly",
+        "locationStart": 271,
+        "locationEnd": 278,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "flair_6",
         "category": "LOC",
         "surfaceForm": "Norwich",
@@ -2431,6 +2671,22 @@
         "locationStart": 275,
         "locationEnd": 282,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_6",
+        "category": "LOC",
+        "surfaceForm": "NorwichNorfolk",
+        "locationStart": 275,
+        "locationEnd": 291,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_20",
+        "category": "LOCATION",
+        "surfaceForm": "Nottinghamshire",
+        "locationStart": 280,
+        "locationEnd": 295,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_10",
@@ -2489,6 +2745,14 @@
         "method": "human_gold"
       },
       {
+        "ID": "gpt-3.5-turbo_21",
+        "category": "PERSON",
+        "surfaceForm": "Bridget White",
+        "locationStart": 300,
+        "locationEnd": 313,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_12",
         "surfaceForm": "Gainsborough",
         "category": "LOC",
@@ -2523,6 +2787,14 @@
         "locationStart": 360,
         "locationEnd": 372,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_7",
+        "category": "LOC",
+        "surfaceForm": "GainsboroughLincolnshire",
+        "locationStart": 360,
+        "locationEnd": 386,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_13",
@@ -2585,6 +2857,14 @@
         "locationStart": 391,
         "locationEnd": 398,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_7",
+        "category": "LOC",
+        "surfaceForm": "ScroobyNottinghamshire",
+        "locationStart": 391,
+        "locationEnd": 415,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_16",
@@ -2679,6 +2959,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_7",
+        "category": "LOC",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 445,
+        "locationEnd": 454,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gysbert_hist_7",
         "category": "TIME",
         "surfaceForm": "160",
@@ -2711,6 +2999,14 @@
         "locationStart": 461,
         "locationEnd": 467,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_7",
+        "category": "LOC",
+        "surfaceForm": "Leiden",
+        "locationStart": 461,
+        "locationEnd": 467,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_20",
@@ -2775,6 +3071,14 @@
         "locationStart": 504,
         "locationEnd": 511,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_8",
+        "category": "LOC",
+        "surfaceForm": "GreaslyNotting hamshire",
+        "locationStart": 504,
+        "locationEnd": 530,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_23",
@@ -2857,6 +3161,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_8",
+        "category": "PER",
+        "surfaceForm": "Bridget White",
+        "locationStart": 536,
+        "locationEnd": 549,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_25",
         "surfaceForm": "White ( f",
         "category": "PER",
@@ -2873,182 +3185,6 @@
         "locationStart": 553,
         "locationEnd": 556,
         "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "ROBINSON",
-        "locationStart": 0,
-        "locationEnd": 7,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "PERSON",
-        "surfaceForm": "John",
-        "locationStart": 10,
-        "locationEnd": 14,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "LOCATION",
-        "surfaceForm": "Sturton le Steeple",
-        "locationStart": 16,
-        "locationEnd": 34,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "LOCATION",
-        "surfaceForm": "Nottinghamshire",
-        "locationStart": 35,
-        "locationEnd": 50,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "LOCATION",
-        "surfaceForm": "Leiden",
-        "locationStart": 52,
-        "locationEnd": 58,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "PERSON",
-        "surfaceForm": "John",
-        "locationStart": 61,
-        "locationEnd": 65,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_6",
-        "category": "PERSON",
-        "surfaceForm": "Ann Robinson",
-        "locationStart": 68,
-        "locationEnd": 80,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_7",
-        "category": "LOCATION",
-        "surfaceForm": "Cambridge",
-        "locationStart": 84,
-        "locationEnd": 93,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_8",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Master of Arts",
-        "locationStart": 95,
-        "locationEnd": 109,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_9",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Christ's College Cambridge",
-        "locationStart": 111,
-        "locationEnd": 134,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_10",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Graecus",
-        "locationStart": 144,
-        "locationEnd": 151,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_11",
-        "category": "LOCATION",
-        "surfaceForm": "Norwich",
-        "locationStart": 153,
-        "locationEnd": 160,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_12",
-        "category": "LOCATION",
-        "surfaceForm": "Norfolk",
-        "locationStart": 162,
-        "locationEnd": 169,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_13",
-        "category": "LOCATION",
-        "surfaceForm": "Gainsborough",
-        "locationStart": 186,
-        "locationEnd": 198,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_14",
-        "category": "LOCATION",
-        "surfaceForm": "Lincolnshire",
-        "locationStart": 199,
-        "locationEnd": 211,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_15",
-        "category": "LOCATION",
-        "surfaceForm": "Scrooby",
-        "locationStart": 216,
-        "locationEnd": 222,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_16",
-        "category": "LOCATION",
-        "surfaceForm": "Amsterdam",
-        "locationStart": 231,
-        "locationEnd": 240,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_17",
-        "category": "LOCATION",
-        "surfaceForm": "Leiden",
-        "locationStart": 242,
-        "locationEnd": 248,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_18",
-        "category": "TIME",
-        "surfaceForm": "15 febr. 1604",
-        "locationStart": 253,
-        "locationEnd": 266,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_19",
-        "category": "LOCATION",
-        "surfaceForm": "Greasly",
-        "locationStart": 271,
-        "locationEnd": 278,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_20",
-        "category": "LOCATION",
-        "surfaceForm": "Nottinghamshire",
-        "locationStart": 280,
-        "locationEnd": 295,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_21",
-        "category": "PERSON",
-        "surfaceForm": "Bridget White",
-        "locationStart": 300,
-        "locationEnd": 313,
-        "method": "gpt-3.5-turbo"
       }
     ],
     "time_expressions": [

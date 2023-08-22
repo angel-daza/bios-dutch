@@ -6856,6 +6856,30 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "Klaas Johan Popma",
+        "locationStart": 0,
+        "locationEnd": 16,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "Klaas Johan Popma",
+        "locationStart": 0,
+        "locationEnd": 17,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "LOCATION",
+        "surfaceForm": "Den Haag",
+        "locationStart": 18,
+        "locationEnd": 26,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_1",
         "surfaceForm": "Den",
         "category": "LOC",
@@ -6892,6 +6916,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Den Haag",
+        "locationStart": 20,
+        "locationEnd": 28,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_2",
         "surfaceForm": "Haag",
         "category": "LOC",
@@ -6908,6 +6940,14 @@
         "locationStart": 24,
         "locationEnd": 28,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "DATE",
+        "surfaceForm": "5 juni 1903",
+        "locationStart": 28,
+        "locationEnd": 39,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_65",
@@ -6928,12 +6968,28 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "DATE",
+        "surfaceForm": "18 mei 1986",
+        "locationStart": 42,
+        "locationEnd": 53,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gysbert_hist_0",
         "category": "TIME",
         "surfaceForm": "18 mei 1986",
         "locationStart": 45,
         "locationEnd": 56,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Nederlands",
+        "locationStart": 57,
+        "locationEnd": 66,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_3",
@@ -6952,6 +7008,38 @@
         "locationStart": 67,
         "locationEnd": 77,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "PERSON",
+        "surfaceForm": "reformatorisch filosoof",
+        "locationStart": 67,
+        "locationEnd": 88,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_6",
+        "category": "PERSON",
+        "surfaceForm": "classicus",
+        "locationStart": 91,
+        "locationEnd": 99,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_7",
+        "category": "PERSON",
+        "surfaceForm": "romanschrijver",
+        "locationStart": 102,
+        "locationEnd": 116,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_8",
+        "category": "PERSON",
+        "surfaceForm": "Klaas Johan Popma",
+        "locationStart": 118,
+        "locationEnd": 134,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_4",
@@ -6990,6 +7078,54 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "PER",
+        "surfaceForm": "Klaas",
+        "locationStart": 147,
+        "locationEnd": 152,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_9",
+        "category": "LOCATION",
+        "surfaceForm": "Leiden",
+        "locationStart": 150,
+        "locationEnd": 156,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_1",
+        "category": "PER",
+        "surfaceForm": "Johan Popma",
+        "locationStart": 153,
+        "locationEnd": 164,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_10",
+        "category": "LOCATION",
+        "surfaceForm": "Leiden",
+        "locationStart": 166,
+        "locationEnd": 172,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_11",
+        "category": "DATE",
+        "surfaceForm": "1931",
+        "locationStart": 176,
+        "locationEnd": 180,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_12",
+        "category": "ORGANIZATION",
+        "surfaceForm": "reformatorische wijsbegeerte",
+        "locationStart": 190,
+        "locationEnd": 215,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_5",
         "surfaceForm": "Leiden",
         "category": "LOC",
@@ -7024,6 +7160,22 @@
         "locationStart": 193,
         "locationEnd": 199,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "Leiden",
+        "locationStart": 193,
+        "locationEnd": 199,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_13",
+        "category": "PERSON",
+        "surfaceForm": "D. Th. Vollenhoven",
+        "locationStart": 217,
+        "locationEnd": 235,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_6",
@@ -7062,6 +7214,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_2",
+        "category": "LOC",
+        "surfaceForm": "Leiden",
+        "locationStart": 231,
+        "locationEnd": 237,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_14",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Vereniging voor Calvinistische Wijsbegeerte",
+        "locationStart": 235,
+        "locationEnd": 274,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_63",
         "surfaceForm": "1931",
         "category": "TIME",
@@ -7070,6 +7238,22 @@
         "tokenStart": 43,
         "tokenEnd": 44,
         "method": "human_gold"
+      },
+      {
+        "ID": "gpt-3.5-turbo_15",
+        "category": "DATE",
+        "surfaceForm": "1948",
+        "locationStart": 279,
+        "locationEnd": 283,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_16",
+        "category": "ORGANIZATION",
+        "surfaceForm": "reformatorische wijsbegeerte",
+        "locationStart": 287,
+        "locationEnd": 312,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_7",
@@ -7100,6 +7284,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_3",
+        "category": "PER",
+        "surfaceForm": "D. Th. Vollenhoven",
+        "locationStart": 315,
+        "locationEnd": 333,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_17",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Rijksuniversiteit Groningen",
+        "locationStart": 316,
+        "locationEnd": 341,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gysbert_hist_3",
         "category": "PER",
         "surfaceForm": "th . vollenhoven",
@@ -7114,6 +7314,30 @@
         "locationStart": 322,
         "locationEnd": 333,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_18",
+        "category": "DATE",
+        "surfaceForm": "1955",
+        "locationStart": 346,
+        "locationEnd": 350,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_19",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Rijksuniversiteit Utrecht",
+        "locationStart": 354,
+        "locationEnd": 375,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_20",
+        "category": "PERSON",
+        "surfaceForm": "Popma",
+        "locationStart": 377,
+        "locationEnd": 382,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_8",
@@ -7144,6 +7368,46 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_4",
+        "category": "ORG",
+        "surfaceForm": "Vereniging voor Calvinistische Wijsbegeerte",
+        "locationStart": 384,
+        "locationEnd": 427,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_21",
+        "category": "ARTWORK",
+        "surfaceForm": "Heidelberger Catechismus",
+        "locationStart": 407,
+        "locationEnd": 430,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_22",
+        "category": "ARTWORK",
+        "surfaceForm": "Evangelie contra Evangelie",
+        "locationStart": 432,
+        "locationEnd": 455,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_23",
+        "category": "ARTWORK",
+        "surfaceForm": "De vrijheid der exegese",
+        "locationStart": 458,
+        "locationEnd": 482,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_24",
+        "category": "ARTWORK",
+        "surfaceForm": "Calvinistische geschiedenisbeschouwing",
+        "locationStart": 485,
+        "locationEnd": 518,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_67",
         "surfaceForm": "1948",
         "category": "TIME",
@@ -7160,6 +7424,22 @@
         "locationStart": 492,
         "locationEnd": 496,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_25",
+        "category": "ARTWORK",
+        "surfaceForm": "De zonde van Jan der Kindere",
+        "locationStart": 521,
+        "locationEnd": 548,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_26",
+        "category": "ARTWORK",
+        "surfaceForm": "Inleiding in de wijsbegeerte",
+        "locationStart": 551,
+        "locationEnd": 578,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_9",
@@ -7188,6 +7468,30 @@
         "locationStart": 569,
         "locationEnd": 596,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_5",
+        "category": "ORG",
+        "surfaceForm": "Rijksuniversiteit Groningen",
+        "locationStart": 569,
+        "locationEnd": 596,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_27",
+        "category": "ARTWORK",
+        "surfaceForm": "Levensbeschouwing",
+        "locationStart": 581,
+        "locationEnd": 595,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_28",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Buijten en Schipperheijn",
+        "locationStart": 598,
+        "locationEnd": 621,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_69",
@@ -7236,6 +7540,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_5",
+        "category": "ORG",
+        "surfaceForm": "Rijksuniversiteit Utrecht",
+        "locationStart": 615,
+        "locationEnd": 640,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_29",
+        "category": "ARTWORK",
+        "surfaceForm": "Wijsbegeerte en anthropologie",
+        "locationStart": 624,
+        "locationEnd": 651,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_11",
         "surfaceForm": "Popma",
         "category": "ORG",
@@ -7272,6 +7592,54 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_5",
+        "category": "PER",
+        "surfaceForm": "Popma",
+        "locationStart": 643,
+        "locationEnd": 648,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_30",
+        "category": "ARTWORK",
+        "surfaceForm": "Venster op de wereld",
+        "locationStart": 654,
+        "locationEnd": 674,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_31",
+        "category": "ARTWORK",
+        "surfaceForm": "Beschouwingen over het werk van Louis Couperus",
+        "locationStart": 677,
+        "locationEnd": 719,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_32",
+        "category": "ARTWORK",
+        "surfaceForm": "De universiteit",
+        "locationStart": 722,
+        "locationEnd": 736,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_33",
+        "category": "ARTWORK",
+        "surfaceForm": "Evolutie",
+        "locationStart": 739,
+        "locationEnd": 747,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_34",
+        "category": "ARTWORK",
+        "surfaceForm": "Evangelie en geschiedenis",
+        "locationStart": 750,
+        "locationEnd": 774,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_72",
         "surfaceForm": "De zonde van Jan der Kindere",
         "category": "ARTWORK",
@@ -7290,6 +7658,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "gpt-3.5-turbo_35",
+        "category": "ARTWORK",
+        "surfaceForm": "Het paradijs is dichtbij",
+        "locationStart": 777,
+        "locationEnd": 800,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_12",
         "surfaceForm": "Jan der Kindere",
         "category": "PER",
@@ -7306,6 +7682,30 @@
         "locationStart": 785,
         "locationEnd": 800,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_8",
+        "category": "PER",
+        "surfaceForm": "Jan der Kinder",
+        "locationStart": 785,
+        "locationEnd": 799,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_36",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Voorhoeve",
+        "locationStart": 803,
+        "locationEnd": 812,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_37",
+        "category": "ARTWORK",
+        "surfaceForm": "Gestoorde wereld",
+        "locationStart": 814,
+        "locationEnd": 830,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_13",
@@ -7334,6 +7734,30 @@
         "locationStart": 828,
         "locationEnd": 845,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_38",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Benedictus",
+        "locationStart": 833,
+        "locationEnd": 842,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_39",
+        "category": "ARTWORK",
+        "surfaceForm": "Monniken en moordenaars",
+        "locationStart": 844,
+        "locationEnd": 865,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_40",
+        "category": "ARTWORK",
+        "surfaceForm": "Het leven beschouwd: facetten van het werk van prof dr. Klaas Johan Popma: feestbundel t.g.v. zijn afscheid op 1 juni 1974 als bijzonder hoogleraar in de reformatorische wijsbegeerte aan de Rijksuniversiteiten te Groningen en te Utrecht",
+        "locationStart": 868,
+        "locationEnd": 1001,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_14",
@@ -7430,6 +7854,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_9",
+        "category": "PER",
+        "surfaceForm": "T. Wever",
+        "locationStart": 964,
+        "locationEnd": 971,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_77",
         "surfaceForm": "1942",
         "category": "TIME",
@@ -7476,6 +7908,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "gpt-3.5-turbo_41",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Nederlands filosoof",
+        "locationStart": 1004,
+        "locationEnd": 1021,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_19",
         "surfaceForm": "Oosterbaan & Le Cointre",
         "category": "MISC",
@@ -7512,6 +7952,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_10",
+        "category": "PER",
+        "surfaceForm": "Oosterbaan",
+        "locationStart": 1006,
+        "locationEnd": 1015,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_2",
         "surfaceForm": "Le Cointre",
         "category": "PER",
@@ -7520,6 +7968,22 @@
         "tokenStart": 171,
         "tokenEnd": 173,
         "method": "human_gold"
+      },
+      {
+        "ID": "xlmr_ner_10",
+        "category": "PER",
+        "surfaceForm": "Le CointreT. Wever",
+        "locationStart": 1018,
+        "locationEnd": 1085,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_42",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Nederlands hoogleraar",
+        "locationStart": 1024,
+        "locationEnd": 1044,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_3",
@@ -7556,6 +8020,14 @@
         "locationStart": 1036,
         "locationEnd": 1050,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_43",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Nederlands schrijver",
+        "locationStart": 1047,
+        "locationEnd": 1064,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_21",
@@ -7638,6 +8110,14 @@
         "locationStart": 1106,
         "locationEnd": 1121,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_11",
+        "category": "PER",
+        "surfaceForm": "Jan der KindereJ. H. KokBuijten",
+        "locationStart": 1106,
+        "locationEnd": 1237,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_23",
@@ -7820,6 +8300,14 @@
         "method": "human_gold"
       },
       {
+        "ID": "xlmr_ner_11",
+        "category": "PER",
+        "surfaceForm": "SchipperheijnBuijten",
+        "locationStart": 1241,
+        "locationEnd": 1308,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_16",
         "surfaceForm": "1958 - 1965",
         "category": "TIME",
@@ -7886,6 +8374,14 @@
         "tokenStart": 233,
         "tokenEnd": 234,
         "method": "human_gold"
+      },
+      {
+        "ID": "xlmr_ner_11",
+        "category": "PER",
+        "surfaceForm": "SchipperheijnJ. H. Kok",
+        "locationStart": 1311,
+        "locationEnd": 1364,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_20",
@@ -8008,6 +8504,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_11",
+        "category": "PER",
+        "surfaceForm": "Louis CouperusBuijten",
+        "locationStart": 1404,
+        "locationEnd": 1442,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_25",
         "surfaceForm": "1863 - 1923",
         "category": "TIME",
@@ -8082,6 +8586,14 @@
         "method": "human_gold"
       },
       {
+        "ID": "xlmr_ner_11",
+        "category": "PER",
+        "surfaceForm": "Schipperheijn",
+        "locationStart": 1445,
+        "locationEnd": 1458,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_28",
         "surfaceForm": "1968",
         "category": "TIME",
@@ -8130,6 +8642,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_12",
+        "category": "PER",
+        "surfaceForm": "Buijten",
+        "locationStart": 1485,
+        "locationEnd": 1491,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_36",
         "surfaceForm": "Schipperheijn",
         "category": "PER",
@@ -8148,6 +8668,14 @@
         "tokenStart": 275,
         "tokenEnd": 276,
         "method": "human_gold"
+      },
+      {
+        "ID": "xlmr_ner_12",
+        "category": "PER",
+        "surfaceForm": "SchipperheijnBuijten",
+        "locationStart": 1495,
+        "locationEnd": 1534,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_33",
@@ -8226,6 +8754,14 @@
         "method": "human_gold"
       },
       {
+        "ID": "xlmr_ner_12",
+        "category": "PER",
+        "surfaceForm": "SchipperheijnBuijten",
+        "locationStart": 1537,
+        "locationEnd": 1593,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_37",
         "surfaceForm": "1969",
         "category": "TIME",
@@ -8294,6 +8830,14 @@
         "method": "human_gold"
       },
       {
+        "ID": "xlmr_ner_12",
+        "category": "PER",
+        "surfaceForm": "Schipperheijn",
+        "locationStart": 1596,
+        "locationEnd": 1609,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_41",
         "surfaceForm": "1972",
         "category": "TIME",
@@ -8348,6 +8892,14 @@
         "locationStart": 1644,
         "locationEnd": 1653,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_13",
+        "category": "PER",
+        "surfaceForm": "VoorhoeveBenedictusBuijten",
+        "locationStart": 1645,
+        "locationEnd": 1730,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_44",
@@ -8492,6 +9044,14 @@
         "method": "human_gold"
       },
       {
+        "ID": "xlmr_ner_13",
+        "category": "PER",
+        "surfaceForm": "Schipperheijn",
+        "locationStart": 1733,
+        "locationEnd": 1746,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_51",
         "surfaceForm": "1979",
         "category": "TIME",
@@ -8564,6 +9124,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_15",
+        "category": "PER",
+        "surfaceForm": "Klaas Johan Popma",
+        "locationStart": 1821,
+        "locationEnd": 1838,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_53",
         "surfaceForm": "1 juni 1974",
         "category": "TIME",
@@ -8600,6 +9168,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_16",
+        "category": "ORG",
+        "surfaceForm": "Rijksuniversiteiten",
+        "locationStart": 1955,
+        "locationEnd": 1974,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_55",
         "surfaceForm": "Groningen",
         "category": "LOC",
@@ -8624,6 +9200,14 @@
         "locationStart": 1978,
         "locationEnd": 1987,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_16",
+        "category": "LOC",
+        "surfaceForm": "Groningen",
+        "locationStart": 1978,
+        "locationEnd": 1987,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_49",
@@ -8662,6 +9246,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_16",
+        "category": "LOC",
+        "surfaceForm": "Utrecht",
+        "locationStart": 1994,
+        "locationEnd": 2001,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_50",
         "surfaceForm": "Buijten & Schipperheijn",
         "category": "ORG",
@@ -8688,6 +9280,14 @@
         "locationStart": 2003,
         "locationEnd": 2026,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_16",
+        "category": "ORG",
+        "surfaceForm": "Buijten & Schipperheijn",
+        "locationStart": 2003,
+        "locationEnd": 2026,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_58",
@@ -8754,6 +9354,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_16",
+        "category": "PER",
+        "surfaceForm": "G. Puchinger",
+        "locationStart": 2049,
+        "locationEnd": 2061,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "flair_12",
         "category": "PER",
         "surfaceForm": "Puchinger",
@@ -8814,358 +9422,6 @@
         "locationStart": 2140,
         "locationEnd": 2150,
         "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "Klaas Johan Popma",
-        "locationStart": 0,
-        "locationEnd": 16,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "LOCATION",
-        "surfaceForm": "Den Haag",
-        "locationStart": 18,
-        "locationEnd": 26,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "DATE",
-        "surfaceForm": "5 juni 1903",
-        "locationStart": 28,
-        "locationEnd": 39,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "DATE",
-        "surfaceForm": "18 mei 1986",
-        "locationStart": 42,
-        "locationEnd": 53,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Nederlands",
-        "locationStart": 57,
-        "locationEnd": 66,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "PERSON",
-        "surfaceForm": "reformatorisch filosoof",
-        "locationStart": 67,
-        "locationEnd": 88,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_6",
-        "category": "PERSON",
-        "surfaceForm": "classicus",
-        "locationStart": 91,
-        "locationEnd": 99,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_7",
-        "category": "PERSON",
-        "surfaceForm": "romanschrijver",
-        "locationStart": 102,
-        "locationEnd": 116,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_8",
-        "category": "PERSON",
-        "surfaceForm": "Klaas Johan Popma",
-        "locationStart": 118,
-        "locationEnd": 134,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_9",
-        "category": "LOCATION",
-        "surfaceForm": "Leiden",
-        "locationStart": 150,
-        "locationEnd": 156,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_10",
-        "category": "LOCATION",
-        "surfaceForm": "Leiden",
-        "locationStart": 166,
-        "locationEnd": 172,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_11",
-        "category": "DATE",
-        "surfaceForm": "1931",
-        "locationStart": 176,
-        "locationEnd": 180,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_12",
-        "category": "ORGANIZATION",
-        "surfaceForm": "reformatorische wijsbegeerte",
-        "locationStart": 190,
-        "locationEnd": 215,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_13",
-        "category": "PERSON",
-        "surfaceForm": "D. Th. Vollenhoven",
-        "locationStart": 217,
-        "locationEnd": 235,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_14",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Vereniging voor Calvinistische Wijsbegeerte",
-        "locationStart": 235,
-        "locationEnd": 274,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_15",
-        "category": "DATE",
-        "surfaceForm": "1948",
-        "locationStart": 279,
-        "locationEnd": 283,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_16",
-        "category": "ORGANIZATION",
-        "surfaceForm": "reformatorische wijsbegeerte",
-        "locationStart": 287,
-        "locationEnd": 312,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_17",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Rijksuniversiteit Groningen",
-        "locationStart": 316,
-        "locationEnd": 341,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_18",
-        "category": "DATE",
-        "surfaceForm": "1955",
-        "locationStart": 346,
-        "locationEnd": 350,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_19",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Rijksuniversiteit Utrecht",
-        "locationStart": 354,
-        "locationEnd": 375,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_20",
-        "category": "PERSON",
-        "surfaceForm": "Popma",
-        "locationStart": 377,
-        "locationEnd": 382,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_21",
-        "category": "ARTWORK",
-        "surfaceForm": "Heidelberger Catechismus",
-        "locationStart": 407,
-        "locationEnd": 430,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_22",
-        "category": "ARTWORK",
-        "surfaceForm": "Evangelie contra Evangelie",
-        "locationStart": 432,
-        "locationEnd": 455,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_23",
-        "category": "ARTWORK",
-        "surfaceForm": "De vrijheid der exegese",
-        "locationStart": 458,
-        "locationEnd": 482,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_24",
-        "category": "ARTWORK",
-        "surfaceForm": "Calvinistische geschiedenisbeschouwing",
-        "locationStart": 485,
-        "locationEnd": 518,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_25",
-        "category": "ARTWORK",
-        "surfaceForm": "De zonde van Jan der Kindere",
-        "locationStart": 521,
-        "locationEnd": 548,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_26",
-        "category": "ARTWORK",
-        "surfaceForm": "Inleiding in de wijsbegeerte",
-        "locationStart": 551,
-        "locationEnd": 578,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_27",
-        "category": "ARTWORK",
-        "surfaceForm": "Levensbeschouwing",
-        "locationStart": 581,
-        "locationEnd": 595,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_28",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Buijten en Schipperheijn",
-        "locationStart": 598,
-        "locationEnd": 621,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_29",
-        "category": "ARTWORK",
-        "surfaceForm": "Wijsbegeerte en anthropologie",
-        "locationStart": 624,
-        "locationEnd": 651,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_30",
-        "category": "ARTWORK",
-        "surfaceForm": "Venster op de wereld",
-        "locationStart": 654,
-        "locationEnd": 674,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_31",
-        "category": "ARTWORK",
-        "surfaceForm": "Beschouwingen over het werk van Louis Couperus",
-        "locationStart": 677,
-        "locationEnd": 719,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_32",
-        "category": "ARTWORK",
-        "surfaceForm": "De universiteit",
-        "locationStart": 722,
-        "locationEnd": 736,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_33",
-        "category": "ARTWORK",
-        "surfaceForm": "Evolutie",
-        "locationStart": 739,
-        "locationEnd": 747,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_34",
-        "category": "ARTWORK",
-        "surfaceForm": "Evangelie en geschiedenis",
-        "locationStart": 750,
-        "locationEnd": 774,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_35",
-        "category": "ARTWORK",
-        "surfaceForm": "Het paradijs is dichtbij",
-        "locationStart": 777,
-        "locationEnd": 800,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_36",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Voorhoeve",
-        "locationStart": 803,
-        "locationEnd": 812,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_37",
-        "category": "ARTWORK",
-        "surfaceForm": "Gestoorde wereld",
-        "locationStart": 814,
-        "locationEnd": 830,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_38",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Benedictus",
-        "locationStart": 833,
-        "locationEnd": 842,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_39",
-        "category": "ARTWORK",
-        "surfaceForm": "Monniken en moordenaars",
-        "locationStart": 844,
-        "locationEnd": 865,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_40",
-        "category": "ARTWORK",
-        "surfaceForm": "Het leven beschouwd: facetten van het werk van prof dr. Klaas Johan Popma: feestbundel t.g.v. zijn afscheid op 1 juni 1974 als bijzonder hoogleraar in de reformatorische wijsbegeerte aan de Rijksuniversiteiten te Groningen en te Utrecht",
-        "locationStart": 868,
-        "locationEnd": 1001,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_41",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Nederlands filosoof",
-        "locationStart": 1004,
-        "locationEnd": 1021,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_42",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Nederlands hoogleraar",
-        "locationStart": 1024,
-        "locationEnd": 1044,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_43",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Nederlands schrijver",
-        "locationStart": 1047,
-        "locationEnd": 1064,
-        "method": "gpt-3.5-turbo"
       }
     ],
     "time_expressions": [

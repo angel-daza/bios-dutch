@@ -13,7 +13,8 @@ NER_METHOD_DISPLAY = {'human_gold': 'gold',
                     'stanza_nl': 'stanza', 
                     'flair/ner-dutch-large_0.12.2': 'flair', 
                     'gpt-3.5-turbo': 'gpt', 
-                    'gysbert_hist_fx_finetuned_epoch2': 'gysbert'
+                    'gysbert_hist_fx_finetuned_epoch2': 'gysbert',
+                    'xlmr_ner_': 'xlmr_ner',
                     }
 
 
@@ -128,14 +129,14 @@ def _evaluate_ner(reference: List[IntaviaEntity], hypothesis: List[IntaviaEntity
     # label_err_hyp = [y for x,y in label_error]
     for hyp in sorted_hyp:
         # if hyp not in sorted_ref and hyp not in missed and hyp not in span_err_hyp and hyp not in label_err_hyp:
-        if hyp not in sorted_ref and hyp not in missed:
+        if hyp not in sorted_ref and hyp not in missed and hyp not in hallucination:
             hallucination.append(hyp)
 
     # Double-check the Missed and LabelError Array, in case the overlapped entities were already counted in the TruePositives
     # e.g. (1489, 'landing der Engelsche in Zeeland', 'MISC', 'Zeeland', 'LOC'), AND (1514, 'Zeeland', 'LOC', 'landing der Engelsche in Zeeland', 'MISC')
     filtered_missed = []
     for m in missed:
-        if m not in full_match:
+        if m not in full_match and m not in filtered_missed:
             filtered_missed.append(m)
     missed = filtered_missed
     filtered_label_err = []
@@ -169,7 +170,7 @@ def _evaluate_ner(reference: List[IntaviaEntity], hypothesis: List[IntaviaEntity
 # NER Evaluation as Bag-of-Entities
 def _evaluate_ner_boe(reference: List[IntaviaEntity], hypothesis: List[IntaviaEntity]) -> Dict[str, Any]:
     # Get Only NER (Text, Label) Info
-    ref_entities = set([(ent.surfaceForm, ent.category) for ent in reference])
+    ref_entities = set([(ent.surfaceForm, ent.category) for ent in reference]) # IF model lowercases things: ent.surfaceForm.lower()
     hyp_entities = set([(ent.surfaceForm, ent.category) for ent in hypothesis])
     # Compute Set Operations
     match = ref_entities.intersection(hyp_entities)
@@ -322,7 +323,7 @@ class IntaviaDocument:
             raise NotImplementedError
 
         entity_agreement = []
-        methods = self.get_available_methods("entities")
+        methods = [m for m in self.get_available_methods("entities") if m != "gpt-3.5-turbo"]
         max_agreement = len(methods)
         
         if max_agreement == 0: return []
@@ -334,7 +335,7 @@ class IntaviaDocument:
                     charstart2token[token.MISC['StartChar']] = token.ID
                     charend2token[token.MISC['EndChar']] = token.ID
 
-        for ent_obj in self.get_entities():
+        for ent_obj in self.get_entities(methods=methods):
             key = f"{ent_obj.surfaceForm}#{ent_obj.locationStart}#{ent_obj.locationEnd}#{ent_obj.category}"
             entity_agreement.append(key)
         entity_agreement = Counter(entity_agreement).most_common()

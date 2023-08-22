@@ -598,6 +598,14 @@
     },
     "entities": [
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "ARTWORK",
+        "surfaceForm": "Portret van Eduard Meiners",
+        "locationStart": 0,
+        "locationEnd": 24,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_0",
         "surfaceForm": "Eduard Meiners",
         "category": "PER",
@@ -632,6 +640,30 @@
         "locationStart": 12,
         "locationEnd": 26,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "Eduard Meiners",
+        "locationStart": 12,
+        "locationEnd": 26,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "PERSON",
+        "surfaceForm": "Eduard Meiners",
+        "locationStart": 28,
+        "locationEnd": 41,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "PERSON",
+        "surfaceForm": "Eduard Meiners",
+        "locationStart": 57,
+        "locationEnd": 70,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_1",
@@ -670,28 +702,12 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "ARTWORK",
-        "surfaceForm": "Portret van Eduard Meiners",
-        "locationStart": 0,
-        "locationEnd": 24,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "PERSON",
+        "ID": "xlmr_ner_0",
+        "category": "PER",
         "surfaceForm": "Eduard Meiners",
-        "locationStart": 28,
-        "locationEnd": 41,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "PERSON",
-        "surfaceForm": "Eduard Meiners",
-        "locationStart": 57,
-        "locationEnd": 70,
-        "method": "gpt-3.5-turbo"
+        "locationStart": 63,
+        "locationEnd": 77,
+        "method": "xlmr_ner_"
       }
     ],
     "time_expressions": []

@@ -854,6 +854,14 @@
     },
     "entities": [
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "Die Jakob",
+        "locationStart": 0,
+        "locationEnd": 8,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_0",
         "surfaceForm": "Jakob",
         "category": "PER",
@@ -882,6 +890,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "Jakobelen",
+        "locationStart": 4,
+        "locationEnd": 86,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "PERSON",
+        "surfaceForm": "Portretschilder",
+        "locationStart": 12,
+        "locationEnd": 27,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_1",
         "surfaceForm": "Portretschilder",
         "category": "PER",
@@ -900,12 +924,44 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "LOCATION",
+        "surfaceForm": "Doelen",
+        "locationStart": 49,
+        "locationEnd": 55,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "LOCATION",
+        "surfaceForm": "Delf",
+        "locationStart": 59,
+        "locationEnd": 63,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Schutters",
+        "locationStart": 65,
+        "locationEnd": 74,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gysbert_hist_0",
         "category": "LOC",
         "surfaceForm": "stads doelen",
         "locationStart": 74,
         "locationEnd": 86,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "TIME",
+        "surfaceForm": "duyzent vyfhonderttwee en negentig",
+        "locationStart": 76,
+        "locationEnd": 105,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_2",
@@ -962,6 +1018,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Delf",
+        "locationStart": 91,
+        "locationEnd": 95,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_6",
+        "category": "ARTWORK",
+        "surfaceForm": "Tafereel",
+        "locationStart": 107,
+        "locationEnd": 115,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_3",
         "surfaceForm": "Schutters",
         "category": "PER",
@@ -978,6 +1050,22 @@
         "locationStart": 110,
         "locationEnd": 119,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "Schu",
+        "locationStart": 110,
+        "locationEnd": 114,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_7",
+        "category": "ORGANIZATION",
+        "surfaceForm": "'s lands Kruydmagazijn",
+        "locationStart": 126,
+        "locationEnd": 146,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_0",
@@ -1004,6 +1092,14 @@
         "locationStart": 156,
         "locationEnd": 182,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_8",
+        "category": "ARTWORK",
+        "surfaceForm": "andere konststukken",
+        "locationStart": 161,
+        "locationEnd": 179,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_4",
@@ -1042,76 +1138,12 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "Die Jakob",
-        "locationStart": 0,
-        "locationEnd": 8,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "PERSON",
-        "surfaceForm": "Portretschilder",
-        "locationStart": 12,
-        "locationEnd": 27,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "LOCATION",
-        "surfaceForm": "Doelen",
-        "locationStart": 49,
-        "locationEnd": 55,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "LOCATION",
-        "surfaceForm": "Delf",
-        "locationStart": 59,
-        "locationEnd": 63,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Schutters",
-        "locationStart": 65,
-        "locationEnd": 74,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "TIME",
-        "surfaceForm": "duyzent vyfhonderttwee en negentig",
-        "locationStart": 76,
-        "locationEnd": 105,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_6",
-        "category": "ARTWORK",
-        "surfaceForm": "Tafereel",
-        "locationStart": 107,
-        "locationEnd": 115,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_7",
-        "category": "ORGANIZATION",
-        "surfaceForm": "'s lands Kruydmagazijn",
-        "locationStart": 126,
-        "locationEnd": 146,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_8",
-        "category": "ARTWORK",
-        "surfaceForm": "andere konststukken",
-        "locationStart": 161,
-        "locationEnd": 179,
-        "method": "gpt-3.5-turbo"
+        "ID": "xlmr_ner_0",
+        "category": "ORG",
+        "surfaceForm": "Kruydmagazijn",
+        "locationStart": 229,
+        "locationEnd": 242,
+        "method": "xlmr_ner_"
       }
     ],
     "time_expressions": [

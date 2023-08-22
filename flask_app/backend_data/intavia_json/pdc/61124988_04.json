@@ -1472,6 +1472,14 @@
     },
     "entities": [
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "Voormalige Duitse immigrant",
+        "locationStart": 0,
+        "locationEnd": 24,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_0",
         "surfaceForm": "Duitse",
         "category": "MISC",
@@ -1488,6 +1496,14 @@
         "locationStart": 11,
         "locationEnd": 17,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Eerste Kamer",
+        "locationStart": 61,
+        "locationEnd": 73,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_1",
@@ -1518,6 +1534,38 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "ORG",
+        "surfaceForm": "Eerste Kamer",
+        "locationStart": 85,
+        "locationEnd": 97,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Nazi's",
+        "locationStart": 90,
+        "locationEnd": 96,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Joodse",
+        "locationStart": 111,
+        "locationEnd": 117,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "LOCATION",
+        "surfaceForm": "Duitsland",
+        "locationStart": 123,
+        "locationEnd": 132,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_2",
         "surfaceForm": "Nazi's",
         "category": "MISC",
@@ -1544,6 +1592,14 @@
         "locationStart": 137,
         "locationEnd": 141,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "LOCATION",
+        "surfaceForm": "Nederland",
+        "locationStart": 143,
+        "locationEnd": 152,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_3",
@@ -1600,6 +1656,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "Duitsland",
+        "locationStart": 182,
+        "locationEnd": 191,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_6",
+        "category": "LOCATION",
+        "surfaceForm": "Nederland",
+        "locationStart": 186,
+        "locationEnd": 195,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_5",
         "surfaceForm": "Nederland",
         "category": "LOC",
@@ -1636,6 +1708,30 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "Nederland",
+        "locationStart": 197,
+        "locationEnd": 206,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_7",
+        "category": "LOCATION",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 204,
+        "locationEnd": 213,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_8",
+        "category": "PERSON",
+        "surfaceForm": "Heinz Wielek",
+        "locationStart": 227,
+        "locationEnd": 239,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_6",
         "surfaceForm": "Nederland",
         "category": "LOC",
@@ -1662,6 +1758,22 @@
         "locationStart": 253,
         "locationEnd": 262,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_2",
+        "category": "LOC",
+        "surfaceForm": "Nederland",
+        "locationStart": 253,
+        "locationEnd": 262,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_9",
+        "category": "ORGANIZATION",
+        "surfaceForm": "J'accuse",
+        "locationStart": 275,
+        "locationEnd": 283,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_4",
@@ -1700,6 +1812,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_2",
+        "category": "LOC",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 315,
+        "locationEnd": 324,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_10",
+        "category": "ORGANIZATION",
+        "surfaceForm": "PvdA",
+        "locationStart": 319,
+        "locationEnd": 323,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_8",
         "surfaceForm": "Heinz Wielek",
         "category": "PER",
@@ -1736,6 +1864,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_3",
+        "category": "PER",
+        "surfaceForm": "Heinz Wielek",
+        "locationStart": 359,
+        "locationEnd": 371,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_9",
         "surfaceForm": "J'accuse",
         "category": "ORG",
@@ -1764,6 +1900,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_4",
+        "category": "ORG",
+        "surfaceForm": "J'accuse",
+        "locationStart": 471,
+        "locationEnd": 479,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_10",
         "surfaceForm": "PvdA.",
         "category": "ORG",
@@ -1782,92 +1926,12 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "Voormalige Duitse immigrant",
-        "locationStart": 0,
-        "locationEnd": 24,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Eerste Kamer",
-        "locationStart": 61,
-        "locationEnd": 73,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Nazi's",
-        "locationStart": 90,
-        "locationEnd": 96,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Joodse",
-        "locationStart": 111,
-        "locationEnd": 117,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "LOCATION",
-        "surfaceForm": "Duitsland",
-        "locationStart": 123,
-        "locationEnd": 132,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "LOCATION",
-        "surfaceForm": "Nederland",
-        "locationStart": 143,
-        "locationEnd": 152,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_6",
-        "category": "LOCATION",
-        "surfaceForm": "Nederland",
-        "locationStart": 186,
-        "locationEnd": 195,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_7",
-        "category": "LOCATION",
-        "surfaceForm": "Amsterdam",
-        "locationStart": 204,
-        "locationEnd": 213,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_8",
-        "category": "PERSON",
-        "surfaceForm": "Heinz Wielek",
-        "locationStart": 227,
-        "locationEnd": 239,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_9",
-        "category": "ORGANIZATION",
-        "surfaceForm": "J'accuse",
-        "locationStart": 275,
-        "locationEnd": 283,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_10",
-        "category": "ORGANIZATION",
+        "ID": "xlmr_ner_5",
+        "category": "ORG",
         "surfaceForm": "PvdA",
-        "locationStart": 319,
-        "locationEnd": 323,
-        "method": "gpt-3.5-turbo"
+        "locationStart": 518,
+        "locationEnd": 522,
+        "method": "xlmr_ner_"
       }
     ],
     "time_expressions": []

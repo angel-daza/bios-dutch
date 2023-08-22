@@ -1109,6 +1109,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "SANDBEEK",
+        "locationStart": 0,
+        "locationEnd": 8,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "SANDBEEKHenr",
+        "locationStart": 0,
+        "locationEnd": 14,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_1",
         "surfaceForm": "Henricus",
         "category": "PER",
@@ -1133,6 +1149,38 @@
         "locationStart": 10,
         "locationEnd": 18,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "PERSON",
+        "surfaceForm": "Henricus",
+        "locationStart": 10,
+        "locationEnd": 18,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "LOCATION",
+        "surfaceForm": "'s Hage",
+        "locationStart": 22,
+        "locationEnd": 29,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "te Hag",
+        "locationStart": 29,
+        "locationEnd": 38,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Latijnsch",
+        "locationStart": 31,
+        "locationEnd": 40,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_2",
@@ -1197,6 +1245,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "TIME",
+        "surfaceForm": "18e eeuw",
+        "locationStart": 54,
+        "locationEnd": 61,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_5",
         "surfaceForm": "den aanvang der 18e eeuw",
         "category": "TIME",
@@ -1207,12 +1263,28 @@
         "method": "human_gold"
       },
       {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "TIME",
+        "surfaceForm": "1707",
+        "locationStart": 79,
+        "locationEnd": 83,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gysbert_hist_0",
         "category": "TIME",
         "surfaceForm": "18e",
         "locationStart": 87,
         "locationEnd": 90,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_6",
+        "category": "ARTWORK",
+        "surfaceForm": "Conamina prima",
+        "locationStart": 92,
+        "locationEnd": 107,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_1",
@@ -1261,6 +1333,30 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "gpt-3.5-turbo_7",
+        "category": "ARTWORK",
+        "surfaceForm": "Gonorrhaeae",
+        "locationStart": 134,
+        "locationEnd": 145,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_8",
+        "category": "PERSON",
+        "surfaceForm": "Hoeufft",
+        "locationStart": 157,
+        "locationEnd": 163,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_9",
+        "category": "ARTWORK",
+        "surfaceForm": "Parn. Lat. Belg.",
+        "locationStart": 170,
+        "locationEnd": 185,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_5",
         "surfaceForm": "Gonorrhaeae",
         "category": "PER",
@@ -1289,6 +1385,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_3",
+        "category": "PER",
+        "surfaceForm": "Go",
+        "locationStart": 221,
+        "locationEnd": 223,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_6",
         "surfaceForm": "Hoeufft",
         "category": "PER",
@@ -1315,6 +1419,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_4",
+        "category": "PER",
+        "surfaceForm": "Hoeufft",
+        "locationStart": 238,
+        "locationEnd": 245,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_7",
         "surfaceForm": "Parn. Lat",
         "category": "MISC",
@@ -1333,6 +1445,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_4",
+        "category": "ORG",
+        "surfaceForm": "Parn. Lat. Belg.",
+        "locationStart": 247,
+        "locationEnd": 263,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "flair_5",
         "category": "MISC",
         "surfaceForm": "Lat",
@@ -1347,86 +1467,6 @@
         "locationStart": 258,
         "locationEnd": 263,
         "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "SANDBEEK",
-        "locationStart": 0,
-        "locationEnd": 8,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "PERSON",
-        "surfaceForm": "Henricus",
-        "locationStart": 10,
-        "locationEnd": 18,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "LOCATION",
-        "surfaceForm": "'s Hage",
-        "locationStart": 22,
-        "locationEnd": 29,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Latijnsch",
-        "locationStart": 31,
-        "locationEnd": 40,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "TIME",
-        "surfaceForm": "18e eeuw",
-        "locationStart": 54,
-        "locationEnd": 61,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "TIME",
-        "surfaceForm": "1707",
-        "locationStart": 79,
-        "locationEnd": 83,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_6",
-        "category": "ARTWORK",
-        "surfaceForm": "Conamina prima",
-        "locationStart": 92,
-        "locationEnd": 107,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_7",
-        "category": "ARTWORK",
-        "surfaceForm": "Gonorrhaeae",
-        "locationStart": 134,
-        "locationEnd": 145,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_8",
-        "category": "PERSON",
-        "surfaceForm": "Hoeufft",
-        "locationStart": 157,
-        "locationEnd": 163,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_9",
-        "category": "ARTWORK",
-        "surfaceForm": "Parn. Lat. Belg.",
-        "locationStart": 170,
-        "locationEnd": 185,
-        "method": "gpt-3.5-turbo"
       }
     ],
     "time_expressions": [

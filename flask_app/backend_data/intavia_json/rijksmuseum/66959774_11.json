@@ -123,6 +123,22 @@
     },
     "entities": [
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "ARTWORK",
+        "surfaceForm": "Portret van professor Jacobus Albertus Uilkens",
+        "locationStart": 0,
+        "locationEnd": 40,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "PERSON",
+        "surfaceForm": "Jacobus Albertus Uilkens",
+        "locationStart": 20,
+        "locationEnd": 40,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_0",
         "surfaceForm": "Jacobus Albertus Uilkens",
         "category": "PER",
@@ -159,20 +175,12 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "ARTWORK",
-        "surfaceForm": "Portret van professor Jacobus Albertus Uilkens",
-        "locationStart": 0,
-        "locationEnd": 40,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "PERSON",
+        "ID": "xlmr_ner_0",
+        "category": "PER",
         "surfaceForm": "Jacobus Albertus Uilkens",
-        "locationStart": 20,
-        "locationEnd": 40,
-        "method": "gpt-3.5-turbo"
+        "locationStart": 22,
+        "locationEnd": 46,
+        "method": "xlmr_ner_"
       }
     ],
     "time_expressions": []

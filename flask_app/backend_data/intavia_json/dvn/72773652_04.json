@@ -12982,6 +12982,30 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "ORGANIZATION",
+        "surfaceForm": "CARBONIERS",
+        "locationStart": 0,
+        "locationEnd": 10,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "PERSON",
+        "surfaceForm": "Eleonore Carboniers",
+        "locationStart": 0,
+        "locationEnd": 18,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "CARBONIERS",
+        "locationStart": 0,
+        "locationEnd": 10,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_1",
         "surfaceForm": "Eleonore",
         "category": "PER",
@@ -12998,6 +13022,22 @@
         "locationStart": 12,
         "locationEnd": 20,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "Eleonore",
+        "locationStart": 12,
+        "locationEnd": 20,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "LOCATION",
+        "surfaceForm": "Veere",
+        "locationStart": 22,
+        "locationEnd": 27,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_2",
@@ -13046,12 +13086,36 @@
         "method": "human_gold"
       },
       {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "PERSON",
+        "surfaceForm": "Pieter Carboniers",
+        "locationStart": 42,
+        "locationEnd": 58,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gysbert_hist_1",
         "category": "TIME",
         "surfaceForm": "1584",
         "locationStart": 47,
         "locationEnd": 51,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "PERSON",
+        "surfaceForm": "Lucas d' Heere",
+        "locationStart": 63,
+        "locationEnd": 77,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "LOCATION",
+        "surfaceForm": "Gent",
+        "locationStart": 84,
+        "locationEnd": 88,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_3",
@@ -13090,6 +13154,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_2",
+        "category": "PER",
+        "surfaceForm": "Pieter Carboniers",
+        "locationStart": 89,
+        "locationEnd": 106,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_2",
         "surfaceForm": "1560",
         "category": "TIME",
@@ -13106,6 +13178,14 @@
         "locationStart": 114,
         "locationEnd": 118,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_6",
+        "category": "PERSON",
+        "surfaceForm": "D' Heere",
+        "locationStart": 127,
+        "locationEnd": 135,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_4",
@@ -13144,6 +13224,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_2",
+        "category": "LOC",
+        "surfaceForm": "Veere",
+        "locationStart": 154,
+        "locationEnd": 159,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_7",
+        "category": "LOCATION",
+        "surfaceForm": "Zeeland",
+        "locationStart": 157,
+        "locationEnd": 164,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_5",
         "surfaceForm": "Lucas d' Heere",
         "category": "PER",
@@ -13180,6 +13276,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_3",
+        "category": "PER",
+        "surfaceForm": "Lucas d' Heere",
+        "locationStart": 177,
+        "locationEnd": 191,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_8",
+        "category": "PERSON",
+        "surfaceForm": "W. Waterschoot",
+        "locationStart": 189,
+        "locationEnd": 203,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gysbert_hist_3",
         "category": "TIME",
         "surfaceForm": "1534",
@@ -13194,6 +13306,38 @@
         "locationStart": 201,
         "locationEnd": 205,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_9",
+        "category": "LOCATION",
+        "surfaceForm": "Gent",
+        "locationStart": 216,
+        "locationEnd": 220,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_10",
+        "category": "PERSON",
+        "surfaceForm": "W. Waterschoot",
+        "locationStart": 222,
+        "locationEnd": 236,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_11",
+        "category": "PERSON",
+        "surfaceForm": "Eleonore Carboniers",
+        "locationStart": 238,
+        "locationEnd": 256,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_12",
+        "category": "PERSON",
+        "surfaceForm": "Lucas d' Heere",
+        "locationStart": 258,
+        "locationEnd": 272,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_6",
@@ -13232,6 +13376,46 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_5",
+        "category": "PER",
+        "surfaceForm": "Eleonore Carboniers",
+        "locationStart": 273,
+        "locationEnd": 292,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_13",
+        "category": "ARTWORK",
+        "surfaceForm": "Den hof en boomgaerd",
+        "locationStart": 274,
+        "locationEnd": 293,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_14",
+        "category": "LOCATION",
+        "surfaceForm": "Gent",
+        "locationStart": 297,
+        "locationEnd": 301,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_15",
+        "category": "PERSON",
+        "surfaceForm": "Eleonore Carboniers",
+        "locationStart": 303,
+        "locationEnd": 321,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_16",
+        "category": "PERSON",
+        "surfaceForm": "Lucas d' Heere",
+        "locationStart": 323,
+        "locationEnd": 337,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_7",
         "surfaceForm": "Veere",
         "category": "LOC",
@@ -13268,6 +13452,30 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_5",
+        "category": "LOC",
+        "surfaceForm": "Veere",
+        "locationStart": 332,
+        "locationEnd": 337,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_17",
+        "category": "LOCATION",
+        "surfaceForm": "Engeland",
+        "locationStart": 346,
+        "locationEnd": 354,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_18",
+        "category": "DATE",
+        "surfaceForm": "1577",
+        "locationStart": 359,
+        "locationEnd": 363,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_8",
         "surfaceForm": "Gent",
         "category": "LOC",
@@ -13294,6 +13502,30 @@
         "locationStart": 367,
         "locationEnd": 371,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_6",
+        "category": "LOC",
+        "surfaceForm": "Gent",
+        "locationStart": 367,
+        "locationEnd": 371,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_19",
+        "category": "LOCATION",
+        "surfaceForm": "Gent",
+        "locationStart": 375,
+        "locationEnd": 379,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_20",
+        "category": "PERSON",
+        "surfaceForm": "Lucas d' Heere",
+        "locationStart": 384,
+        "locationEnd": 398,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_9",
@@ -13332,6 +13564,30 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_7",
+        "category": "PER",
+        "surfaceForm": "Lucas d' Heere",
+        "locationStart": 411,
+        "locationEnd": 425,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_21",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Parma",
+        "locationStart": 416,
+        "locationEnd": 421,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_22",
+        "category": "PERSON",
+        "surfaceForm": "Lucas d' Heere",
+        "locationStart": 423,
+        "locationEnd": 437,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_10",
         "surfaceForm": "Veere",
         "category": "LOC",
@@ -13366,6 +13622,30 @@
         "locationStart": 439,
         "locationEnd": 444,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_23",
+        "category": "PERSON",
+        "surfaceForm": "Eleonore Carboniers",
+        "locationStart": 439,
+        "locationEnd": 457,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_7",
+        "category": "LOC",
+        "surfaceForm": "Veere",
+        "locationStart": 439,
+        "locationEnd": 444,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_24",
+        "category": "LOCATION",
+        "surfaceForm": "Parijs",
+        "locationStart": 464,
+        "locationEnd": 470,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_11",
@@ -13404,6 +13684,70 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_7",
+        "category": "LOC",
+        "surfaceForm": "Gent",
+        "locationStart": 471,
+        "locationEnd": 475,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_25",
+        "category": "PERSON",
+        "surfaceForm": "Eleonore Carboniers",
+        "locationStart": 472,
+        "locationEnd": 490,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_26",
+        "category": "DATE",
+        "surfaceForm": "juli 1577",
+        "locationStart": 495,
+        "locationEnd": 504,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_27",
+        "category": "DATE",
+        "surfaceForm": "oktober 1584",
+        "locationStart": 509,
+        "locationEnd": 520,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_28",
+        "category": "LOCATION",
+        "surfaceForm": "Middelburg",
+        "locationStart": 524,
+        "locationEnd": 534,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_29",
+        "category": "PERSON",
+        "surfaceForm": "Carel van Mander",
+        "locationStart": 536,
+        "locationEnd": 551,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_30",
+        "category": "PERSON",
+        "surfaceForm": "Lucas d' Heere",
+        "locationStart": 553,
+        "locationEnd": 567,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_31",
+        "category": "DATE",
+        "surfaceForm": "augustus",
+        "locationStart": 573,
+        "locationEnd": 581,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_12",
         "surfaceForm": "D' Heere",
         "category": "PER",
@@ -13430,6 +13774,14 @@
         "locationStart": 592,
         "locationEnd": 600,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_32",
+        "category": "LOCATION",
+        "surfaceForm": "Zeeland",
+        "locationStart": 600,
+        "locationEnd": 607,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_13",
@@ -13468,6 +13820,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_9",
+        "category": "LOC",
+        "surfaceForm": "Zeeland",
+        "locationStart": 738,
+        "locationEnd": 745,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_14",
         "surfaceForm": "Eleonore",
         "category": "PER",
@@ -13504,6 +13864,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_10",
+        "category": "PER",
+        "surfaceForm": "Eleonore",
+        "locationStart": 845,
+        "locationEnd": 853,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_15",
         "surfaceForm": "Lucas",
         "category": "PER",
@@ -13532,6 +13900,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_11",
+        "category": "PER",
+        "surfaceForm": "Lucas",
+        "locationStart": 930,
+        "locationEnd": 935,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_16",
         "surfaceForm": "D' Heere",
         "category": "PER",
@@ -13558,6 +13934,14 @@
         "locationStart": 1128,
         "locationEnd": 1136,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_16",
+        "category": "PER",
+        "surfaceForm": "D' Heere",
+        "locationStart": 1129,
+        "locationEnd": 1136,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_17",
@@ -13596,6 +13980,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_17",
+        "category": "PER",
+        "surfaceForm": "Eleonore",
+        "locationStart": 1186,
+        "locationEnd": 1194,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_18",
         "surfaceForm": "Gent",
         "category": "LOC",
@@ -13632,6 +14024,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_17",
+        "category": "LOC",
+        "surfaceForm": "Gent",
+        "locationStart": 1200,
+        "locationEnd": 1204,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_19",
         "surfaceForm": "W. Waterschoot",
         "category": "PER",
@@ -13658,6 +14058,14 @@
         "locationStart": 1246,
         "locationEnd": 1248,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_18",
+        "category": "PER",
+        "surfaceForm": "W. Waterschoot",
+        "locationStart": 1246,
+        "locationEnd": 1260,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "flair_13",
@@ -13756,6 +14164,14 @@
         "locationStart": 1373,
         "locationEnd": 1387,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_19",
+        "category": "PER",
+        "surfaceForm": "Lucas d' HeereD Heere",
+        "locationStart": 1373,
+        "locationEnd": 1535,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_9",
@@ -13896,6 +14312,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_20",
+        "category": "PER",
+        "surfaceForm": "Eleonore Carboniers",
+        "locationStart": 1632,
+        "locationEnd": 1651,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_26",
         "surfaceForm": "Lucas d' Heere",
         "category": "PER",
@@ -13930,6 +14354,14 @@
         "locationStart": 1810,
         "locationEnd": 1824,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_21",
+        "category": "PER",
+        "surfaceForm": "Lucas d' Heere",
+        "locationStart": 1810,
+        "locationEnd": 1824,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_27",
@@ -13976,6 +14408,14 @@
         "locationStart": 1936,
         "locationEnd": 1938,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_21",
+        "category": "PER",
+        "surfaceForm": "M. Willem Key",
+        "locationStart": 1936,
+        "locationEnd": 1949,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "flair_16",
@@ -14028,6 +14468,14 @@
         "locationStart": 1953,
         "locationEnd": 1962,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_21",
+        "category": "LOC",
+        "surfaceForm": "AntwerpenDe",
+        "locationStart": 1953,
+        "locationEnd": 1973,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_30",
@@ -14084,6 +14532,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_22",
+        "category": "PER",
+        "surfaceForm": "Eleonore Carboniers",
+        "locationStart": 2007,
+        "locationEnd": 2026,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_20",
         "surfaceForm": "1566",
         "category": "TIME",
@@ -14136,6 +14592,14 @@
         "locationStart": 2093,
         "locationEnd": 2101,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_22",
+        "category": "LOC",
+        "surfaceForm": "Engeland",
+        "locationStart": 2093,
+        "locationEnd": 2101,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_22",
@@ -14192,6 +14656,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_23",
+        "category": "LOC",
+        "surfaceForm": "Gent",
+        "locationStart": 2168,
+        "locationEnd": 2172,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_34",
         "surfaceForm": "Lucas d' Heere",
         "category": "PER",
@@ -14226,6 +14698,14 @@
         "locationStart": 2179,
         "locationEnd": 2193,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_23",
+        "category": "PER",
+        "surfaceForm": "Lucas d' Heere",
+        "locationStart": 2179,
+        "locationEnd": 2193,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_25",
@@ -14318,6 +14798,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_25",
+        "category": "PER",
+        "surfaceForm": "Lucas d' Heere",
+        "locationStart": 2411,
+        "locationEnd": 2425,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_37",
         "surfaceForm": "Eleonore Carboniers",
         "category": "PER",
@@ -14354,6 +14842,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_25",
+        "category": "PER",
+        "surfaceForm": "Eleonore Carboniers",
+        "locationStart": 2429,
+        "locationEnd": 2448,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_38",
         "surfaceForm": "Parijs",
         "category": "LOC",
@@ -14388,6 +14884,14 @@
         "locationStart": 2500,
         "locationEnd": 2506,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_26",
+        "category": "LOC",
+        "surfaceForm": "ParijsRudelsheim",
+        "locationStart": 2500,
+        "locationEnd": 2552,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_39",
@@ -14462,6 +14966,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_27",
+        "category": "PER",
+        "surfaceForm": "Eleonore Carboniers",
+        "locationStart": 2583,
+        "locationEnd": 2602,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_32",
         "surfaceForm": "juli 1577",
         "category": "TIME",
@@ -14534,6 +15046,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_27",
+        "category": "LOC",
+        "surfaceForm": "Middelburg",
+        "locationStart": 2694,
+        "locationEnd": 2704,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_42",
         "surfaceForm": "Carel van Mander",
         "category": "PER",
@@ -14570,6 +15090,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_28",
+        "category": "PER",
+        "surfaceForm": "Carel van Mander",
+        "locationStart": 2776,
+        "locationEnd": 2792,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_43",
         "surfaceForm": "d' Heere",
         "category": "PER",
@@ -14596,6 +15124,14 @@
         "locationStart": 2811,
         "locationEnd": 2819,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_28",
+        "category": "PER",
+        "surfaceForm": "d' Heere",
+        "locationStart": 2811,
+        "locationEnd": 2819,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_39",
@@ -14652,6 +15188,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_29",
+        "category": "LOC",
+        "surfaceForm": "Zeeland",
+        "locationStart": 2921,
+        "locationEnd": 2928,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_45",
         "surfaceForm": "Biographie nationale",
         "category": "ORG",
@@ -14696,6 +15240,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_31",
+        "category": "PER",
+        "surfaceForm": "Lucas de Heere",
+        "locationStart": 3029,
+        "locationEnd": 3043,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_47",
         "surfaceForm": "Frederiks/ Van den Branden",
         "category": "PER",
@@ -14722,6 +15274,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_32",
+        "category": "LOC",
+        "surfaceForm": "Frederiks",
+        "locationStart": 3046,
+        "locationEnd": 3055,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "flair_26",
         "category": "PER",
         "surfaceForm": "Van den Branden",
@@ -14730,12 +15290,28 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_32",
+        "category": "LOC",
+        "surfaceForm": "Van den Branden",
+        "locationStart": 3057,
+        "locationEnd": 3072,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "flair_26",
         "category": "MISC",
         "surfaceForm": "Lauwerkrans",
         "locationStart": 3074,
         "locationEnd": 3085,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_33",
+        "category": "PER",
+        "surfaceForm": "Lauwerkran",
+        "locationStart": 3074,
+        "locationEnd": 3084,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "flair_27",
@@ -14772,6 +15348,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_34",
+        "category": "PER",
+        "surfaceForm": "Carel van Mander",
+        "locationStart": 3098,
+        "locationEnd": 3114,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_49",
         "surfaceForm": "Schilder-boeck",
         "category": "LOC",
@@ -14788,6 +15372,14 @@
         "locationStart": 3116,
         "locationEnd": 3130,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_34",
+        "category": "PER",
+        "surfaceForm": "Schilder-boeckHaarlem",
+        "locationStart": 3116,
+        "locationEnd": 3139,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_50",
@@ -14870,6 +15462,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_35",
+        "category": "PER",
+        "surfaceForm": "Philips Blommaert",
+        "locationStart": 3155,
+        "locationEnd": 3172,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_52",
         "surfaceForm": "Lucas d' Heere",
         "category": "PER",
@@ -14894,6 +15494,14 @@
         "locationStart": 3191,
         "locationEnd": 3205,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_35",
+        "category": "PER",
+        "surfaceForm": "Lucas d' Heere",
+        "locationStart": 3191,
+        "locationEnd": 3205,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_53",
@@ -14930,6 +15538,14 @@
         "locationStart": 3224,
         "locationEnd": 3228,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_35",
+        "category": "LOC",
+        "surfaceForm": "GentGent",
+        "locationStart": 3224,
+        "locationEnd": 3247,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_54",
@@ -15038,6 +15654,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_36",
+        "category": "PER",
+        "surfaceForm": "Marten RudelsheimLucas d' Heere",
+        "locationStart": 3261,
+        "locationEnd": 3295,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_46",
         "surfaceForm": "' Lucas d' Heere",
         "category": "PER",
@@ -15102,6 +15726,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_36",
+        "category": "LOC",
+        "surfaceForm": "Oud- Holland",
+        "locationStart": 3298,
+        "locationEnd": 3310,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gysbert_hist_36",
         "category": "TIME",
         "surfaceForm": "21 ( 1903",
@@ -15156,6 +15788,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_37",
+        "category": "PER",
+        "surfaceForm": "Lucas d' Heere",
+        "locationStart": 3329,
+        "locationEnd": 3343,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_60",
         "surfaceForm": "Den",
         "category": "LOC",
@@ -15200,6 +15840,14 @@
         "locationStart": 3379,
         "locationEnd": 3391,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_37",
+        "category": "PER",
+        "surfaceForm": "W. WaterschootZwolle",
+        "locationStart": 3379,
+        "locationEnd": 3405,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_62",
@@ -15292,6 +15940,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_38",
+        "category": "PER",
+        "surfaceForm": "W. Waterschoot",
+        "locationStart": 3413,
+        "locationEnd": 3427,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_64",
         "surfaceForm": "Het sonnet van Eleonora Carboniers",
         "category": "MISC",
@@ -15326,6 +15982,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_38",
+        "category": "PER",
+        "surfaceForm": "Eleonora Carboniers",
+        "locationStart": 3445,
+        "locationEnd": 3464,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_65",
         "surfaceForm": "Henk Duits",
         "category": "PER",
@@ -15350,6 +16014,14 @@
         "locationStart": 3471,
         "locationEnd": 3481,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_39",
+        "category": "PER",
+        "surfaceForm": "Henk Duits",
+        "locationStart": 3471,
+        "locationEnd": 3481,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_66",
@@ -15378,6 +16050,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_39",
+        "category": "PER",
+        "surfaceForm": "Arie Jan Gelderblom",
+        "locationStart": 3483,
+        "locationEnd": 3502,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_67",
         "surfaceForm": "Mieke Smits- Veldt",
         "category": "PER",
@@ -15402,6 +16082,14 @@
         "locationStart": 3506,
         "locationEnd": 3524,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_39",
+        "category": "PER",
+        "surfaceForm": "Mieke Smits- Veldt",
+        "locationStart": 3506,
+        "locationEnd": 3524,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "flair_31",
@@ -15436,6 +16124,14 @@
         "locationStart": 3587,
         "locationEnd": 3600,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_40",
+        "category": "PER",
+        "surfaceForm": "Marijke SpiesHilversum",
+        "locationStart": 3587,
+        "locationEnd": 3611,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_69",
@@ -15518,6 +16214,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_41",
+        "category": "PER",
+        "surfaceForm": "Bart Ramakers",
+        "locationStart": 3624,
+        "locationEnd": 3637,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_71",
         "surfaceForm": "Kunst en kunstenaarschap",
         "category": "MISC",
@@ -15554,6 +16258,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_41",
+        "category": "PER",
+        "surfaceForm": "Lucas dDe Fonteine",
+        "locationStart": 3669,
+        "locationEnd": 3707,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_73",
         "surfaceForm": "Jaarboek 'De Fonteine",
         "category": "MISC",
@@ -15580,270 +16292,6 @@
         "tokenStart": 734,
         "tokenEnd": 735,
         "method": "human_gold"
-      },
-      {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "ORGANIZATION",
-        "surfaceForm": "CARBONIERS",
-        "locationStart": 0,
-        "locationEnd": 10,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "PERSON",
-        "surfaceForm": "Eleonore Carboniers",
-        "locationStart": 0,
-        "locationEnd": 18,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "LOCATION",
-        "surfaceForm": "Veere",
-        "locationStart": 22,
-        "locationEnd": 27,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "PERSON",
-        "surfaceForm": "Pieter Carboniers",
-        "locationStart": 42,
-        "locationEnd": 58,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "PERSON",
-        "surfaceForm": "Lucas d' Heere",
-        "locationStart": 63,
-        "locationEnd": 77,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "LOCATION",
-        "surfaceForm": "Gent",
-        "locationStart": 84,
-        "locationEnd": 88,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_6",
-        "category": "PERSON",
-        "surfaceForm": "D' Heere",
-        "locationStart": 127,
-        "locationEnd": 135,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_7",
-        "category": "LOCATION",
-        "surfaceForm": "Zeeland",
-        "locationStart": 157,
-        "locationEnd": 164,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_8",
-        "category": "PERSON",
-        "surfaceForm": "W. Waterschoot",
-        "locationStart": 189,
-        "locationEnd": 203,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_9",
-        "category": "LOCATION",
-        "surfaceForm": "Gent",
-        "locationStart": 216,
-        "locationEnd": 220,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_10",
-        "category": "PERSON",
-        "surfaceForm": "W. Waterschoot",
-        "locationStart": 222,
-        "locationEnd": 236,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_11",
-        "category": "PERSON",
-        "surfaceForm": "Eleonore Carboniers",
-        "locationStart": 238,
-        "locationEnd": 256,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_12",
-        "category": "PERSON",
-        "surfaceForm": "Lucas d' Heere",
-        "locationStart": 258,
-        "locationEnd": 272,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_13",
-        "category": "ARTWORK",
-        "surfaceForm": "Den hof en boomgaerd",
-        "locationStart": 274,
-        "locationEnd": 293,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_14",
-        "category": "LOCATION",
-        "surfaceForm": "Gent",
-        "locationStart": 297,
-        "locationEnd": 301,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_15",
-        "category": "PERSON",
-        "surfaceForm": "Eleonore Carboniers",
-        "locationStart": 303,
-        "locationEnd": 321,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_16",
-        "category": "PERSON",
-        "surfaceForm": "Lucas d' Heere",
-        "locationStart": 323,
-        "locationEnd": 337,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_17",
-        "category": "LOCATION",
-        "surfaceForm": "Engeland",
-        "locationStart": 346,
-        "locationEnd": 354,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_18",
-        "category": "DATE",
-        "surfaceForm": "1577",
-        "locationStart": 359,
-        "locationEnd": 363,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_19",
-        "category": "LOCATION",
-        "surfaceForm": "Gent",
-        "locationStart": 375,
-        "locationEnd": 379,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_20",
-        "category": "PERSON",
-        "surfaceForm": "Lucas d' Heere",
-        "locationStart": 384,
-        "locationEnd": 398,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_21",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Parma",
-        "locationStart": 416,
-        "locationEnd": 421,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_22",
-        "category": "PERSON",
-        "surfaceForm": "Lucas d' Heere",
-        "locationStart": 423,
-        "locationEnd": 437,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_23",
-        "category": "PERSON",
-        "surfaceForm": "Eleonore Carboniers",
-        "locationStart": 439,
-        "locationEnd": 457,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_24",
-        "category": "LOCATION",
-        "surfaceForm": "Parijs",
-        "locationStart": 464,
-        "locationEnd": 470,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_25",
-        "category": "PERSON",
-        "surfaceForm": "Eleonore Carboniers",
-        "locationStart": 472,
-        "locationEnd": 490,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_26",
-        "category": "DATE",
-        "surfaceForm": "juli 1577",
-        "locationStart": 495,
-        "locationEnd": 504,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_27",
-        "category": "DATE",
-        "surfaceForm": "oktober 1584",
-        "locationStart": 509,
-        "locationEnd": 520,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_28",
-        "category": "LOCATION",
-        "surfaceForm": "Middelburg",
-        "locationStart": 524,
-        "locationEnd": 534,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_29",
-        "category": "PERSON",
-        "surfaceForm": "Carel van Mander",
-        "locationStart": 536,
-        "locationEnd": 551,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_30",
-        "category": "PERSON",
-        "surfaceForm": "Lucas d' Heere",
-        "locationStart": 553,
-        "locationEnd": 567,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_31",
-        "category": "DATE",
-        "surfaceForm": "augustus",
-        "locationStart": 573,
-        "locationEnd": 581,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_32",
-        "category": "LOCATION",
-        "surfaceForm": "Zeeland",
-        "locationStart": 600,
-        "locationEnd": 607,
-        "method": "gpt-3.5-turbo"
       }
     ],
     "time_expressions": [

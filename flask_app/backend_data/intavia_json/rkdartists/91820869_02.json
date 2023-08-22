@@ -894,6 +894,22 @@
     },
     "entities": [
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "Tekenaar",
+        "locationStart": 0,
+        "locationEnd": 7,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "PERSON",
+        "surfaceForm": "lithograaf",
+        "locationStart": 10,
+        "locationEnd": 20,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_6",
         "surfaceForm": "17 oktober 1874",
         "category": "TIME",
@@ -910,6 +926,14 @@
         "locationStart": 31,
         "locationEnd": 46,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "LOCATION",
+        "surfaceForm": "Den Haag",
+        "locationStart": 34,
+        "locationEnd": 42,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_0",
@@ -940,12 +964,28 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "Den Haag",
+        "locationStart": 48,
+        "locationEnd": 56,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gysbert_hist_1",
         "category": "LOC",
         "surfaceForm": "haag",
         "locationStart": 52,
         "locationEnd": 56,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "TIME",
+        "surfaceForm": "24 november 1938",
+        "locationStart": 56,
+        "locationEnd": 72,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_8",
@@ -964,6 +1004,14 @@
         "locationStart": 69,
         "locationEnd": 80,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "LOCATION",
+        "surfaceForm": "Cannes",
+        "locationStart": 82,
+        "locationEnd": 88,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_1",
@@ -1002,6 +1050,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_2",
+        "category": "LOC",
+        "surfaceForm": "CannesFrankrijk",
+        "locationStart": 87,
+        "locationEnd": 104,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "LOCATION",
+        "surfaceForm": "Frankrijk",
+        "locationStart": 89,
+        "locationEnd": 98,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_2",
         "surfaceForm": "Frankrijk",
         "category": "LOC",
@@ -1028,6 +1092,22 @@
         "locationStart": 95,
         "locationEnd": 104,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_6",
+        "category": "LOCATION",
+        "surfaceForm": "Den Haag",
+        "locationStart": 121,
+        "locationEnd": 129,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_7",
+        "category": "TIME",
+        "surfaceForm": "1901",
+        "locationStart": 142,
+        "locationEnd": 146,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_3",
@@ -1066,6 +1146,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_4",
+        "category": "LOC",
+        "surfaceForm": "Den Haag",
+        "locationStart": 143,
+        "locationEnd": 151,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gysbert_hist_4",
         "category": "LOC",
         "surfaceForm": "haag",
@@ -1092,6 +1180,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_8",
+        "category": "TIME",
+        "surfaceForm": "1901",
+        "locationStart": 157,
+        "locationEnd": 161,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gysbert_hist_4",
         "category": "TIME",
         "surfaceForm": "1901",
@@ -1108,6 +1204,14 @@
         "tokenStart": 37,
         "tokenEnd": 39,
         "method": "human_gold"
+      },
+      {
+        "ID": "gpt-3.5-turbo_9",
+        "category": "LOCATION",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 174,
+        "locationEnd": 183,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gysbert_hist_4",
@@ -1154,6 +1258,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_5",
+        "category": "LOC",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 181,
+        "locationEnd": 190,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_4",
         "surfaceForm": "van 1902 tot 1902",
         "category": "TIME",
@@ -1170,6 +1282,14 @@
         "locationStart": 196,
         "locationEnd": 200,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_10",
+        "category": "TIME",
+        "surfaceForm": "1902",
+        "locationStart": 197,
+        "locationEnd": 201,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gysbert_hist_5",
@@ -1190,108 +1310,20 @@
         "method": "human_gold"
       },
       {
-        "ID": "gysbert_hist_5",
-        "category": "TIME",
-        "surfaceForm": "1902",
-        "locationStart": 214,
-        "locationEnd": 218,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "Tekenaar",
-        "locationStart": 0,
-        "locationEnd": 7,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "PERSON",
-        "surfaceForm": "lithograaf",
-        "locationStart": 10,
-        "locationEnd": 20,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "LOCATION",
-        "surfaceForm": "Den Haag",
-        "locationStart": 34,
-        "locationEnd": 42,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "TIME",
-        "surfaceForm": "24 november 1938",
-        "locationStart": 56,
-        "locationEnd": 72,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "LOCATION",
-        "surfaceForm": "Cannes",
-        "locationStart": 82,
-        "locationEnd": 88,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "LOCATION",
-        "surfaceForm": "Frankrijk",
-        "locationStart": 89,
-        "locationEnd": 98,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_6",
-        "category": "LOCATION",
-        "surfaceForm": "Den Haag",
-        "locationStart": 121,
-        "locationEnd": 129,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_7",
-        "category": "TIME",
-        "surfaceForm": "1901",
-        "locationStart": 142,
-        "locationEnd": 146,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_8",
-        "category": "TIME",
-        "surfaceForm": "1901",
-        "locationStart": 157,
-        "locationEnd": 161,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_9",
-        "category": "LOCATION",
-        "surfaceForm": "Amsterdam",
-        "locationStart": 174,
-        "locationEnd": 183,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_10",
-        "category": "TIME",
-        "surfaceForm": "1902",
-        "locationStart": 197,
-        "locationEnd": 201,
-        "method": "gpt-3.5-turbo"
-      },
-      {
         "ID": "gpt-3.5-turbo_11",
         "category": "TIME",
         "surfaceForm": "1902",
         "locationStart": 212,
         "locationEnd": 216,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gysbert_hist_5",
+        "category": "TIME",
+        "surfaceForm": "1902",
+        "locationStart": 214,
+        "locationEnd": 218,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
       }
     ],
     "time_expressions": [

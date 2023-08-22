@@ -312,6 +312,30 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "Lucas Trelcatius",
+        "locationStart": 12,
+        "locationEnd": 28,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "Lucas Trelcatius I",
+        "locationStart": 17,
+        "locationEnd": 34,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "LOCATION",
+        "surfaceForm": "Leidse",
+        "locationStart": 39,
+        "locationEnd": 45,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_1",
         "surfaceForm": "Leidse",
         "category": "MISC",
@@ -328,6 +352,14 @@
         "locationStart": 46,
         "locationEnd": 52,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "PERSON",
+        "surfaceForm": "Lucas Trelcatius de oudere",
+        "locationStart": 46,
+        "locationEnd": 71,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_2",
@@ -366,28 +398,12 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "Lucas Trelcatius I",
-        "locationStart": 17,
-        "locationEnd": 34,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "LOCATION",
-        "surfaceForm": "Leidse",
-        "locationStart": 39,
-        "locationEnd": 45,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "PERSON",
-        "surfaceForm": "Lucas Trelcatius de oudere",
-        "locationStart": 46,
-        "locationEnd": 71,
-        "method": "gpt-3.5-turbo"
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "Lucas Trelcatius",
+        "locationStart": 62,
+        "locationEnd": 78,
+        "method": "xlmr_ner_"
       }
     ],
     "time_expressions": []

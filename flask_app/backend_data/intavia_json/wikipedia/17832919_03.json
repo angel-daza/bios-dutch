@@ -7533,6 +7533,30 @@
     },
     "entities": [
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "ARTWORK",
+        "surfaceForm": "thumbnail",
+        "locationStart": 0,
+        "locationEnd": 9,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "LOCATION",
+        "surfaceForm": "Goudse",
+        "locationStart": 30,
+        "locationEnd": 36,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "PERSON",
+        "surfaceForm": "Anna van Hensbeek",
+        "locationStart": 37,
+        "locationEnd": 54,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_0",
         "surfaceForm": "Goudse",
         "category": "MISC",
@@ -7549,6 +7573,14 @@
         "locationStart": 41,
         "locationEnd": 47,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "LOCATION",
+        "surfaceForm": "Gouda",
+        "locationStart": 56,
+        "locationEnd": 61,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_1",
@@ -7587,6 +7619,38 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "Anna van Hensbeek",
+        "locationStart": 59,
+        "locationEnd": 76,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "TIME",
+        "surfaceForm": "6 mei 1750",
+        "locationStart": 63,
+        "locationEnd": 73,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "LOCATION",
+        "surfaceForm": "Gouda",
+        "locationStart": 83,
+        "locationEnd": 88,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_6",
+        "category": "TIME",
+        "surfaceForm": "3 november 1808",
+        "locationStart": 100,
+        "locationEnd": 115,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_2",
         "surfaceForm": "Anna van Hensbeek",
         "category": "PER",
@@ -7621,6 +7685,22 @@
         "locationStart": 102,
         "locationEnd": 119,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "Anna van Hensbeek",
+        "locationStart": 102,
+        "locationEnd": 119,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_7",
+        "category": "ORGANIZATION",
+        "surfaceForm": "vroedvrouw",
+        "locationStart": 117,
+        "locationEnd": 126,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_3",
@@ -7659,6 +7739,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Gouda",
+        "locationStart": 122,
+        "locationEnd": 127,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_8",
+        "category": "PERSON",
+        "surfaceForm": "Anna van Hensbeek",
+        "locationStart": 128,
+        "locationEnd": 145,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_5",
         "surfaceForm": "6 mei 1750",
         "category": "TIME",
@@ -7675,6 +7771,14 @@
         "locationStart": 134,
         "locationEnd": 144,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_9",
+        "category": "LOCATION",
+        "surfaceForm": "Gouda",
+        "locationStart": 149,
+        "locationEnd": 154,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_4",
@@ -7713,6 +7817,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "Gouda",
+        "locationStart": 153,
+        "locationEnd": 158,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_10",
+        "category": "TIME",
+        "surfaceForm": "26 oktober 1777",
+        "locationStart": 156,
+        "locationEnd": 171,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_9",
         "surfaceForm": "3 november 1808",
         "category": "TIME",
@@ -7729,6 +7849,54 @@
         "locationStart": 160,
         "locationEnd": 175,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_11",
+        "category": "LOCATION",
+        "surfaceForm": "Bodegraven",
+        "locationStart": 175,
+        "locationEnd": 185,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_12",
+        "category": "PERSON",
+        "surfaceForm": "Maarten van der Piek",
+        "locationStart": 190,
+        "locationEnd": 210,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_13",
+        "category": "ORGANIZATION",
+        "surfaceForm": "twee",
+        "locationStart": 228,
+        "locationEnd": 231,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_14",
+        "category": "TIME",
+        "surfaceForm": "1788",
+        "locationStart": 233,
+        "locationEnd": 237,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_15",
+        "category": "LOCATION",
+        "surfaceForm": "Gouda",
+        "locationStart": 257,
+        "locationEnd": 262,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_16",
+        "category": "PERSON",
+        "surfaceForm": "Anna",
+        "locationStart": 264,
+        "locationEnd": 268,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_5",
@@ -7767,6 +7935,30 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_17",
+        "category": "LOCATION",
+        "surfaceForm": "Gouda",
+        "locationStart": 282,
+        "locationEnd": 287,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_2",
+        "category": "PER",
+        "surfaceForm": "Anna van Hensbeek",
+        "locationStart": 282,
+        "locationEnd": 299,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_18",
+        "category": "TIME",
+        "surfaceForm": "1794",
+        "locationStart": 289,
+        "locationEnd": 293,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_16",
         "surfaceForm": "6 mei 1750",
         "category": "TIME",
@@ -7783,6 +7975,14 @@
         "locationStart": 308,
         "locationEnd": 318,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_19",
+        "category": "LOCATION",
+        "surfaceForm": "Gouda",
+        "locationStart": 317,
+        "locationEnd": 322,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_6",
@@ -7821,6 +8021,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_2",
+        "category": "LOC",
+        "surfaceForm": "Gouda",
+        "locationStart": 322,
+        "locationEnd": 327,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_18",
         "surfaceForm": "26 oktober 1777",
         "category": "TIME",
@@ -7837,6 +8045,14 @@
         "locationStart": 340,
         "locationEnd": 355,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_20",
+        "category": "TIME",
+        "surfaceForm": "1796",
+        "locationStart": 355,
+        "locationEnd": 359,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_7",
@@ -7875,6 +8091,30 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_3",
+        "category": "LOC",
+        "surfaceForm": "Bodegraven",
+        "locationStart": 368,
+        "locationEnd": 378,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_21",
+        "category": "LOCATION",
+        "surfaceForm": "Gouda",
+        "locationStart": 386,
+        "locationEnd": 391,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_22",
+        "category": "PERSON",
+        "surfaceForm": "Anna",
+        "locationStart": 393,
+        "locationEnd": 397,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_8",
         "surfaceForm": "Maarten van der Piek",
         "category": "PER",
@@ -7909,6 +8149,38 @@
         "locationStart": 412,
         "locationEnd": 432,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_3",
+        "category": "PER",
+        "surfaceForm": "Maarten van der Piek",
+        "locationStart": 412,
+        "locationEnd": 432,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_23",
+        "category": "LOCATION",
+        "surfaceForm": "Kattensingel",
+        "locationStart": 416,
+        "locationEnd": 428,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_24",
+        "category": "PERSON",
+        "surfaceForm": "Anna van Hensbeek",
+        "locationStart": 441,
+        "locationEnd": 458,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_25",
+        "category": "PERSON",
+        "surfaceForm": "Anna van Hensbeek",
+        "locationStart": 482,
+        "locationEnd": 499,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_21",
@@ -7965,6 +8237,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_5",
+        "category": "LOC",
+        "surfaceForm": "Gouda",
+        "locationStart": 516,
+        "locationEnd": 521,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_10",
         "surfaceForm": "Anna",
         "category": "PER",
@@ -7991,6 +8271,54 @@
         "locationStart": 523,
         "locationEnd": 527,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_6",
+        "category": "PER",
+        "surfaceForm": "Anna",
+        "locationStart": 523,
+        "locationEnd": 527,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_26",
+        "category": "TIME",
+        "surfaceForm": "1798",
+        "locationStart": 532,
+        "locationEnd": 536,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_27",
+        "category": "LOCATION",
+        "surfaceForm": "Gouda",
+        "locationStart": 563,
+        "locationEnd": 568,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_28",
+        "category": "TIME",
+        "surfaceForm": "3 november 1808",
+        "locationStart": 570,
+        "locationEnd": 585,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_29",
+        "category": "LOCATION",
+        "surfaceForm": "Gouda",
+        "locationStart": 607,
+        "locationEnd": 612,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_30",
+        "category": "PERSON",
+        "surfaceForm": "Hensbeek",
+        "locationStart": 614,
+        "locationEnd": 621,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_11",
@@ -8027,6 +8355,22 @@
         "locationStart": 615,
         "locationEnd": 620,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_6",
+        "category": "LOC",
+        "surfaceForm": "Gouda",
+        "locationStart": 615,
+        "locationEnd": 620,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_31",
+        "category": "PERSON",
+        "surfaceForm": "Anna van Hensbeek",
+        "locationStart": 623,
+        "locationEnd": 640,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_26",
@@ -8083,6 +8427,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_8",
+        "category": "LOC",
+        "surfaceForm": "Gouda",
+        "locationStart": 756,
+        "locationEnd": 761,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_13",
         "surfaceForm": "Gouda",
         "category": "LOC",
@@ -8119,6 +8471,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_9",
+        "category": "LOC",
+        "surfaceForm": "Gouda",
+        "locationStart": 904,
+        "locationEnd": 909,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_14",
         "surfaceForm": "Anna van Hensbeek",
         "category": "PER",
@@ -8153,6 +8513,14 @@
         "locationStart": 911,
         "locationEnd": 928,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_10",
+        "category": "PER",
+        "surfaceForm": "Anna van Hensbeek",
+        "locationStart": 911,
+        "locationEnd": 928,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_1",
@@ -8209,6 +8577,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_12",
+        "category": "LOC",
+        "surfaceForm": "Gouda",
+        "locationStart": 1296,
+        "locationEnd": 1301,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_16",
         "surfaceForm": "Anna",
         "category": "PER",
@@ -8235,6 +8611,14 @@
         "locationStart": 1306,
         "locationEnd": 1310,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_13",
+        "category": "PER",
+        "surfaceForm": "Anna",
+        "locationStart": 1306,
+        "locationEnd": 1310,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_17",
@@ -8273,6 +8657,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_13",
+        "category": "LOC",
+        "surfaceForm": "Kattensingel",
+        "locationStart": 1392,
+        "locationEnd": 1404,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_18",
         "surfaceForm": "Anna van Hensbeek",
         "category": "PER",
@@ -8309,6 +8701,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_14",
+        "category": "PER",
+        "surfaceForm": "Anna van Hensbeek",
+        "locationStart": 1596,
+        "locationEnd": 1613,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_19",
         "surfaceForm": "Anna",
         "category": "PER",
@@ -8335,6 +8735,14 @@
         "locationStart": 1844,
         "locationEnd": 1848,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_16",
+        "category": "PER",
+        "surfaceForm": "Anna",
+        "locationStart": 1844,
+        "locationEnd": 1848,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gysbert_hist_16",
@@ -8399,6 +8807,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_19",
+        "category": "PER",
+        "surfaceForm": "Dirk van Hensbeek",
+        "locationStart": 2268,
+        "locationEnd": 2285,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_13",
         "surfaceForm": "3 november 1808",
         "category": "TIME",
@@ -8453,6 +8869,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_20",
+        "category": "LOC",
+        "surfaceForm": "Gouda",
+        "locationStart": 2339,
+        "locationEnd": 2344,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "flair_22",
         "category": "PER",
         "surfaceForm": "Hensbeek",
@@ -8467,6 +8891,14 @@
         "locationStart": 2355,
         "locationEnd": 2363,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_21",
+        "category": "PER",
+        "surfaceForm": "Hensbeek",
+        "locationStart": 2355,
+        "locationEnd": 2363,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_22",
@@ -8495,6 +8927,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_21",
+        "category": "PER",
+        "surfaceForm": "Anna van Hensbeek",
+        "locationStart": 2365,
+        "locationEnd": 2382,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_23",
         "surfaceForm": "Anna van Hensbeek",
         "category": "PER",
@@ -8521,6 +8961,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_21",
+        "category": "PER",
+        "surfaceForm": "Anna van",
+        "locationStart": 2384,
+        "locationEnd": 2392,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_24",
         "surfaceForm": "Anna",
         "category": "PER",
@@ -8529,262 +8977,6 @@
         "tokenStart": 430,
         "tokenEnd": 431,
         "method": "stanza_nl"
-      },
-      {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "ARTWORK",
-        "surfaceForm": "thumbnail",
-        "locationStart": 0,
-        "locationEnd": 9,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "LOCATION",
-        "surfaceForm": "Goudse",
-        "locationStart": 30,
-        "locationEnd": 36,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "PERSON",
-        "surfaceForm": "Anna van Hensbeek",
-        "locationStart": 37,
-        "locationEnd": 54,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "LOCATION",
-        "surfaceForm": "Gouda",
-        "locationStart": 56,
-        "locationEnd": 61,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "TIME",
-        "surfaceForm": "6 mei 1750",
-        "locationStart": 63,
-        "locationEnd": 73,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "LOCATION",
-        "surfaceForm": "Gouda",
-        "locationStart": 83,
-        "locationEnd": 88,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_6",
-        "category": "TIME",
-        "surfaceForm": "3 november 1808",
-        "locationStart": 100,
-        "locationEnd": 115,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_7",
-        "category": "ORGANIZATION",
-        "surfaceForm": "vroedvrouw",
-        "locationStart": 117,
-        "locationEnd": 126,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_8",
-        "category": "PERSON",
-        "surfaceForm": "Anna van Hensbeek",
-        "locationStart": 128,
-        "locationEnd": 145,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_9",
-        "category": "LOCATION",
-        "surfaceForm": "Gouda",
-        "locationStart": 149,
-        "locationEnd": 154,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_10",
-        "category": "TIME",
-        "surfaceForm": "26 oktober 1777",
-        "locationStart": 156,
-        "locationEnd": 171,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_11",
-        "category": "LOCATION",
-        "surfaceForm": "Bodegraven",
-        "locationStart": 175,
-        "locationEnd": 185,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_12",
-        "category": "PERSON",
-        "surfaceForm": "Maarten van der Piek",
-        "locationStart": 190,
-        "locationEnd": 210,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_13",
-        "category": "ORGANIZATION",
-        "surfaceForm": "twee",
-        "locationStart": 228,
-        "locationEnd": 231,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_14",
-        "category": "TIME",
-        "surfaceForm": "1788",
-        "locationStart": 233,
-        "locationEnd": 237,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_15",
-        "category": "LOCATION",
-        "surfaceForm": "Gouda",
-        "locationStart": 257,
-        "locationEnd": 262,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_16",
-        "category": "PERSON",
-        "surfaceForm": "Anna",
-        "locationStart": 264,
-        "locationEnd": 268,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_17",
-        "category": "LOCATION",
-        "surfaceForm": "Gouda",
-        "locationStart": 282,
-        "locationEnd": 287,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_18",
-        "category": "TIME",
-        "surfaceForm": "1794",
-        "locationStart": 289,
-        "locationEnd": 293,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_19",
-        "category": "LOCATION",
-        "surfaceForm": "Gouda",
-        "locationStart": 317,
-        "locationEnd": 322,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_20",
-        "category": "TIME",
-        "surfaceForm": "1796",
-        "locationStart": 355,
-        "locationEnd": 359,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_21",
-        "category": "LOCATION",
-        "surfaceForm": "Gouda",
-        "locationStart": 386,
-        "locationEnd": 391,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_22",
-        "category": "PERSON",
-        "surfaceForm": "Anna",
-        "locationStart": 393,
-        "locationEnd": 397,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_23",
-        "category": "LOCATION",
-        "surfaceForm": "Kattensingel",
-        "locationStart": 416,
-        "locationEnd": 428,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_24",
-        "category": "PERSON",
-        "surfaceForm": "Anna van Hensbeek",
-        "locationStart": 441,
-        "locationEnd": 458,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_25",
-        "category": "PERSON",
-        "surfaceForm": "Anna van Hensbeek",
-        "locationStart": 482,
-        "locationEnd": 499,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_26",
-        "category": "TIME",
-        "surfaceForm": "1798",
-        "locationStart": 532,
-        "locationEnd": 536,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_27",
-        "category": "LOCATION",
-        "surfaceForm": "Gouda",
-        "locationStart": 563,
-        "locationEnd": 568,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_28",
-        "category": "TIME",
-        "surfaceForm": "3 november 1808",
-        "locationStart": 570,
-        "locationEnd": 585,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_29",
-        "category": "LOCATION",
-        "surfaceForm": "Gouda",
-        "locationStart": 607,
-        "locationEnd": 612,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_30",
-        "category": "PERSON",
-        "surfaceForm": "Hensbeek",
-        "locationStart": 614,
-        "locationEnd": 621,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_31",
-        "category": "PERSON",
-        "surfaceForm": "Anna van Hensbeek",
-        "locationStart": 623,
-        "locationEnd": 640,
-        "method": "gpt-3.5-turbo"
       }
     ],
     "time_expressions": [

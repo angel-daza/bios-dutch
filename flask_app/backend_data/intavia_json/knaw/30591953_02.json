@@ -17469,6 +17469,22 @@
     },
     "entities": [
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "J.H. van der Waals",
+        "locationStart": 0,
+        "locationEnd": 17,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "PERSON",
+        "surfaceForm": "Joannes Josephus Maria Beenakker",
+        "locationStart": 18,
+        "locationEnd": 48,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_0",
         "surfaceForm": "J.H. van der Waals",
         "category": "PER",
@@ -17503,6 +17519,14 @@
         "locationStart": 19,
         "locationEnd": 36,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "J.H. van der Waals",
+        "locationStart": 19,
+        "locationEnd": 37,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_1",
@@ -17541,6 +17565,30 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "Joannes Josephus Maria Beenakker",
+        "locationStart": 38,
+        "locationEnd": 70,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "DATE",
+        "surfaceForm": "1 februari 1926",
+        "locationStart": 49,
+        "locationEnd": 64,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "DATE",
+        "surfaceForm": "23 juli 1998",
+        "locationStart": 67,
+        "locationEnd": 80,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_65",
         "surfaceForm": "1 februari 1926 - 23 juli 1998",
         "category": "TIME",
@@ -17557,6 +17605,14 @@
         "locationStart": 71,
         "locationEnd": 86,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "PERSON",
+        "surfaceForm": "Jan Beenakker",
+        "locationStart": 81,
+        "locationEnd": 94,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gysbert_hist_0",
@@ -17603,6 +17659,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "Joannes Josephus Maria Beenakker",
+        "locationStart": 102,
+        "locationEnd": 134,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_6",
         "surfaceForm": "23 juli 1998",
         "category": "TIME",
@@ -17619,6 +17683,14 @@
         "locationStart": 138,
         "locationEnd": 150,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Leidse natuurkunde",
+        "locationStart": 139,
+        "locationEnd": 157,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_3",
@@ -17657,6 +17729,54 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "Jan Beenakker",
+        "locationStart": 160,
+        "locationEnd": 173,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_6",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Nederlandse wetenschap",
+        "locationStart": 162,
+        "locationEnd": 183,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_7",
+        "category": "LOCATION",
+        "surfaceForm": "Koog aan de Zaan",
+        "locationStart": 199,
+        "locationEnd": 214,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_8",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Nederlandse Spoorwegen",
+        "locationStart": 219,
+        "locationEnd": 240,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_9",
+        "category": "LOCATION",
+        "surfaceForm": "Zeeland",
+        "locationStart": 256,
+        "locationEnd": 263,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_10",
+        "category": "LOCATION",
+        "surfaceForm": "Rotterdam",
+        "locationStart": 278,
+        "locationEnd": 287,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_4",
         "surfaceForm": "Leidse",
         "category": "MISC",
@@ -17675,6 +17795,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "gpt-3.5-turbo_11",
+        "category": "ORGANIZATION",
+        "surfaceForm": "St. Franciscus Gymnasium",
+        "locationStart": 305,
+        "locationEnd": 327,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_5",
         "surfaceForm": "Nederlandse",
         "category": "MISC",
@@ -17691,6 +17819,22 @@
         "locationStart": 322,
         "locationEnd": 333,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_12",
+        "category": "ORGANIZATION",
+        "surfaceForm": "cc",
+        "locationStart": 335,
+        "locationEnd": 337,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_13",
+        "category": "ORGANIZATION",
+        "surfaceForm": "p",
+        "locationStart": 342,
+        "locationEnd": 343,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_6",
@@ -17729,6 +17873,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_2",
+        "category": "PER",
+        "surfaceForm": "Jan Beenakker",
+        "locationStart": 362,
+        "locationEnd": 375,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_14",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Koninklijke Luchtmacht",
+        "locationStart": 392,
+        "locationEnd": 413,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_7",
         "surfaceForm": "Nederlandse Spoorwegen",
         "category": "ORG",
@@ -17755,6 +17915,22 @@
         "locationStart": 415,
         "locationEnd": 437,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_2",
+        "category": "ORG",
+        "surfaceForm": "Nederlandse Spoorwegen",
+        "locationStart": 415,
+        "locationEnd": 437,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_15",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Kamerlingh Onnes Laboratorium",
+        "locationStart": 429,
+        "locationEnd": 455,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_8",
@@ -17793,6 +17969,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_2",
+        "category": "LOC",
+        "surfaceForm": "Koog aan de Zaan",
+        "locationStart": 441,
+        "locationEnd": 457,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_9",
         "surfaceForm": "Zaan",
         "category": "LOC",
@@ -17801,6 +17985,14 @@
         "tokenStart": 73,
         "tokenEnd": 74,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "gpt-3.5-turbo_16",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Afdeling Natuurkunde",
+        "locationStart": 474,
+        "locationEnd": 494,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_10",
@@ -17839,6 +18031,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_3",
+        "category": "LOC",
+        "surfaceForm": "Zeeland",
+        "locationStart": 526,
+        "locationEnd": 533,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_17",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Stichting fom",
+        "locationStart": 527,
+        "locationEnd": 540,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_11",
         "surfaceForm": "Rotterdam",
         "category": "LOC",
@@ -17873,6 +18081,30 @@
         "locationStart": 553,
         "locationEnd": 562,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_3",
+        "category": "LOC",
+        "surfaceForm": "Rotterdam",
+        "locationStart": 553,
+        "locationEnd": 562,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_18",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Leidse Universiteit",
+        "locationStart": 563,
+        "locationEnd": 581,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_19",
+        "category": "PERSON",
+        "surfaceForm": "A.I. van Itterbeek",
+        "locationStart": 600,
+        "locationEnd": 617,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_12",
@@ -17911,6 +18143,30 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_4",
+        "category": "ORG",
+        "surfaceForm": "St. Franciscus Gymnasium",
+        "locationStart": 606,
+        "locationEnd": 630,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_20",
+        "category": "PERSON",
+        "surfaceForm": "Jan Beenakker",
+        "locationStart": 646,
+        "locationEnd": 659,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_21",
+        "category": "PERSON",
+        "surfaceForm": "Gorter",
+        "locationStart": 679,
+        "locationEnd": 685,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_63",
         "surfaceForm": "1943",
         "category": "TIME",
@@ -17929,6 +18185,22 @@
         "tokenStart": 119,
         "tokenEnd": 120,
         "method": "human_gold"
+      },
+      {
+        "ID": "gpt-3.5-turbo_22",
+        "category": "TIME",
+        "surfaceForm": "jaren zestig",
+        "locationStart": 716,
+        "locationEnd": 727,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_23",
+        "category": "PERSON",
+        "surfaceForm": "Jan Beenakker",
+        "locationStart": 748,
+        "locationEnd": 761,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_13",
@@ -17975,6 +18247,22 @@
         "locationStart": 812,
         "locationEnd": 821,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_6",
+        "category": "PER",
+        "surfaceForm": "Beenakker",
+        "locationStart": 812,
+        "locationEnd": 821,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_24",
+        "category": "PERSON",
+        "surfaceForm": "H.F.P. Knaap",
+        "locationStart": 821,
+        "locationEnd": 832,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_1",
@@ -18031,6 +18319,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_8",
+        "category": "LOC",
+        "surfaceForm": "Leiden",
+        "locationStart": 1143,
+        "locationEnd": 1149,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_16",
         "surfaceForm": "Koninklijke Lucht-",
         "category": "ORG",
@@ -18057,6 +18353,14 @@
         "locationStart": 1212,
         "locationEnd": 1229,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_8",
+        "category": "ORG",
+        "surfaceForm": "Koninklijke Lucht macht",
+        "locationStart": 1212,
+        "locationEnd": 1236,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_4",
@@ -18123,6 +18427,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_10",
+        "category": "PER",
+        "surfaceForm": "C.J. Gorter",
+        "locationStart": 1436,
+        "locationEnd": 1447,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gysbert_hist_10",
         "category": "PER",
         "surfaceForm": "j gorter",
@@ -18167,6 +18479,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_10",
+        "category": "ORG",
+        "surfaceForm": "Kamerlingh Onnes Laboratorium",
+        "locationStart": 1467,
+        "locationEnd": 1496,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "flair_8",
         "category": "LOC",
         "surfaceForm": "Onnes Laboratorium",
@@ -18191,6 +18511,14 @@
         "locationStart": 1524,
         "locationEnd": 1544,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_10",
+        "category": "ORG",
+        "surfaceForm": "Afdeling Natuurkunde van de Akademie",
+        "locationStart": 1524,
+        "locationEnd": 1560,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "flair_8",
@@ -18255,6 +18583,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_11",
+        "category": "ORG",
+        "surfaceForm": "Kamerlingh Onnes Laboratorium",
+        "locationStart": 1688,
+        "locationEnd": 1717,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "flair_9",
         "category": "LOC",
         "surfaceForm": "Onnes Laboratorium",
@@ -18309,6 +18645,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_12",
+        "category": "PER",
+        "surfaceForm": "Beenakker",
+        "locationStart": 1894,
+        "locationEnd": 1903,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_23",
         "surfaceForm": "Leidse Universiteit",
         "category": "ORG",
@@ -18337,6 +18681,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_12",
+        "category": "ORG",
+        "surfaceForm": "Leidse Universiteit",
+        "locationStart": 1911,
+        "locationEnd": 1930,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_24",
         "surfaceForm": "Stichting fom",
         "category": "ORG",
@@ -18363,6 +18715,14 @@
         "locationStart": 1969,
         "locationEnd": 1982,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_12",
+        "category": "ORG",
+        "surfaceForm": "Stichting fom",
+        "locationStart": 1969,
+        "locationEnd": 1982,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_15",
@@ -18429,6 +18789,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_14",
+        "category": "PER",
+        "surfaceForm": "A.I. van Itterbeek",
+        "locationStart": 2181,
+        "locationEnd": 2199,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gysbert_hist_14",
         "category": "PER",
         "surfaceForm": "van itterbeek",
@@ -18465,6 +18833,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_17",
+        "category": "PER",
+        "surfaceForm": "Gorter",
+        "locationStart": 2505,
+        "locationEnd": 2511,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_27",
         "surfaceForm": "Jan Beenakker",
         "category": "PER",
@@ -18499,6 +18875,14 @@
         "locationStart": 2520,
         "locationEnd": 2533,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_17",
+        "category": "PER",
+        "surfaceForm": "Jan Beenakker",
+        "locationStart": 2520,
+        "locationEnd": 2533,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_21",
@@ -18591,6 +18975,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_22",
+        "category": "PER",
+        "surfaceForm": "Joannes Josephus Maria Beenakker",
+        "locationStart": 3216,
+        "locationEnd": 3248,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gysbert_hist_22",
         "category": "PER",
         "surfaceForm": "josephus maria beenakker",
@@ -18673,6 +19065,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_22",
+        "category": "PER",
+        "surfaceForm": "Beenakkers",
+        "locationStart": 3350,
+        "locationEnd": 3360,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_34",
         "surfaceForm": "H.F.P. Knaap",
         "category": "PER",
@@ -18699,6 +19099,14 @@
         "locationStart": 3465,
         "locationEnd": 3471,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_22",
+        "category": "PER",
+        "surfaceForm": "H.F.P. Knaap",
+        "locationStart": 3465,
+        "locationEnd": 3477,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gysbert_hist_22",
@@ -18829,6 +19237,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_25",
+        "category": "PER",
+        "surfaceForm": "Beenakker",
+        "locationStart": 3862,
+        "locationEnd": 3871,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_39",
         "surfaceForm": "Burnett-coefficienten",
         "category": "MISC",
@@ -18875,6 +19291,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_28",
+        "category": "PER",
+        "surfaceForm": "Beenakker",
+        "locationStart": 4336,
+        "locationEnd": 4345,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_41",
         "surfaceForm": "Werkgemeenschap voor Atoom- en Molecuulfysica van de Stichting fom",
         "category": "ORG",
@@ -18903,6 +19327,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_29",
+        "category": "ORG",
+        "surfaceForm": "Werkgemeenschap voor Atoom- en Molecuulfysica",
+        "locationStart": 4498,
+        "locationEnd": 4543,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_36",
         "surfaceForm": "Stichting fom",
         "category": "ORG",
@@ -18919,6 +19351,14 @@
         "locationStart": 4551,
         "locationEnd": 4564,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_29",
+        "category": "ORG",
+        "surfaceForm": "Stichting fom",
+        "locationStart": 4551,
+        "locationEnd": 4564,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gysbert_hist_29",
@@ -18965,6 +19405,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_29",
+        "category": "LOC",
+        "surfaceForm": "Leiden",
+        "locationStart": 4713,
+        "locationEnd": 4719,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_43",
         "surfaceForm": "Beenakker",
         "category": "PER",
@@ -18999,6 +19447,14 @@
         "locationStart": 4746,
         "locationEnd": 4750,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_30",
+        "category": "PER",
+        "surfaceForm": "Beenakker",
+        "locationStart": 4746,
+        "locationEnd": 4755,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_39",
@@ -19053,6 +19509,14 @@
         "locationStart": 4878,
         "locationEnd": 4908,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_31",
+        "category": "ORG",
+        "surfaceForm": "Katholieke Universiteit Leuven",
+        "locationStart": 4878,
+        "locationEnd": 4908,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_45",
@@ -19135,6 +19599,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_31",
+        "category": "ORG",
+        "surfaceForm": "Massachusetts Institute of Technology",
+        "locationStart": 4975,
+        "locationEnd": 5012,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_43",
         "surfaceForm": "1991",
         "category": "TIME",
@@ -19181,6 +19653,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_31",
+        "category": "ORG",
+        "surfaceForm": "University of Waterloo",
+        "locationStart": 5069,
+        "locationEnd": 5091,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gysbert_hist_31",
         "category": "LOC",
         "surfaceForm": "waterloo",
@@ -19223,6 +19703,14 @@
         "locationStart": 5093,
         "locationEnd": 5099,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_31",
+        "category": "LOC",
+        "surfaceForm": "Canada",
+        "locationStart": 5093,
+        "locationEnd": 5099,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_49",
@@ -19271,6 +19759,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_32",
+        "category": "PER",
+        "surfaceForm": "F.R.W. Mc Court",
+        "locationStart": 5261,
+        "locationEnd": 5276,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gysbert_hist_32",
         "category": "PER",
         "surfaceForm": "w mc court j m beenakker e kohier",
@@ -19315,6 +19811,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_32",
+        "category": "PER",
+        "surfaceForm": "J.J.M. Beenakker",
+        "locationStart": 5278,
+        "locationEnd": 5294,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "flair_31",
         "category": "PER",
         "surfaceForm": "Beenakker",
@@ -19351,6 +19855,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_32",
+        "category": "PER",
+        "surfaceForm": "W.E. Kohier",
+        "locationStart": 5296,
+        "locationEnd": 5307,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_53",
         "surfaceForm": "I. Kus'er",
         "category": "PER",
@@ -19385,6 +19897,14 @@
         "locationStart": 5311,
         "locationEnd": 5317,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_32",
+        "category": "PER",
+        "surfaceForm": "I. Kus'er",
+        "locationStart": 5311,
+        "locationEnd": 5320,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "flair_32",
@@ -19441,6 +19961,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_32",
+        "category": "ORG",
+        "surfaceForm": "Clarendon Press",
+        "locationStart": 5349,
+        "locationEnd": 5364,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_55",
         "surfaceForm": "Oxford",
         "category": "LOC",
@@ -19477,6 +20005,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_32",
+        "category": "LOC",
+        "surfaceForm": "Oxford",
+        "locationStart": 5366,
+        "locationEnd": 5372,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_56",
         "surfaceForm": "Beenakker",
         "category": "PER",
@@ -19503,6 +20039,14 @@
         "locationStart": 5416,
         "locationEnd": 5425,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_33",
+        "category": "PER",
+        "surfaceForm": "Beenakker",
+        "locationStart": 5416,
+        "locationEnd": 5425,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_57",
@@ -19533,6 +20077,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_35",
+        "category": "PER",
+        "surfaceForm": "Pais",
+        "locationStart": 5528,
+        "locationEnd": 5532,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_58",
         "surfaceForm": "O",
         "category": "ORG",
@@ -19549,6 +20101,14 @@
         "locationStart": 5563,
         "locationEnd": 5569,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_35",
+        "category": "ORG",
+        "surfaceForm": "O en W",
+        "locationStart": 5563,
+        "locationEnd": 5569,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_59",
@@ -19615,6 +20175,14 @@
         "locationStart": 5660,
         "locationEnd": 5684,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_35",
+        "category": "ORG",
+        "surfaceForm": "Rijksuniversiteit Leidenkundewetenschappen",
+        "locationStart": 5660,
+        "locationEnd": 5758,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gysbert_hist_35",
@@ -19697,6 +20265,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_36",
+        "category": "LOC",
+        "surfaceForm": "Oortgebouw",
+        "locationStart": 5952,
+        "locationEnd": 5962,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_64",
         "surfaceForm": "Leidse Natuur- en Sterrenkunde",
         "category": "ORG",
@@ -19713,6 +20289,14 @@
         "locationStart": 6007,
         "locationEnd": 6013,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_36",
+        "category": "LOC",
+        "surfaceForm": "Leid-renkunde",
+        "locationStart": 6007,
+        "locationEnd": 6037,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "flair_35",
@@ -19759,204 +20343,12 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "J.H. van der Waals",
-        "locationStart": 0,
-        "locationEnd": 17,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "PERSON",
+        "ID": "xlmr_ner_38",
+        "category": "PER",
         "surfaceForm": "Joannes Josephus Maria Beenakker",
-        "locationStart": 18,
-        "locationEnd": 48,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "DATE",
-        "surfaceForm": "1 februari 1926",
-        "locationStart": 49,
-        "locationEnd": 64,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "DATE",
-        "surfaceForm": "23 juli 1998",
-        "locationStart": 67,
-        "locationEnd": 80,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "PERSON",
-        "surfaceForm": "Jan Beenakker",
-        "locationStart": 81,
-        "locationEnd": 94,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Leidse natuurkunde",
-        "locationStart": 139,
-        "locationEnd": 157,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_6",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Nederlandse wetenschap",
-        "locationStart": 162,
-        "locationEnd": 183,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_7",
-        "category": "LOCATION",
-        "surfaceForm": "Koog aan de Zaan",
-        "locationStart": 199,
-        "locationEnd": 214,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_8",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Nederlandse Spoorwegen",
-        "locationStart": 219,
-        "locationEnd": 240,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_9",
-        "category": "LOCATION",
-        "surfaceForm": "Zeeland",
-        "locationStart": 256,
-        "locationEnd": 263,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_10",
-        "category": "LOCATION",
-        "surfaceForm": "Rotterdam",
-        "locationStart": 278,
-        "locationEnd": 287,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_11",
-        "category": "ORGANIZATION",
-        "surfaceForm": "St. Franciscus Gymnasium",
-        "locationStart": 305,
-        "locationEnd": 327,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_12",
-        "category": "ORGANIZATION",
-        "surfaceForm": "cc",
-        "locationStart": 335,
-        "locationEnd": 337,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_13",
-        "category": "ORGANIZATION",
-        "surfaceForm": "p",
-        "locationStart": 342,
-        "locationEnd": 343,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_14",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Koninklijke Luchtmacht",
-        "locationStart": 392,
-        "locationEnd": 413,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_15",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Kamerlingh Onnes Laboratorium",
-        "locationStart": 429,
-        "locationEnd": 455,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_16",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Afdeling Natuurkunde",
-        "locationStart": 474,
-        "locationEnd": 494,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_17",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Stichting fom",
-        "locationStart": 527,
-        "locationEnd": 540,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_18",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Leidse Universiteit",
-        "locationStart": 563,
-        "locationEnd": 581,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_19",
-        "category": "PERSON",
-        "surfaceForm": "A.I. van Itterbeek",
-        "locationStart": 600,
-        "locationEnd": 617,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_20",
-        "category": "PERSON",
-        "surfaceForm": "Jan Beenakker",
-        "locationStart": 646,
-        "locationEnd": 659,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_21",
-        "category": "PERSON",
-        "surfaceForm": "Gorter",
-        "locationStart": 679,
-        "locationEnd": 685,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_22",
-        "category": "TIME",
-        "surfaceForm": "jaren zestig",
-        "locationStart": 716,
-        "locationEnd": 727,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_23",
-        "category": "PERSON",
-        "surfaceForm": "Jan Beenakker",
-        "locationStart": 748,
-        "locationEnd": 761,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_24",
-        "category": "PERSON",
-        "surfaceForm": "H.F.P. Knaap",
-        "locationStart": 821,
-        "locationEnd": 832,
-        "method": "gpt-3.5-turbo"
+        "locationStart": 6222,
+        "locationEnd": 6254,
+        "method": "xlmr_ner_"
       }
     ],
     "time_expressions": [

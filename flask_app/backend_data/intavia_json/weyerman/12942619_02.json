@@ -702,6 +702,30 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "GILLEMANS",
+        "locationStart": 0,
+        "locationEnd": 9,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "GILLEMANS",
+        "locationStart": 0,
+        "locationEnd": 9,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "PERSON",
+        "surfaceForm": "Die Fruytschilder",
+        "locationStart": 10,
+        "locationEnd": 26,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_1",
         "surfaceForm": "Fruytschilder",
         "category": "PER",
@@ -710,6 +734,14 @@
         "tokenStart": 2,
         "tokenEnd": 3,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "LOCATION",
+        "surfaceForm": "Antwerpenaar",
+        "locationStart": 27,
+        "locationEnd": 38,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_2",
@@ -728,48 +760,6 @@
         "locationStart": 35,
         "locationEnd": 47,
         "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "stanza_nl_3",
-        "surfaceForm": "Meesterwas",
-        "category": "PER",
-        "locationStart": 104,
-        "locationEnd": 114,
-        "tokenStart": 18,
-        "tokenEnd": 19,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "flair_0",
-        "category": "MISC",
-        "surfaceForm": "Meesterwas",
-        "locationStart": 104,
-        "locationEnd": 114,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "GILLEMANS",
-        "locationStart": 0,
-        "locationEnd": 9,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "PERSON",
-        "surfaceForm": "Die Fruytschilder",
-        "locationStart": 10,
-        "locationEnd": 26,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "LOCATION",
-        "surfaceForm": "Antwerpenaar",
-        "locationStart": 27,
-        "locationEnd": 38,
-        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gpt-3.5-turbo_3",
@@ -802,6 +792,24 @@
         "locationStart": 99,
         "locationEnd": 113,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "stanza_nl_3",
+        "surfaceForm": "Meesterwas",
+        "category": "PER",
+        "locationStart": 104,
+        "locationEnd": 114,
+        "tokenStart": 18,
+        "tokenEnd": 19,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_0",
+        "category": "MISC",
+        "surfaceForm": "Meesterwas",
+        "locationStart": 104,
+        "locationEnd": 114,
+        "method": "flair/ner-dutch-large_0.12.2"
       }
     ],
     "time_expressions": [

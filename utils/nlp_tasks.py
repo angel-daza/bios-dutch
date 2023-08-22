@@ -63,6 +63,7 @@ def run_bert_ner(bert_nlp, stanza_nlp, text, wordpiece_chars):
     for stanza_sent in doc.sentences:
         tagged_ents = []
         sentence = stanza_sent.text #" ".join([tok.text for tok in stanza_sent.tokens])
+        # print(sentence)
         if len(sentence) > 1:
             predictions = bert_nlp(sentence)
             tagged_ents = unify_wordpiece_predictions(predictions, wordpiece_chars)
@@ -80,9 +81,6 @@ def unify_wordpiece_predictions(prediction_list: List, wordpiece_chars: str) -> 
         PREDS:    [{'end': 14, 'entity': 'B-LOC', 'index': 5, 'score': 0.9960225820541382, 'start': 8, 'word': '▁JAPAN'}
                     {'end': 33, 'entity': 'B-LOC', 'index': 15, 'score': 0.9985975623130798, 'start': 30, 'word': '▁CH'}
                     {'end': 36, 'entity': 'B-LOC', 'index': 16, 'score': 0.9762864708900452, 'start': 33, 'word': 'INA'}]
-        RETURNS:
-            [{'text': 'JAPAN', 'entity': '', 'start': 8, 'end': 14},
-             {'text': 'CHINA', 'entity': '', 'start': 30, 'end': 36}]
     """
 
     def _merge_objs(obj_list):
@@ -91,7 +89,7 @@ def unify_wordpiece_predictions(prediction_list: List, wordpiece_chars: str) -> 
             real_start = obj_list[0]['start'] + 1 # The +1 is to avoid the underscore
         else:
             real_start = obj_list[0]['start']
-        if real_start == 1: real_start = 0
+        if real_start == 1: real_start = 0 # For some reason the first underscore is not counted...
         real_end = obj_list[-1]['end']
         real_entity = obj_list[0]['entity']
         scores = [o['score'] for o in obj_list]
@@ -102,23 +100,38 @@ def unify_wordpiece_predictions(prediction_list: List, wordpiece_chars: str) -> 
     if len(prediction_list) == 0: return []
     unified_predictions= []
     tmp_unif = []
-    ordered_preds = sorted(prediction_list, key=lambda x: x['index'])
-    head_indices = [ix for ix, pred in enumerate(ordered_preds) if not pred['word'].startswith(wordpiece_chars)]
-    for ix, pred_obj in enumerate(ordered_preds):
-        if ix > 0 and ix in head_indices:
-            if len(tmp_unif) > 0:
-                unified_predictions.append(_merge_objs(tmp_unif)) 
-                tmp_unif = []
-            tmp_unif.append(pred_obj)
-        else:
-            tmp_unif.append(pred_obj)
-        # print(pred_obj)
-    if len(tmp_unif) > 0:
-        unified_predictions.append(_merge_objs(tmp_unif))
-    # print("\nUNIFIED:")
-    # [print(x) for x in unified_predictions]
 
-    # In this step we further unify this time the IOB into FULL-LABEL
+    if wordpiece_chars == "▁":
+        for pred_obj in sorted(prediction_list, key=lambda x: x['index']):
+            if pred_obj['word'].startswith('▁'):
+                if len(tmp_unif) > 0:
+                    unified_predictions.append(_merge_objs(tmp_unif)) 
+                    tmp_unif = []
+                tmp_unif.append(pred_obj)
+            else:
+                tmp_unif.append(pred_obj)
+            # print(pred_obj)
+        if len(tmp_unif) > 0: unified_predictions.append(_merge_objs(tmp_unif))
+        # print("\nUNIFIED:")
+        # [print(x) for x in unified_predictions]
+    else:
+        ordered_preds = sorted(prediction_list, key=lambda x: x['index'])
+        head_indices = [ix for ix, pred in enumerate(ordered_preds) if not pred['word'].startswith(wordpiece_chars)]
+        for ix, pred_obj in enumerate(ordered_preds):
+            if ix > 0 and ix in head_indices:
+                if len(tmp_unif) > 0:
+                    unified_predictions.append(_merge_objs(tmp_unif)) 
+                    tmp_unif = []
+                tmp_unif.append(pred_obj)
+            else:
+                tmp_unif.append(pred_obj)
+            # print(pred_obj)
+        if len(tmp_unif) > 0:
+            unified_predictions.append(_merge_objs(tmp_unif))
+        # print("\nUNIFIED:")
+        # [print(x) for x in unified_predictions]
+    
+    #     # In this step we further unify this time the IOB into FULL-LABEL
     full_labeled = []
     label, tmp_entity = "", []
     entity_head_indices = [ix for ix, pred in enumerate(unified_predictions) if pred['entity'].startswith("B-")]

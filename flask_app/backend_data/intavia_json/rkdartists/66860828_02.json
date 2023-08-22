@@ -639,6 +639,38 @@
     },
     "entities": [
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "Schilder",
+        "locationStart": 0,
+        "locationEnd": 7,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "PERSON",
+        "surfaceForm": "tekenaar",
+        "locationStart": 10,
+        "locationEnd": 18,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "TIME",
+        "surfaceForm": "Geboren",
+        "locationStart": 20,
+        "locationEnd": 26,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "TIME",
+        "surfaceForm": "1643",
+        "locationStart": 28,
+        "locationEnd": 32,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_2",
         "surfaceForm": "1643",
         "category": "TIME",
@@ -655,6 +687,14 @@
         "locationStart": 29,
         "locationEnd": 33,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "LOCATION",
+        "surfaceForm": "Antwerpen",
+        "locationStart": 34,
+        "locationEnd": 43,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_0",
@@ -693,6 +733,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "Antwerpen",
+        "locationStart": 35,
+        "locationEnd": 44,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "LOCATION",
+        "surfaceForm": "Antwerpen",
+        "locationStart": 78,
+        "locationEnd": 87,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_1",
         "surfaceForm": "Antwerpen",
         "category": "LOC",
@@ -729,6 +785,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_3",
+        "category": "LOC",
+        "surfaceForm": "Antwerpen",
+        "locationStart": 82,
+        "locationEnd": 91,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_5",
         "surfaceForm": "van 1658 tot 1682",
         "category": "TIME",
@@ -755,6 +819,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_6",
+        "category": "TIME",
+        "surfaceForm": "1658",
+        "locationStart": 109,
+        "locationEnd": 113,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_0",
         "surfaceForm": "1658/59",
         "category": "TIME",
@@ -773,6 +845,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_7",
+        "category": "TIME",
+        "surfaceForm": "1682",
+        "locationStart": 117,
+        "locationEnd": 121,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_8",
+        "category": "TIME",
+        "surfaceForm": "1658/59",
+        "locationStart": 126,
+        "locationEnd": 133,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_1",
         "surfaceForm": "1681/82",
         "category": "TIME",
@@ -789,78 +877,6 @@
         "locationStart": 152,
         "locationEnd": 159,
         "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "Schilder",
-        "locationStart": 0,
-        "locationEnd": 7,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "PERSON",
-        "surfaceForm": "tekenaar",
-        "locationStart": 10,
-        "locationEnd": 18,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "TIME",
-        "surfaceForm": "Geboren",
-        "locationStart": 20,
-        "locationEnd": 26,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "TIME",
-        "surfaceForm": "1643",
-        "locationStart": 28,
-        "locationEnd": 32,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "LOCATION",
-        "surfaceForm": "Antwerpen",
-        "locationStart": 34,
-        "locationEnd": 43,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "LOCATION",
-        "surfaceForm": "Antwerpen",
-        "locationStart": 78,
-        "locationEnd": 87,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_6",
-        "category": "TIME",
-        "surfaceForm": "1658",
-        "locationStart": 109,
-        "locationEnd": 113,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_7",
-        "category": "TIME",
-        "surfaceForm": "1682",
-        "locationStart": 117,
-        "locationEnd": 121,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_8",
-        "category": "TIME",
-        "surfaceForm": "1658/59",
-        "locationStart": 126,
-        "locationEnd": 133,
-        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gpt-3.5-turbo_9",

@@ -812,6 +812,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "Henricus Oort",
+        "locationStart": 12,
+        "locationEnd": 25,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "Henricus Oort",
+        "locationStart": 13,
+        "locationEnd": 25,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_1",
         "surfaceForm": "Henricus Oort",
         "category": "PER",
@@ -846,6 +862,30 @@
         "locationStart": 53,
         "locationEnd": 66,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "Henricus Oort",
+        "locationStart": 53,
+        "locationEnd": 66,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "LOCATION",
+        "surfaceForm": "Zwolle",
+        "locationStart": 54,
+        "locationEnd": 60,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "LOCATION",
+        "surfaceForm": "Hoogeveen",
+        "locationStart": 65,
+        "locationEnd": 74,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_2",
@@ -884,6 +924,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Zwolle",
+        "locationStart": 81,
+        "locationEnd": 87,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_3",
         "surfaceForm": "Hoogeveen",
         "category": "LOC",
@@ -920,6 +968,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Hoogeveen",
+        "locationStart": 91,
+        "locationEnd": 100,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_4",
         "surfaceForm": "Oort",
         "category": "PER",
@@ -948,6 +1004,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_2",
+        "category": "PER",
+        "surfaceForm": "Oor",
+        "locationStart": 120,
+        "locationEnd": 123,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Nederlands",
+        "locationStart": 139,
+        "locationEnd": 149,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_5",
         "surfaceForm": "Nederlands",
         "category": "MISC",
@@ -964,38 +1036,6 @@
         "locationStart": 189,
         "locationEnd": 199,
         "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "Henricus Oort",
-        "locationStart": 13,
-        "locationEnd": 25,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "LOCATION",
-        "surfaceForm": "Zwolle",
-        "locationStart": 54,
-        "locationEnd": 60,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "LOCATION",
-        "surfaceForm": "Hoogeveen",
-        "locationStart": 65,
-        "locationEnd": 74,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Nederlands",
-        "locationStart": 139,
-        "locationEnd": 149,
-        "method": "gpt-3.5-turbo"
       }
     ],
     "time_expressions": []

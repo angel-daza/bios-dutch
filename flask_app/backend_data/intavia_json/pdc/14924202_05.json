@@ -1024,6 +1024,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Oss",
+        "locationStart": 65,
+        "locationEnd": 68,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_2",
         "surfaceForm": "Lodewijk Napoleon",
         "category": "PER",
@@ -1040,6 +1048,22 @@
         "locationStart": 134,
         "locationEnd": 151,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "Lodewijk",
+        "locationStart": 134,
+        "locationEnd": 142,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "xlmr_ner_1",
+        "category": "PER",
+        "surfaceForm": "Napoleon",
+        "locationStart": 143,
+        "locationEnd": 151,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_3",
@@ -1110,6 +1134,14 @@
         "locationStart": 230,
         "locationEnd": 235,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "Noord-Brabant",
+        "locationStart": 230,
+        "locationEnd": 243,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gysbert_hist_1",

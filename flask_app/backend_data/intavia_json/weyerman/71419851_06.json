@@ -922,6 +922,30 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "NIKKELEN",
+        "locationStart": 0,
+        "locationEnd": 7,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "NIKKELEN",
+        "locationStart": 0,
+        "locationEnd": 8,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "LOCATION",
+        "surfaceForm": "Haarlemmer",
+        "locationStart": 15,
+        "locationEnd": 25,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_0",
         "surfaceForm": "Haarlemmer",
         "category": "MISC",
@@ -940,6 +964,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "PERSON",
+        "surfaceForm": "Kerkschilder",
+        "locationStart": 37,
+        "locationEnd": 49,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_1",
         "surfaceForm": "Kerkschilder",
         "category": "PER",
@@ -956,6 +988,14 @@
         "locationStart": 58,
         "locationEnd": 70,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "PERSON",
+        "surfaceForm": "van Vliet",
+        "locationStart": 59,
+        "locationEnd": 68,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_2",
@@ -986,12 +1026,36 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "PER",
+        "surfaceForm": "van Vliet",
+        "locationStart": 90,
+        "locationEnd": 99,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "flair_0",
         "category": "PER",
         "surfaceForm": "Vliet",
         "locationStart": 94,
         "locationEnd": 99,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Fransche",
+        "locationStart": 97,
+        "locationEnd": 105,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Latynsche",
+        "locationStart": 110,
+        "locationEnd": 119,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_3",
@@ -1012,6 +1076,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "gpt-3.5-turbo_6",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Fransche",
+        "locationStart": 134,
+        "locationEnd": 142,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_7",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Latynsche",
+        "locationStart": 147,
+        "locationEnd": 156,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_4",
         "surfaceForm": "Latynsche",
         "category": "MISC",
@@ -1028,70 +1108,6 @@
         "locationStart": 149,
         "locationEnd": 158,
         "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "NIKKELEN",
-        "locationStart": 0,
-        "locationEnd": 7,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "LOCATION",
-        "surfaceForm": "Haarlemmer",
-        "locationStart": 15,
-        "locationEnd": 25,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "PERSON",
-        "surfaceForm": "Kerkschilder",
-        "locationStart": 37,
-        "locationEnd": 49,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "PERSON",
-        "surfaceForm": "van Vliet",
-        "locationStart": 59,
-        "locationEnd": 68,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Fransche",
-        "locationStart": 97,
-        "locationEnd": 105,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Latynsche",
-        "locationStart": 110,
-        "locationEnd": 119,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_6",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Fransche",
-        "locationStart": 134,
-        "locationEnd": 142,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_7",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Latynsche",
-        "locationStart": 147,
-        "locationEnd": 156,
-        "method": "gpt-3.5-turbo"
       }
     ],
     "time_expressions": []

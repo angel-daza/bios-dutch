@@ -13151,6 +13151,22 @@
     },
     "entities": [
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "voorman",
+        "locationStart": 0,
+        "locationEnd": 6,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Twentse arbeidersbeweging",
+        "locationStart": 10,
+        "locationEnd": 33,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_0",
         "surfaceForm": "Twentse",
         "category": "MISC",
@@ -13177,6 +13193,22 @@
         "locationStart": 15,
         "locationEnd": 22,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "LOCATION",
+        "surfaceForm": "Almelo",
+        "locationStart": 37,
+        "locationEnd": 43,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "TIME",
+        "surfaceForm": "14 juli 1865",
+        "locationStart": 47,
+        "locationEnd": 59,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_1",
@@ -13215,6 +13247,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Almelo",
+        "locationStart": 56,
+        "locationEnd": 62,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "LOCATION",
+        "surfaceForm": "Enschede",
+        "locationStart": 63,
+        "locationEnd": 71,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_56",
         "surfaceForm": "14 juli 1865",
         "category": "TIME",
@@ -13231,6 +13279,14 @@
         "locationStart": 66,
         "locationEnd": 78,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "TIME",
+        "surfaceForm": "19 mei 1902",
+        "locationStart": 75,
+        "locationEnd": 87,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_2",
@@ -13269,6 +13325,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Enschede",
+        "locationStart": 95,
+        "locationEnd": 103,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_6",
+        "category": "PERSON",
+        "surfaceForm": "Diena Johanna Frederika Tusveld",
+        "locationStart": 97,
+        "locationEnd": 128,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_1",
         "surfaceForm": "19 mei 1902",
         "category": "TIME",
@@ -13285,6 +13357,22 @@
         "locationStart": 107,
         "locationEnd": 118,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_7",
+        "category": "PERSON",
+        "surfaceForm": "Dina Johanna",
+        "locationStart": 132,
+        "locationEnd": 144,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_8",
+        "category": "PERSON",
+        "surfaceForm": "Frederika Tusveld",
+        "locationStart": 146,
+        "locationEnd": 161,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_3",
@@ -13315,12 +13403,28 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "PER",
+        "surfaceForm": "Diena Johanna Frederika Tusveld",
+        "locationStart": 163,
+        "locationEnd": 194,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gysbert_hist_1",
         "category": "PER",
         "surfaceForm": "johanna frederika tusveld",
         "locationStart": 169,
         "locationEnd": 194,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_9",
+        "category": "PERSON",
+        "surfaceForm": "Gerrit Jan Hoop",
+        "locationStart": 190,
+        "locationEnd": 205,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_20",
@@ -13377,6 +13481,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "PER",
+        "surfaceForm": "Dina Johanna,",
+        "locationStart": 205,
+        "locationEnd": 218,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_10",
+        "category": "PERSON",
+        "surfaceForm": "Tusveld",
+        "locationStart": 209,
+        "locationEnd": 216,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_5",
         "surfaceForm": "Frederika Tusveld",
         "category": "PER",
@@ -13403,12 +13523,76 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "PER",
+        "surfaceForm": "Frederika Tusveld",
+        "locationStart": 219,
+        "locationEnd": 236,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_11",
+        "category": "PERSON",
+        "surfaceForm": "J. Pieterson",
+        "locationStart": 221,
+        "locationEnd": 233,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_12",
+        "category": "PERSON",
+        "surfaceForm": "Van Amerongen",
+        "locationStart": 238,
+        "locationEnd": 251,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_13",
+        "category": "PERSON",
+        "surfaceForm": "F. Domela Nieuwenhuis",
+        "locationStart": 256,
+        "locationEnd": 277,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_14",
+        "category": "LOCATION",
+        "surfaceForm": "Enschede",
+        "locationStart": 282,
+        "locationEnd": 290,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_15",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Sociaal Democratische Bond",
+        "locationStart": 294,
+        "locationEnd": 318,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "flair_3",
         "category": "PER",
         "surfaceForm": "Republikein",
         "locationStart": 313,
         "locationEnd": 324,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_3",
+        "category": "LOC",
+        "surfaceForm": "Republike",
+        "locationStart": 313,
+        "locationEnd": 322,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_16",
+        "category": "PERSON",
+        "surfaceForm": "Tusveld",
+        "locationStart": 323,
+        "locationEnd": 330,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_6",
@@ -13429,6 +13613,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "gpt-3.5-turbo_17",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Spinnerij B.W. & H. ter Kuile 'Tubantia'",
+        "locationStart": 334,
+        "locationEnd": 370,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_18",
+        "category": "LOCATION",
+        "surfaceForm": "Enschede",
+        "locationStart": 374,
+        "locationEnd": 382,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_51",
         "surfaceForm": "vier jaar eerder",
         "category": "TIME",
@@ -13437,6 +13637,22 @@
         "tokenStart": 68,
         "tokenEnd": 71,
         "method": "human_gold"
+      },
+      {
+        "ID": "gpt-3.5-turbo_19",
+        "category": "ORGANIZATION",
+        "surfaceForm": "SDB",
+        "locationStart": 386,
+        "locationEnd": 389,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_20",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Tubantia",
+        "locationStart": 393,
+        "locationEnd": 400,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_7",
@@ -13475,6 +13691,70 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_21",
+        "category": "PERSON",
+        "surfaceForm": "Tusveld",
+        "locationStart": 405,
+        "locationEnd": 412,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_4",
+        "category": "PER",
+        "surfaceForm": "Gerrit Jan Hoop",
+        "locationStart": 405,
+        "locationEnd": 420,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_22",
+        "category": "ORGANIZATION",
+        "surfaceForm": "SDB",
+        "locationStart": 416,
+        "locationEnd": 419,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_23",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Wevers- en Spinnersbond 'Vooruit'",
+        "locationStart": 423,
+        "locationEnd": 452,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_24",
+        "category": "LOCATION",
+        "surfaceForm": "Enschede",
+        "locationStart": 456,
+        "locationEnd": 464,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_25",
+        "category": "PERSON",
+        "surfaceForm": "Ter Kuile",
+        "locationStart": 468,
+        "locationEnd": 476,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_26",
+        "category": "PERSON",
+        "surfaceForm": "Morsman",
+        "locationStart": 481,
+        "locationEnd": 488,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_27",
+        "category": "TIME",
+        "surfaceForm": "februari tot mei 1890",
+        "locationStart": 493,
+        "locationEnd": 513,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_8",
         "surfaceForm": "Tusveld",
         "category": "PER",
@@ -13511,6 +13791,62 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_6",
+        "category": "PER",
+        "surfaceForm": "Tusveld",
+        "locationStart": 497,
+        "locationEnd": 504,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_28",
+        "category": "PERSON",
+        "surfaceForm": "Tusveld",
+        "locationStart": 515,
+        "locationEnd": 522,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_29",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Parlementaire Enquetecommissie",
+        "locationStart": 526,
+        "locationEnd": 553,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_30",
+        "category": "PERSON",
+        "surfaceForm": "G. Bennink",
+        "locationStart": 558,
+        "locationEnd": 567,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_31",
+        "category": "ARTWORK",
+        "surfaceForm": "Recht door Zee",
+        "locationStart": 571,
+        "locationEnd": 584,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_32",
+        "category": "PERSON",
+        "surfaceForm": "Domela Nieuwenhuis",
+        "locationStart": 589,
+        "locationEnd": 607,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_33",
+        "category": "PERSON",
+        "surfaceForm": "Tusveld",
+        "locationStart": 612,
+        "locationEnd": 619,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_55",
         "surfaceForm": "1885",
         "category": "TIME",
@@ -13527,6 +13863,30 @@
         "locationStart": 622,
         "locationEnd": 626,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_34",
+        "category": "PERSON",
+        "surfaceForm": "Tusveld",
+        "locationStart": 624,
+        "locationEnd": 631,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_35",
+        "category": "PERSON",
+        "surfaceForm": "W.H. Vliegen",
+        "locationStart": 636,
+        "locationEnd": 648,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_36",
+        "category": "TIME",
+        "surfaceForm": "1897 tot zijn dood in 1902",
+        "locationStart": 653,
+        "locationEnd": 678,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_9",
@@ -13583,6 +13943,30 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_7",
+        "category": "LOC",
+        "surfaceForm": "Gronau",
+        "locationStart": 682,
+        "locationEnd": 688,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_37",
+        "category": "PERSON",
+        "surfaceForm": "Pieterson",
+        "locationStart": 683,
+        "locationEnd": 691,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_38",
+        "category": "ARTWORK",
+        "surfaceForm": "Recht door Zee",
+        "locationStart": 695,
+        "locationEnd": 708,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_11",
         "surfaceForm": "J. Pieterson",
         "category": "PER",
@@ -13619,12 +14003,28 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_8",
+        "category": "PER",
+        "surfaceForm": "J. Pietersonongen",
+        "locationStart": 706,
+        "locationEnd": 746,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "flair_9",
         "category": "PER",
         "surfaceForm": "Pieterson",
         "locationStart": 709,
         "locationEnd": 718,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_39",
+        "category": "PERSON",
+        "surfaceForm": "Tusveld",
+        "locationStart": 713,
+        "locationEnd": 720,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_12",
@@ -13663,6 +14063,38 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_40",
+        "category": "LOCATION",
+        "surfaceForm": "Zwitserland",
+        "locationStart": 746,
+        "locationEnd": 757,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_41",
+        "category": "TIME",
+        "surfaceForm": "1902",
+        "locationStart": 762,
+        "locationEnd": 766,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_42",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Van Heek & Co",
+        "locationStart": 771,
+        "locationEnd": 783,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_43",
+        "category": "PERSON",
+        "surfaceForm": "Tusveld",
+        "locationStart": 788,
+        "locationEnd": 795,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_13",
         "surfaceForm": "Tusveld",
         "category": "PER",
@@ -13697,6 +14129,22 @@
         "locationStart": 795,
         "locationEnd": 802,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_9",
+        "category": "PER",
+        "surfaceForm": "Tusveld",
+        "locationStart": 795,
+        "locationEnd": 802,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_44",
+        "category": "PERSON",
+        "surfaceForm": "moeder",
+        "locationStart": 800,
+        "locationEnd": 806,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_14",
@@ -13735,6 +14183,38 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_9",
+        "category": "PER",
+        "surfaceForm": "Pieterson",
+        "locationStart": 806,
+        "locationEnd": 815,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_45",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Literatuur",
+        "locationStart": 809,
+        "locationEnd": 819,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_46",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Staatscommissie",
+        "locationStart": 823,
+        "locationEnd": 838,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_47",
+        "category": "LOCATION",
+        "surfaceForm": "Twenthe",
+        "locationStart": 842,
+        "locationEnd": 849,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_15",
         "surfaceForm": "F. Domela Nieuwenhuis",
         "category": "PER",
@@ -13763,12 +14243,44 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_10",
+        "category": "PER",
+        "surfaceForm": "F. Domela Nieuwenhuis",
+        "locationStart": 852,
+        "locationEnd": 873,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_48",
+        "category": "TIME",
+        "surfaceForm": "1892",
+        "locationStart": 853,
+        "locationEnd": 857,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gysbert_hist_10",
         "category": "PER",
         "surfaceForm": "domela nieuwenhuis",
         "locationStart": 855,
         "locationEnd": 873,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_49",
+        "category": "PERSON",
+        "surfaceForm": "Vliegen",
+        "locationStart": 861,
+        "locationEnd": 867,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_50",
+        "category": "ARTWORK",
+        "surfaceForm": "Dageraad",
+        "locationStart": 869,
+        "locationEnd": 876,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_63",
@@ -13787,6 +14299,14 @@
         "locationStart": 877,
         "locationEnd": 881,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_51",
+        "category": "PERSON",
+        "surfaceForm": "Schweizer",
+        "locationStart": 880,
+        "locationEnd": 889,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_16",
@@ -13825,6 +14345,38 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_10",
+        "category": "LOC",
+        "surfaceForm": "Enschede",
+        "locationStart": 885,
+        "locationEnd": 893,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_52",
+        "category": "PERSON",
+        "surfaceForm": "Johan Tusveld",
+        "locationStart": 894,
+        "locationEnd": 907,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_53",
+        "category": "ARTWORK",
+        "surfaceForm": "Jaarboek Twente",
+        "locationStart": 912,
+        "locationEnd": 926,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_54",
+        "category": "PERSON",
+        "surfaceForm": "A.L.A. Wevers",
+        "locationStart": 930,
+        "locationEnd": 942,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_17",
         "surfaceForm": "Tusveld",
         "category": "PER",
@@ -13859,6 +14411,22 @@
         "locationStart": 943,
         "locationEnd": 950,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_11",
+        "category": "PER",
+        "surfaceForm": "Tusveld",
+        "locationStart": 943,
+        "locationEnd": 950,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_55",
+        "category": "PERSON",
+        "surfaceForm": "J. Folkerts",
+        "locationStart": 947,
+        "locationEnd": 956,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_18",
@@ -13897,6 +14465,38 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_11",
+        "category": "PER",
+        "surfaceForm": "Pieterson",
+        "locationStart": 954,
+        "locationEnd": 963,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_56",
+        "category": "PERSON",
+        "surfaceForm": "J.M.M. Haverkate",
+        "locationStart": 958,
+        "locationEnd": 972,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_57",
+        "category": "PERSON",
+        "surfaceForm": "F. Pereboom",
+        "locationStart": 974,
+        "locationEnd": 983,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_58",
+        "category": "ARTWORK",
+        "surfaceForm": "Overijsselse biografieen",
+        "locationStart": 985,
+        "locationEnd": 1007,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_19",
         "surfaceForm": "Enschede van de Sociaal Democratische Bond",
         "category": "ORG",
@@ -13933,6 +14533,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_11",
+        "category": "LOC",
+        "surfaceForm": "Enschede",
+        "locationStart": 996,
+        "locationEnd": 1004,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_59",
+        "category": "LOCATION",
+        "surfaceForm": "Meppel",
+        "locationStart": 1009,
+        "locationEnd": 1015,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_0",
         "surfaceForm": "Sociaal Democratische Bond ( SDB )",
         "category": "ORG",
@@ -13949,6 +14565,14 @@
         "locationStart": 1012,
         "locationEnd": 1038,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_11",
+        "category": "ORG",
+        "surfaceForm": "Sociaal Democratische BondSDB",
+        "locationStart": 1012,
+        "locationEnd": 1043,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_20",
@@ -14005,6 +14629,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_12",
+        "category": "PER",
+        "surfaceForm": "Tusveld",
+        "locationStart": 1088,
+        "locationEnd": 1095,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_22",
         "surfaceForm": "Spinnerij B.W. & H. ter Kuile",
         "category": "MISC",
@@ -14031,6 +14663,14 @@
         "locationStart": 1112,
         "locationEnd": 1126,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_12",
+        "category": "ORG",
+        "surfaceForm": "Spinnerij B.W. & H. ter Kuile 'Tubantia",
+        "locationStart": 1112,
+        "locationEnd": 1151,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "flair_14",
@@ -14095,6 +14735,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_12",
+        "category": "LOC",
+        "surfaceForm": "Enschede",
+        "locationStart": 1156,
+        "locationEnd": 1164,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_25",
         "surfaceForm": "SDB congressen",
         "category": "ORG",
@@ -14121,6 +14769,14 @@
         "locationStart": 1315,
         "locationEnd": 1318,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_13",
+        "category": "ORG",
+        "surfaceForm": "SDB",
+        "locationStart": 1315,
+        "locationEnd": 1318,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_6",
@@ -14195,6 +14851,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_14",
+        "category": "ORG",
+        "surfaceForm": "Tubantia",
+        "locationStart": 1351,
+        "locationEnd": 1359,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_9",
         "surfaceForm": "1888",
         "category": "TIME",
@@ -14247,6 +14911,14 @@
         "locationStart": 1659,
         "locationEnd": 1682,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_15",
+        "category": "ORG",
+        "surfaceForm": "Wevers- en SpinnersbondVooruit",
+        "locationStart": 1659,
+        "locationEnd": 1691,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_29",
@@ -14339,6 +15011,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_15",
+        "category": "LOC",
+        "surfaceForm": "Enschede",
+        "locationStart": 1754,
+        "locationEnd": 1762,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_31",
         "surfaceForm": "Ter Kuile",
         "category": "ORG",
@@ -14375,6 +15055,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_15",
+        "category": "PER",
+        "surfaceForm": "Ter Kuile",
+        "locationStart": 1767,
+        "locationEnd": 1776,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_32",
         "surfaceForm": "Morsman",
         "category": "PER",
@@ -14399,6 +15087,14 @@
         "locationStart": 1780,
         "locationEnd": 1787,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_15",
+        "category": "PER",
+        "surfaceForm": "Morsman",
+        "locationStart": 1780,
+        "locationEnd": 1787,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_16",
@@ -14465,6 +15161,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_16",
+        "category": "LOC",
+        "surfaceForm": "Vooruit",
+        "locationStart": 1917,
+        "locationEnd": 1924,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_34",
         "surfaceForm": "Tusveld",
         "category": "PER",
@@ -14499,6 +15203,14 @@
         "locationStart": 1942,
         "locationEnd": 1945,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_16",
+        "category": "PER",
+        "surfaceForm": "Tusveld",
+        "locationStart": 1942,
+        "locationEnd": 1949,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_22",
@@ -14547,6 +15259,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_19",
+        "category": "ORG",
+        "surfaceForm": "Parlementaire Enquetecommissie",
+        "locationStart": 2135,
+        "locationEnd": 2165,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_24",
         "surfaceForm": "1890",
         "category": "TIME",
@@ -14591,6 +15311,14 @@
         "locationStart": 2181,
         "locationEnd": 2191,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_20",
+        "category": "PER",
+        "surfaceForm": "G. Bennink",
+        "locationStart": 2181,
+        "locationEnd": 2191,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gysbert_hist_20",
@@ -14657,6 +15385,14 @@
         "method": "stanza_nl"
       },
       {
+        "ID": "xlmr_ner_21",
+        "category": "PER",
+        "surfaceForm": "Zee",
+        "locationStart": 2226,
+        "locationEnd": 2229,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_39",
         "surfaceForm": "Twentse",
         "category": "MISC",
@@ -14699,6 +15435,14 @@
         "locationStart": 2268,
         "locationEnd": 2286,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_21",
+        "category": "PER",
+        "surfaceForm": "Domela Nieuwenhuis",
+        "locationStart": 2268,
+        "locationEnd": 2286,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_28",
@@ -14765,6 +15509,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_21",
+        "category": "PER",
+        "surfaceForm": "Tusveld",
+        "locationStart": 2314,
+        "locationEnd": 2321,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_43",
         "surfaceForm": "T.",
         "category": "PER",
@@ -14781,6 +15533,14 @@
         "locationStart": 2376,
         "locationEnd": 2378,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_21",
+        "category": "PER",
+        "surfaceForm": "T.",
+        "locationStart": 2376,
+        "locationEnd": 2378,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_44",
@@ -14809,6 +15569,14 @@
         "locationStart": 2405,
         "locationEnd": 2408,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_22",
+        "category": "ORG",
+        "surfaceForm": "SDB",
+        "locationStart": 2405,
+        "locationEnd": 2408,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_31",
@@ -14865,6 +15633,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_22",
+        "category": "PER",
+        "surfaceForm": "Tusveld",
+        "locationStart": 2423,
+        "locationEnd": 2430,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_46",
         "surfaceForm": "SDB",
         "category": "ORG",
@@ -14891,6 +15667,14 @@
         "locationStart": 2437,
         "locationEnd": 2440,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_22",
+        "category": "ORG",
+        "surfaceForm": "SDB",
+        "locationStart": 2437,
+        "locationEnd": 2440,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_47",
@@ -14921,6 +15705,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_22",
+        "category": "ORG",
+        "surfaceForm": "Socialistenbond",
+        "locationStart": 2448,
+        "locationEnd": 2463,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_48",
         "surfaceForm": "W.H. Vliegen",
         "category": "PER",
@@ -14947,6 +15739,14 @@
         "locationStart": 2473,
         "locationEnd": 2477,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_23",
+        "category": "PER",
+        "surfaceForm": "W.H. Vliegen",
+        "locationStart": 2473,
+        "locationEnd": 2485,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gysbert_hist_23",
@@ -15033,6 +15833,14 @@
         "locationStart": 2652,
         "locationEnd": 2659,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_24",
+        "category": "PER",
+        "surfaceForm": "Pieterson",
+        "locationStart": 2652,
+        "locationEnd": 2661,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_50",
@@ -15209,6 +16017,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_28",
+        "category": "PER",
+        "surfaceForm": "Tusveld",
+        "locationStart": 2915,
+        "locationEnd": 2922,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_53",
         "surfaceForm": "H. van Kol",
         "category": "PER",
@@ -15243,6 +16059,14 @@
         "locationStart": 3006,
         "locationEnd": 3007,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_29",
+        "category": "PER",
+        "surfaceForm": "H. van Kol",
+        "locationStart": 3006,
+        "locationEnd": 3016,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gysbert_hist_29",
@@ -15287,6 +16111,14 @@
         "locationStart": 3034,
         "locationEnd": 3045,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_29",
+        "category": "LOC",
+        "surfaceForm": "Zwitserland",
+        "locationStart": 3034,
+        "locationEnd": 3045,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_48",
@@ -15343,6 +16175,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_30",
+        "category": "ORG",
+        "surfaceForm": "Van Heek & Co",
+        "locationStart": 3117,
+        "locationEnd": 3130,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "flair_30",
         "category": "ORG",
         "surfaceForm": "Co",
@@ -15385,6 +16225,14 @@
         "locationStart": 3140,
         "locationEnd": 3147,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_30",
+        "category": "PER",
+        "surfaceForm": "Tusveld",
+        "locationStart": 3140,
+        "locationEnd": 3147,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "flair_32",
@@ -15457,6 +16305,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_33",
+        "category": "PER",
+        "surfaceForm": "Twenthe",
+        "locationStart": 3406,
+        "locationEnd": 3413,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gysbert_hist_33",
         "category": "TIME",
         "surfaceForm": "1892",
@@ -15471,6 +16327,14 @@
         "locationStart": 3428,
         "locationEnd": 3435,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_34",
+        "category": "PER",
+        "surfaceForm": "Vliegen",
+        "locationStart": 3428,
+        "locationEnd": 3435,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_60",
@@ -15489,6 +16353,14 @@
         "locationStart": 3437,
         "locationEnd": 3448,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_34",
+        "category": "ORG",
+        "surfaceForm": "Dageraad II",
+        "locationStart": 3437,
+        "locationEnd": 3448,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_61",
@@ -15515,6 +16387,14 @@
         "locationStart": 3459,
         "locationEnd": 3473,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_35",
+        "category": "PER",
+        "surfaceForm": "W.F. SchweizerJohan Tusveld",
+        "locationStart": 3459,
+        "locationEnd": 3489,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "flair_34",
@@ -15569,6 +16449,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_36",
+        "category": "LOC",
+        "surfaceForm": "Twente",
+        "locationStart": 3548,
+        "locationEnd": 3554,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_64",
         "surfaceForm": "A.L.A. Wevers",
         "category": "PER",
@@ -15587,6 +16475,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_37",
+        "category": "PER",
+        "surfaceForm": "A.L.A. Wevers",
+        "locationStart": 3569,
+        "locationEnd": 3582,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "flair_35",
         "category": "PER",
         "surfaceForm": "Wevers",
@@ -15601,6 +16497,14 @@
         "locationStart": 3576,
         "locationEnd": 3582,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_37",
+        "category": "PER",
+        "surfaceForm": "'Tusveld",
+        "locationStart": 3584,
+        "locationEnd": 3592,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_65",
@@ -15647,6 +16551,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_37",
+        "category": "PER",
+        "surfaceForm": "Johan",
+        "locationStart": 3594,
+        "locationEnd": 3599,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gysbert_hist_37",
         "category": "TIME",
         "surfaceForm": "1865",
@@ -15689,6 +16601,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_38",
+        "category": "PER",
+        "surfaceForm": "J. Folkerts",
+        "locationStart": 3642,
+        "locationEnd": 3653,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "flair_37",
         "category": "PER",
         "surfaceForm": "Folkerts",
@@ -15713,6 +16633,14 @@
         "locationStart": 3655,
         "locationEnd": 3661,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_38",
+        "category": "PER",
+        "surfaceForm": "J.M.M. Haverkate",
+        "locationStart": 3655,
+        "locationEnd": 3671,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gysbert_hist_38",
@@ -15755,6 +16683,14 @@
         "locationStart": 3673,
         "locationEnd": 3684,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_38",
+        "category": "PER",
+        "surfaceForm": "F. PereboomMeppel",
+        "locationStart": 3673,
+        "locationEnd": 3727,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_70",
@@ -15817,6 +16753,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_38",
+        "category": "LOC",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 3729,
+        "locationEnd": 3738,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gysbert_hist_38",
         "category": "TIME",
         "surfaceForm": "1992",
@@ -15849,6 +16793,14 @@
         "locationStart": 3754,
         "locationEnd": 3760,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_39",
+        "category": "PER",
+        "surfaceForm": "D. NasAmsterdamJ. Tusveld",
+        "locationStart": 3754,
+        "locationEnd": 3815,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "flair_39",
@@ -15965,6 +16917,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_39",
+        "category": "ORG",
+        "surfaceForm": "Vliegen",
+        "locationStart": 3821,
+        "locationEnd": 3828,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_78",
         "surfaceForm": "Dageraad I",
         "category": "ORG",
@@ -15981,6 +16941,14 @@
         "locationStart": 3830,
         "locationEnd": 3840,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_39",
+        "category": "ORG",
+        "surfaceForm": "Dageraad IAmsterdam",
+        "locationStart": 3830,
+        "locationEnd": 3851,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_79",
@@ -16033,6 +17001,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_39",
+        "category": "PER",
+        "surfaceForm": "Tusveld",
+        "locationStart": 3868,
+        "locationEnd": 3875,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_80",
         "surfaceForm": "Biografisch Portaal Auteur",
         "category": "MISC",
@@ -16049,6 +17025,14 @@
         "locationStart": 3883,
         "locationEnd": 3902,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_39",
+        "category": "ORG",
+        "surfaceForm": "Auteur:A.L. van SchelvenBWSA",
+        "locationStart": 3903,
+        "locationEnd": 3963,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_81",
@@ -16083,486 +17067,6 @@
         "locationStart": 3967,
         "locationEnd": 3971,
         "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "voorman",
-        "locationStart": 0,
-        "locationEnd": 6,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Twentse arbeidersbeweging",
-        "locationStart": 10,
-        "locationEnd": 33,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "LOCATION",
-        "surfaceForm": "Almelo",
-        "locationStart": 37,
-        "locationEnd": 43,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "TIME",
-        "surfaceForm": "14 juli 1865",
-        "locationStart": 47,
-        "locationEnd": 59,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "LOCATION",
-        "surfaceForm": "Enschede",
-        "locationStart": 63,
-        "locationEnd": 71,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "TIME",
-        "surfaceForm": "19 mei 1902",
-        "locationStart": 75,
-        "locationEnd": 87,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_6",
-        "category": "PERSON",
-        "surfaceForm": "Diena Johanna Frederika Tusveld",
-        "locationStart": 97,
-        "locationEnd": 128,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_7",
-        "category": "PERSON",
-        "surfaceForm": "Dina Johanna",
-        "locationStart": 132,
-        "locationEnd": 144,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_8",
-        "category": "PERSON",
-        "surfaceForm": "Frederika Tusveld",
-        "locationStart": 146,
-        "locationEnd": 161,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_9",
-        "category": "PERSON",
-        "surfaceForm": "Gerrit Jan Hoop",
-        "locationStart": 190,
-        "locationEnd": 205,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_10",
-        "category": "PERSON",
-        "surfaceForm": "Tusveld",
-        "locationStart": 209,
-        "locationEnd": 216,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_11",
-        "category": "PERSON",
-        "surfaceForm": "J. Pieterson",
-        "locationStart": 221,
-        "locationEnd": 233,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_12",
-        "category": "PERSON",
-        "surfaceForm": "Van Amerongen",
-        "locationStart": 238,
-        "locationEnd": 251,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_13",
-        "category": "PERSON",
-        "surfaceForm": "F. Domela Nieuwenhuis",
-        "locationStart": 256,
-        "locationEnd": 277,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_14",
-        "category": "LOCATION",
-        "surfaceForm": "Enschede",
-        "locationStart": 282,
-        "locationEnd": 290,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_15",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Sociaal Democratische Bond",
-        "locationStart": 294,
-        "locationEnd": 318,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_16",
-        "category": "PERSON",
-        "surfaceForm": "Tusveld",
-        "locationStart": 323,
-        "locationEnd": 330,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_17",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Spinnerij B.W. & H. ter Kuile 'Tubantia'",
-        "locationStart": 334,
-        "locationEnd": 370,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_18",
-        "category": "LOCATION",
-        "surfaceForm": "Enschede",
-        "locationStart": 374,
-        "locationEnd": 382,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_19",
-        "category": "ORGANIZATION",
-        "surfaceForm": "SDB",
-        "locationStart": 386,
-        "locationEnd": 389,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_20",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Tubantia",
-        "locationStart": 393,
-        "locationEnd": 400,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_21",
-        "category": "PERSON",
-        "surfaceForm": "Tusveld",
-        "locationStart": 405,
-        "locationEnd": 412,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_22",
-        "category": "ORGANIZATION",
-        "surfaceForm": "SDB",
-        "locationStart": 416,
-        "locationEnd": 419,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_23",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Wevers- en Spinnersbond 'Vooruit'",
-        "locationStart": 423,
-        "locationEnd": 452,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_24",
-        "category": "LOCATION",
-        "surfaceForm": "Enschede",
-        "locationStart": 456,
-        "locationEnd": 464,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_25",
-        "category": "PERSON",
-        "surfaceForm": "Ter Kuile",
-        "locationStart": 468,
-        "locationEnd": 476,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_26",
-        "category": "PERSON",
-        "surfaceForm": "Morsman",
-        "locationStart": 481,
-        "locationEnd": 488,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_27",
-        "category": "TIME",
-        "surfaceForm": "februari tot mei 1890",
-        "locationStart": 493,
-        "locationEnd": 513,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_28",
-        "category": "PERSON",
-        "surfaceForm": "Tusveld",
-        "locationStart": 515,
-        "locationEnd": 522,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_29",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Parlementaire Enquetecommissie",
-        "locationStart": 526,
-        "locationEnd": 553,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_30",
-        "category": "PERSON",
-        "surfaceForm": "G. Bennink",
-        "locationStart": 558,
-        "locationEnd": 567,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_31",
-        "category": "ARTWORK",
-        "surfaceForm": "Recht door Zee",
-        "locationStart": 571,
-        "locationEnd": 584,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_32",
-        "category": "PERSON",
-        "surfaceForm": "Domela Nieuwenhuis",
-        "locationStart": 589,
-        "locationEnd": 607,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_33",
-        "category": "PERSON",
-        "surfaceForm": "Tusveld",
-        "locationStart": 612,
-        "locationEnd": 619,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_34",
-        "category": "PERSON",
-        "surfaceForm": "Tusveld",
-        "locationStart": 624,
-        "locationEnd": 631,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_35",
-        "category": "PERSON",
-        "surfaceForm": "W.H. Vliegen",
-        "locationStart": 636,
-        "locationEnd": 648,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_36",
-        "category": "TIME",
-        "surfaceForm": "1897 tot zijn dood in 1902",
-        "locationStart": 653,
-        "locationEnd": 678,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_37",
-        "category": "PERSON",
-        "surfaceForm": "Pieterson",
-        "locationStart": 683,
-        "locationEnd": 691,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_38",
-        "category": "ARTWORK",
-        "surfaceForm": "Recht door Zee",
-        "locationStart": 695,
-        "locationEnd": 708,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_39",
-        "category": "PERSON",
-        "surfaceForm": "Tusveld",
-        "locationStart": 713,
-        "locationEnd": 720,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_40",
-        "category": "LOCATION",
-        "surfaceForm": "Zwitserland",
-        "locationStart": 746,
-        "locationEnd": 757,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_41",
-        "category": "TIME",
-        "surfaceForm": "1902",
-        "locationStart": 762,
-        "locationEnd": 766,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_42",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Van Heek & Co",
-        "locationStart": 771,
-        "locationEnd": 783,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_43",
-        "category": "PERSON",
-        "surfaceForm": "Tusveld",
-        "locationStart": 788,
-        "locationEnd": 795,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_44",
-        "category": "PERSON",
-        "surfaceForm": "moeder",
-        "locationStart": 800,
-        "locationEnd": 806,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_45",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Literatuur",
-        "locationStart": 809,
-        "locationEnd": 819,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_46",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Staatscommissie",
-        "locationStart": 823,
-        "locationEnd": 838,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_47",
-        "category": "LOCATION",
-        "surfaceForm": "Twenthe",
-        "locationStart": 842,
-        "locationEnd": 849,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_48",
-        "category": "TIME",
-        "surfaceForm": "1892",
-        "locationStart": 853,
-        "locationEnd": 857,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_49",
-        "category": "PERSON",
-        "surfaceForm": "Vliegen",
-        "locationStart": 861,
-        "locationEnd": 867,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_50",
-        "category": "ARTWORK",
-        "surfaceForm": "Dageraad",
-        "locationStart": 869,
-        "locationEnd": 876,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_51",
-        "category": "PERSON",
-        "surfaceForm": "Schweizer",
-        "locationStart": 880,
-        "locationEnd": 889,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_52",
-        "category": "PERSON",
-        "surfaceForm": "Johan Tusveld",
-        "locationStart": 894,
-        "locationEnd": 907,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_53",
-        "category": "ARTWORK",
-        "surfaceForm": "Jaarboek Twente",
-        "locationStart": 912,
-        "locationEnd": 926,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_54",
-        "category": "PERSON",
-        "surfaceForm": "A.L.A. Wevers",
-        "locationStart": 930,
-        "locationEnd": 942,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_55",
-        "category": "PERSON",
-        "surfaceForm": "J. Folkerts",
-        "locationStart": 947,
-        "locationEnd": 956,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_56",
-        "category": "PERSON",
-        "surfaceForm": "J.M.M. Haverkate",
-        "locationStart": 958,
-        "locationEnd": 972,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_57",
-        "category": "PERSON",
-        "surfaceForm": "F. Pereboom",
-        "locationStart": 974,
-        "locationEnd": 983,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_58",
-        "category": "ARTWORK",
-        "surfaceForm": "Overijsselse biografieen",
-        "locationStart": 985,
-        "locationEnd": 1007,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_59",
-        "category": "LOCATION",
-        "surfaceForm": "Meppel",
-        "locationStart": 1009,
-        "locationEnd": 1015,
-        "method": "gpt-3.5-turbo"
       }
     ],
     "time_expressions": [

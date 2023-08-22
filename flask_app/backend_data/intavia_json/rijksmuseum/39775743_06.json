@@ -940,6 +940,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "Hermannus Pauw",
+        "locationStart": 12,
+        "locationEnd": 26,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "Hermannus Pauw",
+        "locationStart": 15,
+        "locationEnd": 28,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_1",
         "surfaceForm": "Hermannus Pauw",
         "category": "PER",
@@ -974,6 +990,38 @@
         "locationStart": 44,
         "locationEnd": 58,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "Hermannus Pauw",
+        "locationStart": 44,
+        "locationEnd": 58,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "LOCATION",
+        "surfaceForm": "Renkum",
+        "locationStart": 53,
+        "locationEnd": 59,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "LOCATION",
+        "surfaceForm": "Heelsum",
+        "locationStart": 61,
+        "locationEnd": 68,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "LOCATION",
+        "surfaceForm": "Krommenie",
+        "locationStart": 70,
+        "locationEnd": 79,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_2",
@@ -1012,6 +1060,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Renkum",
+        "locationStart": 74,
+        "locationEnd": 80,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "LOCATION",
+        "surfaceForm": "Breda",
+        "locationStart": 81,
+        "locationEnd": 86,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_3",
         "surfaceForm": "Heelsum",
         "category": "LOC",
@@ -1046,6 +1110,22 @@
         "locationStart": 82,
         "locationEnd": 89,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Heelsum",
+        "locationStart": 82,
+        "locationEnd": 89,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "LOCATION",
+        "surfaceForm": "Den Briel",
+        "locationStart": 88,
+        "locationEnd": 97,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_4",
@@ -1084,6 +1164,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Krommenie",
+        "locationStart": 91,
+        "locationEnd": 100,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_5",
         "surfaceForm": "Breda",
         "category": "LOC",
@@ -1118,6 +1206,14 @@
         "locationStart": 102,
         "locationEnd": 107,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Breda",
+        "locationStart": 102,
+        "locationEnd": 107,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_6",
@@ -1156,6 +1252,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Den Briel",
+        "locationStart": 111,
+        "locationEnd": 120,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gysbert_hist_0",
         "category": "LOC",
         "surfaceForm": "briel",
@@ -1172,6 +1276,14 @@
         "tokenStart": 23,
         "tokenEnd": 24,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "gpt-3.5-turbo_6",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Nederlands",
+        "locationStart": 134,
+        "locationEnd": 144,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_8",
@@ -1202,6 +1314,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "PER",
+        "surfaceForm": "Pauw",
+        "locationStart": 147,
+        "locationEnd": 151,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_9",
         "surfaceForm": "Nederlands",
         "category": "MISC",
@@ -1218,62 +1338,6 @@
         "locationStart": 233,
         "locationEnd": 243,
         "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "Hermannus Pauw",
-        "locationStart": 15,
-        "locationEnd": 28,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "LOCATION",
-        "surfaceForm": "Renkum",
-        "locationStart": 53,
-        "locationEnd": 59,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "LOCATION",
-        "surfaceForm": "Heelsum",
-        "locationStart": 61,
-        "locationEnd": 68,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "LOCATION",
-        "surfaceForm": "Krommenie",
-        "locationStart": 70,
-        "locationEnd": 79,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "LOCATION",
-        "surfaceForm": "Breda",
-        "locationStart": 81,
-        "locationEnd": 86,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "LOCATION",
-        "surfaceForm": "Den Briel",
-        "locationStart": 88,
-        "locationEnd": 97,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_6",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Nederlands",
-        "locationStart": 134,
-        "locationEnd": 144,
-        "method": "gpt-3.5-turbo"
       }
     ],
     "time_expressions": []

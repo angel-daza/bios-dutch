@@ -1051,6 +1051,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "Gedalja Polak Daniels",
+        "locationStart": 0,
+        "locationEnd": 20,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "Gedalja Polak Daniels",
+        "locationStart": 0,
+        "locationEnd": 21,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gysbert_hist_0",
         "category": "PER",
         "surfaceForm": "alja polak daniels",
@@ -1085,6 +1101,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "PERSON",
+        "surfaceForm": "Gedalja Pos",
+        "locationStart": 34,
+        "locationEnd": 45,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_1",
         "surfaceForm": "Gedalja Pos",
         "category": "PER",
@@ -1111,6 +1135,22 @@
         "locationStart": 52,
         "locationEnd": 63,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "Gedalja Pos",
+        "locationStart": 52,
+        "locationEnd": 63,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "PERSON",
+        "surfaceForm": "Treila Polak",
+        "locationStart": 66,
+        "locationEnd": 77,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_9",
@@ -1167,6 +1207,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "Treila Polak",
+        "locationStart": 85,
+        "locationEnd": 97,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "PERSON",
+        "surfaceForm": "Pos",
+        "locationStart": 92,
+        "locationEnd": 95,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_1",
         "surfaceForm": "1832",
         "category": "TIME",
@@ -1183,6 +1239,14 @@
         "locationStart": 102,
         "locationEnd": 106,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "PERSON",
+        "surfaceForm": "Polak Daniels",
+        "locationStart": 109,
+        "locationEnd": 122,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_3",
@@ -1211,6 +1275,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "Pos",
+        "locationStart": 120,
+        "locationEnd": 123,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_4",
         "surfaceForm": "Polak Daniels",
         "category": "PER",
@@ -1235,6 +1307,30 @@
         "locationStart": 137,
         "locationEnd": 150,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "LOCATION",
+        "surfaceForm": "Den Haag",
+        "locationStart": 137,
+        "locationEnd": 145,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "Polak Daniels",
+        "locationStart": 137,
+        "locationEnd": 150,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_6",
+        "category": "ARTWORK",
+        "surfaceForm": "Nieuwe Synagoge",
+        "locationStart": 174,
+        "locationEnd": 189,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_5",
@@ -1273,12 +1369,28 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_2",
+        "category": "LOC",
+        "surfaceForm": "Den Haag",
+        "locationStart": 185,
+        "locationEnd": 193,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gysbert_hist_2",
         "category": "LOC",
         "surfaceForm": "haag",
         "locationStart": 189,
         "locationEnd": 193,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_7",
+        "category": "LOCATION",
+        "surfaceForm": "Wagenstraat",
+        "locationStart": 193,
+        "locationEnd": 203,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_3",
@@ -1327,6 +1439,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_2",
+        "category": "LOC",
+        "surfaceForm": "Nieuwe Synagoge",
+        "locationStart": 234,
+        "locationEnd": 249,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_7",
         "surfaceForm": "Wagenstraat",
         "category": "LOC",
@@ -1361,6 +1481,14 @@
         "locationStart": 256,
         "locationEnd": 267,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_2",
+        "category": "LOC",
+        "surfaceForm": "Wagenstraat",
+        "locationStart": 256,
+        "locationEnd": 267,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_8",
@@ -1399,76 +1527,20 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_2",
+        "category": "LOC",
+        "surfaceForm": "Den Haag",
+        "locationStart": 271,
+        "locationEnd": 279,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gysbert_hist_2",
         "category": "LOC",
         "surfaceForm": "haag",
         "locationStart": 275,
         "locationEnd": 279,
         "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "Gedalja Polak Daniels",
-        "locationStart": 0,
-        "locationEnd": 20,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "PERSON",
-        "surfaceForm": "Gedalja Pos",
-        "locationStart": 34,
-        "locationEnd": 45,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "PERSON",
-        "surfaceForm": "Treila Polak",
-        "locationStart": 66,
-        "locationEnd": 77,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "PERSON",
-        "surfaceForm": "Pos",
-        "locationStart": 92,
-        "locationEnd": 95,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "PERSON",
-        "surfaceForm": "Polak Daniels",
-        "locationStart": 109,
-        "locationEnd": 122,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "LOCATION",
-        "surfaceForm": "Den Haag",
-        "locationStart": 137,
-        "locationEnd": 145,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_6",
-        "category": "ARTWORK",
-        "surfaceForm": "Nieuwe Synagoge",
-        "locationStart": 174,
-        "locationEnd": 189,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_7",
-        "category": "LOCATION",
-        "surfaceForm": "Wagenstraat",
-        "locationStart": 193,
-        "locationEnd": 203,
-        "method": "gpt-3.5-turbo"
       }
     ],
     "time_expressions": [

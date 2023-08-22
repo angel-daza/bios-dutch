@@ -658,6 +658,14 @@
         "method": "human_gold"
       },
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "Schilder",
+        "locationStart": 0,
+        "locationEnd": 7,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_4",
         "surfaceForm": "17 oktober 1819",
         "category": "TIME",
@@ -674,6 +682,14 @@
         "locationStart": 19,
         "locationEnd": 34,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "LOCATION",
+        "surfaceForm": "Nijmegen",
+        "locationStart": 35,
+        "locationEnd": 43,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_0",
@@ -712,6 +728,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "Nijmegen",
+        "locationStart": 36,
+        "locationEnd": 44,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_6",
         "surfaceForm": "2 juni 1860",
         "category": "TIME",
@@ -728,6 +752,14 @@
         "locationStart": 57,
         "locationEnd": 68,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "LOCATION",
+        "surfaceForm": "Nijmegen",
+        "locationStart": 69,
+        "locationEnd": 77,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_1",
@@ -766,6 +798,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_2",
+        "category": "LOC",
+        "surfaceForm": "Nijmegen",
+        "locationStart": 70,
+        "locationEnd": 78,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "LOCATION",
+        "surfaceForm": "Nijmegen",
+        "locationStart": 113,
+        "locationEnd": 121,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_2",
         "surfaceForm": "Nijmegen",
         "category": "LOC",
@@ -800,6 +848,14 @@
         "locationStart": 116,
         "locationEnd": 124,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_4",
+        "category": "LOC",
+        "surfaceForm": "Nijmegen",
+        "locationStart": 116,
+        "locationEnd": 124,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_2",
@@ -844,38 +900,6 @@
         "locationStart": 148,
         "locationEnd": 152,
         "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "Schilder",
-        "locationStart": 0,
-        "locationEnd": 7,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "LOCATION",
-        "surfaceForm": "Nijmegen",
-        "locationStart": 35,
-        "locationEnd": 43,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "LOCATION",
-        "surfaceForm": "Nijmegen",
-        "locationStart": 69,
-        "locationEnd": 77,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "LOCATION",
-        "surfaceForm": "Nijmegen",
-        "locationStart": 113,
-        "locationEnd": 121,
-        "method": "gpt-3.5-turbo"
       }
     ],
     "time_expressions": [

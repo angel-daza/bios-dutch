@@ -1015,6 +1015,30 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "FABRITIUS",
+        "locationStart": 0,
+        "locationEnd": 9,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "FABRITIUS",
+        "locationStart": 0,
+        "locationEnd": 9,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "PERSON",
+        "surfaceForm": "Schilder",
+        "locationStart": 20,
+        "locationEnd": 27,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_0",
         "surfaceForm": "Schilder",
         "category": "PER",
@@ -1023,6 +1047,14 @@
         "tokenStart": 4,
         "tokenEnd": 5,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "ARTWORK",
+        "surfaceForm": "Doorzichtkunde",
+        "locationStart": 31,
+        "locationEnd": 46,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_1",
@@ -1041,6 +1073,14 @@
         "locationStart": 42,
         "locationEnd": 56,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "LOCATION",
+        "surfaceForm": "Delf",
+        "locationStart": 118,
+        "locationEnd": 122,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_2",
@@ -1077,38 +1117,6 @@
         "locationStart": 271,
         "locationEnd": 275,
         "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "FABRITIUS",
-        "locationStart": 0,
-        "locationEnd": 9,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "PERSON",
-        "surfaceForm": "Schilder",
-        "locationStart": 20,
-        "locationEnd": 27,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "ARTWORK",
-        "surfaceForm": "Doorzichtkunde",
-        "locationStart": 31,
-        "locationEnd": 46,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "LOCATION",
-        "surfaceForm": "Delf",
-        "locationStart": 118,
-        "locationEnd": 122,
-        "method": "gpt-3.5-turbo"
       }
     ],
     "time_expressions": [

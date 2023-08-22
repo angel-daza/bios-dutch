@@ -3856,6 +3856,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "LOCATION",
+        "surfaceForm": "APPELDOORN",
+        "locationStart": 0,
+        "locationEnd": 10,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "APPELDOORN. JOHAN GERRIT",
+        "locationStart": 0,
+        "locationEnd": 24,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_0",
         "surfaceForm": "JOHAN GERRIT",
         "category": "PER",
@@ -3880,6 +3896,22 @@
         "locationStart": 12,
         "locationEnd": 24,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "PERSON",
+        "surfaceForm": "JOHAN GERRIT",
+        "locationStart": 12,
+        "locationEnd": 24,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "LOCATION",
+        "surfaceForm": "Har- lingen",
+        "locationStart": 26,
+        "locationEnd": 36,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_14",
@@ -3908,12 +3940,28 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Har lingen",
+        "locationStart": 28,
+        "locationEnd": 39,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gysbert_hist_0",
         "category": "LOC",
         "surfaceForm": "lingen",
         "locationStart": 33,
         "locationEnd": 39,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "LOCATION",
+        "surfaceForm": "Bilthoven",
+        "locationStart": 38,
+        "locationEnd": 47,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_20",
@@ -3932,6 +3980,14 @@
         "locationStart": 40,
         "locationEnd": 52,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "PERSON",
+        "surfaceForm": "Jan Appeldoorn",
+        "locationStart": 50,
+        "locationEnd": 63,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_1",
@@ -3970,6 +4026,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Bilthoven",
+        "locationStart": 56,
+        "locationEnd": 65,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_27",
         "surfaceForm": "7 febr. 1945",
         "category": "TIME",
@@ -3986,6 +4050,14 @@
         "locationStart": 66,
         "locationEnd": 78,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "PERSON",
+        "surfaceForm": "Joukje Alberts Stuur",
+        "locationStart": 68,
+        "locationEnd": 88,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_2",
@@ -4024,6 +4096,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "PER",
+        "surfaceForm": "Jan Appeldoorn",
+        "locationStart": 88,
+        "locationEnd": 102,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_6",
+        "category": "ORGANIZATION",
+        "surfaceForm": "theol. doopsgez. seminari- um",
+        "locationStart": 92,
+        "locationEnd": 118,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_3",
         "surfaceForm": "Joukje Alberts",
         "category": "PER",
@@ -4060,6 +4148,38 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "PER",
+        "surfaceForm": "Joukje Alberts Stuur",
+        "locationStart": 118,
+        "locationEnd": 138,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_7",
+        "category": "ORGANIZATION",
+        "surfaceForm": "UvA",
+        "locationStart": 123,
+        "locationEnd": 126,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_8",
+        "category": "PERSON",
+        "surfaceForm": "A. Bruining",
+        "locationStart": 139,
+        "locationEnd": 150,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_9",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Doopsgez. pred. Gorredijk",
+        "locationStart": 152,
+        "locationEnd": 177,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_4",
         "surfaceForm": "UvA 1883",
         "category": "MISC",
@@ -4088,6 +4208,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "gpt-3.5-turbo_10",
+        "category": "LOCATION",
+        "surfaceForm": "Emden",
+        "locationStart": 179,
+        "locationEnd": 184,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_6",
         "surfaceForm": "1883",
         "category": "TIME",
@@ -4104,6 +4232,14 @@
         "locationStart": 183,
         "locationEnd": 187,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_11",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Hoogl. doopsgez. seminarium",
+        "locationStart": 186,
+        "locationEnd": 213,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_7",
@@ -4160,6 +4296,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_3",
+        "category": "PER",
+        "surfaceForm": "A. Bruining",
+        "locationStart": 216,
+        "locationEnd": 227,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_12",
+        "category": "ORGANIZATION",
+        "surfaceForm": "UvA",
+        "locationStart": 218,
+        "locationEnd": 221,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_6",
         "surfaceForm": "Doopsgez. pred. Gorredijk",
         "category": "MISC",
@@ -4168,6 +4320,14 @@
         "tokenStart": 50,
         "tokenEnd": 53,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "gpt-3.5-turbo_13",
+        "category": "PERSON",
+        "surfaceForm": "Cornelia Elizabeth van der Wissel",
+        "locationStart": 234,
+        "locationEnd": 265,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_9",
@@ -4194,6 +4354,14 @@
         "locationStart": 246,
         "locationEnd": 255,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_4",
+        "category": "LOC",
+        "surfaceForm": "Gorredijk",
+        "locationStart": 246,
+        "locationEnd": 255,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_10",
@@ -4250,6 +4418,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_4",
+        "category": "LOC",
+        "surfaceForm": "Emden",
+        "locationStart": 266,
+        "locationEnd": 271,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_12",
         "surfaceForm": "1904 - 1916",
         "category": "TIME",
@@ -4268,6 +4444,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_14",
+        "category": "ORGANIZATION",
+        "surfaceForm": "hervormd",
+        "locationStart": 275,
+        "locationEnd": 283,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gysbert_hist_4",
         "category": "TIME",
         "surfaceForm": "1916",
@@ -4284,6 +4468,14 @@
         "tokenStart": 61,
         "tokenEnd": 65,
         "method": "human_gold"
+      },
+      {
+        "ID": "gpt-3.5-turbo_15",
+        "category": "ORGANIZATION",
+        "surfaceForm": "doopsgez. medeleerlingen",
+        "locationStart": 297,
+        "locationEnd": 320,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_15",
@@ -4310,6 +4502,14 @@
         "locationStart": 320,
         "locationEnd": 324,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_16",
+        "category": "ORGANIZATION",
+        "surfaceForm": "gym- nasium te Leeuwarden",
+        "locationStart": 324,
+        "locationEnd": 350,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_8",
@@ -4340,6 +4540,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_5",
+        "category": "ORG",
+        "surfaceForm": "UvA",
+        "locationStart": 341,
+        "locationEnd": 344,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_17",
         "surfaceForm": "30 sept. 1897",
         "category": "TIME",
@@ -4356,6 +4564,14 @@
         "locationStart": 359,
         "locationEnd": 372,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_17",
+        "category": "ORGANIZATION",
+        "surfaceForm": "doopsgez. seminarium",
+        "locationStart": 366,
+        "locationEnd": 386,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_9",
@@ -4394,6 +4610,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_6",
+        "category": "LOC",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 376,
+        "locationEnd": 385,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_18",
+        "category": "LOCATION",
+        "surfaceForm": "Emden",
+        "locationStart": 389,
+        "locationEnd": 394,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_10",
         "surfaceForm": "Cornelia Elizabeth van der Wissel",
         "category": "PER",
@@ -4430,6 +4662,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_6",
+        "category": "PER",
+        "surfaceForm": "Cornelia Elizabeth van der Wissel",
+        "locationStart": 390,
+        "locationEnd": 423,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_19",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Algemene Doopsgez. Soci\"teit",
+        "locationStart": 406,
+        "locationEnd": 431,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_21",
         "surfaceForm": "1869 - 1936",
         "category": "TIME",
@@ -4462,6 +4710,22 @@
         "locationStart": 439,
         "locationEnd": 442,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_20",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Ned. predikanten",
+        "locationStart": 446,
+        "locationEnd": 462,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_21",
+        "category": "ORGANIZATION",
+        "surfaceForm": "eerste wereldoorlog",
+        "locationStart": 477,
+        "locationEnd": 496,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_11",
@@ -4500,6 +4764,38 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_8",
+        "category": "LOC",
+        "surfaceForm": "Leeuwarden",
+        "locationStart": 537,
+        "locationEnd": 547,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_22",
+        "category": "LOCATION",
+        "surfaceForm": "Berlijn",
+        "locationStart": 548,
+        "locationEnd": 555,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_23",
+        "category": "PERSON",
+        "surfaceForm": "A.",
+        "locationStart": 558,
+        "locationEnd": 559,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_24",
+        "category": "ORGANIZATION",
+        "surfaceForm": "protestantisme",
+        "locationStart": 586,
+        "locationEnd": 600,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_12",
         "surfaceForm": "Emden",
         "category": "LOC",
@@ -4534,6 +4830,14 @@
         "locationStart": 616,
         "locationEnd": 621,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_11",
+        "category": "",
+        "surfaceForm": "Emden",
+        "locationStart": 616,
+        "locationEnd": 621,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_25",
@@ -4582,6 +4886,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_11",
+        "category": "ORG",
+        "surfaceForm": "Algemene Doopsgez",
+        "locationStart": 667,
+        "locationEnd": 684,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_14",
         "surfaceForm": "Soci",
         "category": "PER",
@@ -4608,6 +4920,14 @@
         "locationStart": 709,
         "locationEnd": 712,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_12",
+        "category": "LOC",
+        "surfaceForm": "Ned",
+        "locationStart": 709,
+        "locationEnd": 712,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_28",
@@ -4694,6 +5014,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_14",
+        "category": "LOC",
+        "surfaceForm": "Berlijn",
+        "locationStart": 1021,
+        "locationEnd": 1028,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_2",
         "surfaceForm": "aug. 1910",
         "category": "TIME",
@@ -4748,204 +5076,12 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "LOCATION",
-        "surfaceForm": "APPELDOORN",
-        "locationStart": 0,
-        "locationEnd": 10,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "PERSON",
-        "surfaceForm": "JOHAN GERRIT",
-        "locationStart": 12,
-        "locationEnd": 24,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "LOCATION",
-        "surfaceForm": "Har- lingen",
-        "locationStart": 26,
-        "locationEnd": 36,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "LOCATION",
-        "surfaceForm": "Bilthoven",
-        "locationStart": 38,
-        "locationEnd": 47,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "PERSON",
-        "surfaceForm": "Jan Appeldoorn",
-        "locationStart": 50,
-        "locationEnd": 63,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "PERSON",
-        "surfaceForm": "Joukje Alberts Stuur",
-        "locationStart": 68,
-        "locationEnd": 88,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_6",
-        "category": "ORGANIZATION",
-        "surfaceForm": "theol. doopsgez. seminari- um",
-        "locationStart": 92,
-        "locationEnd": 118,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_7",
-        "category": "ORGANIZATION",
-        "surfaceForm": "UvA",
-        "locationStart": 123,
-        "locationEnd": 126,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_8",
-        "category": "PERSON",
-        "surfaceForm": "A. Bruining",
-        "locationStart": 139,
-        "locationEnd": 150,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_9",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Doopsgez. pred. Gorredijk",
-        "locationStart": 152,
-        "locationEnd": 177,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_10",
-        "category": "LOCATION",
-        "surfaceForm": "Emden",
-        "locationStart": 179,
-        "locationEnd": 184,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_11",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Hoogl. doopsgez. seminarium",
-        "locationStart": 186,
-        "locationEnd": 213,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_12",
-        "category": "ORGANIZATION",
-        "surfaceForm": "UvA",
-        "locationStart": 218,
-        "locationEnd": 221,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_13",
-        "category": "PERSON",
-        "surfaceForm": "Cornelia Elizabeth van der Wissel",
-        "locationStart": 234,
-        "locationEnd": 265,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_14",
-        "category": "ORGANIZATION",
-        "surfaceForm": "hervormd",
-        "locationStart": 275,
-        "locationEnd": 283,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_15",
-        "category": "ORGANIZATION",
-        "surfaceForm": "doopsgez. medeleerlingen",
-        "locationStart": 297,
-        "locationEnd": 320,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_16",
-        "category": "ORGANIZATION",
-        "surfaceForm": "gym- nasium te Leeuwarden",
-        "locationStart": 324,
-        "locationEnd": 350,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_17",
-        "category": "ORGANIZATION",
-        "surfaceForm": "doopsgez. seminarium",
-        "locationStart": 366,
-        "locationEnd": 386,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_18",
-        "category": "LOCATION",
-        "surfaceForm": "Emden",
-        "locationStart": 389,
-        "locationEnd": 394,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_19",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Algemene Doopsgez. Soci\"teit",
-        "locationStart": 406,
-        "locationEnd": 431,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_20",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Ned. predikanten",
-        "locationStart": 446,
-        "locationEnd": 462,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_21",
-        "category": "ORGANIZATION",
-        "surfaceForm": "eerste wereldoorlog",
-        "locationStart": 477,
-        "locationEnd": 496,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_22",
-        "category": "LOCATION",
-        "surfaceForm": "Berlijn",
-        "locationStart": 548,
-        "locationEnd": 555,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_23",
-        "category": "PERSON",
+        "ID": "xlmr_ner_15",
+        "category": "PER",
         "surfaceForm": "A.",
-        "locationStart": 558,
-        "locationEnd": 559,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_24",
-        "category": "ORGANIZATION",
-        "surfaceForm": "protestantisme",
-        "locationStart": 586,
-        "locationEnd": 600,
-        "method": "gpt-3.5-turbo"
+        "locationStart": 1052,
+        "locationEnd": 1054,
+        "method": "xlmr_ner_"
       }
     ],
     "time_expressions": [

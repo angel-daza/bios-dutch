@@ -4683,6 +4683,30 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "Benjamin Hunningher",
+        "locationStart": 0,
+        "locationEnd": 18,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "Benjamin Hunningher",
+        "locationStart": 0,
+        "locationEnd": 19,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "LOCATION",
+        "surfaceForm": "Vlissingen",
+        "locationStart": 21,
+        "locationEnd": 31,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_1",
         "surfaceForm": "Vlissingen",
         "category": "LOC",
@@ -4719,6 +4743,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Vlissingen",
+        "locationStart": 22,
+        "locationEnd": 32,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "DATE",
+        "surfaceForm": "15 april 1903",
+        "locationStart": 33,
+        "locationEnd": 46,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_21",
         "surfaceForm": "15 april 1903 1 januari 1991",
         "category": "TIME",
@@ -4737,12 +4777,28 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "DATE",
+        "surfaceForm": "1 januari 1991",
+        "locationStart": 48,
+        "locationEnd": 62,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gysbert_hist_0",
         "category": "TIME",
         "surfaceForm": "1 januari 1991",
         "locationStart": 49,
         "locationEnd": 63,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "LOCATION",
+        "surfaceForm": "Nederland",
+        "locationStart": 69,
+        "locationEnd": 77,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_2",
@@ -4763,6 +4819,62 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Nederland",
+        "locationStart": 73,
+        "locationEnd": 82,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "ORGANIZATION",
+        "surfaceForm": "theaterwetenschapper",
+        "locationStart": 79,
+        "locationEnd": 98,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_6",
+        "category": "ARTWORK",
+        "surfaceForm": "Het Dramatisch Werk van Schimmel",
+        "locationStart": 105,
+        "locationEnd": 135,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_7",
+        "category": "LOCATION",
+        "surfaceForm": "Amsterdamse toneelleven",
+        "locationStart": 141,
+        "locationEnd": 163,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_8",
+        "category": "TIME",
+        "surfaceForm": "negentiende eeuw",
+        "locationStart": 167,
+        "locationEnd": 181,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_9",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Nederlands",
+        "locationStart": 190,
+        "locationEnd": 199,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_10",
+        "category": "TIME",
+        "surfaceForm": "1935 tot 1942",
+        "locationStart": 209,
+        "locationEnd": 222,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_3",
         "surfaceForm": "Het Dramatisch Werk van Schimmel",
         "category": "MISC",
@@ -4779,6 +4891,14 @@
         "locationStart": 217,
         "locationEnd": 249,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_11",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Nieuwe Rotterdamsche Courant",
+        "locationStart": 233,
+        "locationEnd": 257,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_17",
@@ -4809,6 +4929,14 @@
         "method": "human_gold"
       },
       {
+        "ID": "gpt-3.5-turbo_12",
+        "category": "TIME",
+        "surfaceForm": "1945 - 1946",
+        "locationStart": 264,
+        "locationEnd": 275,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_4",
         "surfaceForm": "Amsterdamse",
         "category": "MISC",
@@ -4827,6 +4955,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "gpt-3.5-turbo_13",
+        "category": "ORGANIZATION",
+        "surfaceForm": "regeringsadviseur",
+        "locationStart": 277,
+        "locationEnd": 294,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_14",
+        "category": "ORGANIZATION",
+        "surfaceForm": "minister van O.K. en W.",
+        "locationStart": 298,
+        "locationEnd": 318,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_19",
         "surfaceForm": "de negentiende eeuw",
         "category": "TIME",
@@ -4835,6 +4979,14 @@
         "tokenStart": 49,
         "tokenEnd": 52,
         "method": "human_gold"
+      },
+      {
+        "ID": "gpt-3.5-turbo_15",
+        "category": "DATE",
+        "surfaceForm": "1948",
+        "locationStart": 327,
+        "locationEnd": 331,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_5",
@@ -4853,6 +5005,14 @@
         "locationStart": 337,
         "locationEnd": 347,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_16",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Columbia University",
+        "locationStart": 346,
+        "locationEnd": 365,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_20",
@@ -4879,6 +5039,30 @@
         "locationStart": 367,
         "locationEnd": 371,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_17",
+        "category": "LOCATION",
+        "surfaceForm": "New York",
+        "locationStart": 369,
+        "locationEnd": 377,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_18",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Queen Wilhelmina Professor for the History, the Literature and Language of the Netherlands",
+        "locationStart": 383,
+        "locationEnd": 480,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_3",
+        "category": "ORG",
+        "surfaceForm": "Nieuwe Rotterdamsche Courant",
+        "locationStart": 414,
+        "locationEnd": 442,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_6",
@@ -4935,6 +5119,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_19",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Nederlandse cultuur",
+        "locationStart": 504,
+        "locationEnd": 522,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_3",
+        "category": "LOC",
+        "surfaceForm": "O.K.",
+        "locationStart": 513,
+        "locationEnd": 517,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_7",
         "surfaceForm": "O.K.",
         "category": "ORG",
@@ -4951,6 +5151,14 @@
         "locationStart": 515,
         "locationEnd": 519,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_3",
+        "category": "LOC",
+        "surfaceForm": "W.",
+        "locationStart": 521,
+        "locationEnd": 523,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_8",
@@ -4971,6 +5179,30 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "gpt-3.5-turbo_20",
+        "category": "LOCATION",
+        "surfaceForm": "Verenigde Staten",
+        "locationStart": 526,
+        "locationEnd": 542,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_21",
+        "category": "DATE",
+        "surfaceForm": "1964",
+        "locationStart": 548,
+        "locationEnd": 552,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_22",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Universiteit van Amsterdam",
+        "locationStart": 571,
+        "locationEnd": 595,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gysbert_hist_4",
         "category": "TIME",
         "surfaceForm": "1948",
@@ -4987,6 +5219,22 @@
         "tokenStart": 103,
         "tokenEnd": 104,
         "method": "human_gold"
+      },
+      {
+        "ID": "gpt-3.5-turbo_23",
+        "category": "LOCATION",
+        "surfaceForm": "Verenigde Staten",
+        "locationStart": 616,
+        "locationEnd": 632,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_4",
+        "category": "ORG",
+        "surfaceForm": "Columbia University",
+        "locationStart": 631,
+        "locationEnd": 650,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_9",
@@ -5017,12 +5265,28 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "gpt-3.5-turbo_24",
+        "category": "DATE",
+        "surfaceForm": "1974-'75",
+        "locationStart": 636,
+        "locationEnd": 644,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gysbert_hist_4",
         "category": "LOC",
         "surfaceForm": "new york",
         "locationStart": 654,
         "locationEnd": 662,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_4",
+        "category": "LOC",
+        "surfaceForm": "New YorkQue Wilhelm",
+        "locationStart": 654,
+        "locationEnd": 689,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_10",
@@ -5053,6 +5317,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "gpt-3.5-turbo_25",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Harvard University",
+        "locationStart": 657,
+        "locationEnd": 674,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_11",
         "surfaceForm": "Queen Wilhelmina Professor for the History, the Literature and Language of the Netherlands",
         "category": "MISC",
@@ -5071,12 +5343,68 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "gpt-3.5-turbo_26",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Erasmus Chair",
+        "locationStart": 678,
+        "locationEnd": 692,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_27",
+        "category": "ARTWORK",
+        "surfaceForm": "Toneel en werkelijkheid",
+        "locationStart": 707,
+        "locationEnd": 729,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_28",
+        "category": "ARTWORK",
+        "surfaceForm": "Een eeuw Nederlands toneel",
+        "locationStart": 731,
+        "locationEnd": 756,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "flair_3",
         "category": "LOC",
         "surfaceForm": "Netherlands",
         "locationStart": 757,
         "locationEnd": 768,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_29",
+        "category": "ARTWORK",
+        "surfaceForm": "The Origin of the Theatre",
+        "locationStart": 758,
+        "locationEnd": 782,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_30",
+        "category": "ARTWORK",
+        "surfaceForm": "Amsterdamse Schouwburg",
+        "locationStart": 791,
+        "locationEnd": 812,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_31",
+        "category": "DATE",
+        "surfaceForm": "1637",
+        "locationStart": 816,
+        "locationEnd": 820,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_32",
+        "category": "ARTWORK",
+        "surfaceForm": "Kruistocht op Broadway",
+        "locationStart": 825,
+        "locationEnd": 846,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_12",
@@ -5095,6 +5423,14 @@
         "locationStart": 851,
         "locationEnd": 862,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_5",
+        "category": "LOC",
+        "surfaceForm": "Verenigde Staten",
+        "locationStart": 875,
+        "locationEnd": 891,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_13",
@@ -5153,6 +5489,14 @@
         "method": "stanza_nl"
       },
       {
+        "ID": "xlmr_ner_6",
+        "category": "ORG",
+        "surfaceForm": "Universiteit van Amsterdam",
+        "locationStart": 998,
+        "locationEnd": 1024,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_15",
         "surfaceForm": "Universiteit van Amsterdam",
         "category": "ORG",
@@ -5187,6 +5531,14 @@
         "locationStart": 1015,
         "locationEnd": 1024,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_7",
+        "category": "LOC",
+        "surfaceForm": "Verenigde Staten",
+        "locationStart": 1131,
+        "locationEnd": 1147,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_16",
@@ -5249,6 +5601,14 @@
         "locationStart": 1168,
         "locationEnd": 1170,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_7",
+        "category": "ORG",
+        "surfaceForm": "Harvard UniversityErasmus Chair",
+        "locationStart": 1175,
+        "locationEnd": 1211,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_17",
@@ -5489,6 +5849,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_8",
+        "category": "LOC",
+        "surfaceForm": "Schouwburg",
+        "locationStart": 1420,
+        "locationEnd": 1430,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "flair_7",
         "category": "LOC",
         "surfaceForm": "Schouwburg",
@@ -5549,6 +5917,14 @@
         "locationStart": 1457,
         "locationEnd": 1465,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_8",
+        "category": "LOC",
+        "surfaceForm": "Broadway",
+        "locationStart": 1457,
+        "locationEnd": 1465,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gysbert_hist_8",
@@ -5621,270 +5997,6 @@
         "tokenStart": 264,
         "tokenEnd": 265,
         "method": "stanza_nl"
-      },
-      {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "Benjamin Hunningher",
-        "locationStart": 0,
-        "locationEnd": 18,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "LOCATION",
-        "surfaceForm": "Vlissingen",
-        "locationStart": 21,
-        "locationEnd": 31,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "DATE",
-        "surfaceForm": "15 april 1903",
-        "locationStart": 33,
-        "locationEnd": 46,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "DATE",
-        "surfaceForm": "1 januari 1991",
-        "locationStart": 48,
-        "locationEnd": 62,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "LOCATION",
-        "surfaceForm": "Nederland",
-        "locationStart": 69,
-        "locationEnd": 77,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "ORGANIZATION",
-        "surfaceForm": "theaterwetenschapper",
-        "locationStart": 79,
-        "locationEnd": 98,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_6",
-        "category": "ARTWORK",
-        "surfaceForm": "Het Dramatisch Werk van Schimmel",
-        "locationStart": 105,
-        "locationEnd": 135,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_7",
-        "category": "LOCATION",
-        "surfaceForm": "Amsterdamse toneelleven",
-        "locationStart": 141,
-        "locationEnd": 163,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_8",
-        "category": "TIME",
-        "surfaceForm": "negentiende eeuw",
-        "locationStart": 167,
-        "locationEnd": 181,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_9",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Nederlands",
-        "locationStart": 190,
-        "locationEnd": 199,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_10",
-        "category": "TIME",
-        "surfaceForm": "1935 tot 1942",
-        "locationStart": 209,
-        "locationEnd": 222,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_11",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Nieuwe Rotterdamsche Courant",
-        "locationStart": 233,
-        "locationEnd": 257,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_12",
-        "category": "TIME",
-        "surfaceForm": "1945 - 1946",
-        "locationStart": 264,
-        "locationEnd": 275,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_13",
-        "category": "ORGANIZATION",
-        "surfaceForm": "regeringsadviseur",
-        "locationStart": 277,
-        "locationEnd": 294,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_14",
-        "category": "ORGANIZATION",
-        "surfaceForm": "minister van O.K. en W.",
-        "locationStart": 298,
-        "locationEnd": 318,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_15",
-        "category": "DATE",
-        "surfaceForm": "1948",
-        "locationStart": 327,
-        "locationEnd": 331,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_16",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Columbia University",
-        "locationStart": 346,
-        "locationEnd": 365,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_17",
-        "category": "LOCATION",
-        "surfaceForm": "New York",
-        "locationStart": 369,
-        "locationEnd": 377,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_18",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Queen Wilhelmina Professor for the History, the Literature and Language of the Netherlands",
-        "locationStart": 383,
-        "locationEnd": 480,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_19",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Nederlandse cultuur",
-        "locationStart": 504,
-        "locationEnd": 522,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_20",
-        "category": "LOCATION",
-        "surfaceForm": "Verenigde Staten",
-        "locationStart": 526,
-        "locationEnd": 542,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_21",
-        "category": "DATE",
-        "surfaceForm": "1964",
-        "locationStart": 548,
-        "locationEnd": 552,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_22",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Universiteit van Amsterdam",
-        "locationStart": 571,
-        "locationEnd": 595,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_23",
-        "category": "LOCATION",
-        "surfaceForm": "Verenigde Staten",
-        "locationStart": 616,
-        "locationEnd": 632,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_24",
-        "category": "DATE",
-        "surfaceForm": "1974-'75",
-        "locationStart": 636,
-        "locationEnd": 644,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_25",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Harvard University",
-        "locationStart": 657,
-        "locationEnd": 674,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_26",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Erasmus Chair",
-        "locationStart": 678,
-        "locationEnd": 692,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_27",
-        "category": "ARTWORK",
-        "surfaceForm": "Toneel en werkelijkheid",
-        "locationStart": 707,
-        "locationEnd": 729,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_28",
-        "category": "ARTWORK",
-        "surfaceForm": "Een eeuw Nederlands toneel",
-        "locationStart": 731,
-        "locationEnd": 756,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_29",
-        "category": "ARTWORK",
-        "surfaceForm": "The Origin of the Theatre",
-        "locationStart": 758,
-        "locationEnd": 782,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_30",
-        "category": "ARTWORK",
-        "surfaceForm": "Amsterdamse Schouwburg",
-        "locationStart": 791,
-        "locationEnd": 812,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_31",
-        "category": "DATE",
-        "surfaceForm": "1637",
-        "locationStart": 816,
-        "locationEnd": 820,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_32",
-        "category": "ARTWORK",
-        "surfaceForm": "Kruistocht op Broadway",
-        "locationStart": 825,
-        "locationEnd": 846,
-        "method": "gpt-3.5-turbo"
       }
     ],
     "time_expressions": [

@@ -2551,6 +2551,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "BRUIN",
+        "locationStart": 0,
+        "locationEnd": 5,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "BRUIN",
+        "locationStart": 0,
+        "locationEnd": 5,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_0",
         "surfaceForm": "FRANCO DE",
         "category": "PER",
@@ -2567,6 +2583,30 @@
         "locationStart": 7,
         "locationEnd": 16,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "PERSON",
+        "surfaceForm": "FRANCO DE",
+        "locationStart": 7,
+        "locationEnd": 16,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "FRANCO DE",
+        "locationStart": 7,
+        "locationEnd": 16,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "LOCATION",
+        "surfaceForm": "Schelluinen",
+        "locationStart": 18,
+        "locationEnd": 29,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_7",
@@ -2595,6 +2635,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Schelluinen",
+        "locationStart": 20,
+        "locationEnd": 31,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "TIME",
+        "surfaceForm": "12 okt. 1690",
+        "locationStart": 30,
+        "locationEnd": 42,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_15",
         "surfaceForm": "12 okt. 1690",
         "category": "TIME",
@@ -2611,6 +2667,14 @@
         "locationStart": 32,
         "locationEnd": 44,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "LOCATION",
+        "surfaceForm": "t Amsterdam",
+        "locationStart": 44,
+        "locationEnd": 55,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_1",
@@ -2649,6 +2713,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 48,
+        "locationEnd": 57,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "TIME",
+        "surfaceForm": "26 jan. 1763",
+        "locationStart": 57,
+        "locationEnd": 69,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_18",
         "surfaceForm": "26 jan. 1763",
         "category": "TIME",
@@ -2665,6 +2745,14 @@
         "locationStart": 58,
         "locationEnd": 70,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_6",
+        "category": "PERSON",
+        "surfaceForm": "Floren- tius de Bruin",
+        "locationStart": 73,
+        "locationEnd": 93,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_2",
@@ -2703,6 +2791,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "",
+        "surfaceForm": "Floren- tius de Bruin",
+        "locationStart": 80,
+        "locationEnd": 101,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gysbert_hist_1",
         "category": "PER",
         "surfaceForm": "tius de bruin",
@@ -2727,6 +2823,14 @@
         "locationStart": 93,
         "locationEnd": 101,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_7",
+        "category": "PERSON",
+        "surfaceForm": "Anna Eekhout",
+        "locationStart": 98,
+        "locationEnd": 110,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_4",
@@ -2765,6 +2869,38 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "PER",
+        "surfaceForm": "Anna Eekhout",
+        "locationStart": 113,
+        "locationEnd": 125,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_8",
+        "category": "LOCATION",
+        "surfaceForm": "Leiden",
+        "locationStart": 116,
+        "locationEnd": 122,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_9",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Geref",
+        "locationStart": 124,
+        "locationEnd": 129,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_10",
+        "category": "LOCATION",
+        "surfaceForm": "Kedichem",
+        "locationStart": 131,
+        "locationEnd": 139,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_5",
         "surfaceForm": "Leiden",
         "category": "LOC",
@@ -2801,6 +2937,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_3",
+        "category": "LOC",
+        "surfaceForm": "Leiden",
+        "locationStart": 140,
+        "locationEnd": 146,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_11",
+        "category": "TIME",
+        "surfaceForm": "1713",
+        "locationStart": 141,
+        "locationEnd": 145,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_6",
         "surfaceForm": "Geref. pred. Kedichem",
         "category": "MISC",
@@ -2809,6 +2961,22 @@
         "tokenStart": 35,
         "tokenEnd": 38,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "gpt-3.5-turbo_12",
+        "category": "TIME",
+        "surfaceForm": "1711",
+        "locationStart": 150,
+        "locationEnd": 154,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_13",
+        "category": "LOCATION",
+        "surfaceForm": "Zuidland",
+        "locationStart": 156,
+        "locationEnd": 164,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_3",
@@ -2837,6 +3005,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_4",
+        "category": "LOC",
+        "surfaceForm": "Kedichem",
+        "locationStart": 161,
+        "locationEnd": 169,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_14",
+        "category": "TIME",
+        "surfaceForm": "1717",
+        "locationStart": 166,
+        "locationEnd": 170,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_4",
         "surfaceForm": "1713",
         "category": "TIME",
@@ -2855,6 +3039,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_15",
+        "category": "LOCATION",
+        "surfaceForm": "Deventer",
+        "locationStart": 172,
+        "locationEnd": 180,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_16",
+        "category": "TIME",
+        "surfaceForm": "1723",
+        "locationStart": 182,
+        "locationEnd": 186,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_5",
         "surfaceForm": "1711",
         "category": "TIME",
@@ -2871,6 +3071,22 @@
         "locationStart": 185,
         "locationEnd": 189,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_17",
+        "category": "LOCATION",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 188,
+        "locationEnd": 197,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_18",
+        "category": "TIME",
+        "surfaceForm": "1726 - 1763",
+        "locationStart": 199,
+        "locationEnd": 210,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_7",
@@ -2907,6 +3123,22 @@
         "locationStart": 205,
         "locationEnd": 213,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_4",
+        "category": "LOC",
+        "surfaceForm": "Zuidland",
+        "locationStart": 205,
+        "locationEnd": 213,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_19",
+        "category": "LOCATION",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 213,
+        "locationEnd": 222,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_8",
@@ -2963,6 +3195,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_4",
+        "category": "LOC",
+        "surfaceForm": "Deventer",
+        "locationStart": 220,
+        "locationEnd": 228,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_20",
+        "category": "TIME",
+        "surfaceForm": "1735",
+        "locationStart": 224,
+        "locationEnd": 228,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_10",
         "surfaceForm": "1723",
         "category": "TIME",
@@ -3015,6 +3263,14 @@
         "locationStart": 235,
         "locationEnd": 244,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_4",
+        "category": "LOC",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 235,
+        "locationEnd": 244,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_12",
@@ -3079,6 +3335,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_6",
+        "category": "LOC",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 283,
+        "locationEnd": 292,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_11",
         "surfaceForm": "De B.",
         "category": "PER",
@@ -3097,6 +3361,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_6",
+        "category": "PER",
+        "surfaceForm": "De B.",
+        "locationStart": 303,
+        "locationEnd": 308,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_21",
+        "category": "TIME",
+        "surfaceForm": "1737",
+        "locationStart": 307,
+        "locationEnd": 311,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_14",
         "surfaceForm": "1735",
         "category": "PER",
@@ -3113,6 +3393,30 @@
         "locationStart": 312,
         "locationEnd": 316,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_22",
+        "category": "TIME",
+        "surfaceForm": "1744",
+        "locationStart": 316,
+        "locationEnd": 320,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_24",
+        "category": "PERSON",
+        "surfaceForm": "Moravi\"r Georg Schmidt",
+        "locationStart": 322,
+        "locationEnd": 346,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_23",
+        "category": "LOCATION",
+        "surfaceForm": "Hottentotten",
+        "locationStart": 335,
+        "locationEnd": 346,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_12",
@@ -3169,6 +3473,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_7",
+        "category": "PER",
+        "surfaceForm": "H. van Alphen",
+        "locationStart": 466,
+        "locationEnd": 479,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_14",
         "surfaceForm": "Nikolaus graaf von Zinzendorf",
         "category": "PER",
@@ -3193,6 +3505,14 @@
         "locationStart": 548,
         "locationEnd": 577,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_7",
+        "category": "PER",
+        "surfaceForm": "Nikolaus graaf von Zinzendorf",
+        "locationStart": 548,
+        "locationEnd": 577,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "flair_9",
@@ -3229,6 +3549,14 @@
         "locationStart": 599,
         "locationEnd": 603,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_7",
+        "category": "LOC",
+        "surfaceForm": "Kaap",
+        "locationStart": 599,
+        "locationEnd": 603,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_16",
@@ -3285,6 +3613,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_8",
+        "category": "PER",
+        "surfaceForm": "Georg Schmidt",
+        "locationStart": 672,
+        "locationEnd": 685,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_21",
         "surfaceForm": "van 1737 tot 1744",
         "category": "TIME",
@@ -3339,204 +3675,12 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "BRUIN",
-        "locationStart": 0,
-        "locationEnd": 5,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "PERSON",
-        "surfaceForm": "FRANCO DE",
-        "locationStart": 7,
-        "locationEnd": 16,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "LOCATION",
-        "surfaceForm": "Schelluinen",
-        "locationStart": 18,
-        "locationEnd": 29,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "TIME",
-        "surfaceForm": "12 okt. 1690",
-        "locationStart": 30,
-        "locationEnd": 42,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "LOCATION",
-        "surfaceForm": "t Amsterdam",
-        "locationStart": 44,
-        "locationEnd": 55,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "TIME",
-        "surfaceForm": "26 jan. 1763",
-        "locationStart": 57,
-        "locationEnd": 69,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_6",
-        "category": "PERSON",
-        "surfaceForm": "Floren- tius de Bruin",
-        "locationStart": 73,
-        "locationEnd": 93,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_7",
-        "category": "PERSON",
-        "surfaceForm": "Anna Eekhout",
-        "locationStart": 98,
-        "locationEnd": 110,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_8",
-        "category": "LOCATION",
-        "surfaceForm": "Leiden",
-        "locationStart": 116,
-        "locationEnd": 122,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_9",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Geref",
-        "locationStart": 124,
-        "locationEnd": 129,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_10",
-        "category": "LOCATION",
-        "surfaceForm": "Kedichem",
-        "locationStart": 131,
-        "locationEnd": 139,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_11",
-        "category": "TIME",
-        "surfaceForm": "1713",
-        "locationStart": 141,
-        "locationEnd": 145,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_12",
-        "category": "TIME",
-        "surfaceForm": "1711",
-        "locationStart": 150,
-        "locationEnd": 154,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_13",
-        "category": "LOCATION",
-        "surfaceForm": "Zuidland",
-        "locationStart": 156,
-        "locationEnd": 164,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_14",
-        "category": "TIME",
-        "surfaceForm": "1717",
-        "locationStart": 166,
-        "locationEnd": 170,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_15",
-        "category": "LOCATION",
-        "surfaceForm": "Deventer",
-        "locationStart": 172,
-        "locationEnd": 180,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_16",
-        "category": "TIME",
-        "surfaceForm": "1723",
-        "locationStart": 182,
-        "locationEnd": 186,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_17",
-        "category": "LOCATION",
-        "surfaceForm": "Amsterdam",
-        "locationStart": 188,
-        "locationEnd": 197,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_18",
-        "category": "TIME",
-        "surfaceForm": "1726 - 1763",
-        "locationStart": 199,
-        "locationEnd": 210,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_19",
-        "category": "LOCATION",
-        "surfaceForm": "Amsterdam",
-        "locationStart": 213,
-        "locationEnd": 222,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_20",
-        "category": "TIME",
-        "surfaceForm": "1735",
-        "locationStart": 224,
-        "locationEnd": 228,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_21",
-        "category": "TIME",
-        "surfaceForm": "1737",
-        "locationStart": 307,
-        "locationEnd": 311,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_22",
-        "category": "TIME",
-        "surfaceForm": "1744",
-        "locationStart": 316,
-        "locationEnd": 320,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_23",
-        "category": "LOCATION",
-        "surfaceForm": "Hottentotten",
-        "locationStart": 335,
-        "locationEnd": 346,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_24",
-        "category": "PERSON",
-        "surfaceForm": "Moravi\"r Georg Schmidt",
-        "locationStart": 322,
-        "locationEnd": 346,
-        "method": "gpt-3.5-turbo"
+        "ID": "xlmr_ner_8",
+        "category": "ORG",
+        "surfaceForm": "Hot",
+        "locationStart": 718,
+        "locationEnd": 721,
+        "method": "xlmr_ner_"
       }
     ],
     "time_expressions": [

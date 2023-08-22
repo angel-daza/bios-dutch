@@ -657,6 +657,14 @@
     },
     "entities": [
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "Schilder",
+        "locationStart": 0,
+        "locationEnd": 7,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_4",
         "surfaceForm": "5 november 1878",
         "category": "TIME",
@@ -673,6 +681,14 @@
         "locationStart": 19,
         "locationEnd": 34,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "LOCATION",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 22,
+        "locationEnd": 31,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_0",
@@ -711,6 +727,38 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 36,
+        "locationEnd": 45,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "LOCATION",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 57,
+        "locationEnd": 66,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "TIME",
+        "surfaceForm": "1901",
+        "locationStart": 68,
+        "locationEnd": 72,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "TIME",
+        "surfaceForm": "1901",
+        "locationStart": 76,
+        "locationEnd": 80,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_1",
         "surfaceForm": "Amsterdam",
         "category": "LOC",
@@ -745,6 +793,30 @@
         "locationStart": 83,
         "locationEnd": 92,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_3",
+        "category": "LOC",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 83,
+        "locationEnd": 92,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "TIME",
+        "surfaceForm": "1901",
+        "locationStart": 84,
+        "locationEnd": 88,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_6",
+        "category": "TIME",
+        "surfaceForm": "7 november 1901",
+        "locationStart": 90,
+        "locationEnd": 107,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_7",
@@ -789,6 +861,22 @@
         "locationStart": 116,
         "locationEnd": 120,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_7",
+        "category": "LOCATION",
+        "surfaceForm": "munchen",
+        "locationStart": 117,
+        "locationEnd": 124,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_8",
+        "category": "PERSON",
+        "surfaceForm": "scheen 1981",
+        "locationStart": 126,
+        "locationEnd": 137,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_1",
@@ -843,78 +931,6 @@
         "tokenStart": 33,
         "tokenEnd": 34,
         "method": "human_gold"
-      },
-      {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "Schilder",
-        "locationStart": 0,
-        "locationEnd": 7,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "LOCATION",
-        "surfaceForm": "Amsterdam",
-        "locationStart": 22,
-        "locationEnd": 31,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "LOCATION",
-        "surfaceForm": "Amsterdam",
-        "locationStart": 57,
-        "locationEnd": 66,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "TIME",
-        "surfaceForm": "1901",
-        "locationStart": 68,
-        "locationEnd": 72,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "TIME",
-        "surfaceForm": "1901",
-        "locationStart": 76,
-        "locationEnd": 80,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "TIME",
-        "surfaceForm": "1901",
-        "locationStart": 84,
-        "locationEnd": 88,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_6",
-        "category": "TIME",
-        "surfaceForm": "7 november 1901",
-        "locationStart": 90,
-        "locationEnd": 107,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_7",
-        "category": "LOCATION",
-        "surfaceForm": "munchen",
-        "locationStart": 117,
-        "locationEnd": 124,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_8",
-        "category": "PERSON",
-        "surfaceForm": "scheen 1981",
-        "locationStart": 126,
-        "locationEnd": 137,
-        "method": "gpt-3.5-turbo"
       }
     ],
     "time_expressions": [

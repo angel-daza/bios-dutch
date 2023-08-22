@@ -17,10 +17,10 @@ STATISTICS = None
 GLOBAL_QUERY = []
 
 ALL_LABEL_COLORS = {
-    "PER": "#c3e9bb", 
-    "LOC": "#e9bbbb", 
-    "ORG": "#4285F4", 
-    "MISC": "#aeb8e3", 
+    "PER": "#add8e6",
+    "LOC": "#c3e9bb",
+    "ORG": "#fdfd96",
+    "MISC": "#e9bbbb", 
     "GPE": "#e1e3ae",
     "DEATH_YEAR": "#e1e3ae", 
     "BIRTH_PLACE": "#e3aeda", 
@@ -33,8 +33,8 @@ ALL_LABEL_COLORS = {
 CONFIDENCE_COLORS = {
     "LOW": "#EBB9B5", 
     "WEAK": "#F2F1AE",
-    "MEDIUM": "#A8E8A2",
-    "HIGH":  "#c3e9bb",
+    "MEDIUM": "#c3e9bb",
+    "HIGH":  "#A8E8A2",
     "VERY HIGH": "#2B7424",
 }
 

@@ -1285,6 +1285,22 @@
     },
     "entities": [
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "Vermogende ondernemer",
+        "locationStart": 0,
+        "locationEnd": 20,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "LOCATION",
+        "surfaceForm": "Rotterdam",
+        "locationStart": 24,
+        "locationEnd": 33,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_0",
         "surfaceForm": "Rotterdam",
         "category": "LOC",
@@ -1321,6 +1337,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Rotterdam",
+        "locationStart": 26,
+        "locationEnd": 35,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_4",
         "surfaceForm": "vierendertig jaar",
         "category": "TIME",
@@ -1329,6 +1353,22 @@
         "tokenStart": 7,
         "tokenEnd": 9,
         "method": "human_gold"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Tweede Kamer",
+        "locationStart": 54,
+        "locationEnd": 66,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "LOCATION",
+        "surfaceForm": "Gorinchem",
+        "locationStart": 137,
+        "locationEnd": 146,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_1",
@@ -1357,6 +1397,14 @@
         "locationStart": 139,
         "locationEnd": 151,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_1",
+        "category": "ORG",
+        "surfaceForm": "Tweede Kamer",
+        "locationStart": 139,
+        "locationEnd": 151,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_2",
@@ -1405,36 +1453,12 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "Vermogende ondernemer",
-        "locationStart": 0,
-        "locationEnd": 20,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "LOCATION",
-        "surfaceForm": "Rotterdam",
-        "locationStart": 24,
-        "locationEnd": 33,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Tweede Kamer",
-        "locationStart": 54,
-        "locationEnd": 66,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "LOCATION",
+        "ID": "xlmr_ner_3",
+        "category": "LOC",
         "surfaceForm": "Gorinchem",
-        "locationStart": 137,
-        "locationEnd": 146,
-        "method": "gpt-3.5-turbo"
+        "locationStart": 360,
+        "locationEnd": 369,
+        "method": "xlmr_ner_"
       }
     ],
     "time_expressions": [

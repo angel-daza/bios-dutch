@@ -3783,6 +3783,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "STUART",
+        "locationStart": 0,
+        "locationEnd": 6,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "STUART",
+        "locationStart": 0,
+        "locationEnd": 6,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_1",
         "surfaceForm": "ARNOLDUS ABRAHAM",
         "category": "PER",
@@ -3807,6 +3823,30 @@
         "locationStart": 8,
         "locationEnd": 24,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "PERSON",
+        "surfaceForm": "ARNOLDUS ABRAHAM",
+        "locationStart": 8,
+        "locationEnd": 25,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "ARNOLDUS ABRAHAM",
+        "locationStart": 8,
+        "locationEnd": 24,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "LOCATION",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 27,
+        "locationEnd": 36,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_2",
@@ -3845,6 +3885,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 28,
+        "locationEnd": 37,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_21",
         "surfaceForm": "27 aug . 1805",
         "category": "TIME",
@@ -3861,6 +3909,22 @@
         "locationStart": 38,
         "locationEnd": 50,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "TIME",
+        "surfaceForm": "27 aug. 1805",
+        "locationStart": 38,
+        "locationEnd": 50,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "LOCATION",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 52,
+        "locationEnd": 61,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_3",
@@ -3899,6 +3963,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 54,
+        "locationEnd": 63,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "TIME",
+        "surfaceForm": "27 apr. 1871",
+        "locationStart": 63,
+        "locationEnd": 75,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_29",
         "surfaceForm": "27 apr. 1871",
         "category": "TIME",
@@ -3915,6 +3995,14 @@
         "locationStart": 64,
         "locationEnd": 76,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_6",
+        "category": "PERSON",
+        "surfaceForm": "Martinus Smart",
+        "locationStart": 78,
+        "locationEnd": 92,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_4",
@@ -3953,6 +4041,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "PER",
+        "surfaceForm": "Martinus Smart",
+        "locationStart": 86,
+        "locationEnd": 100,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_7",
+        "category": "PERSON",
+        "surfaceForm": "Theodora Magdalena Robb",
+        "locationStart": 95,
+        "locationEnd": 118,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_5",
         "surfaceForm": "Theodora Magdalena Robb",
         "category": "PER",
@@ -3987,6 +4091,22 @@
         "locationStart": 104,
         "locationEnd": 127,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_1",
+        "category": "PER",
+        "surfaceForm": "Theodora Magdalena Robb",
+        "locationStart": 104,
+        "locationEnd": 127,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_8",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Atheneum Illustre Amsterdam",
+        "locationStart": 120,
+        "locationEnd": 146,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_6",
@@ -4027,12 +4147,36 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_2",
+        "category": "ORG",
+        "surfaceForm": "Atheneum Illustre Amsterdam",
+        "locationStart": 135,
+        "locationEnd": 162,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_9",
+        "category": "TIME",
+        "surfaceForm": "1821",
+        "locationStart": 148,
+        "locationEnd": 152,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gysbert_hist_2",
         "category": "LOC",
         "surfaceForm": "amsterdam",
         "locationStart": 153,
         "locationEnd": 162,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_10",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Rem. Seminarium",
+        "locationStart": 154,
+        "locationEnd": 169,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_4",
@@ -4071,12 +4215,36 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_2",
+        "category": "ORG",
+        "surfaceForm": "Rem. Seminarium",
+        "locationStart": 169,
+        "locationEnd": 184,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_11",
+        "category": "TIME",
+        "surfaceForm": "1824",
+        "locationStart": 171,
+        "locationEnd": 175,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "flair_5",
         "category": "ORG",
         "surfaceForm": "Seminarium",
         "locationStart": 174,
         "locationEnd": 184,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_12",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Rem. pred. Haarlem",
+        "locationStart": 177,
+        "locationEnd": 194,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_6",
@@ -4103,6 +4271,14 @@
         "locationStart": 191,
         "locationEnd": 194,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_13",
+        "category": "TIME",
+        "surfaceForm": "1827",
+        "locationStart": 196,
+        "locationEnd": 200,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_8",
@@ -4141,6 +4317,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_14",
+        "category": "LOCATION",
+        "surfaceForm": "'s- Gravenhage",
+        "locationStart": 202,
+        "locationEnd": 215,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_3",
+        "category": "LOC",
+        "surfaceForm": "Haarlem",
+        "locationStart": 202,
+        "locationEnd": 209,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_8",
         "surfaceForm": "1827",
         "category": "TIME",
@@ -4177,6 +4369,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_3",
+        "category": "LOC",
+        "surfaceForm": "'s- Gravenhage",
+        "locationStart": 216,
+        "locationEnd": 230,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "flair_7",
         "category": "LOC",
         "surfaceForm": "s- Gravenhage",
@@ -4191,6 +4391,14 @@
         "locationStart": 217,
         "locationEnd": 219,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_15",
+        "category": "TIME",
+        "surfaceForm": "1829",
+        "locationStart": 217,
+        "locationEnd": 221,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_9",
@@ -4211,6 +4419,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_16",
+        "category": "LOCATION",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 223,
+        "locationEnd": 232,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_10",
         "surfaceForm": "1829",
         "category": "TIME",
@@ -4227,6 +4443,14 @@
         "locationStart": 231,
         "locationEnd": 235,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_17",
+        "category": "TIME",
+        "surfaceForm": "1832 - 1867",
+        "locationStart": 234,
+        "locationEnd": 244,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_10",
@@ -4265,6 +4489,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_3",
+        "category": "LOC",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 237,
+        "locationEnd": 246,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_18",
+        "category": "ORGANIZATION",
+        "surfaceForm": "emer.",
+        "locationStart": 246,
+        "locationEnd": 251,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_12",
         "surfaceForm": "1832 - 1867",
         "category": "TIME",
@@ -4289,6 +4529,30 @@
         "locationStart": 254,
         "locationEnd": 258,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_19",
+        "category": "TIME",
+        "surfaceForm": "9 aug. 1827",
+        "locationStart": 254,
+        "locationEnd": 264,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_20",
+        "category": "LOCATION",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 268,
+        "locationEnd": 277,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_21",
+        "category": "PERSON",
+        "surfaceForm": "Elisabeth West- hoff",
+        "locationStart": 279,
+        "locationEnd": 297,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_13",
@@ -4353,6 +4617,30 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_22",
+        "category": "TIME",
+        "surfaceForm": "1807 - 1835",
+        "locationStart": 299,
+        "locationEnd": 309,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_5",
+        "category": "LOC",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 299,
+        "locationEnd": 308,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_23",
+        "category": "TIME",
+        "surfaceForm": "29 juni 1837",
+        "locationStart": 312,
+        "locationEnd": 323,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_12",
         "surfaceForm": "Elisabeth West- hoff",
         "category": "PER",
@@ -4389,6 +4677,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_5",
+        "category": "PER",
+        "surfaceForm": "Elisabeth West- hoff",
+        "locationStart": 313,
+        "locationEnd": 333,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_24",
+        "category": "LOCATION",
+        "surfaceForm": "Amster- dam",
+        "locationStart": 327,
+        "locationEnd": 338,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "flair_10",
         "category": "PER",
         "surfaceForm": "hoff",
@@ -4423,6 +4727,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_25",
+        "category": "PERSON",
+        "surfaceForm": "Maria Elisabeth Pijnappel",
+        "locationStart": 340,
+        "locationEnd": 365,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gysbert_hist_5",
         "category": "TIME",
         "surfaceForm": "1835",
@@ -4447,6 +4759,14 @@
         "locationStart": 355,
         "locationEnd": 367,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_26",
+        "category": "TIME",
+        "surfaceForm": "1815 - 1886",
+        "locationStart": 367,
+        "locationEnd": 377,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_13",
@@ -4485,6 +4805,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_6",
+        "category": "LOC",
+        "surfaceForm": "Amster dam",
+        "locationStart": 371,
+        "locationEnd": 382,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "flair_11",
         "category": "LOC",
         "surfaceForm": "dam",
@@ -4499,6 +4827,22 @@
         "locationStart": 379,
         "locationEnd": 382,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_27",
+        "category": "PERSON",
+        "surfaceForm": "S.",
+        "locationStart": 379,
+        "locationEnd": 380,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_28",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Rem. Broederschap",
+        "locationStart": 384,
+        "locationEnd": 401,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_14",
@@ -4537,6 +4881,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_6",
+        "category": "PER",
+        "surfaceForm": "Maria Elisabeth Pijnappel",
+        "locationStart": 387,
+        "locationEnd": 412,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_29",
+        "category": "PERSON",
+        "surfaceForm": "Martinus Smart",
+        "locationStart": 408,
+        "locationEnd": 422,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_22",
         "surfaceForm": "1815 - 1886",
         "category": "TIME",
@@ -4561,6 +4921,14 @@
         "locationStart": 421,
         "locationEnd": 425,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_30",
+        "category": "PERSON",
+        "surfaceForm": "Abraham des Amorie van der Hoeven",
+        "locationStart": 427,
+        "locationEnd": 458,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_15",
@@ -4591,6 +4959,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_7",
+        "category": "PER",
+        "surfaceForm": "S.",
+        "locationStart": 428,
+        "locationEnd": 430,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_31",
+        "category": "PERSON",
+        "surfaceForm": "Martinus Cohen Stuart",
+        "locationStart": 463,
+        "locationEnd": 485,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_16",
         "surfaceForm": "Rem. Broederschap",
         "category": "LOC",
@@ -4617,6 +5001,46 @@
         "locationStart": 469,
         "locationEnd": 472,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_8",
+        "category": "ORG",
+        "surfaceForm": "Rem. Broeder",
+        "locationStart": 469,
+        "locationEnd": 481,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_32",
+        "category": "PERSON",
+        "surfaceForm": "J. Howard",
+        "locationStart": 498,
+        "locationEnd": 507,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_33",
+        "category": "PERSON",
+        "surfaceForm": "E. Fry",
+        "locationStart": 510,
+        "locationEnd": 516,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_34",
+        "category": "PERSON",
+        "surfaceForm": "V. de Paul",
+        "locationStart": 519,
+        "locationEnd": 528,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_35",
+        "category": "PERSON",
+        "surfaceForm": "J. Konijnenburg",
+        "locationStart": 533,
+        "locationEnd": 547,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_17",
@@ -4655,6 +5079,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_9",
+        "category": "PER",
+        "surfaceForm": "Martinus Smart",
+        "locationStart": 542,
+        "locationEnd": 556,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_36",
+        "category": "ARTWORK",
+        "surfaceForm": "Bij- dragen tot het Menschelijk Geluk",
+        "locationStart": 551,
+        "locationEnd": 586,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_18",
         "surfaceForm": "Abraham des Amorie van der Hoeven",
         "category": "PER",
@@ -4689,6 +5129,38 @@
         "locationStart": 574,
         "locationEnd": 607,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_9",
+        "category": "PER",
+        "surfaceForm": "Abraham des Amorie van der Hoeven",
+        "locationStart": 574,
+        "locationEnd": 607,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_37",
+        "category": "TIME",
+        "surfaceForm": "1789 - 1794",
+        "locationStart": 588,
+        "locationEnd": 598,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_38",
+        "category": "PERSON",
+        "surfaceForm": "W.H. Suringar",
+        "locationStart": 609,
+        "locationEnd": 621,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_39",
+        "category": "TIME",
+        "surfaceForm": "1841",
+        "locationStart": 623,
+        "locationEnd": 627,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_19",
@@ -4727,6 +5199,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_9",
+        "category": "PER",
+        "surfaceForm": "Martinus Cohen Stuart",
+        "locationStart": 625,
+        "locationEnd": 646,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_20",
         "surfaceForm": "J. Howard",
         "category": "PER",
@@ -4761,6 +5241,14 @@
         "locationStart": 740,
         "locationEnd": 749,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_10",
+        "category": "PER",
+        "surfaceForm": "J. Howard",
+        "locationStart": 740,
+        "locationEnd": 749,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "flair_17",
@@ -4807,6 +5295,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_10",
+        "category": "PER",
+        "surfaceForm": "E. Fry",
+        "locationStart": 751,
+        "locationEnd": 757,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_22",
         "surfaceForm": "V. de Paul",
         "category": "PER",
@@ -4843,6 +5339,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_10",
+        "category": "PER",
+        "surfaceForm": "V. de Paul",
+        "locationStart": 759,
+        "locationEnd": 769,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_23",
         "surfaceForm": "J. Konijnenburg",
         "category": "PER",
@@ -4877,6 +5381,14 @@
         "locationStart": 809,
         "locationEnd": 824,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_10",
+        "category": "PER",
+        "surfaceForm": "J. Konijnenburg",
+        "locationStart": 809,
+        "locationEnd": 824,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "flair_18",
@@ -4979,6 +5491,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_11",
+        "category": "PER",
+        "surfaceForm": "S.",
+        "locationStart": 881,
+        "locationEnd": 883,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_27",
         "surfaceForm": "W.H. Suringar",
         "category": "PER",
@@ -5005,6 +5525,14 @@
         "locationStart": 995,
         "locationEnd": 999,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_12",
+        "category": "PER",
+        "surfaceForm": "W.H. Suringar",
+        "locationStart": 995,
+        "locationEnd": 1008,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gysbert_hist_12",
@@ -5047,326 +5575,6 @@
         "locationStart": 1033,
         "locationEnd": 1037,
         "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "STUART",
-        "locationStart": 0,
-        "locationEnd": 6,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "PERSON",
-        "surfaceForm": "ARNOLDUS ABRAHAM",
-        "locationStart": 8,
-        "locationEnd": 25,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "LOCATION",
-        "surfaceForm": "Amsterdam",
-        "locationStart": 27,
-        "locationEnd": 36,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "TIME",
-        "surfaceForm": "27 aug. 1805",
-        "locationStart": 38,
-        "locationEnd": 50,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "LOCATION",
-        "surfaceForm": "Amsterdam",
-        "locationStart": 52,
-        "locationEnd": 61,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "TIME",
-        "surfaceForm": "27 apr. 1871",
-        "locationStart": 63,
-        "locationEnd": 75,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_6",
-        "category": "PERSON",
-        "surfaceForm": "Martinus Smart",
-        "locationStart": 78,
-        "locationEnd": 92,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_7",
-        "category": "PERSON",
-        "surfaceForm": "Theodora Magdalena Robb",
-        "locationStart": 95,
-        "locationEnd": 118,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_8",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Atheneum Illustre Amsterdam",
-        "locationStart": 120,
-        "locationEnd": 146,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_9",
-        "category": "TIME",
-        "surfaceForm": "1821",
-        "locationStart": 148,
-        "locationEnd": 152,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_10",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Rem. Seminarium",
-        "locationStart": 154,
-        "locationEnd": 169,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_11",
-        "category": "TIME",
-        "surfaceForm": "1824",
-        "locationStart": 171,
-        "locationEnd": 175,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_12",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Rem. pred. Haarlem",
-        "locationStart": 177,
-        "locationEnd": 194,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_13",
-        "category": "TIME",
-        "surfaceForm": "1827",
-        "locationStart": 196,
-        "locationEnd": 200,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_14",
-        "category": "LOCATION",
-        "surfaceForm": "'s- Gravenhage",
-        "locationStart": 202,
-        "locationEnd": 215,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_15",
-        "category": "TIME",
-        "surfaceForm": "1829",
-        "locationStart": 217,
-        "locationEnd": 221,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_16",
-        "category": "LOCATION",
-        "surfaceForm": "Amsterdam",
-        "locationStart": 223,
-        "locationEnd": 232,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_17",
-        "category": "TIME",
-        "surfaceForm": "1832 - 1867",
-        "locationStart": 234,
-        "locationEnd": 244,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_18",
-        "category": "ORGANIZATION",
-        "surfaceForm": "emer.",
-        "locationStart": 246,
-        "locationEnd": 251,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_19",
-        "category": "TIME",
-        "surfaceForm": "9 aug. 1827",
-        "locationStart": 254,
-        "locationEnd": 264,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_20",
-        "category": "LOCATION",
-        "surfaceForm": "Amsterdam",
-        "locationStart": 268,
-        "locationEnd": 277,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_21",
-        "category": "PERSON",
-        "surfaceForm": "Elisabeth West- hoff",
-        "locationStart": 279,
-        "locationEnd": 297,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_22",
-        "category": "TIME",
-        "surfaceForm": "1807 - 1835",
-        "locationStart": 299,
-        "locationEnd": 309,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_23",
-        "category": "TIME",
-        "surfaceForm": "29 juni 1837",
-        "locationStart": 312,
-        "locationEnd": 323,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_24",
-        "category": "LOCATION",
-        "surfaceForm": "Amster- dam",
-        "locationStart": 327,
-        "locationEnd": 338,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_25",
-        "category": "PERSON",
-        "surfaceForm": "Maria Elisabeth Pijnappel",
-        "locationStart": 340,
-        "locationEnd": 365,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_26",
-        "category": "TIME",
-        "surfaceForm": "1815 - 1886",
-        "locationStart": 367,
-        "locationEnd": 377,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_27",
-        "category": "PERSON",
-        "surfaceForm": "S.",
-        "locationStart": 379,
-        "locationEnd": 380,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_28",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Rem. Broederschap",
-        "locationStart": 384,
-        "locationEnd": 401,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_29",
-        "category": "PERSON",
-        "surfaceForm": "Martinus Smart",
-        "locationStart": 408,
-        "locationEnd": 422,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_30",
-        "category": "PERSON",
-        "surfaceForm": "Abraham des Amorie van der Hoeven",
-        "locationStart": 427,
-        "locationEnd": 458,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_31",
-        "category": "PERSON",
-        "surfaceForm": "Martinus Cohen Stuart",
-        "locationStart": 463,
-        "locationEnd": 485,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_32",
-        "category": "PERSON",
-        "surfaceForm": "J. Howard",
-        "locationStart": 498,
-        "locationEnd": 507,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_33",
-        "category": "PERSON",
-        "surfaceForm": "E. Fry",
-        "locationStart": 510,
-        "locationEnd": 516,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_34",
-        "category": "PERSON",
-        "surfaceForm": "V. de Paul",
-        "locationStart": 519,
-        "locationEnd": 528,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_35",
-        "category": "PERSON",
-        "surfaceForm": "J. Konijnenburg",
-        "locationStart": 533,
-        "locationEnd": 547,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_36",
-        "category": "ARTWORK",
-        "surfaceForm": "Bij- dragen tot het Menschelijk Geluk",
-        "locationStart": 551,
-        "locationEnd": 586,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_37",
-        "category": "TIME",
-        "surfaceForm": "1789 - 1794",
-        "locationStart": 588,
-        "locationEnd": 598,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_38",
-        "category": "PERSON",
-        "surfaceForm": "W.H. Suringar",
-        "locationStart": 609,
-        "locationEnd": 621,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_39",
-        "category": "TIME",
-        "surfaceForm": "1841",
-        "locationStart": 623,
-        "locationEnd": 627,
-        "method": "gpt-3.5-turbo"
       }
     ],
     "time_expressions": [

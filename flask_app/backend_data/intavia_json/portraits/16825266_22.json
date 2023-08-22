@@ -592,6 +592,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "Johannes Coccejus",
+        "locationStart": 12,
+        "locationEnd": 29,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "Johannes Coccejus",
+        "locationStart": 13,
+        "locationEnd": 29,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_4",
         "surfaceForm": "1603 - 1669",
         "category": "TIME",
@@ -618,12 +634,36 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "ORGANIZATION",
+        "surfaceForm": "theologie",
+        "locationStart": 45,
+        "locationEnd": 53,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "ARTWORK",
+        "surfaceForm": "ABM-g00568",
+        "locationStart": 55,
+        "locationEnd": 65,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "flair_1",
         "category": "MISC",
         "surfaceForm": "ABM-g00568",
         "locationStart": 73,
         "locationEnd": 83,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Museum Catharijneconvent",
+        "locationStart": 79,
+        "locationEnd": 101,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_1",
@@ -642,6 +682,22 @@
         "locationStart": 100,
         "locationEnd": 112,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Vrije Universiteit",
+        "locationStart": 106,
+        "locationEnd": 124,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "LOCATION",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 126,
+        "locationEnd": 134,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_2",
@@ -670,6 +726,14 @@
         "locationStart": 128,
         "locationEnd": 152,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "Museum Catharijneconvent",
+        "locationStart": 128,
+        "locationEnd": 152,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gysbert_hist_1",
@@ -716,6 +780,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "ORG",
+        "surfaceForm": "Vrije Universiteit",
+        "locationStart": 156,
+        "locationEnd": 174,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_4",
         "surfaceForm": "Amsterdam",
         "category": "LOC",
@@ -752,52 +824,12 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "Johannes Coccejus",
-        "locationStart": 13,
-        "locationEnd": 29,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "ORGANIZATION",
-        "surfaceForm": "theologie",
-        "locationStart": 45,
-        "locationEnd": 53,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "ARTWORK",
-        "surfaceForm": "ABM-g00568",
-        "locationStart": 55,
-        "locationEnd": 65,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Museum Catharijneconvent",
-        "locationStart": 79,
-        "locationEnd": 101,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Vrije Universiteit",
-        "locationStart": 106,
-        "locationEnd": 124,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "LOCATION",
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
         "surfaceForm": "Amsterdam",
-        "locationStart": 126,
-        "locationEnd": 134,
-        "method": "gpt-3.5-turbo"
+        "locationStart": 176,
+        "locationEnd": 185,
+        "method": "xlmr_ner_"
       }
     ],
     "time_expressions": [

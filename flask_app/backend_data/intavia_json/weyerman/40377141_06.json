@@ -1001,6 +1001,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "BRONKHORST",
+        "locationStart": 0,
+        "locationEnd": 9,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "BRONKHORST",
+        "locationStart": 0,
+        "locationEnd": 10,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_1",
         "surfaceForm": "Man",
         "category": "PER",
@@ -1019,6 +1035,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "PERSON",
+        "surfaceForm": "Jan Verburg",
+        "locationStart": 57,
+        "locationEnd": 68,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_2",
         "surfaceForm": "Glasschil",
         "category": "MISC",
@@ -1035,6 +1059,14 @@
         "locationStart": 59,
         "locationEnd": 68,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Glasschil",
+        "locationStart": 59,
+        "locationEnd": 68,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_3",
@@ -1091,6 +1123,30 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "Jan Verburg",
+        "locationStart": 104,
+        "locationEnd": 115,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "ARTWORK",
+        "surfaceForm": "Tkenkonst",
+        "locationStart": 105,
+        "locationEnd": 114,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Glasschryvers",
+        "locationStart": 116,
+        "locationEnd": 128,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_5",
         "surfaceForm": "Tkenkonst Ieerde",
         "category": "PER",
@@ -1107,6 +1163,22 @@
         "locationStart": 149,
         "locationEnd": 158,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "ORG",
+        "surfaceForm": "Tkon Ieerde",
+        "locationStart": 149,
+        "locationEnd": 165,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Glasschryvers kronyk",
+        "locationStart": 198,
+        "locationEnd": 218,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_6",
@@ -1143,46 +1215,6 @@
         "locationStart": 263,
         "locationEnd": 276,
         "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "BRONKHORST",
-        "locationStart": 0,
-        "locationEnd": 9,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "PERSON",
-        "surfaceForm": "Jan Verburg",
-        "locationStart": 57,
-        "locationEnd": 68,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "ARTWORK",
-        "surfaceForm": "Tkenkonst",
-        "locationStart": 105,
-        "locationEnd": 114,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Glasschryvers",
-        "locationStart": 116,
-        "locationEnd": 128,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Glasschryvers kronyk",
-        "locationStart": 198,
-        "locationEnd": 218,
-        "method": "gpt-3.5-turbo"
       }
     ],
     "time_expressions": []

@@ -728,6 +728,30 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "VISVLIET",
+        "locationStart": 0,
+        "locationEnd": 7,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "VISVLIET.",
+        "locationStart": 0,
+        "locationEnd": 13,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "PERSON",
+        "surfaceForm": "Egbert Pieter van Visvliet",
+        "locationStart": 9,
+        "locationEnd": 29,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "flair_0",
         "category": "PER",
         "surfaceForm": "Mr.",
@@ -762,6 +786,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "Egbert Pieter van",
+        "locationStart": 14,
+        "locationEnd": 31,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_2",
         "surfaceForm": "12den October 1736",
         "category": "TIME",
@@ -778,6 +810,14 @@
         "locationStart": 38,
         "locationEnd": 56,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "LOCATION",
+        "surfaceForm": "Middelburg",
+        "locationStart": 38,
+        "locationEnd": 48,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_2",
@@ -816,6 +856,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Middelburg",
+        "locationStart": 60,
+        "locationEnd": 70,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "TIME",
+        "surfaceForm": "Januarij",
+        "locationStart": 77,
+        "locationEnd": 85,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_1",
         "surfaceForm": "6den Januarij 1799",
         "category": "TIME",
@@ -832,38 +888,6 @@
         "locationStart": 200,
         "locationEnd": 218,
         "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "VISVLIET",
-        "locationStart": 0,
-        "locationEnd": 7,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "PERSON",
-        "surfaceForm": "Egbert Pieter van Visvliet",
-        "locationStart": 9,
-        "locationEnd": 29,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "LOCATION",
-        "surfaceForm": "Middelburg",
-        "locationStart": 38,
-        "locationEnd": 48,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "TIME",
-        "surfaceForm": "Januarij",
-        "locationStart": 77,
-        "locationEnd": 85,
-        "method": "gpt-3.5-turbo"
       }
     ],
     "time_expressions": [

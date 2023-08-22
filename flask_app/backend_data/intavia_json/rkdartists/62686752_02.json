@@ -1252,6 +1252,62 @@
         "method": "stanza_nl"
       },
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "Etser",
+        "locationStart": 0,
+        "locationEnd": 4,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "PERSON",
+        "surfaceForm": "graficus",
+        "locationStart": 6,
+        "locationEnd": 13,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "PERSON",
+        "surfaceForm": "aquarellist",
+        "locationStart": 15,
+        "locationEnd": 26,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "PERSON",
+        "surfaceForm": "schilder",
+        "locationStart": 28,
+        "locationEnd": 35,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "PERSON",
+        "surfaceForm": "tekenaar",
+        "locationStart": 37,
+        "locationEnd": 45,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "LOCATION",
+        "surfaceForm": "Delft",
+        "locationStart": 49,
+        "locationEnd": 54,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_6",
+        "category": "DATE",
+        "surfaceForm": "10 februari 1962",
+        "locationStart": 56,
+        "locationEnd": 72,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_4",
         "surfaceForm": "15 juli 1878",
         "category": "TIME",
@@ -1306,6 +1362,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "Delft",
+        "locationStart": 73,
+        "locationEnd": 78,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_7",
+        "category": "LOCATION",
+        "surfaceForm": "Eigenbrakel",
+        "locationStart": 74,
+        "locationEnd": 85,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_6",
         "surfaceForm": "10 februari 1962",
         "category": "TIME",
@@ -1322,6 +1394,14 @@
         "locationStart": 91,
         "locationEnd": 102,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_8",
+        "category": "LOCATION",
+        "surfaceForm": "Scheveningen",
+        "locationStart": 101,
+        "locationEnd": 113,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_2",
@@ -1350,6 +1430,38 @@
         "locationStart": 109,
         "locationEnd": 120,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_2",
+        "category": "LOC",
+        "surfaceForm": "Eigenbrakel",
+        "locationStart": 109,
+        "locationEnd": 120,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_9",
+        "category": "LOCATION",
+        "surfaceForm": "Den Haag",
+        "locationStart": 115,
+        "locationEnd": 123,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_10",
+        "category": "DATE",
+        "surfaceForm": "1914 tot 1918",
+        "locationStart": 128,
+        "locationEnd": 141,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_11",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Atelier op de gevers deynootweg",
+        "locationStart": 144,
+        "locationEnd": 173,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_3",
@@ -1386,6 +1498,14 @@
         "locationStart": 158,
         "locationEnd": 170,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_4",
+        "category": "LOC",
+        "surfaceForm": "ScheveningenDen Haagotweg",
+        "locationStart": 158,
+        "locationEnd": 232,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_4",
@@ -1450,6 +1570,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_12",
+        "category": "PERSON",
+        "surfaceForm": "rik wouters",
+        "locationStart": 191,
+        "locationEnd": 202,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gysbert_hist_4",
         "category": "TIME",
         "surfaceForm": "1918",
@@ -1468,12 +1596,36 @@
         "method": "stanza_nl"
       },
       {
+        "ID": "gpt-3.5-turbo_13",
+        "category": "PERSON",
+        "surfaceForm": "jules schmalzigaug",
+        "locationStart": 205,
+        "locationEnd": 223,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gysbert_hist_4",
         "category": "LOC",
         "surfaceForm": "gevers deynootweg",
         "locationStart": 215,
         "locationEnd": 232,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_14",
+        "category": "LOCATION",
+        "surfaceForm": "Ukkel",
+        "locationStart": 225,
+        "locationEnd": 230,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_15",
+        "category": "DATE",
+        "surfaceForm": "1939 tot 1939",
+        "locationStart": 232,
+        "locationEnd": 245,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "flair_4",
@@ -1534,132 +1686,12 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "Etser",
-        "locationStart": 0,
-        "locationEnd": 4,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "PERSON",
-        "surfaceForm": "graficus",
-        "locationStart": 6,
-        "locationEnd": 13,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "PERSON",
-        "surfaceForm": "aquarellist",
-        "locationStart": 15,
-        "locationEnd": 26,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "PERSON",
-        "surfaceForm": "schilder",
-        "locationStart": 28,
-        "locationEnd": 35,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "PERSON",
-        "surfaceForm": "tekenaar",
-        "locationStart": 37,
-        "locationEnd": 45,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "LOCATION",
-        "surfaceForm": "Delft",
-        "locationStart": 49,
-        "locationEnd": 54,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_6",
-        "category": "DATE",
-        "surfaceForm": "10 februari 1962",
-        "locationStart": 56,
-        "locationEnd": 72,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_7",
-        "category": "LOCATION",
-        "surfaceForm": "Eigenbrakel",
-        "locationStart": 74,
-        "locationEnd": 85,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_8",
-        "category": "LOCATION",
-        "surfaceForm": "Scheveningen",
-        "locationStart": 101,
-        "locationEnd": 113,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_9",
-        "category": "LOCATION",
-        "surfaceForm": "Den Haag",
-        "locationStart": 115,
-        "locationEnd": 123,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_10",
-        "category": "DATE",
-        "surfaceForm": "1914 tot 1918",
-        "locationStart": 128,
-        "locationEnd": 141,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_11",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Atelier op de gevers deynootweg",
-        "locationStart": 144,
-        "locationEnd": 173,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_12",
-        "category": "PERSON",
-        "surfaceForm": "rik wouters",
-        "locationStart": 191,
-        "locationEnd": 202,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_13",
-        "category": "PERSON",
-        "surfaceForm": "jules schmalzigaug",
-        "locationStart": 205,
-        "locationEnd": 223,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_14",
-        "category": "LOCATION",
+        "ID": "xlmr_ner_6",
+        "category": "PER",
         "surfaceForm": "Ukkel",
-        "locationStart": 225,
-        "locationEnd": 230,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_15",
-        "category": "DATE",
-        "surfaceForm": "1939 tot 1939",
-        "locationStart": 232,
-        "locationEnd": 245,
-        "method": "gpt-3.5-turbo"
+        "locationStart": 302,
+        "locationEnd": 307,
+        "method": "xlmr_ner_"
       }
     ],
     "time_expressions": [

@@ -1823,6 +1823,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "KLEMENS (Martin)",
+        "locationStart": 0,
+        "locationEnd": 14,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "KLEMENSMartin",
+        "locationStart": 0,
+        "locationEnd": 15,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_1",
         "surfaceForm": "Martin",
         "category": "LOC",
@@ -1847,6 +1863,14 @@
         "locationStart": 9,
         "locationEnd": 15,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "LOCATION",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 27,
+        "locationEnd": 36,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_2",
@@ -1885,6 +1909,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 40,
+        "locationEnd": 49,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Pianoforte magazijn van Martin Klemens te Amsterdam",
+        "locationStart": 54,
+        "locationEnd": 97,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_14",
         "surfaceForm": "' Pianoforte magazijn van Martin Klemens te Amsterdam '",
         "category": "MISC",
@@ -1903,6 +1943,14 @@
         "tokenStart": 16,
         "tokenEnd": 17,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "TIME",
+        "surfaceForm": "eerste kwartaal der negentiende eeuw",
+        "locationStart": 101,
+        "locationEnd": 136,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_4",
@@ -1931,6 +1979,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "PER",
+        "surfaceForm": "Martin Klemens",
+        "locationStart": 105,
+        "locationEnd": 119,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_5",
         "surfaceForm": "Amsterdam",
         "category": "LOC",
@@ -1957,6 +2013,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 123,
+        "locationEnd": 132,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_1",
         "surfaceForm": "het eerste kwartaal der negentiende eeuw",
         "category": "TIME",
@@ -1965,6 +2029,22 @@
         "tokenStart": 25,
         "tokenEnd": 31,
         "method": "human_gold"
+      },
+      {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Museum van Kunstnijverheid te Haarlem",
+        "locationStart": 140,
+        "locationEnd": 173,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "PERSON",
+        "surfaceForm": "den boedel van Mr. H.J. Koenen",
+        "locationStart": 177,
+        "locationEnd": 204,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_6",
@@ -1995,6 +2075,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "Museum van Kunstnijverheid",
+        "locationStart": 187,
+        "locationEnd": 213,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_6",
+        "category": "ORGANIZATION",
+        "surfaceForm": "raad en wethouder van Amsterdam",
+        "locationStart": 209,
+        "locationEnd": 237,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_3",
         "surfaceForm": "Haarlem",
         "category": "LOC",
@@ -2019,6 +2115,30 @@
         "locationStart": 217,
         "locationEnd": 270,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "Haarlem",
+        "locationStart": 217,
+        "locationEnd": 224,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_7",
+        "category": "LOCATION",
+        "surfaceForm": "Haarlem",
+        "locationStart": 241,
+        "locationEnd": 248,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_8",
+        "category": "TIME",
+        "surfaceForm": "13 Sept. 1874",
+        "locationStart": 249,
+        "locationEnd": 262,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_7",
@@ -2049,12 +2169,28 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "PER",
+        "surfaceForm": "H.J. Koenen",
+        "locationStart": 259,
+        "locationEnd": 270,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "flair_2",
         "category": "PER",
         "surfaceForm": "Koenen",
         "locationStart": 264,
         "locationEnd": 270,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_9",
+        "category": "ARTWORK",
+        "surfaceForm": "fransche",
+        "locationStart": 275,
+        "locationEnd": 282,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_8",
@@ -2093,6 +2229,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 294,
+        "locationEnd": 303,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_10",
+        "category": "TIME",
+        "surfaceForm": "veiling Haarlem 31 Aug. 1841",
+        "locationStart": 305,
+        "locationEnd": 331,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_9",
         "surfaceForm": "Haarlem",
         "category": "LOC",
@@ -2129,6 +2281,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "Haarlem",
+        "locationStart": 315,
+        "locationEnd": 322,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_7",
         "surfaceForm": "13 Sept. 1874",
         "category": "TIME",
@@ -2153,6 +2313,22 @@
         "locationStart": 326,
         "locationEnd": 336,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_11",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Opr. Haarl. Crt.",
+        "locationStart": 337,
+        "locationEnd": 351,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_12",
+        "category": "LOCATION",
+        "surfaceForm": "Enschede",
+        "locationStart": 352,
+        "locationEnd": 360,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "flair_3",
@@ -2199,6 +2375,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_2",
+        "category": "LOC",
+        "surfaceForm": "Haarlem",
+        "locationStart": 459,
+        "locationEnd": 466,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_10",
         "surfaceForm": "31 Aug. 1841",
         "category": "TIME",
@@ -2233,6 +2417,14 @@
         "locationStart": 486,
         "locationEnd": 489,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_2",
+        "category": "PER",
+        "surfaceForm": "Opr. Haarl.",
+        "locationStart": 486,
+        "locationEnd": 497,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_11",
@@ -2307,108 +2499,12 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "KLEMENS (Martin)",
-        "locationStart": 0,
-        "locationEnd": 14,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "LOCATION",
-        "surfaceForm": "Amsterdam",
-        "locationStart": 27,
-        "locationEnd": 36,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Pianoforte magazijn van Martin Klemens te Amsterdam",
-        "locationStart": 54,
-        "locationEnd": 97,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "TIME",
-        "surfaceForm": "eerste kwartaal der negentiende eeuw",
-        "locationStart": 101,
-        "locationEnd": 136,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Museum van Kunstnijverheid te Haarlem",
-        "locationStart": 140,
-        "locationEnd": 173,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "PERSON",
-        "surfaceForm": "den boedel van Mr. H.J. Koenen",
-        "locationStart": 177,
-        "locationEnd": 204,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_6",
-        "category": "ORGANIZATION",
-        "surfaceForm": "raad en wethouder van Amsterdam",
-        "locationStart": 209,
-        "locationEnd": 237,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_7",
-        "category": "LOCATION",
-        "surfaceForm": "Haarlem",
-        "locationStart": 241,
-        "locationEnd": 248,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_8",
-        "category": "TIME",
-        "surfaceForm": "13 Sept. 1874",
-        "locationStart": 249,
-        "locationEnd": 262,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_9",
-        "category": "ARTWORK",
-        "surfaceForm": "fransche",
-        "locationStart": 275,
-        "locationEnd": 282,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_10",
-        "category": "TIME",
-        "surfaceForm": "veiling Haarlem 31 Aug. 1841",
-        "locationStart": 305,
-        "locationEnd": 331,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_11",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Opr. Haarl. Crt.",
-        "locationStart": 337,
-        "locationEnd": 351,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_12",
-        "category": "LOCATION",
+        "ID": "xlmr_ner_4",
+        "category": "LOC",
         "surfaceForm": "Enschede",
-        "locationStart": 352,
-        "locationEnd": 360,
-        "method": "gpt-3.5-turbo"
+        "locationStart": 518,
+        "locationEnd": 526,
+        "method": "xlmr_ner_"
       }
     ],
     "time_expressions": [

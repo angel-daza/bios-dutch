@@ -3187,6 +3187,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "SMITS",
+        "locationStart": 0,
+        "locationEnd": 5,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "SMITS",
+        "locationStart": 0,
+        "locationEnd": 5,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_1",
         "surfaceForm": "EVERT JEAN FRANQOIS",
         "category": "PER",
@@ -3213,12 +3229,36 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "PERSON",
+        "surfaceForm": "EVERT JEAN FRANQOIS",
+        "locationStart": 7,
+        "locationEnd": 26,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "EVERT JEAN FRANQOIS",
+        "locationStart": 7,
+        "locationEnd": 26,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "flair_0",
         "category": "PER",
         "surfaceForm": "JEAN FRANQOIS",
         "locationStart": 13,
         "locationEnd": 26,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "LOCATION",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 28,
+        "locationEnd": 37,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_2",
@@ -3257,6 +3297,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 30,
+        "locationEnd": 39,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "TIME",
+        "surfaceForm": "21 apr. 1900",
+        "locationStart": 39,
+        "locationEnd": 51,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_14",
         "surfaceForm": "21 apr. 1900",
         "category": "TIME",
@@ -3273,6 +3329,14 @@
         "locationStart": 40,
         "locationEnd": 52,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "LOCATION",
+        "surfaceForm": "t Groningen",
+        "locationStart": 53,
+        "locationEnd": 64,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_3",
@@ -3311,6 +3375,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Groningen",
+        "locationStart": 56,
+        "locationEnd": 65,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_19",
         "surfaceForm": "11 juni 1970",
         "category": "TIME",
@@ -3327,6 +3399,22 @@
         "locationStart": 66,
         "locationEnd": 78,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "TIME",
+        "surfaceForm": "11 juni 1970",
+        "locationStart": 66,
+        "locationEnd": 79,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_6",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Stud. theol. Amsterdam",
+        "locationStart": 81,
+        "locationEnd": 103,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_4",
@@ -3365,6 +3453,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_2",
+        "category": "LOC",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 93,
+        "locationEnd": 102,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_5",
         "surfaceForm": "Groningen",
         "category": "LOC",
@@ -3401,6 +3497,30 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_7",
+        "category": "LOCATION",
+        "surfaceForm": "Groningen",
+        "locationStart": 104,
+        "locationEnd": 113,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_2",
+        "category": "LOC",
+        "surfaceForm": "Groningen",
+        "locationStart": 104,
+        "locationEnd": 113,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_8",
+        "category": "ORGANIZATION",
+        "surfaceForm": "dr. theol. 1939",
+        "locationStart": 115,
+        "locationEnd": 129,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_2",
         "surfaceForm": "1939",
         "category": "TIME",
@@ -3409,6 +3529,14 @@
         "tokenStart": 27,
         "tokenEnd": 28,
         "method": "human_gold"
+      },
+      {
+        "ID": "gpt-3.5-turbo_9",
+        "category": "PERSON",
+        "surfaceForm": "W.J. Aalders",
+        "locationStart": 133,
+        "locationEnd": 144,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_6",
@@ -3439,12 +3567,28 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_4",
+        "category": "PER",
+        "surfaceForm": "W.J. Aalders",
+        "locationStart": 142,
+        "locationEnd": 154,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gysbert_hist_4",
         "category": "",
         "surfaceForm": "j aalders",
         "locationStart": 144,
         "locationEnd": 154,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_10",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Herv. pred. Aduard",
+        "locationStart": 146,
+        "locationEnd": 163,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_7",
@@ -3455,6 +3599,22 @@
         "tokenStart": 35,
         "tokenEnd": 38,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "xlmr_ner_5",
+        "category": "",
+        "surfaceForm": ". pred",
+        "locationStart": 162,
+        "locationEnd": 167,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_11",
+        "category": "LOCATION",
+        "surfaceForm": "Loppersum",
+        "locationStart": 165,
+        "locationEnd": 174,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_4",
@@ -3483,6 +3643,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_5",
+        "category": "PER",
+        "surfaceForm": "Aduard",
+        "locationStart": 169,
+        "locationEnd": 175,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_5",
         "surfaceForm": "1931",
         "category": "TIME",
@@ -3491,6 +3659,14 @@
         "tokenStart": 38,
         "tokenEnd": 39,
         "method": "human_gold"
+      },
+      {
+        "ID": "gpt-3.5-turbo_12",
+        "category": "LOCATION",
+        "surfaceForm": "Adorp",
+        "locationStart": 176,
+        "locationEnd": 181,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_8",
@@ -3529,6 +3705,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_5",
+        "category": "PER",
+        "surfaceForm": "Loppersum",
+        "locationStart": 182,
+        "locationEnd": 191,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_13",
+        "category": "DATE",
+        "surfaceForm": "1961",
+        "locationStart": 183,
+        "locationEnd": 187,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_7",
         "surfaceForm": "1940",
         "category": "TIME",
@@ -3537,6 +3729,14 @@
         "tokenStart": 41,
         "tokenEnd": 42,
         "method": "human_gold"
+      },
+      {
+        "ID": "gpt-3.5-turbo_14",
+        "category": "LOCATION",
+        "surfaceForm": "Groningen",
+        "locationStart": 193,
+        "locationEnd": 202,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_9",
@@ -3575,6 +3775,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_5",
+        "category": "LOC",
+        "surfaceForm": "Adorp",
+        "locationStart": 198,
+        "locationEnd": 203,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_9",
         "surfaceForm": "1946 - 1961",
         "category": "TIME",
@@ -3585,6 +3793,22 @@
         "method": "human_gold"
       },
       {
+        "ID": "gpt-3.5-turbo_15",
+        "category": "PERSON",
+        "surfaceForm": "S.",
+        "locationStart": 204,
+        "locationEnd": 205,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_16",
+        "category": "ORGANIZATION",
+        "surfaceForm": "the- osofische",
+        "locationStart": 221,
+        "locationEnd": 235,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_10",
         "surfaceForm": "Vanaf 1961",
         "category": "TIME",
@@ -3593,6 +3817,14 @@
         "tokenStart": 51,
         "tokenEnd": 53,
         "method": "human_gold"
+      },
+      {
+        "ID": "gpt-3.5-turbo_17",
+        "category": "PERSON",
+        "surfaceForm": "Herder",
+        "locationStart": 246,
+        "locationEnd": 252,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_10",
@@ -3631,6 +3863,30 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_6",
+        "category": "LOC",
+        "surfaceForm": "Groningen",
+        "locationStart": 250,
+        "locationEnd": 259,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_18",
+        "category": "LOCATION",
+        "surfaceForm": "Bckeburg",
+        "locationStart": 267,
+        "locationEnd": 275,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_19",
+        "category": "LOCATION",
+        "surfaceForm": "Weimar",
+        "locationStart": 277,
+        "locationEnd": 283,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_11",
         "surfaceForm": "S.",
         "category": "PER",
@@ -3659,6 +3915,78 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_8",
+        "category": "PER",
+        "surfaceForm": "S.",
+        "locationStart": 279,
+        "locationEnd": 281,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_20",
+        "category": "PERSON",
+        "surfaceForm": "S.",
+        "locationStart": 285,
+        "locationEnd": 286,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_21",
+        "category": "PERSON",
+        "surfaceForm": "Herders",
+        "locationStart": 291,
+        "locationEnd": 298,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_22",
+        "category": "PERSON",
+        "surfaceForm": "S.",
+        "locationStart": 300,
+        "locationEnd": 301,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_23",
+        "category": "PERSON",
+        "surfaceForm": "V. Andreae",
+        "locationStart": 313,
+        "locationEnd": 323,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_24",
+        "category": "PERSON",
+        "surfaceForm": "J.A. Comenius",
+        "locationStart": 328,
+        "locationEnd": 341,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_25",
+        "category": "LOCATION",
+        "surfaceForm": "Duitse",
+        "locationStart": 347,
+        "locationEnd": 353,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_26",
+        "category": "PERSON",
+        "surfaceForm": "W.S. Solovjef",
+        "locationStart": 365,
+        "locationEnd": 377,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_27",
+        "category": "PERSON",
+        "surfaceForm": "N.A. Berdjajef",
+        "locationStart": 382,
+        "locationEnd": 395,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_12",
         "surfaceForm": "J.G",
         "category": "ORG",
@@ -3685,6 +4013,14 @@
         "locationStart": 505,
         "locationEnd": 509,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_9",
+        "category": "PER",
+        "surfaceForm": "J.G.",
+        "locationStart": 505,
+        "locationEnd": 509,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "flair_11",
@@ -3749,6 +4085,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_10",
+        "category": "LOC",
+        "surfaceForm": "Bckeburg",
+        "locationStart": 612,
+        "locationEnd": 620,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_15",
         "surfaceForm": "Weimar",
         "category": "LOC",
@@ -3785,6 +4129,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_10",
+        "category": "LOC",
+        "surfaceForm": "Weimar",
+        "locationStart": 626,
+        "locationEnd": 632,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_16",
         "surfaceForm": "S.",
         "category": "PER",
@@ -3813,6 +4165,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_12",
+        "category": "PER",
+        "surfaceForm": "S.",
+        "locationStart": 763,
+        "locationEnd": 765,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_17",
         "surfaceForm": "Herders",
         "category": "PER",
@@ -3829,6 +4189,14 @@
         "locationStart": 796,
         "locationEnd": 803,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_12",
+        "category": "PER",
+        "surfaceForm": "Herders",
+        "locationStart": 796,
+        "locationEnd": 803,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_18",
@@ -3865,6 +4233,14 @@
         "locationStart": 831,
         "locationEnd": 841,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_12",
+        "category": "PER",
+        "surfaceForm": "V. Andreae",
+        "locationStart": 831,
+        "locationEnd": 841,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "flair_13",
@@ -3909,6 +4285,14 @@
         "locationStart": 845,
         "locationEnd": 849,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_12",
+        "category": "PER",
+        "surfaceForm": "J.A. Comenius",
+        "locationStart": 845,
+        "locationEnd": 858,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "flair_14",
@@ -3983,6 +4367,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_13",
+        "category": "PER",
+        "surfaceForm": "W.S. Solovjef",
+        "locationStart": 948,
+        "locationEnd": 961,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "flair_16",
         "category": "PER",
         "surfaceForm": "Solovjef",
@@ -4027,6 +4419,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_13",
+        "category": "PER",
+        "surfaceForm": "N.A. Berdjajef",
+        "locationStart": 965,
+        "locationEnd": 979,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "flair_17",
         "category": "PER",
         "surfaceForm": "Berdjajef",
@@ -4041,230 +4441,6 @@
         "locationStart": 970,
         "locationEnd": 979,
         "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "SMITS",
-        "locationStart": 0,
-        "locationEnd": 5,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "PERSON",
-        "surfaceForm": "EVERT JEAN FRANQOIS",
-        "locationStart": 7,
-        "locationEnd": 26,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "LOCATION",
-        "surfaceForm": "Amsterdam",
-        "locationStart": 28,
-        "locationEnd": 37,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "TIME",
-        "surfaceForm": "21 apr. 1900",
-        "locationStart": 39,
-        "locationEnd": 51,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "LOCATION",
-        "surfaceForm": "t Groningen",
-        "locationStart": 53,
-        "locationEnd": 64,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "TIME",
-        "surfaceForm": "11 juni 1970",
-        "locationStart": 66,
-        "locationEnd": 79,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_6",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Stud. theol. Amsterdam",
-        "locationStart": 81,
-        "locationEnd": 103,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_7",
-        "category": "LOCATION",
-        "surfaceForm": "Groningen",
-        "locationStart": 104,
-        "locationEnd": 113,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_8",
-        "category": "ORGANIZATION",
-        "surfaceForm": "dr. theol. 1939",
-        "locationStart": 115,
-        "locationEnd": 129,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_9",
-        "category": "PERSON",
-        "surfaceForm": "W.J. Aalders",
-        "locationStart": 133,
-        "locationEnd": 144,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_10",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Herv. pred. Aduard",
-        "locationStart": 146,
-        "locationEnd": 163,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_11",
-        "category": "LOCATION",
-        "surfaceForm": "Loppersum",
-        "locationStart": 165,
-        "locationEnd": 174,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_12",
-        "category": "LOCATION",
-        "surfaceForm": "Adorp",
-        "locationStart": 176,
-        "locationEnd": 181,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_13",
-        "category": "DATE",
-        "surfaceForm": "1961",
-        "locationStart": 183,
-        "locationEnd": 187,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_14",
-        "category": "LOCATION",
-        "surfaceForm": "Groningen",
-        "locationStart": 193,
-        "locationEnd": 202,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_15",
-        "category": "PERSON",
-        "surfaceForm": "S.",
-        "locationStart": 204,
-        "locationEnd": 205,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_16",
-        "category": "ORGANIZATION",
-        "surfaceForm": "the- osofische",
-        "locationStart": 221,
-        "locationEnd": 235,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_17",
-        "category": "PERSON",
-        "surfaceForm": "Herder",
-        "locationStart": 246,
-        "locationEnd": 252,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_18",
-        "category": "LOCATION",
-        "surfaceForm": "Bckeburg",
-        "locationStart": 267,
-        "locationEnd": 275,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_19",
-        "category": "LOCATION",
-        "surfaceForm": "Weimar",
-        "locationStart": 277,
-        "locationEnd": 283,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_20",
-        "category": "PERSON",
-        "surfaceForm": "S.",
-        "locationStart": 285,
-        "locationEnd": 286,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_21",
-        "category": "PERSON",
-        "surfaceForm": "Herders",
-        "locationStart": 291,
-        "locationEnd": 298,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_22",
-        "category": "PERSON",
-        "surfaceForm": "S.",
-        "locationStart": 300,
-        "locationEnd": 301,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_23",
-        "category": "PERSON",
-        "surfaceForm": "V. Andreae",
-        "locationStart": 313,
-        "locationEnd": 323,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_24",
-        "category": "PERSON",
-        "surfaceForm": "J.A. Comenius",
-        "locationStart": 328,
-        "locationEnd": 341,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_25",
-        "category": "LOCATION",
-        "surfaceForm": "Duitse",
-        "locationStart": 347,
-        "locationEnd": 353,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_26",
-        "category": "PERSON",
-        "surfaceForm": "W.S. Solovjef",
-        "locationStart": 365,
-        "locationEnd": 377,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_27",
-        "category": "PERSON",
-        "surfaceForm": "N.A. Berdjajef",
-        "locationStart": 382,
-        "locationEnd": 395,
-        "method": "gpt-3.5-turbo"
       }
     ],
     "time_expressions": [

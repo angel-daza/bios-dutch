@@ -2364,6 +2364,22 @@
     },
     "entities": [
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "Zij",
+        "locationStart": 0,
+        "locationEnd": 3,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "PERSON",
+        "surfaceForm": "Gerada Rosalia Triel",
+        "locationStart": 19,
+        "locationEnd": 38,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_0",
         "surfaceForm": "Gerada Rosalia Triel",
         "category": "PER",
@@ -2398,6 +2414,22 @@
         "locationStart": 23,
         "locationEnd": 43,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "Gerada Rosalia Triel",
+        "locationStart": 23,
+        "locationEnd": 43,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "PERSON",
+        "surfaceForm": "Johan Alexander Elsenhout",
+        "locationStart": 42,
+        "locationEnd": 65,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_1",
@@ -2436,6 +2468,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "Johan Alexander Elsenhout",
+        "locationStart": 47,
+        "locationEnd": 72,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "PERSON",
+        "surfaceForm": "Johanna Schouten-Elsenhout",
+        "locationStart": 67,
+        "locationEnd": 92,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_2",
         "surfaceForm": "Johanna Schouten-Elsenhout",
         "category": "PER",
@@ -2470,6 +2518,22 @@
         "locationStart": 74,
         "locationEnd": 100,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_1",
+        "category": "PER",
+        "surfaceForm": "Johanna Schouten-Elsenhout",
+        "locationStart": 74,
+        "locationEnd": 100,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "LOCATION",
+        "surfaceForm": "Suriname",
+        "locationStart": 96,
+        "locationEnd": 103,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_3",
@@ -2508,6 +2572,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "SurinameTanbo Jo",
+        "locationStart": 113,
+        "locationEnd": 158,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "PERSON",
+        "surfaceForm": "Tanbo Jo",
+        "locationStart": 119,
+        "locationEnd": 126,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_4",
         "surfaceForm": "Tanbo Jo",
         "category": "MISC",
@@ -2536,6 +2616,38 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "gpt-3.5-turbo_6",
+        "category": "TIME",
+        "surfaceForm": "1958",
+        "locationStart": 150,
+        "locationEnd": 154,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_7",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Nanga Opo Doro",
+        "locationStart": 174,
+        "locationEnd": 188,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_8",
+        "category": "ARTWORK",
+        "surfaceForm": "Kotomisi",
+        "locationStart": 195,
+        "locationEnd": 203,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_9",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Sranan Tongo",
+        "locationStart": 244,
+        "locationEnd": 256,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_3",
         "surfaceForm": "1958",
         "category": "TIME",
@@ -2552,6 +2664,22 @@
         "locationStart": 262,
         "locationEnd": 266,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_10",
+        "category": "LOCATION",
+        "surfaceForm": "Suriname",
+        "locationStart": 297,
+        "locationEnd": 304,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_11",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Johanna Schouten- Elsenhout",
+        "locationStart": 308,
+        "locationEnd": 334,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_5",
@@ -2628,6 +2756,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_4",
+        "category": "LOC",
+        "surfaceForm": "Sranan Tongo",
+        "locationStart": 479,
+        "locationEnd": 491,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_8",
         "surfaceForm": "Suriname",
         "category": "LOC",
@@ -2664,6 +2800,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_6",
+        "category": "LOC",
+        "surfaceForm": "Suriname",
+        "locationStart": 695,
+        "locationEnd": 703,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_9",
         "surfaceForm": "Johanna Schouten- Elsenhout",
         "category": "LOC",
@@ -2682,6 +2826,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_6",
+        "category": "LOC",
+        "surfaceForm": "Johanna Schouten- Elsenhout documentatiecentrum",
+        "locationStart": 711,
+        "locationEnd": 758,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_8",
         "surfaceForm": "Schouten- Elsenhout documentatiecentrum",
         "category": "ORG",
@@ -2690,102 +2842,6 @@
         "tokenStart": 128,
         "tokenEnd": 131,
         "method": "human_gold"
-      },
-      {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "Zij",
-        "locationStart": 0,
-        "locationEnd": 3,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "PERSON",
-        "surfaceForm": "Gerada Rosalia Triel",
-        "locationStart": 19,
-        "locationEnd": 38,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "PERSON",
-        "surfaceForm": "Johan Alexander Elsenhout",
-        "locationStart": 42,
-        "locationEnd": 65,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "PERSON",
-        "surfaceForm": "Johanna Schouten-Elsenhout",
-        "locationStart": 67,
-        "locationEnd": 92,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "LOCATION",
-        "surfaceForm": "Suriname",
-        "locationStart": 96,
-        "locationEnd": 103,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "PERSON",
-        "surfaceForm": "Tanbo Jo",
-        "locationStart": 119,
-        "locationEnd": 126,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_6",
-        "category": "TIME",
-        "surfaceForm": "1958",
-        "locationStart": 150,
-        "locationEnd": 154,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_7",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Nanga Opo Doro",
-        "locationStart": 174,
-        "locationEnd": 188,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_8",
-        "category": "ARTWORK",
-        "surfaceForm": "Kotomisi",
-        "locationStart": 195,
-        "locationEnd": 203,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_9",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Sranan Tongo",
-        "locationStart": 244,
-        "locationEnd": 256,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_10",
-        "category": "LOCATION",
-        "surfaceForm": "Suriname",
-        "locationStart": 297,
-        "locationEnd": 304,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_11",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Johanna Schouten- Elsenhout",
-        "locationStart": 308,
-        "locationEnd": 334,
-        "method": "gpt-3.5-turbo"
       }
     ],
     "time_expressions": [

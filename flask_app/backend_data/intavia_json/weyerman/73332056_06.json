@@ -965,6 +965,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "ZYL",
+        "locationStart": 0,
+        "locationEnd": 3,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "LOCATION",
+        "surfaceForm": "Amsterdammer",
+        "locationStart": 8,
+        "locationEnd": 19,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_0",
         "surfaceForm": "Amsterdammer",
         "category": "MISC",
@@ -1001,6 +1017,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "LOCATION",
+        "surfaceForm": "Leydenaar",
+        "locationStart": 34,
+        "locationEnd": 43,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Lystenmaakers",
+        "locationStart": 48,
+        "locationEnd": 61,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_2",
         "surfaceForm": "Leydenaar",
         "category": "MISC",
@@ -1017,6 +1049,14 @@
         "locationStart": 55,
         "locationEnd": 64,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "PERSON",
+        "surfaceForm": "Mensch",
+        "locationStart": 66,
+        "locationEnd": 71,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_3",
@@ -1037,6 +1077,30 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "PERSON",
+        "surfaceForm": "Konstschilder",
+        "locationStart": 76,
+        "locationEnd": 89,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_6",
+        "category": "PERSON",
+        "surfaceForm": "Tijdgenoot",
+        "locationStart": 94,
+        "locationEnd": 103,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_7",
+        "category": "PERSON",
+        "surfaceForm": "J. v. Keulen",
+        "locationStart": 119,
+        "locationEnd": 131,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_4",
         "surfaceForm": "Mensch",
         "category": "PER",
@@ -1053,6 +1117,14 @@
         "locationStart": 153,
         "locationEnd": 163,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_8",
+        "category": "LOCATION",
+        "surfaceForm": "Londen",
+        "locationStart": 157,
+        "locationEnd": 163,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_5",
@@ -1109,6 +1181,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "PER",
+        "surfaceForm": "J. v. Keulen",
+        "locationStart": 223,
+        "locationEnd": 235,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_7",
         "surfaceForm": "Londen",
         "category": "LOC",
@@ -1145,76 +1225,12 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "ZYL",
-        "locationStart": 0,
-        "locationEnd": 3,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "LOCATION",
-        "surfaceForm": "Amsterdammer",
-        "locationStart": 8,
-        "locationEnd": 19,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "LOCATION",
-        "surfaceForm": "Leydenaar",
-        "locationStart": 34,
-        "locationEnd": 43,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Lystenmaakers",
-        "locationStart": 48,
-        "locationEnd": 61,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "PERSON",
-        "surfaceForm": "Mensch",
-        "locationStart": 66,
-        "locationEnd": 71,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "PERSON",
-        "surfaceForm": "Konstschilder",
-        "locationStart": 76,
-        "locationEnd": 89,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_6",
-        "category": "PERSON",
-        "surfaceForm": "Tijdgenoot",
-        "locationStart": 94,
-        "locationEnd": 103,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_7",
-        "category": "PERSON",
-        "surfaceForm": "J. v. Keulen",
-        "locationStart": 119,
-        "locationEnd": 131,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_8",
-        "category": "LOCATION",
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
         "surfaceForm": "Londen",
-        "locationStart": 157,
-        "locationEnd": 163,
-        "method": "gpt-3.5-turbo"
+        "locationStart": 278,
+        "locationEnd": 284,
+        "method": "xlmr_ner_"
       }
     ],
     "time_expressions": []

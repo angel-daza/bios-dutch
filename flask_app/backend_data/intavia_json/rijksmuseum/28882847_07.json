@@ -989,6 +989,14 @@
     },
     "entities": [
       {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "ARTWORK",
+        "surfaceForm": "Portret van Willem Coolhaes",
+        "locationStart": 0,
+        "locationEnd": 28,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_0",
         "surfaceForm": "Willem Coolhaes",
         "category": "PER",
@@ -1023,6 +1031,30 @@
         "locationStart": 12,
         "locationEnd": 26,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "Willem Coolhaes",
+        "locationStart": 12,
+        "locationEnd": 27,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "Willem Coolhaes",
+        "locationStart": 14,
+        "locationEnd": 28,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "LOCATION",
+        "surfaceForm": "venster",
+        "locationStart": 54,
+        "locationEnd": 60,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_1",
@@ -1061,64 +1093,12 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
-        "ID": "stanza_nl_2",
-        "surfaceForm": "Latijn",
-        "category": "MISC",
-        "locationStart": 258,
-        "locationEnd": 264,
-        "tokenStart": 46,
-        "tokenEnd": 47,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "flair_2",
-        "category": "MISC",
-        "surfaceForm": "Latijn",
-        "locationStart": 258,
-        "locationEnd": 264,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "stanza_nl_3",
-        "surfaceForm": "Nederlands",
-        "category": "MISC",
-        "locationStart": 306,
-        "locationEnd": 316,
-        "tokenStart": 54,
-        "tokenEnd": 55,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "flair_2",
-        "category": "MISC",
-        "surfaceForm": "Nederlands",
-        "locationStart": 306,
-        "locationEnd": 316,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
+        "ID": "xlmr_ner_0",
+        "category": "PER",
         "surfaceForm": "Willem Coolhaes",
-        "locationStart": 14,
-        "locationEnd": 28,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "ARTWORK",
-        "surfaceForm": "Portret van Willem Coolhaes",
-        "locationStart": 0,
-        "locationEnd": 28,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "LOCATION",
-        "surfaceForm": "venster",
-        "locationStart": 54,
-        "locationEnd": 60,
-        "method": "gpt-3.5-turbo"
+        "locationStart": 57,
+        "locationEnd": 72,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gpt-3.5-turbo_3",
@@ -1167,6 +1147,42 @@
         "locationStart": 198,
         "locationEnd": 208,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "stanza_nl_2",
+        "surfaceForm": "Latijn",
+        "category": "MISC",
+        "locationStart": 258,
+        "locationEnd": 264,
+        "tokenStart": 46,
+        "tokenEnd": 47,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_2",
+        "category": "MISC",
+        "surfaceForm": "Latijn",
+        "locationStart": 258,
+        "locationEnd": 264,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "stanza_nl_3",
+        "surfaceForm": "Nederlands",
+        "category": "MISC",
+        "locationStart": 306,
+        "locationEnd": 316,
+        "tokenStart": 54,
+        "tokenEnd": 55,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_2",
+        "category": "MISC",
+        "surfaceForm": "Nederlands",
+        "locationStart": 306,
+        "locationEnd": 316,
+        "method": "flair/ner-dutch-large_0.12.2"
       }
     ],
     "time_expressions": []

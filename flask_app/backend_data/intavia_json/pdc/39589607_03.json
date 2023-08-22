@@ -2000,6 +2000,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_2",
+        "category": "ORG",
+        "surfaceForm": "Hervormde kerk",
+        "locationStart": 216,
+        "locationEnd": 230,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_2",
         "surfaceForm": "Amsterdam",
         "category": "LOC",
@@ -2026,6 +2034,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_3",
+        "category": "LOC",
+        "surfaceForm": "Amsterdam",
+        "locationStart": 255,
+        "locationEnd": 264,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_3",
         "surfaceForm": "Nederlandse Bank",
         "category": "ORG",
@@ -2044,6 +2060,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_3",
+        "category": "ORG",
+        "surfaceForm": "Nederlandse Bank",
+        "locationStart": 292,
+        "locationEnd": 308,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_4",
         "surfaceForm": "Financien",
         "category": "ORG",
@@ -2060,6 +2084,14 @@
         "locationStart": 334,
         "locationEnd": 343,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_4",
+        "category": "ORG",
+        "surfaceForm": "Financien",
+        "locationStart": 334,
+        "locationEnd": 343,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_5",
@@ -2086,6 +2118,14 @@
         "locationStart": 360,
         "locationEnd": 368,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_4",
+        "category": "PER",
+        "surfaceForm": "Van Tienhoven",
+        "locationStart": 360,
+        "locationEnd": 373,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_6",
@@ -2130,6 +2170,14 @@
         "locationStart": 563,
         "locationEnd": 572,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_6",
+        "category": "LOC",
+        "surfaceForm": "Gorinchem",
+        "locationStart": 563,
+        "locationEnd": 572,
+        "method": "xlmr_ner_"
       }
     ],
     "time_expressions": [

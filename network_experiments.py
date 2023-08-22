@@ -34,28 +34,34 @@ def main():
     # Statistics
     get_entity_stats(documents, name2id)
     get_method_divergence_stats(documents)
-
-    exit()
     
     # Build Networks
     # get_ego_network_of_mentions(documents["37716498_02"], "human_gold", norm_dict, ["PER", "ORG", "LOC"]) # hendrik hendicus huisman
-    # network = get_social_network_of_people(documents, "human_gold", norm_dict)
+    # get_ego_network_of_mentions(documents["19103689_02"], "human_gold", norm_dict, ["PER", "ORG", "LOC"]) # Charlotte Sophie of Aldenburg
+    # get_ego_network_of_mentions(documents["40672923_04"], "human_gold", norm_dict, ["PER", "ORG", "LOC"]) # Helena_Kuipers-Rietberg Network
+    # network_per_gold = get_social_network(documents, "human_gold", ["PER"], norm_dict)
 
     network_analysis_summary = []
     for sys in NER_METHOD_DISPLAY:
         print(f"----- {sys} -----")
-        # EGO NETWORKS
-        # for id, doc in documents.items():
-        #     get_ego_network_of_mentions(doc, sys, norm_dict, ["PER", "ORG", "LOC"])
+        ### EGO NETWORKS
+        for id, doc in documents.items():
+            if id in ["19103689_02", "40672923_04"]:
+                get_ego_network_of_mentions(doc, sys, norm_dict, ["PER"], save_dir=f"local_outputs/{id}")
+                get_ego_network_of_mentions(doc, sys, norm_dict, ["LOC"], save_dir=f"local_outputs/{id}")
+                get_ego_network_of_mentions(doc, sys, norm_dict, ["ORG"], save_dir=f"local_outputs/{id}")
+                get_ego_network_of_mentions(doc, sys, norm_dict, ["PER", "ORG", "LOC"], save_dir=f"local_outputs/{id}")
         ### SOCIAL NETWORK
-        network = get_social_network_of_people(documents, sys, norm_dict)
-        metrics = compute_network_metrics(network)
+        network_people = get_social_network(documents, sys, ["PER"], norm_dict)
+        get_nodes_and_nbrs(network_people, nodes_of_interest=["Charlotte_Bentinck"], save_dir=f"local_outputs/19103689_02/Charlotte_Nbrs_{NER_METHOD_DISPLAY[sys]}.jpg")
+        # network_all = get_social_network(documents, sys, ["PER", "ORG", "LOC"], norm_dict)
+        metrics = compute_network_metrics(network_people)
         metrics["method"] = sys
-        clique_dist = get_cliques_distribution(network)
+        clique_dist = get_cliques_distribution(network_people)
         print(clique_dist)
         network_analysis_summary.append(metrics)
     
-    pd.DataFrame(network_analysis_summary).to_csv("local_outputs/network_analysis_summary.tsv", sep="\t", index=False)
+    # pd.DataFrame(network_analysis_summary).to_csv("local_outputs/network_analysis_summary.tsv", sep="\t", index=False)
 
 
 
@@ -128,19 +134,19 @@ def get_entity_stats(documents: Dict[str, IntaviaDocument], name2id: Dict[str, s
 
     # ENTITY MODEL MEASURES
     emm_df = pd.DataFrame(entity_model_matrix)
-    method_rankings = {}
-    rank_top_n = 500
-    for cat in ["PER", "ORG", "LOC"]:
-        emm_df_cat = emm_df[emm_df["category"] == cat]
-        emm_df_cat = emm_df_cat.groupby("method").value_counts("entity").groupby(level=0, group_keys=False).head(rank_top_n).reset_index()
-        emm_df_cat.columns = ["method",	"category",	"entity", "count"]
-        emm_df_cat = emm_df_cat.sort_values(["method", "count"], ascending=False)
-        for m in NER_METHOD_DISPLAY:
-            method_rankings[m] = list(emm_df_cat[emm_df_cat["method"] == m]["entity"])
-        emm_df_cat.to_csv(f"local_outputs/0_entity_method_counter_{cat}_{rank_top_n}.tsv", sep="\t")
-
-    # Correlation of Rankings
-    get_rankings_correlation(method_rankings)
+    rank_top_n = [10, 50, 100, 500, 1000]
+    for top in rank_top_n:
+        method_rankings = {}
+        for cat in ["PER", "ORG", "LOC"]:
+            emm_df_cat = emm_df[emm_df["category"] == cat]
+            emm_df_cat = emm_df_cat.groupby("method").value_counts("entity").groupby(level=0, group_keys=False).head(top).reset_index()
+            emm_df_cat.columns = ["method",	"category",	"entity", "count"]
+            emm_df_cat = emm_df_cat.sort_values(["method", "count"], ascending=False)
+            for m in NER_METHOD_DISPLAY:
+                method_rankings[m] = list(emm_df_cat[emm_df_cat["method"] == m]["entity"])
+            emm_df_cat.to_csv(f"local_outputs/0_entity_method_counter_{cat}_{top}.tsv", sep="\t")
+        # Correlation of Rankings
+        get_rankings_correlation(method_rankings)
 
     # PERSON DICT
     ranked_per_all = sorted(Counter(all_possible_persons).most_common(), key=lambda x: - x[1])
@@ -186,7 +192,7 @@ def get_method_divergence_stats(documents: Dict[str, IntaviaDocument]):
                 'death_time': doc.metadata.get('death_tm')
                 }
         ent_variance = doc.get_ner_variance(valid_labels=['PER', 'LOC', 'ORG'])
-        for name, val in ent_variance.items():
+        for name, val in sorted(ent_variance.items(), key=lambda x: x[0]):
             row[name] = val
         # Append the computed fields into the table
         data.append(row)
@@ -194,7 +200,7 @@ def get_method_divergence_stats(documents: Dict[str, IntaviaDocument]):
     df.to_csv("local_outputs/method_divergence_stats.csv")
 
 
-def get_ego_network_of_mentions(document: IntaviaDocument, method: str, norm_dict: Dict[str, str], valid_labels: List[str]):
+def get_ego_network_of_mentions(document: IntaviaDocument, method: str, norm_dict: Dict[str, str], valid_labels: List[str], save_dir: str):
     ego_network = nx.Graph() # nx.DiGraph()
     person_id = document.metadata['id_person']
     person_norm_name = norm_dict.get(document.metadata['name'])
@@ -259,28 +265,33 @@ def get_ego_network_of_mentions(document: IntaviaDocument, method: str, norm_dic
 
     print(nx.info(ego_network))
 
-    # plt.figure(figsize=(8, 6), num=f"{document.metadata['name'].title()}")
-    # pos = nx.spring_layout(ego_network, seed=42)
-    # nx.draw(ego_network, pos, with_labels=False, node_size=200, node_color=node_colors_list, font_size=8)
-    # nx.draw_networkx_edge_labels(ego_network, pos, edge_labels=labels)
+    plt.figure(figsize=(12, 8), num=f"{document.metadata['name'].title()}")
+    pos = nx.spring_layout(ego_network, seed=42)
+    nx.draw(ego_network, pos, with_labels=False, node_size=100, node_color=node_colors_list, font_size=4)
+    nx.draw_networkx_edge_labels(ego_network, pos, edge_labels=labels)
 
-    # # Draw the legend shifted away from the noe (useful for longer names)
-    # center_y = 0
-    # for k, (node, (x, y)) in enumerate(pos.items()):
-    #     if k == 0: center_y = y
-    #     if y > center_y:
-    #         label_y = y + 0.05
-    #     else:
-    #         label_y = y - 0.05
-    #     plt.text(x, label_y, node, fontsize=10, ha="center", va="center")
-
-
-    # plt.suptitle(f"NER Network {method}", fontsize=16)
-    # plt.axis("off") 
-    # plt.show()
+    # Draw the legend shifted away from the noe (useful for longer names)
+    center_y = 0
+    for k, (node, (x, y)) in enumerate(pos.items()):
+        if k == 0: center_y = y
+        if y > center_y:
+            label_y = y + 0.05
+        else:
+            label_y = y - 0.05
+        plt.text(x, label_y, node, fontsize=10, ha="center", va="center")
 
 
-def get_social_network_of_people(documents: List[IntaviaDocument], method: str, norm_dict: Dict):
+    plt.suptitle(f"NER Network {method}", fontsize=10)
+    plt.axis("off") 
+    if not os.path.exists(save_dir): os.makedirs(save_dir)
+    plt.savefig(f"{save_dir}/EgoNetwork_{'_'.join(valid_labels)}_{NER_METHOD_DISPLAY[method]}.jpg")
+    #plt.show()
+    plt.clf()
+    
+    return ego_network
+
+
+def get_social_network(documents: List[IntaviaDocument], method: str, valid_labels: List[str], norm_dict: Dict):
     social_network = nx.Graph()
     # Keep Global track of "popularity" measured as PER mentions in all texts
     related_mentions = defaultdict(int)
@@ -297,7 +308,7 @@ def get_social_network_of_people(documents: List[IntaviaDocument], method: str, 
             person_firstname, person_lastname = person_norm_name, person_norm_name
 
 
-        doc_mentions = doc.get_entities([method], valid_labels=["PER"])
+        doc_mentions = doc.get_entities([method], valid_labels=valid_labels)
         
         for ent in doc_mentions:
             if ent.category == "PER":
@@ -375,6 +386,26 @@ def get_cliques_distribution(G):
     for clique in nx.find_cliques(G):
         cliques[len(clique)] += 1
     return cliques
+
+
+# Define get_nodes_and_nbrs()
+def get_nodes_and_nbrs(G, nodes_of_interest, save_dir):
+    """
+	    Returns a subgraph of the graph `G` with only the `nodes_of_interest` and their neighbors.`
+    """
+    nodes_to_draw = []
+    for n in nodes_of_interest:
+        nodes_to_draw.append(n)
+        print(f"Neighbors of {n}")
+        for nbr in G.neighbors(n):
+            nodes_to_draw.append(nbr)
+            print(f"\t{nbr}")
+    G_draw = G.subgraph(nodes_to_draw)
+
+    nx.draw(G, with_labels=False)
+    plt.savefig(save_dir)
+    plt.clf()
+    return G_draw
 
 
 def get_names_dict(bionet_people_json: str, name_dict_path: str, name_dict_path_inv: str):

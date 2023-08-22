@@ -991,114 +991,20 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
-        "ID": "stanza_nl_1",
-        "surfaceForm": ".ALEXANDER KIERINGS",
-        "category": "MISC",
-        "locationStart": 90,
-        "locationEnd": 109,
-        "tokenStart": 21,
-        "tokenEnd": 23,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_2",
-        "surfaceForm": ".ALEXANDER KIERINGS",
-        "category": "PER",
-        "locationStart": 90,
-        "locationEnd": 109,
-        "tokenStart": 21,
-        "tokenEnd": 23,
-        "method": "human_gold"
-      },
-      {
-        "ID": "gysbert_hist_1",
-        "category": "PER",
-        "surfaceForm": "alexander kierings",
-        "locationStart": 92,
-        "locationEnd": 110,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "flair_0",
-        "category": "PER",
-        "surfaceForm": "KIERINGS",
-        "locationStart": 101,
-        "locationEnd": 109,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "stanza_nl_2",
-        "surfaceForm": "Tyd-en Konstgenoot",
-        "category": "MISC",
-        "locationStart": 118,
-        "locationEnd": 136,
-        "tokenStart": 25,
-        "tokenEnd": 27,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "stanza_nl_3",
-        "surfaceForm": "Kornelis Poelenburg",
-        "category": "PER",
-        "locationStart": 141,
-        "locationEnd": 160,
-        "tokenStart": 28,
-        "tokenEnd": 30,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "gold_1",
-        "surfaceForm": "Kornelis Poelenburg .",
-        "category": "PER",
-        "locationStart": 141,
-        "locationEnd": 161,
-        "tokenStart": 28,
-        "tokenEnd": 31,
-        "method": "human_gold"
-      },
-      {
-        "ID": "flair_0",
-        "category": "PER",
-        "surfaceForm": "Kornelis Poelenburg",
-        "locationStart": 141,
-        "locationEnd": 160,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gysbert_hist_1",
-        "category": "PER",
-        "surfaceForm": "kornelis poelenburg",
-        "locationStart": 142,
-        "locationEnd": 161,
-        "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "stanza_nl_4",
-        "surfaceForm": "Hy",
-        "category": "PER",
-        "locationStart": 162,
-        "locationEnd": 164,
-        "tokenStart": 31,
-        "tokenEnd": 32,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "stanza_nl_5",
-        "surfaceForm": "Landschapschilder",
-        "category": "PER",
-        "locationStart": 179,
-        "locationEnd": 196,
-        "tokenStart": 35,
-        "tokenEnd": 36,
-        "method": "stanza_nl"
-      },
-      {
         "ID": "gpt-3.5-turbo_0",
         "category": "PERSON",
         "surfaceForm": "Steenree",
         "locationStart": 0,
         "locationEnd": 7,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "Steenree",
+        "locationStart": 0,
+        "locationEnd": 8,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gpt-3.5-turbo_1",
@@ -1141,12 +1047,66 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "stanza_nl_1",
+        "surfaceForm": ".ALEXANDER KIERINGS",
+        "category": "MISC",
+        "locationStart": 90,
+        "locationEnd": 109,
+        "tokenStart": 21,
+        "tokenEnd": 23,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_2",
+        "surfaceForm": ".ALEXANDER KIERINGS",
+        "category": "PER",
+        "locationStart": 90,
+        "locationEnd": 109,
+        "tokenStart": 21,
+        "tokenEnd": 23,
+        "method": "human_gold"
+      },
+      {
+        "ID": "gysbert_hist_1",
+        "category": "PER",
+        "surfaceForm": "alexander kierings",
+        "locationStart": 92,
+        "locationEnd": 110,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_1",
+        "category": "PER",
+        "surfaceForm": "ALEXANDER KIERINGS",
+        "locationStart": 93,
+        "locationEnd": 110,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gpt-3.5-turbo_6",
         "category": "ORGANIZATION",
         "surfaceForm": "Landschapschilder",
         "locationStart": 97,
         "locationEnd": 114,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "flair_0",
+        "category": "PER",
+        "surfaceForm": "KIERINGS",
+        "locationStart": 101,
+        "locationEnd": 109,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "stanza_nl_2",
+        "surfaceForm": "Tyd-en Konstgenoot",
+        "category": "MISC",
+        "locationStart": 118,
+        "locationEnd": 136,
+        "tokenStart": 25,
+        "tokenEnd": 27,
+        "method": "stanza_nl"
       },
       {
         "ID": "gpt-3.5-turbo_7",
@@ -1157,12 +1117,84 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "stanza_nl_3",
+        "surfaceForm": "Kornelis Poelenburg",
+        "category": "PER",
+        "locationStart": 141,
+        "locationEnd": 160,
+        "tokenStart": 28,
+        "tokenEnd": 30,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "gold_1",
+        "surfaceForm": "Kornelis Poelenburg .",
+        "category": "PER",
+        "locationStart": 141,
+        "locationEnd": 161,
+        "tokenStart": 28,
+        "tokenEnd": 31,
+        "method": "human_gold"
+      },
+      {
+        "ID": "flair_0",
+        "category": "PER",
+        "surfaceForm": "Kornelis Poelenburg",
+        "locationStart": 141,
+        "locationEnd": 160,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gysbert_hist_1",
+        "category": "PER",
+        "surfaceForm": "kornelis poelenburg",
+        "locationStart": 142,
+        "locationEnd": 161,
+        "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_1",
+        "category": "PER",
+        "surfaceForm": "Kornelis Poelenburg",
+        "locationStart": 142,
+        "locationEnd": 161,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gpt-3.5-turbo_8",
         "category": "ORGANIZATION",
         "surfaceForm": "dieren",
         "locationStart": 147,
         "locationEnd": 153,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "stanza_nl_4",
+        "surfaceForm": "Hy",
+        "category": "PER",
+        "locationStart": 162,
+        "locationEnd": 164,
+        "tokenStart": 31,
+        "tokenEnd": 32,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "xlmr_ner_2",
+        "category": "PER",
+        "surfaceForm": "Hy",
+        "locationStart": 163,
+        "locationEnd": 165,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "stanza_nl_5",
+        "surfaceForm": "Landschapschilder",
+        "category": "PER",
+        "locationStart": 179,
+        "locationEnd": 196,
+        "tokenStart": 35,
+        "tokenEnd": 36,
+        "method": "stanza_nl"
       }
     ],
     "time_expressions": []

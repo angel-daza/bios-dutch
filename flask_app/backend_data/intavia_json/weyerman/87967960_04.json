@@ -904,6 +904,14 @@
     },
     "entities": [
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "Die Konstschilder",
+        "locationStart": 0,
+        "locationEnd": 16,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_0",
         "surfaceForm": "Konstschilder",
         "category": "MISC",
@@ -920,6 +928,22 @@
         "locationStart": 4,
         "locationEnd": 17,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "LOCATION",
+        "surfaceForm": "Leyden",
+        "locationStart": 20,
+        "locationEnd": 26,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "TIME",
+        "surfaceForm": "densestienden van de Wintermaand",
+        "locationStart": 28,
+        "locationEnd": 59,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_1",
@@ -958,66 +982,12 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
-        "ID": "stanza_nl_2",
-        "surfaceForm": "Wintermaand",
-        "category": "MISC",
-        "locationStart": 66,
-        "locationEnd": 77,
-        "tokenStart": 11,
-        "tokenEnd": 12,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "stanza_nl_3",
-        "surfaceForm": "Steenhouwer",
-        "category": "PER",
-        "locationStart": 177,
-        "locationEnd": 188,
-        "tokenStart": 31,
-        "tokenEnd": 32,
-        "method": "stanza_nl"
-      },
-      {
-        "ID": "flair_1",
-        "category": "PER",
-        "surfaceForm": "Steenhouwer",
-        "locationStart": 177,
-        "locationEnd": 188,
-        "method": "flair/ner-dutch-large_0.12.2"
-      },
-      {
-        "ID": "gold_0",
-        "surfaceForm": "eenigejaaren",
-        "category": "TIME",
-        "locationStart": 201,
-        "locationEnd": 213,
-        "tokenStart": 36,
-        "tokenEnd": 37,
-        "method": "human_gold"
-      },
-      {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "Die Konstschilder",
-        "locationStart": 0,
-        "locationEnd": 16,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "LOCATION",
-        "surfaceForm": "Leyden",
-        "locationStart": 20,
-        "locationEnd": 26,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "TIME",
-        "surfaceForm": "densestienden van de Wintermaand",
-        "locationStart": 28,
-        "locationEnd": 59,
-        "method": "gpt-3.5-turbo"
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Ley",
+        "locationStart": 34,
+        "locationEnd": 37,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gpt-3.5-turbo_3",
@@ -1026,6 +996,16 @@
         "locationStart": 61,
         "locationEnd": 103,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "stanza_nl_2",
+        "surfaceForm": "Wintermaand",
+        "category": "MISC",
+        "locationStart": 66,
+        "locationEnd": 77,
+        "tokenStart": 11,
+        "tokenEnd": 12,
+        "method": "stanza_nl"
       },
       {
         "ID": "gpt-3.5-turbo_4",
@@ -1052,12 +1032,40 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "stanza_nl_3",
+        "surfaceForm": "Steenhouwer",
+        "category": "PER",
+        "locationStart": 177,
+        "locationEnd": 188,
+        "tokenStart": 31,
+        "tokenEnd": 32,
+        "method": "stanza_nl"
+      },
+      {
+        "ID": "flair_1",
+        "category": "PER",
+        "surfaceForm": "Steenhouwer",
+        "locationStart": 177,
+        "locationEnd": 188,
+        "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
         "ID": "gpt-3.5-turbo_7",
         "category": "ORGANIZATION",
         "surfaceForm": "grootschergeest",
         "locationStart": 180,
         "locationEnd": 195,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gold_0",
+        "surfaceForm": "eenigejaaren",
+        "category": "TIME",
+        "locationStart": 201,
+        "locationEnd": 213,
+        "tokenStart": 36,
+        "tokenEnd": 37,
+        "method": "human_gold"
       }
     ],
     "time_expressions": []

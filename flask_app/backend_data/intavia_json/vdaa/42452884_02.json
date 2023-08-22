@@ -1849,6 +1849,30 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "NIEUWENAAR",
+        "locationStart": 0,
+        "locationEnd": 9,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "NIEUWENAAR",
+        "locationStart": 0,
+        "locationEnd": 10,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "PERSON",
+        "surfaceForm": "Anna van NIEUWENAAR",
+        "locationStart": 14,
+        "locationEnd": 31,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_1",
         "surfaceForm": "Anna",
         "category": "PER",
@@ -1873,6 +1897,14 @@
         "locationStart": 19,
         "locationEnd": 27,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "Anna",
+        "locationStart": 19,
+        "locationEnd": 23,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_2",
@@ -1901,6 +1933,30 @@
         "locationStart": 40,
         "locationEnd": 46,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "PERSON",
+        "surfaceForm": "Nyenar",
+        "locationStart": 40,
+        "locationEnd": 46,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "Nyenar",
+        "locationStart": 40,
+        "locationEnd": 46,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "PERSON",
+        "surfaceForm": "Walraven van Brederode",
+        "locationStart": 70,
+        "locationEnd": 91,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_9",
@@ -1939,12 +1995,28 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "Walraven van Brederode",
+        "locationStart": 92,
+        "locationEnd": 114,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "flair_0",
         "category": "PER",
         "surfaceForm": "Brederode",
         "locationStart": 105,
         "locationEnd": 114,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "PERSON",
+        "surfaceForm": "Fransche abdis Margaretha van Brederode",
+        "locationStart": 113,
+        "locationEnd": 148,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_4",
@@ -1963,6 +2035,14 @@
         "locationStart": 141,
         "locationEnd": 149,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "PERSON",
+        "surfaceForm": "Margaretha van Brederode",
+        "locationStart": 153,
+        "locationEnd": 176,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_5",
@@ -2001,6 +2081,30 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "PER",
+        "surfaceForm": "Margaretha van Brederode",
+        "locationStart": 156,
+        "locationEnd": 180,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_6",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Munt- en Penningkabinet der Leidsche hoogeschool",
+        "locationStart": 235,
+        "locationEnd": 278,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_7",
+        "category": "PERSON",
+        "surfaceForm": "Margaretha",
+        "locationStart": 284,
+        "locationEnd": 294,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_6",
         "surfaceForm": "Munt-",
         "category": "MISC",
@@ -2019,6 +2123,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "Munt",
+        "locationStart": 296,
+        "locationEnd": 300,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_7",
         "surfaceForm": "Penningkabinet der Leidsche",
         "category": "LOC",
@@ -2027,6 +2139,14 @@
         "tokenStart": 55,
         "tokenEnd": 58,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "gpt-3.5-turbo_8",
+        "category": "PERSON",
+        "surfaceForm": "Reinoud van Brederode",
+        "locationStart": 319,
+        "locationEnd": 339,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_2",
@@ -2045,6 +2165,14 @@
         "locationStart": 324,
         "locationEnd": 332,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_1",
+        "category": "ORG",
+        "surfaceForm": "Leidsche hoogeschool",
+        "locationStart": 324,
+        "locationEnd": 344,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_8",
@@ -2073,6 +2201,22 @@
         "locationStart": 367,
         "locationEnd": 377,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_2",
+        "category": "PER",
+        "surfaceForm": "Margaretha",
+        "locationStart": 367,
+        "locationEnd": 377,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_9",
+        "category": "PERSON",
+        "surfaceForm": "Hendrik van Brederode",
+        "locationStart": 383,
+        "locationEnd": 404,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_9",
@@ -2111,6 +2255,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_2",
+        "category": "PER",
+        "surfaceForm": "Reinoud van Brederode",
+        "locationStart": 399,
+        "locationEnd": 420,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_10",
+        "category": "PERSON",
+        "surfaceForm": "van der Chys",
+        "locationStart": 408,
+        "locationEnd": 419,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_10",
         "surfaceForm": "Ned. geschiedenis",
         "category": "MISC",
@@ -2127,6 +2287,14 @@
         "locationStart": 442,
         "locationEnd": 445,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_11",
+        "category": "ARTWORK",
+        "surfaceForm": "Munten der Leenen in de Hertogdommen van Brab. en Limb.",
+        "locationStart": 446,
+        "locationEnd": 498,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_11",
@@ -2165,6 +2333,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_2",
+        "category": "PER",
+        "surfaceForm": "Hendrik van Brederode",
+        "locationStart": 473,
+        "locationEnd": 494,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_12",
         "surfaceForm": "van der Chys",
         "category": "PER",
@@ -2199,6 +2375,14 @@
         "locationStart": 500,
         "locationEnd": 512,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_3",
+        "category": "PER",
+        "surfaceForm": "van der Chys",
+        "locationStart": 500,
+        "locationEnd": 512,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_8",
@@ -2263,6 +2447,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_3",
+        "category": "PER",
+        "surfaceForm": "Brab",
+        "locationStart": 558,
+        "locationEnd": 562,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "flair_4",
         "category": "LOC",
         "surfaceForm": "Limb",
@@ -2277,102 +2469,6 @@
         "locationStart": 567,
         "locationEnd": 570,
         "method": "gysbert_hist_fx_finetuned_epoch2"
-      },
-      {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "NIEUWENAAR",
-        "locationStart": 0,
-        "locationEnd": 9,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "PERSON",
-        "surfaceForm": "Anna van NIEUWENAAR",
-        "locationStart": 14,
-        "locationEnd": 31,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "PERSON",
-        "surfaceForm": "Nyenar",
-        "locationStart": 40,
-        "locationEnd": 46,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "PERSON",
-        "surfaceForm": "Walraven van Brederode",
-        "locationStart": 70,
-        "locationEnd": 91,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "PERSON",
-        "surfaceForm": "Fransche abdis Margaretha van Brederode",
-        "locationStart": 113,
-        "locationEnd": 148,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "PERSON",
-        "surfaceForm": "Margaretha van Brederode",
-        "locationStart": 153,
-        "locationEnd": 176,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_6",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Munt- en Penningkabinet der Leidsche hoogeschool",
-        "locationStart": 235,
-        "locationEnd": 278,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_7",
-        "category": "PERSON",
-        "surfaceForm": "Margaretha",
-        "locationStart": 284,
-        "locationEnd": 294,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_8",
-        "category": "PERSON",
-        "surfaceForm": "Reinoud van Brederode",
-        "locationStart": 319,
-        "locationEnd": 339,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_9",
-        "category": "PERSON",
-        "surfaceForm": "Hendrik van Brederode",
-        "locationStart": 383,
-        "locationEnd": 404,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_10",
-        "category": "PERSON",
-        "surfaceForm": "van der Chys",
-        "locationStart": 408,
-        "locationEnd": 419,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_11",
-        "category": "ARTWORK",
-        "surfaceForm": "Munten der Leenen in de Hertogdommen van Brab. en Limb.",
-        "locationStart": 446,
-        "locationEnd": 498,
-        "method": "gpt-3.5-turbo"
       }
     ],
     "time_expressions": []

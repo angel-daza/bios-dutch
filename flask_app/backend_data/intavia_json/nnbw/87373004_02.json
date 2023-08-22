@@ -8021,6 +8021,30 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "LOCATION",
+        "surfaceForm": "PETERSHE(I)M",
+        "locationStart": 0,
+        "locationEnd": 10,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "PETERSHE(I)MJohan heer van)",
+        "locationStart": 0,
+        "locationEnd": 29,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "PERSON",
+        "surfaceForm": "Johan heer van",
+        "locationStart": 12,
+        "locationEnd": 26,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_0",
         "surfaceForm": "Johan",
         "category": "PER",
@@ -8047,6 +8071,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "PERSON",
+        "surfaceForm": "Willem",
+        "locationStart": 45,
+        "locationEnd": 51,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_32",
         "surfaceForm": "1300 - 1345",
         "category": "TIME",
@@ -8055,6 +8087,14 @@
         "tokenStart": 15,
         "tokenEnd": 18,
         "method": "human_gold"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "LOCATION",
+        "surfaceForm": "Stevensweert",
+        "locationStart": 68,
+        "locationEnd": 80,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_1",
@@ -8085,6 +8125,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "Willem",
+        "locationStart": 78,
+        "locationEnd": 84,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "DATE",
+        "surfaceForm": "17 Juli 1300",
+        "locationStart": 97,
+        "locationEnd": 109,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_2",
         "surfaceForm": "Stevensweert",
         "category": "PER",
@@ -8113,6 +8169,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "Stevensweert",
+        "locationStart": 119,
+        "locationEnd": 131,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Munsterabdij",
+        "locationStart": 130,
+        "locationEnd": 142,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_9",
         "surfaceForm": "17 Juli 1300",
         "category": "TIME",
@@ -8129,6 +8201,22 @@
         "locationStart": 143,
         "locationEnd": 155,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_6",
+        "category": "LOCATION",
+        "surfaceForm": "Roermond",
+        "locationStart": 146,
+        "locationEnd": 154,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_7",
+        "category": "DATE",
+        "surfaceForm": "30 Juli 1320",
+        "locationStart": 176,
+        "locationEnd": 188,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_3",
@@ -8157,6 +8245,14 @@
         "locationStart": 191,
         "locationEnd": 203,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "Munsterabdij",
+        "locationStart": 191,
+        "locationEnd": 203,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_4",
@@ -8195,6 +8291,38 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "Roermond",
+        "locationStart": 207,
+        "locationEnd": 215,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_8",
+        "category": "PERSON",
+        "surfaceForm": "Margaretha",
+        "locationStart": 213,
+        "locationEnd": 223,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_9",
+        "category": "LOCATION",
+        "surfaceForm": "Thorn",
+        "locationStart": 227,
+        "locationEnd": 232,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_10",
+        "category": "PERSON",
+        "surfaceForm": "Gerard heer van",
+        "locationStart": 243,
+        "locationEnd": 259,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_5",
         "surfaceForm": "Stevensweert",
         "category": "PER",
@@ -8231,6 +8359,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "Stevensweert",
+        "locationStart": 263,
+        "locationEnd": 275,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_11",
+        "category": "DATE",
+        "surfaceForm": "12 Febr. 1326",
+        "locationStart": 280,
+        "locationEnd": 293,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_23",
         "surfaceForm": "30 Juli 1320",
         "category": "TIME",
@@ -8247,6 +8391,46 @@
         "locationStart": 310,
         "locationEnd": 322,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_12",
+        "category": "PERSON",
+        "surfaceForm": "Balduinus",
+        "locationStart": 315,
+        "locationEnd": 324,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_13",
+        "category": "PERSON",
+        "surfaceForm": "Petrus",
+        "locationStart": 346,
+        "locationEnd": 352,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_14",
+        "category": "PERSON",
+        "surfaceForm": "Zebertus van Ulvenhout",
+        "locationStart": 363,
+        "locationEnd": 384,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_15",
+        "category": "DATE",
+        "surfaceForm": "22 Nov. 1337",
+        "locationStart": 405,
+        "locationEnd": 417,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_16",
+        "category": "DATE",
+        "surfaceForm": "6 Juni 1345",
+        "locationStart": 419,
+        "locationEnd": 430,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_6",
@@ -8285,6 +8469,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_2",
+        "category": "PER",
+        "surfaceForm": "Margaretha",
+        "locationStart": 421,
+        "locationEnd": 431,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_7",
         "surfaceForm": "Thorn",
         "category": "PER",
@@ -8319,6 +8511,14 @@
         "locationStart": 443,
         "locationEnd": 447,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_2",
+        "category": "LOC",
+        "surfaceForm": "Thorn",
+        "locationStart": 443,
+        "locationEnd": 448,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_8",
@@ -8357,6 +8557,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_2",
+        "category": "PER",
+        "surfaceForm": "Gerard heer van Horn",
+        "locationStart": 453,
+        "locationEnd": 473,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_17",
+        "category": "LOCATION",
+        "surfaceForm": "Thorn",
+        "locationStart": 455,
+        "locationEnd": 460,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_27",
         "surfaceForm": "Horn",
         "category": "LOC",
@@ -8375,6 +8591,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "gpt-3.5-turbo_18",
+        "category": "LOCATION",
+        "surfaceForm": "Ytter",
+        "locationStart": 474,
+        "locationEnd": 479,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_28",
         "surfaceForm": "12 Febr. 1326",
         "category": "TIME",
@@ -8391,6 +8615,22 @@
         "locationStart": 483,
         "locationEnd": 496,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_19",
+        "category": "LOCATION",
+        "surfaceForm": "Wessem",
+        "locationStart": 502,
+        "locationEnd": 508,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_20",
+        "category": "PERSON",
+        "surfaceForm": "Elisabeth van Boxtel",
+        "locationStart": 529,
+        "locationEnd": 548,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_9",
@@ -8429,6 +8669,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_2",
+        "category": "PER",
+        "surfaceForm": "Balduinus",
+        "locationStart": 531,
+        "locationEnd": 540,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gysbert_hist_2",
         "category": "PER",
         "surfaceForm": "van poel",
@@ -8463,6 +8711,14 @@
         "locationStart": 554,
         "locationEnd": 559,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_2",
+        "category": "PER",
+        "surfaceForm": "Poele",
+        "locationStart": 554,
+        "locationEnd": 559,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_11",
@@ -8501,6 +8757,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_2",
+        "category": "PER",
+        "surfaceForm": "Petrus",
+        "locationStart": 564,
+        "locationEnd": 570,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_21",
+        "category": "PERSON",
+        "surfaceForm": "Willem van Cuyck",
+        "locationStart": 570,
+        "locationEnd": 586,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_12",
         "surfaceForm": "Zebertus van Ulvenhout",
         "category": "PER",
@@ -8537,6 +8809,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_2",
+        "category": "PER",
+        "surfaceForm": "Zebertus van Ulvenhout",
+        "locationStart": 581,
+        "locationEnd": 603,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_22",
+        "category": "PERSON",
+        "surfaceForm": "Margaretha van Diest",
+        "locationStart": 591,
+        "locationEnd": 610,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_34",
         "surfaceForm": "22 Nov. 1337",
         "category": "TIME",
@@ -8553,6 +8841,30 @@
         "locationStart": 605,
         "locationEnd": 617,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_23",
+        "category": "PERSON",
+        "surfaceForm": "Willem",
+        "locationStart": 633,
+        "locationEnd": 639,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_24",
+        "category": "PERSON",
+        "surfaceForm": "Hendrik",
+        "locationStart": 664,
+        "locationEnd": 671,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_25",
+        "category": "DATE",
+        "surfaceForm": "12 Febr. 1326",
+        "locationStart": 690,
+        "locationEnd": 703,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_13",
@@ -8581,6 +8893,14 @@
         "locationStart": 696,
         "locationEnd": 706,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_3",
+        "category": "PER",
+        "surfaceForm": "Margaretha",
+        "locationStart": 696,
+        "locationEnd": 706,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_14",
@@ -8619,6 +8939,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_3",
+        "category": "PER",
+        "surfaceForm": "Thorn",
+        "locationStart": 718,
+        "locationEnd": 723,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_37",
         "surfaceForm": "6 Juni 1345",
         "category": "TIME",
@@ -8635,6 +8963,22 @@
         "locationStart": 725,
         "locationEnd": 736,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_26",
+        "category": "DATE",
+        "surfaceForm": "22 Nov. 1337",
+        "locationStart": 732,
+        "locationEnd": 744,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_27",
+        "category": "DATE",
+        "surfaceForm": "1 Maart 1356",
+        "locationStart": 746,
+        "locationEnd": 759,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_15",
@@ -8673,6 +9017,38 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_3",
+        "category": "PER",
+        "surfaceForm": "Thorn",
+        "locationStart": 768,
+        "locationEnd": 773,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_28",
+        "category": "PERSON",
+        "surfaceForm": "Margaretha van Heinsberg",
+        "locationStart": 778,
+        "locationEnd": 800,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_29",
+        "category": "PERSON",
+        "surfaceForm": "Willem heer van Horn",
+        "locationStart": 805,
+        "locationEnd": 825,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_30",
+        "category": "PERSON",
+        "surfaceForm": "M.J. Wolters",
+        "locationStart": 831,
+        "locationEnd": 843,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_16",
         "surfaceForm": "Margaretha",
         "category": "PER",
@@ -8699,6 +9075,62 @@
         "locationStart": 832,
         "locationEnd": 842,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_3",
+        "category": "PER",
+        "surfaceForm": "Margaretha",
+        "locationStart": 832,
+        "locationEnd": 842,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_31",
+        "category": "PERSON",
+        "surfaceForm": "Jos. Habets",
+        "locationStart": 845,
+        "locationEnd": 856,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_32",
+        "category": "PERSON",
+        "surfaceForm": "Jos. Habets",
+        "locationStart": 858,
+        "locationEnd": 869,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_33",
+        "category": "PERSON",
+        "surfaceForm": "Jos. Habets",
+        "locationStart": 871,
+        "locationEnd": 882,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_34",
+        "category": "PERSON",
+        "surfaceForm": "Jos. Habets",
+        "locationStart": 884,
+        "locationEnd": 895,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_35",
+        "category": "PERSON",
+        "surfaceForm": "Jos. M.H. Eversen",
+        "locationStart": 897,
+        "locationEnd": 914,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_36",
+        "category": "PERSON",
+        "surfaceForm": "J.L. Meulleners",
+        "locationStart": 919,
+        "locationEnd": 934,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_17",
@@ -8729,6 +9161,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_3",
+        "category": "PER",
+        "surfaceForm": "Ytter",
+        "locationStart": 922,
+        "locationEnd": 927,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_18",
         "surfaceForm": "Wessem",
         "category": "PER",
@@ -8755,6 +9195,14 @@
         "locationStart": 1109,
         "locationEnd": 1115,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_3",
+        "category": "PER",
+        "surfaceForm": "Wessem",
+        "locationStart": 1109,
+        "locationEnd": 1115,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_19",
@@ -8785,6 +9233,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_4",
+        "category": "PER",
+        "surfaceForm": "Butkens,",
+        "locationStart": 1256,
+        "locationEnd": 1264,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_20",
         "surfaceForm": "Trophees de Brabant II",
         "category": "ORG",
@@ -8811,6 +9267,14 @@
         "locationStart": 1265,
         "locationEnd": 1287,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_4",
+        "category": "PER",
+        "surfaceForm": "Trophees de Brabant II",
+        "locationStart": 1265,
+        "locationEnd": 1287,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_21",
@@ -8849,6 +9313,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_5",
+        "category": "PER",
+        "surfaceForm": "Elisabeth van Boxtel",
+        "locationStart": 1305,
+        "locationEnd": 1325,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_22",
         "surfaceForm": "Willem van Cuyck",
         "category": "PER",
@@ -8883,6 +9355,14 @@
         "locationStart": 1339,
         "locationEnd": 1355,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_5",
+        "category": "PER",
+        "surfaceForm": "Willem van Cuyck",
+        "locationStart": 1339,
+        "locationEnd": 1355,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_23",
@@ -8921,6 +9401,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_5",
+        "category": "LOC",
+        "surfaceForm": "Boxtel",
+        "locationStart": 1366,
+        "locationEnd": 1372,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_24",
         "surfaceForm": "Margaretha van Diest",
         "category": "PER",
@@ -8957,6 +9445,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_5",
+        "category": "PER",
+        "surfaceForm": "Margaretha van Diest",
+        "locationStart": 1381,
+        "locationEnd": 1401,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_25",
         "surfaceForm": "Willem",
         "category": "PER",
@@ -8985,6 +9481,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_7",
+        "category": "PER",
+        "surfaceForm": "Willem",
+        "locationStart": 1449,
+        "locationEnd": 1455,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_26",
         "surfaceForm": "Hendrik",
         "category": "PER",
@@ -9011,6 +9515,14 @@
         "locationStart": 1475,
         "locationEnd": 1482,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_7",
+        "category": "PER",
+        "surfaceForm": "Hendrik",
+        "locationStart": 1475,
+        "locationEnd": 1482,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gold_12",
@@ -9101,6 +9613,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_8",
+        "category": "PER",
+        "surfaceForm": "Thorn",
+        "locationStart": 1618,
+        "locationEnd": 1623,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_15",
         "surfaceForm": "1 Maart 1356",
         "category": "TIME",
@@ -9155,6 +9675,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_8",
+        "category": "PER",
+        "surfaceForm": "Stevensweert",
+        "locationStart": 1654,
+        "locationEnd": 1666,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_29",
         "surfaceForm": "Margaretha van Heinsberg",
         "category": "PER",
@@ -9189,6 +9717,14 @@
         "locationStart": 1707,
         "locationEnd": 1731,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_8",
+        "category": "PER",
+        "surfaceForm": "Margaretha van Heinsberg",
+        "locationStart": 1707,
+        "locationEnd": 1731,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_30",
@@ -9227,6 +9763,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_8",
+        "category": "PER",
+        "surfaceForm": "Thorn",
+        "locationStart": 1743,
+        "locationEnd": 1748,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_31",
         "surfaceForm": "Willem",
         "category": "PER",
@@ -9263,6 +9807,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_8",
+        "category": "PER",
+        "surfaceForm": "Willem heer van Horn",
+        "locationStart": 1753,
+        "locationEnd": 1773,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "flair_9",
         "category": "LOC",
         "surfaceForm": "Horn",
@@ -9295,6 +9847,14 @@
         "locationStart": 1780,
         "locationEnd": 1784,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_8",
+        "category": "PER",
+        "surfaceForm": "M.J. WoltersGand",
+        "locationStart": 1780,
+        "locationEnd": 1870,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gysbert_hist_8",
@@ -9415,6 +9975,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_9",
+        "category": "PER",
+        "surfaceForm": "Jos. Habetsweer",
+        "locationStart": 1883,
+        "locationEnd": 1945,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "flair_12",
         "category": "PER",
         "surfaceForm": "Habets",
@@ -9519,6 +10087,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_11",
+        "category": "LOC",
+        "surfaceForm": "Limbourg",
+        "locationStart": 1999,
+        "locationEnd": 2007,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gysbert_hist_11",
         "category": "TIME",
         "surfaceForm": "xiii (",
@@ -9567,6 +10143,14 @@
         "locationStart": 2096,
         "locationEnd": 2101,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_11",
+        "category": "PER",
+        "surfaceForm": "Thorn' Gravenhage",
+        "locationStart": 2096,
+        "locationEnd": 2118,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gysbert_hist_11",
@@ -9627,6 +10211,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_12",
+        "category": "PER",
+        "surfaceForm": "Jos. M.H. Eversen",
+        "locationStart": 2151,
+        "locationEnd": 2168,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_42",
         "surfaceForm": "M.H. Eversen",
         "category": "PER",
@@ -9685,6 +10277,14 @@
         "locationStart": 2172,
         "locationEnd": 2187,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_12",
+        "category": "PER",
+        "surfaceForm": "J.L. Meulleners",
+        "locationStart": 2172,
+        "locationEnd": 2187,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "flair_18",
@@ -9781,6 +10381,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_14",
+        "category": "LOC",
+        "surfaceForm": "Limbourg",
+        "locationStart": 2271,
+        "locationEnd": 2279,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gysbert_hist_14",
         "category": "TIME",
         "surfaceForm": "xxxv (",
@@ -9815,300 +10423,12 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "LOCATION",
-        "surfaceForm": "PETERSHE(I)M",
-        "locationStart": 0,
-        "locationEnd": 10,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "PERSON",
-        "surfaceForm": "Johan heer van",
-        "locationStart": 12,
-        "locationEnd": 26,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "PERSON",
-        "surfaceForm": "Willem",
-        "locationStart": 45,
-        "locationEnd": 51,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "LOCATION",
-        "surfaceForm": "Stevensweert",
-        "locationStart": 68,
-        "locationEnd": 80,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "DATE",
-        "surfaceForm": "17 Juli 1300",
-        "locationStart": 97,
-        "locationEnd": 109,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Munsterabdij",
-        "locationStart": 130,
-        "locationEnd": 142,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_6",
-        "category": "LOCATION",
-        "surfaceForm": "Roermond",
-        "locationStart": 146,
-        "locationEnd": 154,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_7",
-        "category": "DATE",
-        "surfaceForm": "30 Juli 1320",
-        "locationStart": 176,
-        "locationEnd": 188,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_8",
-        "category": "PERSON",
-        "surfaceForm": "Margaretha",
-        "locationStart": 213,
-        "locationEnd": 223,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_9",
-        "category": "LOCATION",
-        "surfaceForm": "Thorn",
-        "locationStart": 227,
-        "locationEnd": 232,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_10",
-        "category": "PERSON",
-        "surfaceForm": "Gerard heer van",
-        "locationStart": 243,
-        "locationEnd": 259,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_11",
-        "category": "DATE",
-        "surfaceForm": "12 Febr. 1326",
-        "locationStart": 280,
-        "locationEnd": 293,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_12",
-        "category": "PERSON",
-        "surfaceForm": "Balduinus",
-        "locationStart": 315,
-        "locationEnd": 324,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_13",
-        "category": "PERSON",
-        "surfaceForm": "Petrus",
-        "locationStart": 346,
-        "locationEnd": 352,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_14",
-        "category": "PERSON",
-        "surfaceForm": "Zebertus van Ulvenhout",
-        "locationStart": 363,
-        "locationEnd": 384,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_15",
-        "category": "DATE",
-        "surfaceForm": "22 Nov. 1337",
-        "locationStart": 405,
-        "locationEnd": 417,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_16",
-        "category": "DATE",
-        "surfaceForm": "6 Juni 1345",
-        "locationStart": 419,
-        "locationEnd": 430,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_17",
-        "category": "LOCATION",
-        "surfaceForm": "Thorn",
-        "locationStart": 455,
-        "locationEnd": 460,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_18",
-        "category": "LOCATION",
-        "surfaceForm": "Ytter",
-        "locationStart": 474,
-        "locationEnd": 479,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_19",
-        "category": "LOCATION",
-        "surfaceForm": "Wessem",
-        "locationStart": 502,
-        "locationEnd": 508,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_20",
-        "category": "PERSON",
-        "surfaceForm": "Elisabeth van Boxtel",
-        "locationStart": 529,
-        "locationEnd": 548,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_21",
-        "category": "PERSON",
-        "surfaceForm": "Willem van Cuyck",
-        "locationStart": 570,
-        "locationEnd": 586,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_22",
-        "category": "PERSON",
-        "surfaceForm": "Margaretha van Diest",
-        "locationStart": 591,
-        "locationEnd": 610,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_23",
-        "category": "PERSON",
-        "surfaceForm": "Willem",
-        "locationStart": 633,
-        "locationEnd": 639,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_24",
-        "category": "PERSON",
-        "surfaceForm": "Hendrik",
-        "locationStart": 664,
-        "locationEnd": 671,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_25",
-        "category": "DATE",
-        "surfaceForm": "12 Febr. 1326",
-        "locationStart": 690,
-        "locationEnd": 703,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_26",
-        "category": "DATE",
-        "surfaceForm": "22 Nov. 1337",
-        "locationStart": 732,
-        "locationEnd": 744,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_27",
-        "category": "DATE",
-        "surfaceForm": "1 Maart 1356",
-        "locationStart": 746,
-        "locationEnd": 759,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_28",
-        "category": "PERSON",
-        "surfaceForm": "Margaretha van Heinsberg",
-        "locationStart": 778,
-        "locationEnd": 800,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_29",
-        "category": "PERSON",
-        "surfaceForm": "Willem heer van Horn",
-        "locationStart": 805,
-        "locationEnd": 825,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_30",
-        "category": "PERSON",
-        "surfaceForm": "M.J. Wolters",
-        "locationStart": 831,
-        "locationEnd": 843,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_31",
-        "category": "PERSON",
-        "surfaceForm": "Jos. Habets",
-        "locationStart": 845,
-        "locationEnd": 856,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_32",
-        "category": "PERSON",
-        "surfaceForm": "Jos. Habets",
-        "locationStart": 858,
-        "locationEnd": 869,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_33",
-        "category": "PERSON",
-        "surfaceForm": "Jos. Habets",
-        "locationStart": 871,
-        "locationEnd": 882,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_34",
-        "category": "PERSON",
-        "surfaceForm": "Jos. Habets",
-        "locationStart": 884,
-        "locationEnd": 895,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_35",
-        "category": "PERSON",
-        "surfaceForm": "Jos. M.H. Eversen",
-        "locationStart": 897,
-        "locationEnd": 914,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_36",
-        "category": "PERSON",
-        "surfaceForm": "J.L. Meulleners",
-        "locationStart": 919,
-        "locationEnd": 934,
-        "method": "gpt-3.5-turbo"
+        "ID": "xlmr_ner_15",
+        "category": "PER",
+        "surfaceForm": "Verzijl",
+        "locationStart": 2298,
+        "locationEnd": 2305,
+        "method": "xlmr_ner_"
       }
     ],
     "time_expressions": [

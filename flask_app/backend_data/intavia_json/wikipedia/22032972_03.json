@@ -3026,6 +3026,30 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "gpt-3.5-turbo_0",
+        "category": "PERSON",
+        "surfaceForm": "Johannes van der Poel",
+        "locationStart": 0,
+        "locationEnd": 18,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "PER",
+        "surfaceForm": "Johannes van der Poel",
+        "locationStart": 0,
+        "locationEnd": 21,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_1",
+        "category": "LOCATION",
+        "surfaceForm": "Hendrik- Ido-Ambacht",
+        "locationStart": 21,
+        "locationEnd": 39,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_1",
         "surfaceForm": "Hendrik-",
         "category": "LOC",
@@ -3062,6 +3086,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Hendrik- Ido-Ambacht",
+        "locationStart": 24,
+        "locationEnd": 44,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_2",
         "surfaceForm": "Ido-Ambacht",
         "category": "LOC",
@@ -3070,6 +3102,14 @@
         "tokenStart": 6,
         "tokenEnd": 7,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "gpt-3.5-turbo_2",
+        "category": "LOCATION",
+        "surfaceForm": "Ede",
+        "locationStart": 43,
+        "locationEnd": 46,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "gold_7",
@@ -3118,6 +3158,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Ede",
+        "locationStart": 63,
+        "locationEnd": 66,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_12",
         "surfaceForm": "1981",
         "category": "TIME",
@@ -3144,6 +3192,38 @@
         "locationStart": 92,
         "locationEnd": 101,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_0",
+        "category": "LOC",
+        "surfaceForm": "Nederland",
+        "locationStart": 92,
+        "locationEnd": 101,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_3",
+        "category": "LOCATION",
+        "surfaceForm": "Nederland",
+        "locationStart": 106,
+        "locationEnd": 115,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_4",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Oud Gereformeerde Gemeente van Ede",
+        "locationStart": 137,
+        "locationEnd": 168,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_5",
+        "category": "PERSON",
+        "surfaceForm": "Pieter van der Poel",
+        "locationStart": 186,
+        "locationEnd": 204,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_5",
@@ -3174,6 +3254,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "ORG",
+        "surfaceForm": "Oud Gereformeerde Gemeente",
+        "locationStart": 189,
+        "locationEnd": 215,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_6",
+        "category": "PERSON",
+        "surfaceForm": "Johanna Saartje (Janna) de Wit",
+        "locationStart": 209,
+        "locationEnd": 238,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_2",
         "surfaceForm": "Ede",
         "category": "LOC",
@@ -3198,6 +3294,14 @@
         "locationStart": 220,
         "locationEnd": 223,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_1",
+        "category": "LOC",
+        "surfaceForm": "Ede",
+        "locationStart": 220,
+        "locationEnd": 223,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_6",
@@ -3236,6 +3340,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "PER",
+        "surfaceForm": "Van der Poel",
+        "locationStart": 226,
+        "locationEnd": 238,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_7",
         "surfaceForm": "Pieter van der Poel",
         "category": "PER",
@@ -3272,6 +3384,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_1",
+        "category": "PER",
+        "surfaceForm": "Pieter van der Poel",
+        "locationStart": 265,
+        "locationEnd": 284,
+        "method": "xlmr_ner_"
+      },
+      {
+        "ID": "gpt-3.5-turbo_7",
+        "category": "PERSON",
+        "surfaceForm": "God",
+        "locationStart": 267,
+        "locationEnd": 270,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_8",
         "surfaceForm": "Johanna Saartje",
         "category": "PER",
@@ -3298,6 +3426,22 @@
         "locationStart": 291,
         "locationEnd": 306,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "gpt-3.5-turbo_8",
+        "category": "ARTWORK",
+        "surfaceForm": "Naam des Heeren",
+        "locationStart": 291,
+        "locationEnd": 306,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "xlmr_ner_1",
+        "category": "PER",
+        "surfaceForm": "Johanna Saartje (Janna) de Wit",
+        "locationStart": 291,
+        "locationEnd": 321,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "gysbert_hist_1",
@@ -3342,6 +3486,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "gpt-3.5-turbo_9",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Oud Gereformeerde Gemeenten in Nederland",
+        "locationStart": 366,
+        "locationEnd": 401,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "stanza_nl_10",
         "surfaceForm": "God",
         "category": "PER",
@@ -3358,6 +3510,14 @@
         "locationStart": 394,
         "locationEnd": 397,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_3",
+        "category": "PER",
+        "surfaceForm": "God",
+        "locationStart": 394,
+        "locationEnd": 397,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_11",
@@ -3378,6 +3538,38 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "gpt-3.5-turbo_10",
+        "category": "LOCATION",
+        "surfaceForm": "Giessendam",
+        "locationStart": 437,
+        "locationEnd": 446,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_11",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Nederlands predikant",
+        "locationStart": 454,
+        "locationEnd": 474,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_12",
+        "category": "ORGANIZATION",
+        "surfaceForm": "SGP-politicus",
+        "locationStart": 476,
+        "locationEnd": 489,
+        "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "gpt-3.5-turbo_13",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Zilveren Anjer",
+        "locationStart": 491,
+        "locationEnd": 504,
+        "method": "gpt-3.5-turbo"
+      },
+      {
         "ID": "gold_8",
         "surfaceForm": "eind jaren dertig",
         "category": "TIME",
@@ -3386,6 +3578,14 @@
         "tokenStart": 99,
         "tokenEnd": 102,
         "method": "human_gold"
+      },
+      {
+        "ID": "gpt-3.5-turbo_14",
+        "category": "ORGANIZATION",
+        "surfaceForm": "Gereformeerd persoon",
+        "locationStart": 506,
+        "locationEnd": 526,
+        "method": "gpt-3.5-turbo"
       },
       {
         "ID": "stanza_nl_12",
@@ -3414,6 +3614,14 @@
         "locationStart": 597,
         "locationEnd": 624,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "xlmr_ner_4",
+        "category": "ORG",
+        "surfaceForm": "Oud Gereformeerde Gemeenten",
+        "locationStart": 597,
+        "locationEnd": 624,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_13",
@@ -3452,6 +3660,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_4",
+        "category": "LOC",
+        "surfaceForm": "Nederland",
+        "locationStart": 628,
+        "locationEnd": 637,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "gold_13",
         "surfaceForm": "tot 1955",
         "category": "TIME",
@@ -3476,6 +3692,14 @@
         "locationStart": 746,
         "locationEnd": 756,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "xlmr_ner_6",
+        "category": "LOC",
+        "surfaceForm": "Giessendam",
+        "locationStart": 746,
+        "locationEnd": 756,
+        "method": "xlmr_ner_"
       },
       {
         "ID": "stanza_nl_14",
@@ -3540,6 +3764,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "xlmr_ner_6",
+        "category": "LOC",
+        "surfaceForm": "Ede",
+        "locationStart": 805,
+        "locationEnd": 808,
+        "method": "xlmr_ner_"
+      },
+      {
         "ID": "stanza_nl_15",
         "surfaceForm": "Ede.",
         "category": "LOC",
@@ -3600,126 +3832,6 @@
         "tokenStart": 163,
         "tokenEnd": 165,
         "method": "stanza_nl"
-      },
-      {
-        "ID": "gpt-3.5-turbo_0",
-        "category": "PERSON",
-        "surfaceForm": "Johannes van der Poel",
-        "locationStart": 0,
-        "locationEnd": 18,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_1",
-        "category": "LOCATION",
-        "surfaceForm": "Hendrik- Ido-Ambacht",
-        "locationStart": 21,
-        "locationEnd": 39,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_2",
-        "category": "LOCATION",
-        "surfaceForm": "Ede",
-        "locationStart": 43,
-        "locationEnd": 46,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_3",
-        "category": "LOCATION",
-        "surfaceForm": "Nederland",
-        "locationStart": 106,
-        "locationEnd": 115,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_4",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Oud Gereformeerde Gemeente van Ede",
-        "locationStart": 137,
-        "locationEnd": 168,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_5",
-        "category": "PERSON",
-        "surfaceForm": "Pieter van der Poel",
-        "locationStart": 186,
-        "locationEnd": 204,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_6",
-        "category": "PERSON",
-        "surfaceForm": "Johanna Saartje (Janna) de Wit",
-        "locationStart": 209,
-        "locationEnd": 238,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_7",
-        "category": "PERSON",
-        "surfaceForm": "God",
-        "locationStart": 267,
-        "locationEnd": 270,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_8",
-        "category": "ARTWORK",
-        "surfaceForm": "Naam des Heeren",
-        "locationStart": 291,
-        "locationEnd": 306,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_9",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Oud Gereformeerde Gemeenten in Nederland",
-        "locationStart": 366,
-        "locationEnd": 401,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_10",
-        "category": "LOCATION",
-        "surfaceForm": "Giessendam",
-        "locationStart": 437,
-        "locationEnd": 446,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_11",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Nederlands predikant",
-        "locationStart": 454,
-        "locationEnd": 474,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_12",
-        "category": "ORGANIZATION",
-        "surfaceForm": "SGP-politicus",
-        "locationStart": 476,
-        "locationEnd": 489,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_13",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Zilveren Anjer",
-        "locationStart": 491,
-        "locationEnd": 504,
-        "method": "gpt-3.5-turbo"
-      },
-      {
-        "ID": "gpt-3.5-turbo_14",
-        "category": "ORGANIZATION",
-        "surfaceForm": "Gereformeerd persoon",
-        "locationStart": 506,
-        "locationEnd": 526,
-        "method": "gpt-3.5-turbo"
       }
     ],
     "time_expressions": [
