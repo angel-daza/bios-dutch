@@ -12,6 +12,8 @@ from utils.classes import IntaviaDocument
 from utils_general import FLASK_ROOT, INTAVIA_JSON_ROOT
 
 
+STATISTICS = None
+
 GLOBAL_QUERY = []
 
 ALL_LABEL_COLORS = {
@@ -110,11 +112,24 @@ def bio_detail_google_charts(source: str, text_id: str):
 
 @app.route("/bio_viewer", methods=['GET','POST'])
 def bio_viewer():
+    import pandas as pd
     global biographies_search
     global GLOBAL_QUERY
+    global STATISTICS
+
     page, per_page, offset = get_page_args(page_parameter="page", per_page_parameter="per_page")
+    ids_sorted_per_method = STATISTICS["ids_sorted_per_method"]
+    gpt3 = ids_sorted_per_method["gpt-3.5-turbo"]
+    gpt3 = [id.split("_")[0] for id in gpt3]
+    all_ids = biographies_search["display_id"].tolist()
+    diff = list(set(all_ids) - set(gpt3))
+    biographies_search.drop( index=diff, inplace=True)
+    #sorted_biographies = biographies_search.set_index('display_id').reindex(gpt3)#.reset_index()
+    biographies_search.sort_values(by="display_id", key=lambda column: column.map(lambda e: gpt3.index(e)), inplace=True)
+    
     if request.method == "GET":
         if len(GLOBAL_QUERY) == 0:
+            #biographies_search = sorted_biographies
             n_rows, _ = biographies_search.shape
             returned_bios = biographies_search.iloc[offset:offset+10,:].to_dict(orient='records')
             pagination = Pagination(page=page, per_page=10, total=n_rows, css_framework="bootstrap4")
@@ -123,8 +138,9 @@ def bio_viewer():
             returned_bios = GLOBAL_QUERY[offset:offset+10]
             pagination = Pagination(page=page, per_page=per_page, total=n_rows, css_framework="bootstrap4")
         
+        method_summary = STATISTICS["method_total"]
         return render_template('biography_viewer.html', biographies=returned_bios, occupations=occupations_catalogue, 
-                locations=locations_catalogue, sources=MY_SOURCES, n_rows=n_rows, page=page, per_page=per_page, pagination=pagination)
+                locations=locations_catalogue, sources=MY_SOURCES, n_rows=n_rows, page=page, per_page=per_page, pagination=pagination, method_summary=method_summary)
     else:
         queried_string = request.form.get('search', None)
         search_type=request.form.getlist('search_by_option', None) #['option_search_name'] or ['option_search_id']
@@ -148,6 +164,7 @@ def bio_viewer():
         n_rows = len(returned_bios)
         pagination = Pagination(page=1, per_page=10, total=n_rows, css_framework="bootstrap4")
         GLOBAL_QUERY = returned_bios
+
 
         return render_template('biography_viewer.html', biographies=returned_bios, occupations=occupations_catalogue, 
             locations=locations_catalogue, sources=MY_SOURCES, n_rows=n_rows, page=page, per_page=per_page, pagination=pagination)
@@ -243,18 +260,56 @@ def bio_detail(source: str, text_id: str):
                                                                                       "summary_label_model": summary_table}, 
                                                                         html_annotated=html_annotated)
 
+@app.route("/bio_overview_google_charts")
+def bio_overview_google_charts():
+
+    statistics = json.load(open(f"{FLASK_ROOT}/biographies/statistics.json"))
+    entities_per_method = statistics["method_total"]
+    data_array = [["method", "total"]]
+    for k,v in entities_per_method.items():
+        data_array.append([k, v])
+
+    category_total = statistics["category_total"]
+    category_array = [["category", "total"]]
+    for k,v in category_total.items():
+        category_array.append([k, v])
+
+    category_per_method_total = statistics["category_per_method_total"]
+    category_dict = {}
+    for k,v in category_per_method_total.items():
+        category_dict[k] = [[f"{k} entities summary", "total"]]
+        for k2, v2 in v.items():
+            category_dict[k].append([k2, v2])
+
+    options = {
+        "title" : "Total #entities per method", 
+        "pieSliceText" : "value",
+        "categoryTitle" : "#Entities per category"
+    }
+
+    response = {
+        "method_total": data_array,
+        "category_total" : category_array,
+        "options": options,
+        "per_method_category" : category_dict
+    }
+
+    return jsonify(response)
 
 if __name__ == '__main__':
 
     # First of all, load Full DataFrame in Memory just ONCE!
     biographies_search = my_data.load_bios_dataset(f"{FLASK_ROOT}/biographies/AllBios_unified_enriched.jsonl")
 
+    # Load pre-computed statistics
+    STATISTICS = my_data.open_json(f"{FLASK_ROOT}/biographies/statistics.json")
+
     # Load Catalogues to Choose from pre-defined fields (Bio Viewer)
     MY_SOURCES= open(f"{FLASK_ROOT}/sources.txt").read().split("\n")
 
     # In case we want to take directly from the DF
     occupations_catalogue =  biographies_search['list_occupations'].explode('list_occupations').value_counts()
-    occupations_catalogue = sorted([occ_name for occ_name, occ_count in occupations_catalogue.iteritems() if occ_count > 10])
+    occupations_catalogue = sorted([occ_name for occ_name, occ_count in occupations_catalogue.items() if occ_count > 10])
 
     locations_catalogue =  [loc.split('\t') for loc in open(f"{FLASK_ROOT}/locations.txt").readlines()]
     locations_catalogue = sorted([loc_name for loc_name, loc_count in locations_catalogue if int(loc_count.strip('\n')) > 50])

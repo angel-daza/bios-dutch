@@ -4,6 +4,7 @@
 """
 from typing import Any, Dict, List
 import pandas as pd
+import json
 
 
 def load_bios_dataset(json_filename: str) -> pd.DataFrame:
@@ -60,3 +61,9 @@ def df_query_string_match(main_df: pd.DataFrame, query_value: str, filter_field:
     else:
         query_result = main_df
     return query_result
+
+def open_json(path):
+    with open(path, encoding="utf-8") as f:
+        data = json.load(f)
+
+    return data
