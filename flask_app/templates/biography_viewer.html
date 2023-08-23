@@ -191,7 +191,7 @@
         </div>
       </div>
 
-      <div class="dropdown ml-5 w-50 border-primary">
+      <div class="dropdown ml-5 border-primary">
         <button
           class="btn btn-primary dropdown-toggle"
           type="button"
@@ -202,15 +202,104 @@
         >
           Sort by method (total #entities)
         </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <a class="dropdown-item" id="gpt-3.5-turbo" href="#">gpt3.5</a>
-          <a class="dropdown-item" id="stanza_nl" href="#">Stanza</a>
-          <a class="dropdown-item" id="human_gold" href="#">human gold</a>
-          <a class="dropdown-item" id="flair/ner-dutch-large_0.12.2" href="#"
-            >flair</a
+        <div
+          class="dropdown-menu"
+          id="entities"
+          aria-labelledby="dropdownMenuButton"
+        >
+          <a class="dropdown-item entities" id="gpt-3.5-turbo" href="#"
+            >gpt3.5</a
+          >
+          <a class="dropdown-item entities" id="stanza_nl" href="#">Stanza</a>
+          <a class="dropdown-item entities" id="human_gold" href="#"
+            >human gold</a
           >
           <a
-            class="dropdown-item"
+            class="dropdown-item entities"
+            id="flair/ner-dutch-large_0.12.2"
+            href="#"
+            >flair</a
+          >
+          <a class="dropdown-item entities" id="xlmr_ner_" href="#">xlmr_ner</a>
+
+          <a
+            class="dropdown-item entities"
+            id="gysbert_hist_fx_finetuned_epoch2"
+            href="#"
+            >gysbert</a
+          >
+        </div>
+      </div>
+
+      <div class="dropdown ml-5 border-primary">
+        <button
+          class="btn btn-primary dropdown-toggle"
+          type="button"
+          id="dropdownMenuButton"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
+          Sort by distance (w/o gold)
+        </button>
+        <div
+          class="dropdown-menu"
+          id="entities"
+          aria-labelledby="dropdownMenuButton"
+        >
+          <a class="dropdown-item distance" id="gpt-3.5-turbo" href="#"
+            >gpt3.5</a
+          >
+          <a class="dropdown-item distance" id="stanza_nl" href="#">Stanza</a>
+          <a class="dropdown-item distance" id="human_gold" href="#"
+            >human gold</a
+          >
+          <a
+            class="dropdown-item distance"
+            id="flair/ner-dutch-large_0.12.2"
+            href="#"
+            >flair</a
+          >
+          <a class="dropdown-item distance" id="xlmr_ner_" href="#">xlmr_ner</a>
+
+          <a
+            class="dropdown-item distance"
+            id="gysbert_hist_fx_finetuned_epoch2"
+            href="#"
+            >gysbert</a
+          >
+        </div>
+      </div>
+
+      <div class="dropdown ml-5 border-primary">
+        <button
+          class="btn btn-primary dropdown-toggle"
+          type="button"
+          id="dropdownMenuButton"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
+          Sort by gold distance
+        </button>
+        <div
+          class="dropdown-menu"
+          id="entities"
+          aria-labelledby="dropdownMenuButton"
+        >
+          <a class="dropdown-item gold" id="gpt-3.5-turbo" href="#">gpt3.5</a>
+          <a class="dropdown-item gold" id="stanza_nl" href="#">Stanza</a>
+          <a class="dropdown-item gold" id="human_gold" href="#">human gold</a>
+          <a
+            class="dropdown-item gold"
+            id="flair/ner-dutch-large_0.12.2"
+            href="#"
+            >flair</a
+          >
+          <a class="dropdown-item gold" id="xlmr_ner_" href="#">xlmr_ner</a>
+
+          <a
+            class="dropdown-item gold"
             id="gysbert_hist_fx_finetuned_epoch2"
             href="#"
             >gysbert</a
@@ -413,7 +502,12 @@
                   person_bios.display_tot_entities[loop.index - 1] }}
                 </h5>
               </div>
-
+              <div class="card-body">
+                <div id="stat_{{person_bios.display_id}}"></div>
+                {% for stat in person_bios.stats %}
+                <div>{{person_bios.stats[stat]}}</div>
+                {% endfor %}
+              </div>
               <div
                 id="collapse_{{person_bios.display_id}}_{{loop.index}}"
                 class="collapse"

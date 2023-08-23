@@ -4,7 +4,7 @@ from utils_general import FLASK_ROOT, INTAVIA_JSON_ROOT
 
 
 def process_json_files(root_folder):
-    hard_coded_methods = ['gpt-3.5-turbo', 'human_gold', 'stanza_nl', 'flair/ner-dutch-large_0.12.2', 'gysbert_hist_fx_finetuned_epoch2']
+    hard_coded_methods = ['gpt-3.5-turbo', 'human_gold', 'stanza_nl', 'flair/ner-dutch-large_0.12.2', 'gysbert_hist_fx_finetuned_epoch2', 'xlmr_ner_']
     method_total = {m : 0 for m in hard_coded_methods}
 
     hard_coded_categories = ['', 'PERSON', 'LOCATION', 'ORGANIZATION', 'TIME', 'LOC', 'ARTWORK', 'NUMBER', 'ORG', 'MISC', 'PER', 'DATE']
@@ -99,6 +99,9 @@ def process_json_files(root_folder):
             "max_to_gold" : max_gold_dist_method
         }
 
+    dist_sorted_ids = sorted(max_dist_per_id.keys(), key=lambda id_: max_dist_per_id[id_]["distance"])
+    gold_dist_sorted_ids = sorted(max_dist_per_id.keys(), key=lambda id_: max_dist_per_id[id_]["gold_distance"])
+
     d = {
         "method_total" : method_total,
         "category_total" : category_total,
@@ -110,6 +113,8 @@ def process_json_files(root_folder):
         "per_id" : per_id,
         "id_gold" : id_gold,
         "max_dist_per_id" : max_dist_per_id,
+        "dist_sorted" : dist_sorted_ids,
+        "gold_dist_sorted" : gold_dist_sorted_ids
     }
 
     return d

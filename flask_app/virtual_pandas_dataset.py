@@ -7,11 +7,20 @@ import pandas as pd
 import json
 
 
-def load_bios_dataset(json_filename: str) -> pd.DataFrame:
+def load_bios_dataset(json_filename: str, biography_stats=None) -> pd.DataFrame:
     biographies = pd.read_json(json_filename, dtype={"person_id": 'string'}, orient='records', lines=True)
     biographies['display_id'] = biographies['person_id']
     biographies.set_index('person_id', inplace=True)
     biographies.sort_index(ascending=True)
+
+    if biography_stats is not None:
+        #first_id = list(biography_stats.keys())[0]
+        #print(biographies.loc[[first_id]])
+        df_sorted_ids = biographies["display_id"].tolist()
+
+        sorted_bio_stats = [biography_stats[id_] for id_ in df_sorted_ids]
+        biographies['stats'] = sorted_bio_stats
+
     return biographies
 
 
