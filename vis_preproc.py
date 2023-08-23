@@ -2,6 +2,10 @@ import os
 import json
 from utils_general import FLASK_ROOT, INTAVIA_JSON_ROOT
 
+def norm(x, x_min, x_max):
+    if x_max == x_min : return 
+    return (x - x_min)/(x_max - x_min)
+
 
 def process_json_files(root_folder):
     hard_coded_methods = ['gpt-3.5-turbo', 'human_gold', 'stanza_nl', 'flair/ner-dutch-large_0.12.2', 'gysbert_hist_fx_finetuned_epoch2', 'xlmr_ner_']
@@ -67,6 +71,9 @@ def process_json_files(root_folder):
     
     max_dist_per_id = {}
 
+    maximum_max = float("-inf")
+    minimum_min = float("inf")
+
     for id in per_id.keys():
         values = per_id[id]
         gold = id_gold[id]
@@ -75,6 +82,13 @@ def process_json_files(root_folder):
         min_id = min(values, key=values.get)
         max_count = values[max_id]
         min_count = values[min_id]
+
+        dist = max_count - min_count
+
+        if dist > maximum_max:
+            maximum_max = dist
+        if dist < minimum_min:
+            minimum_min = dist
 
         if gold != 0:
 
@@ -91,9 +105,13 @@ def process_json_files(root_folder):
             max_gold_dist_method = -1
 
         max_dist_per_id[id] = {
-            "distance" : max_count - min_count,
-            "max" : max_id,
-            "min" : min_id,
+            "distance" : dist,
+            "gold" : gold,
+            #"norm_gold" : gold*norm(dist, minimum_min, maximum_max),
+            "max" : [max_id, max_count],
+            "min" : [min_id, min_count],
+            #"norm_max" : [max_id, max_count*norm(dist, minimum_min, maximum_max)],
+            #"norm_min" : [min_id, min_count*max_count*norm(dist, minimum_min, maximum_max)],
             "gold_distance" : gold_distance,
             "gold_variance" : gold_variance,
             "max_to_gold" : max_gold_dist_method

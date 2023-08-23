@@ -16,6 +16,8 @@ STATISTICS = None
 
 GLOBAL_QUERY = []
 
+SORTED_BIOS = None
+
 ALL_LABEL_COLORS = {
     "PER": "#add8e6",
     "LOC": "#c3e9bb",
@@ -114,14 +116,16 @@ def bio_detail_google_charts(source: str, text_id: str):
 def bio_viewer():
     global biographies_search
     global GLOBAL_QUERY
+    global SORTED_BIOS
 
     page, per_page, offset = get_page_args(page_parameter="page", per_page_parameter="per_page")
 
+    used_bios = biographies_search if SORTED_BIOS is None else SORTED_BIOS
 
     if request.method == "GET":
         if len(GLOBAL_QUERY) == 0:
-            n_rows, _ = biographies_search.shape
-            returned_bios = biographies_search.iloc[offset:offset+10,:].to_dict(orient='records')
+            n_rows, _ = used_bios.shape
+            returned_bios = used_bios.iloc[offset:offset+10,:].to_dict(orient='records')
             pagination = Pagination(page=page, per_page=10, total=n_rows, css_framework="bootstrap4")
         else:
             n_rows = len(GLOBAL_QUERY)
@@ -150,7 +154,7 @@ def bio_viewer():
         }
 
         # FOR LATER: https://www.statology.org/pandas-loc-multiple-conditions/ and filter in a single query for locations, occupations, and other fields...
-        returned_bios = my_data.get_biographies(biographies_search, query_params)
+        returned_bios = my_data.get_biographies(used_bios, query_params)
         n_rows = len(returned_bios)
         pagination = Pagination(page=1, per_page=10, total=n_rows, css_framework="bootstrap4")
         GLOBAL_QUERY = returned_bios
@@ -292,6 +296,7 @@ def biography_sort():
     method = request.json["method"]
     global biographies_search
     global STATISTICS
+    global SORTED_BIOS
 
     page, per_page, offset = get_page_args(page_parameter="page", per_page_parameter="per_page")
 
@@ -306,14 +311,47 @@ def biography_sort():
     sorted_ids = [id.split("_")[0] for id in sorted_ids]
     all_ids = biographies_search["display_id"].tolist()
     diff = list(set(all_ids) - set(sorted_ids))
-    biographies_search.drop( index=diff, inplace=True)
-    biographies_search.sort_values(by="display_id", key=lambda column: column.map(lambda e: sorted_ids.index(e)), inplace=True)
+    deep_copy = biographies_search.copy(deep=True)
+
+    deep_copy.drop( index=diff, inplace=True)
+    deep_copy.sort_values(by="display_id", key=lambda column: column.map(lambda e: sorted_ids.index(e)), inplace=True)
+
+    SORTED_BIOS = deep_copy
     
-    n_rows, _ = biographies_search.shape
-    returned_bios = biographies_search.iloc[offset:offset+10,:].to_dict(orient='records')
+    n_rows, _ = deep_copy.shape
+    returned_bios = deep_copy.iloc[offset:offset+10,:].to_dict(orient='records')
     pagination = Pagination(page=page, per_page=10, total=n_rows, css_framework="bootstrap4")
     return render_template('biography_viewer.html', biographies=returned_bios, occupations=occupations_catalogue, 
                 locations=locations_catalogue, sources=MY_SOURCES, n_rows=n_rows, page=page, per_page=per_page, pagination=pagination)
+
+@app.route("/bio_stat_google_charts")
+def bio_stat_google_charts():
+
+    statistics = json.load(open(f"{FLASK_ROOT}/biographies/statistics.json"))
+
+    dist_dict = statistics["max_dist_per_id"]
+    array_dict = {}
+    for k,v in dist_dict.items():
+        k_norm = k.split("_")[0]
+        array_dict[k_norm] = [
+            ["method", "values"],
+            [v["max"][0], v["max"][1]],
+            [v["min"][0], v["min"][1]],
+            ["gold", v["gold"]]
+
+        ]
+
+    options = {
+        "title" : "Discrepancies", 
+        "pieSliceText" : "percentage",
+    }
+
+    response = {
+        "array_of_dicts": array_dict,
+        "options": options,
+    }
+
+    return jsonify(response)
 if __name__ == '__main__':
     # Load pre-computed statistics
     STATISTICS = my_data.open_json(f"{FLASK_ROOT}/biographies/statistics.json")
