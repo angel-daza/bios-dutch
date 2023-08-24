@@ -341,27 +341,38 @@ def bio_stat_google_charts():
 
         ]
 
+    dev_dict = statistics["gold_deviation"]
+    dev_array_dict = {}
+    for k,v in dev_dict.items():
+        k_norm = k.split("_")[0]
+        dev_array_dict[k_norm] = [
+            ["category", "gold", "average"],
+        ]
+        for cat, val in v.items():
+            dev_array_dict[k_norm].append(
+                [cat, val["gold"], val["avg"]]
+            )
+
     options = {
         "title" : "Discrepancies", 
         "pieSliceText" : "percentage",
     }
 
     response = {
-        "array_of_dicts": array_dict,
+        "distance_array": array_dict,
+        "dev_array" : dev_array_dict,
         "options": options,
     }
 
     return jsonify(response)
+
 if __name__ == '__main__':
     # Load pre-computed statistics
     STATISTICS = my_data.open_json(f"{FLASK_ROOT}/biographies/statistics.json")
 
-    # Get individual biography statistics, trim ids
-    biography_stats = STATISTICS["per_id"]
-    biography_stats = {k.split("_")[0] : v for k,v in biography_stats.items()}
 
     # First of all, load Full DataFrame in Memory just ONCE!
-    biographies_search = my_data.load_bios_dataset(f"{FLASK_ROOT}/biographies/AllBios_unified_enriched.jsonl", biography_stats)
+    biographies_search = my_data.load_bios_dataset(f"{FLASK_ROOT}/biographies/AllBios_unified_enriched.jsonl")
 
 
     # Load Catalogues to Choose from pre-defined fields (Bio Viewer)

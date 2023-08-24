@@ -24,6 +24,7 @@ def process_json_files(root_folder):
 
     per_id = {}
     id_gold = {}
+    per_id_decomp = {}
     
     for folder_name, subfolders, filenames in os.walk(root_folder):
         for filename in filenames:
@@ -36,7 +37,9 @@ def process_json_files(root_folder):
                     textid = json_data["text_id"]
 
                     per_id[textid] = {m : 0 for m in hard_coded_methods if m != "human_gold"}
+                    per_id_decomp[textid] = {}
                     id_gold[textid] = 0
+
 
                     for ent in entities:
                         method = ent["method"]
@@ -63,6 +66,16 @@ def process_json_files(root_folder):
                             per_id[textid][method] += 1
                         else:
                             id_gold[textid] += 1
+
+                        if method in per_id_decomp[textid].keys():
+                            if category in per_id_decomp[textid][method].keys():
+                                per_id_decomp[textid][method][category] += 1
+                            else:
+                                per_id_decomp[textid][method][category] = 1
+                        else:
+                            per_id_decomp[textid][method] = {
+                                category : 1
+                            }
                         
 
                         
@@ -70,9 +83,12 @@ def process_json_files(root_folder):
     ids_sorted_per_category = {c: sorted(category_per_id[c].keys(), key=lambda x: category_per_id[c][x], reverse=True) for c in hard_coded_categories}
     
     max_dist_per_id = {}
+    per_id_deviations = {}
 
     maximum_max = float("-inf")
     minimum_min = float("inf")
+
+    id_gold_comparison = {}
 
     for id in per_id.keys():
         values = per_id[id]
@@ -107,17 +123,47 @@ def process_json_files(root_folder):
             gold_variance = -1
             max_gold_dist_method = -1
 
+        decomp = per_id_decomp[id]
+        id_gold_comparison[id] = {}
+
+        if "human_gold" in decomp.keys():
+            decomp_keys = list(decomp.keys())
+            decomp_keys.remove("human_gold")
+            gold = decomp["human_gold"]
+            gold_cats = list(gold.keys())
+
+            for cat in gold_cats:
+                gold_val = gold[cat]
+                num_found = 0
+                average = 0
+                MAE = 0
+                for method in decomp_keys:
+                    method_cats = decomp[method]
+                    if cat in method_cats:
+                        average += decomp[method][cat]
+                        MAE += abs(decomp[method][cat] - gold_val)
+                        num_found += 1
+
+                if num_found > 0:
+                    average = average/num_found
+                    MAE = MAE/num_found
+
+                id_gold_comparison[id][cat] = {
+                    "avg" : average,
+                    "mae" : MAE,
+                    "gold" : gold_val
+                }
+
+
+
         max_dist_per_id[id] = {
             "distance" : dist,
             "gold" : gold,
-            #"norm_gold" : gold*norm(dist, minimum_min, maximum_max),
             "max" : [max_id, max_count],
             "min" : [min_id, min_count],
-            #"norm_max" : [max_id, max_count*norm(dist, minimum_min, maximum_max)],
-            #"norm_min" : [min_id, min_count*max_count*norm(dist, minimum_min, maximum_max)],
             "gold_distance" : gold_distance,
-            "gold_variance" : gold_variance,
-            "max_to_gold" : max_gold_dist_method
+            #"gold_variance" : gold_variance,
+            #"max_to_gold" : max_gold_dist_method
         }
 
     dist_sorted_ids = sorted(max_dist_per_id.keys(), key=lambda id_: max_dist_per_id[id_]["distance"])
@@ -135,7 +181,9 @@ def process_json_files(root_folder):
         "id_gold" : id_gold,
         "max_dist_per_id" : max_dist_per_id,
         "dist_sorted" : dist_sorted_ids,
-        "gold_dist_sorted" : gold_dist_sorted_ids
+        "gold_dist_sorted" : gold_dist_sorted_ids,
+        "method_categories" : per_id_decomp[id],
+        "gold_deviation" : id_gold_comparison,
     }
 
     return d
