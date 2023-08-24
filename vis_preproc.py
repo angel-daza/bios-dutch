@@ -76,6 +76,9 @@ def process_json_files(root_folder):
 
     for id in per_id.keys():
         values = per_id[id]
+        values = {k: v for k, v in values.items() if v > 0}
+        if len(list(values.keys())) == 0: 
+            values = per_id[id]
         gold = id_gold[id]
             
         max_id = max(values, key=values.get)

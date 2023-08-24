@@ -22,9 +22,10 @@ function drawBioStatCharts() {
       const dataTable = value;
       var data = new google.visualization.arrayToDataTable(dataTable);
       var options = {
-        title: "Discrepancies",
-        width: 200,
-        height: 100,
+        title: "#Entities found",
+        width: 400,
+        height: 200,
+        legend: { position: "none" },
       };
       // Instantiate and draw our chart, passing in some options.
       var chart = new google.visualization.BarChart(
