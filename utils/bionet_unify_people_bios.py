@@ -27,8 +27,7 @@ def main(input_filepath: str, output_filepath: str, create_lite_version: bool):
     print(biographies.index)
 
     unique_persons = list(biographies['id_person'].unique())
-    metadata_info = get_unique_people(biographies, unique_persons, output_filename=output_filepath)
-    json.dump(metadata_info, open("data/unified_metadata_info.json", "w"), indent=2, ensure_ascii=False)
+    get_unique_people(biographies, unique_persons, output_filename=output_filepath)
 
 
 def create_bios_lite(original_bios_path: str, lite_bios_path: str):
@@ -98,7 +97,6 @@ def get_unique_people(bionet_df: pd.DataFrame, people_of_interest: List[str], ou
         Saves it on JSON to re-use later
     """
     bio_counter = 0
-    metadata_dict = {}
     with open(output_filename, "w") as fout:
         for person_id in tqdm(people_of_interest):
             diff_versions = []
@@ -108,10 +106,8 @@ def get_unique_people(bionet_df: pd.DataFrame, people_of_interest: List[str], ou
                 diff_versions.append(version_as_dict)
             unified_metadata = unify_metadata(person_id, diff_versions)
             fout.write(json.dumps(unified_metadata.to_json()) + '\n')
-            metadata_dict[person_id] = unified_metadata.getFullMetadataDict(autocomplete=True)
     
     print(f"Successfully unified {bio_counter} biographies into {len(people_of_interest)} unique people")
-    return metadata_dict
 
 if __name__ == "__main__":
     """

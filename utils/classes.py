@@ -6,6 +6,7 @@ from typing import Dict, List, NamedTuple, Union, Tuple, Optional, Any
 from collections import Counter, defaultdict
 from dataclasses import dataclass
 import re, statistics
+from utils.misc import normalize_name
 
 
 # System Keys: 'human_gold', 'stanza_nl', 'flair/ner-dutch-large_0.12.2', 'gpt-3.5-turbo', 'gysbert_hist_fx_finetuned_epoch2'
@@ -467,8 +468,8 @@ class Event:
         elif date and isinstance(date, float):
             date = str(int(date))
         self.date: str = date if date else None
-        self.date_tuple: Tuple = (-1, -1, -1)
-        self.date_range: Tuple = (-1, -1)
+        self.date_tuple: Tuple = (0, 0, 0)
+        self.date_range: Tuple = (0, 0)
         self.date_is_certain = True
         # The Date Field is too dirty. Here we pack everything in a tuple to later make calculations easier
         if self.date and len(self.date) > 0:
@@ -476,22 +477,22 @@ class Event:
             if info_full: 
                 self.date_tuple = (int(info_full.group(1)), int(info_full.group(2)), int(info_full.group(3))) # (1708, 10, 11)
             elif len(self.date) == 4 or len(self.date) == 3: # Only the year is known
-                self.date_tuple = (int(self.date), -1, -1) # (1708, )
+                self.date_tuple = (int(self.date), 0, 0) # (1708, )
             elif self.date == '?':
                 self.date_is_certain = False
             else:
                 info_year_month = re.search(r"(\d{4})-(\d{2})", self.date)
                 if info_year_month:
-                    self.date_tuple = (int(info_year_month.group(1)), int(info_year_month.group(2)), -1) 
+                    self.date_tuple = (int(info_year_month.group(1)), int(info_year_month.group(2)), 0) 
                 else:
                     info_range_4 = re.search(r"(\d{4})~(\d{4})", self.date) # Event happened sometime between two years (e.g. 1919~1934)
                     info_range_3 = re.search(r"(\d{3})~(\d{3})", self.date) # Event happened sometime between two years (e.g. 519~534)
                     if info_range_4:
-                        self.date_tuple = (int(info_range_4.group(1)), -1, -1) # Arbitrarily choose the first date
+                        self.date_tuple = (int(info_range_4.group(1)), 0, 0) # Arbitrarily choose the first date
                         self.date_range = (int(info_range_4.group(1)),int(info_range_4.group(2)))
                         self.date_is_certain = False
                     elif info_range_3:
-                        self.date_tuple = (int(info_range_3.group(1)), -1, -1) # Arbitrarily choose the first date
+                        self.date_tuple = (int(info_range_3.group(1)), 0, 0) # Arbitrarily choose the first date
                         self.date_range = (int(info_range_3.group(1)),int(info_range_3.group(2)))
                         self.date_is_certain = False
                     else:
@@ -499,10 +500,10 @@ class Event:
                         info_year_3 = re.search(r"(\d{3})", self.date)
                         self.date_is_certain = False
                         try:
-                            self.date_tuple = (int(info_year.group(1)), -1, -1)
+                            self.date_tuple = (int(info_year.group(1)), 0, 0)
                         except:
                             try:
-                                self.date_tuple = (int(info_year_3.group(1)), -1, -1)
+                                self.date_tuple = (int(info_year_3.group(1)), 0, 0)
                             except:
                                 # TODO: Comment the following lines. For now, they are here to explicitly catch "strange" date formats
                                 if not any([x.isalpha() for x in self.date]):
@@ -607,11 +608,11 @@ def _process_dates_from_events(date_events: List[Event], method: str) -> Tuple[i
 
         valid_dates = set()
         for event in date_events:
-            if event.date_tuple and event.date_tuple != (-1, -1, -1): 
+            if event.date_tuple and event.date_tuple != (0, 0, 0): 
                 valid_dates.add(event.date_tuple)
 
         if method == 'valid_full_dates':
-            valid_full = set([d for d in valid_dates if d[1] != -1 and d[2] != -1])
+            valid_full = set([d for d in valid_dates if d[1] != 0 and d[2] != 0])
             return list(valid_full)
         elif method == 'valid_years':
             valid_years = set([d[0] for d in valid_dates])
@@ -625,15 +626,15 @@ def _process_dates_from_events(date_events: List[Event], method: str) -> Tuple[i
                 if len(valid_months) > 0:
                     most_repeated_month = Counter(valid_months).most_common(1)[0][0]
                 else:
-                    most_repeated_month = -1
+                    most_repeated_month = 0
                 if len(valid_days) > 0:
                     most_repeated_day = Counter(valid_days).most_common(1)[0][0]
                 else:
-                    most_repeated_day = -1
+                    most_repeated_day = 0
                 my_date = (int(most_repeated_year), int(most_repeated_month), int(most_repeated_day)) # Ensemble a Full-Date with the most frequent data
                 return my_date
             else:
-                return (-1, -1, -1)
+                return (0, 0, 0)
         else:
             print(f"Invalid Date Processing Method {method}")
             raise NotImplementedError
@@ -657,7 +658,7 @@ def _get_state_info(states: List[State], method: str):
 def _get_century(year: int):
     'Return a Century String according to the year Int'
     century = ''
-    if year == -1:
+    if year == -1 or year == 0:
         century = None
     elif year < 0:
         century = 'OLD'
@@ -977,11 +978,11 @@ class MetadataComplete:
         """
         birth_year = self.getBirthDate()[0]
         death_year = self.getDeathDate()[0]
-        if birth_year != -1 and death_year != -1:
+        if birth_year != 0 and death_year != 0:
             year = (birth_year+death_year)/2
-        elif birth_year != -1:
+        elif birth_year != 0:
             year = birth_year + 10
-        elif death_year != -1:
+        elif death_year != 0:
             year = death_year - 10
         else:
             year = -1
@@ -1016,7 +1017,7 @@ class MetadataComplete:
 
 
     def getBirthDate(self, method: str = 'most_likely_date') -> Tuple[int, int, int]:
-        """ Returns a Tuple(year, month, day) with the date. If it is Fully Unknown it returns None. The default tuple is (-1, -1, -1)
+        """ Returns a Tuple(year, month, day) with the date. If it is Fully Unknown it returns None. The default tuple is (0, 0, 0)
         method (str, optional): 'all_valid_dates' | 'valid_full_dates' | 'valid_years' | 'most_likely_date' | 'stringified_all'
         """
         if method == 'stringified_all' or method == 'all_valid_dates':
@@ -1201,12 +1202,18 @@ class MetadataComplete:
         return list(places)
     
     def getFullMetadataDict(self, autocomplete=True):
+        all_names_normalized = list(set([normalize_name(n) for n in self.getName("all_names")]))
+        bd = "-".join([str(i) for i in self.getBirthDate()]) 
+        if bd == "0-0-0": bd = None
+        dd = "-".join([str(i) for i in self.getDeathDate()])
+        if dd == "0-0-0": dd = None
         metadata_facts = {
             'person_id': self.person_id,
-            'name': self.getName(),
-            'birth_date': "-".join([str(i) for i in self.getBirthDate()]),
+            'name': normalize_name(self.getName(), sep="_"),
+            'names_all': all_names_normalized,
+            'birth_date': bd,
             'birth_place': self.getBirthPlace(),
-            'death_date': "-".join([str(i) for i in self.getDeathDate()]),
+            'death_date': dd,
             'death_place': self.getDeathPlace(),
             'fathers': self.getFather(),
             'mothers': self.getMother(),

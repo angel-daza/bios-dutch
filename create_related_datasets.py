@@ -1,10 +1,12 @@
 from typing import List, Dict, Any
 import os, json
+from collections import Counter
 import pandas as pd
 from utils.classes import MetadataComplete, IntaviaDocument, NER_METHOD_DISPLAY
 from utils_general import INTAVIA_JSON_ROOT, get_gold_annotations
+from utils.misc import get_bionet_person_wikidata
 
-INPUT_JSON = "data/Test_Bios_Unified.jsonl" # "data/AllBios_Unified.jsonl"
+INPUT_JSON = "data/AllBios_Unified.jsonl" # "data/Test_Bios_Unified.jsonl" # "data/AllBios_Unified.jsonl"
 FLASK_SEARCHABLE_DF = "flask_app/backend_data/biographies/AllBios_unified_enriched.jsonl"
 FLASK_NER_EVAL = "flask_app/backend_data/biographies/NER_Eval.csv"
 
@@ -23,9 +25,10 @@ def main():
     # global_dicts = collect_global_info(bionet_people)
 
     # ### Create Datasets for other Tasks (Web Visualization, Text classification...)
-    create_flask_ner_eval_data(bionet_people, FLASK_NER_EVAL)
-    create_flask_searchable_people_data(bionet_people, FLASK_SEARCHABLE_DF)
+    # create_flask_ner_eval_data(bionet_people, FLASK_NER_EVAL)
+    # create_flask_searchable_people_data(bionet_people, FLASK_SEARCHABLE_DF)
     
+    create_name_disambiguation_data(bionet_people, "data/unified_metadata_info.json", include_wikidata=False)
     # create_text_classification_dataset(bionet_people, SAVE_RESULTS_PATH, global_dicts['occup2coarse'])
     # create_wikipedia_dataset(bionet_people, SAVE_RESULTS_PATH)
 
@@ -133,6 +136,23 @@ def create_flask_searchable_people_data(people: List[MetadataComplete], dataset_
             save_fields['texts'] = texts_with_content
             save_fields['display_tot_entities'] = tot_entities
             fout.write(json.dumps(save_fields)+'\n')
+
+
+def create_name_disambiguation_data(people: List[MetadataComplete], dataset_filepath: str, include_wikidata: bool):
+    metadata_info = {}
+    bdates = []
+    for p in people:
+        metadata_info[p.person_id] = p.getFullMetadataDict(autocomplete=True)
+        # bdates.append(metadata_info[p.person_id]["birth_date"])
+        if include_wikidata:
+            _, wikidata_dict = get_bionet_person_wikidata(p.person_id)
+            metadata_info[p.person_id]["wikidata"] = {}
+            for k, v in wikidata_dict.items():
+                metadata_info[p.person_id]["wikidata"][k] = v
+    
+    json.dump(metadata_info, open(dataset_filepath, "w"), indent=2, ensure_ascii=False)
+    # print(Counter(bdates).most_common(100))
+    
 
 
 def create_text_classification_dataset(people: List[MetadataComplete], dataset_filepath: str, occupations_dict: Dict[str, str]):
