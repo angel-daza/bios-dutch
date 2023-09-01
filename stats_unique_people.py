@@ -6,8 +6,7 @@ import json, re
 from statistics import mean, median, mode
 from typing import Counter, List, Dict, OrderedDict, Any
 
-from utils.classes import MetadataComplete
-from utils_general import normalize_metadata_name
+from utils.classes import MetadataComplete, normalize_name
 from tabulate import tabulate
 import networkx as nx
 import matplotlib.pyplot as plt
@@ -44,8 +43,8 @@ def main():
     # Proportion of Males and Females - Using Metadata Only
     gender_list = gender_analysis(bionet_people)
     evaluate_inferred_gender(bionet_people)
-    exit()
 
+    exit()
 
     # Occupation <--> Gender co-occurrences
     get_crosstab_cats([global_dicts['occupations_coarse_list']], [gender_list], values=[1]*len(gender_list), 
@@ -69,7 +68,7 @@ def main():
     print(tabulate(total_stats, headers=("From", "To", "People", "Min LifeSpan", "Max LifeSpan", "Mean LifeSpan", "Median", "Mode"), floatfmt=".2f"))
 
     # People's Mention Counter and Network (Based only on NER PERSON Mentions inside the texts)
-    get_network_of_person_mentions(bionet_people)
+    # get_network_of_person_mentions(bionet_people)
 
 
 def source_distribution(people: List[MetadataComplete], partition='all'):
@@ -291,9 +290,17 @@ def collect_global_info(people: List[MetadataComplete]) -> Dict[str, Counter]:
 
 def gender_analysis(people: List[MetadataComplete]) -> List[str]:
     genders_all = []
+    genders_all_with_predicted = []
     years_born_all = []
     for p in people:
-        genders_all.append(p.getGender())
+        gender = p.getGender()
+        genders_all.append(gender)
+        if not gender:
+            genders_all_with_predicted.append(p.getGender_predicted_first_pronoun())
+        else:
+            genders_all_with_predicted.append(gender)
+        if gender == 'female':
+            print(p.getName(), p.genders)
         b_date = p.getBirthDate()
         if b_date:
             byear = b_date[0]
@@ -310,6 +317,8 @@ def gender_analysis(people: List[MetadataComplete]) -> List[str]:
     genders_all_with_unk = [g or "unk" for g in genders_all]
 
     df = pd.DataFrame({'year_born': years_born_all, 'gender': genders_all_with_unk}) #.dropna()
+    # df = pd.DataFrame({'year_born': years_born_all, 'gender': genders_all_with_predicted}) #.dropna()
+
     # y_range = [y for y in years_born_all if 0 < y < 1980]
     # bins = range(min(y_range), max(y_range), 10)
     y_min = 1400
@@ -619,20 +628,13 @@ def build_names_dictionaries(people: List[MetadataComplete]) -> Dict[str, str]:
     """
     name2id, id2names = {}, defaultdict(list)
     for p in people:
-        all_names = [n.lower() for n in p.getName(mode='all_names')]
-        for n in all_names:
+        all_names_norm = [normalize_name(n) for n in p.getName(mode='all_names')]
+        for n in all_names_norm:
             if n not in name2id:
                 name2id[n] = p.person_id
             if n not in id2names[p.person_id]:
                 id2names[p.person_id].append(n)
-            normalized_name = normalize_metadata_name(n)
-            if normalized_name not in name2id:
-                 name2id[normalized_name] = p.person_id
-            if normalized_name not in id2names[p.person_id]:
-                id2names[p.person_id].append(normalized_name)
     return name2id, id2names
-
-
 
 
 def _counter_to_file(c: Counter, filepath: str, threshold: int = -1):

@@ -6,7 +6,6 @@ from typing import Dict, List, NamedTuple, Union, Tuple, Optional, Any
 from collections import Counter, defaultdict
 from dataclasses import dataclass
 import re, statistics
-from utils.misc import normalize_name
 
 
 # System Keys: 'human_gold', 'stanza_nl', 'flair/ner-dutch-large_0.12.2', 'gpt-3.5-turbo', 'gysbert_hist_fx_finetuned_epoch2'
@@ -208,7 +207,9 @@ class IntaviaDocument:
         self.morpho_syntax: List[IntaviaSentence] = [] 
         for sent_obj in morpho:
             tokens = [IntaviaToken(**word_obj) for word_obj in sent_obj['words']]
-            sentence = IntaviaSentence(sent_obj['paragraphID'], sent_obj['sentenceID'], sent_obj['text'], tokens)
+            pid = sent_obj.get('paragraphID') or sent_obj.get('paragraph')
+            sid = sent_obj.get('sentenceID') or sent_obj.get('sentence')
+            sentence = IntaviaSentence(pid, sid, sent_obj['text'], tokens)
             self.morpho_syntax.append(sentence)
         self.entities: List[IntaviaEntity] = [IntaviaEntity(**ent) for ent in intavia_dict['data'].get('entities', [])]
         self.time_expressions: List[IntaviaTimex] = [IntaviaTimex(**tim) for tim in intavia_dict['data'].get('time_expressions', [])]
@@ -690,6 +691,20 @@ def _get_century(year: int):
         century = None
     return century
 
+
+def normalize_name(name: str, sep: str = " ") -> str:
+    norm_name = []
+    toks = name.split(" ")
+    for t in toks:
+        if t.lower() not in ["de", "den", "der", "en", "of", "ten", "ter", "van", "von"]:
+            if all([c.upper() == c for c in t if c not in [".", ",", "-"]]):
+                norm_name.append(t.strip())
+            else:
+                norm_name.append(t.title().strip())
+        else:
+            norm_name.append(t.lower().strip())
+    return sep.join(norm_name).strip()
+
 class MetadataComplete:
     '''Object that represents all available metadata for an individual. All except id number are represented as lists'''
     
@@ -881,22 +896,24 @@ class MetadataComplete:
         elif mode == 'unique_longest':
             nicest_name = ordered_names[-1]
         elif mode == 'all_names':
-            return [n.title() for n in ordered_names if n]
+            return [n for n in ordered_names if n]
         else:
             raise NotImplementedError
         
-        return nicest_name.title()
+        return nicest_name
     
-    def getGender(self, method: str = 'most_frequent') -> str:
+
+    def getGender(self) -> str:
         """
-            method: 'most_frequent' | ?
+            method: ?
         """
-        if len(self.genders) == 0: return None
-        if method == 'most_frequent':
-            gender_id = Counter(self.genders).most_common(1)[0][0]
-        else:
-            raise NotImplementedError
-        return 'male' if gender_id == 1.0 else 'female'
+        for g in self.genders:
+            if g == 1.0:
+                return 'male'
+            elif g == 2.0:
+                return 'female'
+        return None
+
     
     def getGender_predicted_pronoun_votes(self) -> str:
         masc_votes, fem_votes = 0, 0
@@ -1207,10 +1224,11 @@ class MetadataComplete:
         if bd == "0-0-0": bd = None
         dd = "-".join([str(i) for i in self.getDeathDate()])
         if dd == "0-0-0": dd = None
+        norm_name_main = normalize_name(self.getName(), sep="_")
         metadata_facts = {
             'person_id': self.person_id,
-            'name': normalize_name(self.getName(), sep="_"),
-            'names_all': all_names_normalized,
+            'name': norm_name_main,
+            'names_all': all_names_normalized + [norm_name_main],
             'birth_date': bd,
             'birth_place': self.getBirthPlace(),
             'death_date': dd,

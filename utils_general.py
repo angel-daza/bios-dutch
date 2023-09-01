@@ -3,7 +3,11 @@ import json, re
 from utils.classes import IntaviaEntity
 
 FLASK_ROOT = "flask_app/backend_data"
-INTAVIA_JSON_ROOT = f"{FLASK_ROOT}/intavia_json/"
+# INTAVIA_JSON_ROOT = f"{FLASK_ROOT}/intavia_json/"
+# BIOS_MAIN_DATAFRAME = f"{FLASK_ROOT}/biographies/AllBios_unified_enriched.jsonl"
+INTAVIA_JSON_ROOT = f"/Users/Daza/intavia_json_v1_all/"
+BIOS_MAIN_DATAFRAME = f"{FLASK_ROOT}/biographies/AllBios_unified_enriched_ALL.jsonl"
+
 
 def get_gold_annotations() -> Dict[str, Any]:
     gold_paths = ["data/bionet_gold/biographynet_test_A_gold.json",
@@ -19,20 +23,7 @@ def get_gold_annotations() -> Dict[str, Any]:
     return gold_docs
 
 
-def normalize_metadata_name(full_name: str) -> str:
-    names = full_name.split(" ")
-    if len(names) < 2:
-        if "|" in full_name:
-            names = full_name.split("|")
-            return names[0].title()
-        else:
-            return full_name.title()
-    first_name = names[0].title()
-    last_name = names[-1].title()
-    return f"{first_name}_{last_name}"
-
-
-def normalize_entity_per_name(full_name: str, default_name: str = None):
+def normalize_entity_person_name(full_name: str, default_name: str = None):
     # Process default_name
     if default_name:
         if not full_name or len(full_name) == 0: return ""
@@ -41,7 +32,6 @@ def normalize_entity_per_name(full_name: str, default_name: str = None):
         else:
             norm_first, norm_last = "", default_name
     else:
-        if not full_name or len(full_name) == 0: return default_name
         norm_first, norm_last = None, None
     # Process full_name
     if len(full_name) == 2 and full_name[-1] == ".":

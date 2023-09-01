@@ -9,7 +9,7 @@ from flask_paginate import Pagination, get_page_args
 
 import ner_evaluation
 from utils.classes import IntaviaDocument
-from utils_general import FLASK_ROOT, INTAVIA_JSON_ROOT
+from utils_general import FLASK_ROOT, INTAVIA_JSON_ROOT, BIOS_MAIN_DATAFRAME
 
 
 STATISTICS = None
@@ -372,7 +372,7 @@ if __name__ == '__main__':
 
 
     # First of all, load Full DataFrame in Memory just ONCE!
-    biographies_search = my_data.load_bios_dataset(f"{FLASK_ROOT}/biographies/AllBios_unified_enriched.jsonl")
+    biographies_search = my_data.load_bios_dataset(BIOS_MAIN_DATAFRAME)
 
 
     # Load Catalogues to Choose from pre-defined fields (Bio Viewer)

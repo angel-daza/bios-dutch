@@ -4,7 +4,7 @@ from collections import Counter
 import pandas as pd
 from utils.classes import MetadataComplete, IntaviaDocument, NER_METHOD_DISPLAY
 from utils_general import INTAVIA_JSON_ROOT, get_gold_annotations
-from utils.misc import get_bionet_person_wikidata
+from utils.utils_wiki import get_bionet_person_wikidata
 
 INPUT_JSON = "data/AllBios_Unified.jsonl" # "data/Test_Bios_Unified.jsonl" # "data/AllBios_Unified.jsonl"
 FLASK_SEARCHABLE_DF = "flask_app/backend_data/biographies/AllBios_unified_enriched.jsonl"
