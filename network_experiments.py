@@ -11,7 +11,7 @@ import tqdm
 from statistics import mean
 
 from utils.classes import IntaviaEntity, IntaviaDocument, MetadataComplete, NER_METHOD_DISPLAY
-from utils_general import get_gold_annotations, INTAVIA_JSON_ROOT, normalize_entity_person_name
+from utils_general import get_gold_annotations, INTAVIA_JSON_ROOT, normalize_entity_person_name, get_lifespan_from_meta
 from utils.classes import normalize_name
 
 
@@ -23,19 +23,18 @@ def main():
     documents = get_intavia_documents(f"/Users/Daza/intavia_json_v1_all/*", {}, keep_gold_limits=False) # INSIDE IS HARDCODED FOR 10K DOCS!!!
 
     # Get Name Dictionaries (This is from the whole 70K People to get more connections!)
-    unified_metadata = json.load(open("data/unified_metadata_info.json")) # {person_id: {metadata}}
+    unified_metadata = json.load(open("data/unified_metadata_info.json")) # {norm_name_id: {metadata}}
     print("Building Names2IDs")
-    name2id, id2names = get_names_dict(unified_metadata, f"data/BioNetStats/bionet_id2names.json", f"data/BioNetStats/bionet_names2id.json")
-    print("Building Norm Dict")
-    norm_dict = {} # Will Hold {"Possible Name": "FirstName_LastName_BirthYear_DeathYear"}
-    for _, meta in unified_metadata.items():
-        for name in meta["names_all"]:
-            name_toks = name.split()
-            if len(name_toks) > 1 and name[0].isupper():
-                lifespan = _get_lifespan_from_meta(meta)
-                norm_dict[name.replace(" ", "_")] = f"{meta['name']}_{lifespan[0]}_{lifespan[1]}"
-    json.dump(norm_dict, open("data/BioNetStats/bionet_normalized_namedict.json", "w"), indent=2, ensure_ascii=False)
-
+    name2ids, id2names, bioid2norm = get_names_dict(unified_metadata, f"data/BioNetStats/bionet_id2names.json", f"data/BioNetStats/bionet_names2id.json")
+    # print("Building Norm Dict")
+    # norm_dict = {} # Will Hold {"Possible Name": "FirstName_LastName_BirthYear_DeathYear"}
+    # for _, meta in unified_metadata.items():
+    #     for name in meta["names_all"]:
+    #         name_toks = name.split()
+    #         if len(name_toks) > 1  and name[0].isupper(): # To eliminate one_word_noise and common_compund_lastnames
+    #             norm_dict[name.replace(" ", "_")] = meta['name']
+    # json.dump(norm_dict, open("data/BioNetStats/bionet_normalized_namedict.json", "w"), indent=2, ensure_ascii=False)
+    
     # # Statistics
     # get_entity_stats(documents, name2id)
     # get_method_divergence_stats(documents)
@@ -45,8 +44,7 @@ def main():
     # get_ego_network_of_mentions(documents["37716498_02"], "human_gold", norm_dict, ["PER", "ORG", "LOC"]) # hendrik hendicus huisman
     # get_ego_network_of_mentions(documents["19103689_02"], "human_gold", norm_dict, ["PER", "ORG", "LOC"]) # Charlotte Sophie of Aldenburg
     # get_ego_network_of_mentions(documents["40672923_04"], "human_gold", norm_dict, ["PER", "ORG", "LOC"]) # Helena_Kuipers-Rietberg Network
-    # network_per_gold = get_social_network(documents, "flair/ner-dutch-large_0.12.2", ["PER"], name2id, norm_dict, unified_metadata)
-
+    # network_per_gold = get_social_network(documents, "flair/ner-dutch-large_0.12.2", ["PER"], name2ids, id2names, bioid2norm, unified_metadata)
 
     network_analysis_summary = []
     for sys in NER_METHOD_DISPLAY:
@@ -59,7 +57,7 @@ def main():
         #         #get_ego_network_of_mentions(doc, sys, norm_dict, ["ORG"], save_dir=f"local_outputs/{id}")
         #         #get_ego_network_of_mentions(doc, sys, norm_dict, ["PER", "ORG", "LOC"], save_dir=f"local_outputs/{id}")
         ### SOCIAL NETWORK
-        network_people = get_social_network(documents, sys, ["PER"], name2id, norm_dict, unified_metadata)
+        network_people = get_social_network(documents, sys, ["PER"], name2ids, id2names, bioid2norm, unified_metadata)
         # get_nodes_and_nbrs(network_people, nodes_of_interest=["Charlotte_Bentinck"], save_dir=f"local_outputs/19103689_02/Charlotte_Nbrs_{NER_METHOD_DISPLAY[sys]}.jpg")
         # network_all = get_social_network(documents, sys, ["PER", "ORG", "LOC"], norm_dict)
         # metrics = compute_network_metrics(network_people)
@@ -303,7 +301,7 @@ def get_ego_network_of_mentions(document: IntaviaDocument, method: str, norm_dic
     return ego_network
 
 
-def get_social_network(documents: List[IntaviaDocument], method: str, valid_labels: List[str], name2id: Dict[str, str], norm_dict: Dict[str, str], unified_metadata: Dict[str, Dict]):
+def get_social_network(documents: List[IntaviaDocument], method: str, valid_labels: List[str], name2ids: Dict[str, List[str]], id2names: Dict[str, List[str]], bioid2norm: Dict[str, str],  unified_metadata: Dict[str, Dict]):
     social_network = nx.Graph()
     # Keep Global track of "popularity" measured as PER mentions in all texts
     related_mentions = defaultdict(int)
@@ -311,41 +309,44 @@ def get_social_network(documents: List[IntaviaDocument], method: str, valid_labe
     related_bionet_lifespan_mentions = defaultdict(list)
 
     # Iterate All Documents and Build Social Network
+    unrecognized = []
     for doc_id, doc in tqdm.tqdm(documents.items()):
         person_id = doc.metadata['id_person']
-        person_meta = unified_metadata[person_id]
-        person_norm_name = person_meta["name"]
-        person_lifespan = _get_lifespan_from_meta(person_meta)
+        person_norm_name = bioid2norm.get(person_id)
+        if not person_norm_name:
+            unrecognized.append(doc_id)
+            continue
+        person_meta = unified_metadata[person_norm_name]
+        person_lifespan = get_lifespan_from_meta(person_meta)
         # person_firstname, person_lastname = None # TODO: split_person_name() #person_norm_name.split("_")
 
         doc_mentions = doc.get_entities([method], valid_labels=valid_labels)
-        print(doc_id)
+        # print("DOC", doc_id)
         for ent in doc_mentions:
             ent_tokens = ent.surfaceForm.split()
             if ent.category == "PER":
                 norm_surface_form = normalize_name(ent.surfaceForm, sep="_") # normalize_entity_person_name(ent.surfaceForm)
-                print(f"\t{ent.surfaceForm} -------> {norm_surface_form}")
+                # print(f"\t{ent.surfaceForm} -------> {norm_surface_form}")
             else:
                 norm_surface_form = ent.surfaceForm
             
-            # Add Edge both in the Dict and in the NetworkX
+            # Add Edge in the Dict. This includes all mentions even if they are not recognized in BiographyNet
             if len(ent_tokens) > 1 and norm_surface_form[0].isupper():
                 related_mentions[norm_surface_form] += 1
-                social_network.add_edge(person_norm_name, norm_surface_form)
-            if norm_surface_form in norm_dict:
-                related_bionet_mentions[norm_dict[norm_surface_form]] += 1
+            if norm_surface_form in name2ids or ent.surfaceForm in name2ids:
+                possible_norm_names = name2ids.get(norm_surface_form)
+                if not possible_norm_names: possible_norm_names = name2ids[ent.surfaceForm]
+                # Counter without disambiguating by date. We pick the first element as MOST ENTRIES have one element anyway ...
+                # tmp_name = "_".join(possible_norm_names[0].split("_")[:-2])
+                related_bionet_mentions[norm_surface_form] += 1
                 # Counter with restriction of LifeSpan (Only Count if the mentioned entity lived +-50 years around the main_bio_person)
-                mention_key = norm_surface_form.replace("_", " ")
-                mention_metadata = unified_metadata[name2id[mention_key]]
-                mention_lifespan = _get_lifespan_from_meta(mention_metadata)
-                tmp = [x for x in person_lifespan if x]
-                person_mean = mean(tmp) if len(tmp) > 0 else 1
-                tmp = [y for y in mention_lifespan if y]
-                mention_mean = mean(tmp) if len(tmp) > 0 else 1
-                if abs(person_mean - mention_mean) <= 50:
-                    related_bionet_lifespan_mentions[f"{norm_surface_form}_{mention_lifespan[0]}_{mention_lifespan[1]}"].append(person_id)
-
-            
+                for norm_name in possible_norm_names:
+                    m_meta = unified_metadata[norm_name]
+                    m_lifespan = get_lifespan_from_meta(m_meta)
+                    if lifespan_in_range(person_lifespan, m_lifespan):
+                        related_bionet_lifespan_mentions[norm_name].append((doc_id, norm_surface_form, ent.surfaceForm))
+                        social_network.add_edge(person_norm_name, norm_name)
+                        break
 
     # Show the top 100 Popular by Mention
     print("Sorting (1)...")
@@ -360,6 +361,7 @@ def get_social_network(documents: List[IntaviaDocument], method: str, valid_labe
     json.dump(sorted_bionet_links, open(f"local_outputs/mentions_counter_{method_str}_{'_'.join(valid_labels)}_bionet.json", "w"), indent=2, ensure_ascii=False)
     json.dump(sorted_bionet_lifespan_links, open(f"local_outputs/mentions_counter_{method_str}_{'_'.join(valid_labels)}_bionet_lifespan_list.json", "w"), indent=2, ensure_ascii=False)
     json.dump([[item[0], len(item[1])] for item in sorted_bionet_lifespan_links], open(f"local_outputs/mentions_counter_{method_str}_{'_'.join(valid_labels)}_bionet_lifespan_counts.json", "w"), indent=2, ensure_ascii=False)
+    json.dump(unrecognized, open("local_outputs/mentions_0_unrecognized_IDS.json", "w"), indent=2, ensure_ascii=False)
 
     for m in sorted_links[:10]:
         print(m)
@@ -367,6 +369,17 @@ def get_social_network(documents: List[IntaviaDocument], method: str, valid_labe
     print(nx.info(social_network))
 
     return social_network
+
+
+def lifespan_in_range(span1: Tuple[int, int], span2: Tuple[int, int], valid_range: int = 50) -> bool:
+    tmp = [x for x in span1 if x]
+    mean1 = mean(tmp) if len(tmp) > 0 else 1
+    tmp = [y for y in span2 if y]
+    mean2 = mean(tmp) if len(tmp) > 0 else 1
+    if abs(mean1 - mean2) <= valid_range:
+        return True
+    else:
+        return False
 
 
 def compute_network_metrics(network):
@@ -441,18 +454,24 @@ def get_nodes_and_nbrs(G, nodes_of_interest, save_dir):
 
 
 def get_names_dict(metadata_unified: Dict[str, Dict], name_dict_path: str, name_dict_path_inv: str):
-    name2id, id2names = {}, {}
+    name2ids, id2names = {}, {}
+    bio_id2norm_name = {}
     for pid, meta in metadata_unified.items():
-        id2names[pid] = meta["names_all"]
-        for n in meta["names_all"]:
-            name2id[n] = pid
+        valid_names = [n for n in meta["names_all"] if "_" in n or len(n.split()) > 1]
+        id2names[pid] = valid_names
+        bio_id2norm_name[meta["person_id"]] = pid
+        for n in valid_names:
+            if n in name2ids:
+                name2ids[n].append(pid)
+            else:
+                name2ids[n] = [pid]
 
     with open(name_dict_path, "w") as f:
         json.dump(id2names, f, indent=2,  ensure_ascii=False)
     with open(name_dict_path_inv, "w") as f:
-        json.dump(name2id, f, indent=2,  ensure_ascii=False)
+        json.dump(name2ids, f, indent=2,  ensure_ascii=False)
 
-    return name2id, id2names
+    return name2ids, id2names, bio_id2norm_name
 
 
 def get_rankings_correlation(method_rankings: Dict[str, List]):
@@ -492,21 +511,6 @@ def get_rankings_correlation(method_rankings: Dict[str, List]):
                 print("---------------")
     pd.DataFrame(metrics_data).to_csv(f"local_outputs/method_ranking_correlations_{ranking_size}.tsv", index=False, sep="\t")
 
-
-def _get_lifespan_from_meta(meta: Dict) -> Tuple[int, int]:
-    birth = meta["birth_date"]
-    death = meta["death_date"]
-    if birth:
-        b_year, b_month, b_day = birth.split("-")
-        b_year = int(b_year)
-    else:
-        b_year = None
-    if death:
-        d_year, d_month, d_day = death.split("-")
-        d_year = int(d_year)
-    else:
-        d_year = None
-    return (b_year, d_year)
 
 if __name__ == "__main__":
     main()

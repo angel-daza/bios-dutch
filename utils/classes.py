@@ -650,6 +650,8 @@ def _get_state_info(states: List[State], method: str):
     else:
         if method == 'most_common':
             return Counter(states_str).most_common(1)[0][0]
+        elif method == 'list_all':
+            return states_str
         elif method == 'stringified_all':
             return ", ".join(states_str)
         else:
@@ -692,18 +694,25 @@ def _get_century(year: int):
     return century
 
 
-def normalize_name(name: str, sep: str = " ") -> str:
+def normalize_name(name: str, sep: str = " ", lifespan: Tuple[int, int] = None) -> str:
     norm_name = []
     toks = name.split(" ")
     for t in toks:
         if t.lower() not in ["de", "den", "der", "en", "of", "ten", "ter", "van", "von"]:
-            if all([c.upper() == c for c in t if c not in [".", ",", "-"]]):
+            if t.upper() in ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII", "XIII", "XIV", "XV", "XVI", "XVII", "XVIII", "XIX", "XX", "XXI", "XXII", "XXIII", "XXIV", "XXV"]:
+                norm_name.append(t.upper().strip())
+            elif all([c.upper() == c for c in t if c not in [".", ",", "-"]]):
                 norm_name.append(t.strip())
             else:
                 norm_name.append(t.title().strip())
         else:
             norm_name.append(t.lower().strip())
-    return sep.join(norm_name).strip()
+    final_name = sep.join(norm_name).strip()
+    if lifespan:
+        final_name = f"{final_name}_{lifespan[0]}_{lifespan[1]}"
+    return final_name
+
+
 
 class MetadataComplete:
     '''Object that represents all available metadata for an individual. All except id number are represented as lists'''
@@ -883,13 +892,13 @@ class MetadataComplete:
             if "|" in name:
                 subnames = name.split("|")
             elif name != "0":
-                subnames = [name]
+                subnames = [name.strip()]
             else:
                 continue
             expanded_names_possibilites.extend(subnames)
         if len(expanded_names_possibilites) == 0: return nicest_name
 
-        ordered_names = sorted(expanded_names_possibilites, key= lambda x: len(x)) # Shortest to Longest
+        ordered_names = sorted([n.strip() for n in expanded_names_possibilites], key= lambda x: len(x)) # Shortest to Longest
 
         if mode == 'unique_shortest':
             nicest_name = ordered_names[0]
@@ -902,7 +911,6 @@ class MetadataComplete:
         
         return nicest_name
     
-
     def getGender(self) -> str:
         """
             method: ?
@@ -914,7 +922,6 @@ class MetadataComplete:
                 return 'female'
         return None
 
-    
     def getGender_predicted_pronoun_votes(self) -> str:
         masc_votes, fem_votes = 0, 0
         masc_weights = {'hij': 1, 'hem': 1, 'broeder': 1, 'broeder van': 2, 'zn. van': 2, 'zoon van': 2}
@@ -965,7 +972,6 @@ class MetadataComplete:
         # print(f"{self.getName()}\t{len(self.texts)}\t{self.getGender()}\t{gender_str}\t{init_toks}")
         return gender_str
 
-
     def getFather(self) -> str:
         fathers = []
         for f in self.fathers:
@@ -985,6 +991,24 @@ class MetadataComplete:
         for p in self.partners:
             if p: partners.append(p)
         return partners
+
+    def get_year_lifespan(self) -> Tuple[int, int]:
+        bd = "-".join([str(i) for i in self.getBirthDate()]) 
+        if bd == "0-0-0": bd = None
+        dd = "-".join([str(i) for i in self.getDeathDate()])
+        if dd == "0-0-0": dd = None
+        if bd:
+            b_year, b_month, b_day = bd.split("-")
+            b_year = int(b_year)
+        else:
+            pred = self.getBirthDate_baseline1()
+            b_year = pred if pred >= 0 else None
+        if dd:
+            d_year, d_month, d_day = dd.split("-")
+            d_year = int(d_year)
+        else:
+            d_year = None
+        return (b_year, d_year)
 
     def getCenturyLived(self) -> Optional[str]:
         """This calculates the century in which a person lived according to the average between birth and death (if both are known). 
@@ -1006,19 +1030,19 @@ class MetadataComplete:
         return _get_century(year)
 
     def getOccupation(self, method: str = 'most_common') -> Optional[str]:
-        """ method = 'most_common' | 'stringified_all' """
+        """ method = 'most_common' | 'stringified_all' | 'list_all' """
         return _get_state_info(self.occupations, method)
     
     def getResidence(self, method: str = 'most_common') -> Optional[str]:
-        """ method = 'most_common' | 'stringified_all' """
+        """ method = 'most_common' | 'stringified_all' | 'list_all' """
         return _get_state_info(self.residences, method)
 
     def getEducation(self, method: str = 'most_common') -> Optional[str]:
-        """ method = 'most_common' | 'stringified_all' """
+        """ method = 'most_common' | 'stringified_all' | 'list_all' """
         return _get_state_info(self.educations, method)
     
     def getReligion(self, method: str = 'most_common') -> Optional[str]:
-        """ method = 'most_common' | 'stringified_all' """
+        """ method = 'most_common' | 'stringified_all' | 'list_all' """
         religions = []
         for rel in self.religions:
             if rel: religions.append(rel)
@@ -1224,11 +1248,13 @@ class MetadataComplete:
         if bd == "0-0-0": bd = None
         dd = "-".join([str(i) for i in self.getDeathDate()])
         if dd == "0-0-0": dd = None
+        lifespan = self.get_year_lifespan()
         norm_name_main = normalize_name(self.getName(), sep="_")
+        norm_name_main_life = normalize_name(self.getName(), sep="_", lifespan=lifespan)
         metadata_facts = {
             'person_id': self.person_id,
-            'name': norm_name_main,
-            'names_all': all_names_normalized + [norm_name_main],
+            'name': norm_name_main_life,
+            'names_all': all_names_normalized + [norm_name_main, norm_name_main_life],
             'birth_date': bd,
             'birth_place': self.getBirthPlace(),
             'death_date': dd,
@@ -1236,12 +1262,12 @@ class MetadataComplete:
             'fathers': self.getFather(),
             'mothers': self.getMother(),
             'partners': self.getPartners(),
-            'education': self.getEducation('stringified_all'),
-            'occupation': self.getOccupation('stringified_all'),
+            'education': self.getEducation('list_all'),
+            'occupation': self.getOccupation('list_all'),
             'gender': self.getGender(),
-            'religion': self.getReligion('stringified_all'),
-            'faith': self.getFaith('stringified_all'),
-            'residence': self.getResidence('stringified_all'),
+            'religion': self.getReligion('list_all'),
+            'faith': self.getFaith('list_all'),
+            'residence': self.getResidence('list_all'),
         }
         if autocomplete:
             metadata_facts['birth_year_pred'] = self.getBirthDate_baseline1()

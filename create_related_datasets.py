@@ -139,11 +139,29 @@ def create_flask_searchable_people_data(people: List[MetadataComplete], dataset_
 
 
 def create_name_disambiguation_data(people: List[MetadataComplete], dataset_filepath: str, include_wikidata: bool):
+
+    def _merge_doubles(meta_1, meta_2):
+        unified_meta = meta_1
+        for k, v in meta_2.items():
+            if k not in unified_meta or unified_meta[k] is None:
+                unified_meta[k] = v
+            elif type(unified_meta[k]) == list and type(v) == list:
+                for elem in v:
+                    if elem not in unified_meta[k]:
+                        unified_meta[k].append(elem)
+            elif type(unified_meta[k]) == str and type(v) == str and unified_meta[k].count("-") == 2 and v.count("-") == 2:
+                if "-0" in unified_meta[k] and "-0" not in v:
+                    unified_meta[k] = v
+        return unified_meta
+
     metadata_info = {}
-    bdates = []
     for p in people:
-        metadata_info[p.person_id] = p.getFullMetadataDict(autocomplete=True)
-        # bdates.append(metadata_info[p.person_id]["birth_date"])
+        p_meta = p.getFullMetadataDict(autocomplete=True)
+        if p_meta["name"] in metadata_info:
+            print(f"\n----\nFOUND A DOUBLE!\n\n{metadata_info[p_meta['name']]}\n\n{p_meta}")
+            metadata_info[p_meta["name"]] = _merge_doubles(metadata_info[p_meta['name']], p_meta)
+        else:
+            metadata_info[p_meta["name"]] = p_meta
         if include_wikidata:
             _, wikidata_dict = get_bionet_person_wikidata(p.person_id)
             metadata_info[p.person_id]["wikidata"] = {}
@@ -151,7 +169,6 @@ def create_name_disambiguation_data(people: List[MetadataComplete], dataset_file
                 metadata_info[p.person_id]["wikidata"][k] = v
     
     json.dump(metadata_info, open(dataset_filepath, "w"), indent=2, ensure_ascii=False)
-    # print(Counter(bdates).most_common(100))
     
 
 
