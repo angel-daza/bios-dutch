@@ -11,6 +11,10 @@ import ner_evaluation
 from utils.classes import IntaviaDocument
 from utils_general import FLASK_ROOT, INTAVIA_JSON_ROOT, BIOS_MAIN_DATAFRAME
 
+## JUST FOR NOW FOR DEBUGGING PURPOSES:
+INTAVIA_JSON_ROOT = f"/Users/Daza/intavia_json_v1_all/"
+BIOS_MAIN_DATAFRAME = f"{FLASK_ROOT}/biographies/AllBios_unified_enriched_ALL.jsonl"
+
 
 STATISTICS = None
 

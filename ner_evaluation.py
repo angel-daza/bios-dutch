@@ -111,7 +111,7 @@ def system_label_report(systems_metrics: Dict[str, Any]) -> List[List[Any]]:
 
 
 def save_entity_errors_table(collected_errors: List[Dict[str, Any]], eval_type: str) -> List[Dict[str, Any]]:
-    if eval_type in ["full_match"]:
+    if eval_type in ["full_match", "partial_match"]:
         fp_fn_errors, sp_lb_errors = [], []
         for i, row in enumerate(collected_errors):
             text_id = row["text_id"]
@@ -149,5 +149,6 @@ def save_entity_errors_table(collected_errors: List[Dict[str, Any]], eval_type: 
 if __name__ == "__main__":
     systems = ["stanza_nl", "human_gold", "flair/ner-dutch-large_0.12.2", "gpt-3.5-turbo", "gysbert_hist_fx_finetuned_epoch2", "xlmr_ner_"]
     valid_labels = ["PER", "LOC", "ORG"]
-    evaluate_bionet_intavia(systems, valid_labels, eval_type="full_match")
-    evaluate_bionet_intavia(systems, valid_labels, eval_type="bag_of_entities")
+    #evaluate_bionet_intavia(systems, valid_labels, eval_type="full_match")
+    #evaluate_bionet_intavia(systems, valid_labels, eval_type="bag_of_entities")
+    evaluate_bionet_intavia(systems, valid_labels, eval_type="partial_match")
