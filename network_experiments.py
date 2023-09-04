@@ -11,7 +11,7 @@ import tqdm
 from statistics import mean
 
 from utils.classes import IntaviaEntity, IntaviaDocument, MetadataComplete, NER_METHOD_DISPLAY
-from utils_general import get_gold_annotations, INTAVIA_JSON_ROOT, normalize_entity_person_name, get_lifespan_from_meta
+from utils_general import get_gold_annotations, INTAVIA_JSON_ROOT, normalize_entity_person_name, get_lifespan_from_meta, split_person_name
 from utils.classes import normalize_name
 
 
@@ -26,14 +26,6 @@ def main():
     unified_metadata = json.load(open("data/unified_metadata_info.json")) # {norm_name_id: {metadata}}
     print("Building Names2IDs")
     name2ids, id2names, bioid2norm = get_names_dict(unified_metadata, f"data/BioNetStats/bionet_id2names.json", f"data/BioNetStats/bionet_names2id.json")
-    # print("Building Norm Dict")
-    # norm_dict = {} # Will Hold {"Possible Name": "FirstName_LastName_BirthYear_DeathYear"}
-    # for _, meta in unified_metadata.items():
-    #     for name in meta["names_all"]:
-    #         name_toks = name.split()
-    #         if len(name_toks) > 1  and name[0].isupper(): # To eliminate one_word_noise and common_compund_lastnames
-    #             norm_dict[name.replace(" ", "_")] = meta['name']
-    # json.dump(norm_dict, open("data/BioNetStats/bionet_normalized_namedict.json", "w"), indent=2, ensure_ascii=False)
     
     # # Statistics
     # get_entity_stats(documents, name2id)
@@ -307,6 +299,7 @@ def get_social_network(documents: List[IntaviaDocument], method: str, valid_labe
     related_mentions = defaultdict(int)
     related_bionet_mentions = defaultdict(int)
     related_bionet_lifespan_mentions = defaultdict(list)
+    names_names = []
 
     # Iterate All Documents and Build Social Network
     unrecognized = []
@@ -318,7 +311,6 @@ def get_social_network(documents: List[IntaviaDocument], method: str, valid_labe
             continue
         person_meta = unified_metadata[person_norm_name]
         person_lifespan = get_lifespan_from_meta(person_meta)
-        # person_firstname, person_lastname = None # TODO: split_person_name() #person_norm_name.split("_")
 
         doc_mentions = doc.get_entities([method], valid_labels=valid_labels)
         # print("DOC", doc_id)
@@ -331,22 +323,23 @@ def get_social_network(documents: List[IntaviaDocument], method: str, valid_labe
                 norm_surface_form = ent.surfaceForm
             
             # Add Edge in the Dict. This includes all mentions even if they are not recognized in BiographyNet
-            if len(ent_tokens) > 1 and norm_surface_form[0].isupper():
+            if len(ent_tokens) > 1 and norm_surface_form[0].isupper() and norm_surface_form != person_norm_name: # To eliminate one_word_noise, common_compund_lastnames AND Self-References
                 related_mentions[norm_surface_form] += 1
+            # Names that are recognized in BiographyNet
             if norm_surface_form in name2ids or ent.surfaceForm in name2ids:
                 possible_norm_names = name2ids.get(norm_surface_form)
                 if not possible_norm_names: possible_norm_names = name2ids[ent.surfaceForm]
-                # Counter without disambiguating by date. We pick the first element as MOST ENTRIES have one element anyway ...
-                # tmp_name = "_".join(possible_norm_names[0].split("_")[:-2])
-                related_bionet_mentions[norm_surface_form] += 1
-                # Counter with restriction of LifeSpan (Only Count if the mentioned entity lived +-50 years around the main_bio_person)
-                for norm_name in possible_norm_names:
-                    m_meta = unified_metadata[norm_name]
-                    m_lifespan = get_lifespan_from_meta(m_meta)
-                    if lifespan_in_range(person_lifespan, m_lifespan):
-                        related_bionet_lifespan_mentions[norm_name].append((doc_id, norm_surface_form, ent.surfaceForm))
-                        social_network.add_edge(person_norm_name, norm_name)
-                        break
+                # Counter without disambiguating by date. We avoid self-references
+                if all([n != person_norm_name for n in possible_norm_names]):
+                    related_bionet_mentions[norm_surface_form] += 1
+                    # Counter with restriction of LifeSpan (Only Count if the mentioned entity lived +-50 years around the main_bio_person)
+                    for norm_name in possible_norm_names:
+                        m_meta = unified_metadata[norm_name]
+                        m_lifespan = get_lifespan_from_meta(m_meta)
+                        if lifespan_in_range(person_lifespan, m_lifespan):
+                            related_bionet_lifespan_mentions[norm_name].append((doc_id, norm_surface_form, ent.surfaceForm))
+                            social_network.add_edge(person_norm_name, norm_name)
+                            break
 
     # Show the top 100 Popular by Mention
     print("Sorting (1)...")
@@ -470,6 +463,8 @@ def get_names_dict(metadata_unified: Dict[str, Dict], name_dict_path: str, name_
         json.dump(id2names, f, indent=2,  ensure_ascii=False)
     with open(name_dict_path_inv, "w") as f:
         json.dump(name2ids, f, indent=2,  ensure_ascii=False)
+    with open("data/BioNetStats/bionet_real_ids2normalized.json", "w") as f:
+        json.dump(bio_id2norm_name, f, indent=2,  ensure_ascii=False)
 
     return name2ids, id2names, bio_id2norm_name
 

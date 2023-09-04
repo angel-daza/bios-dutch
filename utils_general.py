@@ -3,12 +3,8 @@ import json, re
 from utils.classes import IntaviaEntity
 
 FLASK_ROOT = "flask_app/backend_data"
-# INTAVIA_JSON_ROOT = f"{FLASK_ROOT}/intavia_json/"
-# BIOS_MAIN_DATAFRAME = f"{FLASK_ROOT}/biographies/AllBios_unified_enriched.jsonl"
-
-## JUST FOR NOW FOR DEBUGGING PURPOSES:
-INTAVIA_JSON_ROOT = f"/Users/Daza/intavia_json_v1_all/"
-BIOS_MAIN_DATAFRAME = f"{FLASK_ROOT}/biographies/AllBios_unified_enriched_ALL.jsonl"
+INTAVIA_JSON_ROOT = f"{FLASK_ROOT}/intavia_json/"
+BIOS_MAIN_DATAFRAME = f"{FLASK_ROOT}/biographies/AllBios_unified_enriched.jsonl"
 
 
 def get_gold_annotations() -> Dict[str, Any]:
@@ -87,3 +83,36 @@ def get_lifespan_from_meta(meta: Dict) -> Tuple[int, int]:
     else:
         d_year = None
     return (b_year, d_year)
+
+
+def split_person_name(full_name: str, sep: str) -> Tuple[str, str, str]:
+    possible_titles = ["Dr", "Prof", "Jhr", "Med", "Mr", "DrMed", "JhrMr", "JhrDr", "ProfDr"]
+    title, first_name, last_name = None, None, None
+    toks = full_name.split(sep)
+    if len(toks) == 1:
+        last_name = [toks[0]]
+    elif len(toks) == 2:
+        if toks[0].replace(".", "").strip() in possible_titles:
+            title = [toks[0]]
+        else:
+            first_name = [toks[0]]
+        last_name = [toks[1]]
+    else:
+        title_indices = []
+        lastname_index = len(toks) - 1
+        for i, t in enumerate(toks):
+            if t.replace(".", "").strip() in possible_titles:
+                title_indices.append(i)
+            if t.lower() in ["ab", "de", "den", "der", "en", "le", "of", "te", "ten", "ter", "van", "von"]:
+                lastname_index = i
+                break
+        name_start_ix = 0
+        if len(title_indices) > 0:
+            title = toks[title_indices[0]: title_indices[-1] + 1]
+            name_start_ix = title_indices[-1] + 1
+        first_name = toks[name_start_ix:lastname_index]
+        last_name = toks[lastname_index:]
+    if title: title = sep.join(title)
+    if first_name or len(first_name) == 0: first_name = sep.join(first_name)
+    if last_name or len(last_name) == 0: last_name = sep.join(last_name)
+    return title, first_name, last_name

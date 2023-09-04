@@ -98,6 +98,73 @@ class IntaviaSentence:
     text: str
     words: List[IntaviaToken]
 
+# Fuzzy NER Evaluation (If the Span Starts coincide & Label Matches then count them as correct)
+def _evaluate_ner_fuzzy(reference: List[IntaviaEntity], hypothesis: List[IntaviaEntity]) -> Dict[str, Any]:
+    sorted_ref = sorted(reference, key = lambda ent: ent.locationStart)
+    sorted_hyp = sorted(hypothesis, key = lambda ent: ent.locationStart)     
+    
+    match = []     # TP) TruePositives (Exactly the same in both) - match
+    hallucination = []  # FP) FalsePositives (Missing in Gold) - error
+    missed = []         # FN) FalseNegative (Missing in System Output) - missed
+    label_error = []    #   -   The subset of errors that has the correct span but WRONG LABEL
+    span_error = []     #   -   Right Label but WRONG SPAN. TP or FP/FN? Depends on Strictness: TP is partial matches allowed, or FP/FN if only exact matches count
+
+
+    for ref in sorted_ref:
+        for hyp in sorted_hyp:
+            if hyp.locationStart > ref.locationEnd:
+                break
+            if ref.span_partial_match(hyp):
+                if ref.category == hyp.category:
+                    match.append(ref)
+                else:
+                    missed.append(ref)
+                    label_error.append((ref, hyp))
+            else:
+                missed.append(ref)
+                span_error.append((ref, hyp))
+
+    for hyp in sorted_hyp:
+        # if hyp not in sorted_ref and hyp not in missed and hyp not in span_err_hyp and hyp not in label_err_hyp:
+        if hyp not in sorted_ref and hyp not in missed and hyp not in hallucination:
+            hallucination.append(hyp)
+
+    # Double-check the Missed and LabelError Array, in case the overlapped entities were already counted in the TruePositives
+    # e.g. (1489, 'landing der Engelsche in Zeeland', 'MISC', 'Zeeland', 'LOC'), AND (1514, 'Zeeland', 'LOC', 'landing der Engelsche in Zeeland', 'MISC')
+    filtered_missed = []
+    for m in missed:
+        if m not in match and m not in filtered_missed:
+            filtered_missed.append(m)
+    missed = filtered_missed
+    filtered_label_err = []
+    for x,y in label_error:
+        if y not in match:
+            filtered_label_err.append((x,y))
+    label_error = filtered_label_err
+    # Compute Metrics
+    tp, fp, fn = len(match), len(hallucination), len(missed)
+    prec = 0 if tp+fp == 0 else 100*tp/(tp+fp)
+    rec = 0 if tp+fn == 0 else 100*tp/(tp+fn)
+    f1 = 0 if prec+rec == 0 else 2*(prec*rec)/(prec+rec)
+    # Return Everything
+    return {
+        # "reference": [(ent.locationStart, ent.surfaceForm, ent.category) for ent in sorted_ref],
+        # "hypothesis": [(ent.locationStart, ent.surfaceForm, ent.category) for ent in sorted_hyp],
+        "Full Match": [(ent.locationStart, ent.surfaceForm, ent.category, "TP") for ent in match],
+        "Span Errors": [(ent1.surfaceForm, ent2.surfaceForm, "FP") for (ent1, ent2) in span_error],
+        "Label Errors": [(ent1.surfaceForm, ent1.category, ent2.category, "FP") for (ent1, ent2) in label_error],
+        "Full Errors (not in Gold)": [(f"{ent.locationStart}_{ent.locationEnd}", ent.surfaceForm, ent.category, "FP") for ent in hallucination],
+        "Missed Entities": [(ent.locationStart, ent.surfaceForm, ent.category, "FN") for ent in missed],
+        "Support": len(reference),
+        "TP": tp, # True Positives
+        "FP": fp, # False Positives
+        "FN": fn, # False Negatives
+        "Precision": round(prec, 2),
+        "Recall": round(rec, 2),
+        "F1": round(f1, 2)
+    }
+
+
 # Strict NER Evaluation (Only Exact Span Matches == TP)
 def _evaluate_ner(reference: List[IntaviaEntity], hypothesis: List[IntaviaEntity]) -> Dict[str, Any]:
     sorted_ref = sorted(reference, key = lambda ent: ent.locationStart)
@@ -400,6 +467,8 @@ class IntaviaDocument:
         # TOTAL EVAL (MICRO -> Accuracy)
         if evaluation_type == 'full_match':
             micro_metrics = _evaluate_ner(reference_entities, predicted_entities)
+        elif evaluation_type == 'partial_match':
+            micro_metrics = _evaluate_ner_fuzzy(reference_entities, predicted_entities)
         elif evaluation_type == 'bag_of_entities':
             micro_metrics = _evaluate_ner_boe(reference_entities, predicted_entities)
         else:
@@ -416,6 +485,8 @@ class IntaviaDocument:
             lbl_pred = [x for x in predicted_entities if x.category == lbl]
             if evaluation_type == 'full_match':
                 lbl_metrics = _evaluate_ner(lbl_gold, lbl_pred)
+            elif evaluation_type == 'partial_match':
+                lbl_metrics = _evaluate_ner_fuzzy(lbl_gold, lbl_pred)
             elif evaluation_type == 'bag_of_entities':
                 lbl_metrics = _evaluate_ner_boe(lbl_gold, lbl_pred)
             if  lbl_metrics["Support"] > 0:
@@ -698,7 +769,7 @@ def normalize_name(name: str, sep: str = " ", lifespan: Tuple[int, int] = None) 
     norm_name = []
     toks = name.split(" ")
     for t in toks:
-        if t.lower() not in ["de", "den", "der", "en", "of", "ten", "ter", "van", "von"]:
+        if t.lower() not in ["ab", "de", "den", "der", "en", "le", "of", "te", "ten", "ter", "van", "von"]: # 'of' should be a name splitter actually...
             if t.upper() in ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII", "XIII", "XIV", "XV", "XVI", "XVII", "XVIII", "XIX", "XX", "XXI", "XXII", "XXIII", "XXIV", "XXV"]:
                 norm_name.append(t.upper().strip())
             elif all([c.upper() == c for c in t if c not in [".", ",", "-"]]):
