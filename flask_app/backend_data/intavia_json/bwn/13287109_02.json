@@ -14691,6 +14691,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Francois Gerard",
+        "category": "PER",
+        "locationStart": 14,
+        "locationEnd": 29,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_2",
         "category": "ORGANIZATION",
         "surfaceForm": "Koninklijke Nederlandsche Gist- & Spiritusfabriek NV",
@@ -14733,6 +14741,30 @@
         "locationStart": 58,
         "locationEnd": 110,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Koninklijke Nederlandsche",
+        "category": "PER",
+        "locationStart": 58,
+        "locationEnd": 83,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Koninklijke Nederlandsche Gist-",
+        "category": "PER",
+        "locationStart": 58,
+        "locationEnd": 89,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Nederlandsche Gist-",
+        "category": "PER",
+        "locationStart": 70,
+        "locationEnd": 89,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_3",
@@ -15031,6 +15063,30 @@
         "method": "human_gold"
       },
       {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Zoon van Francois",
+        "category": "PER",
+        "locationStart": 186,
+        "locationEnd": 203,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Zoon van Francois Gerard",
+        "category": "PER",
+        "locationStart": 186,
+        "locationEnd": 210,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Zoon van Francois Gerard Waller",
+        "category": "PER",
+        "locationStart": 186,
+        "locationEnd": 217,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_8",
         "surfaceForm": "Francois Gerard Waller",
         "category": "PER",
@@ -15075,12 +15131,36 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Francois Gerard",
+        "category": "PER",
+        "locationStart": 195,
+        "locationEnd": 210,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Francois Gerard Waller",
+        "category": "PER",
+        "locationStart": 195,
+        "locationEnd": 217,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_10",
         "category": "PERSON",
         "surfaceForm": "Dorothea Beatrix Diederika Vreede",
         "locationStart": 198,
         "locationEnd": 230,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Gerard Waller",
+        "category": "PER",
+        "locationStart": 204,
+        "locationEnd": 217,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_9",
@@ -15117,6 +15197,14 @@
         "locationStart": 246,
         "locationEnd": 255,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Nederlandsche Gist-",
+        "category": "PER",
+        "locationStart": 246,
+        "locationEnd": 265,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_11",
@@ -15179,12 +15267,60 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "Dorothea Beatrix",
+        "category": "PER",
+        "locationStart": 288,
+        "locationEnd": 304,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "Dorothea Beatrix Diederika",
+        "category": "PER",
+        "locationStart": 288,
+        "locationEnd": 314,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "Dorothea Beatrix Diederika Vreede",
+        "category": "PER",
+        "locationStart": 288,
+        "locationEnd": 321,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_12",
         "category": "PERSON",
         "surfaceForm": "J.C. van Marken",
         "locationStart": 297,
         "locationEnd": 313,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "Beatrix Diederika",
+        "category": "PER",
+        "locationStart": 297,
+        "locationEnd": 314,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_15",
+        "surfaceForm": "Beatrix Diederika Vreede",
+        "category": "PER",
+        "locationStart": 297,
+        "locationEnd": 321,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_16",
+        "surfaceForm": "Diederika Vreede",
+        "category": "PER",
+        "locationStart": 305,
+        "locationEnd": 321,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_35",
@@ -15263,6 +15399,54 @@
         "locationStart": 347,
         "locationEnd": 374,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_17",
+        "surfaceForm": "Aline Jeanne",
+        "category": "PER",
+        "locationStart": 347,
+        "locationEnd": 359,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_18",
+        "surfaceForm": "Aline Jeanne Marie",
+        "category": "PER",
+        "locationStart": 347,
+        "locationEnd": 365,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_22",
+        "surfaceForm": "Aline Jeanne Marie de Vries",
+        "category": "PER",
+        "locationStart": 347,
+        "locationEnd": 374,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_19",
+        "surfaceForm": "Jeanne Marie",
+        "category": "PER",
+        "locationStart": 353,
+        "locationEnd": 365,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_21",
+        "surfaceForm": "Jeanne Marie de Vries",
+        "category": "PER",
+        "locationStart": 353,
+        "locationEnd": 374,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_20",
+        "surfaceForm": "Marie de Vries",
+        "category": "PER",
+        "locationStart": 360,
+        "locationEnd": 374,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_14",
@@ -15397,6 +15581,14 @@
         "locationStart": 570,
         "locationEnd": 585,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_23",
+        "surfaceForm": "J.C. van Marken",
+        "category": "PER",
+        "locationStart": 570,
+        "locationEnd": 585,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_62",
@@ -15671,6 +15863,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_24",
+        "surfaceForm": "Technische Hoogeschool",
+        "category": "PER",
+        "locationStart": 883,
+        "locationEnd": 905,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_69",
         "surfaceForm": "gedurende de Eerste Wereldoorlog",
         "category": "TIME",
@@ -15697,6 +15897,14 @@
         "locationStart": 1003,
         "locationEnd": 1022,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_25",
+        "surfaceForm": "Eerste Wereldoorlog",
+        "category": "PER",
+        "locationStart": 1003,
+        "locationEnd": 1022,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_1",
@@ -15761,6 +15969,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_26",
+        "surfaceForm": "G. van Iterson",
+        "category": "PER",
+        "locationStart": 1068,
+        "locationEnd": 1082,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_3",
         "surfaceForm": "prof. A.J. Kluyver",
         "category": "PER",
@@ -15803,6 +16019,14 @@
         "locationStart": 1112,
         "locationEnd": 1124,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_27",
+        "surfaceForm": "A.J. Kluyver",
+        "category": "PER",
+        "locationStart": 1112,
+        "locationEnd": 1124,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_9",
@@ -15937,6 +16161,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_28",
+        "surfaceForm": "Carlberg Instituut",
+        "category": "PER",
+        "locationStart": 1262,
+        "locationEnd": 1280,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_30",
+        "surfaceForm": "Carlberg Instituut te Kopenhagen",
+        "category": "PER",
+        "locationStart": 1262,
+        "locationEnd": 1294,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_29",
+        "surfaceForm": "Instituut te Kopenhagen",
+        "category": "PER",
+        "locationStart": 1271,
+        "locationEnd": 1294,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_24",
         "surfaceForm": "Kopenhagen",
         "category": "LOC",
@@ -16015,6 +16263,14 @@
         "locationStart": 1319,
         "locationEnd": 1333,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_31",
+        "surfaceForm": "S.P.L. Srensen",
+        "category": "PER",
+        "locationStart": 1319,
+        "locationEnd": 1333,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_9",
@@ -16199,6 +16455,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_32",
+        "surfaceForm": "W.H. van Leeuwen",
+        "category": "PER",
+        "locationStart": 1897,
+        "locationEnd": 1913,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_28",
         "surfaceForm": "H.F. Waller",
         "category": "PER",
@@ -16233,6 +16497,14 @@
         "locationStart": 1952,
         "locationEnd": 1963,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_33",
+        "surfaceForm": "H.F. Waller",
+        "category": "PER",
+        "locationStart": 1952,
+        "locationEnd": 1963,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_12",
@@ -16351,6 +16623,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_34",
+        "surfaceForm": "Tweede Wereldoorlog",
+        "category": "PER",
+        "locationStart": 2127,
+        "locationEnd": 2146,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_32",
         "surfaceForm": "Produkten",
         "category": "MISC",
@@ -16367,6 +16647,14 @@
         "locationStart": 2477,
         "locationEnd": 2486,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_35",
+        "surfaceForm": "Produkten mag Wallers",
+        "category": "PER",
+        "locationStart": 2477,
+        "locationEnd": 2498,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_33",
@@ -16413,6 +16701,14 @@
         "tokenStart": 483,
         "tokenEnd": 485,
         "method": "human_gold"
+      },
+      {
+        "ID": "spacy_matcher_nl_36",
+        "surfaceForm": "Prof. Kluyver",
+        "category": "PER",
+        "locationStart": 3013,
+        "locationEnd": 3026,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_35",
@@ -16531,6 +16827,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_37",
+        "surfaceForm": "Waller ir. Van",
+        "category": "PER",
+        "locationStart": 3165,
+        "locationEnd": 3179,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_38",
+        "surfaceForm": "Waller ir. Van Leeuwen",
+        "category": "PER",
+        "locationStart": 3165,
+        "locationEnd": 3187,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_38",
         "surfaceForm": "ir. Van Leeuwen",
         "category": "PER",
@@ -16565,6 +16877,14 @@
         "locationStart": 3176,
         "locationEnd": 3187,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_39",
+        "surfaceForm": "Van Leeuwen",
+        "category": "PER",
+        "locationStart": 3176,
+        "locationEnd": 3187,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_33",
@@ -16665,6 +16985,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_40",
+        "surfaceForm": "Brocades Stheeman",
+        "category": "PER",
+        "locationStart": 3375,
+        "locationEnd": 3392,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_21",
         "category": "PER",
         "surfaceForm": "pharmac",
@@ -16759,6 +17087,14 @@
         "locationStart": 3489,
         "locationEnd": 3495,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_41",
+        "surfaceForm": "Daaraan paarde Waller",
+        "category": "PER",
+        "locationStart": 3666,
+        "locationEnd": 3687,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_42",
@@ -16887,6 +17223,54 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_42",
+        "surfaceForm": "Algemene Kunstzijde",
+        "category": "PER",
+        "locationStart": 4195,
+        "locationEnd": 4214,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_43",
+        "surfaceForm": "Algemene Kunstzijde Unie",
+        "category": "PER",
+        "locationStart": 4195,
+        "locationEnd": 4219,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_47",
+        "surfaceForm": "Algemene Kunstzijde Unie te Arnhem",
+        "category": "PER",
+        "locationStart": 4195,
+        "locationEnd": 4229,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_44",
+        "surfaceForm": "Kunstzijde Unie",
+        "category": "PER",
+        "locationStart": 4204,
+        "locationEnd": 4219,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_46",
+        "surfaceForm": "Kunstzijde Unie te Arnhem",
+        "category": "PER",
+        "locationStart": 4204,
+        "locationEnd": 4229,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_45",
+        "surfaceForm": "Unie te Arnhem",
+        "category": "PER",
+        "locationStart": 4215,
+        "locationEnd": 4229,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_46",
         "surfaceForm": "Arnhem",
         "category": "LOC",
@@ -16965,6 +17349,14 @@
         "locationStart": 4234,
         "locationEnd": 4247,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_48",
+        "surfaceForm": "Billiton Mij",
+        "category": "PER",
+        "locationStart": 4234,
+        "locationEnd": 4246,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_46",
@@ -17071,6 +17463,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_49",
+        "surfaceForm": "Haven- en Scheepvaartbedrijven",
+        "category": "PER",
+        "locationStart": 4270,
+        "locationEnd": 4300,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_50",
+        "surfaceForm": "Scheepvaartbedrijven te Rotterdam",
+        "category": "PER",
+        "locationStart": 4280,
+        "locationEnd": 4313,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_50",
         "surfaceForm": "Rotterdam",
         "category": "LOC",
@@ -17151,6 +17559,30 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_51",
+        "surfaceForm": "De Porceleyne",
+        "category": "PER",
+        "locationStart": 4316,
+        "locationEnd": 4329,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_52",
+        "surfaceForm": "De Porceleyne Fles",
+        "category": "PER",
+        "locationStart": 4316,
+        "locationEnd": 4334,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_53",
+        "surfaceForm": "Porceleyne Fles",
+        "category": "PER",
+        "locationStart": 4319,
+        "locationEnd": 4334,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_52",
         "surfaceForm": "Fransch-Hollandsche Oliefabrieken Calve",
         "category": "MISC",
@@ -17179,12 +17611,132 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_54",
+        "surfaceForm": "Fransch-Hollandsche Oliefabrieken",
+        "category": "PER",
+        "locationStart": 4340,
+        "locationEnd": 4373,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_55",
+        "surfaceForm": "Fransch-Hollandsche Oliefabrieken Calve",
+        "category": "PER",
+        "locationStart": 4340,
+        "locationEnd": 4379,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_59",
+        "surfaceForm": "Fransch-Hollandsche Oliefabrieken Calve en Van",
+        "category": "PER",
+        "locationStart": 4340,
+        "locationEnd": 4386,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_62",
+        "surfaceForm": "Fransch-Hollandsche Oliefabrieken Calve en Van Markens",
+        "category": "PER",
+        "locationStart": 4340,
+        "locationEnd": 4394,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_66",
+        "surfaceForm": "Fransch-Hollandsche Oliefabrieken Calve en Van Markens Drukkerij",
+        "category": "PER",
+        "locationStart": 4340,
+        "locationEnd": 4404,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_71",
+        "surfaceForm": "Fransch-Hollandsche Oliefabrieken Calve en Van Markens Drukkerij Vennootschap",
+        "category": "PER",
+        "locationStart": 4340,
+        "locationEnd": 4417,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_56",
+        "surfaceForm": "Oliefabrieken Calve",
+        "category": "PER",
+        "locationStart": 4360,
+        "locationEnd": 4379,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_58",
+        "surfaceForm": "Oliefabrieken Calve en Van",
+        "category": "PER",
+        "locationStart": 4360,
+        "locationEnd": 4386,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_61",
+        "surfaceForm": "Oliefabrieken Calve en Van Markens",
+        "category": "PER",
+        "locationStart": 4360,
+        "locationEnd": 4394,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_65",
+        "surfaceForm": "Oliefabrieken Calve en Van Markens Drukkerij",
+        "category": "PER",
+        "locationStart": 4360,
+        "locationEnd": 4404,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_70",
+        "surfaceForm": "Oliefabrieken Calve en Van Markens Drukkerij Vennootschap",
+        "category": "PER",
+        "locationStart": 4360,
+        "locationEnd": 4417,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "xlmr_ner_31",
         "category": "ORG",
         "surfaceForm": "Calve",
         "locationStart": 4374,
         "locationEnd": 4379,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_57",
+        "surfaceForm": "Calve en Van",
+        "category": "PER",
+        "locationStart": 4374,
+        "locationEnd": 4386,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_60",
+        "surfaceForm": "Calve en Van Markens",
+        "category": "PER",
+        "locationStart": 4374,
+        "locationEnd": 4394,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_64",
+        "surfaceForm": "Calve en Van Markens Drukkerij",
+        "category": "PER",
+        "locationStart": 4374,
+        "locationEnd": 4404,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_69",
+        "surfaceForm": "Calve en Van Markens Drukkerij Vennootschap",
+        "category": "PER",
+        "locationStart": 4374,
+        "locationEnd": 4417,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_53",
@@ -17221,6 +17773,54 @@
         "locationStart": 4383,
         "locationEnd": 4417,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_63",
+        "surfaceForm": "Van Markens",
+        "category": "PER",
+        "locationStart": 4383,
+        "locationEnd": 4394,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_67",
+        "surfaceForm": "Van Markens Drukkerij",
+        "category": "PER",
+        "locationStart": 4383,
+        "locationEnd": 4404,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_72",
+        "surfaceForm": "Van Markens Drukkerij Vennootschap",
+        "category": "PER",
+        "locationStart": 4383,
+        "locationEnd": 4417,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_68",
+        "surfaceForm": "Markens Drukkerij",
+        "category": "PER",
+        "locationStart": 4387,
+        "locationEnd": 4404,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_73",
+        "surfaceForm": "Markens Drukkerij Vennootschap",
+        "category": "PER",
+        "locationStart": 4387,
+        "locationEnd": 4417,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_74",
+        "surfaceForm": "Drukkerij Vennootschap",
+        "category": "PER",
+        "locationStart": 4395,
+        "locationEnd": 4417,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_54",
@@ -17303,6 +17903,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_75",
+        "surfaceForm": "Ingenieursbureau voor Bouwnijverheid",
+        "category": "PER",
+        "locationStart": 4438,
+        "locationEnd": 4474,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_76",
+        "surfaceForm": "Bouwnijverheid te Oegstgeest",
+        "category": "PER",
+        "locationStart": 4460,
+        "locationEnd": 4488,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_54",
         "surfaceForm": "Oegstgeest",
         "category": "LOC",
@@ -17335,6 +17951,22 @@
         "locationStart": 4478,
         "locationEnd": 4488,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_77",
+        "surfaceForm": "Oegstgeest en de Rubberfabriek",
+        "category": "PER",
+        "locationStart": 4478,
+        "locationEnd": 4508,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_78",
+        "surfaceForm": "Oegstgeest en de Rubberfabriek Vredestein",
+        "category": "PER",
+        "locationStart": 4478,
+        "locationEnd": 4519,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_56",
@@ -17371,6 +18003,30 @@
         "locationStart": 4495,
         "locationEnd": 4519,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_79",
+        "surfaceForm": "Rubberfabriek Vredestein",
+        "category": "PER",
+        "locationStart": 4495,
+        "locationEnd": 4519,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_81",
+        "surfaceForm": "Rubberfabriek Vredestein te Loosduinen",
+        "category": "PER",
+        "locationStart": 4495,
+        "locationEnd": 4533,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_80",
+        "surfaceForm": "Vredestein te Loosduinen",
+        "category": "PER",
+        "locationStart": 4509,
+        "locationEnd": 4533,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_57",
@@ -17479,6 +18135,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_82",
+        "surfaceForm": "Archiefstukken op Waller",
+        "category": "PER",
+        "locationStart": 4623,
+        "locationEnd": 4647,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_59",
         "surfaceForm": "Waller",
         "category": "PER",
@@ -17565,6 +18229,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_83",
+        "surfaceForm": "Gesprek met ir. F.G.",
+        "category": "PER",
+        "locationStart": 4709,
+        "locationEnd": 4729,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_84",
+        "surfaceForm": "Gesprek met ir. F.G. Waller",
+        "category": "PER",
+        "locationStart": 4709,
+        "locationEnd": 4736,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_62",
         "surfaceForm": "F.G. Waller",
         "category": "PER",
@@ -17597,6 +18277,14 @@
         "locationStart": 4725,
         "locationEnd": 4736,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_85",
+        "surfaceForm": "F.G. Waller",
+        "category": "PER",
+        "locationStart": 4725,
+        "locationEnd": 4736,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_39",
@@ -17633,6 +18321,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_86",
+        "surfaceForm": "De Nederlandse",
+        "category": "PER",
+        "locationStart": 4791,
+        "locationEnd": 4805,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_87",
+        "surfaceForm": "De Nederlandse Industrie",
+        "category": "PER",
+        "locationStart": 4791,
+        "locationEnd": 4815,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_88",
+        "surfaceForm": "Nederlandse Industrie",
+        "category": "PER",
+        "locationStart": 4794,
+        "locationEnd": 4815,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_64",
         "surfaceForm": "Nederlandsche Gist- en Spiritusfabriek",
         "category": "ORG",
@@ -17659,6 +18371,38 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_89",
+        "surfaceForm": "Nederlandsche Gist-",
+        "category": "PER",
+        "locationStart": 4848,
+        "locationEnd": 4867,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_91",
+        "surfaceForm": "Nederlandsche Gist- en Spiritusfabriek",
+        "category": "PER",
+        "locationStart": 4848,
+        "locationEnd": 4886,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_90",
+        "surfaceForm": "Gist- en Spiritusfabriek",
+        "category": "PER",
+        "locationStart": 4862,
+        "locationEnd": 4886,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_92",
+        "surfaceForm": "Spiritusfabriek en over Wallers",
+        "category": "PER",
+        "locationStart": 4871,
+        "locationEnd": 4902,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_65",
         "surfaceForm": "Wallers",
         "category": "ORG",
@@ -17675,6 +18419,22 @@
         "locationStart": 4895,
         "locationEnd": 4902,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_93",
+        "surfaceForm": "Wallers directie in De",
+        "category": "PER",
+        "locationStart": 4895,
+        "locationEnd": 4917,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_94",
+        "surfaceForm": "Wallers directie in De Fabrieksbode",
+        "category": "PER",
+        "locationStart": 4895,
+        "locationEnd": 4930,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_66",
@@ -17701,6 +18461,14 @@
         "locationStart": 4915,
         "locationEnd": 4930,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_95",
+        "surfaceForm": "De Fabrieksbode",
+        "category": "PER",
+        "locationStart": 4915,
+        "locationEnd": 4930,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_36",
@@ -17745,6 +18513,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_96",
+        "surfaceForm": "E.W. ter Horst",
+        "category": "PER",
+        "locationStart": 4964,
+        "locationEnd": 4978,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_37",
         "category": "",
         "surfaceForm": "ter horst ter horst",
@@ -17779,6 +18555,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_97",
+        "surfaceForm": "De Ingenieur",
+        "category": "PER",
+        "locationStart": 4983,
+        "locationEnd": 4995,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_69",
         "surfaceForm": "E.W. ter Horst",
         "category": "PER",
@@ -17795,6 +18579,14 @@
         "locationStart": 5014,
         "locationEnd": 5028,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_98",
+        "surfaceForm": "E.W. ter Horst",
+        "category": "PER",
+        "locationStart": 5014,
+        "locationEnd": 5028,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_70",
@@ -17821,6 +18613,14 @@
         "locationStart": 5033,
         "locationEnd": 5045,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_99",
+        "surfaceForm": "De Ingenieur",
+        "category": "PER",
+        "locationStart": 5033,
+        "locationEnd": 5045,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_71",
@@ -17855,6 +18655,30 @@
         "locationStart": 5061,
         "locationEnd": 5077,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_100",
+        "surfaceForm": "W. de Vries",
+        "category": "PER",
+        "locationStart": 5061,
+        "locationEnd": 5072,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_101",
+        "surfaceForm": "W. de Vries Wzn",
+        "category": "PER",
+        "locationStart": 5061,
+        "locationEnd": 5076,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_102",
+        "surfaceForm": "Vries Wzn",
+        "category": "PER",
+        "locationStart": 5067,
+        "locationEnd": 5076,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_41",

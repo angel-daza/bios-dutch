@@ -412,6 +412,22 @@
     },
     "entities": [
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Portret van Gerhard",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 19,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Portret van Gerhard Heinrich",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 28,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_0",
         "surfaceForm": "Gerhard Heinrich van Senden",
         "category": "PER",
@@ -456,12 +472,92 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Gerhard Heinrich",
+        "category": "PER",
+        "locationStart": 12,
+        "locationEnd": 28,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Gerhard Heinrich van Senden",
+        "category": "PER",
+        "locationStart": 12,
+        "locationEnd": 39,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Gerhard Heinrich van Senden Portret",
+        "category": "PER",
+        "locationStart": 12,
+        "locationEnd": 47,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_0",
         "category": "PERSON",
         "surfaceForm": "Gerhard Heinrich van Senden",
         "locationStart": 16,
         "locationEnd": 40,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Heinrich van Senden",
+        "category": "PER",
+        "locationStart": 20,
+        "locationEnd": 39,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Heinrich van Senden Portret",
+        "category": "PER",
+        "locationStart": 20,
+        "locationEnd": 47,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Senden Portret",
+        "category": "PER",
+        "locationStart": 33,
+        "locationEnd": 47,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Senden Portret van Gerhard",
+        "category": "PER",
+        "locationStart": 33,
+        "locationEnd": 59,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "Senden Portret van Gerhard Heinrich",
+        "category": "PER",
+        "locationStart": 33,
+        "locationEnd": 68,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Portret van Gerhard",
+        "category": "PER",
+        "locationStart": 40,
+        "locationEnd": 59,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Portret van Gerhard Heinrich",
+        "category": "PER",
+        "locationStart": 40,
+        "locationEnd": 68,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_1",
@@ -508,12 +604,36 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "Gerhard Heinrich",
+        "category": "PER",
+        "locationStart": 52,
+        "locationEnd": 68,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "Gerhard Heinrich van Senden",
+        "category": "PER",
+        "locationStart": 52,
+        "locationEnd": 79,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_1",
         "category": "MISC",
         "surfaceForm": "ambtsgewaad",
         "locationStart": 57,
         "locationEnd": 68,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "Heinrich van Senden",
+        "category": "PER",
+        "locationStart": 60,
+        "locationEnd": 79,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_2",

@@ -1116,6 +1116,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Tweede Kamerlid",
+        "category": "PER",
+        "locationStart": 29,
+        "locationEnd": 44,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Zijn wethouderschap van Rotterdam",
+        "category": "PER",
+        "locationStart": 294,
+        "locationEnd": 327,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_1",
         "surfaceForm": "Rotterdam",
         "category": "LOC",
@@ -1166,6 +1182,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Broer van Klaas",
+        "category": "PER",
+        "locationStart": 359,
+        "locationEnd": 374,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "xlmr_ner_4",
         "category": "PER",
         "surfaceForm": "van",
@@ -1206,6 +1230,14 @@
         "locationStart": 369,
         "locationEnd": 383,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Klaas ter Laan",
+        "category": "PER",
+        "locationStart": 369,
+        "locationEnd": 383,
+        "method": "spacy_matcher_nl"
       }
     ],
     "time_expressions": [

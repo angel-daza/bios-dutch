@@ -1067,12 +1067,36 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Gedalja Polak",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 13,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Gedalja Polak Daniels",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 21,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_0",
         "category": "PER",
         "surfaceForm": "alja polak daniels",
         "locationStart": 3,
         "locationEnd": 21,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Polak Daniels",
+        "category": "PER",
+        "locationStart": 8,
+        "locationEnd": 21,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_5",
@@ -1145,6 +1169,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Gedalja Pos",
+        "category": "PER",
+        "locationStart": 52,
+        "locationEnd": 63,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_2",
         "category": "PERSON",
         "surfaceForm": "Treila Polak",
@@ -1215,6 +1247,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Treila Polak",
+        "category": "PER",
+        "locationStart": 85,
+        "locationEnd": 97,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_3",
         "category": "PERSON",
         "surfaceForm": "Pos",
@@ -1283,6 +1323,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Pos officieel in Polak",
+        "category": "PER",
+        "locationStart": 120,
+        "locationEnd": 142,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Pos officieel in Polak Daniels",
+        "category": "PER",
+        "locationStart": 120,
+        "locationEnd": 150,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_4",
         "surfaceForm": "Polak Daniels",
         "category": "PER",
@@ -1323,6 +1379,14 @@
         "locationStart": 137,
         "locationEnd": 150,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Polak Daniels",
+        "category": "PER",
+        "locationStart": 137,
+        "locationEnd": 150,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_6",
@@ -1375,6 +1439,14 @@
         "locationStart": 185,
         "locationEnd": 193,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Den Haag",
+        "category": "PER",
+        "locationStart": 185,
+        "locationEnd": 193,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_2",
@@ -1447,6 +1519,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Nieuwe Synagoge",
+        "category": "PER",
+        "locationStart": 234,
+        "locationEnd": 249,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "Nieuwe Synagoge in de Wagenstraat",
+        "category": "PER",
+        "locationStart": 234,
+        "locationEnd": 267,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Synagoge in de Wagenstraat",
+        "category": "PER",
+        "locationStart": 241,
+        "locationEnd": 267,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_7",
         "surfaceForm": "Wagenstraat",
         "category": "LOC",
@@ -1491,6 +1587,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "Wagenstraat te Den",
+        "category": "PER",
+        "locationStart": 256,
+        "locationEnd": 274,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "Wagenstraat te Den Haag",
+        "category": "PER",
+        "locationStart": 256,
+        "locationEnd": 279,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_8",
         "surfaceForm": "Den Haag",
         "category": "LOC",
@@ -1533,6 +1645,14 @@
         "locationStart": 271,
         "locationEnd": 279,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "Den Haag",
+        "category": "PER",
+        "locationStart": 271,
+        "locationEnd": 279,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_2",

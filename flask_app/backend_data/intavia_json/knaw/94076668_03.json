@@ -16383,12 +16383,52 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "J. C.",
+        "category": "PER",
+        "locationStart": 50,
+        "locationEnd": 55,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "J. C. G.",
+        "category": "PER",
+        "locationStart": 50,
+        "locationEnd": 58,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_2",
         "category": "PER",
         "surfaceForm": "C. G. BOOT",
         "locationStart": 53,
         "locationEnd": 63,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "C. G.",
+        "category": "PER",
+        "locationStart": 53,
+        "locationEnd": 58,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Secretaris der Letterkundige",
+        "category": "PER",
+        "locationStart": 65,
+        "locationEnd": 93,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Secretaris der Letterkundige Ajdeeling",
+        "category": "PER",
+        "locationStart": 65,
+        "locationEnd": 103,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_0",
@@ -16407,6 +16447,14 @@
         "locationStart": 80,
         "locationEnd": 103,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Letterkundige Ajdeeling",
+        "category": "PER",
+        "locationStart": 80,
+        "locationEnd": 103,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_1",
@@ -16433,6 +16481,30 @@
         "locationStart": 162,
         "locationEnd": 200,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Koninklijke Akademie",
+        "category": "PER",
+        "locationStart": 162,
+        "locationEnd": 182,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Koninklijke Akademie van Wetenschappen",
+        "category": "PER",
+        "locationStart": 162,
+        "locationEnd": 200,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Akademie van Wetenschappen",
+        "category": "PER",
+        "locationStart": 174,
+        "locationEnd": 200,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_2",
@@ -16467,6 +16539,14 @@
         "locationStart": 235,
         "locationEnd": 250,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Acker Stratingh",
+        "category": "PER",
+        "locationStart": 235,
+        "locationEnd": 250,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_3",
@@ -16547,6 +16627,38 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Mr. H.",
+        "category": "PER",
+        "locationStart": 1059,
+        "locationEnd": 1065,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "Mr. H. O.",
+        "category": "PER",
+        "locationStart": 1059,
+        "locationEnd": 1068,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "Mr. H. O. Peith",
+        "category": "PER",
+        "locationStart": 1059,
+        "locationEnd": 1074,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_19",
+        "surfaceForm": "Mr. H. O. Peith in de Levensberichten",
+        "category": "PER",
+        "locationStart": 1059,
+        "locationEnd": 1096,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_6",
         "surfaceForm": "H. O. Peith",
         "category": "PER",
@@ -16573,12 +16685,60 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "H. O.",
+        "category": "PER",
+        "locationStart": 1063,
+        "locationEnd": 1068,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "H. O. Peith",
+        "category": "PER",
+        "locationStart": 1063,
+        "locationEnd": 1074,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_18",
+        "surfaceForm": "H. O. Peith in de Levensberichten",
+        "category": "PER",
+        "locationStart": 1063,
+        "locationEnd": 1096,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_8",
         "category": "",
         "surfaceForm": "o pei",
         "locationStart": 1066,
         "locationEnd": 1072,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_15",
+        "surfaceForm": "O. Peith",
+        "category": "PER",
+        "locationStart": 1066,
+        "locationEnd": 1074,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_17",
+        "surfaceForm": "O. Peith in de Levensberichten",
+        "category": "PER",
+        "locationStart": 1066,
+        "locationEnd": 1096,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_16",
+        "surfaceForm": "Peith in de Levensberichten",
+        "category": "PER",
+        "locationStart": 1069,
+        "locationEnd": 1096,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_7",
@@ -16597,6 +16757,14 @@
         "locationStart": 1081,
         "locationEnd": 1096,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_20",
+        "surfaceForm": "Levensberichten van de Maatschappij",
+        "category": "PER",
+        "locationStart": 1081,
+        "locationEnd": 1116,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_8",
@@ -16623,6 +16791,30 @@
         "locationStart": 1104,
         "locationEnd": 1106,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_21",
+        "surfaceForm": "Maatschappij van Nederlandsche",
+        "category": "PER",
+        "locationStart": 1104,
+        "locationEnd": 1134,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_22",
+        "surfaceForm": "Maatschappij van Nederlandsche Letterkunde",
+        "category": "PER",
+        "locationStart": 1104,
+        "locationEnd": 1146,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_23",
+        "surfaceForm": "Nederlandsche Letterkunde",
+        "category": "PER",
+        "locationStart": 1121,
+        "locationEnd": 1146,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_10",
@@ -16673,6 +16865,30 @@
         "locationStart": 1299,
         "locationEnd": 1324,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_24",
+        "surfaceForm": "Gosewinus Acker",
+        "category": "PER",
+        "locationStart": 1299,
+        "locationEnd": 1314,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_25",
+        "surfaceForm": "Gosewinus Acker Stratingh",
+        "category": "PER",
+        "locationStart": 1299,
+        "locationEnd": 1324,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_26",
+        "surfaceForm": "Acker Stratingh",
+        "category": "PER",
+        "locationStart": 1309,
+        "locationEnd": 1324,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_10",
@@ -16803,12 +17019,60 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_27",
+        "surfaceForm": "G. A.",
+        "category": "PER",
+        "locationStart": 2108,
+        "locationEnd": 2113,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_28",
+        "surfaceForm": "G. A. Venema",
+        "category": "PER",
+        "locationStart": 2108,
+        "locationEnd": 2120,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_32",
+        "surfaceForm": "G. A. Venema van Winschoten",
+        "category": "PER",
+        "locationStart": 2108,
+        "locationEnd": 2135,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_16",
         "category": "PER",
         "surfaceForm": "A. Venema",
         "locationStart": 2111,
         "locationEnd": 2120,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_29",
+        "surfaceForm": "A. Venema",
+        "category": "PER",
+        "locationStart": 2111,
+        "locationEnd": 2120,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_31",
+        "surfaceForm": "A. Venema van Winschoten",
+        "category": "PER",
+        "locationStart": 2111,
+        "locationEnd": 2135,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_30",
+        "surfaceForm": "Venema van Winschoten",
+        "category": "PER",
+        "locationStart": 2114,
+        "locationEnd": 2135,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_14",
@@ -16879,6 +17143,30 @@
         "locationStart": 2344,
         "locationEnd": 2356,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_33",
+        "surfaceForm": "Aloude Staat",
+        "category": "PER",
+        "locationStart": 2344,
+        "locationEnd": 2356,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_35",
+        "surfaceForm": "Aloude Staat en Geschiedenis",
+        "category": "PER",
+        "locationStart": 2344,
+        "locationEnd": 2372,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_34",
+        "surfaceForm": "Staat en Geschiedenis",
+        "category": "PER",
+        "locationStart": 2351,
+        "locationEnd": 2372,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_18",
@@ -16955,6 +17243,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_36",
+        "surfaceForm": "R. J.",
+        "category": "PER",
+        "locationStart": 2432,
+        "locationEnd": 2437,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_37",
+        "surfaceForm": "R. J. Sehierbeek",
+        "category": "PER",
+        "locationStart": 2432,
+        "locationEnd": 2448,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_19",
         "category": "PER",
         "surfaceForm": "J. Sehierbeek",
@@ -16969,6 +17273,14 @@
         "locationStart": 2435,
         "locationEnd": 2448,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_38",
+        "surfaceForm": "J. Sehierbeek",
+        "category": "PER",
+        "locationStart": 2435,
+        "locationEnd": 2448,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_18",
@@ -16997,6 +17309,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_39",
+        "surfaceForm": "E. M.",
+        "category": "PER",
+        "locationStart": 2506,
+        "locationEnd": 2511,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_40",
+        "surfaceForm": "E. M. Engelberts",
+        "category": "PER",
+        "locationStart": 2506,
+        "locationEnd": 2522,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_20",
         "category": "PER",
         "surfaceForm": "M. Engelberts",
@@ -17011,6 +17339,14 @@
         "locationStart": 2509,
         "locationEnd": 2522,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_41",
+        "surfaceForm": "M. Engelberts",
+        "category": "PER",
+        "locationStart": 2509,
+        "locationEnd": 2522,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_19",
@@ -17097,6 +17433,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_42",
+        "surfaceForm": "Het Koninklijk",
+        "category": "PER",
+        "locationStart": 2875,
+        "locationEnd": 2889,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_43",
+        "surfaceForm": "Het Koninklijk Nederlandsch",
+        "category": "PER",
+        "locationStart": 2875,
+        "locationEnd": 2902,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_45",
+        "surfaceForm": "Het Koninklijk Nederlandsch Instituut",
+        "category": "PER",
+        "locationStart": 2875,
+        "locationEnd": 2912,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_21",
         "surfaceForm": "Koninklijk Nederlandsch Instituut",
         "category": "ORG",
@@ -17121,6 +17481,30 @@
         "locationStart": 2879,
         "locationEnd": 2912,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_44",
+        "surfaceForm": "Koninklijk Nederlandsch",
+        "category": "PER",
+        "locationStart": 2879,
+        "locationEnd": 2902,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_46",
+        "surfaceForm": "Koninklijk Nederlandsch Instituut",
+        "category": "PER",
+        "locationStart": 2879,
+        "locationEnd": 2912,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_47",
+        "surfaceForm": "Nederlandsch Instituut",
+        "category": "PER",
+        "locationStart": 2890,
+        "locationEnd": 2912,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_22",
@@ -17241,6 +17625,14 @@
         "locationStart": 3630,
         "locationEnd": 3641,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_48",
+        "surfaceForm": "Germaansche afkomst der Celten",
+        "category": "PER",
+        "locationStart": 3630,
+        "locationEnd": 3660,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_26",
@@ -17373,12 +17765,60 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_49",
+        "surfaceForm": "Matheseos Magister",
+        "category": "PER",
+        "locationStart": 4157,
+        "locationEnd": 4175,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_51",
+        "surfaceForm": "Matheseos Magister et Philosophiae",
+        "category": "PER",
+        "locationStart": 4157,
+        "locationEnd": 4191,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_50",
+        "surfaceForm": "Magister et Philosophiae",
+        "category": "PER",
+        "locationStart": 4167,
+        "locationEnd": 4191,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_27",
         "category": "MISC",
         "surfaceForm": "Philosophiae naturalis Doctor",
         "locationStart": 4179,
         "locationEnd": 4208,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_52",
+        "surfaceForm": "Philosophiae naturalis Doctor",
+        "category": "PER",
+        "locationStart": 4179,
+        "locationEnd": 4208,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_53",
+        "surfaceForm": "Doctor bij de Groninger",
+        "category": "PER",
+        "locationStart": 4202,
+        "locationEnd": 4225,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_54",
+        "surfaceForm": "Doctor bij de Groninger Hoogeschool",
+        "category": "PER",
+        "locationStart": 4202,
+        "locationEnd": 4237,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_31",
@@ -17405,6 +17845,14 @@
         "locationStart": 4216,
         "locationEnd": 4237,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_55",
+        "surfaceForm": "Groninger Hoogeschool",
+        "category": "PER",
+        "locationStart": 4216,
+        "locationEnd": 4237,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_23",
@@ -17441,6 +17889,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_56",
+        "surfaceForm": "Akademie van Wetenschappen",
+        "category": "PER",
+        "locationStart": 4323,
+        "locationEnd": 4349,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_33",
         "surfaceForm": "Bakhuizen van den Brink",
         "category": "PER",
@@ -17475,6 +17931,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_57",
+        "surfaceForm": "Bakhuizen van den Brink",
+        "category": "PER",
+        "locationStart": 4444,
+        "locationEnd": 4467,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_34",
         "surfaceForm": "Acker Stratingh",
         "category": "PER",
@@ -17507,6 +17971,14 @@
         "locationStart": 4507,
         "locationEnd": 4522,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_58",
+        "surfaceForm": "Acker Stratingh",
+        "category": "PER",
+        "locationStart": 4507,
+        "locationEnd": 4522,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_35",
@@ -17551,6 +18023,14 @@
         "locationStart": 4606,
         "locationEnd": 4611,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_59",
+        "surfaceForm": "Z. M.",
+        "category": "PER",
+        "locationStart": 4606,
+        "locationEnd": 4611,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_30",
@@ -17647,12 +18127,52 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_60",
+        "surfaceForm": "S. Vissering",
+        "category": "PER",
+        "locationStart": 4690,
+        "locationEnd": 4702,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_62",
+        "surfaceForm": "S. Vissering en L.",
+        "category": "PER",
+        "locationStart": 4690,
+        "locationEnd": 4708,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_64",
+        "surfaceForm": "S. Vissering en L. A.",
+        "category": "PER",
+        "locationStart": 4690,
+        "locationEnd": 4711,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_31",
         "category": "PER",
         "surfaceForm": "Vissering",
         "locationStart": 4693,
         "locationEnd": 4702,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_61",
+        "surfaceForm": "Vissering en L.",
+        "category": "PER",
+        "locationStart": 4693,
+        "locationEnd": 4708,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_63",
+        "surfaceForm": "Vissering en L. A.",
+        "category": "PER",
+        "locationStart": 4693,
+        "locationEnd": 4711,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_40",
@@ -17689,12 +18209,36 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_65",
+        "surfaceForm": "L. A.",
+        "category": "PER",
+        "locationStart": 4706,
+        "locationEnd": 4711,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_67",
+        "surfaceForm": "L. A. te Winkel",
+        "category": "PER",
+        "locationStart": 4706,
+        "locationEnd": 4721,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_32",
         "category": "PER",
         "surfaceForm": "A.",
         "locationStart": 4709,
         "locationEnd": 4711,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_66",
+        "surfaceForm": "A. te Winkel",
+        "category": "PER",
+        "locationStart": 4709,
+        "locationEnd": 4721,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_41",
@@ -17723,6 +18267,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_68",
+        "surfaceForm": "Ver- -slagen en Mededeelingen",
+        "category": "PER",
+        "locationStart": 5268,
+        "locationEnd": 5297,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_35",
         "category": "MISC",
         "surfaceForm": "en",
@@ -17737,6 +18289,14 @@
         "locationStart": 5284,
         "locationEnd": 5297,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_69",
+        "surfaceForm": "Het opschrift is Marken",
+        "category": "PER",
+        "locationStart": 5322,
+        "locationEnd": 5345,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_42",
@@ -17771,6 +18331,14 @@
         "locationStart": 5339,
         "locationEnd": 5345,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_70",
+        "surfaceForm": "Marken in Friesland",
+        "category": "PER",
+        "locationStart": 5339,
+        "locationEnd": 5358,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_43",

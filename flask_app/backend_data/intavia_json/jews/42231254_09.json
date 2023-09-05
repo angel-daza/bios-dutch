@@ -6997,12 +6997,36 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Hartog H.",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 9,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Hartog H. de Lemon",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 18,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_0",
         "category": "PER",
         "surfaceForm": "h de lemon",
         "locationStart": 7,
         "locationEnd": 18,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "H. de Lemon",
+        "category": "PER",
+        "locationStart": 7,
+        "locationEnd": 18,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_1",
@@ -7097,6 +7121,22 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Hij was met H.",
+        "category": "PER",
+        "locationStart": 212,
+        "locationEnd": 226,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Hij was met H. Bromet",
+        "category": "PER",
+        "locationStart": 212,
+        "locationEnd": 233,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_7",
         "category": "LOCATION",
         "surfaceForm": "Amsterdam",
@@ -7139,6 +7179,14 @@
         "locationStart": 224,
         "locationEnd": 233,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "H. Bromet",
+        "category": "PER",
+        "locationStart": 224,
+        "locationEnd": 233,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_4",
@@ -7269,12 +7317,44 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Hartog H.",
+        "category": "PER",
+        "locationStart": 349,
+        "locationEnd": 358,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Hartog H. de Lemon",
+        "category": "PER",
+        "locationStart": 349,
+        "locationEnd": 367,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_5",
         "category": "PER",
         "surfaceForm": "h . de lemon",
         "locationStart": 356,
         "locationEnd": 367,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "H. de Lemon",
+        "category": "PER",
+        "locationStart": 356,
+        "locationEnd": 367,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Lemon in Amsterdam",
+        "category": "PER",
+        "locationStart": 362,
+        "locationEnd": 380,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_4",
@@ -7407,6 +7487,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Hoogduitse Gemeente",
+        "category": "PER",
+        "locationStart": 504,
+        "locationEnd": 523,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "Hoogduitse Gemeente in Amsterdam",
+        "category": "PER",
+        "locationStart": 504,
+        "locationEnd": 536,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "Gemeente in Amsterdam",
+        "category": "PER",
+        "locationStart": 515,
+        "locationEnd": 536,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_6",
         "surfaceForm": "Amsterdam",
         "category": "LOC",
@@ -7511,6 +7615,78 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "Mozes Salomon",
+        "category": "PER",
+        "locationStart": 621,
+        "locationEnd": 634,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "Mozes Salomon Asser",
+        "category": "PER",
+        "locationStart": 621,
+        "locationEnd": 640,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_18",
+        "surfaceForm": "Mozes Salomon Asser en Hartog",
+        "category": "PER",
+        "locationStart": 621,
+        "locationEnd": 650,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_21",
+        "surfaceForm": "Mozes Salomon Asser en Hartog Bromet",
+        "category": "PER",
+        "locationStart": 621,
+        "locationEnd": 657,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_15",
+        "surfaceForm": "Salomon Asser",
+        "category": "PER",
+        "locationStart": 627,
+        "locationEnd": 640,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_17",
+        "surfaceForm": "Salomon Asser en Hartog",
+        "category": "PER",
+        "locationStart": 627,
+        "locationEnd": 650,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_20",
+        "surfaceForm": "Salomon Asser en Hartog Bromet",
+        "category": "PER",
+        "locationStart": 627,
+        "locationEnd": 657,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_16",
+        "surfaceForm": "Asser en Hartog",
+        "category": "PER",
+        "locationStart": 635,
+        "locationEnd": 650,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_19",
+        "surfaceForm": "Asser en Hartog Bromet",
+        "category": "PER",
+        "locationStart": 635,
+        "locationEnd": 657,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_18",
         "category": "MISC",
         "surfaceForm": "Heilige Leer",
@@ -7563,6 +7739,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_22",
+        "surfaceForm": "Hartog Bromet",
+        "category": "PER",
+        "locationStart": 644,
+        "locationEnd": 657,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_19",
         "category": "PERSON",
         "surfaceForm": "armendokter",
@@ -7613,6 +7797,14 @@
         "locationStart": 716,
         "locationEnd": 731,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_23",
+        "surfaceForm": "Felix Libertate",
+        "category": "PER",
+        "locationStart": 716,
+        "locationEnd": 731,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_21",
@@ -7681,6 +7873,22 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "spacy_matcher_nl_24",
+        "surfaceForm": "Zo was De",
+        "category": "PER",
+        "locationStart": 849,
+        "locationEnd": 858,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_25",
+        "surfaceForm": "Zo was De Lemons",
+        "category": "PER",
+        "locationStart": 849,
+        "locationEnd": 865,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_10",
         "surfaceForm": "De Lemons",
         "category": "PER",
@@ -7705,6 +7913,14 @@
         "locationStart": 856,
         "locationEnd": 865,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_26",
+        "surfaceForm": "De Lemons",
+        "category": "PER",
+        "locationStart": 856,
+        "locationEnd": 865,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_11",
@@ -7749,6 +7965,30 @@
         "locationStart": 881,
         "locationEnd": 905,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_27",
+        "surfaceForm": "Marianne Hartog",
+        "category": "PER",
+        "locationStart": 881,
+        "locationEnd": 896,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_29",
+        "surfaceForm": "Marianne Hartog de Lemon",
+        "category": "PER",
+        "locationStart": 881,
+        "locationEnd": 905,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_28",
+        "surfaceForm": "Hartog de Lemon",
+        "category": "PER",
+        "locationStart": 890,
+        "locationEnd": 905,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_27",
@@ -7829,6 +8069,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_30",
+        "surfaceForm": "Juda Littwak",
+        "category": "PER",
+        "locationStart": 928,
+        "locationEnd": 940,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_29",
         "category": "LOCATION",
         "surfaceForm": "Amsterdam",
@@ -7871,6 +8119,14 @@
         "locationStart": 967,
         "locationEnd": 982,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_31",
+        "surfaceForm": "Felix Libertate",
+        "category": "PER",
+        "locationStart": 967,
+        "locationEnd": 982,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_30",
@@ -8013,6 +8269,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_32",
+        "surfaceForm": "Comite van Waakzaamheid",
+        "category": "PER",
+        "locationStart": 1064,
+        "locationEnd": 1087,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_33",
         "category": "PERSON",
         "surfaceForm": "Napoleon",
@@ -8055,6 +8319,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_33",
+        "surfaceForm": "Rechten van den Mensch",
+        "category": "PER",
+        "locationStart": 1134,
+        "locationEnd": 1156,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_18",
         "surfaceForm": "Heilige Leer",
         "category": "PER",
@@ -8081,6 +8353,14 @@
         "locationStart": 1270,
         "locationEnd": 1282,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_34",
+        "surfaceForm": "Heilige Leer",
+        "category": "PER",
+        "locationStart": 1270,
+        "locationEnd": 1282,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_19",
@@ -8117,6 +8397,14 @@
         "locationStart": 1316,
         "locationEnd": 1324,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_35",
+        "surfaceForm": "De Lemon",
+        "category": "PER",
+        "locationStart": 1316,
+        "locationEnd": 1324,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_5",
@@ -8171,6 +8459,30 @@
         "locationStart": 1370,
         "locationEnd": 1378,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_36",
+        "surfaceForm": "De Lemon",
+        "category": "PER",
+        "locationStart": 1370,
+        "locationEnd": 1378,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_38",
+        "surfaceForm": "De Lemon samen met Bromet",
+        "category": "PER",
+        "locationStart": 1370,
+        "locationEnd": 1395,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_37",
+        "surfaceForm": "Lemon samen met Bromet",
+        "category": "PER",
+        "locationStart": 1373,
+        "locationEnd": 1395,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_21",
@@ -8253,6 +8565,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_39",
+        "surfaceForm": "Nationale Vergadering",
+        "category": "PER",
+        "locationStart": 1421,
+        "locationEnd": 1442,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_23",
         "surfaceForm": "Europa",
         "category": "LOC",
@@ -8321,6 +8641,14 @@
         "locationStart": 1519,
         "locationEnd": 1521,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_40",
+        "surfaceForm": "De Lemon",
+        "category": "PER",
+        "locationStart": 1519,
+        "locationEnd": 1527,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_24",
@@ -8395,6 +8723,78 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_41",
+        "surfaceForm": "Hoogduitse Gemeente",
+        "category": "PER",
+        "locationStart": 1589,
+        "locationEnd": 1608,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_43",
+        "surfaceForm": "Hoogduitse Gemeente en de Nieuwe",
+        "category": "PER",
+        "locationStart": 1589,
+        "locationEnd": 1621,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_45",
+        "surfaceForm": "Hoogduitse Gemeente en de Nieuwe Gemeente",
+        "category": "PER",
+        "locationStart": 1589,
+        "locationEnd": 1630,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_48",
+        "surfaceForm": "Hoogduitse Gemeente en de Nieuwe Gemeente Adath",
+        "category": "PER",
+        "locationStart": 1589,
+        "locationEnd": 1636,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_52",
+        "surfaceForm": "Hoogduitse Gemeente en de Nieuwe Gemeente Adath Jessurun",
+        "category": "PER",
+        "locationStart": 1589,
+        "locationEnd": 1645,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_42",
+        "surfaceForm": "Gemeente en de Nieuwe",
+        "category": "PER",
+        "locationStart": 1600,
+        "locationEnd": 1621,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_44",
+        "surfaceForm": "Gemeente en de Nieuwe Gemeente",
+        "category": "PER",
+        "locationStart": 1600,
+        "locationEnd": 1630,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_47",
+        "surfaceForm": "Gemeente en de Nieuwe Gemeente Adath",
+        "category": "PER",
+        "locationStart": 1600,
+        "locationEnd": 1636,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_51",
+        "surfaceForm": "Gemeente en de Nieuwe Gemeente Adath Jessurun",
+        "category": "PER",
+        "locationStart": 1600,
+        "locationEnd": 1645,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_26",
         "surfaceForm": "Nieuwe Gemeente Adath Jessurun",
         "category": "LOC",
@@ -8431,12 +8831,60 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_46",
+        "surfaceForm": "Nieuwe Gemeente",
+        "category": "PER",
+        "locationStart": 1615,
+        "locationEnd": 1630,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_49",
+        "surfaceForm": "Nieuwe Gemeente Adath",
+        "category": "PER",
+        "locationStart": 1615,
+        "locationEnd": 1636,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_53",
+        "surfaceForm": "Nieuwe Gemeente Adath Jessurun",
+        "category": "PER",
+        "locationStart": 1615,
+        "locationEnd": 1645,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_50",
+        "surfaceForm": "Gemeente Adath",
+        "category": "PER",
+        "locationStart": 1622,
+        "locationEnd": 1636,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_54",
+        "surfaceForm": "Gemeente Adath Jessurun",
+        "category": "PER",
+        "locationStart": 1622,
+        "locationEnd": 1645,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_17",
         "category": "PER",
         "surfaceForm": "adath jessurun",
         "locationStart": 1631,
         "locationEnd": 1645,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_55",
+        "surfaceForm": "Adath Jessurun",
+        "category": "PER",
+        "locationStart": 1631,
+        "locationEnd": 1645,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_14",
@@ -8485,6 +8933,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_56",
+        "surfaceForm": "Nieuwe Gemeente",
+        "category": "PER",
+        "locationStart": 1676,
+        "locationEnd": 1691,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_28",
         "surfaceForm": "Lodewijk Napoleon",
         "category": "PER",
@@ -8529,6 +8985,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_57",
+        "surfaceForm": "Lodewijk Napoleon",
+        "category": "PER",
+        "locationStart": 1705,
+        "locationEnd": 1722,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_29",
         "surfaceForm": "Oude Gemeente",
         "category": "LOC",
@@ -8563,6 +9027,14 @@
         "locationStart": 1749,
         "locationEnd": 1762,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_58",
+        "surfaceForm": "Oude Gemeente",
+        "category": "PER",
+        "locationStart": 1749,
+        "locationEnd": 1762,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_18",
@@ -8625,6 +9097,14 @@
         "locationStart": 1808,
         "locationEnd": 1816,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_59",
+        "surfaceForm": "De Lemon",
+        "category": "PER",
+        "locationStart": 1808,
+        "locationEnd": 1816,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_31",
@@ -8797,6 +9277,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_60",
+        "surfaceForm": "Amsterdam in Februai",
+        "category": "PER",
+        "locationStart": 2094,
+        "locationEnd": 2114,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_35",
         "surfaceForm": "Februai 1813",
         "category": "MISC",
@@ -8859,6 +9347,14 @@
         "locationStart": 2167,
         "locationEnd": 2175,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_61",
+        "surfaceForm": "De Lemon",
+        "category": "PER",
+        "locationStart": 2167,
+        "locationEnd": 2175,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_27",

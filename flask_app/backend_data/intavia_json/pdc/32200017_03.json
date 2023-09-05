@@ -1660,12 +1660,52 @@
         "method": "stanza_nl"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Katholiek Tweede",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 16,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Katholiek Tweede en Eerste",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 26,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Katholiek Tweede en Eerste Kamerlid",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 35,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_0",
         "category": "MISC",
         "surfaceForm": "Tweede",
         "locationStart": 10,
         "locationEnd": 16,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Tweede en Eerste",
+        "category": "PER",
+        "locationStart": 10,
+        "locationEnd": 26,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Tweede en Eerste Kamerlid",
+        "category": "PER",
+        "locationStart": 10,
+        "locationEnd": 35,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_1",
@@ -1684,6 +1724,14 @@
         "locationStart": 20,
         "locationEnd": 35,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Eerste Kamerlid",
+        "category": "PER",
+        "locationStart": 20,
+        "locationEnd": 35,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_1",
@@ -1728,6 +1776,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Doetinchem tot Tweede",
+        "category": "PER",
+        "locationStart": 98,
+        "locationEnd": 119,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Doetinchem tot Tweede Kamerlid",
+        "category": "PER",
+        "locationStart": 98,
+        "locationEnd": 128,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_3",
         "surfaceForm": "Tweede Kamerlid",
         "category": "ORG",
@@ -1744,6 +1808,14 @@
         "locationStart": 113,
         "locationEnd": 128,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Tweede Kamerlid",
+        "category": "PER",
+        "locationStart": 113,
+        "locationEnd": 128,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_3",
@@ -1778,6 +1850,14 @@
         "locationStart": 281,
         "locationEnd": 289,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Den Haag",
+        "category": "PER",
+        "locationStart": 281,
+        "locationEnd": 289,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_4",

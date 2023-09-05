@@ -1006,6 +1006,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Tweede Kamerlid",
+        "category": "PER",
+        "locationStart": 22,
+        "locationEnd": 37,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Zoon van een Commissaris",
+        "category": "PER",
+        "locationStart": 39,
+        "locationEnd": 63,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_1",
         "surfaceForm": "Commissaris des Konings",
         "category": "ORG",
@@ -1024,6 +1040,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Commissaris des Konings",
+        "category": "PER",
+        "locationStart": 52,
+        "locationEnd": 75,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_2",
         "surfaceForm": "Eerste Kamervoorzitter",
         "category": "ORG",
@@ -1040,6 +1064,14 @@
         "locationStart": 91,
         "locationEnd": 113,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Eerste Kamervoorzitter",
+        "category": "PER",
+        "locationStart": 91,
+        "locationEnd": 113,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_3",
@@ -1068,6 +1100,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Raad van State",
+        "category": "PER",
+        "locationStart": 135,
+        "locationEnd": 149,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_4",
         "surfaceForm": "Den Haag",
         "category": "ORG",
@@ -1092,6 +1132,14 @@
         "locationStart": 184,
         "locationEnd": 192,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Den Haag",
+        "category": "PER",
+        "locationStart": 184,
+        "locationEnd": 192,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_2",
@@ -1126,6 +1174,14 @@
         "locationStart": 209,
         "locationEnd": 227,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Buitenlandse Zaken",
+        "category": "PER",
+        "locationStart": 209,
+        "locationEnd": 227,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_6",

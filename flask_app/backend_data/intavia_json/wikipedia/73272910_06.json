@@ -3171,6 +3171,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Elisabeth Geertruida",
+        "category": "PER",
+        "locationStart": 38,
+        "locationEnd": 58,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Elisabeth Geertruida Wassenbergh",
+        "category": "PER",
+        "locationStart": 38,
+        "locationEnd": 70,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Geertruida Wassenbergh",
+        "category": "PER",
+        "locationStart": 48,
+        "locationEnd": 70,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_0",
         "category": "PERSON",
         "surfaceForm": "Elisabeth Geertruida Wassenbergh",
@@ -3405,12 +3429,60 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Rijksbureau voor Kunsthistorische",
+        "category": "PER",
+        "locationStart": 160,
+        "locationEnd": 193,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Rijksbureau voor Kunsthistorische Documentatie",
+        "category": "PER",
+        "locationStart": 160,
+        "locationEnd": 206,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Rijksbureau voor Kunsthistorische Documentatie Wassenbergh",
+        "category": "PER",
+        "locationStart": 160,
+        "locationEnd": 218,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Kunsthistorische Documentatie",
+        "category": "PER",
+        "locationStart": 177,
+        "locationEnd": 206,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Kunsthistorische Documentatie Wassenbergh",
+        "category": "PER",
+        "locationStart": 177,
+        "locationEnd": 218,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_7",
         "category": "PERSON",
         "surfaceForm": "Jan Abel Wassenbergh",
         "locationStart": 186,
         "locationEnd": 205,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Documentatie Wassenbergh",
+        "category": "PER",
+        "locationStart": 194,
+        "locationEnd": 218,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_3",
@@ -3499,6 +3571,54 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Jan Abel",
+        "category": "PER",
+        "locationStart": 246,
+        "locationEnd": 254,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Jan Abel Wassenbergh",
+        "category": "PER",
+        "locationStart": 246,
+        "locationEnd": 266,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "Jan Abel Wassenbergh en Johanna",
+        "category": "PER",
+        "locationStart": 246,
+        "locationEnd": 277,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "Abel Wassenbergh",
+        "category": "PER",
+        "locationStart": 250,
+        "locationEnd": 266,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "Abel Wassenbergh en Johanna",
+        "category": "PER",
+        "locationStart": 250,
+        "locationEnd": 277,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "Wassenbergh en Johanna",
+        "category": "PER",
+        "locationStart": 255,
+        "locationEnd": 277,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_10",
         "category": "PERSON",
         "surfaceForm": "Elisbeth Geertruida Wassenbergh",
@@ -3551,6 +3671,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_15",
+        "surfaceForm": "Johanna van Oijen",
+        "category": "PER",
+        "locationStart": 270,
+        "locationEnd": 287,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_11",
         "category": "PERSON",
         "surfaceForm": "Jan Tiddo Fockens",
@@ -3579,12 +3707,36 @@
         "method": "human_gold"
       },
       {
+        "ID": "spacy_matcher_nl_16",
+        "surfaceForm": "Digitaal Vrouwenlexicon",
+        "category": "PER",
+        "locationStart": 330,
+        "locationEnd": 353,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_18",
+        "surfaceForm": "Digitaal Vrouwenlexicon van Nederland",
+        "category": "PER",
+        "locationStart": 330,
+        "locationEnd": 367,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_12",
         "category": "DATE",
         "surfaceForm": "2006 - 2007",
         "locationStart": 335,
         "locationEnd": 345,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_17",
+        "surfaceForm": "Vrouwenlexicon van Nederland",
+        "category": "PER",
+        "locationStart": 339,
+        "locationEnd": 367,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_13",
@@ -3661,6 +3813,54 @@
         "locationStart": 370,
         "locationEnd": 401,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_19",
+        "surfaceForm": "Elisbeth Geertruida",
+        "category": "PER",
+        "locationStart": 370,
+        "locationEnd": 389,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_20",
+        "surfaceForm": "Elisbeth Geertruida Wassenbergh",
+        "category": "PER",
+        "locationStart": 370,
+        "locationEnd": 401,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_22",
+        "surfaceForm": "Elisbeth Geertruida Wassenbergh Ze",
+        "category": "PER",
+        "locationStart": 370,
+        "locationEnd": 404,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_21",
+        "surfaceForm": "Geertruida Wassenbergh",
+        "category": "PER",
+        "locationStart": 379,
+        "locationEnd": 401,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_23",
+        "surfaceForm": "Geertruida Wassenbergh Ze",
+        "category": "PER",
+        "locationStart": 379,
+        "locationEnd": 404,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_24",
+        "surfaceForm": "Wassenbergh Ze",
+        "category": "PER",
+        "locationStart": 390,
+        "locationEnd": 404,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_15",
@@ -3755,6 +3955,30 @@
         "locationStart": 511,
         "locationEnd": 528,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_25",
+        "surfaceForm": "Jan Tiddo",
+        "category": "PER",
+        "locationStart": 511,
+        "locationEnd": 520,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_26",
+        "surfaceForm": "Jan Tiddo Fockens",
+        "category": "PER",
+        "locationStart": 511,
+        "locationEnd": 528,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_27",
+        "surfaceForm": "Tiddo Fockens",
+        "category": "PER",
+        "locationStart": 515,
+        "locationEnd": 528,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_19",
@@ -3887,6 +4111,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_28",
+        "surfaceForm": "Groninger Museum",
+        "category": "PER",
+        "locationStart": 625,
+        "locationEnd": 641,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_15",
         "surfaceForm": "De zilveren eeuw in Groningen",
         "category": "ARTWORK",
@@ -3985,12 +4217,52 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_29",
+        "surfaceForm": "Groningen Literatuur",
+        "category": "PER",
+        "locationStart": 716,
+        "locationEnd": 736,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_30",
+        "surfaceForm": "Groningen Literatuur Bruyn",
+        "category": "PER",
+        "locationStart": 716,
+        "locationEnd": 742,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_32",
+        "surfaceForm": "Groningen Literatuur Bruyn Kops",
+        "category": "PER",
+        "locationStart": 716,
+        "locationEnd": 747,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_4",
         "category": "MISC",
         "surfaceForm": "Literatuur",
         "locationStart": 726,
         "locationEnd": 736,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_31",
+        "surfaceForm": "Literatuur Bruyn",
+        "category": "PER",
+        "locationStart": 726,
+        "locationEnd": 742,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_33",
+        "surfaceForm": "Literatuur Bruyn Kops",
+        "category": "PER",
+        "locationStart": 726,
+        "locationEnd": 747,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "xlmr_ner_7",
@@ -4027,6 +4299,14 @@
         "locationStart": 737,
         "locationEnd": 747,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_34",
+        "surfaceForm": "Bruyn Kops",
+        "category": "PER",
+        "locationStart": 737,
+        "locationEnd": 747,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "xlmr_ner_7",
@@ -4101,6 +4381,30 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_35",
+        "surfaceForm": "Elisabeth Geertruida",
+        "category": "PER",
+        "locationStart": 765,
+        "locationEnd": 785,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_36",
+        "surfaceForm": "Elisabeth Geertruida Wassenbergh",
+        "category": "PER",
+        "locationStart": 765,
+        "locationEnd": 797,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_37",
+        "surfaceForm": "Geertruida Wassenbergh",
+        "category": "PER",
+        "locationStart": 775,
+        "locationEnd": 797,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_7",
         "category": "TIME",
         "surfaceForm": "18de",
@@ -4161,6 +4465,30 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_38",
+        "surfaceForm": "Nederlands Kunsthistorisch",
+        "category": "PER",
+        "locationStart": 867,
+        "locationEnd": 893,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_39",
+        "surfaceForm": "Nederlands Kunsthistorisch Jaarboek",
+        "category": "PER",
+        "locationStart": 867,
+        "locationEnd": 902,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_40",
+        "surfaceForm": "Kunsthistorisch Jaarboek",
+        "category": "PER",
+        "locationStart": 878,
+        "locationEnd": 902,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "xlmr_ner_7",
         "category": "PER",
         "surfaceForm": "Roekel",
@@ -4211,6 +4539,14 @@
         "locationStart": 921,
         "locationEnd": 927,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_41",
+        "surfaceForm": "De schildersfamilie Wassenbergh",
+        "category": "PER",
+        "locationStart": 935,
+        "locationEnd": 966,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_8",

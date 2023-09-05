@@ -1830,6 +1830,38 @@
     },
     "entities": [
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "De Belg",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 7,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "De Belg Paul-",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 13,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "De Belg Paul- Henri",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 19,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "De Belg Paul- Henri Spaak",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 25,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_0",
         "surfaceForm": "Belg Paul-",
         "category": "MISC",
@@ -1854,6 +1886,30 @@
         "locationStart": 3,
         "locationEnd": 17,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Belg Paul-",
+        "category": "PER",
+        "locationStart": 3,
+        "locationEnd": 13,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Belg Paul- Henri",
+        "category": "PER",
+        "locationStart": 3,
+        "locationEnd": 19,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Belg Paul- Henri Spaak",
+        "category": "PER",
+        "locationStart": 3,
+        "locationEnd": 25,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_14",
@@ -1890,6 +1946,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Paul- Henri",
+        "category": "PER",
+        "locationStart": 8,
+        "locationEnd": 19,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Paul- Henri Spaak",
+        "category": "PER",
+        "locationStart": 8,
+        "locationEnd": 25,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_1",
         "surfaceForm": "Henri Spaak",
         "category": "PER",
@@ -1906,6 +1978,14 @@
         "locationStart": 14,
         "locationEnd": 25,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Henri Spaak",
+        "category": "PER",
+        "locationStart": 14,
+        "locationEnd": 25,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_6",
@@ -2002,6 +2082,14 @@
         "locationStart": 123,
         "locationEnd": 142,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Tweede Wereldoorlog",
+        "category": "PER",
+        "locationStart": 123,
+        "locationEnd": 142,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_4",
@@ -2136,6 +2224,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "Raad van Europa",
+        "category": "PER",
+        "locationStart": 248,
+        "locationEnd": 263,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_1",
         "category": "LOC",
         "surfaceForm": "europa",
@@ -2214,6 +2310,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "Europese Commissie",
+        "category": "PER",
+        "locationStart": 304,
+        "locationEnd": 322,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "Europese Commissie voor Kolen",
+        "category": "PER",
+        "locationStart": 304,
+        "locationEnd": 333,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "Commissie voor Kolen",
+        "category": "PER",
+        "locationStart": 313,
+        "locationEnd": 333,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_7",
         "surfaceForm": "Kolen en Staal",
         "category": "ORG",
@@ -2222,6 +2342,14 @@
         "tokenStart": 59,
         "tokenEnd": 62,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_15",
+        "surfaceForm": "Kolen en Staal",
+        "category": "PER",
+        "locationStart": 328,
+        "locationEnd": 342,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_7",
@@ -2292,6 +2420,14 @@
         "locationStart": 423,
         "locationEnd": 439,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_16",
+        "surfaceForm": "Verenigde Naties",
+        "category": "PER",
+        "locationStart": 423,
+        "locationEnd": 439,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_10",
@@ -2416,6 +2552,30 @@
         "locationStart": 553,
         "locationEnd": 582,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_17",
+        "surfaceForm": "Buitenlandse Zaken",
+        "category": "PER",
+        "locationStart": 553,
+        "locationEnd": 571,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_19",
+        "surfaceForm": "Buitenlandse Zaken van Belgie",
+        "category": "PER",
+        "locationStart": 553,
+        "locationEnd": 582,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_18",
+        "surfaceForm": "Zaken van Belgie",
+        "category": "PER",
+        "locationStart": 566,
+        "locationEnd": 582,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_11",

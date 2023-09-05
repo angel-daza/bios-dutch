@@ -705,12 +705,36 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Engelandvaarder Categorie",
+        "category": "PER",
+        "locationStart": 37,
+        "locationEnd": 62,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_0",
         "category": "ORG",
         "surfaceForm": "Groep Goedhart",
         "locationStart": 64,
         "locationEnd": 78,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Groep Goedhart",
+        "category": "PER",
+        "locationStart": 64,
+        "locationEnd": 78,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Groep Goedhart Categorie",
+        "category": "PER",
+        "locationStart": 64,
+        "locationEnd": 88,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_0",
@@ -731,6 +755,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Goedhart Categorie",
+        "category": "PER",
+        "locationStart": 70,
+        "locationEnd": 88,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_1",
         "surfaceForm": "Tweede Wereldoorlog",
         "category": "MISC",
@@ -749,6 +781,30 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Tweede Wereldoorlog",
+        "category": "PER",
+        "locationStart": 110,
+        "locationEnd": 129,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Tweede Wereldoorlog Categorie",
+        "category": "PER",
+        "locationStart": 110,
+        "locationEnd": 139,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Wereldoorlog Categorie",
+        "category": "PER",
+        "locationStart": 117,
+        "locationEnd": 139,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_2",
         "surfaceForm": "Nederlands",
         "category": "MISC",
@@ -765,6 +821,14 @@
         "locationStart": 141,
         "locationEnd": 151,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Nederlands journalist Categorie",
+        "category": "PER",
+        "locationStart": 141,
+        "locationEnd": 172,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_3",
@@ -803,6 +867,30 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Tweede Wereldoorlog",
+        "category": "PER",
+        "locationStart": 207,
+        "locationEnd": 226,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Tweede Wereldoorlog Categorie",
+        "category": "PER",
+        "locationStart": 207,
+        "locationEnd": 236,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Wereldoorlog Categorie",
+        "category": "PER",
+        "locationStart": 214,
+        "locationEnd": 236,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_0",
         "category": "MISC",
         "surfaceForm": "PvdA-politicus",
@@ -817,6 +905,14 @@
         "locationStart": 264,
         "locationEnd": 279,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "Tweede Kamerlid",
+        "category": "PER",
+        "locationStart": 264,
+        "locationEnd": 279,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_5",

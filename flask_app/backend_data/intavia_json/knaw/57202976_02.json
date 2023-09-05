@@ -5255,6 +5255,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Taco Hajo",
+        "category": "PER",
+        "locationStart": 69,
+        "locationEnd": 78,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Taco Hajo van den Honert",
+        "category": "PER",
+        "locationStart": 69,
+        "locationEnd": 93,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Hajo van den Honert",
+        "category": "PER",
+        "locationStart": 74,
+        "locationEnd": 93,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_0",
         "surfaceForm": "3 juni 1899",
         "category": "TIME",
@@ -5403,6 +5427,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Utrechtse Universiteit",
+        "category": "PER",
+        "locationStart": 234,
+        "locationEnd": 256,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "xlmr_ner_0",
         "category": "ORG",
         "surfaceForm": "Universiteit",
@@ -5471,6 +5503,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "H. F.",
+        "category": "PER",
+        "locationStart": 410,
+        "locationEnd": 415,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "H. F. Nierstrasz",
+        "category": "PER",
+        "locationStart": 410,
+        "locationEnd": 426,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_3",
         "category": "PER",
         "surfaceForm": "F. Nierstrasz",
@@ -5485,6 +5533,14 @@
         "locationStart": 413,
         "locationEnd": 443,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "F. Nierstrasz",
+        "category": "PER",
+        "locationStart": 413,
+        "locationEnd": 426,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_5",
@@ -5523,12 +5579,36 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "H. J.",
+        "category": "PER",
+        "locationStart": 438,
+        "locationEnd": 443,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "H. J. Jordan",
+        "category": "PER",
+        "locationStart": 438,
+        "locationEnd": 450,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_4",
         "category": "PER",
         "surfaceForm": "J. Jordan",
         "locationStart": 441,
         "locationEnd": 450,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "J. Jordan",
+        "category": "PER",
+        "locationStart": 441,
+        "locationEnd": 450,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_2",
@@ -5607,12 +5687,36 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "H. R.",
+        "category": "PER",
+        "locationStart": 653,
+        "locationEnd": 658,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "H. R. Kruyt",
+        "category": "PER",
+        "locationStart": 653,
+        "locationEnd": 664,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_7",
         "category": "PER",
         "surfaceForm": "R. Kruyt",
         "locationStart": 656,
         "locationEnd": 664,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "R. Kruyt",
+        "category": "PER",
+        "locationStart": 656,
+        "locationEnd": 664,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_4",
@@ -5667,12 +5771,92 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "F. A.",
+        "category": "PER",
+        "locationStart": 813,
+        "locationEnd": 818,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "F. A. F.",
+        "category": "PER",
+        "locationStart": 813,
+        "locationEnd": 821,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_16",
+        "surfaceForm": "F. A. F. C.",
+        "category": "PER",
+        "locationStart": 813,
+        "locationEnd": 824,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_19",
+        "surfaceForm": "F. A. F. C. Went",
+        "category": "PER",
+        "locationStart": 813,
+        "locationEnd": 829,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_8",
         "category": "PER",
         "surfaceForm": "A. F. C. Went",
         "locationStart": 816,
         "locationEnd": 829,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_15",
+        "surfaceForm": "A. F.",
+        "category": "PER",
+        "locationStart": 816,
+        "locationEnd": 821,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_17",
+        "surfaceForm": "A. F. C.",
+        "category": "PER",
+        "locationStart": 816,
+        "locationEnd": 824,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_20",
+        "surfaceForm": "A. F. C. Went",
+        "category": "PER",
+        "locationStart": 816,
+        "locationEnd": 829,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_18",
+        "surfaceForm": "F. C.",
+        "category": "PER",
+        "locationStart": 819,
+        "locationEnd": 824,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_21",
+        "surfaceForm": "F. C. Went",
+        "category": "PER",
+        "locationStart": 819,
+        "locationEnd": 829,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_22",
+        "surfaceForm": "C. Went",
+        "category": "PER",
+        "locationStart": 822,
+        "locationEnd": 829,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_15",
@@ -5739,6 +5923,14 @@
         "locationStart": 968,
         "locationEnd": 982,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_23",
+        "surfaceForm": "Van den Honert",
+        "category": "PER",
+        "locationStart": 968,
+        "locationEnd": 982,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_5",
@@ -5829,6 +6021,14 @@
         "locationStart": 1566,
         "locationEnd": 1580,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_24",
+        "surfaceForm": "Van den Honert",
+        "category": "PER",
+        "locationStart": 1566,
+        "locationEnd": 1580,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_4",

@@ -191,6 +191,22 @@
     },
     "entities": [
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Is een braaf Antwerps",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 21,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Is een braaf Antwerps Schilder",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 30,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_0",
         "surfaceForm": "Antwerps",
         "category": "MISC",
@@ -207,6 +223,14 @@
         "locationStart": 13,
         "locationEnd": 21,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Antwerps Schilder",
+        "category": "PER",
+        "locationStart": 13,
+        "locationEnd": 30,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_0",

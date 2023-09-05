@@ -2146,6 +2146,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "W.B. en D.",
+        "category": "PER",
+        "locationStart": 174,
+        "locationEnd": 184,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "W.B. en D. Donker",
+        "category": "PER",
+        "locationStart": 174,
+        "locationEnd": 191,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "W.B. en D. Donker Curtius",
+        "category": "PER",
+        "locationStart": 174,
+        "locationEnd": 199,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_5",
         "surfaceForm": "D. Donker Curtius",
         "category": "PER",
@@ -2180,12 +2204,36 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "D. Donker",
+        "category": "PER",
+        "locationStart": 182,
+        "locationEnd": 191,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "D. Donker Curtius",
+        "category": "PER",
+        "locationStart": 182,
+        "locationEnd": 199,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_3",
         "category": "PER",
         "surfaceForm": "Donker Curtius",
         "locationStart": 185,
         "locationEnd": 199,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Donker Curtius",
+        "category": "PER",
+        "locationStart": 185,
+        "locationEnd": 199,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_6",
@@ -2220,6 +2268,14 @@
         "locationStart": 231,
         "locationEnd": 242,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "W.D. Cramer",
+        "category": "PER",
+        "locationStart": 231,
+        "locationEnd": 242,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_2",
@@ -2262,6 +2318,14 @@
         "locationStart": 391,
         "locationEnd": 412,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Paleis van Volksvlijt",
+        "category": "PER",
+        "locationStart": 391,
+        "locationEnd": 412,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_5",

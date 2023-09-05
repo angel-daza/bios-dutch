@@ -31052,6 +31052,46 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Michael Faraday",
+        "category": "PER",
+        "locationStart": 7,
+        "locationEnd": 22,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Michael Faraday Michael",
+        "category": "PER",
+        "locationStart": 7,
+        "locationEnd": 30,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Michael Faraday Michael Faraday",
+        "category": "PER",
+        "locationStart": 7,
+        "locationEnd": 38,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Faraday Michael",
+        "category": "PER",
+        "locationStart": 15,
+        "locationEnd": 30,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Faraday Michael Faraday",
+        "category": "PER",
+        "locationStart": 15,
+        "locationEnd": 38,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_1",
         "surfaceForm": "Michael Faraday",
         "category": "PER",
@@ -31084,6 +31124,14 @@
         "locationStart": 23,
         "locationEnd": 38,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Michael Faraday",
+        "category": "PER",
+        "locationStart": 23,
+        "locationEnd": 38,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_1",
@@ -31180,12 +31228,36 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Newington Butts",
+        "category": "PER",
+        "locationStart": 46,
+        "locationEnd": 61,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Newington Butts bij Londen",
+        "category": "PER",
+        "locationStart": 46,
+        "locationEnd": 72,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_3",
         "category": "TIME",
         "surfaceForm": "22 september 1791",
         "locationStart": 50,
         "locationEnd": 67,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Butts bij Londen",
+        "category": "PER",
+        "locationStart": 56,
+        "locationEnd": 72,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_4",
@@ -31310,6 +31382,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Hampton Court",
+        "category": "PER",
+        "locationStart": 97,
+        "locationEnd": 110,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_7",
         "category": "LOCATION",
         "surfaceForm": "Brits",
@@ -31378,6 +31458,30 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "De natuurkundige Sir",
+        "category": "PER",
+        "locationStart": 187,
+        "locationEnd": 207,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "De natuurkundige Sir William",
+        "category": "PER",
+        "locationStart": 187,
+        "locationEnd": 215,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "De natuurkundige Sir William Bragg",
+        "category": "PER",
+        "locationStart": 187,
+        "locationEnd": 221,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_7",
         "surfaceForm": "Sir William Bragg",
         "category": "PER",
@@ -31406,6 +31510,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "Sir William",
+        "category": "PER",
+        "locationStart": 204,
+        "locationEnd": 215,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "Sir William Bragg",
+        "category": "PER",
+        "locationStart": 204,
+        "locationEnd": 221,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_11",
         "category": "ARTWORK",
         "surfaceForm": "electriciteit",
@@ -31428,6 +31548,14 @@
         "locationStart": 208,
         "locationEnd": 221,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_15",
+        "surfaceForm": "William Bragg",
+        "category": "PER",
+        "locationStart": 208,
+        "locationEnd": 221,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_12",
@@ -31672,6 +31800,14 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "spacy_matcher_nl_16",
+        "surfaceForm": "Biografie Faraday",
+        "category": "PER",
+        "locationStart": 393,
+        "locationEnd": 410,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_1",
         "category": "PER",
         "surfaceForm": "ografie",
@@ -31776,6 +31912,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_17",
+        "surfaceForm": "James Faraday",
+        "category": "PER",
+        "locationStart": 427,
+        "locationEnd": 440,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_22",
         "category": "ORGANIZATION",
         "surfaceForm": "Royal Institution",
@@ -31834,6 +31978,14 @@
         "locationStart": 465,
         "locationEnd": 482,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_18",
+        "surfaceForm": "Margaret Hastwell",
+        "category": "PER",
+        "locationStart": 465,
+        "locationEnd": 482,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_24",
@@ -31902,6 +32054,14 @@
         "locationStart": 505,
         "locationEnd": 520,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_19",
+        "surfaceForm": "Newington Butts",
+        "category": "PER",
+        "locationStart": 505,
+        "locationEnd": 520,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_27",
@@ -31990,6 +32150,14 @@
         "locationStart": 545,
         "locationEnd": 556,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_20",
+        "surfaceForm": "Zuid Londen",
+        "category": "PER",
+        "locationStart": 545,
+        "locationEnd": 556,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_28",
@@ -32266,6 +32434,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_21",
+        "surfaceForm": "George Riebau",
+        "category": "PER",
+        "locationStart": 905,
+        "locationEnd": 918,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_23",
+        "surfaceForm": "George Riebau in Londen",
+        "category": "PER",
+        "locationStart": 905,
+        "locationEnd": 928,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_22",
+        "surfaceForm": "Riebau in Londen",
+        "category": "PER",
+        "locationStart": 912,
+        "locationEnd": 928,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_21",
         "surfaceForm": "Londen",
         "category": "LOC",
@@ -32308,6 +32500,14 @@
         "locationStart": 922,
         "locationEnd": 928,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_24",
+        "surfaceForm": "Wetenschappelijke carriere Aangemoedigd",
+        "category": "PER",
+        "locationStart": 1222,
+        "locationEnd": 1261,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_22",
@@ -32400,6 +32600,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_25",
+        "surfaceForm": "Royal Institution",
+        "category": "PER",
+        "locationStart": 1318,
+        "locationEnd": 1335,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_27",
+        "surfaceForm": "Royal Institution te Londen",
+        "category": "PER",
+        "locationStart": 1318,
+        "locationEnd": 1345,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_26",
+        "surfaceForm": "Institution te Londen",
+        "category": "PER",
+        "locationStart": 1324,
+        "locationEnd": 1345,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_24",
         "surfaceForm": "Londen",
         "category": "LOC",
@@ -32462,6 +32686,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_28",
+        "surfaceForm": "Engelse scheikundige Humphry",
+        "category": "PER",
+        "locationStart": 1367,
+        "locationEnd": 1395,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_29",
+        "surfaceForm": "Engelse scheikundige Humphry Davy",
+        "category": "PER",
+        "locationStart": 1367,
+        "locationEnd": 1400,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_26",
         "surfaceForm": "Humphry Davy",
         "category": "PER",
@@ -32506,6 +32746,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_30",
+        "surfaceForm": "Humphry Davy",
+        "category": "PER",
+        "locationStart": 1388,
+        "locationEnd": 1400,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_27",
         "surfaceForm": "Royal Society",
         "category": "ORG",
@@ -32540,6 +32788,14 @@
         "locationStart": 1418,
         "locationEnd": 1431,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_31",
+        "surfaceForm": "Royal Society",
+        "category": "PER",
+        "locationStart": 1418,
+        "locationEnd": 1431,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_28",
@@ -32584,6 +32840,14 @@
         "locationStart": 1437,
         "locationEnd": 1447,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_32",
+        "surfaceForm": "John Tatum",
+        "category": "PER",
+        "locationStart": 1437,
+        "locationEnd": 1447,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_29",
@@ -32672,6 +32936,14 @@
         "locationStart": 1686,
         "locationEnd": 1693,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_33",
+        "surfaceForm": "Faraday afgewezen omdat Davy",
+        "category": "PER",
+        "locationStart": 1686,
+        "locationEnd": 1714,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_31",
@@ -32906,6 +33178,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_34",
+        "surfaceForm": "Sir Humphry",
+        "category": "PER",
+        "locationStart": 2096,
+        "locationEnd": 2107,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_36",
+        "surfaceForm": "Sir Humphry en Lady",
+        "category": "PER",
+        "locationStart": 2096,
+        "locationEnd": 2115,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_38",
+        "surfaceForm": "Sir Humphry en Lady Davy",
+        "category": "PER",
+        "locationStart": 2096,
+        "locationEnd": 2120,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_14",
         "category": "PER",
         "surfaceForm": "Humphry",
@@ -32928,6 +33224,22 @@
         "locationStart": 2100,
         "locationEnd": 2107,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_35",
+        "surfaceForm": "Humphry en Lady",
+        "category": "PER",
+        "locationStart": 2100,
+        "locationEnd": 2115,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_37",
+        "surfaceForm": "Humphry en Lady Davy",
+        "category": "PER",
+        "locationStart": 2100,
+        "locationEnd": 2120,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_36",
@@ -32964,6 +33276,14 @@
         "locationStart": 2111,
         "locationEnd": 2120,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_39",
+        "surfaceForm": "Lady Davy",
+        "category": "PER",
+        "locationStart": 2111,
+        "locationEnd": 2120,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_14",
@@ -33124,6 +33444,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_40",
+        "surfaceForm": "Italie en Belgie",
+        "category": "PER",
+        "locationStart": 2202,
+        "locationEnd": 2218,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_41",
         "surfaceForm": "Belgie",
         "category": "LOC",
@@ -33204,6 +33532,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_41",
+        "surfaceForm": "Italiaanse natuurkundige Alessandro",
+        "category": "PER",
+        "locationStart": 2301,
+        "locationEnd": 2336,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_42",
+        "surfaceForm": "Italiaanse natuurkundige Alessandro Volta",
+        "category": "PER",
+        "locationStart": 2301,
+        "locationEnd": 2342,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_44",
         "surfaceForm": "Alessandro Volta",
         "category": "PER",
@@ -33246,6 +33590,14 @@
         "locationStart": 2326,
         "locationEnd": 2342,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_43",
+        "surfaceForm": "Alessandro Volta",
+        "category": "PER",
+        "locationStart": 2326,
+        "locationEnd": 2342,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_45",
@@ -33310,6 +33662,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_44",
+        "surfaceForm": "Andre-Marie Ampere",
+        "category": "PER",
+        "locationStart": 2377,
+        "locationEnd": 2395,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_46",
+        "surfaceForm": "Andre-Marie Ampere en de Franse",
+        "category": "PER",
+        "locationStart": 2377,
+        "locationEnd": 2408,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_45",
+        "surfaceForm": "Ampere en de Franse",
+        "category": "PER",
+        "locationStart": 2389,
+        "locationEnd": 2408,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_47",
         "surfaceForm": "Franse",
         "category": "MISC",
@@ -33326,6 +33702,22 @@
         "locationStart": 2402,
         "locationEnd": 2408,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_47",
+        "surfaceForm": "Franse scheikundige Nicolas-Louis",
+        "category": "PER",
+        "locationStart": 2402,
+        "locationEnd": 2435,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_48",
+        "surfaceForm": "Franse scheikundige Nicolas-Louis Vauquelin",
+        "category": "PER",
+        "locationStart": 2402,
+        "locationEnd": 2445,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_48",
@@ -33372,6 +33764,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_49",
+        "surfaceForm": "Nicolas-Louis Vauquelin",
+        "category": "PER",
+        "locationStart": 2422,
+        "locationEnd": 2445,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_50",
+        "surfaceForm": "Terug in Londen",
+        "category": "PER",
+        "locationStart": 2448,
+        "locationEnd": 2463,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_49",
         "surfaceForm": "Londen",
         "category": "LOC",
@@ -33414,6 +33822,14 @@
         "locationStart": 2457,
         "locationEnd": 2463,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_51",
+        "surfaceForm": "Londen besloot Faraday",
+        "category": "PER",
+        "locationStart": 2457,
+        "locationEnd": 2479,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_50",
@@ -33540,6 +33956,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_52",
+        "surfaceForm": "Fellow of the Royal",
+        "category": "PER",
+        "locationStart": 2625,
+        "locationEnd": 2644,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_53",
+        "surfaceForm": "Fellow of the Royal Society",
+        "category": "PER",
+        "locationStart": 2625,
+        "locationEnd": 2652,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_32",
         "surfaceForm": "Royal Society",
         "category": "ORG",
@@ -33564,6 +33996,14 @@
         "locationStart": 2639,
         "locationEnd": 2652,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_54",
+        "surfaceForm": "Royal Society",
+        "category": "PER",
+        "locationStart": 2639,
+        "locationEnd": 2652,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_53",
@@ -33646,6 +34086,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_55",
+        "surfaceForm": "Royal Institution",
+        "category": "PER",
+        "locationStart": 2711,
+        "locationEnd": 2728,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_57",
+        "surfaceForm": "Royal Institution te Londen",
+        "category": "PER",
+        "locationStart": 2711,
+        "locationEnd": 2738,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_56",
+        "surfaceForm": "Institution te Londen",
+        "category": "PER",
+        "locationStart": 2717,
+        "locationEnd": 2738,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_55",
         "surfaceForm": "Londen",
         "category": "LOC",
@@ -33718,6 +34182,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_58",
+        "surfaceForm": "Christmas Lectures",
+        "category": "PER",
+        "locationStart": 2835,
+        "locationEnd": 2853,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_57",
         "surfaceForm": "Royal Institution",
         "category": "ORG",
@@ -33752,6 +34224,30 @@
         "locationStart": 2878,
         "locationEnd": 2895,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_59",
+        "surfaceForm": "Royal Institution",
+        "category": "PER",
+        "locationStart": 2878,
+        "locationEnd": 2895,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_61",
+        "surfaceForm": "Royal Institution had Faraday",
+        "category": "PER",
+        "locationStart": 2878,
+        "locationEnd": 2907,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_60",
+        "surfaceForm": "Institution had Faraday",
+        "category": "PER",
+        "locationStart": 2884,
+        "locationEnd": 2907,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_58",
@@ -33834,6 +34330,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_62",
+        "surfaceForm": "Trinity House",
+        "category": "PER",
+        "locationStart": 2984,
+        "locationEnd": 2997,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_42",
         "surfaceForm": "1836 - 1865",
         "category": "TIME",
@@ -33894,6 +34398,30 @@
         "locationStart": 3043,
         "locationEnd": 3065,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_63",
+        "surfaceForm": "Royal Military",
+        "category": "PER",
+        "locationStart": 3043,
+        "locationEnd": 3057,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_64",
+        "surfaceForm": "Royal Military Academy",
+        "category": "PER",
+        "locationStart": 3043,
+        "locationEnd": 3065,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_65",
+        "surfaceForm": "Military Academy",
+        "category": "PER",
+        "locationStart": 3049,
+        "locationEnd": 3065,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_44",
@@ -33986,12 +34514,84 @@
         "method": "human_gold"
       },
       {
+        "ID": "spacy_matcher_nl_66",
+        "surfaceForm": "The Royal",
+        "category": "PER",
+        "locationStart": 3094,
+        "locationEnd": 3103,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_67",
+        "surfaceForm": "The Royal Institution",
+        "category": "PER",
+        "locationStart": 3094,
+        "locationEnd": 3115,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_69",
+        "surfaceForm": "The Royal Institution Christmas",
+        "category": "PER",
+        "locationStart": 3094,
+        "locationEnd": 3125,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_72",
+        "surfaceForm": "The Royal Institution Christmas Lectures",
+        "category": "PER",
+        "locationStart": 3094,
+        "locationEnd": 3134,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_80",
+        "surfaceForm": "The Royal Institution Christmas Lectures thumb| Kerstmislezing",
+        "category": "PER",
+        "locationStart": 3094,
+        "locationEnd": 3156,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_18",
         "category": "MISC",
         "surfaceForm": "Royal",
         "locationStart": 3098,
         "locationEnd": 3103,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_68",
+        "surfaceForm": "Royal Institution",
+        "category": "PER",
+        "locationStart": 3098,
+        "locationEnd": 3115,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_70",
+        "surfaceForm": "Royal Institution Christmas",
+        "category": "PER",
+        "locationStart": 3098,
+        "locationEnd": 3125,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_73",
+        "surfaceForm": "Royal Institution Christmas Lectures",
+        "category": "PER",
+        "locationStart": 3098,
+        "locationEnd": 3134,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_79",
+        "surfaceForm": "Royal Institution Christmas Lectures thumb| Kerstmislezing",
+        "category": "PER",
+        "locationStart": 3098,
+        "locationEnd": 3156,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_18",
@@ -34002,6 +34602,30 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_71",
+        "surfaceForm": "Institution Christmas",
+        "category": "PER",
+        "locationStart": 3104,
+        "locationEnd": 3125,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_74",
+        "surfaceForm": "Institution Christmas Lectures",
+        "category": "PER",
+        "locationStart": 3104,
+        "locationEnd": 3134,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_78",
+        "surfaceForm": "Institution Christmas Lectures thumb| Kerstmislezing",
+        "category": "PER",
+        "locationStart": 3104,
+        "locationEnd": 3156,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_18",
         "category": "MISC",
         "surfaceForm": "Christmas Lectures",
@@ -34010,12 +34634,44 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_75",
+        "surfaceForm": "Christmas Lectures",
+        "category": "PER",
+        "locationStart": 3116,
+        "locationEnd": 3134,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_77",
+        "surfaceForm": "Christmas Lectures thumb| Kerstmislezing",
+        "category": "PER",
+        "locationStart": 3116,
+        "locationEnd": 3156,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_76",
+        "surfaceForm": "Lectures thumb| Kerstmislezing",
+        "category": "PER",
+        "locationStart": 3126,
+        "locationEnd": 3156,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_18",
         "category": "MISC",
         "surfaceForm": "Kerstmislezing",
         "locationStart": 3142,
         "locationEnd": 3156,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_81",
+        "surfaceForm": "Kerstmislezing van Faraday",
+        "category": "PER",
+        "locationStart": 3142,
+        "locationEnd": 3168,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_63",
@@ -34162,6 +34818,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_82",
+        "surfaceForm": "Britse Koninklijke",
+        "category": "PER",
+        "locationStart": 3489,
+        "locationEnd": 3507,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_83",
+        "surfaceForm": "Britse Koninklijke Huis",
+        "category": "PER",
+        "locationStart": 3489,
+        "locationEnd": 3512,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_67",
         "surfaceForm": "Koninklijke Huis",
         "category": "ORG",
@@ -34178,6 +34850,14 @@
         "locationStart": 3496,
         "locationEnd": 3512,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_84",
+        "surfaceForm": "Koninklijke Huis",
+        "category": "PER",
+        "locationStart": 3496,
+        "locationEnd": 3512,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_51",
@@ -34226,12 +34906,60 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_85",
+        "surfaceForm": "Royal Institution",
+        "category": "PER",
+        "locationStart": 3618,
+        "locationEnd": 3635,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_86",
+        "surfaceForm": "Royal Institution Christmas",
+        "category": "PER",
+        "locationStart": 3618,
+        "locationEnd": 3645,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_88",
+        "surfaceForm": "Royal Institution Christmas Lectures",
+        "category": "PER",
+        "locationStart": 3618,
+        "locationEnd": 3654,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "xlmr_ner_20",
         "category": "",
         "surfaceForm": "Institution",
         "locationStart": 3624,
         "locationEnd": 3635,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_87",
+        "surfaceForm": "Institution Christmas",
+        "category": "PER",
+        "locationStart": 3624,
+        "locationEnd": 3645,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_89",
+        "surfaceForm": "Institution Christmas Lectures",
+        "category": "PER",
+        "locationStart": 3624,
+        "locationEnd": 3654,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_90",
+        "surfaceForm": "Christmas Lectures",
+        "category": "PER",
+        "locationStart": 3636,
+        "locationEnd": 3654,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_69",
@@ -34312,6 +35040,54 @@
         "locationStart": 3705,
         "locationEnd": 3739,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_91",
+        "surfaceForm": "Royal Institution",
+        "category": "PER",
+        "locationStart": 3705,
+        "locationEnd": 3722,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_93",
+        "surfaceForm": "Royal Institution of Great",
+        "category": "PER",
+        "locationStart": 3705,
+        "locationEnd": 3731,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_95",
+        "surfaceForm": "Royal Institution of Great Britain",
+        "category": "PER",
+        "locationStart": 3705,
+        "locationEnd": 3739,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_92",
+        "surfaceForm": "Institution of Great",
+        "category": "PER",
+        "locationStart": 3711,
+        "locationEnd": 3731,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_94",
+        "surfaceForm": "Institution of Great Britain",
+        "category": "PER",
+        "locationStart": 3711,
+        "locationEnd": 3739,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_96",
+        "surfaceForm": "Great Britain",
+        "category": "PER",
+        "locationStart": 3726,
+        "locationEnd": 3739,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_56",
@@ -34512,6 +35288,30 @@
         "method": "stanza_nl"
       },
       {
+        "ID": "spacy_matcher_nl_97",
+        "surfaceForm": "Werk en ontdekkingen Scheikunde",
+        "category": "PER",
+        "locationStart": 3896,
+        "locationEnd": 3927,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_98",
+        "surfaceForm": "Werk en ontdekkingen Scheikunde Gedurende",
+        "category": "PER",
+        "locationStart": 3896,
+        "locationEnd": 3937,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_99",
+        "surfaceForm": "Scheikunde Gedurende",
+        "category": "PER",
+        "locationStart": 3917,
+        "locationEnd": 3937,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_66",
         "surfaceForm": "Gedurende de jaren 1810 en 1820",
         "category": "TIME",
@@ -34662,6 +35462,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_100",
+        "surfaceForm": "William Thomas",
+        "category": "PER",
+        "locationStart": 4043,
+        "locationEnd": 4057,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_101",
+        "surfaceForm": "William Thomas Brande",
+        "category": "PER",
+        "locationStart": 4043,
+        "locationEnd": 4064,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_102",
+        "surfaceForm": "Thomas Brande",
+        "category": "PER",
+        "locationStart": 4051,
+        "locationEnd": 4064,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_71",
         "surfaceForm": "Binnen enkele weken",
         "category": "TIME",
@@ -34706,6 +35530,14 @@
         "locationStart": 4104,
         "locationEnd": 4108,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_103",
+        "surfaceForm": "Vermoedelijk krijgt Faraday",
+        "category": "PER",
+        "locationStart": 4209,
+        "locationEnd": 4236,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_76",
@@ -34876,6 +35708,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_104",
+        "surfaceForm": "Louis Gay-",
+        "category": "PER",
+        "locationStart": 4374,
+        "locationEnd": 4384,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_105",
+        "surfaceForm": "Louis Gay- Lussac",
+        "category": "PER",
+        "locationStart": 4374,
+        "locationEnd": 4391,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_106",
+        "surfaceForm": "Gay- Lussac",
+        "category": "PER",
+        "locationStart": 4380,
+        "locationEnd": 4391,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_22",
         "category": "PER",
         "surfaceForm": "Lussac",
@@ -34920,12 +35776,28 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_107",
+        "surfaceForm": "Accademia del Cimento",
+        "category": "PER",
+        "locationStart": 4430,
+        "locationEnd": 4451,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_22",
         "category": "LOC",
         "surfaceForm": "del Cimento",
         "locationStart": 4440,
         "locationEnd": 4451,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_108",
+        "surfaceForm": "Cimento in Florence",
+        "category": "PER",
+        "locationStart": 4444,
+        "locationEnd": 4463,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_81",
@@ -34972,6 +35844,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_109",
+        "surfaceForm": "Terug in Londen",
+        "category": "PER",
+        "locationStart": 4592,
+        "locationEnd": 4607,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_82",
         "surfaceForm": "Londen",
         "category": "LOC",
@@ -35014,6 +35894,14 @@
         "locationStart": 4601,
         "locationEnd": 4607,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_110",
+        "surfaceForm": "Londen staat hij Davy",
+        "category": "PER",
+        "locationStart": 4601,
+        "locationEnd": 4622,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_83",
@@ -35254,6 +36142,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_111",
+        "surfaceForm": "James Stoddart",
+        "category": "PER",
+        "locationStart": 4844,
+        "locationEnd": 4858,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_90",
         "surfaceForm": "1823",
         "category": "TIME",
@@ -35352,6 +36248,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_112",
+        "surfaceForm": "Michael Faraday",
+        "category": "PER",
+        "locationStart": 5237,
+        "locationEnd": 5252,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_95",
         "surfaceForm": "1824",
         "category": "TIME",
@@ -35404,6 +36308,14 @@
         "locationStart": 5384,
         "locationEnd": 5401,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_113",
+        "surfaceForm": "Royal Institution",
+        "category": "PER",
+        "locationStart": 5384,
+        "locationEnd": 5401,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_97",
@@ -35470,6 +36382,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_114",
+        "surfaceForm": "Copley Medal",
+        "category": "PER",
+        "locationStart": 5432,
+        "locationEnd": 5444,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_101",
         "surfaceForm": "1835",
         "category": "TIME",
@@ -35534,6 +36454,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_115",
+        "surfaceForm": "Royal Medal",
+        "category": "PER",
+        "locationStart": 5481,
+        "locationEnd": 5492,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_104",
         "surfaceForm": "1846",
         "category": "TIME",
@@ -35580,6 +36508,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_116",
+        "surfaceForm": "Rumford Medal",
+        "category": "PER",
+        "locationStart": 5504,
+        "locationEnd": 5517,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_93",
         "surfaceForm": "Elektromagnetisme thumb|left",
         "category": "MISC",
@@ -35588,6 +36524,14 @@
         "tokenStart": 943,
         "tokenEnd": 945,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_117",
+        "surfaceForm": "Elektromagnetisme thumb|left| Experiment",
+        "category": "PER",
+        "locationStart": 5520,
+        "locationEnd": 5560,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_106",
@@ -35644,6 +36588,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_118",
+        "surfaceForm": "Deense natuurkundige Hans",
+        "category": "PER",
+        "locationStart": 5619,
+        "locationEnd": 5644,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_119",
+        "surfaceForm": "Deense natuurkundige Hans Christian",
+        "category": "PER",
+        "locationStart": 5619,
+        "locationEnd": 5654,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_95",
         "surfaceForm": "Hans Christian",
         "category": "PER",
@@ -35686,6 +36646,14 @@
         "locationStart": 5640,
         "locationEnd": 5660,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_120",
+        "surfaceForm": "Hans Christian",
+        "category": "PER",
+        "locationStart": 5640,
+        "locationEnd": 5654,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_96",
@@ -35822,6 +36790,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_121",
+        "surfaceForm": "Archives Biographies",
+        "category": "PER",
+        "locationStart": 6322,
+        "locationEnd": 6342,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_99",
         "surfaceForm": "Michael Faraday The Institution of Engineering and Technology",
         "category": "ORG",
@@ -35866,6 +36842,62 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_122",
+        "surfaceForm": "Michael Faraday",
+        "category": "PER",
+        "locationStart": 6344,
+        "locationEnd": 6359,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_123",
+        "surfaceForm": "Michael Faraday The",
+        "category": "PER",
+        "locationStart": 6344,
+        "locationEnd": 6363,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_125",
+        "surfaceForm": "Michael Faraday The Institution",
+        "category": "PER",
+        "locationStart": 6344,
+        "locationEnd": 6375,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_131",
+        "surfaceForm": "Michael Faraday The Institution of Engineering",
+        "category": "PER",
+        "locationStart": 6344,
+        "locationEnd": 6390,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_124",
+        "surfaceForm": "Faraday The",
+        "category": "PER",
+        "locationStart": 6352,
+        "locationEnd": 6363,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_126",
+        "surfaceForm": "Faraday The Institution",
+        "category": "PER",
+        "locationStart": 6352,
+        "locationEnd": 6375,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_130",
+        "surfaceForm": "Faraday The Institution of Engineering",
+        "category": "PER",
+        "locationStart": 6352,
+        "locationEnd": 6390,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_114",
         "surfaceForm": "The Institution of Engineering and Technology",
         "category": "ORG",
@@ -35884,12 +36916,44 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_127",
+        "surfaceForm": "The Institution",
+        "category": "PER",
+        "locationStart": 6360,
+        "locationEnd": 6375,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_129",
+        "surfaceForm": "The Institution of Engineering",
+        "category": "PER",
+        "locationStart": 6360,
+        "locationEnd": 6390,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_34",
         "category": "ORG",
         "surfaceForm": "Institution of Engineering and Technology",
         "locationStart": 6364,
         "locationEnd": 6405,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_128",
+        "surfaceForm": "Institution of Engineering",
+        "category": "PER",
+        "locationStart": 6364,
+        "locationEnd": 6390,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_132",
+        "surfaceForm": "Engineering and Technology",
+        "category": "PER",
+        "locationStart": 6379,
+        "locationEnd": 6405,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_115",
@@ -35982,6 +37046,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_133",
+        "surfaceForm": "Fransman Hippolyte",
+        "category": "PER",
+        "locationStart": 7098,
+        "locationEnd": 7116,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_134",
+        "surfaceForm": "Fransman Hippolyte Pixii",
+        "category": "PER",
+        "locationStart": 7098,
+        "locationEnd": 7122,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_103",
         "surfaceForm": "Hippolyte Pixii",
         "category": "PER",
@@ -36026,6 +37106,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_135",
+        "surfaceForm": "Hippolyte Pixii",
+        "category": "PER",
+        "locationStart": 7107,
+        "locationEnd": 7122,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_119",
         "surfaceForm": "1832",
         "category": "TIME",
@@ -36060,6 +37148,14 @@
         "locationStart": 7218,
         "locationEnd": 7223,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_136",
+        "surfaceForm": "Schot Maxwell",
+        "category": "PER",
+        "locationStart": 7218,
+        "locationEnd": 7231,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_105",
@@ -36152,6 +37248,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_137",
+        "surfaceForm": "Wetten van Maxwell",
+        "category": "PER",
+        "locationStart": 7271,
+        "locationEnd": 7289,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_107",
         "surfaceForm": "Maxwell",
         "category": "PER",
@@ -36160,6 +37264,14 @@
         "tokenStart": 1222,
         "tokenEnd": 1223,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_138",
+        "surfaceForm": "Intussen vervolgde Faraday",
+        "category": "PER",
+        "locationStart": 7305,
+        "locationEnd": 7331,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_108",
@@ -36222,6 +37334,14 @@
         "locationStart": 7366,
         "locationEnd": 7370,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_139",
+        "surfaceForm": "Elektrochemie Faraday",
+        "category": "PER",
+        "locationStart": 7532,
+        "locationEnd": 7553,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_109",
@@ -36292,6 +37412,14 @@
         "locationStart": 7966,
         "locationEnd": 7977,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_140",
+        "surfaceForm": "Persoonlijk Faraday",
+        "category": "PER",
+        "locationStart": 7966,
+        "locationEnd": 7985,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_110",
@@ -36400,6 +37528,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_141",
+        "surfaceForm": "Sarah Barnard",
+        "category": "PER",
+        "locationStart": 8026,
+        "locationEnd": 8039,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_132",
         "surfaceForm": "1800 - 1879",
         "category": "TIME",
@@ -36498,6 +37634,62 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_142",
+        "surfaceForm": "Frank A.",
+        "category": "PER",
+        "locationStart": 8161,
+        "locationEnd": 8169,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_143",
+        "surfaceForm": "Frank A. J.",
+        "category": "PER",
+        "locationStart": 8161,
+        "locationEnd": 8172,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_145",
+        "surfaceForm": "Frank A. J. L.",
+        "category": "PER",
+        "locationStart": 8161,
+        "locationEnd": 8175,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_148",
+        "surfaceForm": "Frank A. J. L. James",
+        "category": "PER",
+        "locationStart": 8161,
+        "locationEnd": 8181,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_144",
+        "surfaceForm": "A. J.",
+        "category": "PER",
+        "locationStart": 8167,
+        "locationEnd": 8172,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_146",
+        "surfaceForm": "A. J. L.",
+        "category": "PER",
+        "locationStart": 8167,
+        "locationEnd": 8175,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_149",
+        "surfaceForm": "A. J. L. James",
+        "category": "PER",
+        "locationStart": 8167,
+        "locationEnd": 8181,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_47",
         "category": "PER",
         "surfaceForm": "J. L. James",
@@ -36506,12 +37698,36 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_147",
+        "surfaceForm": "J. L.",
+        "category": "PER",
+        "locationStart": 8170,
+        "locationEnd": 8175,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_150",
+        "surfaceForm": "J. L. James",
+        "category": "PER",
+        "locationStart": 8170,
+        "locationEnd": 8181,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_50",
         "category": "PER",
         "surfaceForm": "l james",
         "locationStart": 8173,
         "locationEnd": 8181,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_151",
+        "surfaceForm": "L. James",
+        "category": "PER",
+        "locationStart": 8173,
+        "locationEnd": 8181,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_135",
@@ -36626,6 +37842,54 @@
         "locationStart": 8216,
         "locationEnd": 8255,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_152",
+        "surfaceForm": "Oxford Dictionary",
+        "category": "PER",
+        "locationStart": 8216,
+        "locationEnd": 8233,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_154",
+        "surfaceForm": "Oxford Dictionary of National",
+        "category": "PER",
+        "locationStart": 8216,
+        "locationEnd": 8245,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_156",
+        "surfaceForm": "Oxford Dictionary of National Biography",
+        "category": "PER",
+        "locationStart": 8216,
+        "locationEnd": 8255,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_153",
+        "surfaceForm": "Dictionary of National",
+        "category": "PER",
+        "locationStart": 8223,
+        "locationEnd": 8245,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_155",
+        "surfaceForm": "Dictionary of National Biography",
+        "category": "PER",
+        "locationStart": 8223,
+        "locationEnd": 8255,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_157",
+        "surfaceForm": "National Biography",
+        "category": "PER",
+        "locationStart": 8237,
+        "locationEnd": 8255,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_117",
@@ -36868,6 +38132,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_158",
+        "surfaceForm": "Hampton Court",
+        "category": "PER",
+        "locationStart": 8736,
+        "locationEnd": 8749,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_144",
         "surfaceForm": "25 augustus 1867",
         "category": "TIME",
@@ -37018,6 +38290,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_159",
+        "surfaceForm": "Michael Faraday",
+        "category": "PER",
+        "locationStart": 8856,
+        "locationEnd": 8871,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_148",
         "surfaceForm": ": Michael",
         "category": "PER",
@@ -37060,6 +38340,14 @@
         "locationStart": 8876,
         "locationEnd": 8891,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_160",
+        "surfaceForm": "Michael Faraday",
+        "category": "PER",
+        "locationStart": 8876,
+        "locationEnd": 8891,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_149",
@@ -37106,6 +38394,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_161",
+        "surfaceForm": "Michael Faraday",
+        "category": "PER",
+        "locationStart": 8906,
+        "locationEnd": 8921,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_150",
         "surfaceForm": ": Maykl",
         "category": "PER",
@@ -37130,6 +38426,14 @@
         "locationStart": 8926,
         "locationEnd": 8939,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_162",
+        "surfaceForm": "Maykl Faradey",
+        "category": "PER",
+        "locationStart": 8926,
+        "locationEnd": 8939,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_151",
@@ -37158,6 +38462,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_163",
+        "surfaceForm": "Maiklos Faradiejos",
+        "category": "PER",
+        "locationStart": 8953,
+        "locationEnd": 8971,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_127",
         "surfaceForm": "Michael Faraday",
         "category": "PER",
@@ -37182,6 +38494,14 @@
         "locationStart": 8988,
         "locationEnd": 9003,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_164",
+        "surfaceForm": "Michael Faraday",
+        "category": "PER",
+        "locationStart": 8988,
+        "locationEnd": 9003,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_128",
@@ -37228,6 +38548,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_165",
+        "surfaceForm": "Michael Faraday",
+        "category": "PER",
+        "locationStart": 9008,
+        "locationEnd": 9023,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_130",
         "surfaceForm": "Michael Faraday cs",
         "category": "PER",
@@ -37260,6 +38588,14 @@
         "locationStart": 9028,
         "locationEnd": 9043,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_166",
+        "surfaceForm": "Michael Faraday",
+        "category": "PER",
+        "locationStart": 9028,
+        "locationEnd": 9043,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_131",
@@ -37296,6 +38632,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_167",
+        "surfaceForm": "Michael Faraday",
+        "category": "PER",
+        "locationStart": 9048,
+        "locationEnd": 9063,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_132",
         "surfaceForm": "Michael Faraday",
         "category": "PER",
@@ -37328,6 +38672,14 @@
         "locationStart": 9068,
         "locationEnd": 9083,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_168",
+        "surfaceForm": "Michael Faraday",
+        "category": "PER",
+        "locationStart": 9068,
+        "locationEnd": 9083,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_133",
@@ -37364,6 +38716,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_169",
+        "surfaceForm": "Michael Faraday",
+        "category": "PER",
+        "locationStart": 9088,
+        "locationEnd": 9103,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_134",
         "surfaceForm": "Michael Faraday",
         "category": "PER",
@@ -37396,6 +38756,14 @@
         "locationStart": 9108,
         "locationEnd": 9123,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_170",
+        "surfaceForm": "Michael Faraday",
+        "category": "PER",
+        "locationStart": 9108,
+        "locationEnd": 9123,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_135",
@@ -37432,6 +38800,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_171",
+        "surfaceForm": "Michael Faraday",
+        "category": "PER",
+        "locationStart": 9132,
+        "locationEnd": 9147,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_136",
         "surfaceForm": "Michael Faraday",
         "category": "PER",
@@ -37464,6 +38840,14 @@
         "locationStart": 9152,
         "locationEnd": 9167,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_172",
+        "surfaceForm": "Michael Faraday",
+        "category": "PER",
+        "locationStart": 9152,
+        "locationEnd": 9167,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_137",
@@ -37500,6 +38884,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_173",
+        "surfaceForm": "Michael Faraday",
+        "category": "PER",
+        "locationStart": 9172,
+        "locationEnd": 9187,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_138",
         "surfaceForm": "Michael Faraday",
         "category": "PER",
@@ -37532,6 +38924,14 @@
         "locationStart": 9192,
         "locationEnd": 9207,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_174",
+        "surfaceForm": "Michael Faraday",
+        "category": "PER",
+        "locationStart": 9192,
+        "locationEnd": 9207,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_139",
@@ -37568,6 +38968,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_175",
+        "surfaceForm": "Michael Faraday",
+        "category": "PER",
+        "locationStart": 9212,
+        "locationEnd": 9227,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_140",
         "surfaceForm": "Michael Faraday",
         "category": "PER",
@@ -37600,6 +39008,14 @@
         "locationStart": 9236,
         "locationEnd": 9251,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_176",
+        "surfaceForm": "Michael Faraday",
+        "category": "PER",
+        "locationStart": 9236,
+        "locationEnd": 9251,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_141",
@@ -37636,6 +39052,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_177",
+        "surfaceForm": "Michael Faraday",
+        "category": "PER",
+        "locationStart": 9256,
+        "locationEnd": 9271,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_142",
         "surfaceForm": "Michael Faraday",
         "category": "PER",
@@ -37668,6 +39092,14 @@
         "locationStart": 9276,
         "locationEnd": 9291,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_178",
+        "surfaceForm": "Michael Faraday",
+        "category": "PER",
+        "locationStart": 9276,
+        "locationEnd": 9291,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_143",
@@ -37704,6 +39136,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_179",
+        "surfaceForm": "Michael Faraday",
+        "category": "PER",
+        "locationStart": 9296,
+        "locationEnd": 9311,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_144",
         "surfaceForm": "Michael Faraday",
         "category": "PER",
@@ -37736,6 +39176,14 @@
         "locationStart": 9325,
         "locationEnd": 9340,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_180",
+        "surfaceForm": "Michael Faraday",
+        "category": "PER",
+        "locationStart": 9325,
+        "locationEnd": 9340,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_145",
@@ -37772,6 +39220,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_181",
+        "surfaceForm": "Michael Faraday",
+        "category": "PER",
+        "locationStart": 9345,
+        "locationEnd": 9360,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_146",
         "surfaceForm": "Michael Faraday",
         "category": "PER",
@@ -37804,6 +39260,14 @@
         "locationStart": 9365,
         "locationEnd": 9380,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_182",
+        "surfaceForm": "Michael Faraday",
+        "category": "PER",
+        "locationStart": 9365,
+        "locationEnd": 9380,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_147",
@@ -37850,6 +39314,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_183",
+        "surfaceForm": "Michael Faraday",
+        "category": "PER",
+        "locationStart": 9385,
+        "locationEnd": 9400,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_149",
         "surfaceForm": "Michael Faraday",
         "category": "PER",
@@ -37882,6 +39354,14 @@
         "locationStart": 9409,
         "locationEnd": 9424,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_184",
+        "surfaceForm": "Michael Faraday",
+        "category": "PER",
+        "locationStart": 9409,
+        "locationEnd": 9424,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_150",
@@ -37918,6 +39398,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_185",
+        "surfaceForm": "Michael Faraday",
+        "category": "PER",
+        "locationStart": 9429,
+        "locationEnd": 9444,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_151",
         "surfaceForm": "Michael Faraday it",
         "category": "PER",
@@ -37950,6 +39438,14 @@
         "locationStart": 9449,
         "locationEnd": 9464,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_186",
+        "surfaceForm": "Michael Faraday",
+        "category": "PER",
+        "locationStart": 9449,
+        "locationEnd": 9464,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_152",
@@ -37986,6 +39482,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_187",
+        "surfaceForm": "Michael Faraday",
+        "category": "PER",
+        "locationStart": 9469,
+        "locationEnd": 9484,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_153",
         "surfaceForm": "Michael Faraday",
         "category": "PER",
@@ -38010,6 +39514,14 @@
         "locationStart": 9493,
         "locationEnd": 9508,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_188",
+        "surfaceForm": "Michael Faraday",
+        "category": "PER",
+        "locationStart": 9493,
+        "locationEnd": 9508,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_154",
@@ -38046,6 +39558,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_189",
+        "surfaceForm": "Michael Faraday",
+        "category": "PER",
+        "locationStart": 9530,
+        "locationEnd": 9545,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_155",
         "surfaceForm": "Michael Faraday",
         "category": "PER",
@@ -38070,6 +39590,14 @@
         "locationStart": 9550,
         "locationEnd": 9565,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_190",
+        "surfaceForm": "Michael Faraday",
+        "category": "PER",
+        "locationStart": 9550,
+        "locationEnd": 9565,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_156",
@@ -38106,6 +39634,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_191",
+        "surfaceForm": "Michael Faraday",
+        "category": "PER",
+        "locationStart": 9570,
+        "locationEnd": 9585,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_157",
         "surfaceForm": "Michael Faraday",
         "category": "PER",
@@ -38140,6 +39676,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_192",
+        "surfaceForm": "Michael Faraday",
+        "category": "PER",
+        "locationStart": 9590,
+        "locationEnd": 9605,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_52",
         "category": "PER",
         "surfaceForm": "Maikls Faradejs",
@@ -38154,6 +39698,14 @@
         "locationStart": 9610,
         "locationEnd": 9624,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_193",
+        "surfaceForm": "Maikls Faradejs",
+        "category": "PER",
+        "locationStart": 9610,
+        "locationEnd": 9625,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_158",
@@ -38190,6 +39742,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_194",
+        "surfaceForm": "Michael Faraday",
+        "category": "PER",
+        "locationStart": 9647,
+        "locationEnd": 9662,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_159",
         "surfaceForm": "Michael Faraday",
         "category": "PER",
@@ -38222,6 +39782,14 @@
         "locationStart": 9668,
         "locationEnd": 9683,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_195",
+        "surfaceForm": "Michael Faraday",
+        "category": "PER",
+        "locationStart": 9668,
+        "locationEnd": 9683,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_160",
@@ -38258,6 +39826,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_196",
+        "surfaceForm": "Michael Faraday",
+        "category": "PER",
+        "locationStart": 9688,
+        "locationEnd": 9703,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_161",
         "surfaceForm": "Michael Faraday",
         "category": "PER",
@@ -38290,6 +39866,14 @@
         "locationStart": 9708,
         "locationEnd": 9723,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_197",
+        "surfaceForm": "Michael Faraday",
+        "category": "PER",
+        "locationStart": 9708,
+        "locationEnd": 9723,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_162",
@@ -38326,6 +39910,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_198",
+        "surfaceForm": "Michael Faraday",
+        "category": "PER",
+        "locationStart": 9728,
+        "locationEnd": 9743,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_163",
         "surfaceForm": "Michael Faraday",
         "category": "PER",
@@ -38358,6 +39950,14 @@
         "locationStart": 9753,
         "locationEnd": 9768,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_199",
+        "surfaceForm": "Michael Faraday",
+        "category": "PER",
+        "locationStart": 9753,
+        "locationEnd": 9768,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_164",
@@ -38394,6 +39994,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_200",
+        "surfaceForm": "Michael Faraday",
+        "category": "PER",
+        "locationStart": 9773,
+        "locationEnd": 9788,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_165",
         "surfaceForm": "Michael Faraday",
         "category": "PER",
@@ -38426,6 +40034,14 @@
         "locationStart": 9799,
         "locationEnd": 9814,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_201",
+        "surfaceForm": "Michael Faraday",
+        "category": "PER",
+        "locationStart": 9799,
+        "locationEnd": 9814,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_166",
@@ -38462,6 +40078,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_202",
+        "surfaceForm": "Michael Faraday",
+        "category": "PER",
+        "locationStart": 9819,
+        "locationEnd": 9834,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_167",
         "surfaceForm": "Michael Faraday",
         "category": "PER",
@@ -38494,6 +40118,14 @@
         "locationStart": 9847,
         "locationEnd": 9862,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_203",
+        "surfaceForm": "Michael Faraday",
+        "category": "PER",
+        "locationStart": 9847,
+        "locationEnd": 9862,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_168",
@@ -38530,6 +40162,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_204",
+        "surfaceForm": "Michael Faraday",
+        "category": "PER",
+        "locationStart": 9867,
+        "locationEnd": 9882,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_169",
         "surfaceForm": "Michael Faraday",
         "category": "PER",
@@ -38562,6 +40202,14 @@
         "locationStart": 9887,
         "locationEnd": 9902,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_205",
+        "surfaceForm": "Michael Faraday",
+        "category": "PER",
+        "locationStart": 9887,
+        "locationEnd": 9902,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_170",
@@ -38598,6 +40246,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_206",
+        "surfaceForm": "Michael Faraday",
+        "category": "PER",
+        "locationStart": 9907,
+        "locationEnd": 9922,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_171",
         "surfaceForm": "Michael Faraday",
         "category": "PER",
@@ -38630,6 +40286,14 @@
         "locationStart": 9927,
         "locationEnd": 9942,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_207",
+        "surfaceForm": "Michael Faraday",
+        "category": "PER",
+        "locationStart": 9927,
+        "locationEnd": 9942,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_172",
@@ -38666,6 +40330,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_208",
+        "surfaceForm": "Michael Faraday",
+        "category": "PER",
+        "locationStart": 9951,
+        "locationEnd": 9966,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_173",
         "surfaceForm": "Michael Faraday",
         "category": "PER",
@@ -38698,6 +40370,14 @@
         "locationStart": 9971,
         "locationEnd": 9986,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_209",
+        "surfaceForm": "Michael Faraday",
+        "category": "PER",
+        "locationStart": 9971,
+        "locationEnd": 9986,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_174",
@@ -38734,6 +40414,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_210",
+        "surfaceForm": "Michael Faraday",
+        "category": "PER",
+        "locationStart": 9999,
+        "locationEnd": 10014,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_175",
         "surfaceForm": "Michael Faraday",
         "category": "PER",
@@ -38766,6 +40454,14 @@
         "locationStart": 10019,
         "locationEnd": 10034,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_211",
+        "surfaceForm": "Michael Faraday",
+        "category": "PER",
+        "locationStart": 10019,
+        "locationEnd": 10034,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_176",
@@ -38802,6 +40498,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_212",
+        "surfaceForm": "Michael Faraday",
+        "category": "PER",
+        "locationStart": 10047,
+        "locationEnd": 10062,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_177",
         "surfaceForm": "Michael Faraday",
         "category": "PER",
@@ -38834,6 +40538,14 @@
         "locationStart": 10067,
         "locationEnd": 10082,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_213",
+        "surfaceForm": "Michael Faraday",
+        "category": "PER",
+        "locationStart": 10067,
+        "locationEnd": 10082,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_178",
@@ -38870,6 +40582,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_214",
+        "surfaceForm": "Michael Faraday",
+        "category": "PER",
+        "locationStart": 10088,
+        "locationEnd": 10103,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_179",
         "surfaceForm": "Michael Faraday",
         "category": "PER",
@@ -38904,6 +40624,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_215",
+        "surfaceForm": "Michael Faraday",
+        "category": "PER",
+        "locationStart": 10112,
+        "locationEnd": 10127,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_180",
         "surfaceForm": "Michael Faraday",
         "category": "PER",
@@ -38936,6 +40664,14 @@
         "locationStart": 10144,
         "locationEnd": 10159,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_216",
+        "surfaceForm": "Michael Faraday",
+        "category": "PER",
+        "locationStart": 10144,
+        "locationEnd": 10159,
+        "method": "spacy_matcher_nl"
       }
     ],
     "time_expressions": [

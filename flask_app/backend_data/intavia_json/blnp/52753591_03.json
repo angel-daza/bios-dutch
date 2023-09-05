@@ -1338,6 +1338,22 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Zn. van Foppe",
+        "category": "PER",
+        "locationStart": 75,
+        "locationEnd": 88,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Zn. van Foppe Oberman",
+        "category": "PER",
+        "locationStart": 75,
+        "locationEnd": 96,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "xlmr_ner_1",
         "category": "",
         "surfaceForm": "van Foppe Oberman",
@@ -1380,6 +1396,14 @@
         "locationStart": 83,
         "locationEnd": 96,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Foppe Oberman",
+        "category": "PER",
+        "locationStart": 83,
+        "locationEnd": 96,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_6",
@@ -1442,12 +1466,36 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Wija Alida",
+        "category": "PER",
+        "locationStart": 108,
+        "locationEnd": 118,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Wija Alida Harders",
+        "category": "PER",
+        "locationStart": 108,
+        "locationEnd": 126,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_1",
         "category": "PER",
         "surfaceForm": "alida harders",
         "locationStart": 113,
         "locationEnd": 126,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Alida Harders",
+        "category": "PER",
+        "locationStart": 113,
+        "locationEnd": 126,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_8",
@@ -1572,6 +1620,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "F. Pijper",
+        "category": "PER",
+        "locationStart": 183,
+        "locationEnd": 192,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_6",
         "surfaceForm": "Engelse",
         "category": "MISC",
@@ -1588,6 +1644,14 @@
         "locationStart": 201,
         "locationEnd": 208,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Engelse gemeente Vlis-",
+        "category": "PER",
+        "locationStart": 201,
+        "locationEnd": 223,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_7",
@@ -1632,6 +1696,14 @@
         "locationStart": 218,
         "locationEnd": 233,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Vlis- singen en Middelburg",
+        "category": "PER",
+        "locationStart": 218,
+        "locationEnd": 244,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_5",

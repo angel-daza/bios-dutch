@@ -820,6 +820,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Die Man",
+        "category": "PER",
+        "locationStart": 12,
+        "locationEnd": 19,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_1",
         "surfaceForm": "Man",
         "category": "PER",
@@ -914,6 +922,14 @@
         "locationStart": 59,
         "locationEnd": 93,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Die Lukas",
+        "category": "PER",
+        "locationStart": 95,
+        "locationEnd": 104,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_3",

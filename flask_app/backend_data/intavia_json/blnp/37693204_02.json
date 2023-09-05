@@ -3575,6 +3575,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "W.J. Aalders",
+        "category": "PER",
+        "locationStart": 142,
+        "locationEnd": 154,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_4",
         "category": "",
         "surfaceForm": "j aalders",
@@ -4023,6 +4031,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "J.G. Herder",
+        "category": "PER",
+        "locationStart": 505,
+        "locationEnd": 516,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_11",
         "category": "PER",
         "surfaceForm": "Herder",
@@ -4091,6 +4107,14 @@
         "locationStart": 612,
         "locationEnd": 620,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Bckeburg naar Weimar",
+        "category": "PER",
+        "locationStart": 612,
+        "locationEnd": 632,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_15",
@@ -4243,12 +4267,52 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "V. Andreae",
+        "category": "PER",
+        "locationStart": 831,
+        "locationEnd": 841,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "V. Andreae en J.A.",
+        "category": "PER",
+        "locationStart": 831,
+        "locationEnd": 849,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "V. Andreae en J.A. Comenius",
+        "category": "PER",
+        "locationStart": 831,
+        "locationEnd": 858,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_13",
         "category": "PER",
         "surfaceForm": "Andreae",
         "locationStart": 834,
         "locationEnd": 841,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Andreae en J.A.",
+        "category": "PER",
+        "locationStart": 834,
+        "locationEnd": 849,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Andreae en J.A. Comenius",
+        "category": "PER",
+        "locationStart": 834,
+        "locationEnd": 858,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_19",
@@ -4295,6 +4359,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "J.A. Comenius",
+        "category": "PER",
+        "locationStart": 845,
+        "locationEnd": 858,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_14",
         "category": "PER",
         "surfaceForm": "Comenius",
@@ -4339,6 +4411,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Russische denkers als W.S.",
+        "category": "PER",
+        "locationStart": 926,
+        "locationEnd": 952,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Russische denkers als W.S. Solovjef",
+        "category": "PER",
+        "locationStart": 926,
+        "locationEnd": 961,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_22",
         "surfaceForm": "W.S. Solovjef",
         "category": "PER",
@@ -4375,6 +4463,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "W.S. Solovjef",
+        "category": "PER",
+        "locationStart": 948,
+        "locationEnd": 961,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "W.S. Solovjef en N.A.",
+        "category": "PER",
+        "locationStart": 948,
+        "locationEnd": 969,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_15",
+        "surfaceForm": "W.S. Solovjef en N.A. Berdjajef",
+        "category": "PER",
+        "locationStart": 948,
+        "locationEnd": 979,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_16",
         "category": "PER",
         "surfaceForm": "Solovjef",
@@ -4389,6 +4501,22 @@
         "locationStart": 953,
         "locationEnd": 961,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "Solovjef en N.A.",
+        "category": "PER",
+        "locationStart": 953,
+        "locationEnd": 969,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "Solovjef en N.A. Berdjajef",
+        "category": "PER",
+        "locationStart": 953,
+        "locationEnd": 979,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_23",
@@ -4425,6 +4553,14 @@
         "locationStart": 965,
         "locationEnd": 979,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_16",
+        "surfaceForm": "N.A. Berdjajef",
+        "category": "PER",
+        "locationStart": 965,
+        "locationEnd": 979,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_17",

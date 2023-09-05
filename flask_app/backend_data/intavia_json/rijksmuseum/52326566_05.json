@@ -606,6 +606,30 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Portret van Eduard",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 18,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Portret van Eduard Meiners",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 26,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Portret van Eduard Meiners Portret",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 34,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_0",
         "surfaceForm": "Eduard Meiners",
         "category": "PER",
@@ -648,6 +672,30 @@
         "locationStart": 12,
         "locationEnd": 26,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Eduard Meiners",
+        "category": "PER",
+        "locationStart": 12,
+        "locationEnd": 26,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Eduard Meiners Portret",
+        "category": "PER",
+        "locationStart": 12,
+        "locationEnd": 34,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Meiners Portret",
+        "category": "PER",
+        "locationStart": 19,
+        "locationEnd": 34,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_1",
@@ -708,6 +756,14 @@
         "locationStart": 63,
         "locationEnd": 77,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Eduard Meiners",
+        "category": "PER",
+        "locationStart": 63,
+        "locationEnd": 77,
+        "method": "spacy_matcher_nl"
       }
     ],
     "time_expressions": []

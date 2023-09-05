@@ -1293,6 +1293,14 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Vermogende ondernemer uit Rotterdam",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 35,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_1",
         "category": "LOCATION",
         "surfaceForm": "Rotterdam",
@@ -1363,6 +1371,22 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Sprak in de Tweede",
+        "category": "PER",
+        "locationStart": 127,
+        "locationEnd": 145,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Sprak in de Tweede Kamer",
+        "category": "PER",
+        "locationStart": 127,
+        "locationEnd": 151,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_3",
         "category": "LOCATION",
         "surfaceForm": "Gorinchem",
@@ -1405,6 +1429,14 @@
         "locationStart": 139,
         "locationEnd": 151,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Tweede Kamer",
+        "category": "PER",
+        "locationStart": 139,
+        "locationEnd": 151,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_2",

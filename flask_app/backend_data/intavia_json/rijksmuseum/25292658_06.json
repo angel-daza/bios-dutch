@@ -776,6 +776,30 @@
     },
     "entities": [
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Portret van Henricus",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 20,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Portret van Henricus Oort",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 25,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Portret van Henricus Oort Portret",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 33,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_0",
         "surfaceForm": "Henricus Oort",
         "category": "PER",
@@ -820,12 +844,36 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Henricus Oort",
+        "category": "PER",
+        "locationStart": 12,
+        "locationEnd": 25,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Henricus Oort Portret",
+        "category": "PER",
+        "locationStart": 12,
+        "locationEnd": 33,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_0",
         "category": "PERSON",
         "surfaceForm": "Henricus Oort",
         "locationStart": 13,
         "locationEnd": 25,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Oort Portret",
+        "category": "PER",
+        "locationStart": 21,
+        "locationEnd": 33,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_1",
@@ -870,6 +918,14 @@
         "locationStart": 53,
         "locationEnd": 66,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Henricus Oort",
+        "category": "PER",
+        "locationStart": 53,
+        "locationEnd": 66,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_1",
@@ -930,6 +986,14 @@
         "locationStart": 81,
         "locationEnd": 87,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Zwolle en Hoogeveen",
+        "category": "PER",
+        "locationStart": 81,
+        "locationEnd": 100,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_3",

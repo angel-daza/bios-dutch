@@ -37047,6 +37047,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Albert Hendrik",
+        "category": "PER",
+        "locationStart": 190,
+        "locationEnd": 204,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Albert Hendrik Schroder",
+        "category": "PER",
+        "locationStart": 190,
+        "locationEnd": 213,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Hendrik Schroder",
+        "category": "PER",
+        "locationStart": 197,
+        "locationEnd": 213,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_4",
         "surfaceForm": "Treijntje Theunisse",
         "category": "PER",
@@ -37089,6 +37113,14 @@
         "locationStart": 231,
         "locationEnd": 250,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Treijntje Theunisse",
+        "category": "PER",
+        "locationStart": 231,
+        "locationEnd": 250,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_33",
@@ -37151,6 +37183,14 @@
         "locationStart": 300,
         "locationEnd": 318,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Maria Paardekooper",
+        "category": "PER",
+        "locationStart": 300,
+        "locationEnd": 318,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_6",
@@ -37251,6 +37291,22 @@
         "method": "human_gold"
       },
       {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Met W.",
+        "category": "PER",
+        "locationStart": 944,
+        "locationEnd": 950,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Met W. Ansing",
+        "category": "PER",
+        "locationStart": 944,
+        "locationEnd": 957,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_8",
         "surfaceForm": "W. Ansing",
         "category": "PER",
@@ -37293,6 +37349,14 @@
         "locationStart": 948,
         "locationEnd": 957,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "W. Ansing",
+        "category": "PER",
+        "locationStart": 948,
+        "locationEnd": 957,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_9",
@@ -37339,6 +37403,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "H. Gerhard",
+        "category": "PER",
+        "locationStart": 959,
+        "locationEnd": 969,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_10",
         "surfaceForm": "P.J. Penning",
         "category": "PER",
@@ -37381,6 +37453,46 @@
         "locationStart": 971,
         "locationEnd": 983,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "P.J. Penning",
+        "category": "PER",
+        "locationStart": 971,
+        "locationEnd": 983,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "P.J. Penning en K.",
+        "category": "PER",
+        "locationStart": 971,
+        "locationEnd": 989,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "P.J. Penning en K. Ris",
+        "category": "PER",
+        "locationStart": 971,
+        "locationEnd": 993,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Penning en K.",
+        "category": "PER",
+        "locationStart": 976,
+        "locationEnd": 989,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "Penning en K. Ris",
+        "category": "PER",
+        "locationStart": 976,
+        "locationEnd": 993,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_11",
@@ -37427,6 +37539,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "K. Ris",
+        "category": "PER",
+        "locationStart": 987,
+        "locationEnd": 993,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_16",
+        "surfaceForm": "K. Ris was Schroder",
+        "category": "PER",
+        "locationStart": 987,
+        "locationEnd": 1006,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_10",
         "category": "PER",
         "surfaceForm": "Ris",
@@ -37441,6 +37569,14 @@
         "locationStart": 990,
         "locationEnd": 993,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_15",
+        "surfaceForm": "Ris was Schroder",
+        "category": "PER",
+        "locationStart": 990,
+        "locationEnd": 1006,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_12",
@@ -37515,6 +37651,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_17",
+        "surfaceForm": "B. Bymholt",
+        "category": "PER",
+        "locationStart": 1035,
+        "locationEnd": 1045,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_11",
         "category": "PER",
         "surfaceForm": "Bymholt",
@@ -37575,6 +37719,14 @@
         "locationStart": 1192,
         "locationEnd": 1203,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_18",
+        "surfaceForm": "De Dageraad",
+        "category": "PER",
+        "locationStart": 1192,
+        "locationEnd": 1203,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_13",
@@ -37647,6 +37799,14 @@
         "locationStart": 1309,
         "locationEnd": 1330,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_19",
+        "surfaceForm": "Eerste Internationale",
+        "category": "PER",
+        "locationStart": 1309,
+        "locationEnd": 1330,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_15",
@@ -37729,6 +37889,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_20",
+        "surfaceForm": "Met Ansing",
+        "category": "PER",
+        "locationStart": 1447,
+        "locationEnd": 1457,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_22",
+        "surfaceForm": "Met Ansing en Gerhard",
+        "category": "PER",
+        "locationStart": 1447,
+        "locationEnd": 1468,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_19",
         "surfaceForm": "Ansing",
         "category": "PER",
@@ -37771,6 +37947,14 @@
         "locationStart": 1451,
         "locationEnd": 1457,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_21",
+        "surfaceForm": "Ansing en Gerhard",
+        "category": "PER",
+        "locationStart": 1451,
+        "locationEnd": 1468,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_20",
@@ -37959,6 +38143,14 @@
         "method": "human_gold"
       },
       {
+        "ID": "spacy_matcher_nl_23",
+        "surfaceForm": "Vooruitgang door Broederschap",
+        "category": "PER",
+        "locationStart": 1771,
+        "locationEnd": 1800,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_25",
         "surfaceForm": "Nederlandse",
         "category": "MISC",
@@ -37993,6 +38185,14 @@
         "locationStart": 1853,
         "locationEnd": 1867,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_24",
+        "surfaceForm": "Internationale in Amsterdam",
+        "category": "PER",
+        "locationStart": 1853,
+        "locationEnd": 1880,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_27",
@@ -38255,6 +38455,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_25",
+        "surfaceForm": "Gemengde Vereeniging",
+        "category": "PER",
+        "locationStart": 2505,
+        "locationEnd": 2525,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_27",
+        "surfaceForm": "Gemengde Vereeniging binnen de Internationale",
+        "category": "PER",
+        "locationStart": 2505,
+        "locationEnd": 2550,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_26",
+        "surfaceForm": "Vereeniging binnen de Internationale",
+        "category": "PER",
+        "locationStart": 2514,
+        "locationEnd": 2550,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_33",
         "surfaceForm": "Internationale",
         "category": "MISC",
@@ -38433,6 +38657,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_28",
+        "surfaceForm": "Democratische Vereeniging",
+        "category": "PER",
+        "locationStart": 2714,
+        "locationEnd": 2739,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_39",
         "surfaceForm": "begin 1872",
         "category": "TIME",
@@ -38449,6 +38681,22 @@
         "locationStart": 2806,
         "locationEnd": 2810,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_29",
+        "surfaceForm": "In De",
+        "category": "PER",
+        "locationStart": 2893,
+        "locationEnd": 2898,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_30",
+        "surfaceForm": "In De Werkman",
+        "category": "PER",
+        "locationStart": 2893,
+        "locationEnd": 2906,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_37",
@@ -38477,6 +38725,14 @@
         "locationStart": 2896,
         "locationEnd": 2906,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_31",
+        "surfaceForm": "De Werkman",
+        "category": "PER",
+        "locationStart": 2896,
+        "locationEnd": 2906,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_41",
@@ -38575,6 +38831,54 @@
         "locationStart": 2979,
         "locationEnd": 3022,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_32",
+        "surfaceForm": "Provinciale Friesche",
+        "category": "PER",
+        "locationStart": 2979,
+        "locationEnd": 2999,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_33",
+        "surfaceForm": "Provinciale Friesche Werklieden",
+        "category": "PER",
+        "locationStart": 2979,
+        "locationEnd": 3010,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_35",
+        "surfaceForm": "Provinciale Friesche Werklieden Vereeniging",
+        "category": "PER",
+        "locationStart": 2979,
+        "locationEnd": 3022,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_34",
+        "surfaceForm": "Friesche Werklieden",
+        "category": "PER",
+        "locationStart": 2991,
+        "locationEnd": 3010,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_36",
+        "surfaceForm": "Friesche Werklieden Vereeniging",
+        "category": "PER",
+        "locationStart": 2991,
+        "locationEnd": 3022,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_37",
+        "surfaceForm": "Werklieden Vereeniging",
+        "category": "PER",
+        "locationStart": 3000,
+        "locationEnd": 3022,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_40",
@@ -38683,6 +38987,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_38",
+        "surfaceForm": "In De",
+        "category": "PER",
+        "locationStart": 3234,
+        "locationEnd": 3239,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_39",
+        "surfaceForm": "In De Werkman",
+        "category": "PER",
+        "locationStart": 3234,
+        "locationEnd": 3247,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_43",
         "surfaceForm": "De Werkman",
         "category": "MISC",
@@ -38709,6 +39029,14 @@
         "locationStart": 3237,
         "locationEnd": 3247,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_40",
+        "surfaceForm": "De Werkman",
+        "category": "PER",
+        "locationStart": 3237,
+        "locationEnd": 3247,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_48",
@@ -38801,6 +39129,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_41",
+        "surfaceForm": "F. Domela",
+        "category": "PER",
+        "locationStart": 3515,
+        "locationEnd": 3524,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_42",
+        "surfaceForm": "F. Domela Nieuwenhuis",
+        "category": "PER",
+        "locationStart": 3515,
+        "locationEnd": 3536,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_27",
         "category": "PER",
         "surfaceForm": "Domela Nieuwenhuis",
@@ -38815,6 +39159,14 @@
         "locationStart": 3518,
         "locationEnd": 3536,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_43",
+        "surfaceForm": "Domela Nieuwenhuis",
+        "category": "PER",
+        "locationStart": 3518,
+        "locationEnd": 3536,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_46",
@@ -38949,6 +39301,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_44",
+        "surfaceForm": "Internationale betekende dat Schroder",
+        "category": "PER",
+        "locationStart": 4148,
+        "locationEnd": 4185,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_49",
         "surfaceForm": "Schroder",
         "category": "PER",
@@ -39039,6 +39399,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_45",
+        "surfaceForm": "Algemeen Nederlandsch",
+        "category": "PER",
+        "locationStart": 4256,
+        "locationEnd": 4277,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_46",
+        "surfaceForm": "Algemeen Nederlandsch Werklieden-Verbond",
+        "category": "PER",
+        "locationStart": 4256,
+        "locationEnd": 4296,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_47",
+        "surfaceForm": "Nederlandsch Werklieden-Verbond",
+        "category": "PER",
+        "locationStart": 4265,
+        "locationEnd": 4296,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_52",
         "surfaceForm": "ANWV",
         "category": "ORG",
@@ -39091,6 +39475,14 @@
         "locationStart": 4336,
         "locationEnd": 4346,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_48",
+        "surfaceForm": "Vox Populi",
+        "category": "PER",
+        "locationStart": 4336,
+        "locationEnd": 4346,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_54",
@@ -39181,6 +39573,14 @@
         "locationStart": 4987,
         "locationEnd": 5002,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_49",
+        "surfaceForm": "Internationalen in het Volkskomitee",
+        "category": "PER",
+        "locationStart": 4987,
+        "locationEnd": 5022,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_56",
@@ -39327,12 +39727,28 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_50",
+        "surfaceForm": "B.H. Heldt",
+        "category": "PER",
+        "locationStart": 5299,
+        "locationEnd": 5309,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_36",
         "category": "PER",
         "surfaceForm": "Heldt",
         "locationStart": 5304,
         "locationEnd": 5309,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_51",
+        "surfaceForm": "Het politierapport typeerde Schroder",
+        "category": "PER",
+        "locationStart": 5361,
+        "locationEnd": 5397,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_60",
@@ -39461,6 +39877,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_52",
+        "surfaceForm": "De Vrije",
+        "category": "PER",
+        "locationStart": 5511,
+        "locationEnd": 5519,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_53",
+        "surfaceForm": "De Vrije Drukpers",
+        "category": "PER",
+        "locationStart": 5511,
+        "locationEnd": 5528,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_54",
+        "surfaceForm": "Vrije Drukpers",
+        "category": "PER",
+        "locationStart": 5514,
+        "locationEnd": 5528,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_70",
         "surfaceForm": "Later dat jaar",
         "category": "TIME",
@@ -39499,6 +39939,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_55",
+        "surfaceForm": "Amsterdamse vereniging Algemeen",
+        "category": "PER",
+        "locationStart": 5633,
+        "locationEnd": 5664,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_56",
+        "surfaceForm": "Amsterdamse vereniging Algemeen Stemrecht",
+        "category": "PER",
+        "locationStart": 5633,
+        "locationEnd": 5674,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_64",
         "surfaceForm": "Algemeen Stemrecht",
         "category": "ORG",
@@ -39523,6 +39979,22 @@
         "locationStart": 5656,
         "locationEnd": 5674,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_57",
+        "surfaceForm": "Algemeen Stemrecht",
+        "category": "PER",
+        "locationStart": 5656,
+        "locationEnd": 5674,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_58",
+        "surfaceForm": "De oud- Internationalen",
+        "category": "PER",
+        "locationStart": 5774,
+        "locationEnd": 5797,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_65",
@@ -39595,6 +40067,14 @@
         "locationStart": 5846,
         "locationEnd": 5866,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_59",
+        "surfaceForm": "Gemengde Vereeniging",
+        "category": "PER",
+        "locationStart": 5846,
+        "locationEnd": 5866,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_68",
@@ -39713,6 +40193,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_60",
+        "surfaceForm": "Eerste Lauriersdwarsstraat",
+        "category": "PER",
+        "locationStart": 6090,
+        "locationEnd": 6116,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_76",
         "surfaceForm": "juli 1878",
         "category": "TIME",
@@ -39775,6 +40263,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_61",
+        "surfaceForm": "Sociaal-Democratische Vereeniging",
+        "category": "PER",
+        "locationStart": 6174,
+        "locationEnd": 6207,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_72",
         "surfaceForm": "Schroder",
         "category": "PER",
@@ -39809,6 +40305,22 @@
         "locationStart": 6240,
         "locationEnd": 6248,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_62",
+        "surfaceForm": "Schroder was Domela",
+        "category": "PER",
+        "locationStart": 6240,
+        "locationEnd": 6259,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_63",
+        "surfaceForm": "Schroder was Domela Nieuwenhuis",
+        "category": "PER",
+        "locationStart": 6240,
+        "locationEnd": 6271,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_73",
@@ -39853,6 +40365,14 @@
         "locationStart": 6253,
         "locationEnd": 6271,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_64",
+        "surfaceForm": "Domela Nieuwenhuis",
+        "category": "PER",
+        "locationStart": 6253,
+        "locationEnd": 6271,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_80",
@@ -39907,6 +40427,14 @@
         "locationStart": 6298,
         "locationEnd": 6314,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_65",
+        "surfaceForm": "Recht voor Allen",
+        "category": "PER",
+        "locationStart": 6298,
+        "locationEnd": 6314,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_75",
@@ -40007,6 +40535,14 @@
         "locationStart": 6524,
         "locationEnd": 6555,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_66",
+        "surfaceForm": "Sociaal-Democratische Bond",
+        "category": "PER",
+        "locationStart": 6524,
+        "locationEnd": 6550,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_77",
@@ -40135,6 +40671,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_67",
+        "surfaceForm": "Voor Allen",
+        "category": "PER",
+        "locationStart": 6709,
+        "locationEnd": 6719,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_81",
         "surfaceForm": "Door Allen",
         "category": "PER",
@@ -40159,6 +40703,14 @@
         "locationStart": 6721,
         "locationEnd": 6731,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_68",
+        "surfaceForm": "Door Allen",
+        "category": "PER",
+        "locationStart": 6721,
+        "locationEnd": 6731,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_90",
@@ -40241,6 +40793,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_69",
+        "surfaceForm": "H. Jansen",
+        "category": "PER",
+        "locationStart": 6959,
+        "locationEnd": 6968,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_71",
+        "surfaceForm": "H. Jansen van Galen",
+        "category": "PER",
+        "locationStart": 6959,
+        "locationEnd": 6978,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_51",
         "category": "PER",
         "surfaceForm": "Jansen",
@@ -40255,6 +40823,14 @@
         "locationStart": 6962,
         "locationEnd": 6978,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_70",
+        "surfaceForm": "Jansen van Galen",
+        "category": "PER",
+        "locationStart": 6962,
+        "locationEnd": 6978,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_84",
@@ -40273,6 +40849,30 @@
         "locationStart": 6973,
         "locationEnd": 6978,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_72",
+        "surfaceForm": "Volgens W.H.",
+        "category": "PER",
+        "locationStart": 7025,
+        "locationEnd": 7037,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_73",
+        "surfaceForm": "Volgens W.H. Vliegen",
+        "category": "PER",
+        "locationStart": 7025,
+        "locationEnd": 7045,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_77",
+        "surfaceForm": "Volgens W.H. Vliegen kon Schroder",
+        "category": "PER",
+        "locationStart": 7025,
+        "locationEnd": 7058,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_85",
@@ -40311,12 +40911,36 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_74",
+        "surfaceForm": "W.H. Vliegen",
+        "category": "PER",
+        "locationStart": 7033,
+        "locationEnd": 7045,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_76",
+        "surfaceForm": "W.H. Vliegen kon Schroder",
+        "category": "PER",
+        "locationStart": 7033,
+        "locationEnd": 7058,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_53",
         "category": "PER",
         "surfaceForm": "Vliegen",
         "locationStart": 7038,
         "locationEnd": 7045,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_75",
+        "surfaceForm": "Vliegen kon Schroder",
+        "category": "PER",
+        "locationStart": 7038,
+        "locationEnd": 7058,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_86",
@@ -40355,6 +40979,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_78",
+        "surfaceForm": "Volgens B.H.",
+        "category": "PER",
+        "locationStart": 7203,
+        "locationEnd": 7215,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_79",
+        "surfaceForm": "Volgens B.H. Pekelharing",
+        "category": "PER",
+        "locationStart": 7203,
+        "locationEnd": 7227,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_83",
+        "surfaceForm": "Volgens B.H. Pekelharing ontbrak het Schroder",
+        "category": "PER",
+        "locationStart": 7203,
+        "locationEnd": 7248,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_87",
         "surfaceForm": "B.H. Pekelharing",
         "category": "PER",
@@ -40391,12 +41039,36 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_80",
+        "surfaceForm": "B.H. Pekelharing",
+        "category": "PER",
+        "locationStart": 7211,
+        "locationEnd": 7227,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_82",
+        "surfaceForm": "B.H. Pekelharing ontbrak het Schroder",
+        "category": "PER",
+        "locationStart": 7211,
+        "locationEnd": 7248,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_55",
         "category": "PER",
         "surfaceForm": "Pekelharing",
         "locationStart": 7216,
         "locationEnd": 7227,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_81",
+        "surfaceForm": "Pekelharing ontbrak het Schroder",
+        "category": "PER",
+        "locationStart": 7216,
+        "locationEnd": 7248,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_88",
@@ -40543,6 +41215,70 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_84",
+        "surfaceForm": "Nederlandsche Bond",
+        "category": "PER",
+        "locationStart": 7411,
+        "locationEnd": 7429,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_86",
+        "surfaceForm": "Nederlandsche Bond voor Algemeen",
+        "category": "PER",
+        "locationStart": 7411,
+        "locationEnd": 7443,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_88",
+        "surfaceForm": "Nederlandsche Bond voor Algemeen Kies-",
+        "category": "PER",
+        "locationStart": 7411,
+        "locationEnd": 7449,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_85",
+        "surfaceForm": "Bond voor Algemeen",
+        "category": "PER",
+        "locationStart": 7425,
+        "locationEnd": 7443,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_87",
+        "surfaceForm": "Bond voor Algemeen Kies-",
+        "category": "PER",
+        "locationStart": 7425,
+        "locationEnd": 7449,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_89",
+        "surfaceForm": "Algemeen Kies-",
+        "category": "PER",
+        "locationStart": 7435,
+        "locationEnd": 7449,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_91",
+        "surfaceForm": "Algemeen Kies- en Stemrecht",
+        "category": "PER",
+        "locationStart": 7435,
+        "locationEnd": 7462,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_90",
+        "surfaceForm": "Kies- en Stemrecht",
+        "category": "PER",
+        "locationStart": 7444,
+        "locationEnd": 7462,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_99",
         "surfaceForm": "4 november",
         "category": "TIME",
@@ -40597,6 +41333,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_92",
+        "surfaceForm": "Vrije Gemeente",
+        "category": "PER",
+        "locationStart": 7526,
+        "locationEnd": 7540,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_101",
         "surfaceForm": "7 september 1884",
         "category": "TIME",
@@ -40639,6 +41383,14 @@
         "locationStart": 7631,
         "locationEnd": 7647,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_93",
+        "surfaceForm": "Toen Heldt",
+        "category": "PER",
+        "locationStart": 7653,
+        "locationEnd": 7663,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_94",
@@ -40855,6 +41607,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_94",
+        "surfaceForm": "Ris en Schroder",
+        "category": "PER",
+        "locationStart": 8021,
+        "locationEnd": 8036,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_99",
         "surfaceForm": "Schroder",
         "category": "PER",
@@ -40933,6 +41693,14 @@
         "locationStart": 8115,
         "locationEnd": 8123,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_95",
+        "surfaceForm": "Bij de Kamerverkiezingen",
+        "category": "PER",
+        "locationStart": 8241,
+        "locationEnd": 8265,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_101",
@@ -41149,6 +41917,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_96",
+        "surfaceForm": "J. Saks",
+        "category": "PER",
+        "locationStart": 8611,
+        "locationEnd": 8618,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_66",
         "category": "PER",
         "surfaceForm": "Saks",
@@ -41163,6 +41939,38 @@
         "locationStart": 8614,
         "locationEnd": 8618,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_97",
+        "surfaceForm": "Toen J.A.",
+        "category": "PER",
+        "locationStart": 8620,
+        "locationEnd": 8629,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_98",
+        "surfaceForm": "Toen J.A. Fortuijn",
+        "category": "PER",
+        "locationStart": 8620,
+        "locationEnd": 8638,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_102",
+        "surfaceForm": "Toen J.A. Fortuijn in de Centrale",
+        "category": "PER",
+        "locationStart": 8620,
+        "locationEnd": 8653,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_105",
+        "surfaceForm": "Toen J.A. Fortuijn in de Centrale Raad",
+        "category": "PER",
+        "locationStart": 8620,
+        "locationEnd": 8658,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_106",
@@ -41201,6 +42009,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_99",
+        "surfaceForm": "J.A. Fortuijn",
+        "category": "PER",
+        "locationStart": 8625,
+        "locationEnd": 8638,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_101",
+        "surfaceForm": "J.A. Fortuijn in de Centrale",
+        "category": "PER",
+        "locationStart": 8625,
+        "locationEnd": 8653,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_104",
+        "surfaceForm": "J.A. Fortuijn in de Centrale Raad",
+        "category": "PER",
+        "locationStart": 8625,
+        "locationEnd": 8658,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_65",
         "category": "",
         "surfaceForm": "a fortuij",
@@ -41215,6 +42047,22 @@
         "locationStart": 8630,
         "locationEnd": 8638,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_100",
+        "surfaceForm": "Fortuijn in de Centrale",
+        "category": "PER",
+        "locationStart": 8630,
+        "locationEnd": 8653,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_103",
+        "surfaceForm": "Fortuijn in de Centrale Raad",
+        "category": "PER",
+        "locationStart": 8630,
+        "locationEnd": 8658,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_107",
@@ -41241,6 +42089,14 @@
         "locationStart": 8645,
         "locationEnd": 8669,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_106",
+        "surfaceForm": "Centrale Raad",
+        "category": "PER",
+        "locationStart": 8645,
+        "locationEnd": 8658,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_117",
@@ -41303,6 +42159,14 @@
         "locationStart": 8709,
         "locationEnd": 8727,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_107",
+        "surfaceForm": "Domela Nieuwenhuis",
+        "category": "PER",
+        "locationStart": 8709,
+        "locationEnd": 8727,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_109",
@@ -41385,6 +42249,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_108",
+        "surfaceForm": "P.H. Schroder",
+        "category": "PER",
+        "locationStart": 9111,
+        "locationEnd": 9124,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_71",
         "category": "PER",
         "surfaceForm": "Schroder",
@@ -41417,6 +42289,14 @@
         "locationStart": 9241,
         "locationEnd": 9255,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_109",
+        "surfaceForm": "Centralen Raad",
+        "category": "PER",
+        "locationStart": 9241,
+        "locationEnd": 9255,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_112",
@@ -41543,6 +42423,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_110",
+        "surfaceForm": "Amsterdam Schroder",
+        "category": "PER",
+        "locationStart": 9532,
+        "locationEnd": 9550,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_125",
         "surfaceForm": "Schroder",
         "category": "PER",
@@ -41603,6 +42491,14 @@
         "locationStart": 9566,
         "locationEnd": 9614,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_111",
+        "surfaceForm": "Centrale Raad",
+        "category": "PER",
+        "locationStart": 9566,
+        "locationEnd": 9579,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_116",
@@ -41857,6 +42753,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_112",
+        "surfaceForm": "De Vrije",
+        "category": "PER",
+        "locationStart": 10133,
+        "locationEnd": 10141,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_113",
+        "surfaceForm": "De Vrije Socialist",
+        "category": "PER",
+        "locationStart": 10133,
+        "locationEnd": 10151,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_114",
+        "surfaceForm": "Vrije Socialist",
+        "category": "PER",
+        "locationStart": 10136,
+        "locationEnd": 10151,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_122",
         "surfaceForm": "Domela",
         "category": "PER",
@@ -41891,6 +42811,30 @@
         "locationStart": 10195,
         "locationEnd": 10201,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_115",
+        "surfaceForm": "Volgens P.J.",
+        "category": "PER",
+        "locationStart": 10213,
+        "locationEnd": 10225,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_116",
+        "surfaceForm": "Volgens P.J. Meertens",
+        "category": "PER",
+        "locationStart": 10213,
+        "locationEnd": 10234,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_120",
+        "surfaceForm": "Volgens P.J. Meertens hoorde Schroder",
+        "category": "PER",
+        "locationStart": 10213,
+        "locationEnd": 10250,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_123",
@@ -41929,6 +42873,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_117",
+        "surfaceForm": "P.J. Meertens",
+        "category": "PER",
+        "locationStart": 10221,
+        "locationEnd": 10234,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_119",
+        "surfaceForm": "P.J. Meertens hoorde Schroder",
+        "category": "PER",
+        "locationStart": 10221,
+        "locationEnd": 10250,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_78",
         "category": "PER",
         "surfaceForm": "j meer",
@@ -41943,6 +42903,14 @@
         "locationStart": 10226,
         "locationEnd": 10234,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_118",
+        "surfaceForm": "Meertens hoorde Schroder",
+        "category": "PER",
+        "locationStart": 10226,
+        "locationEnd": 10250,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_124",
@@ -41999,6 +42967,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_121",
+        "surfaceForm": "B.H. Pekelharing",
+        "category": "PER",
+        "locationStart": 10439,
+        "locationEnd": 10455,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "xlmr_ner_80",
         "category": "PER",
         "surfaceForm": "B.H. Pekelharing",
@@ -42047,6 +43023,14 @@
         "locationStart": 10484,
         "locationEnd": 10500,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_122",
+        "surfaceForm": "Vragen des Tijds",
+        "category": "PER",
+        "locationStart": 10484,
+        "locationEnd": 10500,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_81",
@@ -42143,6 +43127,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_123",
+        "surfaceForm": "H. Smits",
+        "category": "PER",
+        "locationStart": 10543,
+        "locationEnd": 10551,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_130",
         "surfaceForm": "De Nederlandsche arbeidersbeweging",
         "category": "ORG",
@@ -42159,6 +43151,14 @@
         "locationStart": 10553,
         "locationEnd": 10605,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_124",
+        "surfaceForm": "De Nederlandsche",
+        "category": "PER",
+        "locationStart": 10553,
+        "locationEnd": 10569,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_131",
@@ -42229,6 +43229,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_125",
+        "surfaceForm": "Dageraad I",
+        "category": "PER",
+        "locationStart": 10641,
+        "locationEnd": 10651,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_133",
         "surfaceForm": "H. Jansen",
         "category": "PER",
@@ -42263,12 +43271,36 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_126",
+        "surfaceForm": "H. Jansen",
+        "category": "PER",
+        "locationStart": 10679,
+        "locationEnd": 10688,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_128",
+        "surfaceForm": "H. Jansen van Galen",
+        "category": "PER",
+        "locationStart": 10679,
+        "locationEnd": 10698,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_83",
         "category": "PER",
         "surfaceForm": "Jansen van Galen",
         "locationStart": 10682,
         "locationEnd": 10698,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_127",
+        "surfaceForm": "Jansen van Galen",
+        "category": "PER",
+        "locationStart": 10682,
+        "locationEnd": 10698,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_134",
@@ -42323,6 +43355,30 @@
         "locationStart": 10745,
         "locationEnd": 10763,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_129",
+        "surfaceForm": "De Vrije",
+        "category": "PER",
+        "locationStart": 10745,
+        "locationEnd": 10753,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_130",
+        "surfaceForm": "De Vrije Socialist",
+        "category": "PER",
+        "locationStart": 10745,
+        "locationEnd": 10763,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_131",
+        "surfaceForm": "Vrije Socialist",
+        "category": "PER",
+        "locationStart": 10748,
+        "locationEnd": 10763,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_83",
@@ -42391,6 +43447,14 @@
         "locationStart": 10818,
         "locationEnd": 10876,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_132",
+        "surfaceForm": "J.A. Nieuwenhuis",
+        "category": "PER",
+        "locationStart": 10818,
+        "locationEnd": 10834,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_84",
@@ -42487,6 +43551,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_133",
+        "surfaceForm": "J.A. Nieuwenhuis",
+        "category": "PER",
+        "locationStart": 10894,
+        "locationEnd": 10910,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_85",
         "category": "PER",
         "surfaceForm": "Nieuwenhuis",
@@ -42555,6 +43627,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_134",
+        "surfaceForm": "P.J. Meertens",
+        "category": "PER",
+        "locationStart": 10969,
+        "locationEnd": 10982,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_86",
         "category": "PER",
         "surfaceForm": "Meertens",
@@ -42615,6 +43695,30 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "spacy_matcher_nl_135",
+        "surfaceForm": "Petrus Hendrikus",
+        "category": "PER",
+        "locationStart": 10995,
+        "locationEnd": 11011,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_136",
+        "surfaceForm": "Petrus Hendrikus Antonius",
+        "category": "PER",
+        "locationStart": 10995,
+        "locationEnd": 11020,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_137",
+        "surfaceForm": "Hendrikus Antonius",
+        "category": "PER",
+        "locationStart": 11002,
+        "locationEnd": 11020,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_86",
         "category": "ORG",
         "surfaceForm": "Mededelingenblad",
@@ -42663,6 +43767,14 @@
         "locationStart": 11074,
         "locationEnd": 11133,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_138",
+        "surfaceForm": "J.J. Giele",
+        "category": "PER",
+        "locationStart": 11074,
+        "locationEnd": 11084,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_89",
@@ -42777,6 +43889,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_139",
+        "surfaceForm": "J. Saks",
+        "category": "PER",
+        "locationStart": 11141,
+        "locationEnd": 11148,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_88",
         "category": "PER",
         "surfaceForm": "Saks",
@@ -42861,6 +43981,14 @@
         "locationStart": 11201,
         "locationEnd": 11211,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_140",
+        "surfaceForm": "J.J. Giele",
+        "category": "PER",
+        "locationStart": 11201,
+        "locationEnd": 11211,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_91",
@@ -42961,6 +44089,14 @@
         "locationStart": 11324,
         "locationEnd": 11330,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_141",
+        "surfaceForm": "D. Bos",
+        "category": "PER",
+        "locationStart": 11324,
+        "locationEnd": 11330,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_91",
@@ -43073,6 +44209,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_142",
+        "surfaceForm": "D. Nas",
+        "category": "PER",
+        "locationStart": 11436,
+        "locationEnd": 11442,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_93",
         "category": "PER",
         "surfaceForm": "Nas",
@@ -43131,6 +44275,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_143",
+        "surfaceForm": "Hendrik Gerhard",
+        "category": "PER",
+        "locationStart": 11473,
+        "locationEnd": 11488,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_160",
         "surfaceForm": "Den Haag",
         "category": "ORG",
@@ -43147,6 +44299,30 @@
         "locationStart": 11549,
         "locationEnd": 11557,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_144",
+        "surfaceForm": "Den Haag",
+        "category": "PER",
+        "locationStart": 11549,
+        "locationEnd": 11557,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_145",
+        "surfaceForm": "Den Haag 2002).Portret",
+        "category": "PER",
+        "locationStart": 11549,
+        "locationEnd": 11571,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_146",
+        "surfaceForm": "Haag 2002).Portret",
+        "category": "PER",
+        "locationStart": 11553,
+        "locationEnd": 11571,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_161",
@@ -43183,6 +44359,54 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_147",
+        "surfaceForm": "Petrus Hendrikus",
+        "category": "PER",
+        "locationStart": 11573,
+        "locationEnd": 11589,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_148",
+        "surfaceForm": "Petrus Hendrikus Antonius",
+        "category": "PER",
+        "locationStart": 11573,
+        "locationEnd": 11598,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_150",
+        "surfaceForm": "Petrus Hendrikus Antonius Schroder",
+        "category": "PER",
+        "locationStart": 11573,
+        "locationEnd": 11607,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_149",
+        "surfaceForm": "Hendrikus Antonius",
+        "category": "PER",
+        "locationStart": 11580,
+        "locationEnd": 11598,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_151",
+        "surfaceForm": "Hendrikus Antonius Schroder",
+        "category": "PER",
+        "locationStart": 11580,
+        "locationEnd": 11607,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_152",
+        "surfaceForm": "Antonius Schroder",
+        "category": "PER",
+        "locationStart": 11590,
+        "locationEnd": 11607,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_162",
         "surfaceForm": "De Vrije Socialist",
         "category": "MISC",
@@ -43199,6 +44423,30 @@
         "locationStart": 11614,
         "locationEnd": 11632,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_153",
+        "surfaceForm": "De Vrije",
+        "category": "PER",
+        "locationStart": 11614,
+        "locationEnd": 11622,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_154",
+        "surfaceForm": "De Vrije Socialist",
+        "category": "PER",
+        "locationStart": 11614,
+        "locationEnd": 11632,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_155",
+        "surfaceForm": "Vrije Socialist",
+        "category": "PER",
+        "locationStart": 11617,
+        "locationEnd": 11632,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_99",
@@ -43227,6 +44475,30 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_156",
+        "surfaceForm": "Schroder in het Biografisch",
+        "category": "PER",
+        "locationStart": 11648,
+        "locationEnd": 11675,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_157",
+        "surfaceForm": "Schroder in het Biografisch Portaal",
+        "category": "PER",
+        "locationStart": 11648,
+        "locationEnd": 11683,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_159",
+        "surfaceForm": "Schroder in het Biografisch Portaal Auteur",
+        "category": "PER",
+        "locationStart": 11648,
+        "locationEnd": 11690,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_164",
         "surfaceForm": "Biografisch Portaal Auteur",
         "category": "MISC",
@@ -43243,6 +44515,30 @@
         "locationStart": 11664,
         "locationEnd": 11683,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_158",
+        "surfaceForm": "Biografisch Portaal",
+        "category": "PER",
+        "locationStart": 11664,
+        "locationEnd": 11683,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_160",
+        "surfaceForm": "Biografisch Portaal Auteur",
+        "category": "PER",
+        "locationStart": 11664,
+        "locationEnd": 11690,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_161",
+        "surfaceForm": "Portaal Auteur",
+        "category": "PER",
+        "locationStart": 11676,
+        "locationEnd": 11690,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_165",
@@ -43263,6 +44559,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_162",
+        "surfaceForm": "Bob Reinalda",
+        "category": "PER",
+        "locationStart": 11691,
+        "locationEnd": 11703,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_163",
+        "surfaceForm": "Bob Reinalda Oorspronkelijk",
+        "category": "PER",
+        "locationStart": 11691,
+        "locationEnd": 11718,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_100",
         "category": "PER",
         "surfaceForm": "bob reinalda",
@@ -43279,12 +44591,28 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_164",
+        "surfaceForm": "Reinalda Oorspronkelijk",
+        "category": "PER",
+        "locationStart": 11695,
+        "locationEnd": 11718,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_94",
         "category": "ORG",
         "surfaceForm": "BWSA",
         "locationStart": 11735,
         "locationEnd": 11739,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_165",
+        "surfaceForm": "Laatst gewijzigd:13-05-2003 Gebruik",
+        "category": "PER",
+        "locationStart": 11761,
+        "locationEnd": 11796,
+        "method": "spacy_matcher_nl"
       }
     ],
     "time_expressions": [

@@ -12732,6 +12732,14 @@
     },
     "entities": [
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "In de Amsterdamse",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 17,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_0",
         "surfaceForm": "Amsterdamse",
         "category": "MISC",
@@ -12758,6 +12766,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Amsterdamse volkswijk De",
+        "category": "PER",
+        "locationStart": 6,
+        "locationEnd": 30,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Amsterdamse volkswijk De Pijp",
+        "category": "PER",
+        "locationStart": 6,
+        "locationEnd": 35,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_1",
         "surfaceForm": "De Pijp",
         "category": "LOC",
@@ -12782,6 +12806,14 @@
         "locationStart": 28,
         "locationEnd": 35,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "De Pijp",
+        "category": "PER",
+        "locationStart": 28,
+        "locationEnd": 35,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_0",
@@ -12824,6 +12856,14 @@
         "locationStart": 61,
         "locationEnd": 76,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Emanuel Boekman",
+        "category": "PER",
+        "locationStart": 61,
+        "locationEnd": 76,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_0",
@@ -12894,6 +12934,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Onderwijs- en Kunstzaken",
+        "category": "PER",
+        "locationStart": 162,
+        "locationEnd": 186,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Kunstzaken te Amsterdam",
+        "category": "PER",
+        "locationStart": 176,
+        "locationEnd": 199,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_5",
         "surfaceForm": "Amsterdam",
         "category": "LOC",
@@ -12962,6 +13018,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "In de Amsterdamse",
+        "category": "PER",
+        "locationStart": 311,
+        "locationEnd": 328,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_7",
         "surfaceForm": "Amsterdamse",
         "category": "MISC",
@@ -12988,6 +13052,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Amsterdamse volkswijk De",
+        "category": "PER",
+        "locationStart": 317,
+        "locationEnd": 341,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Amsterdamse volkswijk De Pijp",
+        "category": "PER",
+        "locationStart": 317,
+        "locationEnd": 346,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_8",
         "surfaceForm": "De Pijp",
         "category": "LOC",
@@ -13012,6 +13092,14 @@
         "locationStart": 339,
         "locationEnd": 346,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "De Pijp",
+        "category": "PER",
+        "locationStart": 339,
+        "locationEnd": 346,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_4",
@@ -13054,6 +13142,14 @@
         "locationStart": 372,
         "locationEnd": 387,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "Emanuel Boekman",
+        "category": "PER",
+        "locationStart": 372,
+        "locationEnd": 387,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_4",
@@ -13106,6 +13202,46 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "Maurits Boekman",
+        "category": "PER",
+        "locationStart": 438,
+        "locationEnd": 453,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "Maurits Boekman en Heintje",
+        "category": "PER",
+        "locationStart": 438,
+        "locationEnd": 464,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_16",
+        "surfaceForm": "Maurits Boekman en Heintje Peereboom",
+        "category": "PER",
+        "locationStart": 438,
+        "locationEnd": 474,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "Boekman en Heintje",
+        "category": "PER",
+        "locationStart": 446,
+        "locationEnd": 464,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_15",
+        "surfaceForm": "Boekman en Heintje Peereboom",
+        "category": "PER",
+        "locationStart": 446,
+        "locationEnd": 474,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_11",
         "surfaceForm": "Heintje Peereboom",
         "category": "PER",
@@ -13138,6 +13274,14 @@
         "locationStart": 457,
         "locationEnd": 474,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_17",
+        "surfaceForm": "Heintje Peereboom",
+        "category": "PER",
+        "locationStart": 457,
+        "locationEnd": 474,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_12",
@@ -13258,6 +13402,14 @@
         "locationStart": 846,
         "locationEnd": 862,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_18",
+        "surfaceForm": "Gerard Doustraat",
+        "category": "PER",
+        "locationStart": 846,
+        "locationEnd": 862,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_16",
@@ -13382,6 +13534,54 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_19",
+        "surfaceForm": "Algemeene Nederlandsche",
+        "category": "PER",
+        "locationStart": 1364,
+        "locationEnd": 1387,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_20",
+        "surfaceForm": "Algemeene Nederlandsche Typografenbond",
+        "category": "PER",
+        "locationStart": 1364,
+        "locationEnd": 1402,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_21",
+        "surfaceForm": "Nederlandsche Typografenbond",
+        "category": "PER",
+        "locationStart": 1374,
+        "locationEnd": 1402,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_22",
+        "surfaceForm": "Ooit typeerde A.B.",
+        "category": "PER",
+        "locationStart": 1404,
+        "locationEnd": 1422,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_23",
+        "surfaceForm": "Ooit typeerde A.B. Kleerekoper",
+        "category": "PER",
+        "locationStart": 1404,
+        "locationEnd": 1434,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_25",
+        "surfaceForm": "Ooit typeerde A.B. Kleerekoper Boekman",
+        "category": "PER",
+        "locationStart": 1404,
+        "locationEnd": 1442,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_21",
         "surfaceForm": "A.B. Kleerekoper Boekman",
         "category": "PER",
@@ -13408,6 +13608,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_24",
+        "surfaceForm": "A.B. Kleerekoper",
+        "category": "PER",
+        "locationStart": 1418,
+        "locationEnd": 1434,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_26",
+        "surfaceForm": "A.B. Kleerekoper Boekman",
+        "category": "PER",
+        "locationStart": 1418,
+        "locationEnd": 1442,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_15",
         "category": "PER",
         "surfaceForm": "Kleerekoper",
@@ -13424,12 +13640,28 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "spacy_matcher_nl_27",
+        "surfaceForm": "Kleerekoper Boekman",
+        "category": "PER",
+        "locationStart": 1423,
+        "locationEnd": 1442,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_15",
         "category": "PER",
         "surfaceForm": "Boekman",
         "locationStart": 1435,
         "locationEnd": 1442,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_28",
+        "surfaceForm": "Via zelfstudie behaalde Boekman",
+        "category": "PER",
+        "locationStart": 1502,
+        "locationEnd": 1533,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_22",
@@ -13490,6 +13722,14 @@
         "locationStart": 1570,
         "locationEnd": 1588,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_29",
+        "surfaceForm": "Staathuishoudkunde en Staatsinrichting",
+        "category": "PER",
+        "locationStart": 1570,
+        "locationEnd": 1608,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_24",
@@ -13576,6 +13816,14 @@
         "locationStart": 1707,
         "locationEnd": 1717,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_30",
+        "surfaceForm": "Statistiek van de Rijksverzekeringsbank",
+        "category": "PER",
+        "locationStart": 1707,
+        "locationEnd": 1746,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_27",
@@ -13698,6 +13946,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_31",
+        "surfaceForm": "Jansje Nerden",
+        "category": "PER",
+        "locationStart": 2002,
+        "locationEnd": 2015,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_23",
         "category": "TIME",
         "surfaceForm": "1920",
@@ -13766,6 +14022,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_32",
+        "surfaceForm": "Commissie voor het Politieke",
+        "category": "PER",
+        "locationStart": 2130,
+        "locationEnd": 2158,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_33",
+        "surfaceForm": "Commissie voor het Politieke Systeem",
+        "category": "PER",
+        "locationStart": 2130,
+        "locationEnd": 2166,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_34",
+        "surfaceForm": "Politieke Systeem",
+        "category": "PER",
+        "locationStart": 2149,
+        "locationEnd": 2166,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_33",
         "surfaceForm": "P.J. Troelstra",
         "category": "PER",
@@ -13790,6 +14070,14 @@
         "locationStart": 2204,
         "locationEnd": 2218,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_35",
+        "surfaceForm": "P.J. Troelstra",
+        "category": "PER",
+        "locationStart": 2204,
+        "locationEnd": 2218,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_24",
@@ -13832,6 +14120,14 @@
         "locationStart": 2230,
         "locationEnd": 2234,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_36",
+        "surfaceForm": "Geleidelijk aan keerde Boekman",
+        "category": "PER",
+        "locationStart": 2303,
+        "locationEnd": 2333,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_35",
@@ -14004,6 +14300,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_37",
+        "surfaceForm": "De Sociaal-Democraat",
+        "category": "PER",
+        "locationStart": 2659,
+        "locationEnd": 2679,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "xlmr_ner_28",
         "category": "ORG",
         "surfaceForm": "De Sociaal-Democraat",
@@ -14054,6 +14358,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_38",
+        "surfaceForm": "De Fakkel",
+        "category": "PER",
+        "locationStart": 2867,
+        "locationEnd": 2876,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "xlmr_ner_32",
         "category": "PER",
         "surfaceForm": "De Fakkel",
@@ -14098,6 +14410,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_39",
+        "surfaceForm": "Onafhankelijke Socialistische",
+        "category": "PER",
+        "locationStart": 2933,
+        "locationEnd": 2962,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_40",
+        "surfaceForm": "Onafhankelijke Socialistische Partij",
+        "category": "PER",
+        "locationStart": 2933,
+        "locationEnd": 2969,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_41",
+        "surfaceForm": "Socialistische Partij",
+        "category": "PER",
+        "locationStart": 2948,
+        "locationEnd": 2969,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_43",
         "surfaceForm": "Boekman",
         "category": "PER",
@@ -14140,6 +14476,14 @@
         "locationStart": 2991,
         "locationEnd": 3011,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_42",
+        "surfaceForm": "De Sociaal-Democraat",
+        "category": "PER",
+        "locationStart": 2991,
+        "locationEnd": 3011,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_45",
@@ -14258,6 +14602,14 @@
         "locationStart": 3322,
         "locationEnd": 3331,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_43",
+        "surfaceForm": "Onderwijs en Kunstzaken",
+        "category": "PER",
+        "locationStart": 3322,
+        "locationEnd": 3345,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_48",
@@ -14390,12 +14742,36 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_44",
+        "surfaceForm": "Universiteit van Amsterdam",
+        "category": "PER",
+        "locationStart": 3683,
+        "locationEnd": 3709,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_38",
         "category": "LOC",
         "surfaceForm": "amsterdam",
         "locationStart": 3700,
         "locationEnd": 3709,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_45",
+        "surfaceForm": "Daar studeerde hij Sociale",
+        "category": "PER",
+        "locationStart": 3711,
+        "locationEnd": 3737,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_46",
+        "surfaceForm": "Daar studeerde hij Sociale Geografie",
+        "category": "PER",
+        "locationStart": 3711,
+        "locationEnd": 3747,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_53",
@@ -14414,6 +14790,14 @@
         "locationStart": 3730,
         "locationEnd": 3747,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_47",
+        "surfaceForm": "Sociale Geografie",
+        "category": "PER",
+        "locationStart": 3730,
+        "locationEnd": 3747,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_39",
@@ -14528,6 +14912,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_48",
+        "surfaceForm": "Amsterdam W.",
+        "category": "PER",
+        "locationStart": 3988,
+        "locationEnd": 4000,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_50",
+        "surfaceForm": "Amsterdam W. de Vlugt",
+        "category": "PER",
+        "locationStart": 3988,
+        "locationEnd": 4009,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_58",
         "surfaceForm": "W. de Vlugt",
         "category": "PER",
@@ -14560,6 +14960,14 @@
         "locationStart": 3998,
         "locationEnd": 4009,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_49",
+        "surfaceForm": "W. de Vlugt",
+        "category": "PER",
+        "locationStart": 3998,
+        "locationEnd": 4009,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_59",

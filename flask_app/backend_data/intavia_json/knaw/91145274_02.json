@@ -18029,6 +18029,22 @@
     },
     "entities": [
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Levensbericht door K.",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 21,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Levensbericht door K. Bakker",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 28,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_0",
         "surfaceForm": "K. Bakker",
         "category": "PER",
@@ -18081,12 +18097,100 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "K. Bakker",
+        "category": "PER",
+        "locationStart": 19,
+        "locationEnd": 28,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "K. Bakker en S.B.J.",
+        "category": "PER",
+        "locationStart": 19,
+        "locationEnd": 38,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "K. Bakker en S.B.J. Menken",
+        "category": "PER",
+        "locationStart": 19,
+        "locationEnd": 45,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "K. Bakker en S.B.J. Menken Jacobus",
+        "category": "PER",
+        "locationStart": 19,
+        "locationEnd": 53,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "K. Bakker en S.B.J. Menken Jacobus Theodorus",
+        "category": "PER",
+        "locationStart": 19,
+        "locationEnd": 63,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_18",
+        "surfaceForm": "K. Bakker en S.B.J. Menken Jacobus Theodorus Wiebes",
+        "category": "PER",
+        "locationStart": 19,
+        "locationEnd": 70,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_1",
         "category": "PER",
         "surfaceForm": "Bakker",
         "locationStart": 22,
         "locationEnd": 28,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Bakker en S.B.J.",
+        "category": "PER",
+        "locationStart": 22,
+        "locationEnd": 38,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Bakker en S.B.J. Menken",
+        "category": "PER",
+        "locationStart": 22,
+        "locationEnd": 45,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Bakker en S.B.J. Menken Jacobus",
+        "category": "PER",
+        "locationStart": 22,
+        "locationEnd": 53,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "Bakker en S.B.J. Menken Jacobus Theodorus",
+        "category": "PER",
+        "locationStart": 22,
+        "locationEnd": 63,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_17",
+        "surfaceForm": "Bakker en S.B.J. Menken Jacobus Theodorus Wiebes",
+        "category": "PER",
+        "locationStart": 22,
+        "locationEnd": 70,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_1",
@@ -18133,12 +18237,68 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "S.B.J. Menken",
+        "category": "PER",
+        "locationStart": 32,
+        "locationEnd": 45,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "S.B.J. Menken Jacobus",
+        "category": "PER",
+        "locationStart": 32,
+        "locationEnd": 53,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "S.B.J. Menken Jacobus Theodorus",
+        "category": "PER",
+        "locationStart": 32,
+        "locationEnd": 63,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_19",
+        "surfaceForm": "S.B.J. Menken Jacobus Theodorus Wiebes",
+        "category": "PER",
+        "locationStart": 32,
+        "locationEnd": 70,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_2",
         "category": "PER",
         "surfaceForm": "Menken",
         "locationStart": 39,
         "locationEnd": 45,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "Menken Jacobus",
+        "category": "PER",
+        "locationStart": 39,
+        "locationEnd": 53,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_15",
+        "surfaceForm": "Menken Jacobus Theodorus",
+        "category": "PER",
+        "locationStart": 39,
+        "locationEnd": 63,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_20",
+        "surfaceForm": "Menken Jacobus Theodorus Wiebes",
+        "category": "PER",
+        "locationStart": 39,
+        "locationEnd": 70,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_2",
@@ -18181,6 +18341,30 @@
         "locationStart": 46,
         "locationEnd": 70,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_16",
+        "surfaceForm": "Jacobus Theodorus",
+        "category": "PER",
+        "locationStart": 46,
+        "locationEnd": 63,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_21",
+        "surfaceForm": "Jacobus Theodorus Wiebes",
+        "category": "PER",
+        "locationStart": 46,
+        "locationEnd": 70,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_22",
+        "surfaceForm": "Theodorus Wiebes",
+        "category": "PER",
+        "locationStart": 54,
+        "locationEnd": 70,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_3",
@@ -18277,6 +18461,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_23",
+        "surfaceForm": "Jacobus Theodorus",
+        "category": "PER",
+        "locationStart": 110,
+        "locationEnd": 127,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_24",
+        "surfaceForm": "Jacobus Theodorus Wiebes",
+        "category": "PER",
+        "locationStart": 110,
+        "locationEnd": 134,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_25",
+        "surfaceForm": "Theodorus Wiebes",
+        "category": "PER",
+        "locationStart": 118,
+        "locationEnd": 134,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_6",
         "category": "LOCATION",
         "surfaceForm": "Rotterdam",
@@ -18327,6 +18535,14 @@
         "locationStart": 138,
         "locationEnd": 169,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_26",
+        "surfaceForm": "Jacobus Theodorus",
+        "category": "PER",
+        "locationStart": 138,
+        "locationEnd": 155,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_7",
@@ -18545,6 +18761,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_27",
+        "surfaceForm": "Zijn moeder was Adriana",
+        "category": "PER",
+        "locationStart": 260,
+        "locationEnd": 283,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_28",
+        "surfaceForm": "Zijn moeder was Adriana Verhagen",
+        "category": "PER",
+        "locationStart": 260,
+        "locationEnd": 292,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_12",
         "category": "ORGANIZATION",
         "surfaceForm": "Rijks hbs",
@@ -18595,6 +18827,14 @@
         "locationStart": 276,
         "locationEnd": 292,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_29",
+        "surfaceForm": "Adriana Verhagen",
+        "category": "PER",
+        "locationStart": 276,
+        "locationEnd": 292,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_13",
@@ -18649,6 +18889,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_30",
+        "surfaceForm": "Antonie Wiebes",
+        "category": "PER",
+        "locationStart": 305,
+        "locationEnd": 319,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_12",
         "surfaceForm": "Hoofdingenieur",
         "category": "ORG",
@@ -18657,6 +18905,14 @@
         "tokenStart": 55,
         "tokenEnd": 56,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_31",
+        "surfaceForm": "Hoofdingenieur bij Rijkswaterstaat",
+        "category": "PER",
+        "locationStart": 321,
+        "locationEnd": 355,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_14",
@@ -18701,6 +18957,14 @@
         "locationStart": 340,
         "locationEnd": 355,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_32",
+        "surfaceForm": "Het gezin Wiebes",
+        "category": "PER",
+        "locationStart": 357,
+        "locationEnd": 373,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_29",
@@ -18843,6 +19107,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_33",
+        "surfaceForm": "Den Haag",
+        "category": "PER",
+        "locationStart": 432,
+        "locationEnd": 440,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_2",
         "category": "LOC",
         "surfaceForm": "haag",
@@ -18957,6 +19229,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_34",
+        "surfaceForm": "Rijks hbs in Vlissingen",
+        "category": "PER",
+        "locationStart": 478,
+        "locationEnd": 501,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_19",
         "surfaceForm": "Vlissingen",
         "category": "LOC",
@@ -19053,6 +19333,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_35",
+        "surfaceForm": "Rijksuniversiteit Leiden",
+        "category": "PER",
+        "locationStart": 557,
+        "locationEnd": 581,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_3",
         "category": "LOC",
         "surfaceForm": "leiden",
@@ -19111,6 +19399,14 @@
         "locationStart": 619,
         "locationEnd": 630,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_36",
+        "surfaceForm": "Koos Wiebes",
+        "category": "PER",
+        "locationStart": 619,
+        "locationEnd": 630,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_22",
@@ -19297,12 +19593,52 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_37",
+        "surfaceForm": "Rijksmuseum van Natuurlijke",
+        "category": "PER",
+        "locationStart": 952,
+        "locationEnd": 979,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_38",
+        "surfaceForm": "Rijksmuseum van Natuurlijke Historie",
+        "category": "PER",
+        "locationStart": 952,
+        "locationEnd": 988,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_39",
+        "surfaceForm": "Natuurlijke Historie",
+        "category": "PER",
+        "locationStart": 968,
+        "locationEnd": 988,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_41",
+        "surfaceForm": "Natuurlijke Historie in Leiden",
+        "category": "PER",
+        "locationStart": 968,
+        "locationEnd": 998,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_36",
         "category": "PERSON",
         "surfaceForm": "Koos",
         "locationStart": 971,
         "locationEnd": 975,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_40",
+        "surfaceForm": "Historie in Leiden",
+        "category": "PER",
+        "locationStart": 980,
+        "locationEnd": 998,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_24",
@@ -19707,6 +20043,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_42",
+        "surfaceForm": "Universiteiten van Leiden",
+        "category": "PER",
+        "locationStart": 1561,
+        "locationEnd": 1586,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_5",
         "surfaceForm": "Leiden",
         "category": "LOC",
@@ -19747,6 +20091,14 @@
         "locationStart": 1580,
         "locationEnd": 1586,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_43",
+        "surfaceForm": "Leiden en Amsterdam",
+        "category": "PER",
+        "locationStart": 1580,
+        "locationEnd": 1599,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_29",
@@ -20025,12 +20377,36 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_44",
+        "surfaceForm": "Rijksmuseum van Natuurlijke",
+        "category": "PER",
+        "locationStart": 1785,
+        "locationEnd": 1812,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_45",
+        "surfaceForm": "Rijksmuseum van Natuurlijke Historie",
+        "category": "PER",
+        "locationStart": 1785,
+        "locationEnd": 1821,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_75",
         "category": "PERSON",
         "surfaceForm": "Koos",
         "locationStart": 1790,
         "locationEnd": 1794,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_46",
+        "surfaceForm": "Natuurlijke Historie",
+        "category": "PER",
+        "locationStart": 1801,
+        "locationEnd": 1821,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_76",
@@ -20349,6 +20725,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_47",
+        "surfaceForm": "H. Boschma",
+        "category": "PER",
+        "locationStart": 2210,
+        "locationEnd": 2220,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_96",
         "category": "PERSON",
         "surfaceForm": "Koos",
@@ -20393,12 +20777,36 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_48",
+        "surfaceForm": "Museum van Natuurlijke",
+        "category": "PER",
+        "locationStart": 2250,
+        "locationEnd": 2272,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_49",
+        "surfaceForm": "Museum van Natuurlijke Historie",
+        "category": "PER",
+        "locationStart": 2250,
+        "locationEnd": 2281,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_97",
         "category": "PERSON",
         "surfaceForm": "Koos",
         "locationStart": 2252,
         "locationEnd": 2256,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_50",
+        "surfaceForm": "Natuurlijke Historie",
+        "category": "PER",
+        "locationStart": 2261,
+        "locationEnd": 2281,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_98",
@@ -20895,12 +21303,36 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_51",
+        "surfaceForm": "Jacobus Theodorus",
+        "category": "PER",
+        "locationStart": 3209,
+        "locationEnd": 3226,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_52",
+        "surfaceForm": "Jacobus Theodorus Wiebes",
+        "category": "PER",
+        "locationStart": 3209,
+        "locationEnd": 3233,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_19",
         "category": "PER",
         "surfaceForm": "theodorus wiebes",
         "locationStart": 3217,
         "locationEnd": 3233,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_53",
+        "surfaceForm": "Theodorus Wiebes",
+        "category": "PER",
+        "locationStart": 3217,
+        "locationEnd": 3233,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_143",
@@ -21183,6 +21615,14 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "spacy_matcher_nl_54",
+        "surfaceForm": "Daar heeft Koos",
+        "category": "PER",
+        "locationStart": 3761,
+        "locationEnd": 3776,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_169",
         "category": "PERSON",
         "surfaceForm": "Koos",
@@ -21335,6 +21775,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_55",
+        "surfaceForm": "Proceedings van de Akademie",
+        "category": "PER",
+        "locationStart": 3994,
+        "locationEnd": 4021,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_180",
         "category": "PERSON",
         "surfaceForm": "Koos",
@@ -21385,6 +21833,54 @@
         "locationStart": 4045,
         "locationEnd": 4075,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_56",
+        "surfaceForm": "The Indo-",
+        "category": "PER",
+        "locationStart": 4045,
+        "locationEnd": 4054,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_57",
+        "surfaceForm": "The Indo- Australian",
+        "category": "PER",
+        "locationStart": 4045,
+        "locationEnd": 4065,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_59",
+        "surfaceForm": "The Indo- Australian Agaoninae",
+        "category": "PER",
+        "locationStart": 4045,
+        "locationEnd": 4075,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_58",
+        "surfaceForm": "Indo- Australian",
+        "category": "PER",
+        "locationStart": 4049,
+        "locationEnd": 4065,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_60",
+        "surfaceForm": "Indo- Australian Agaoninae",
+        "category": "PER",
+        "locationStart": 4049,
+        "locationEnd": 4075,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_61",
+        "surfaceForm": "Australian Agaoninae",
+        "category": "PER",
+        "locationStart": 4055,
+        "locationEnd": 4075,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_183",
@@ -21471,6 +21967,14 @@
         "locationStart": 4132,
         "locationEnd": 4141,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_62",
+        "surfaceForm": "C.C. Berg",
+        "category": "PER",
+        "locationStart": 4132,
+        "locationEnd": 4141,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_29",
@@ -21579,6 +22083,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_63",
+        "surfaceForm": "Verhandelingen van de Afdeling",
+        "category": "PER",
+        "locationStart": 4195,
+        "locationEnd": 4225,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_64",
+        "surfaceForm": "Verhandelingen van de Afdeling Natuurkunde",
+        "category": "PER",
+        "locationStart": 4195,
+        "locationEnd": 4237,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_190",
         "category": "PERSON",
         "surfaceForm": "Koos",
@@ -21605,12 +22125,36 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_65",
+        "surfaceForm": "Afdeling Natuurkunde",
+        "category": "PER",
+        "locationStart": 4217,
+        "locationEnd": 4237,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_67",
+        "surfaceForm": "Afdeling Natuurkunde van de Akademie",
+        "category": "PER",
+        "locationStart": 4217,
+        "locationEnd": 4253,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_191",
         "category": "PERSON",
         "surfaceForm": "Koos",
         "locationStart": 4226,
         "locationEnd": 4230,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_66",
+        "surfaceForm": "Natuurkunde van de Akademie",
+        "category": "PER",
+        "locationStart": 4226,
+        "locationEnd": 4253,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_54",
@@ -21789,6 +22333,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_68",
+        "surfaceForm": "Koos vormen de Proceedings",
+        "category": "PER",
+        "locationStart": 4621,
+        "locationEnd": 4647,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_56",
         "surfaceForm": "Proceedings van de Akademie",
         "category": "ORG",
@@ -21825,6 +22377,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_69",
+        "surfaceForm": "Proceedings van de Akademie",
+        "category": "PER",
+        "locationStart": 4636,
+        "locationEnd": 4663,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_57",
         "surfaceForm": "Science Citation Index",
         "category": "ORG",
@@ -21851,6 +22411,30 @@
         "locationStart": 4734,
         "locationEnd": 4756,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_70",
+        "surfaceForm": "Science Citation",
+        "category": "PER",
+        "locationStart": 4734,
+        "locationEnd": 4750,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_71",
+        "surfaceForm": "Science Citation Index",
+        "category": "PER",
+        "locationStart": 4734,
+        "locationEnd": 4756,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_72",
+        "surfaceForm": "Citation Index",
+        "category": "PER",
+        "locationStart": 4742,
+        "locationEnd": 4756,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_58",
@@ -22139,6 +22723,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_73",
+        "surfaceForm": "Rijksmuseum van Natuurlijke",
+        "category": "PER",
+        "locationStart": 5724,
+        "locationEnd": 5751,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_74",
+        "surfaceForm": "Rijksmuseum van Natuurlijke Historie",
+        "category": "PER",
+        "locationStart": 5724,
+        "locationEnd": 5760,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_75",
+        "surfaceForm": "Natuurlijke Historie",
+        "category": "PER",
+        "locationStart": 5740,
+        "locationEnd": 5760,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_57",
         "surfaceForm": "1970",
         "category": "TIME",
@@ -22191,6 +22799,14 @@
         "locationStart": 5846,
         "locationEnd": 5870,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_76",
+        "surfaceForm": "Rijksuniversiteit Leiden",
+        "category": "PER",
+        "locationStart": 5846,
+        "locationEnd": 5870,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_36",
@@ -22281,6 +22897,30 @@
         "locationStart": 6319,
         "locationEnd": 6343,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_77",
+        "surfaceForm": "Jacobus Theodorus",
+        "category": "PER",
+        "locationStart": 6319,
+        "locationEnd": 6336,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_78",
+        "surfaceForm": "Jacobus Theodorus Wiebes",
+        "category": "PER",
+        "locationStart": 6319,
+        "locationEnd": 6343,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_79",
+        "surfaceForm": "Theodorus Wiebes",
+        "category": "PER",
+        "locationStart": 6327,
+        "locationEnd": 6343,
+        "method": "spacy_matcher_nl"
       }
     ],
     "time_expressions": [

@@ -1365,6 +1365,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Florence en te Bologne",
+        "category": "PER",
+        "locationStart": 107,
+        "locationEnd": 129,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_8",
         "category": "LOCATION",
         "surfaceForm": "St. Pieterskerk",
@@ -1505,6 +1513,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "St. Pieterskerk",
+        "category": "PER",
+        "locationStart": 186,
+        "locationEnd": 201,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_11",
         "category": "ORGANIZATION",
         "surfaceForm": "D. III.",
@@ -1519,6 +1535,14 @@
         "locationStart": 201,
         "locationEnd": 208,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Zie Kramm",
+        "category": "PER",
+        "locationStart": 214,
+        "locationEnd": 223,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_8",

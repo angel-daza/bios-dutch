@@ -2354,6 +2354,30 @@
     },
     "entities": [
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Mr. Lodewijk",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 12,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Mr. Lodewijk Caspar",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 19,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Mr. Lodewijk Caspar Luzac",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 25,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_0",
         "surfaceForm": "Lodewijk Caspar Luzac",
         "category": "PER",
@@ -2386,6 +2410,30 @@
         "locationStart": 4,
         "locationEnd": 25,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Lodewijk Caspar",
+        "category": "PER",
+        "locationStart": 4,
+        "locationEnd": 19,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Lodewijk Caspar Luzac",
+        "category": "PER",
+        "locationStart": 4,
+        "locationEnd": 25,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Caspar Luzac",
+        "category": "PER",
+        "locationStart": 13,
+        "locationEnd": 25,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_1",
@@ -2524,6 +2572,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Johan Luzac",
+        "category": "PER",
+        "locationStart": 152,
+        "locationEnd": 163,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_5",
         "surfaceForm": "Gazette de Leiden",
         "category": "ORG",
@@ -2548,6 +2604,14 @@
         "locationStart": 195,
         "locationEnd": 212,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Gazette de Leiden",
+        "category": "PER",
+        "locationStart": 195,
+        "locationEnd": 212,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_6",
@@ -2626,6 +2690,30 @@
         "locationStart": 367,
         "locationEnd": 375,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Willem I",
+        "category": "PER",
+        "locationStart": 367,
+        "locationEnd": 375,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Willem I en Willem",
+        "category": "PER",
+        "locationStart": 367,
+        "locationEnd": 385,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "I en Willem",
+        "category": "PER",
+        "locationStart": 374,
+        "locationEnd": 385,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_9",
@@ -2732,6 +2820,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "Lid van de Staatscommissie",
+        "category": "PER",
+        "locationStart": 523,
+        "locationEnd": 549,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_13",
         "surfaceForm": "Staatscommissie",
         "category": "ORG",
@@ -2748,6 +2844,14 @@
         "locationStart": 534,
         "locationEnd": 549,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "Staatscommissie die de Grondwetsherziening",
+        "category": "PER",
+        "locationStart": 534,
+        "locationEnd": 576,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_14",
@@ -2776,6 +2880,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "Liberalen Categorie",
+        "category": "PER",
+        "locationStart": 613,
+        "locationEnd": 632,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_3",
         "category": "MISC",
         "surfaceForm": "Nederlands",
@@ -2792,6 +2904,30 @@
         "tokenStart": 110,
         "tokenEnd": 111,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "Nederlands minister van Binnenlandse",
+        "category": "PER",
+        "locationStart": 634,
+        "locationEnd": 670,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_15",
+        "surfaceForm": "Nederlands minister van Binnenlandse Zaken",
+        "category": "PER",
+        "locationStart": 634,
+        "locationEnd": 676,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_17",
+        "surfaceForm": "Nederlands minister van Binnenlandse Zaken Categorie",
+        "category": "PER",
+        "locationStart": 634,
+        "locationEnd": 686,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_3",
@@ -2820,6 +2956,30 @@
         "method": "stanza_nl"
       },
       {
+        "ID": "spacy_matcher_nl_16",
+        "surfaceForm": "Binnenlandse Zaken",
+        "category": "PER",
+        "locationStart": 658,
+        "locationEnd": 676,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_18",
+        "surfaceForm": "Binnenlandse Zaken Categorie",
+        "category": "PER",
+        "locationStart": 658,
+        "locationEnd": 686,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_19",
+        "surfaceForm": "Zaken Categorie",
+        "category": "PER",
+        "locationStart": 671,
+        "locationEnd": 686,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_3",
         "category": "MISC",
         "surfaceForm": "Nederlands",
@@ -2836,6 +2996,22 @@
         "tokenStart": 117,
         "tokenEnd": 118,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_20",
+        "surfaceForm": "Nederlands minister van Eredienst",
+        "category": "PER",
+        "locationStart": 688,
+        "locationEnd": 721,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_21",
+        "surfaceForm": "Nederlands minister van Eredienst Categorie",
+        "category": "PER",
+        "locationStart": 688,
+        "locationEnd": 731,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_3",
@@ -2864,6 +3040,14 @@
         "method": "stanza_nl"
       },
       {
+        "ID": "spacy_matcher_nl_22",
+        "surfaceForm": "Eredienst Categorie",
+        "category": "PER",
+        "locationStart": 712,
+        "locationEnd": 731,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_3",
         "category": "MISC",
         "surfaceForm": "Nederlands",
@@ -2888,6 +3072,14 @@
         "locationStart": 778,
         "locationEnd": 800,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_23",
+        "surfaceForm": "Tweede Kamervoorzitter",
+        "category": "PER",
+        "locationStart": 780,
+        "locationEnd": 802,
+        "method": "spacy_matcher_nl"
       }
     ],
     "time_expressions": [

@@ -9246,6 +9246,22 @@
     },
     "entities": [
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Levensbericht van Jacob",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 23,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Levensbericht van Jacob Jongbloed",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 33,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_0",
         "surfaceForm": "Jacob Jongbloed",
         "category": "PER",
@@ -9278,6 +9294,14 @@
         "locationStart": 18,
         "locationEnd": 33,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Jacob Jongbloed",
+        "category": "PER",
+        "locationStart": 18,
+        "locationEnd": 33,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_0",
@@ -9330,12 +9354,36 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "H. Verbiest",
+        "category": "PER",
+        "locationStart": 70,
+        "locationEnd": 81,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "H. Verbiest Op",
+        "category": "PER",
+        "locationStart": 70,
+        "locationEnd": 84,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_1",
         "category": "PER",
         "surfaceForm": "Verbiest",
         "locationStart": 73,
         "locationEnd": 81,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Verbiest Op",
+        "category": "PER",
+        "locationStart": 73,
+        "locationEnd": 84,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_1",
@@ -9378,6 +9426,14 @@
         "locationStart": 142,
         "locationEnd": 157,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Jacob Jongbloed",
+        "category": "PER",
+        "locationStart": 142,
+        "locationEnd": 157,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_3",
@@ -9534,6 +9590,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "H.B.S. te Heerenveen",
+        "category": "PER",
+        "locationStart": 743,
+        "locationEnd": 763,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_7",
         "category": "LOC",
         "surfaceForm": "Heerenveen",
@@ -9574,6 +9638,14 @@
         "locationStart": 799,
         "locationEnd": 809,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Zuidwester storm over Fries-",
+        "category": "PER",
+        "locationStart": 799,
+        "locationEnd": 827,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_9",

@@ -1303,6 +1303,14 @@
     },
     "entities": [
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Conservatieve Leidse",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 20,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_0",
         "surfaceForm": "Leidse",
         "category": "MISC",
@@ -1319,6 +1327,14 @@
         "locationStart": 14,
         "locationEnd": 20,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Opvolger van Kemper",
+        "category": "PER",
+        "locationStart": 69,
+        "locationEnd": 88,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_1",
@@ -1423,6 +1439,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Was in Leiden",
+        "category": "PER",
+        "locationStart": 222,
+        "locationEnd": 235,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_4",
         "surfaceForm": "Leiden",
         "category": "LOC",
@@ -1483,6 +1507,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Provinciale Staten",
+        "category": "PER",
+        "locationStart": 289,
+        "locationEnd": 307,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Provinciale Staten van Zuid-Holland",
+        "category": "PER",
+        "locationStart": 289,
+        "locationEnd": 324,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Staten van Zuid-Holland",
+        "category": "PER",
+        "locationStart": 301,
+        "locationEnd": 324,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_6",
         "surfaceForm": "Zuid-Holland",
         "category": "LOC",
@@ -1517,6 +1565,30 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "In de Dubbele",
+        "category": "PER",
+        "locationStart": 326,
+        "locationEnd": 339,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "In de Dubbele Tweede",
+        "category": "PER",
+        "locationStart": 326,
+        "locationEnd": 346,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "In de Dubbele Tweede Kamer",
+        "category": "PER",
+        "locationStart": 326,
+        "locationEnd": 352,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_7",
         "surfaceForm": "Dubbele Tweede Kamer",
         "category": "MISC",
@@ -1535,12 +1607,36 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Dubbele Tweede",
+        "category": "PER",
+        "locationStart": 332,
+        "locationEnd": 346,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Dubbele Tweede Kamer",
+        "category": "PER",
+        "locationStart": 332,
+        "locationEnd": 352,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "xlmr_ner_3",
         "category": "ORG",
         "surfaceForm": "Tweede Kamer",
         "locationStart": 340,
         "locationEnd": 352,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "Tweede Kamer",
+        "category": "PER",
+        "locationStart": 340,
+        "locationEnd": 352,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_3",

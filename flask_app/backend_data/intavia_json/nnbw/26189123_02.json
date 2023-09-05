@@ -7546,6 +7546,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Eko Scheltinga",
+        "category": "PER",
+        "locationStart": 119,
+        "locationEnd": 133,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_6",
         "category": "PERSON",
         "surfaceForm": "Heineccius",
@@ -7630,6 +7638,14 @@
         "locationStart": 159,
         "locationEnd": 167,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Zijn leermeesters waren Heineccius",
+        "category": "PER",
+        "locationStart": 169,
+        "locationEnd": 203,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_9",
@@ -7726,6 +7742,30 @@
         "locationStart": 205,
         "locationEnd": 217,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Jacob Voorda",
+        "category": "PER",
+        "locationStart": 205,
+        "locationEnd": 217,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Jacob Voorda en Wieling",
+        "category": "PER",
+        "locationStart": 205,
+        "locationEnd": 228,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Voorda en Wieling",
+        "category": "PER",
+        "locationStart": 211,
+        "locationEnd": 228,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_8",
@@ -7832,6 +7872,14 @@
         "locationStart": 275,
         "locationEnd": 306,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Dissertatio de Emancipationibus",
+        "category": "PER",
+        "locationStart": 275,
+        "locationEnd": 306,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_12",
@@ -8212,12 +8260,28 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Oratio pro Jurisconsultis",
+        "category": "PER",
+        "locationStart": 763,
+        "locationEnd": 788,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_28",
         "category": "PERSON",
         "surfaceForm": "Thalelaeus",
         "locationStart": 767,
         "locationEnd": 777,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Jurisconsultis et Jurisprudentia",
+        "category": "PER",
+        "locationStart": 774,
+        "locationEnd": 806,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_29",
@@ -8432,6 +8496,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Inleidinge van de Groot",
+        "category": "PER",
+        "locationStart": 1141,
+        "locationEnd": 1164,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_7",
         "category": "PER",
         "surfaceForm": "de",
@@ -8482,6 +8554,14 @@
         "locationStart": 1238,
         "locationEnd": 1251,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Johannes Voet",
+        "category": "PER",
+        "locationStart": 1238,
+        "locationEnd": 1251,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_4",
@@ -8536,6 +8616,14 @@
         "locationStart": 1316,
         "locationEnd": 1335,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Friesch Genootschap",
+        "category": "PER",
+        "locationStart": 1316,
+        "locationEnd": 1335,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_19",
@@ -8646,6 +8734,30 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "Jure Civili",
+        "category": "PER",
+        "locationStart": 1528,
+        "locationEnd": 1539,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "Jure Civili Romano",
+        "category": "PER",
+        "locationStart": 1528,
+        "locationEnd": 1546,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "Civili Romano",
+        "category": "PER",
+        "locationStart": 1533,
+        "locationEnd": 1546,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_22",
         "surfaceForm": "J Ctis",
         "category": "MISC",
@@ -8662,6 +8774,14 @@
         "locationStart": 1548,
         "locationEnd": 1554,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "J Ctis",
+        "category": "PER",
+        "locationStart": 1548,
+        "locationEnd": 1554,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_11",
@@ -8808,6 +8928,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_15",
+        "surfaceForm": "Zijn door Karel",
+        "category": "PER",
+        "locationStart": 1796,
+        "locationEnd": 1811,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_27",
         "surfaceForm": "Karel de Moor",
         "category": "PER",
@@ -8852,6 +8980,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_16",
+        "surfaceForm": "Karel de Moor",
+        "category": "PER",
+        "locationStart": 1806,
+        "locationEnd": 1819,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_28",
         "surfaceForm": "Senaatskamer",
         "category": "LOC",
@@ -8894,6 +9030,14 @@
         "locationStart": 1889,
         "locationEnd": 1902,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_17",
+        "surfaceForm": "U.A. Evertsz",
+        "category": "PER",
+        "locationStart": 1889,
+        "locationEnd": 1901,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_16",
@@ -8946,6 +9090,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_18",
+        "surfaceForm": "Gerlach Scheltinga",
+        "category": "PER",
+        "locationStart": 1904,
+        "locationEnd": 1922,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_31",
         "surfaceForm": "Oud- Holl",
         "category": "PER",
@@ -8962,6 +9114,14 @@
         "locationStart": 1963,
         "locationEnd": 1973,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_19",
+        "surfaceForm": "Oud- Holl",
+        "category": "PER",
+        "locationStart": 1963,
+        "locationEnd": 1972,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_32",
@@ -9014,6 +9174,14 @@
         "locationStart": 1983,
         "locationEnd": 1992,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_20",
+        "surfaceForm": "N. Bijdr",
+        "category": "PER",
+        "locationStart": 1983,
+        "locationEnd": 1991,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_21",
@@ -9110,6 +9278,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_21",
+        "surfaceForm": "Frieslands Hoogeschool",
+        "category": "PER",
+        "locationStart": 2041,
+        "locationEnd": 2063,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_37",
         "surfaceForm": "Siegenbeek",
         "category": "LOC",
@@ -9170,6 +9346,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_22",
+        "surfaceForm": "Leidsche Hoogeschool",
+        "category": "PER",
+        "locationStart": 2085,
+        "locationEnd": 2105,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_39",
         "surfaceForm": "T.",
         "category": "PER",
@@ -9186,6 +9370,14 @@
         "locationStart": 2110,
         "locationEnd": 2112,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_23",
+        "surfaceForm": "T. en B.",
+        "category": "PER",
+        "locationStart": 2110,
+        "locationEnd": 2118,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_24",
@@ -9230,6 +9422,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_24",
+        "surfaceForm": "G. de Wal",
+        "category": "PER",
+        "locationStart": 2127,
+        "locationEnd": 2136,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_41",
         "surfaceForm": "Oratio de claris Frisiae Jureconsultis",
         "category": "MISC",
@@ -9246,6 +9446,30 @@
         "locationStart": 2138,
         "locationEnd": 2176,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_25",
+        "surfaceForm": "Oratio de claris Frisiae",
+        "category": "PER",
+        "locationStart": 2138,
+        "locationEnd": 2162,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_26",
+        "surfaceForm": "Oratio de claris Frisiae Jureconsultis",
+        "category": "PER",
+        "locationStart": 2138,
+        "locationEnd": 2176,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_27",
+        "surfaceForm": "Frisiae Jureconsultis",
+        "category": "PER",
+        "locationStart": 2155,
+        "locationEnd": 2176,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_42",
@@ -9280,6 +9504,14 @@
         "locationStart": 2191,
         "locationEnd": 2202,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_28",
+        "surfaceForm": "H. Brugmans",
+        "category": "PER",
+        "locationStart": 2191,
+        "locationEnd": 2202,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_27",
@@ -9330,6 +9562,14 @@
         "locationStart": 2214,
         "locationEnd": 2234,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_29",
+        "surfaceForm": "Manuscriptorum Bibl",
+        "category": "PER",
+        "locationStart": 2214,
+        "locationEnd": 2233,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_30",

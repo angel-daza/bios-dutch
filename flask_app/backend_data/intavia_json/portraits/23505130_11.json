@@ -522,6 +522,22 @@
     },
     "entities": [
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Portret van Willem",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 18,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Portret van Willem Moll",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 23,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_0",
         "surfaceForm": "Willem Moll",
         "category": "PER",
@@ -554,6 +570,14 @@
         "locationStart": 12,
         "locationEnd": 23,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Willem Moll",
+        "category": "PER",
+        "locationStart": 12,
+        "locationEnd": 23,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_0",
@@ -632,6 +656,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Protestantse portretten van Museum",
+        "category": "PER",
+        "locationStart": 98,
+        "locationEnd": 132,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Protestantse portretten van Museum Catharijneconvent",
+        "category": "PER",
+        "locationStart": 98,
+        "locationEnd": 150,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_3",
         "surfaceForm": "Museum Catharijneconvent",
         "category": "LOC",
@@ -658,12 +698,52 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Museum Catharijneconvent",
+        "category": "PER",
+        "locationStart": 126,
+        "locationEnd": 150,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Museum Catharijneconvent en Vrije",
+        "category": "PER",
+        "locationStart": 126,
+        "locationEnd": 159,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Museum Catharijneconvent en Vrije Universiteit",
+        "category": "PER",
+        "locationStart": 126,
+        "locationEnd": 172,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_1",
         "category": "LOC",
         "surfaceForm": "catharijneconvent",
         "locationStart": 133,
         "locationEnd": 150,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Catharijneconvent en Vrije",
+        "category": "PER",
+        "locationStart": 133,
+        "locationEnd": 159,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Catharijneconvent en Vrije Universiteit",
+        "category": "PER",
+        "locationStart": 133,
+        "locationEnd": 172,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_4",
@@ -698,6 +778,14 @@
         "locationStart": 154,
         "locationEnd": 172,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Vrije Universiteit",
+        "category": "PER",
+        "locationStart": 154,
+        "locationEnd": 172,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_5",

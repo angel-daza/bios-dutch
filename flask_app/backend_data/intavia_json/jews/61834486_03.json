@@ -5928,6 +5928,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Jacob Leon",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 10,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Jacob Leon Wertheim",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 19,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Leon Wertheim",
+        "category": "PER",
+        "locationStart": 6,
+        "locationEnd": 19,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_1",
         "category": "LOCATION",
         "surfaceForm": "Amsterdam",
@@ -6110,6 +6134,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Parijs en Antwerpen",
+        "category": "PER",
+        "locationStart": 111,
+        "locationEnd": 130,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_4",
         "surfaceForm": "Antwerpen",
         "category": "LOC",
@@ -6160,6 +6192,14 @@
         "locationStart": 128,
         "locationEnd": 133,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "In Parijs",
+        "category": "PER",
+        "locationStart": 132,
+        "locationEnd": 141,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_5",
@@ -6544,6 +6584,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Jacob Leon",
+        "category": "PER",
+        "locationStart": 364,
+        "locationEnd": 374,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Jacob Leon Wertheim",
+        "category": "PER",
+        "locationStart": 364,
+        "locationEnd": 383,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Leon Wertheim",
+        "category": "PER",
+        "locationStart": 370,
+        "locationEnd": 383,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_35",
         "surfaceForm": "1839",
         "category": "TIME",
@@ -6622,6 +6686,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "I.M. Calisch",
+        "category": "PER",
+        "locationStart": 450,
+        "locationEnd": 462,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "I.M. Calisch en J.S.",
+        "category": "PER",
+        "locationStart": 450,
+        "locationEnd": 470,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "I.M. Calisch en J.S. Speijer",
+        "category": "PER",
+        "locationStart": 450,
+        "locationEnd": 478,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_17",
         "category": "ARTWORK",
         "surfaceForm": "Enoch Arden",
@@ -6636,6 +6724,22 @@
         "locationStart": 455,
         "locationEnd": 462,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Calisch en J.S.",
+        "category": "PER",
+        "locationStart": 455,
+        "locationEnd": 470,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "Calisch en J.S. Speijer",
+        "category": "PER",
+        "locationStart": 455,
+        "locationEnd": 478,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_13",
@@ -6680,6 +6784,14 @@
         "locationStart": 466,
         "locationEnd": 478,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "J.S. Speijer",
+        "category": "PER",
+        "locationStart": 466,
+        "locationEnd": 478,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_8",
@@ -6782,12 +6894,36 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "Carel Wertheim",
+        "category": "PER",
+        "locationStart": 600,
+        "locationEnd": 614,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_16",
+        "surfaceForm": "Carel Wertheim en Dina",
+        "category": "PER",
+        "locationStart": 600,
+        "locationEnd": 622,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_24",
         "category": "PERSON",
         "surfaceForm": "M.A. Perk",
         "locationStart": 601,
         "locationEnd": 610,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_15",
+        "surfaceForm": "Wertheim en Dina",
+        "category": "PER",
+        "locationStart": 606,
+        "locationEnd": 622,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_15",
@@ -6832,6 +6968,14 @@
         "locationStart": 618,
         "locationEnd": 633,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_17",
+        "surfaceForm": "Dina van Minden",
+        "category": "PER",
+        "locationStart": 618,
+        "locationEnd": 633,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_25",
@@ -6964,6 +7108,14 @@
         "locationStart": 719,
         "locationEnd": 728,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_18",
+        "surfaceForm": "Antwerpen en Parijs",
+        "category": "PER",
+        "locationStart": 719,
+        "locationEnd": 738,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_19",
@@ -7190,6 +7342,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_19",
+        "surfaceForm": "Tijdschrift Nederland",
+        "category": "PER",
+        "locationStart": 985,
+        "locationEnd": 1006,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "xlmr_ner_11",
         "category": "ORG",
         "surfaceForm": "Tijdschrift Nederland",
@@ -7290,6 +7450,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_20",
+        "surfaceForm": "Enoch Arden",
+        "category": "PER",
+        "locationStart": 1176,
+        "locationEnd": 1187,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_6",
         "surfaceForm": "1876",
         "category": "TIME",
@@ -7362,6 +7530,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_21",
+        "surfaceForm": "Jacobs broer A.C.",
+        "category": "PER",
+        "locationStart": 1250,
+        "locationEnd": 1267,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_22",
+        "surfaceForm": "Jacobs broer A.C. Wertheim",
+        "category": "PER",
+        "locationStart": 1250,
+        "locationEnd": 1276,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_31",
         "surfaceForm": "A.C. Wertheim",
         "category": "PER",
@@ -7404,6 +7588,14 @@
         "locationStart": 1263,
         "locationEnd": 1276,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_23",
+        "surfaceForm": "A.C. Wertheim",
+        "category": "PER",
+        "locationStart": 1263,
+        "locationEnd": 1276,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_17",
@@ -7486,6 +7678,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_24",
+        "surfaceForm": "E. Manuel",
+        "category": "PER",
+        "locationStart": 1402,
+        "locationEnd": 1411,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_19",
         "category": "PER",
         "surfaceForm": "Manuel",
@@ -7546,6 +7746,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_25",
+        "surfaceForm": "F. Coppee",
+        "category": "PER",
+        "locationStart": 1413,
+        "locationEnd": 1422,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_35",
         "surfaceForm": "H. Hertz",
         "category": "PER",
@@ -7590,6 +7798,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_26",
+        "surfaceForm": "H. Hertz",
+        "category": "PER",
+        "locationStart": 1424,
+        "locationEnd": 1432,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_36",
         "surfaceForm": "Theuriet",
         "category": "PER",
@@ -7624,6 +7840,14 @@
         "locationStart": 1434,
         "locationEnd": 1442,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_27",
+        "surfaceForm": "Theuriet en T.",
+        "category": "PER",
+        "locationStart": 1434,
+        "locationEnd": 1448,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_37",
@@ -7662,6 +7886,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_28",
+        "surfaceForm": "T. de Banville",
+        "category": "PER",
+        "locationStart": 1446,
+        "locationEnd": 1460,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_29",
+        "surfaceForm": "Met Coppee",
+        "category": "PER",
+        "locationStart": 1462,
+        "locationEnd": 1472,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_31",
+        "surfaceForm": "Met Coppee en Theuriet",
+        "category": "PER",
+        "locationStart": 1462,
+        "locationEnd": 1484,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_38",
         "surfaceForm": "Coppee",
         "category": "PER",
@@ -7696,6 +7944,14 @@
         "locationStart": 1466,
         "locationEnd": 1472,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_30",
+        "surfaceForm": "Coppee en Theuriet",
+        "category": "PER",
+        "locationStart": 1466,
+        "locationEnd": 1484,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_39",
@@ -7762,6 +8018,22 @@
         "method": "stanza_nl"
       },
       {
+        "ID": "spacy_matcher_nl_32",
+        "surfaceForm": "Dominee M.A.",
+        "category": "PER",
+        "locationStart": 1663,
+        "locationEnd": 1675,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_33",
+        "surfaceForm": "Dominee M.A. Perk",
+        "category": "PER",
+        "locationStart": 1663,
+        "locationEnd": 1680,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_21",
         "surfaceForm": "M.A. Perk",
         "category": "PER",
@@ -7786,6 +8058,14 @@
         "locationStart": 1671,
         "locationEnd": 1680,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_34",
+        "surfaceForm": "M.A. Perk",
+        "category": "PER",
+        "locationStart": 1671,
+        "locationEnd": 1680,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_19",
@@ -7848,6 +8128,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_35",
+        "surfaceForm": "A.C. Wertheim",
+        "category": "PER",
+        "locationStart": 1703,
+        "locationEnd": 1716,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_25",
         "category": "PER",
         "surfaceForm": "Wertheim",
@@ -7900,6 +8188,46 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_36",
+        "surfaceForm": "Jacques Perk",
+        "category": "PER",
+        "locationStart": 1764,
+        "locationEnd": 1776,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_38",
+        "surfaceForm": "Jacques Perk aan J.L.",
+        "category": "PER",
+        "locationStart": 1764,
+        "locationEnd": 1785,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_40",
+        "surfaceForm": "Jacques Perk aan J.L. Wertheim",
+        "category": "PER",
+        "locationStart": 1764,
+        "locationEnd": 1794,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_37",
+        "surfaceForm": "Perk aan J.L.",
+        "category": "PER",
+        "locationStart": 1772,
+        "locationEnd": 1785,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_39",
+        "surfaceForm": "Perk aan J.L. Wertheim",
+        "category": "PER",
+        "locationStart": 1772,
+        "locationEnd": 1794,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_43",
         "surfaceForm": "J.L. Wertheim",
         "category": "PER",
@@ -7934,6 +8262,14 @@
         "locationStart": 1781,
         "locationEnd": 1794,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_41",
+        "surfaceForm": "J.L. Wertheim",
+        "category": "PER",
+        "locationStart": 1781,
+        "locationEnd": 1794,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_19",
@@ -7986,6 +8322,14 @@
         "locationStart": 1810,
         "locationEnd": 1822,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_42",
+        "surfaceForm": "J.L. Werteim",
+        "category": "PER",
+        "locationStart": 1810,
+        "locationEnd": 1822,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_20",

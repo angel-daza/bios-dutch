@@ -4268,6 +4268,14 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Jonkvrouwe Ai",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 13,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_0",
         "category": "PER",
         "surfaceForm": "Ai",
@@ -4318,6 +4326,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Ai Cornelia",
+        "category": "PER",
+        "locationStart": 23,
+        "locationEnd": 34,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Ai Cornelia Maria",
+        "category": "PER",
+        "locationStart": 23,
+        "locationEnd": 40,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Ai Cornelia Maria van Asch",
+        "category": "PER",
+        "locationStart": 23,
+        "locationEnd": 49,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_1",
         "surfaceForm": "Cornelia Maria van Asch van Wijck",
         "category": "PER",
@@ -4342,6 +4374,38 @@
         "locationStart": 26,
         "locationEnd": 59,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Cornelia Maria",
+        "category": "PER",
+        "locationStart": 26,
+        "locationEnd": 40,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Cornelia Maria van Asch",
+        "category": "PER",
+        "locationStart": 26,
+        "locationEnd": 49,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Maria van Asch",
+        "category": "PER",
+        "locationStart": 35,
+        "locationEnd": 49,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Asch van Wijck",
+        "category": "PER",
+        "locationStart": 45,
+        "locationEnd": 59,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_1",
@@ -4540,12 +4604,60 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Christen Jonge",
+        "category": "PER",
+        "locationStart": 478,
+        "locationEnd": 492,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Christen Jonge Vrouwen",
+        "category": "PER",
+        "locationStart": 478,
+        "locationEnd": 500,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "Christen Jonge Vrouwen Federatie",
+        "category": "PER",
+        "locationStart": 478,
+        "locationEnd": 510,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_11",
         "category": "TIME",
         "surfaceForm": "1951 tot 1957",
         "locationStart": 483,
         "locationEnd": 496,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Jonge Vrouwen",
+        "category": "PER",
+        "locationStart": 487,
+        "locationEnd": 500,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "Jonge Vrouwen Federatie",
+        "category": "PER",
+        "locationStart": 487,
+        "locationEnd": 510,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "Vrouwen Federatie",
+        "category": "PER",
+        "locationStart": 493,
+        "locationEnd": 510,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_12",
@@ -4634,6 +4746,54 @@
         "locationStart": 545,
         "locationEnd": 584,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "Young Women",
+        "category": "PER",
+        "locationStart": 545,
+        "locationEnd": 556,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_15",
+        "surfaceForm": "Young Women Christian",
+        "category": "PER",
+        "locationStart": 545,
+        "locationEnd": 566,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_17",
+        "surfaceForm": "Young Women Christian Association",
+        "category": "PER",
+        "locationStart": 545,
+        "locationEnd": 578,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_16",
+        "surfaceForm": "Women Christian",
+        "category": "PER",
+        "locationStart": 551,
+        "locationEnd": 566,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_18",
+        "surfaceForm": "Women Christian Association",
+        "category": "PER",
+        "locationStart": 551,
+        "locationEnd": 578,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_19",
+        "surfaceForm": "Christian Association",
+        "category": "PER",
+        "locationStart": 557,
+        "locationEnd": 578,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_14",
@@ -4786,6 +4946,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_20",
+        "surfaceForm": "Cornelia van Asch",
+        "category": "PER",
+        "locationStart": 699,
+        "locationEnd": 716,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_10",
         "surfaceForm": "Asch van Wijck",
         "category": "PER",
@@ -4794,6 +4962,14 @@
         "tokenStart": 121,
         "tokenEnd": 124,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_21",
+        "surfaceForm": "Asch van Wijck",
+        "category": "PER",
+        "locationStart": 712,
+        "locationEnd": 726,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_18",
@@ -4872,6 +5048,30 @@
         "locationStart": 826,
         "locationEnd": 856,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_22",
+        "surfaceForm": "Nederlandse Gereformeerde",
+        "category": "PER",
+        "locationStart": 826,
+        "locationEnd": 851,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_23",
+        "surfaceForm": "Nederlandse Gereformeerde Kerk",
+        "category": "PER",
+        "locationStart": 826,
+        "locationEnd": 856,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_24",
+        "surfaceForm": "Gereformeerde Kerk",
+        "category": "PER",
+        "locationStart": 838,
+        "locationEnd": 856,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_7",

@@ -1393,6 +1393,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Zie Hoeufft",
+        "category": "PER",
+        "locationStart": 234,
+        "locationEnd": 245,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_6",
         "surfaceForm": "Hoeufft",
         "category": "PER",
@@ -1459,6 +1467,14 @@
         "locationStart": 253,
         "locationEnd": 256,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Lat. Belg.",
+        "category": "PER",
+        "locationStart": 253,
+        "locationEnd": 263,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_6",

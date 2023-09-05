@@ -2283,12 +2283,84 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Johan Lodewijk",
+        "category": "PER",
+        "locationStart": 60,
+        "locationEnd": 74,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Johan Lodewijk Geyser",
+        "category": "PER",
+        "locationStart": 60,
+        "locationEnd": 81,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Johan Lodewijk Geyser en Adriana",
+        "category": "PER",
+        "locationStart": 60,
+        "locationEnd": 92,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Johan Lodewijk Geyser en Adriana Boslenblij",
+        "category": "PER",
+        "locationStart": 60,
+        "locationEnd": 103,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Lodewijk Geyser",
+        "category": "PER",
+        "locationStart": 66,
+        "locationEnd": 81,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Lodewijk Geyser en Adriana",
+        "category": "PER",
+        "locationStart": 66,
+        "locationEnd": 92,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Lodewijk Geyser en Adriana Boslenblij",
+        "category": "PER",
+        "locationStart": 66,
+        "locationEnd": 103,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_3",
         "category": "PERSON",
         "surfaceForm": "Adriana Boslenblij",
         "locationStart": 67,
         "locationEnd": 83,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Geyser en Adriana",
+        "category": "PER",
+        "locationStart": 75,
+        "locationEnd": 92,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Geyser en Adriana Boslenblij",
+        "category": "PER",
+        "locationStart": 75,
+        "locationEnd": 103,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_4",
@@ -2333,6 +2405,14 @@
         "locationStart": 85,
         "locationEnd": 103,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Adriana Boslenblij",
+        "category": "PER",
+        "locationStart": 85,
+        "locationEnd": 103,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_4",
@@ -2543,6 +2623,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Sluis in Vlaanderen",
+        "category": "PER",
+        "locationStart": 181,
+        "locationEnd": 200,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_8",
         "surfaceForm": "Vlaanderen",
         "category": "LOC",
@@ -2663,6 +2751,14 @@
         "locationStart": 303,
         "locationEnd": 315,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "Zie Boekz",
+        "category": "PER",
+        "locationStart": 309,
+        "locationEnd": 318,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_4",
@@ -2813,6 +2909,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "Ned. Boek",
+        "category": "PER",
+        "locationStart": 452,
+        "locationEnd": 461,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_11",
         "surfaceForm": "D. I. St. III",
         "category": "PER",
@@ -2837,6 +2941,30 @@
         "locationStart": 463,
         "locationEnd": 476,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "D. I.",
+        "category": "PER",
+        "locationStart": 463,
+        "locationEnd": 468,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "D. I. St.",
+        "category": "PER",
+        "locationStart": 463,
+        "locationEnd": 472,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_15",
+        "surfaceForm": "I. St.",
+        "category": "PER",
+        "locationStart": 466,
+        "locationEnd": 472,
+        "method": "spacy_matcher_nl"
       }
     ],
     "time_expressions": [

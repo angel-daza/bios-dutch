@@ -14099,6 +14099,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Bertus de Harder",
+        "category": "PER",
+        "locationStart": 7,
+        "locationEnd": 23,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Harder na Nederland-Belgie",
+        "category": "PER",
+        "locationStart": 17,
+        "locationEnd": 43,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_1",
         "surfaceForm": "Nederland-Belgie",
         "category": "LOC",
@@ -14175,6 +14191,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Bertus de Harder",
+        "category": "PER",
+        "locationStart": 59,
+        "locationEnd": 75,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_3",
         "surfaceForm": "Den",
         "category": "LOC",
@@ -14199,6 +14223,14 @@
         "locationStart": 78,
         "locationEnd": 86,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Den Haag",
+        "category": "PER",
+        "locationStart": 78,
+        "locationEnd": 86,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_4",
@@ -14329,6 +14361,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Speler Bertus",
+        "category": "PER",
+        "locationStart": 199,
+        "locationEnd": 212,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Speler Bertus de Harder",
+        "category": "PER",
+        "locationStart": 199,
+        "locationEnd": 222,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_8",
         "surfaceForm": "Bertus de Harder",
         "category": "PER",
@@ -14361,6 +14409,14 @@
         "locationStart": 206,
         "locationEnd": 222,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Bertus de Harder",
+        "category": "PER",
+        "locationStart": 206,
+        "locationEnd": 222,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_1",
@@ -14405,6 +14461,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Transvaal in Den",
+        "category": "PER",
+        "locationStart": 262,
+        "locationEnd": 278,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Transvaal in Den Haag",
+        "category": "PER",
+        "locationStart": 262,
+        "locationEnd": 283,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_10",
         "surfaceForm": "Den Haag",
         "category": "LOC",
@@ -14431,12 +14503,28 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Den Haag",
+        "category": "PER",
+        "locationStart": 275,
+        "locationEnd": 283,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_1",
         "category": "LOC",
         "surfaceForm": "haag",
         "locationStart": 279,
         "locationEnd": 283,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Na Transvaal",
+        "category": "PER",
+        "locationStart": 286,
+        "locationEnd": 298,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_11",
@@ -14497,6 +14585,14 @@
         "locationStart": 336,
         "locationEnd": 343,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "Triomph en Wilsonmeters",
+        "category": "PER",
+        "locationStart": 336,
+        "locationEnd": 359,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_13",
@@ -14593,6 +14689,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "De Harder",
+        "category": "PER",
+        "locationStart": 394,
+        "locationEnd": 403,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_16",
         "surfaceForm": "VUC",
         "category": "ORG",
@@ -14645,6 +14749,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "De Harder",
+        "category": "PER",
+        "locationStart": 556,
+        "locationEnd": 565,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_5",
         "category": "TIME",
         "surfaceForm": "1938",
@@ -14677,6 +14789,14 @@
         "locationStart": 641,
         "locationEnd": 655,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "Divisie West",
+        "category": "PER",
+        "locationStart": 641,
+        "locationEnd": 653,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_6",
@@ -14783,6 +14903,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_15",
+        "surfaceForm": "De Harder",
+        "category": "PER",
+        "locationStart": 840,
+        "locationEnd": 849,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_23",
         "surfaceForm": "Oranje",
         "category": "ORG",
@@ -14843,6 +14971,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_16",
+        "surfaceForm": "Bertus de Harder",
+        "category": "PER",
+        "locationStart": 877,
+        "locationEnd": 893,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_25",
         "surfaceForm": "Nederlands",
         "category": "MISC",
@@ -14859,6 +14995,14 @@
         "locationStart": 914,
         "locationEnd": 924,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_17",
+        "surfaceForm": "Dat Bertus",
+        "category": "PER",
+        "locationStart": 980,
+        "locationEnd": 990,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_26",
@@ -14911,6 +15055,14 @@
         "locationStart": 1041,
         "locationEnd": 1060,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_18",
+        "surfaceForm": "Tweede Wereldoorlog",
+        "category": "PER",
+        "locationStart": 1041,
+        "locationEnd": 1060,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_28",
@@ -14981,6 +15133,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_19",
+        "surfaceForm": "Oranje tegen Frankrijk",
+        "category": "PER",
+        "locationStart": 1150,
+        "locationEnd": 1172,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_30",
         "surfaceForm": "Frankrijk",
         "category": "LOC",
@@ -15007,6 +15167,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_20",
+        "surfaceForm": "Frankrijk maar De",
+        "category": "PER",
+        "locationStart": 1163,
+        "locationEnd": 1180,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_21",
+        "surfaceForm": "Frankrijk maar De Harder",
+        "category": "PER",
+        "locationStart": 1163,
+        "locationEnd": 1187,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_31",
         "surfaceForm": "De Harder",
         "category": "ORG",
@@ -15031,6 +15207,14 @@
         "locationStart": 1178,
         "locationEnd": 1187,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_22",
+        "surfaceForm": "De Harder",
+        "category": "PER",
+        "locationStart": 1178,
+        "locationEnd": 1187,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_32",
@@ -15181,6 +15365,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_23",
+        "surfaceForm": "De Harder",
+        "category": "PER",
+        "locationStart": 1316,
+        "locationEnd": 1325,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_38",
         "surfaceForm": "Girondins de Bordeaux",
         "category": "ORG",
@@ -15207,12 +15399,28 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_24",
+        "surfaceForm": "Girondins de Bordeaux",
+        "category": "PER",
+        "locationStart": 1362,
+        "locationEnd": 1383,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_12",
         "category": "LOC",
         "surfaceForm": "bordeaux",
         "locationStart": 1375,
         "locationEnd": 1383,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_25",
+        "surfaceForm": "De voorzitter van Bordeaux",
+        "category": "PER",
+        "locationStart": 1386,
+        "locationEnd": 1412,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_39",
@@ -15309,6 +15517,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_26",
+        "surfaceForm": "De Harder",
+        "category": "PER",
+        "locationStart": 1428,
+        "locationEnd": 1437,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_42",
         "surfaceForm": "Franse",
         "category": "MISC",
@@ -15351,6 +15567,14 @@
         "locationStart": 1482,
         "locationEnd": 1503,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_27",
+        "surfaceForm": "Girondins de Bordeaux",
+        "category": "PER",
+        "locationStart": 1482,
+        "locationEnd": 1503,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_13",
@@ -15431,6 +15655,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_28",
+        "surfaceForm": "De Harder",
+        "category": "PER",
+        "locationStart": 1639,
+        "locationEnd": 1648,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_47",
         "surfaceForm": "Harder",
         "category": "MISC",
@@ -15493,6 +15725,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_29",
+        "surfaceForm": "Faas Wilkes",
+        "category": "PER",
+        "locationStart": 1747,
+        "locationEnd": 1758,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_50",
         "surfaceForm": "Internazionale",
         "category": "ORG",
@@ -15551,6 +15791,14 @@
         "locationStart": 1850,
         "locationEnd": 1859,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_30",
+        "surfaceForm": "De Harder",
+        "category": "PER",
+        "locationStart": 1850,
+        "locationEnd": 1859,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_52",
@@ -15655,6 +15903,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_31",
+        "surfaceForm": "Bertus de Harder",
+        "category": "PER",
+        "locationStart": 1976,
+        "locationEnd": 1992,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_55",
         "surfaceForm": "Fransen",
         "category": "MISC",
@@ -15671,6 +15927,14 @@
         "locationStart": 2002,
         "locationEnd": 2009,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_32",
+        "surfaceForm": "Fransen geschreven als Berthus",
+        "category": "PER",
+        "locationStart": 2002,
+        "locationEnd": 2032,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_56",
@@ -15707,6 +15971,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_33",
+        "surfaceForm": "Berthus de Harder",
+        "category": "PER",
+        "locationStart": 2025,
+        "locationEnd": 2042,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_57",
         "surfaceForm": "Girondins de Bordeaux",
         "category": "ORG",
@@ -15731,6 +16003,14 @@
         "locationStart": 2075,
         "locationEnd": 2096,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_34",
+        "surfaceForm": "Girondins de Bordeaux",
+        "category": "PER",
+        "locationStart": 2075,
+        "locationEnd": 2096,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_58",
@@ -15795,6 +16075,30 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_35",
+        "surfaceForm": "Le Divin",
+        "category": "PER",
+        "locationStart": 2279,
+        "locationEnd": 2287,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_36",
+        "surfaceForm": "Le Divin Chauve",
+        "category": "PER",
+        "locationStart": 2279,
+        "locationEnd": 2294,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_37",
+        "surfaceForm": "Divin Chauve",
+        "category": "PER",
+        "locationStart": 2282,
+        "locationEnd": 2294,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_61",
         "surfaceForm": "Goddelijke Kale",
         "category": "MISC",
@@ -15811,6 +16115,14 @@
         "locationStart": 2300,
         "locationEnd": 2315,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_38",
+        "surfaceForm": "Goddelijke Kale",
+        "category": "PER",
+        "locationStart": 2300,
+        "locationEnd": 2315,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_62",
@@ -15899,6 +16211,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_39",
+        "surfaceForm": "Zeeland speelde de Nederlands",
+        "category": "PER",
+        "locationStart": 2444,
+        "locationEnd": 2473,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_65",
         "surfaceForm": "Nederlands",
         "category": "MISC",
@@ -15969,6 +16289,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_40",
+        "surfaceForm": "Parc des Princes",
+        "category": "PER",
+        "locationStart": 2625,
+        "locationEnd": 2641,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_41",
+        "surfaceForm": "Princes in Parijs",
+        "category": "PER",
+        "locationStart": 2634,
+        "locationEnd": 2651,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_68",
         "surfaceForm": "Parijs",
         "category": "LOC",
@@ -16037,6 +16373,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_42",
+        "surfaceForm": "Bertus de Harder",
+        "category": "PER",
+        "locationStart": 2654,
+        "locationEnd": 2670,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_43",
+        "surfaceForm": "Harder en Bram",
+        "category": "PER",
+        "locationStart": 2664,
+        "locationEnd": 2678,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_44",
+        "surfaceForm": "Harder en Bram Appel",
+        "category": "PER",
+        "locationStart": 2664,
+        "locationEnd": 2684,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_70",
         "surfaceForm": "Bram Appel",
         "category": "PER",
@@ -16071,6 +16431,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_45",
+        "surfaceForm": "Bram Appel",
+        "category": "PER",
+        "locationStart": 2674,
+        "locationEnd": 2684,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_71",
         "surfaceForm": "Nederlanders",
         "category": "MISC",
@@ -16089,6 +16457,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_46",
+        "surfaceForm": "Een Frans",
+        "category": "PER",
+        "locationStart": 2728,
+        "locationEnd": 2737,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_48",
+        "surfaceForm": "Een Frans doelpunt van Saunier",
+        "category": "PER",
+        "locationStart": 2728,
+        "locationEnd": 2758,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_72",
         "surfaceForm": "Frans",
         "category": "MISC",
@@ -16105,6 +16489,14 @@
         "locationStart": 2732,
         "locationEnd": 2737,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_47",
+        "surfaceForm": "Frans doelpunt van Saunier",
+        "category": "PER",
+        "locationStart": 2732,
+        "locationEnd": 2758,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_73",
@@ -16185,6 +16577,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_49",
+        "surfaceForm": "Frankrijk besloot de Harder",
+        "category": "PER",
+        "locationStart": 2865,
+        "locationEnd": 2892,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "xlmr_ner_20",
         "category": "PER",
         "surfaceForm": "de Harder",
@@ -16237,6 +16637,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_50",
+        "surfaceForm": "Den Haag",
+        "category": "PER",
+        "locationStart": 2913,
+        "locationEnd": 2921,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_20",
         "category": "LOC",
         "surfaceForm": "haag",
@@ -16287,6 +16695,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_51",
+        "surfaceForm": "Holland Sport",
+        "category": "PER",
+        "locationStart": 2974,
+        "locationEnd": 2987,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_52",
+        "surfaceForm": "Trainer Eenmaal",
+        "category": "PER",
+        "locationStart": 2990,
+        "locationEnd": 3005,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_79",
         "surfaceForm": "Nederland",
         "category": "LOC",
@@ -16311,6 +16735,14 @@
         "locationStart": 3033,
         "locationEnd": 3042,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_53",
+        "surfaceForm": "Nederland kreeg Bertus",
+        "category": "PER",
+        "locationStart": 3033,
+        "locationEnd": 3055,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_80",
@@ -16345,6 +16777,14 @@
         "locationStart": 3049,
         "locationEnd": 3065,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_54",
+        "surfaceForm": "Bertus de Harder",
+        "category": "PER",
+        "locationStart": 3049,
+        "locationEnd": 3065,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_81",
@@ -16611,6 +17051,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_55",
+        "surfaceForm": "Saint- Louis",
+        "category": "PER",
+        "locationStart": 3406,
+        "locationEnd": 3418,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_89",
         "surfaceForm": "Biach",
         "category": "PER",
@@ -16643,6 +17091,14 @@
         "locationStart": 3420,
         "locationEnd": 3425,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_56",
+        "surfaceForm": "Biach en Jeumont",
+        "category": "PER",
+        "locationStart": 3420,
+        "locationEnd": 3436,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_90",
@@ -16705,6 +17161,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_57",
+        "surfaceForm": "Franse voetbalbond Bertus",
+        "category": "PER",
+        "locationStart": 3486,
+        "locationEnd": 3511,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_92",
         "surfaceForm": "Bertus de Harder",
         "category": "PER",
@@ -16737,6 +17201,14 @@
         "locationStart": 3505,
         "locationEnd": 3521,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_58",
+        "surfaceForm": "Bertus de Harder",
+        "category": "PER",
+        "locationStart": 3505,
+        "locationEnd": 3521,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_93",
@@ -16773,12 +17245,60 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_59",
+        "surfaceForm": "Palmares Topscorer",
+        "category": "PER",
+        "locationStart": 3595,
+        "locationEnd": 3613,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_60",
+        "surfaceForm": "Palmares Topscorer Divisie",
+        "category": "PER",
+        "locationStart": 3595,
+        "locationEnd": 3621,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_62",
+        "surfaceForm": "Palmares Topscorer Divisie West",
+        "category": "PER",
+        "locationStart": 3595,
+        "locationEnd": 3626,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_61",
+        "surfaceForm": "Topscorer Divisie",
+        "category": "PER",
+        "locationStart": 3604,
+        "locationEnd": 3621,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_63",
+        "surfaceForm": "Topscorer Divisie West",
+        "category": "PER",
+        "locationStart": 3604,
+        "locationEnd": 3626,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_25",
         "category": "ORG",
         "surfaceForm": "Divisie West 2",
         "locationStart": 3614,
         "locationEnd": 3628,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_64",
+        "surfaceForm": "Divisie West",
+        "category": "PER",
+        "locationStart": 3614,
+        "locationEnd": 3626,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_94",
@@ -16801,12 +17321,36 @@
         "method": "stanza_nl"
       },
       {
+        "ID": "spacy_matcher_nl_65",
+        "surfaceForm": "Kampioen Divisie",
+        "category": "PER",
+        "locationStart": 3643,
+        "locationEnd": 3659,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_66",
+        "surfaceForm": "Kampioen Divisie West",
+        "category": "PER",
+        "locationStart": 3643,
+        "locationEnd": 3664,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_25",
         "category": "ORG",
         "surfaceForm": "Divisie West 2",
         "locationStart": 3652,
         "locationEnd": 3666,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_67",
+        "surfaceForm": "Divisie West",
+        "category": "PER",
+        "locationStart": 3652,
+        "locationEnd": 3664,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_96",
@@ -16855,6 +17399,14 @@
         "method": "stanza_nl"
       },
       {
+        "ID": "spacy_matcher_nl_68",
+        "surfaceForm": "Landskampioen Ligue",
+        "category": "PER",
+        "locationStart": 3689,
+        "locationEnd": 3708,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_25",
         "category": "ORG",
         "surfaceForm": "Ligue 1",
@@ -16899,6 +17451,14 @@
         "method": "stanza_nl"
       },
       {
+        "ID": "spacy_matcher_nl_69",
+        "surfaceForm": "Topscorer Bordeaux",
+        "category": "PER",
+        "locationStart": 3738,
+        "locationEnd": 3756,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_25",
         "category": "LOC",
         "surfaceForm": "Bordeaux",
@@ -16923,6 +17483,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_70",
+        "surfaceForm": "Verliezen finalist Coupe",
+        "category": "PER",
+        "locationStart": 3789,
+        "locationEnd": 3813,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_71",
+        "surfaceForm": "Verliezen finalist Coupe Latin",
+        "category": "PER",
+        "locationStart": 3789,
+        "locationEnd": 3819,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_101",
         "surfaceForm": "Coupe Latin",
         "category": "MISC",
@@ -16939,6 +17515,30 @@
         "locationStart": 3808,
         "locationEnd": 3819,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_72",
+        "surfaceForm": "Coupe Latin",
+        "category": "PER",
+        "locationStart": 3808,
+        "locationEnd": 3819,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_74",
+        "surfaceForm": "Coupe Latin met Bordeaux",
+        "category": "PER",
+        "locationStart": 3808,
+        "locationEnd": 3832,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_73",
+        "surfaceForm": "Latin met Bordeaux",
+        "category": "PER",
+        "locationStart": 3814,
+        "locationEnd": 3832,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_102",
@@ -17011,6 +17611,14 @@
         "method": "stanza_nl"
       },
       {
+        "ID": "spacy_matcher_nl_75",
+        "surfaceForm": "Topscorer Bordeaux",
+        "category": "PER",
+        "locationStart": 3885,
+        "locationEnd": 3903,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_25",
         "category": "LOC",
         "surfaceForm": "Bordeaux",
@@ -17025,6 +17633,14 @@
         "locationStart": 3895,
         "locationEnd": 3903,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_76",
+        "surfaceForm": "Verliezend finalist Coupe",
+        "category": "PER",
+        "locationStart": 3931,
+        "locationEnd": 3956,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_105",
@@ -17043,6 +17659,22 @@
         "locationStart": 3951,
         "locationEnd": 3966,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_77",
+        "surfaceForm": "Coupe de France",
+        "category": "PER",
+        "locationStart": 3951,
+        "locationEnd": 3966,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_78",
+        "surfaceForm": "France met Bordeaux",
+        "category": "PER",
+        "locationStart": 3960,
+        "locationEnd": 3979,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_106",
@@ -17087,6 +17719,14 @@
         "locationStart": 4014,
         "locationEnd": 4020,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_79",
+        "surfaceForm": "Kampioen Ligue",
+        "category": "PER",
+        "locationStart": 4046,
+        "locationEnd": 4060,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_108",
@@ -17143,6 +17783,14 @@
         "method": "stanza_nl"
       },
       {
+        "ID": "spacy_matcher_nl_80",
+        "surfaceForm": "Geeerd door de Franse",
+        "category": "PER",
+        "locationStart": 4108,
+        "locationEnd": 4129,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_111",
         "surfaceForm": "Franse",
         "category": "MISC",
@@ -17167,6 +17815,14 @@
         "locationStart": 4191,
         "locationEnd": 4200,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_81",
+        "surfaceForm": "Zie ook Lijst",
+        "category": "PER",
+        "locationStart": 4207,
+        "locationEnd": 4220,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_112",
@@ -17195,6 +17851,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_82",
+        "surfaceForm": "Den Haag",
+        "category": "PER",
+        "locationStart": 4241,
+        "locationEnd": 4249,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_113",
         "surfaceForm": "Nederlands",
         "category": "MISC",
@@ -17211,6 +17875,14 @@
         "locationStart": 4263,
         "locationEnd": 4273,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_83",
+        "surfaceForm": "Nederlands voetbalcoach Categorie",
+        "category": "PER",
+        "locationStart": 4263,
+        "locationEnd": 4296,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_114",
@@ -17273,6 +17945,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_84",
+        "surfaceForm": "Bertus de Harder",
+        "category": "PER",
+        "locationStart": 4328,
+        "locationEnd": 4344,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_116",
         "surfaceForm": "Bertus de Harder",
         "category": "PER",
@@ -17305,6 +17985,14 @@
         "locationStart": 4349,
         "locationEnd": 4365,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_85",
+        "surfaceForm": "Bertus de Harder",
+        "category": "PER",
+        "locationStart": 4349,
+        "locationEnd": 4365,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_117",
@@ -17341,6 +18029,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_86",
+        "surfaceForm": "Johannes Lambertus",
+        "category": "PER",
+        "locationStart": 4370,
+        "locationEnd": 4388,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_88",
+        "surfaceForm": "Johannes Lambertus de Harder",
+        "category": "PER",
+        "locationStart": 4370,
+        "locationEnd": 4398,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_87",
+        "surfaceForm": "Lambertus de Harder",
+        "category": "PER",
+        "locationStart": 4379,
+        "locationEnd": 4398,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_118",
         "surfaceForm": "Bertus de Harder",
         "category": "PER",
@@ -17373,6 +18085,14 @@
         "locationStart": 4403,
         "locationEnd": 4419,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_89",
+        "surfaceForm": "Bertus de Harder",
+        "category": "PER",
+        "locationStart": 4403,
+        "locationEnd": 4419,
+        "method": "spacy_matcher_nl"
       }
     ],
     "time_expressions": [

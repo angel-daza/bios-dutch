@@ -1865,6 +1865,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Tweede Kamerlid",
+        "category": "PER",
+        "locationStart": 32,
+        "locationEnd": 47,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Afkomstig uit Horst",
+        "category": "PER",
+        "locationStart": 72,
+        "locationEnd": 91,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_2",
         "surfaceForm": "Horst",
         "category": "PER",
@@ -1959,6 +1975,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Venloosch Weekblad",
+        "category": "PER",
+        "locationStart": 147,
+        "locationEnd": 165,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_5",
         "surfaceForm": "Betz",
         "category": "PER",
@@ -1991,6 +2015,14 @@
         "locationStart": 271,
         "locationEnd": 275,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Werd door minister Jolles",
+        "category": "PER",
+        "locationStart": 285,
+        "locationEnd": 310,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_6",
@@ -2051,6 +2083,14 @@
         "locationStart": 423,
         "locationEnd": 432,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Kamerclub tegenstander van Schaepman",
+        "category": "PER",
+        "locationStart": 423,
+        "locationEnd": 459,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_8",

@@ -1232,6 +1232,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Tweede Kamer",
+        "category": "PER",
+        "locationStart": 190,
+        "locationEnd": 202,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_9",
         "category": "LOCATION",
         "surfaceForm": "Overijssel",
@@ -1266,6 +1274,14 @@
         "tokenStart": 39,
         "tokenEnd": 40,
         "method": "human_gold"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Gouverneur van Overijssel",
+        "category": "PER",
+        "locationStart": 228,
+        "locationEnd": 253,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_4",

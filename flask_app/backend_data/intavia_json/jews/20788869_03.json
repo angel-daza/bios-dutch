@@ -1244,6 +1244,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Abel J.",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 7,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Abel J. Herzberg",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 16,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "J. Herzberg",
+        "category": "PER",
+        "locationStart": 5,
+        "locationEnd": 16,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_4",
         "surfaceForm": "1893 - 1989",
         "category": "TIME",
@@ -1276,6 +1300,14 @@
         "locationStart": 25,
         "locationEnd": 29,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Bekend Nederlands",
+        "category": "PER",
+        "locationStart": 32,
+        "locationEnd": 49,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_1",
@@ -1558,6 +1590,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Westerbork naar Bergen-Belsen",
+        "category": "PER",
+        "locationStart": 227,
+        "locationEnd": 256,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_9",
         "category": "ARTWORK",
         "surfaceForm": "Tweestromenland",
@@ -1644,6 +1684,14 @@
         "locationStart": 354,
         "locationEnd": 363,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Amor Fati",
+        "category": "PER",
+        "locationStart": 354,
+        "locationEnd": 363,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_8",

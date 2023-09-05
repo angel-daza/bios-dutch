@@ -2840,6 +2840,22 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Mr. Jean",
+        "category": "PER",
+        "locationStart": 7,
+        "locationEnd": 15,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Mr. Jean Theodorus",
+        "category": "PER",
+        "locationStart": 7,
+        "locationEnd": 25,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_1",
         "surfaceForm": "Jean Theodorus",
         "category": "PER",
@@ -2864,6 +2880,14 @@
         "locationStart": 11,
         "locationEnd": 25,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Jean Theodorus",
+        "category": "PER",
+        "locationStart": 11,
+        "locationEnd": 25,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_2",
@@ -3040,6 +3064,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "West Friesland",
+        "category": "PER",
+        "locationStart": 110,
+        "locationEnd": 124,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_2",
         "surfaceForm": "1767",
         "category": "TIME",
@@ -3160,6 +3192,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Te Water",
+        "category": "PER",
+        "locationStart": 304,
+        "locationEnd": 312,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_13",
         "category": "TIME",
         "surfaceForm": "1809",
@@ -3256,6 +3296,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Hij vermaakte zijne Handschriften",
+        "category": "PER",
+        "locationStart": 537,
+        "locationEnd": 570,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_8",
         "surfaceForm": "Handschriften",
         "category": "MISC",
@@ -3318,6 +3366,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "C. Huijgens",
+        "category": "PER",
+        "locationStart": 622,
+        "locationEnd": 633,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_5",
         "category": "PER",
         "surfaceForm": "Huijgens",
@@ -3360,6 +3416,14 @@
         "locationStart": 658,
         "locationEnd": 672,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "L. Hoogeschool",
+        "category": "PER",
+        "locationStart": 658,
+        "locationEnd": 672,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_6",
@@ -3406,6 +3470,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Zie Hand.",
+        "category": "PER",
+        "locationStart": 784,
+        "locationEnd": 793,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Zie Hand. d. Maatsch",
+        "category": "PER",
+        "locationStart": 784,
+        "locationEnd": 804,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_7",
         "category": "MISC",
         "surfaceForm": "Hand. d. Maatsch. v. Ned.",
@@ -3422,12 +3502,28 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Hand. d. Maatsch",
+        "category": "PER",
+        "locationStart": 788,
+        "locationEnd": 804,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "xlmr_ner_5",
         "category": "ORG",
         "surfaceForm": "Ned. Letterk.",
         "locationStart": 809,
         "locationEnd": 822,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "Ned. Letterk",
+        "category": "PER",
+        "locationStart": 809,
+        "locationEnd": 821,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_8",
@@ -3478,6 +3574,14 @@
         "locationStart": 837,
         "locationEnd": 842,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "Kobus en de Rivicourt",
+        "category": "PER",
+        "locationStart": 837,
+        "locationEnd": 858,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_10",

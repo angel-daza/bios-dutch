@@ -3062,6 +3062,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Mr. Jonas",
+        "category": "PER",
+        "locationStart": 8,
+        "locationEnd": 17,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_0",
         "category": "PER",
         "surfaceForm": "jonas",
@@ -3148,6 +3156,14 @@
         "method": "human_gold"
       },
       {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Dr. Cornelis",
+        "category": "PER",
+        "locationStart": 60,
+        "locationEnd": 72,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_0",
         "category": "PER",
         "surfaceForm": "Cornelis",
@@ -3232,6 +3248,30 @@
         "locationStart": 92,
         "locationEnd": 116,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Catharina Claes",
+        "category": "PER",
+        "locationStart": 92,
+        "locationEnd": 107,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Catharina Claes dr. Gaef",
+        "category": "PER",
+        "locationStart": 92,
+        "locationEnd": 116,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Claes dr. Gaef",
+        "category": "PER",
+        "locationStart": 102,
+        "locationEnd": 116,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_4",
@@ -3442,6 +3482,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Sara van Raey",
+        "category": "PER",
+        "locationStart": 226,
+        "locationEnd": 239,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_8",
         "category": "ARTWORK",
         "surfaceForm": "genealogische aanteekeningen",
@@ -3512,6 +3560,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Zijn oudere broeder Mr.",
+        "category": "PER",
+        "locationStart": 279,
+        "locationEnd": 302,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Zijn oudere broeder Mr. Nicolaas",
+        "category": "PER",
+        "locationStart": 279,
+        "locationEnd": 311,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Zijn oudere broeder Mr. Nicolaas W.",
+        "category": "PER",
+        "locationStart": 279,
+        "locationEnd": 314,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_10",
         "surfaceForm": "Mr. Nicolaas W.",
         "category": "PER",
@@ -3538,6 +3610,22 @@
         "locationStart": 299,
         "locationEnd": 302,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Mr. Nicolaas",
+        "category": "PER",
+        "locationStart": 299,
+        "locationEnd": 311,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Mr. Nicolaas W.",
+        "category": "PER",
+        "locationStart": 299,
+        "locationEnd": 314,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_4",
@@ -3572,6 +3660,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "Nicolaas W.",
+        "category": "PER",
+        "locationStart": 303,
+        "locationEnd": 314,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_8",
         "surfaceForm": "1473",
         "category": "TIME",
@@ -3588,6 +3684,14 @@
         "locationStart": 327,
         "locationEnd": 350,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "Hem haelde Godt",
+        "category": "PER",
+        "locationStart": 689,
+        "locationEnd": 704,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_11",
@@ -3656,6 +3760,14 @@
         "locationStart": 827,
         "locationEnd": 838,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "Nicolaas W.",
+        "category": "PER",
+        "locationStart": 827,
+        "locationEnd": 838,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_13",

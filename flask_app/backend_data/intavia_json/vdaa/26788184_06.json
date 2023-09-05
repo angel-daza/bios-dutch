@@ -2629,6 +2629,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Abraham Jacque",
+        "category": "PER",
+        "locationStart": 8,
+        "locationEnd": 22,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_0",
         "category": "PER",
         "surfaceForm": "la",
@@ -2757,6 +2765,14 @@
         "locationStart": 80,
         "locationEnd": 102,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Hollandsche Rekenkamer",
+        "category": "PER",
+        "locationStart": 80,
+        "locationEnd": 102,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_4",
@@ -2955,6 +2971,14 @@
         "locationStart": 219,
         "locationEnd": 224,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Gogel en Tadema",
+        "category": "PER",
+        "locationStart": 219,
+        "locationEnd": 234,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_7",
@@ -3173,6 +3197,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Zie vervolg op Wagenaar",
+        "category": "PER",
+        "locationStart": 601,
+        "locationEnd": 624,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_10",
         "surfaceForm": "Wagenaar",
         "category": "PER",
@@ -3249,6 +3281,14 @@
         "locationStart": 645,
         "locationEnd": 649,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "D. V",
+        "category": "PER",
+        "locationStart": 645,
+        "locationEnd": 649,
+        "method": "spacy_matcher_nl"
       }
     ],
     "time_expressions": [

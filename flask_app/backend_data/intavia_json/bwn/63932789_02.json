@@ -13671,6 +13671,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Johan Adriaan",
+        "category": "PER",
+        "locationStart": 11,
+        "locationEnd": 24,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_2",
         "category": "LOCATION",
         "surfaceForm": "Haarlem",
@@ -13827,6 +13835,30 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Zoon van Johann",
+        "category": "PER",
+        "locationStart": 105,
+        "locationEnd": 120,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Zoon van Johann Christoph",
+        "category": "PER",
+        "locationStart": 105,
+        "locationEnd": 130,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Zoon van Johann Christoph Vollgraff",
+        "category": "PER",
+        "locationStart": 105,
+        "locationEnd": 140,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_5",
         "category": "PERSON",
         "surfaceForm": "Wilhelmina Maria de Bas",
@@ -13879,12 +13911,36 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Johann Christoph",
+        "category": "PER",
+        "locationStart": 114,
+        "locationEnd": 130,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Johann Christoph Vollgraff",
+        "category": "PER",
+        "locationStart": 114,
+        "locationEnd": 140,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_23",
         "category": "PERSON",
         "surfaceForm": "Willebrordus Snellius",
         "locationStart": 117,
         "locationEnd": 119,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Christoph Vollgraff",
+        "category": "PER",
+        "locationStart": 121,
+        "locationEnd": 140,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_6",
@@ -13937,6 +13993,30 @@
         "locationStart": 157,
         "locationEnd": 180,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Wilhelmina Maria",
+        "category": "PER",
+        "locationStart": 157,
+        "locationEnd": 173,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Wilhelmina Maria de Bas",
+        "category": "PER",
+        "locationStart": 157,
+        "locationEnd": 180,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Maria de Bas",
+        "category": "PER",
+        "locationStart": 168,
+        "locationEnd": 180,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_20",
@@ -14009,12 +14089,52 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Johanna Wilhelmina",
+        "category": "PER",
+        "locationStart": 206,
+        "locationEnd": 224,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "Johanna Wilhelmina Margaretha",
+        "category": "PER",
+        "locationStart": 206,
+        "locationEnd": 235,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "Johanna Wilhelmina Margaretha Valeton",
+        "category": "PER",
+        "locationStart": 206,
+        "locationEnd": 243,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_7",
         "category": "ORGANIZATION",
         "surfaceForm": "Universite Libre te Brussel",
         "locationStart": 209,
         "locationEnd": 235,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "Wilhelmina Margaretha",
+        "category": "PER",
+        "locationStart": 214,
+        "locationEnd": 235,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "Wilhelmina Margaretha Valeton",
+        "category": "PER",
+        "locationStart": 214,
+        "locationEnd": 243,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_7",
@@ -14025,6 +14145,14 @@
         "tokenStart": 36,
         "tokenEnd": 38,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_15",
+        "surfaceForm": "Margaretha Valeton",
+        "category": "PER",
+        "locationStart": 225,
+        "locationEnd": 243,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_8",
@@ -14149,6 +14277,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_16",
+        "surfaceForm": "Universite Libre",
+        "category": "PER",
+        "locationStart": 377,
+        "locationEnd": 393,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_18",
+        "surfaceForm": "Universite Libre te Brussel",
+        "category": "PER",
+        "locationStart": 377,
+        "locationEnd": 404,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_17",
+        "surfaceForm": "Libre te Brussel",
+        "category": "PER",
+        "locationStart": 388,
+        "locationEnd": 404,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_10",
         "surfaceForm": "Brussel",
         "category": "LOC",
@@ -14271,6 +14423,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_19",
+        "surfaceForm": "Rijksuniversiteit te Leiden",
+        "category": "PER",
+        "locationStart": 528,
+        "locationEnd": 555,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_72",
         "surfaceForm": "Leiden",
         "category": "LOC",
@@ -14339,6 +14499,14 @@
         "locationStart": 584,
         "locationEnd": 596,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_20",
+        "surfaceForm": "H.A. Lorentz",
+        "category": "PER",
+        "locationStart": 584,
+        "locationEnd": 596,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_6",
@@ -14583,6 +14751,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_21",
+        "surfaceForm": "Vlaamse Universiteit",
+        "category": "PER",
+        "locationStart": 1045,
+        "locationEnd": 1065,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_23",
+        "surfaceForm": "Vlaamse Universiteit te Gent",
+        "category": "PER",
+        "locationStart": 1045,
+        "locationEnd": 1073,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "xlmr_ner_10",
         "category": "",
         "surfaceForm": "laamse",
@@ -14597,6 +14781,14 @@
         "locationStart": 1053,
         "locationEnd": 1065,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_22",
+        "surfaceForm": "Universiteit te Gent",
+        "category": "PER",
+        "locationStart": 1053,
+        "locationEnd": 1073,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_21",
@@ -14873,6 +15065,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_24",
+        "surfaceForm": "E.C. van Leersum",
+        "category": "PER",
+        "locationStart": 1321,
+        "locationEnd": 1337,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_26",
         "category": "ORGANIZATION",
         "surfaceForm": "Huygens-commissie van de Hollandsche Maatschappij der Wetenschappen te Haarlem",
@@ -14909,6 +15109,30 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_25",
+        "surfaceForm": "Vereeniging voor Geschiedenis",
+        "category": "PER",
+        "locationStart": 1342,
+        "locationEnd": 1371,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_26",
+        "surfaceForm": "Geschiedenis der Genees-",
+        "category": "PER",
+        "locationStart": 1359,
+        "locationEnd": 1383,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_27",
+        "surfaceForm": "Natuur- en Wiskunde",
+        "category": "PER",
+        "locationStart": 1385,
+        "locationEnd": 1404,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_21",
         "surfaceForm": "Genootschap voor Geschiedenis der Geneeskunde",
         "category": "ORG",
@@ -14927,12 +15151,28 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_28",
+        "surfaceForm": "Genootschap voor Geschiedenis",
+        "category": "PER",
+        "locationStart": 1417,
+        "locationEnd": 1446,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_27",
         "category": "PERSON",
         "surfaceForm": "D. Bierens de Haan",
         "locationStart": 1433,
         "locationEnd": 1451,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_29",
+        "surfaceForm": "Geschiedenis der Geneeskunde",
+        "category": "PER",
+        "locationStart": 1434,
+        "locationEnd": 1462,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_22",
@@ -14953,6 +15193,14 @@
         "tokenStart": 253,
         "tokenEnd": 255,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_30",
+        "surfaceForm": "Natuurwetenschappen Techniek",
+        "category": "PER",
+        "locationStart": 1474,
+        "locationEnd": 1502,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_28",
@@ -15087,6 +15335,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_31",
+        "surfaceForm": "Nederlandse wetenschapshistorische tijdschrift Janus",
+        "category": "PER",
+        "locationStart": 1658,
+        "locationEnd": 1710,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_25",
         "surfaceForm": "Janus",
         "category": "ORG",
@@ -15189,6 +15445,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_32",
+        "surfaceForm": "Gent en Leiden",
+        "category": "PER",
+        "locationStart": 1877,
+        "locationEnd": 1891,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_27",
         "surfaceForm": "Leiden",
         "category": "LOC",
@@ -15233,6 +15497,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_33",
+        "surfaceForm": "Het Genootschap",
+        "category": "PER",
+        "locationStart": 1893,
+        "locationEnd": 1908,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_35",
+        "surfaceForm": "Het Genootschap voor de Geschiedenis",
+        "category": "PER",
+        "locationStart": 1893,
+        "locationEnd": 1929,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_28",
         "surfaceForm": "Genootschap voor de Geschiedenis der Geneeskunde",
         "category": "ORG",
@@ -15259,6 +15539,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_34",
+        "surfaceForm": "Genootschap voor de Geschiedenis",
+        "category": "PER",
+        "locationStart": 1897,
+        "locationEnd": 1929,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_36",
+        "surfaceForm": "Geschiedenis der Geneeskunde",
+        "category": "PER",
+        "locationStart": 1917,
+        "locationEnd": 1945,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_29",
         "surfaceForm": "Wiskunde, Natuurwetenschappen en Techniek",
         "category": "ORG",
@@ -15267,6 +15563,14 @@
         "tokenStart": 332,
         "tokenEnd": 337,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_37",
+        "surfaceForm": "Natuurwetenschappen en Techniek",
+        "category": "PER",
+        "locationStart": 1957,
+        "locationEnd": 1988,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_21",
@@ -15499,6 +15803,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_38",
+        "surfaceForm": "W.P. Jorissen",
+        "category": "PER",
+        "locationStart": 2283,
+        "locationEnd": 2296,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_18",
         "category": "PER",
         "surfaceForm": "p joris",
@@ -15675,6 +15987,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_39",
+        "surfaceForm": "Nicolaas Struyck",
+        "category": "PER",
+        "locationStart": 2636,
+        "locationEnd": 2652,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_36",
         "surfaceForm": "1913",
         "category": "TIME",
@@ -15745,6 +16065,14 @@
         "locationStart": 2775,
         "locationEnd": 2779,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_40",
+        "surfaceForm": "Leidsch Jaarboekje",
+        "category": "PER",
+        "locationStart": 2775,
+        "locationEnd": 2793,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_22",
@@ -15827,6 +16155,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_41",
+        "surfaceForm": "Fredericus Risner",
+        "category": "PER",
+        "locationStart": 2851,
+        "locationEnd": 2868,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_41",
         "surfaceForm": "1606",
         "category": "TIME",
@@ -15887,6 +16223,14 @@
         "locationStart": 2905,
         "locationEnd": 2926,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_42",
+        "surfaceForm": "Willebrordus Snellius",
+        "category": "PER",
+        "locationStart": 2905,
+        "locationEnd": 2926,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_43",
@@ -15985,6 +16329,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_43",
+        "surfaceForm": "Willebrordi Snellii",
+        "category": "PER",
+        "locationStart": 2980,
+        "locationEnd": 2999,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_41",
         "surfaceForm": "Christiaan Huygens",
         "category": "PER",
@@ -16027,6 +16379,22 @@
         "locationStart": 3048,
         "locationEnd": 3066,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_44",
+        "surfaceForm": "Christiaan Huygens",
+        "category": "PER",
+        "locationStart": 3048,
+        "locationEnd": 3066,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_45",
+        "surfaceForm": "Het levenswerk van Vollgraff",
+        "category": "PER",
+        "locationStart": 3068,
+        "locationEnd": 3096,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_42",
@@ -16101,6 +16469,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_46",
+        "surfaceForm": "Oeuvres completes de Christiaan",
+        "category": "PER",
+        "locationStart": 3122,
+        "locationEnd": 3153,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_47",
+        "surfaceForm": "Oeuvres completes de Christiaan Huygens",
+        "category": "PER",
+        "locationStart": 3122,
+        "locationEnd": 3161,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_44",
         "surfaceForm": "Christiaan Huygens",
         "category": "PER",
@@ -16135,6 +16519,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_48",
+        "surfaceForm": "Christiaan Huygens",
+        "category": "PER",
+        "locationStart": 3143,
+        "locationEnd": 3161,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_49",
         "surfaceForm": "1888 en 1950",
         "category": "TIME",
@@ -16159,6 +16551,14 @@
         "locationStart": 3182,
         "locationEnd": 3186,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_49",
+        "surfaceForm": "De Oeuvres",
+        "category": "PER",
+        "locationStart": 3358,
+        "locationEnd": 3368,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_45",
@@ -16251,6 +16651,38 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_50",
+        "surfaceForm": "Hollandsche Maatschappij",
+        "category": "PER",
+        "locationStart": 3439,
+        "locationEnd": 3463,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_52",
+        "surfaceForm": "Hollandsche Maatschappij der Wetenschappen",
+        "category": "PER",
+        "locationStart": 3439,
+        "locationEnd": 3481,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_51",
+        "surfaceForm": "Maatschappij der Wetenschappen",
+        "category": "PER",
+        "locationStart": 3451,
+        "locationEnd": 3481,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_53",
+        "surfaceForm": "Wetenschappen te Haarlem",
+        "category": "PER",
+        "locationStart": 3468,
+        "locationEnd": 3492,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_48",
         "surfaceForm": "te Haarlem",
         "category": "ORG",
@@ -16339,12 +16771,36 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_54",
+        "surfaceForm": "D. Bierens",
+        "category": "PER",
+        "locationStart": 3523,
+        "locationEnd": 3533,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_56",
+        "surfaceForm": "D. Bierens de Haan",
+        "category": "PER",
+        "locationStart": 3523,
+        "locationEnd": 3541,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_26",
         "category": "PER",
         "surfaceForm": "Bierens de Haan",
         "locationStart": 3526,
         "locationEnd": 3541,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_55",
+        "surfaceForm": "Bierens de Haan",
+        "category": "PER",
+        "locationStart": 3526,
+        "locationEnd": 3541,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_54",
@@ -16469,6 +16925,14 @@
         "locationStart": 3625,
         "locationEnd": 3635,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_57",
+        "surfaceForm": "J. Bosscha",
+        "category": "PER",
+        "locationStart": 3625,
+        "locationEnd": 3635,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_28",
@@ -16683,6 +17147,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_58",
+        "surfaceForm": "Latijnse en Nederlandse",
+        "category": "PER",
+        "locationStart": 3848,
+        "locationEnd": 3871,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_56",
         "surfaceForm": "Nederlandse",
         "category": "MISC",
@@ -16747,6 +17219,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_59",
+        "surfaceForm": "Biographie de Christiaan",
+        "category": "PER",
+        "locationStart": 3956,
+        "locationEnd": 3980,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_60",
+        "surfaceForm": "Biographie de Christiaan Huygens",
+        "category": "PER",
+        "locationStart": 3956,
+        "locationEnd": 3988,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_32",
         "category": "PER",
         "surfaceForm": "Christiaan Huygens'",
@@ -16761,6 +17249,14 @@
         "locationStart": 3970,
         "locationEnd": 3988,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_61",
+        "surfaceForm": "Christiaan Huygens",
+        "category": "PER",
+        "locationStart": 3970,
+        "locationEnd": 3988,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_59",
@@ -16869,6 +17365,38 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_62",
+        "surfaceForm": "Christiaan Huygens",
+        "category": "PER",
+        "locationStart": 4208,
+        "locationEnd": 4226,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_63",
+        "surfaceForm": "Collectie- Vollgraff",
+        "category": "PER",
+        "locationStart": 4231,
+        "locationEnd": 4251,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_65",
+        "surfaceForm": "Collectie- Vollgraff in Museum",
+        "category": "PER",
+        "locationStart": 4231,
+        "locationEnd": 4261,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_67",
+        "surfaceForm": "Collectie- Vollgraff in Museum Boerhaave",
+        "category": "PER",
+        "locationStart": 4231,
+        "locationEnd": 4271,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_62",
         "surfaceForm": "Vollgraff",
         "category": "PER",
@@ -16885,6 +17413,22 @@
         "locationStart": 4242,
         "locationEnd": 4251,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_64",
+        "surfaceForm": "Vollgraff in Museum",
+        "category": "PER",
+        "locationStart": 4242,
+        "locationEnd": 4261,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_66",
+        "surfaceForm": "Vollgraff in Museum Boerhaave",
+        "category": "PER",
+        "locationStart": 4242,
+        "locationEnd": 4271,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_63",
@@ -16911,6 +17455,14 @@
         "locationStart": 4255,
         "locationEnd": 4271,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_68",
+        "surfaceForm": "Museum Boerhaave",
+        "category": "PER",
+        "locationStart": 4255,
+        "locationEnd": 4271,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_33",
@@ -16981,12 +17533,28 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_69",
+        "surfaceForm": "B.A. van Proosdij",
+        "category": "PER",
+        "locationStart": 4313,
+        "locationEnd": 4330,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_34",
         "category": "",
         "surfaceForm": "pro",
         "locationStart": 4322,
         "locationEnd": 4325,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_70",
+        "surfaceForm": "Proosdij in Janus",
+        "category": "PER",
+        "locationStart": 4322,
+        "locationEnd": 4339,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_66",
@@ -17047,6 +17615,14 @@
         "locationStart": 4361,
         "locationEnd": 4365,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_71",
+        "surfaceForm": "D.J. Struik",
+        "category": "PER",
+        "locationStart": 4361,
+        "locationEnd": 4372,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_35",
@@ -17117,6 +17693,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_72",
+        "surfaceForm": "D.A. Wittop",
+        "category": "PER",
+        "locationStart": 4396,
+        "locationEnd": 4407,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_73",
+        "surfaceForm": "D.A. Wittop Koning",
+        "category": "PER",
+        "locationStart": 4396,
+        "locationEnd": 4414,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_40",
         "category": "PER",
         "surfaceForm": "Wittop Koning",
@@ -17131,6 +17723,14 @@
         "locationStart": 4401,
         "locationEnd": 4414,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_74",
+        "surfaceForm": "Wittop Koning",
+        "category": "PER",
+        "locationStart": 4401,
+        "locationEnd": 4414,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_70",
@@ -17183,6 +17783,14 @@
         "locationStart": 4489,
         "locationEnd": 4504,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_75",
+        "surfaceForm": "H.A.M. Snelders",
+        "category": "PER",
+        "locationStart": 4489,
+        "locationEnd": 4504,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_42",

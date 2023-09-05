@@ -973,6 +973,14 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Was een Amsterdammer",
+        "category": "PER",
+        "locationStart": 4,
+        "locationEnd": 24,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_1",
         "category": "LOCATION",
         "surfaceForm": "Amsterdammer",
@@ -1145,6 +1153,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Tijdgenoot van dienvoornoemden J.",
+        "category": "PER",
+        "locationStart": 192,
+        "locationEnd": 225,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_6",
         "surfaceForm": "J. v. Keulen",
         "category": "PER",
@@ -1187,6 +1203,14 @@
         "locationStart": 223,
         "locationEnd": 235,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "J. v. Keulen",
+        "category": "PER",
+        "locationStart": 223,
+        "locationEnd": 235,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_7",

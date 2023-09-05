@@ -361,6 +361,30 @@
     },
     "entities": [
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Portret van Nicolaas",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 20,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Portret van Nicolaas Messchaert",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 31,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Portret van Nicolaas Messchaert Portretbuste",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 44,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_0",
         "surfaceForm": "Nicolaas Messchaert Portretbuste",
         "category": "PER",
@@ -405,12 +429,36 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Nicolaas Messchaert",
+        "category": "PER",
+        "locationStart": 12,
+        "locationEnd": 31,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Nicolaas Messchaert Portretbuste",
+        "category": "PER",
+        "locationStart": 12,
+        "locationEnd": 44,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_0",
         "category": "PERSON",
         "surfaceForm": "Nicolaas Messchaert",
         "locationStart": 13,
         "locationEnd": 30,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Messchaert Portretbuste",
+        "category": "PER",
+        "locationStart": 21,
+        "locationEnd": 44,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_1",
@@ -463,6 +511,14 @@
         "locationStart": 61,
         "locationEnd": 80,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Nicolaas Messchaert",
+        "category": "PER",
+        "locationStart": 61,
+        "locationEnd": 80,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_2",

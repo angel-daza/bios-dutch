@@ -3502,6 +3502,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Mr. Adriaan",
+        "category": "PER",
+        "locationStart": 13,
+        "locationEnd": 24,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Mr. Adriaan Louis",
+        "category": "PER",
+        "locationStart": 13,
+        "locationEnd": 30,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_1",
         "category": "PERSON",
         "surfaceForm": "Adriaan Louis baron van",
@@ -3534,6 +3550,14 @@
         "locationStart": 17,
         "locationEnd": 40,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Adriaan Louis",
+        "category": "PER",
+        "locationStart": 17,
+        "locationEnd": 30,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_2",
@@ -3830,6 +3854,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Jean Louis",
+        "category": "PER",
+        "locationStart": 170,
+        "locationEnd": 180,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_9",
         "category": "LOCATION",
         "surfaceForm": "Leiden",
@@ -3872,6 +3904,14 @@
         "locationStart": 201,
         "locationEnd": 213,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "S.M. Houtuyn",
+        "category": "PER",
+        "locationStart": 201,
+        "locationEnd": 213,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_5",
@@ -4258,6 +4298,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Rekenkamer van Holland",
+        "category": "PER",
+        "locationStart": 478,
+        "locationEnd": 500,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_20",
         "category": "LOCATION",
         "surfaceForm": "Voorne",
@@ -4298,6 +4346,14 @@
         "tokenStart": 112,
         "tokenEnd": 115,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Den 4en Jan",
+        "category": "PER",
+        "locationStart": 502,
+        "locationEnd": 513,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_19",
@@ -4430,6 +4486,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "St. Ligtmis-",
+        "category": "PER",
+        "locationStart": 592,
+        "locationEnd": 604,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "St. Ligtmis- of Voermansgilde",
+        "category": "PER",
+        "locationStart": 592,
+        "locationEnd": 621,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Ligtmis- of Voermansgilde",
+        "category": "PER",
+        "locationStart": 596,
+        "locationEnd": 621,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_7",
         "category": "ORG",
         "surfaceForm": "Voermansgilde",
@@ -4538,12 +4618,36 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Oude en Nieuwe",
+        "category": "PER",
+        "locationStart": 710,
+        "locationEnd": 724,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "Oude en Nieuwe Struyten",
+        "category": "PER",
+        "locationStart": 710,
+        "locationEnd": 733,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_8",
         "category": "LOC",
         "surfaceForm": "Nieuwe Struyten",
         "locationStart": 718,
         "locationEnd": 733,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "Nieuwe Struyten",
+        "category": "PER",
+        "locationStart": 718,
+        "locationEnd": 733,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "xlmr_ner_7",
@@ -4650,12 +4754,36 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "Alg. Ned.",
+        "category": "PER",
+        "locationStart": 838,
+        "locationEnd": 847,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "Alg. Ned. Familieblad",
+        "category": "PER",
+        "locationStart": 838,
+        "locationEnd": 859,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_11",
         "category": "ORG",
         "surfaceForm": "Ned.",
         "locationStart": 843,
         "locationEnd": 847,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_15",
+        "surfaceForm": "Ned. Familieblad",
+        "category": "PER",
+        "locationStart": 843,
+        "locationEnd": 859,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_12",

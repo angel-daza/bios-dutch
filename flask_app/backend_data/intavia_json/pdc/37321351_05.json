@@ -1531,6 +1531,22 @@
     },
     "entities": [
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Liberaal Tweede",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 15,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Liberaal Tweede Kamerlid",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 24,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_0",
         "surfaceForm": "Tweede Kamerlid",
         "category": "ORG",
@@ -1547,6 +1563,14 @@
         "locationStart": 9,
         "locationEnd": 24,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Tweede Kamerlid",
+        "category": "PER",
+        "locationStart": 9,
+        "locationEnd": 24,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_1",
@@ -1581,6 +1605,14 @@
         "locationStart": 43,
         "locationEnd": 50,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "In de stad Zutphen",
+        "category": "PER",
+        "locationStart": 81,
+        "locationEnd": 99,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_2",
@@ -1625,6 +1657,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Was tevens Statenlid",
+        "category": "PER",
+        "locationStart": 178,
+        "locationEnd": 198,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_3",
         "surfaceForm": "Statenlid",
         "category": "ORG",
@@ -1649,6 +1689,14 @@
         "locationStart": 198,
         "locationEnd": 199,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Trouwe medestander van Thorbecke",
+        "category": "PER",
+        "locationStart": 200,
+        "locationEnd": 232,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_4",
@@ -1693,6 +1741,14 @@
         "locationStart": 375,
         "locationEnd": 383,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Gelderse Achterhoek",
+        "category": "PER",
+        "locationStart": 375,
+        "locationEnd": 394,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_5",

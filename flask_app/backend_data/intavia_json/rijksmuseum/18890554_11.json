@@ -276,6 +276,38 @@
     },
     "entities": [
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Portret van Lucas",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 17,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Portret van Lucas Trelcatius",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 28,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Portret van Lucas Trelcatius I",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 30,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Portret van Lucas Trelcatius I Portret",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 38,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_0",
         "surfaceForm": "Lucas Trelcatius I",
         "category": "PER",
@@ -320,12 +352,92 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Lucas Trelcatius",
+        "category": "PER",
+        "locationStart": 12,
+        "locationEnd": 28,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Lucas Trelcatius I",
+        "category": "PER",
+        "locationStart": 12,
+        "locationEnd": 30,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Lucas Trelcatius I Portret",
+        "category": "PER",
+        "locationStart": 12,
+        "locationEnd": 38,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "Lucas Trelcatius I Portret van de Leidse",
+        "category": "PER",
+        "locationStart": 12,
+        "locationEnd": 52,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_0",
         "category": "PERSON",
         "surfaceForm": "Lucas Trelcatius I",
         "locationStart": 17,
         "locationEnd": 34,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Trelcatius I",
+        "category": "PER",
+        "locationStart": 18,
+        "locationEnd": 30,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Trelcatius I Portret",
+        "category": "PER",
+        "locationStart": 18,
+        "locationEnd": 38,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "Trelcatius I Portret van de Leidse",
+        "category": "PER",
+        "locationStart": 18,
+        "locationEnd": 52,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "I Portret",
+        "category": "PER",
+        "locationStart": 29,
+        "locationEnd": 38,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "I Portret van de Leidse",
+        "category": "PER",
+        "locationStart": 29,
+        "locationEnd": 52,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Portret van de Leidse",
+        "category": "PER",
+        "locationStart": 31,
+        "locationEnd": 52,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_1",
@@ -360,6 +472,22 @@
         "locationStart": 46,
         "locationEnd": 71,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "Leidse theoloog Lucas",
+        "category": "PER",
+        "locationStart": 46,
+        "locationEnd": 67,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_15",
+        "surfaceForm": "Leidse theoloog Lucas Trelcatius",
+        "category": "PER",
+        "locationStart": 46,
+        "locationEnd": 78,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_2",
@@ -404,6 +532,14 @@
         "locationStart": 62,
         "locationEnd": 78,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_16",
+        "surfaceForm": "Lucas Trelcatius",
+        "category": "PER",
+        "locationStart": 62,
+        "locationEnd": 78,
+        "method": "spacy_matcher_nl"
       }
     ],
     "time_expressions": []

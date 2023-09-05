@@ -1945,6 +1945,22 @@
         "method": "stanza_nl"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Pianoforte magazijn van Martin",
+        "category": "PER",
+        "locationStart": 81,
+        "locationEnd": 111,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Pianoforte magazijn van Martin Klemens",
+        "category": "PER",
+        "locationStart": 81,
+        "locationEnd": 119,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_3",
         "category": "TIME",
         "surfaceForm": "eerste kwartaal der negentiende eeuw",
@@ -1985,6 +2001,30 @@
         "locationStart": 105,
         "locationEnd": 119,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Martin Klemens",
+        "category": "PER",
+        "locationStart": 105,
+        "locationEnd": 119,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Martin Klemens te Amsterdam",
+        "category": "PER",
+        "locationStart": 105,
+        "locationEnd": 132,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Klemens te Amsterdam",
+        "category": "PER",
+        "locationStart": 112,
+        "locationEnd": 132,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_5",
@@ -2083,6 +2123,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Museum van Kunstnijverheid",
+        "category": "PER",
+        "locationStart": 187,
+        "locationEnd": 213,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Kunstnijverheid te Haarlem",
+        "category": "PER",
+        "locationStart": 198,
+        "locationEnd": 224,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_6",
         "category": "ORGANIZATION",
         "surfaceForm": "raad en wethouder van Amsterdam",
@@ -2161,6 +2217,22 @@
         "method": "human_gold"
       },
       {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Mr. H.J.",
+        "category": "PER",
+        "locationStart": 255,
+        "locationEnd": 263,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Mr. H.J. Koenen",
+        "category": "PER",
+        "locationStart": 255,
+        "locationEnd": 270,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_1",
         "category": "PER",
         "surfaceForm": "H.J.",
@@ -2175,6 +2247,14 @@
         "locationStart": 259,
         "locationEnd": 270,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "H.J. Koenen",
+        "category": "PER",
+        "locationStart": 259,
+        "locationEnd": 270,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_2",

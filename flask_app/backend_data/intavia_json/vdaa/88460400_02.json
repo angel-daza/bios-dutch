@@ -760,6 +760,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Mr. Egbert",
+        "category": "PER",
+        "locationStart": 10,
+        "locationEnd": 20,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Mr. Egbert Pieter",
+        "category": "PER",
+        "locationStart": 10,
+        "locationEnd": 27,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_1",
         "surfaceForm": "Egbert Pieter",
         "category": "PER",
@@ -792,6 +808,14 @@
         "locationStart": 14,
         "locationEnd": 31,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Egbert Pieter",
+        "category": "PER",
+        "locationStart": 14,
+        "locationEnd": 27,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_2",

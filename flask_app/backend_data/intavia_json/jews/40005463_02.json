@@ -9816,6 +9816,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Immanuel Capadose",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 17,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_10",
         "surfaceForm": "1751 - 1820",
         "category": "TIME",
@@ -10094,6 +10102,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Willem I",
+        "category": "PER",
+        "locationStart": 229,
+        "locationEnd": 237,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_9",
         "category": "LOCATION",
         "surfaceForm": "Amsterdam",
@@ -10144,6 +10160,14 @@
         "locationStart": 252,
         "locationEnd": 269,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Immanuel Capadose",
+        "category": "PER",
+        "locationStart": 252,
+        "locationEnd": 269,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_10",
@@ -10232,6 +10256,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Abraham Capadose",
+        "category": "PER",
+        "locationStart": 294,
+        "locationEnd": 310,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_12",
         "category": "ORGANIZATION",
         "surfaceForm": "Huis van Oranje",
@@ -10274,6 +10306,14 @@
         "locationStart": 345,
         "locationEnd": 368,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Sefardische gemeenschap in Amsterdam",
+        "category": "PER",
+        "locationStart": 345,
+        "locationEnd": 381,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_13",
@@ -10458,6 +10498,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Urinae Nosologiam",
+        "category": "PER",
+        "locationStart": 474,
+        "locationEnd": 491,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_19",
         "category": "PERSON",
         "surfaceForm": "Lodewijk Napoleon",
@@ -10510,6 +10558,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Huis van Oranje",
+        "category": "PER",
+        "locationStart": 529,
+        "locationEnd": 544,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_21",
         "category": "ARTWORK",
         "surfaceForm": "De instelling der Orde van de Unie",
@@ -10526,6 +10582,30 @@
         "tokenStart": 103,
         "tokenEnd": 106,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Stadhouder Willem",
+        "category": "PER",
+        "locationStart": 569,
+        "locationEnd": 586,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Stadhouder Willem V.",
+        "category": "PER",
+        "locationStart": 569,
+        "locationEnd": 589,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Stadhouder Willem V. Toen",
+        "category": "PER",
+        "locationStart": 569,
+        "locationEnd": 594,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_40",
@@ -10562,12 +10642,36 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Willem V.",
+        "category": "PER",
+        "locationStart": 580,
+        "locationEnd": 589,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "Willem V. Toen",
+        "category": "PER",
+        "locationStart": 580,
+        "locationEnd": 594,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_22",
         "category": "PERSON",
         "surfaceForm": "Immanuel Capadose",
         "locationStart": 582,
         "locationEnd": 598,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "V. Toen",
+        "category": "PER",
+        "locationStart": 587,
+        "locationEnd": 594,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_41",
@@ -10640,6 +10744,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "Oranjeheerschappij overwoog Capadose",
+        "category": "PER",
+        "locationStart": 638,
+        "locationEnd": 674,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_26",
         "category": "ORGANIZATION",
         "surfaceForm": "Amsterdamse patriciersfamilies",
@@ -10684,6 +10796,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "Capadose om Willem",
+        "category": "PER",
+        "locationStart": 666,
+        "locationEnd": 684,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_15",
+        "surfaceForm": "Capadose om Willem V",
+        "category": "PER",
+        "locationStart": 666,
+        "locationEnd": 686,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_17",
         "surfaceForm": "Willem V",
         "category": "PER",
@@ -10726,6 +10854,14 @@
         "locationStart": 678,
         "locationEnd": 686,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_16",
+        "surfaceForm": "Willem V",
+        "category": "PER",
+        "locationStart": 678,
+        "locationEnd": 686,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_18",
@@ -10830,6 +10966,22 @@
         "method": "stanza_nl"
       },
       {
+        "ID": "spacy_matcher_nl_17",
+        "surfaceForm": "Koning Lodewijk",
+        "category": "PER",
+        "locationStart": 867,
+        "locationEnd": 882,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_18",
+        "surfaceForm": "Koning Lodewijk Napoleon",
+        "category": "PER",
+        "locationStart": 867,
+        "locationEnd": 891,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_46",
         "surfaceForm": "Lodewijk Napoleon",
         "category": "PER",
@@ -10862,6 +11014,14 @@
         "locationStart": 874,
         "locationEnd": 891,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_19",
+        "surfaceForm": "Lodewijk Napoleon",
+        "category": "PER",
+        "locationStart": 874,
+        "locationEnd": 891,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_33",
@@ -10926,12 +11086,28 @@
         "method": "human_gold"
       },
       {
+        "ID": "spacy_matcher_nl_20",
+        "surfaceForm": "De instelling der Orde",
+        "category": "PER",
+        "locationStart": 931,
+        "locationEnd": 953,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_7",
         "category": "ORG",
         "surfaceForm": "Orde",
         "locationStart": 949,
         "locationEnd": 953,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_21",
+        "surfaceForm": "Orde van de Unie",
+        "category": "PER",
+        "locationStart": 949,
+        "locationEnd": 965,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_7",
@@ -10984,6 +11160,14 @@
         "locationStart": 968,
         "locationEnd": 985,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_22",
+        "surfaceForm": "Immanuel Capadose",
+        "category": "PER",
+        "locationStart": 968,
+        "locationEnd": 985,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_36",
@@ -11120,6 +11304,14 @@
         "locationStart": 1087,
         "locationEnd": 1092,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_23",
+        "surfaceForm": "Vecht bij Maarssen",
+        "category": "PER",
+        "locationStart": 1087,
+        "locationEnd": 1105,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_24",
@@ -11260,6 +11452,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_24",
+        "surfaceForm": "Batseba van Isaac",
+        "category": "PER",
+        "locationStart": 1223,
+        "locationEnd": 1240,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_25",
+        "surfaceForm": "Batseba van Isaac Abraham",
+        "category": "PER",
+        "locationStart": 1223,
+        "locationEnd": 1248,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_46",
         "category": "LOCATION",
         "surfaceForm": "Amsterdam",
@@ -11294,6 +11502,30 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "spacy_matcher_nl_26",
+        "surfaceForm": "Isaac Abraham",
+        "category": "PER",
+        "locationStart": 1235,
+        "locationEnd": 1248,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_28",
+        "surfaceForm": "Isaac Abraham da Costa",
+        "category": "PER",
+        "locationStart": 1235,
+        "locationEnd": 1257,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_27",
+        "surfaceForm": "Abraham da Costa",
+        "category": "PER",
+        "locationStart": 1241,
+        "locationEnd": 1257,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_47",
         "category": "LOCATION",
         "surfaceForm": "Portugees-joodse begraafplaats",
@@ -11308,6 +11540,14 @@
         "locationStart": 1284,
         "locationEnd": 1306,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_29",
+        "surfaceForm": "De bekende dichter Isaac",
+        "category": "PER",
+        "locationStart": 1306,
+        "locationEnd": 1330,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_28",
@@ -11354,6 +11594,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_30",
+        "surfaceForm": "Isaac da Costa",
+        "category": "PER",
+        "locationStart": 1325,
+        "locationEnd": 1339,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_31",
+        "surfaceForm": "Costa schreef over Capadose",
+        "category": "PER",
+        "locationStart": 1334,
+        "locationEnd": 1361,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_29",
         "surfaceForm": "Capadose",
         "category": "MISC",
@@ -11388,6 +11644,14 @@
         "locationStart": 1353,
         "locationEnd": 1356,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_32",
+        "surfaceForm": "Mijn oom Capadose",
+        "category": "PER",
+        "locationStart": 1364,
+        "locationEnd": 1381,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_30",
@@ -11434,6 +11698,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_33",
+        "surfaceForm": "Doch hij is Joods",
+        "category": "PER",
+        "locationStart": 1644,
+        "locationEnd": 1661,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_31",
         "surfaceForm": "Joods",
         "category": "MISC",
@@ -11468,6 +11740,14 @@
         "locationStart": 1739,
         "locationEnd": 1752,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_34",
+        "surfaceForm": "Portugeeschen Israeliet",
+        "category": "PER",
+        "locationStart": 1739,
+        "locationEnd": 1762,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_16",
@@ -11540,6 +11820,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_35",
+        "surfaceForm": "Isaac da Costa",
+        "category": "PER",
+        "locationStart": 2023,
+        "locationEnd": 2037,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_35",
         "surfaceForm": "Christendom",
         "category": "MISC",
@@ -11566,6 +11854,22 @@
         "tokenStart": 390,
         "tokenEnd": 393,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_36",
+        "surfaceForm": "Koning Lodewijk",
+        "category": "PER",
+        "locationStart": 2158,
+        "locationEnd": 2173,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_37",
+        "surfaceForm": "Koning Lodewijk Napoleon",
+        "category": "PER",
+        "locationStart": 2158,
+        "locationEnd": 2182,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_12",
@@ -11600,6 +11904,22 @@
         "locationStart": 2165,
         "locationEnd": 2182,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_38",
+        "surfaceForm": "Lodewijk Napoleon",
+        "category": "PER",
+        "locationStart": 2165,
+        "locationEnd": 2182,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_39",
+        "surfaceForm": "Zo weigerde Capadose",
+        "category": "PER",
+        "locationStart": 2251,
+        "locationEnd": 2271,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_37",
@@ -11700,6 +12020,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_40",
+        "surfaceForm": "Napoleon bijeen geroepen Grand",
+        "category": "PER",
+        "locationStart": 2309,
+        "locationEnd": 2339,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_41",
+        "surfaceForm": "Napoleon bijeen geroepen Grand Sanhedrin",
+        "category": "PER",
+        "locationStart": 2309,
+        "locationEnd": 2349,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_39",
         "surfaceForm": "Grand Sanhedrin",
         "category": "LOC",
@@ -11734,6 +12070,14 @@
         "locationStart": 2334,
         "locationEnd": 2349,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_42",
+        "surfaceForm": "Grand Sanhedrin",
+        "category": "PER",
+        "locationStart": 2334,
+        "locationEnd": 2349,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_40",
@@ -11878,6 +12222,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_43",
+        "surfaceForm": "Ook verzette Capadose",
+        "category": "PER",
+        "locationStart": 2561,
+        "locationEnd": 2582,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_44",
         "surfaceForm": "Capadose",
         "category": "PER",
@@ -11938,6 +12290,14 @@
         "locationStart": 2612,
         "locationEnd": 2621,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_44",
+        "surfaceForm": "Portugese en de Hoogduitse",
+        "category": "PER",
+        "locationStart": 2612,
+        "locationEnd": 2638,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_46",
@@ -12002,6 +12362,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_45",
+        "surfaceForm": "Jaap Meijer",
+        "category": "PER",
+        "locationStart": 2683,
+        "locationEnd": 2694,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_47",
+        "surfaceForm": "Jaap Meijer typeerde Capadose",
+        "category": "PER",
+        "locationStart": 2683,
+        "locationEnd": 2712,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_46",
+        "surfaceForm": "Meijer typeerde Capadose",
+        "category": "PER",
+        "locationStart": 2688,
+        "locationEnd": 2712,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_48",
         "surfaceForm": "Capadose",
         "category": "PER",
@@ -12056,6 +12440,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_48",
+        "surfaceForm": "Sefardische Jood",
+        "category": "PER",
+        "locationStart": 2786,
+        "locationEnd": 2802,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_50",
         "surfaceForm": "Jood",
         "category": "MISC",
@@ -12090,6 +12482,14 @@
         "locationStart": 2880,
         "locationEnd": 2884,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_49",
+        "surfaceForm": "Behalve arts was Capadose",
+        "category": "PER",
+        "locationStart": 2905,
+        "locationEnd": 2930,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_52",
@@ -12156,12 +12556,28 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_50",
+        "surfaceForm": "Hoofdcommissie tot Zaken",
+        "category": "PER",
+        "locationStart": 2948,
+        "locationEnd": 2972,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "xlmr_ner_28",
         "category": "ORG",
         "surfaceForm": "Zaken der Israelieten",
         "locationStart": 2967,
         "locationEnd": 2988,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_51",
+        "surfaceForm": "Zaken der Israelieten",
+        "category": "PER",
+        "locationStart": 2967,
+        "locationEnd": 2988,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_54",
@@ -12314,6 +12730,14 @@
         "locationStart": 3166,
         "locationEnd": 3175,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_52",
+        "surfaceForm": "Ouderkerk aan de Amstel",
+        "category": "PER",
+        "locationStart": 3166,
+        "locationEnd": 3189,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_58",

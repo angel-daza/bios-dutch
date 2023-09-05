@@ -963,6 +963,14 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Geen gemeen Historieschilder",
+        "category": "PER",
+        "locationStart": 5,
+        "locationEnd": 33,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_0",
         "category": "MISC",
         "surfaceForm": "Historieschilder",
@@ -1041,6 +1049,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "P. P.",
+        "category": "PER",
+        "locationStart": 98,
+        "locationEnd": 103,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "P. P. Rubens",
+        "category": "PER",
+        "locationStart": 98,
+        "locationEnd": 110,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_4",
         "category": "LOCATION",
         "surfaceForm": "Romen",
@@ -1055,6 +1079,14 @@
         "locationStart": 101,
         "locationEnd": 113,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "P. Rubens",
+        "category": "PER",
+        "locationStart": 101,
+        "locationEnd": 110,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_5",
@@ -1099,6 +1131,14 @@
         "locationStart": 133,
         "locationEnd": 142,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "A. v. Dyk",
+        "category": "PER",
+        "locationStart": 133,
+        "locationEnd": 142,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_0",

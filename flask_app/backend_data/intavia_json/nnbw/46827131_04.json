@@ -1848,6 +1848,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Johan Adriaansz",
+        "category": "PER",
+        "locationStart": 5,
+        "locationEnd": 20,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_1",
         "category": "LOCATION",
         "surfaceForm": "Rotterdam",
@@ -2226,6 +2234,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Rotterdam getrouwd met Margaretha",
+        "category": "PER",
+        "locationStart": 356,
+        "locationEnd": 389,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Rotterdam getrouwd met Margaretha Musch",
+        "category": "PER",
+        "locationStart": 356,
+        "locationEnd": 395,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_5",
         "surfaceForm": "Margaretha Musch",
         "category": "PER",
@@ -2268,6 +2292,14 @@
         "locationStart": 379,
         "locationEnd": 395,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Margaretha Musch",
+        "category": "PER",
+        "locationStart": 379,
+        "locationEnd": 395,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_9",
@@ -2332,12 +2364,44 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Maria van der Meyde",
+        "category": "PER",
+        "locationStart": 439,
+        "locationEnd": 458,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_5",
         "category": "MISC",
         "surfaceForm": "Bronnen Gesch",
         "locationStart": 465,
         "locationEnd": 478,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Bronnen Gesch.",
+        "category": "PER",
+        "locationStart": 465,
+        "locationEnd": 479,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Bronnen Gesch. Rott",
+        "category": "PER",
+        "locationStart": 465,
+        "locationEnd": 484,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Gesch. Rott",
+        "category": "PER",
+        "locationStart": 473,
+        "locationEnd": 484,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_6",
@@ -2380,6 +2444,14 @@
         "locationStart": 486,
         "locationEnd": 497,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "I. Moquette",
+        "category": "PER",
+        "locationStart": 486,
+        "locationEnd": 497,
+        "method": "spacy_matcher_nl"
       }
     ],
     "time_expressions": [

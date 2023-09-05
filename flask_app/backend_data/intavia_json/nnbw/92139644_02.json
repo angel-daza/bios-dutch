@@ -3467,6 +3467,14 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Albertus Wilhelmus",
+        "category": "PER",
+        "locationStart": 10,
+        "locationEnd": 28,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_2",
         "category": "LOCATION",
         "surfaceForm": "Lochem",
@@ -3659,6 +3667,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Lochem en J.",
+        "category": "PER",
+        "locationStart": 112,
+        "locationEnd": 124,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Lochem en J. Willekes",
+        "category": "PER",
+        "locationStart": 112,
+        "locationEnd": 133,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_5",
         "category": "PERSON",
         "surfaceForm": "Campegius Vitringa",
@@ -3709,6 +3733,14 @@
         "locationStart": 122,
         "locationEnd": 133,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "J. Willekes",
+        "category": "PER",
+        "locationStart": 122,
+        "locationEnd": 133,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_3",
@@ -3891,6 +3923,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Campegius Vitringa",
+        "category": "PER",
+        "locationStart": 219,
+        "locationEnd": 237,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_10",
         "category": "LOCATION",
         "surfaceForm": "Delft",
@@ -4001,6 +4041,14 @@
         "locationStart": 319,
         "locationEnd": 331,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Scherpenzeel in Augustus",
+        "category": "PER",
+        "locationStart": 319,
+        "locationEnd": 343,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_13",
@@ -4311,6 +4359,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Ida Betmer",
+        "category": "PER",
+        "locationStart": 446,
+        "locationEnd": 456,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_18",
         "surfaceForm": "1 Dec. 1763",
         "category": "TIME",
@@ -4465,6 +4521,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Lijkreden over Genesis",
+        "category": "PER",
+        "locationStart": 566,
+        "locationEnd": 588,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_19",
         "surfaceForm": "Genesis 50:4-9",
         "category": "MISC",
@@ -4565,6 +4629,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Princesse van Brunswijk",
+        "category": "PER",
+        "locationStart": 712,
+        "locationEnd": 735,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_25",
         "surfaceForm": "Brunswijk",
         "category": "LOC",
@@ -4597,6 +4669,14 @@
         "locationStart": 726,
         "locationEnd": 735,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Brunswijk en Lunenburg",
+        "category": "PER",
+        "locationStart": 726,
+        "locationEnd": 748,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_22",
@@ -4749,6 +4829,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Visscher en van Langeraad",
+        "category": "PER",
+        "locationStart": 826,
+        "locationEnd": 851,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_25",
         "surfaceForm": "van Langeraad",
         "category": "PER",
@@ -4821,6 +4909,54 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "Het Protestantsche",
+        "category": "PER",
+        "locationStart": 853,
+        "locationEnd": 871,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "Het Protestantsche Vaderland",
+        "category": "PER",
+        "locationStart": 853,
+        "locationEnd": 881,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "Het Protestantsche Vaderland I",
+        "category": "PER",
+        "locationStart": 853,
+        "locationEnd": 883,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "Protestantsche Vaderland",
+        "category": "PER",
+        "locationStart": 857,
+        "locationEnd": 881,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_15",
+        "surfaceForm": "Protestantsche Vaderland I",
+        "category": "PER",
+        "locationStart": 857,
+        "locationEnd": 883,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_16",
+        "surfaceForm": "Vaderland I",
+        "category": "PER",
+        "locationStart": 872,
+        "locationEnd": 883,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_32",
         "surfaceForm": "1907",
         "category": "TIME",
@@ -4865,6 +5001,14 @@
         "locationStart": 897,
         "locationEnd": 915,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_17",
+        "surfaceForm": "Kerkelijk Handboek",
+        "category": "PER",
+        "locationStart": 897,
+        "locationEnd": 915,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_35",

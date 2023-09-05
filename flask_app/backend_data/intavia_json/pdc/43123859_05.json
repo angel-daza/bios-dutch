@@ -1721,6 +1721,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Buitenlandse Zaken",
+        "category": "PER",
+        "locationStart": 102,
+        "locationEnd": 120,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_1",
         "category": "TIME",
         "surfaceForm": "1848",
@@ -1745,6 +1753,14 @@
         "locationStart": 157,
         "locationEnd": 172,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Tweede Kamerlid",
+        "category": "PER",
+        "locationStart": 157,
+        "locationEnd": 172,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_2",
@@ -1807,6 +1823,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Zuylianen in de Tweede",
+        "category": "PER",
+        "locationStart": 417,
+        "locationEnd": 439,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Zuylianen in de Tweede Kamer",
+        "category": "PER",
+        "locationStart": 417,
+        "locationEnd": 445,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_6",
         "surfaceForm": "Tweede Kamer",
         "category": "ORG",
@@ -1831,6 +1863,22 @@
         "locationStart": 433,
         "locationEnd": 445,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Tweede Kamer",
+        "category": "PER",
+        "locationStart": 433,
+        "locationEnd": 445,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Nadien gezant in Parijs",
+        "category": "PER",
+        "locationStart": 504,
+        "locationEnd": 527,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_7",
@@ -1883,6 +1931,14 @@
         "locationStart": 552,
         "locationEnd": 567,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Eerste Kamerlid",
+        "category": "PER",
+        "locationStart": 552,
+        "locationEnd": 567,
+        "method": "spacy_matcher_nl"
       }
     ],
     "time_expressions": [

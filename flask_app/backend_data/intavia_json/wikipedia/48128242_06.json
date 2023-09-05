@@ -6393,6 +6393,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Daam Fockema",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 12,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_1",
         "surfaceForm": "Dokkum",
         "category": "LOC",
@@ -6517,6 +6525,14 @@
         "locationStart": 103,
         "locationEnd": 116,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Leven Fockema",
+        "category": "PER",
+        "locationStart": 103,
+        "locationEnd": 116,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_4",
@@ -6663,6 +6679,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Departement van de Eems",
+        "category": "PER",
+        "locationStart": 335,
+        "locationEnd": 358,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_8",
         "surfaceForm": "Raad",
         "category": "ORG",
@@ -6689,6 +6713,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Raad in de Hof",
+        "category": "PER",
+        "locationStart": 361,
+        "locationEnd": 375,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_9",
         "surfaceForm": "Hof van Friesland",
         "category": "ORG",
@@ -6705,6 +6737,14 @@
         "locationStart": 372,
         "locationEnd": 389,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Hof van Friesland",
+        "category": "PER",
+        "locationStart": 372,
+        "locationEnd": 389,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_1",
@@ -6849,6 +6889,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Napoleon I",
+        "category": "PER",
+        "locationStart": 618,
+        "locationEnd": 628,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_1",
         "category": "TIME",
         "surfaceForm": "1811",
@@ -6907,6 +6955,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Tweede Kamer",
+        "category": "PER",
+        "locationStart": 787,
+        "locationEnd": 799,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_14",
         "surfaceForm": "Leeuwarden",
         "category": "LOC",
@@ -6949,6 +7005,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Werk Iets",
+        "category": "PER",
+        "locationStart": 908,
+        "locationEnd": 917,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_15",
         "surfaceForm": "Zuiden en Noorden van de Nederlanden",
         "category": "LOC",
@@ -6967,12 +7031,28 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Zuiden en Noorden",
+        "category": "PER",
+        "locationStart": 950,
+        "locationEnd": 967,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_5",
         "category": "LOC",
         "surfaceForm": "Noorden",
         "locationStart": 960,
         "locationEnd": 967,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Noorden van de Nederlanden",
+        "category": "PER",
+        "locationStart": 960,
+        "locationEnd": 986,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_5",
@@ -7145,6 +7225,30 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Friesche Kronyk",
+        "category": "PER",
+        "locationStart": 1234,
+        "locationEnd": 1249,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "Friesche Kronyk van Ocko",
+        "category": "PER",
+        "locationStart": 1234,
+        "locationEnd": 1258,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "Kronyk van Ocko",
+        "category": "PER",
+        "locationStart": 1243,
+        "locationEnd": 1258,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_21",
         "surfaceForm": "Ocko van Scharl e.a.",
         "category": "PER",
@@ -7177,6 +7281,14 @@
         "locationStart": 1254,
         "locationEnd": 1286,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "Ocko van Scharl",
+        "category": "PER",
+        "locationStart": 1254,
+        "locationEnd": 1269,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_22",
@@ -7223,12 +7335,36 @@
         "method": "stanza_nl"
       },
       {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "Schetsen van de Friesche",
+        "category": "PER",
+        "locationStart": 1294,
+        "locationEnd": 1318,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_15",
+        "surfaceForm": "Schetsen van de Friesche Geschied",
+        "category": "PER",
+        "locationStart": 1294,
+        "locationEnd": 1327,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_9",
         "category": "MISC",
         "surfaceForm": "Friesche Geschied",
         "locationStart": 1310,
         "locationEnd": 1327,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_16",
+        "surfaceForm": "Friesche Geschied",
+        "category": "PER",
+        "locationStart": 1310,
+        "locationEnd": 1327,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_8",
@@ -7305,6 +7441,30 @@
         "locationStart": 1474,
         "locationEnd": 1488,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_17",
+        "surfaceForm": "De Vrije",
+        "category": "PER",
+        "locationStart": 1474,
+        "locationEnd": 1482,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_18",
+        "surfaceForm": "De Vrije Fries",
+        "category": "PER",
+        "locationStart": 1474,
+        "locationEnd": 1488,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_19",
+        "surfaceForm": "Vrije Fries",
+        "category": "PER",
+        "locationStart": 1477,
+        "locationEnd": 1488,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_26",
@@ -7435,6 +7595,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_20",
+        "surfaceForm": "Schieringers en Vetkoopers",
+        "category": "PER",
+        "locationStart": 1595,
+        "locationEnd": 1621,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_30",
         "surfaceForm": "Vetkoopers",
         "category": "MISC",
@@ -7477,6 +7645,14 @@
         "locationStart": 1639,
         "locationEnd": 1647,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_21",
+        "surfaceForm": "Romeinen door Friesl",
+        "category": "PER",
+        "locationStart": 1639,
+        "locationEnd": 1659,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_32",
@@ -7539,6 +7715,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_22",
+        "surfaceForm": "Ernst Willem",
+        "category": "PER",
+        "locationStart": 1677,
+        "locationEnd": 1689,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_23",
+        "surfaceForm": "Ernst Willem Higt",
+        "category": "PER",
+        "locationStart": 1677,
+        "locationEnd": 1694,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_24",
+        "surfaceForm": "Willem Higt",
+        "category": "PER",
+        "locationStart": 1683,
+        "locationEnd": 1694,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_34",
         "surfaceForm": "Krantzii Saxonia",
         "category": "PER",
@@ -7563,6 +7763,14 @@
         "locationStart": 1716,
         "locationEnd": 1732,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_25",
+        "surfaceForm": "Krantzii Saxonia",
+        "category": "PER",
+        "locationStart": 1716,
+        "locationEnd": 1732,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_35",
@@ -7599,6 +7807,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_26",
+        "surfaceForm": "Lodewijk den Vromen",
+        "category": "PER",
+        "locationStart": 1752,
+        "locationEnd": 1771,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_36",
         "surfaceForm": "Dockum",
         "category": "PER",
@@ -7631,6 +7847,22 @@
         "locationStart": 1797,
         "locationEnd": 1801,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_27",
+        "surfaceForm": "Dockum door Gerrit",
+        "category": "PER",
+        "locationStart": 1797,
+        "locationEnd": 1815,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_28",
+        "surfaceForm": "Dockum door Gerrit Hesman",
+        "category": "PER",
+        "locationStart": 1797,
+        "locationEnd": 1822,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_37",
@@ -7667,12 +7899,52 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_29",
+        "surfaceForm": "Gerrit Hesman",
+        "category": "PER",
+        "locationStart": 1809,
+        "locationEnd": 1822,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_30",
+        "surfaceForm": "Financiele oppositie Categorie",
+        "category": "PER",
+        "locationStart": 1837,
+        "locationEnd": 1867,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_16",
         "category": "MISC",
         "surfaceForm": "Tweede Kamerlid",
         "locationStart": 1867,
         "locationEnd": 1882,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_31",
+        "surfaceForm": "Tweede Kamerlid",
+        "category": "PER",
+        "locationStart": 1869,
+        "locationEnd": 1884,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_32",
+        "surfaceForm": "Tweede Kamerlid Categorie",
+        "category": "PER",
+        "locationStart": 1869,
+        "locationEnd": 1894,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_33",
+        "surfaceForm": "Kamerlid Categorie",
+        "category": "PER",
+        "locationStart": 1876,
+        "locationEnd": 1894,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_16",
@@ -7725,6 +7997,14 @@
         "tokenStart": 360,
         "tokenEnd": 362,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_34",
+        "surfaceForm": "Daam Fockema",
+        "category": "PER",
+        "locationStart": 1926,
+        "locationEnd": 1938,
+        "method": "spacy_matcher_nl"
       }
     ],
     "time_expressions": [

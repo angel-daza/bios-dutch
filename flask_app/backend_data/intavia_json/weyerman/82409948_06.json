@@ -853,6 +853,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Had tot zyn Overgrootvader",
+        "category": "PER",
+        "locationStart": 5,
+        "locationEnd": 31,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Overgrootvader een Geheymschryver",
+        "category": "PER",
+        "locationStart": 17,
+        "locationEnd": 50,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_0",
         "surfaceForm": "Geheymschryver",
         "category": "MISC",
@@ -863,6 +879,22 @@
         "method": "stanza_nl"
       },
       {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Geheymschryver der Stad",
+        "category": "PER",
+        "locationStart": 36,
+        "locationEnd": 59,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Geheymschryver der Stad Amsterdam",
+        "category": "PER",
+        "locationStart": 36,
+        "locationEnd": 69,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_1",
         "surfaceForm": "Stad Amsterdam",
         "category": "LOC",
@@ -871,6 +903,14 @@
         "tokenStart": 8,
         "tokenEnd": 10,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Stad Amsterdam",
+        "category": "PER",
+        "locationStart": 55,
+        "locationEnd": 69,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_0",
@@ -913,6 +953,14 @@
         "tokenStart": 16,
         "tokenEnd": 17,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Sekretaris op de Assurantiekamer",
+        "category": "PER",
+        "locationStart": 107,
+        "locationEnd": 139,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_3",

@@ -3494,6 +3494,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Hij beoefende de Nederduitsche",
+        "category": "PER",
+        "locationStart": 84,
+        "locationEnd": 114,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_4",
         "category": "ORGANIZATION",
         "surfaceForm": "Nederduitsche",
@@ -3554,6 +3562,38 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Kerklijk Register",
+        "category": "PER",
+        "locationStart": 188,
+        "locationEnd": 205,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Kerklijk Register van de Plaatsen",
+        "category": "PER",
+        "locationStart": 188,
+        "locationEnd": 221,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Register van de Plaatsen",
+        "category": "PER",
+        "locationStart": 197,
+        "locationEnd": 221,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Plaatsen en Namen",
+        "category": "PER",
+        "locationStart": 213,
+        "locationEnd": 230,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_7",
         "category": "ARTWORK",
         "surfaceForm": "Reformatie",
@@ -3572,6 +3612,14 @@
         "method": "stanza_nl"
       },
       {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Namen der Predikanten",
+        "category": "PER",
+        "locationStart": 225,
+        "locationEnd": 246,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_8",
         "category": "TIME",
         "surfaceForm": "1701",
@@ -3586,6 +3634,14 @@
         "locationStart": 248,
         "locationEnd": 257,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Classen van Zuid-Holland",
+        "category": "PER",
+        "locationStart": 259,
+        "locationEnd": 283,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_10",
@@ -3830,6 +3886,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Synodaal Register",
+        "category": "PER",
+        "locationStart": 406,
+        "locationEnd": 423,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_13",
         "category": "ARTWORK",
         "surfaceForm": "Tweede Deel",
@@ -3854,6 +3918,14 @@
         "tokenStart": 82,
         "tokenEnd": 83,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Namen en Bedieningen",
+        "category": "PER",
+        "locationStart": 439,
+        "locationEnd": 459,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_9",
@@ -3946,6 +4018,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Zuid-Hollandsche Synodus",
+        "category": "PER",
+        "locationStart": 549,
+        "locationEnd": 573,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_11",
         "surfaceForm": "Tweede Deel",
         "category": "MISC",
@@ -3962,6 +4042,46 @@
         "locationStart": 586,
         "locationEnd": 597,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Tweede Deel",
+        "category": "PER",
+        "locationStart": 586,
+        "locationEnd": 597,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "Tweede Deel of het Tweede",
+        "category": "PER",
+        "locationStart": 586,
+        "locationEnd": 611,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "Tweede Deel of het Tweede Deel",
+        "category": "PER",
+        "locationStart": 586,
+        "locationEnd": 616,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "Deel of het Tweede",
+        "category": "PER",
+        "locationStart": 593,
+        "locationEnd": 611,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "Deel of het Tweede Deel",
+        "category": "PER",
+        "locationStart": 593,
+        "locationEnd": 616,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_17",
@@ -3998,6 +4118,46 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_15",
+        "surfaceForm": "Tweede Deel",
+        "category": "PER",
+        "locationStart": 605,
+        "locationEnd": 616,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_17",
+        "surfaceForm": "Tweede Deel van het Kerklijk",
+        "category": "PER",
+        "locationStart": 605,
+        "locationEnd": 633,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_19",
+        "surfaceForm": "Tweede Deel van het Kerklijk Register",
+        "category": "PER",
+        "locationStart": 605,
+        "locationEnd": 642,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_16",
+        "surfaceForm": "Deel van het Kerklijk",
+        "category": "PER",
+        "locationStart": 612,
+        "locationEnd": 633,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_18",
+        "surfaceForm": "Deel van het Kerklijk Register",
+        "category": "PER",
+        "locationStart": 612,
+        "locationEnd": 642,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_19",
         "category": "PERSON",
         "surfaceForm": "Soermans",
@@ -4032,6 +4192,14 @@
         "locationStart": 625,
         "locationEnd": 642,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_20",
+        "surfaceForm": "Kerklijk Register",
+        "category": "PER",
+        "locationStart": 625,
+        "locationEnd": 642,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_20",
@@ -4120,6 +4288,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_21",
+        "surfaceForm": "Academisch Register",
+        "category": "PER",
+        "locationStart": 660,
+        "locationEnd": 679,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_24",
         "category": "PERSON",
         "surfaceForm": "Arrenberg",
@@ -4136,6 +4312,14 @@
         "tokenStart": 126,
         "tokenEnd": 127,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_22",
+        "surfaceForm": "Namen en de Waardigheden",
+        "category": "PER",
+        "locationStart": 695,
+        "locationEnd": 719,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_15",
@@ -4228,6 +4412,14 @@
         "method": "human_gold"
       },
       {
+        "ID": "spacy_matcher_nl_23",
+        "surfaceForm": "Zie v.d. Aa",
+        "category": "PER",
+        "locationStart": 849,
+        "locationEnd": 860,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_17",
         "surfaceForm": "v.d. Aa",
         "category": "PER",
@@ -4270,6 +4462,14 @@
         "locationStart": 862,
         "locationEnd": 869,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_24",
+        "surfaceForm": "N.B.A.C. Woordenb",
+        "category": "PER",
+        "locationStart": 862,
+        "locationEnd": 879,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "xlmr_ner_10",

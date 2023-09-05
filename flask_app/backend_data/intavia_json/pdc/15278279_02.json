@@ -1201,6 +1201,14 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Evenwichtige Overijsselse",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 25,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_0",
         "surfaceForm": "Overijsselse",
         "category": "MISC",
@@ -1477,6 +1485,14 @@
         "locationStart": 381,
         "locationEnd": 396,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "F.J. Kranenburg",
+        "category": "PER",
+        "locationStart": 381,
+        "locationEnd": 396,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_2",

@@ -933,6 +933,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Den Haag",
+        "category": "PER",
+        "locationStart": 59,
+        "locationEnd": 67,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_1",
         "category": "LOC",
         "surfaceForm": "haag",
@@ -983,6 +991,30 @@
         "locationStart": 115,
         "locationEnd": 142,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Bataafse Wetgevende",
+        "category": "PER",
+        "locationStart": 115,
+        "locationEnd": 134,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Bataafse Wetgevende Lichaam",
+        "category": "PER",
+        "locationStart": 115,
+        "locationEnd": 142,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Wetgevende Lichaam",
+        "category": "PER",
+        "locationStart": 124,
+        "locationEnd": 142,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_5",
@@ -1089,6 +1121,14 @@
         "locationStart": 192,
         "locationEnd": 204,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Eerste Kamer",
+        "category": "PER",
+        "locationStart": 192,
+        "locationEnd": 204,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_5",

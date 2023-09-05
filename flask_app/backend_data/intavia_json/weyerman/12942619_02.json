@@ -726,6 +726,22 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Die Fruytschilder",
+        "category": "PER",
+        "locationStart": 10,
+        "locationEnd": 27,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Die Fruytschilder is een Antwerpenaar",
+        "category": "PER",
+        "locationStart": 10,
+        "locationEnd": 47,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_1",
         "surfaceForm": "Fruytschilder",
         "category": "PER",
@@ -734,6 +750,14 @@
         "tokenStart": 2,
         "tokenEnd": 3,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Fruytschilder is een Antwerpenaar",
+        "category": "PER",
+        "locationStart": 14,
+        "locationEnd": 47,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_2",

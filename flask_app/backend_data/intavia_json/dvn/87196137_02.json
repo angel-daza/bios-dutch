@@ -19365,6 +19365,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Weduwe Van",
+        "category": "PER",
+        "locationStart": 35,
+        "locationEnd": 45,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Weduwe Van Nelle",
+        "category": "PER",
+        "locationStart": 35,
+        "locationEnd": 51,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Van Nelle",
+        "category": "PER",
+        "locationStart": 42,
+        "locationEnd": 51,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_3",
         "category": "LOCATION",
         "surfaceForm": "Den Haag",
@@ -19423,6 +19447,14 @@
         "locationStart": 58,
         "locationEnd": 66,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Den Haag",
+        "category": "PER",
+        "locationStart": 58,
+        "locationEnd": 66,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_1",
@@ -19581,6 +19613,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "De Weduwe",
+        "category": "PER",
+        "locationStart": 147,
+        "locationEnd": 156,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "De Weduwe J.",
+        "category": "PER",
+        "locationStart": 147,
+        "locationEnd": 159,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "De Weduwe J. van Nelle",
+        "category": "PER",
+        "locationStart": 147,
+        "locationEnd": 169,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_7",
         "category": "PERSON",
         "surfaceForm": "Johanna Koster",
@@ -19597,12 +19653,52 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Weduwe J.",
+        "category": "PER",
+        "locationStart": 150,
+        "locationEnd": 159,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Weduwe J. van Nelle",
+        "category": "PER",
+        "locationStart": 150,
+        "locationEnd": 169,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_2",
         "category": "PER",
         "surfaceForm": "j van nelle",
         "locationStart": 157,
         "locationEnd": 169,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "J. van Nelle",
+        "category": "PER",
+        "locationStart": 157,
+        "locationEnd": 169,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Dochter van Antonius",
+        "category": "PER",
+        "locationStart": 171,
+        "locationEnd": 191,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "Dochter van Antonius Brand",
+        "category": "PER",
+        "locationStart": 171,
+        "locationEnd": 197,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_8",
@@ -19655,6 +19751,14 @@
         "locationStart": 183,
         "locationEnd": 197,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "Antonius Brand",
+        "category": "PER",
+        "locationStart": 183,
+        "locationEnd": 197,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_22",
@@ -19741,6 +19845,14 @@
         "locationStart": 235,
         "locationEnd": 249,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "Johanna Koster",
+        "category": "PER",
+        "locationStart": 235,
+        "locationEnd": 249,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_11",
@@ -19855,6 +19967,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "Hendrica Brand",
+        "category": "PER",
+        "locationStart": 285,
+        "locationEnd": 299,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_16",
+        "surfaceForm": "Hendrica Brand met Johannes",
+        "category": "PER",
+        "locationStart": 285,
+        "locationEnd": 312,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_15",
+        "surfaceForm": "Brand met Johannes",
+        "category": "PER",
+        "locationStart": 294,
+        "locationEnd": 312,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_8",
         "surfaceForm": "Johannes van Nelle",
         "category": "PER",
@@ -19897,6 +20033,14 @@
         "locationStart": 304,
         "locationEnd": 322,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_17",
+        "surfaceForm": "Johannes van Nelle",
+        "category": "PER",
+        "locationStart": 304,
+        "locationEnd": 322,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_14",
@@ -20047,6 +20191,14 @@
         "locationStart": 406,
         "locationEnd": 420,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_18",
+        "surfaceForm": "Hendrica Brand",
+        "category": "PER",
+        "locationStart": 406,
+        "locationEnd": 420,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_24",
@@ -20781,6 +20933,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_19",
+        "surfaceForm": "Den Haag",
+        "category": "PER",
+        "locationStart": 987,
+        "locationEnd": 995,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_12",
         "category": "LOC",
         "surfaceForm": "haag",
@@ -20891,6 +21051,22 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "spacy_matcher_nl_20",
+        "surfaceForm": "Hendrica in Den",
+        "category": "PER",
+        "locationStart": 1055,
+        "locationEnd": 1070,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_21",
+        "surfaceForm": "Hendrica in Den Haag",
+        "category": "PER",
+        "locationStart": 1055,
+        "locationEnd": 1075,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_13",
         "category": "PER",
         "surfaceForm": "hend",
@@ -20943,12 +21119,36 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_22",
+        "surfaceForm": "Den Haag",
+        "category": "PER",
+        "locationStart": 1067,
+        "locationEnd": 1075,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_24",
+        "surfaceForm": "Den Haag aan de Bocht",
+        "category": "PER",
+        "locationStart": 1067,
+        "locationEnd": 1088,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "xlmr_ner_13",
         "category": "LOC",
         "surfaceForm": "Den Haag",
         "locationStart": 1068,
         "locationEnd": 1076,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_23",
+        "surfaceForm": "Haag aan de Bocht",
+        "category": "PER",
+        "locationStart": 1071,
+        "locationEnd": 1088,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_13",
@@ -20993,6 +21193,14 @@
         "locationStart": 1083,
         "locationEnd": 1099,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_25",
+        "surfaceForm": "Bocht van Guinea",
+        "category": "PER",
+        "locationStart": 1083,
+        "locationEnd": 1099,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "xlmr_ner_13",
@@ -21283,6 +21491,22 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "spacy_matcher_nl_26",
+        "surfaceForm": "Toen Antony",
+        "category": "PER",
+        "locationStart": 1300,
+        "locationEnd": 1311,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_27",
+        "surfaceForm": "Toen Antony Brand",
+        "category": "PER",
+        "locationStart": 1300,
+        "locationEnd": 1317,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_20",
         "surfaceForm": "Antony Brand",
         "category": "PER",
@@ -21317,6 +21541,14 @@
         "locationStart": 1305,
         "locationEnd": 1313,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_28",
+        "surfaceForm": "Antony Brand",
+        "category": "PER",
+        "locationStart": 1305,
+        "locationEnd": 1317,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_15",
@@ -21715,6 +21947,14 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "spacy_matcher_nl_29",
+        "surfaceForm": "Zij overhandigde de Weesmeesters",
+        "category": "PER",
+        "locationStart": 1645,
+        "locationEnd": 1677,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_148",
         "category": "PERSON",
         "surfaceForm": "Hendrica",
@@ -21905,6 +22145,14 @@
         "locationStart": 1818,
         "locationEnd": 1832,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_30",
+        "surfaceForm": "Johanna Koster",
+        "category": "PER",
+        "locationStart": 1818,
+        "locationEnd": 1832,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_19",
@@ -22307,6 +22555,14 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "spacy_matcher_nl_31",
+        "surfaceForm": "Rooms-Katholieke Armhuis",
+        "category": "PER",
+        "locationStart": 1995,
+        "locationEnd": 2019,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "xlmr_ner_20",
         "category": "LOC",
         "surfaceForm": "Rooms-Katholieke Armhuis",
@@ -22383,6 +22639,14 @@
         "locationStart": 2041,
         "locationEnd": 2049,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_32",
+        "surfaceForm": "Den Haag",
+        "category": "PER",
+        "locationStart": 2041,
+        "locationEnd": 2049,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "xlmr_ner_20",
@@ -22641,6 +22905,30 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_33",
+        "surfaceForm": "Maria Koster",
+        "category": "PER",
+        "locationStart": 2248,
+        "locationEnd": 2260,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_35",
+        "surfaceForm": "Maria Koster en oom Ferdinand",
+        "category": "PER",
+        "locationStart": 2248,
+        "locationEnd": 2277,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_37",
+        "surfaceForm": "Maria Koster en oom Ferdinand Marcus",
+        "category": "PER",
+        "locationStart": 2248,
+        "locationEnd": 2284,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_22",
         "category": "PER",
         "surfaceForm": "maria koster",
@@ -22655,6 +22943,22 @@
         "locationStart": 2249,
         "locationEnd": 2261,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_34",
+        "surfaceForm": "Koster en oom Ferdinand",
+        "category": "PER",
+        "locationStart": 2254,
+        "locationEnd": 2277,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_36",
+        "surfaceForm": "Koster en oom Ferdinand Marcus",
+        "category": "PER",
+        "locationStart": 2254,
+        "locationEnd": 2284,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_208",
@@ -22701,6 +23005,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_38",
+        "surfaceForm": "Ferdinand Marcus",
+        "category": "PER",
+        "locationStart": 2268,
+        "locationEnd": 2284,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_22",
         "category": "PER",
         "surfaceForm": "ferdinand marcus",
@@ -22715,6 +23027,14 @@
         "locationStart": 2269,
         "locationEnd": 2285,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_39",
+        "surfaceForm": "Haar broer Willem",
+        "category": "PER",
+        "locationStart": 2324,
+        "locationEnd": 2341,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_35",
@@ -23031,6 +23351,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_40",
+        "surfaceForm": "Johannes van Nelle",
+        "category": "PER",
+        "locationStart": 2661,
+        "locationEnd": 2679,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_25",
         "category": "PER",
         "surfaceForm": "johannes van nelle",
@@ -23137,6 +23465,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_41",
+        "surfaceForm": "Hendrica en Johannes",
+        "category": "PER",
+        "locationStart": 2787,
+        "locationEnd": 2807,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_26",
         "category": "PER",
         "surfaceForm": "hendrica",
@@ -23181,6 +23517,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_42",
+        "surfaceForm": "Johannes van Den",
+        "category": "PER",
+        "locationStart": 2799,
+        "locationEnd": 2815,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_43",
+        "surfaceForm": "Johannes van Den Haag",
+        "category": "PER",
+        "locationStart": 2799,
+        "locationEnd": 2820,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_26",
         "category": "PER",
         "surfaceForm": "johannes van den haag",
@@ -23215,12 +23567,36 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_44",
+        "surfaceForm": "Den Haag",
+        "category": "PER",
+        "locationStart": 2812,
+        "locationEnd": 2820,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_46",
+        "surfaceForm": "Den Haag naar Rotterdam",
+        "category": "PER",
+        "locationStart": 2812,
+        "locationEnd": 2835,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "xlmr_ner_26",
         "category": "LOC",
         "surfaceForm": "Den Haag",
         "locationStart": 2813,
         "locationEnd": 2821,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_45",
+        "surfaceForm": "Haag naar Rotterdam",
+        "category": "PER",
+        "locationStart": 2816,
+        "locationEnd": 2835,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_45",
@@ -23293,6 +23669,14 @@
         "locationStart": 2915,
         "locationEnd": 2933,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_47",
+        "surfaceForm": "Bernardus Antonius",
+        "category": "PER",
+        "locationStart": 2915,
+        "locationEnd": 2933,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_28",
@@ -23437,6 +23821,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_48",
+        "surfaceForm": "Maria Joanna",
+        "category": "PER",
+        "locationStart": 3029,
+        "locationEnd": 3041,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_28",
         "category": "PER",
         "surfaceForm": "maria joanna weer",
@@ -23469,6 +23861,14 @@
         "locationStart": 3065,
         "locationEnd": 3080,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_49",
+        "surfaceForm": "In Rotterdam",
+        "category": "PER",
+        "locationStart": 3082,
+        "locationEnd": 3094,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_49",
@@ -23687,6 +24087,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_50",
+        "surfaceForm": "Hendrica en Johannes",
+        "category": "PER",
+        "locationStart": 3392,
+        "locationEnd": 3412,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_30",
         "category": "PER",
         "surfaceForm": "hendrica",
@@ -23729,6 +24137,14 @@
         "locationStart": 3404,
         "locationEnd": 3422,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_51",
+        "surfaceForm": "Johannes van Nelle",
+        "category": "PER",
+        "locationStart": 3404,
+        "locationEnd": 3422,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_30",
@@ -23801,6 +24217,14 @@
         "locationStart": 3502,
         "locationEnd": 3510,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_52",
+        "surfaceForm": "Hendrica haar broer Wilhelmus",
+        "category": "PER",
+        "locationStart": 3502,
+        "locationEnd": 3531,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_31",
@@ -23883,6 +24307,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_53",
+        "surfaceForm": "St. Janskerkhof",
+        "category": "PER",
+        "locationStart": 3548,
+        "locationEnd": 3563,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_31",
         "category": "LOC",
         "surfaceForm": "st janskerkhof",
@@ -23927,6 +24359,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_54",
+        "surfaceForm": "Maria in Den",
+        "category": "PER",
+        "locationStart": 3601,
+        "locationEnd": 3613,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_55",
+        "surfaceForm": "Maria in Den Haag",
+        "category": "PER",
+        "locationStart": 3601,
+        "locationEnd": 3618,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "xlmr_ner_31",
         "category": "PER",
         "surfaceForm": "Maria",
@@ -23963,6 +24411,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_56",
+        "surfaceForm": "Den Haag",
+        "category": "PER",
+        "locationStart": 3610,
+        "locationEnd": 3618,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "xlmr_ner_31",
         "category": "LOC",
         "surfaceForm": "Den Haag",
@@ -23977,6 +24433,14 @@
         "locationStart": 3615,
         "locationEnd": 3619,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_57",
+        "surfaceForm": "Waarschijnlijk was het Hendrica",
+        "category": "PER",
+        "locationStart": 3650,
+        "locationEnd": 3681,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_60",
@@ -24087,6 +24551,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_58",
+        "surfaceForm": "Rotterdamse tabakverkoper Frederik",
+        "category": "PER",
+        "locationStart": 3778,
+        "locationEnd": 3812,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_59",
+        "surfaceForm": "Rotterdamse tabakverkoper Frederik Caerte",
+        "category": "PER",
+        "locationStart": 3778,
+        "locationEnd": 3819,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_63",
         "surfaceForm": "Frederik Caerte",
         "category": "PER",
@@ -24113,6 +24593,14 @@
         "locationStart": 3804,
         "locationEnd": 3819,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_60",
+        "surfaceForm": "Frederik Caerte",
+        "category": "PER",
+        "locationStart": 3804,
+        "locationEnd": 3819,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_32",
@@ -24221,6 +24709,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_61",
+        "surfaceForm": "Johannes van Nelle",
+        "category": "PER",
+        "locationStart": 4013,
+        "locationEnd": 4031,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_34",
         "category": "PER",
         "surfaceForm": "johannes van nelle senior",
@@ -24289,6 +24785,14 @@
         "locationStart": 4268,
         "locationEnd": 4277,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_62",
+        "surfaceForm": "Van Nelle",
+        "category": "PER",
+        "locationStart": 4268,
+        "locationEnd": 4277,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "xlmr_ner_35",
@@ -24363,6 +24867,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_63",
+        "surfaceForm": "Jan van Zon",
+        "category": "PER",
+        "locationStart": 4404,
+        "locationEnd": 4415,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_38",
         "category": "PER",
         "surfaceForm": "jan van zon",
@@ -24415,6 +24927,14 @@
         "locationStart": 4548,
         "locationEnd": 4557,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_64",
+        "surfaceForm": "Van Nelle",
+        "category": "PER",
+        "locationStart": 4548,
+        "locationEnd": 4557,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "xlmr_ner_39",
@@ -24507,6 +25027,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_65",
+        "surfaceForm": "Abraham Goedkoop",
+        "category": "PER",
+        "locationStart": 4603,
+        "locationEnd": 4619,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_40",
         "category": "PER",
         "surfaceForm": "abraham goedkoop",
@@ -24521,6 +25049,22 @@
         "locationStart": 4604,
         "locationEnd": 4620,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_66",
+        "surfaceForm": "Hoewel Hendrica",
+        "category": "PER",
+        "locationStart": 4640,
+        "locationEnd": 4655,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_68",
+        "surfaceForm": "Hoewel Hendrica van Nelle-Brand",
+        "category": "PER",
+        "locationStart": 4640,
+        "locationEnd": 4671,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_71",
@@ -24549,6 +25093,14 @@
         "locationStart": 4647,
         "locationEnd": 4671,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_67",
+        "surfaceForm": "Hendrica van Nelle-Brand",
+        "category": "PER",
+        "locationStart": 4647,
+        "locationEnd": 4671,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_41",
@@ -24623,6 +25175,30 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_69",
+        "surfaceForm": "De Erven",
+        "category": "PER",
+        "locationStart": 4789,
+        "locationEnd": 4797,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_71",
+        "surfaceForm": "De Erven de Wed",
+        "category": "PER",
+        "locationStart": 4789,
+        "locationEnd": 4804,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_70",
+        "surfaceForm": "Erven de Wed",
+        "category": "PER",
+        "locationStart": 4792,
+        "locationEnd": 4804,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_35",
         "category": "PER",
         "surfaceForm": ".",
@@ -24637,6 +25213,14 @@
         "locationStart": 4806,
         "locationEnd": 4818,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_72",
+        "surfaceForm": "J. van Nelle",
+        "category": "PER",
+        "locationStart": 4806,
+        "locationEnd": 4818,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_41",
@@ -24671,6 +25255,14 @@
         "locationStart": 4863,
         "locationEnd": 4873,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_73",
+        "surfaceForm": "De Weduwe",
+        "category": "PER",
+        "locationStart": 4863,
+        "locationEnd": 4872,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_75",
@@ -24727,12 +25319,36 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_74",
+        "surfaceForm": "Van Nelle",
+        "category": "PER",
+        "locationStart": 4974,
+        "locationEnd": 4983,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "xlmr_ner_42",
         "category": "PER",
         "surfaceForm": "Van Nelle",
         "locationStart": 4975,
         "locationEnd": 4984,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_75",
+        "surfaceForm": "Archivalia Gemeentearchief",
+        "category": "PER",
+        "locationStart": 4985,
+        "locationEnd": 5011,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_76",
+        "surfaceForm": "Archivalia Gemeentearchief Rotterdam",
+        "category": "PER",
+        "locationStart": 4985,
+        "locationEnd": 5021,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "xlmr_ner_43",
@@ -24749,6 +25365,14 @@
         "locationStart": 4996,
         "locationEnd": 5011,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_77",
+        "surfaceForm": "Gemeentearchief Rotterdam",
+        "category": "PER",
+        "locationStart": 4996,
+        "locationEnd": 5021,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_77",
@@ -24795,12 +25419,60 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_78",
+        "surfaceForm": "Archief De",
+        "category": "PER",
+        "locationStart": 5023,
+        "locationEnd": 5033,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_79",
+        "surfaceForm": "Archief De Erven",
+        "category": "PER",
+        "locationStart": 5023,
+        "locationEnd": 5039,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_83",
+        "surfaceForm": "Archief De Erven de Wed",
+        "category": "PER",
+        "locationStart": 5023,
+        "locationEnd": 5046,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_38",
         "category": "LOC",
         "surfaceForm": "De Erven de Wed",
         "locationStart": 5031,
         "locationEnd": 5046,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_80",
+        "surfaceForm": "De Erven",
+        "category": "PER",
+        "locationStart": 5031,
+        "locationEnd": 5039,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_82",
+        "surfaceForm": "De Erven de Wed",
+        "category": "PER",
+        "locationStart": 5031,
+        "locationEnd": 5046,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_81",
+        "surfaceForm": "Erven de Wed",
+        "category": "PER",
+        "locationStart": 5034,
+        "locationEnd": 5046,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "xlmr_ner_44",
@@ -24817,6 +25489,14 @@
         "locationStart": 5048,
         "locationEnd": 5060,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_84",
+        "surfaceForm": "J. van Nelle",
+        "category": "PER",
+        "locationStart": 5048,
+        "locationEnd": 5060,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_44",
@@ -24853,6 +25533,14 @@
         "locationStart": 5062,
         "locationEnd": 5083,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_85",
+        "surfaceForm": "Haags Gemeentearchief",
+        "category": "PER",
+        "locationStart": 5062,
+        "locationEnd": 5083,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "xlmr_ner_45",
@@ -24921,6 +25609,14 @@
         "locationStart": 5255,
         "locationEnd": 5263,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_86",
+        "surfaceForm": "W. Brand",
+        "category": "PER",
+        "locationStart": 5255,
+        "locationEnd": 5263,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_48",
@@ -25031,6 +25727,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_87",
+        "surfaceForm": "Geschiedenis van De",
+        "category": "PER",
+        "locationStart": 5324,
+        "locationEnd": 5343,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_88",
+        "surfaceForm": "Geschiedenis van De Erven",
+        "category": "PER",
+        "locationStart": 5324,
+        "locationEnd": 5349,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_85",
         "surfaceForm": "De Erven de Wed. J. van Nelle N.V.",
         "category": "MISC",
@@ -25049,12 +25761,52 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_89",
+        "surfaceForm": "De Erven",
+        "category": "PER",
+        "locationStart": 5341,
+        "locationEnd": 5349,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_91",
+        "surfaceForm": "De Erven de Wed",
+        "category": "PER",
+        "locationStart": 5341,
+        "locationEnd": 5356,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_90",
+        "surfaceForm": "Erven de Wed",
+        "category": "PER",
+        "locationStart": 5344,
+        "locationEnd": 5356,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_46",
         "category": "PER",
         "surfaceForm": "J. van Nelle",
         "locationStart": 5358,
         "locationEnd": 5370,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_92",
+        "surfaceForm": "J. van Nelle",
+        "category": "PER",
+        "locationStart": 5358,
+        "locationEnd": 5370,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_93",
+        "surfaceForm": "J. van Nelle N.V.",
+        "category": "PER",
+        "locationStart": 5358,
+        "locationEnd": 5375,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_50",
@@ -25071,6 +25823,14 @@
         "locationStart": 5359,
         "locationEnd": 5399,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_94",
+        "surfaceForm": "Nelle N.V.",
+        "category": "PER",
+        "locationStart": 5365,
+        "locationEnd": 5375,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_46",
@@ -25149,6 +25909,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_95",
+        "surfaceForm": "Hendrica Brand",
+        "category": "PER",
+        "locationStart": 5429,
+        "locationEnd": 5443,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_50",
         "category": "PER",
         "surfaceForm": "hendrica brand",
@@ -25181,6 +25949,14 @@
         "locationStart": 5454,
         "locationEnd": 5465,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_96",
+        "surfaceForm": "P. Bulthuis",
+        "category": "PER",
+        "locationStart": 5454,
+        "locationEnd": 5465,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_51",
@@ -25217,6 +25993,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_97",
+        "surfaceForm": "Rotterdamse bedrijf De",
+        "category": "PER",
+        "locationStart": 5550,
+        "locationEnd": 5572,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_98",
+        "surfaceForm": "Rotterdamse bedrijf De Erven",
+        "category": "PER",
+        "locationStart": 5550,
+        "locationEnd": 5578,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_90",
         "surfaceForm": "De Erven de Wed. J. van Nelle N.V.",
         "category": "ORG",
@@ -25235,6 +26027,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_99",
+        "surfaceForm": "De Erven",
+        "category": "PER",
+        "locationStart": 5570,
+        "locationEnd": 5578,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_101",
+        "surfaceForm": "De Erven de Wed",
+        "category": "PER",
+        "locationStart": 5570,
+        "locationEnd": 5585,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "xlmr_ner_52",
         "category": "ORG",
         "surfaceForm": "De Erven de Wed.",
@@ -25243,12 +26051,36 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_100",
+        "surfaceForm": "Erven de Wed",
+        "category": "PER",
+        "locationStart": 5573,
+        "locationEnd": 5585,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_50",
         "category": "PER",
         "surfaceForm": "J. van Nelle N.V",
         "locationStart": 5587,
         "locationEnd": 5603,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_102",
+        "surfaceForm": "J. van Nelle",
+        "category": "PER",
+        "locationStart": 5587,
+        "locationEnd": 5599,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_103",
+        "surfaceForm": "J. van Nelle N.V.",
+        "category": "PER",
+        "locationStart": 5587,
+        "locationEnd": 5604,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_52",
@@ -25265,6 +26097,14 @@
         "locationStart": 5588,
         "locationEnd": 5628,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_104",
+        "surfaceForm": "Nelle N.V.",
+        "category": "PER",
+        "locationStart": 5594,
+        "locationEnd": 5604,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_52",
@@ -25309,6 +26149,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "spacy_matcher_nl_105",
+        "surfaceForm": "Illustraties Fantasieportret",
+        "category": "PER",
+        "locationStart": 5642,
+        "locationEnd": 5670,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_92",
         "surfaceForm": "Walther Kas",
         "category": "PER",
@@ -25325,6 +26173,14 @@
         "locationStart": 5722,
         "locationEnd": 5733,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_106",
+        "surfaceForm": "Walther Kas",
+        "category": "PER",
+        "locationStart": 5722,
+        "locationEnd": 5733,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_53",
@@ -25361,12 +26217,36 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_107",
+        "surfaceForm": "W. Brand",
+        "category": "PER",
+        "locationStart": 5741,
+        "locationEnd": 5749,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "xlmr_ner_53",
         "category": "PER",
         "surfaceForm": "W. Brand",
         "locationStart": 5742,
         "locationEnd": 5750,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_108",
+        "surfaceForm": "Reclamebord van De",
+        "category": "PER",
+        "locationStart": 5785,
+        "locationEnd": 5803,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_109",
+        "surfaceForm": "Reclamebord van De Erven",
+        "category": "PER",
+        "locationStart": 5785,
+        "locationEnd": 5809,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_94",
@@ -25387,6 +26267,30 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_110",
+        "surfaceForm": "De Erven",
+        "category": "PER",
+        "locationStart": 5801,
+        "locationEnd": 5809,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_112",
+        "surfaceForm": "De Erven de Wed",
+        "category": "PER",
+        "locationStart": 5801,
+        "locationEnd": 5816,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_111",
+        "surfaceForm": "Erven de Wed",
+        "category": "PER",
+        "locationStart": 5804,
+        "locationEnd": 5816,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_95",
         "surfaceForm": "J. van Nelle",
         "category": "PER",
@@ -25403,6 +26307,14 @@
         "locationStart": 5818,
         "locationEnd": 5830,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_113",
+        "surfaceForm": "J. van Nelle",
+        "category": "PER",
+        "locationStart": 5818,
+        "locationEnd": 5830,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_55",
@@ -25497,6 +26409,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_114",
+        "surfaceForm": "Museum Rotterdam).Auteur",
+        "category": "PER",
+        "locationStart": 5864,
+        "locationEnd": 5888,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_98",
         "surfaceForm": "Inge de Wilde",
         "category": "PER",
@@ -25523,6 +26443,14 @@
         "locationStart": 5890,
         "locationEnd": 5903,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_115",
+        "surfaceForm": "Inge de Wilde",
+        "category": "PER",
+        "locationStart": 5890,
+        "locationEnd": 5903,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_57",

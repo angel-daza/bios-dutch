@@ -3400,6 +3400,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Sylvain Kahn",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 12,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_5",
         "surfaceForm": "1857 - 1929",
         "category": "TIME",
@@ -3478,12 +3486,36 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Maison Hirsch",
+        "category": "PER",
+        "locationStart": 45,
+        "locationEnd": 58,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Maison Hirsch te Brussel",
+        "category": "PER",
+        "locationStart": 45,
+        "locationEnd": 69,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_0",
         "category": "PER",
         "surfaceForm": "hirsch",
         "locationStart": 52,
         "locationEnd": 58,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Hirsch te Brussel",
+        "category": "PER",
+        "locationStart": 52,
+        "locationEnd": 69,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_2",
@@ -3614,6 +3646,14 @@
         "locationStart": 107,
         "locationEnd": 119,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Co. te Amsterdam",
+        "category": "PER",
+        "locationStart": 116,
+        "locationEnd": 132,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_6",
@@ -3772,12 +3812,36 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Sally Berg",
+        "category": "PER",
+        "locationStart": 188,
+        "locationEnd": 198,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Sally Berg het Hirschgebouw",
+        "category": "PER",
+        "locationStart": 188,
+        "locationEnd": 215,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_9",
         "category": "PERSON",
         "surfaceForm": "Sally Berg",
         "locationStart": 193,
         "locationEnd": 203,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Berg het Hirschgebouw",
+        "category": "PER",
+        "locationStart": 194,
+        "locationEnd": 215,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_6",
@@ -3814,6 +3878,14 @@
         "locationStart": 203,
         "locationEnd": 215,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Hirschgebouw op het Leidseplein",
+        "category": "PER",
+        "locationStart": 203,
+        "locationEnd": 234,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_7",
@@ -3926,6 +3998,14 @@
         "locationStart": 302,
         "locationEnd": 314,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Sylvain Kahn",
+        "category": "PER",
+        "locationStart": 302,
+        "locationEnd": 314,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_11",
@@ -4060,6 +4140,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Westfalen geboren Sally",
+        "category": "PER",
+        "locationStart": 396,
+        "locationEnd": 419,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "Westfalen geboren Sally Berg",
+        "category": "PER",
+        "locationStart": 396,
+        "locationEnd": 424,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_13",
         "category": "ORGANIZATION",
         "surfaceForm": "Frans",
@@ -4112,6 +4208,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "Sally Berg",
+        "category": "PER",
+        "locationStart": 414,
+        "locationEnd": 424,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_14",
         "category": "PERSON",
         "surfaceForm": "Baruch leao de Laguna",
@@ -4144,6 +4248,22 @@
         "locationStart": 476,
         "locationEnd": 485,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "Brusselse modepaleis van Leo",
+        "category": "PER",
+        "locationStart": 476,
+        "locationEnd": 504,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "Brusselse modepaleis van Leo Hirsch",
+        "category": "PER",
+        "locationStart": 476,
+        "locationEnd": 511,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_13",
@@ -4188,6 +4308,14 @@
         "locationStart": 501,
         "locationEnd": 511,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_15",
+        "surfaceForm": "Leo Hirsch",
+        "category": "PER",
+        "locationStart": 501,
+        "locationEnd": 511,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_14",
@@ -4270,6 +4398,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "spacy_matcher_nl_16",
+        "surfaceForm": "Amsterdamse Leidseplein",
+        "category": "PER",
+        "locationStart": 594,
+        "locationEnd": 617,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_16",
         "surfaceForm": "Leidseplein",
         "category": "LOC",
@@ -4342,6 +4478,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_17",
+        "surfaceForm": "Maison Hirsch",
+        "category": "PER",
+        "locationStart": 651,
+        "locationEnd": 664,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_18",
         "surfaceForm": "& Co",
         "category": "ORG",
@@ -4350,6 +4494,14 @@
         "tokenStart": 124,
         "tokenEnd": 126,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_18",
+        "surfaceForm": "Co. De",
+        "category": "PER",
+        "locationStart": 667,
+        "locationEnd": 673,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_23",
@@ -4432,6 +4584,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_19",
+        "surfaceForm": "Sally Berg",
+        "category": "PER",
+        "locationStart": 800,
+        "locationEnd": 810,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_21",
         "surfaceForm": "Franse",
         "category": "MISC",
@@ -4448,6 +4608,22 @@
         "locationStart": 839,
         "locationEnd": 845,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_20",
+        "surfaceForm": "Franse couturiers en Sylvain",
+        "category": "PER",
+        "locationStart": 839,
+        "locationEnd": 867,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_21",
+        "surfaceForm": "Franse couturiers en Sylvain Kahn",
+        "category": "PER",
+        "locationStart": 839,
+        "locationEnd": 872,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_22",
@@ -4492,6 +4668,14 @@
         "locationStart": 860,
         "locationEnd": 872,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_22",
+        "surfaceForm": "Sylvain Kahn",
+        "category": "PER",
+        "locationStart": 860,
+        "locationEnd": 872,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_27",
@@ -4556,6 +4740,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_23",
+        "surfaceForm": "Baruch leao de Laguna",
+        "category": "PER",
+        "locationStart": 933,
+        "locationEnd": 954,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_24",
         "surfaceForm": "Laguna",
         "category": "LOC",
@@ -4608,6 +4800,14 @@
         "locationStart": 998,
         "locationEnd": 1010,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_24",
+        "surfaceForm": "Sylvain Kahn",
+        "category": "PER",
+        "locationStart": 998,
+        "locationEnd": 1010,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_1",

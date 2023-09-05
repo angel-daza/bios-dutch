@@ -1245,6 +1245,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "De kleine Stokvis",
+        "category": "PER",
+        "locationStart": 1,
+        "locationEnd": 18,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_1",
         "category": "ORGANIZATION",
         "surfaceForm": "Joodse",
@@ -1315,6 +1323,46 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Kort Verslag",
+        "category": "PER",
+        "locationStart": 60,
+        "locationEnd": 72,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Kort Verslag van de Tweede",
+        "category": "PER",
+        "locationStart": 60,
+        "locationEnd": 86,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Kort Verslag van de Tweede Kamer",
+        "category": "PER",
+        "locationStart": 60,
+        "locationEnd": 92,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Verslag van de Tweede",
+        "category": "PER",
+        "locationStart": 65,
+        "locationEnd": 86,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Verslag van de Tweede Kamer",
+        "category": "PER",
+        "locationStart": 65,
+        "locationEnd": 92,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_3",
         "surfaceForm": "Tweede Kamer",
         "category": "ORG",
@@ -1341,6 +1389,14 @@
         "locationStart": 80,
         "locationEnd": 92,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Tweede Kamer",
+        "category": "PER",
+        "locationStart": 80,
+        "locationEnd": 92,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_3",
@@ -1473,6 +1529,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "De Locomotief",
+        "category": "PER",
+        "locationStart": 155,
+        "locationEnd": 168,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "xlmr_ner_2",
         "category": "ORG",
         "surfaceForm": "De Locomotief",
@@ -1495,6 +1559,14 @@
         "locationStart": 185,
         "locationEnd": 209,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "In Indie",
+        "category": "PER",
+        "locationStart": 228,
+        "locationEnd": 236,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_6",
@@ -1637,6 +1709,14 @@
         "locationStart": 343,
         "locationEnd": 362,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Tweede Kamerfractie",
+        "category": "PER",
+        "locationStart": 343,
+        "locationEnd": 362,
+        "method": "spacy_matcher_nl"
       }
     ],
     "time_expressions": [

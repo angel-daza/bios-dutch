@@ -2843,6 +2843,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Jan van Goyen",
+        "category": "PER",
+        "locationStart": 205,
+        "locationEnd": 218,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_8",
         "category": "LOCATION",
         "surfaceForm": "Dresden",
@@ -2917,6 +2925,14 @@
         "locationStart": 475,
         "locationEnd": 482,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Te Berlijn",
+        "category": "PER",
+        "locationStart": 484,
+        "locationEnd": 494,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_6",
@@ -3067,6 +3083,14 @@
         "locationStart": 762,
         "locationEnd": 766,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Zie Houbraken",
+        "category": "PER",
+        "locationStart": 768,
+        "locationEnd": 781,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_9",

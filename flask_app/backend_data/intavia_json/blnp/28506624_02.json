@@ -4230,6 +4230,22 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Zn. van Jacob",
+        "category": "PER",
+        "locationStart": 71,
+        "locationEnd": 84,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Zn. van Jacob Laatsman",
+        "category": "PER",
+        "locationStart": 71,
+        "locationEnd": 93,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_3",
         "surfaceForm": "Jacob Laatsman",
         "category": "PER",
@@ -4272,6 +4288,14 @@
         "locationStart": 79,
         "locationEnd": 93,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Jacob Laatsman",
+        "category": "PER",
+        "locationStart": 79,
+        "locationEnd": 93,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_7",
@@ -4334,6 +4358,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Johanna Poulus",
+        "category": "PER",
+        "locationStart": 121,
+        "locationEnd": 135,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_9",
         "category": "ORGANIZATION",
         "surfaceForm": "Evang. Luth. Seminarium",
@@ -4358,6 +4390,14 @@
         "locationStart": 150,
         "locationEnd": 159,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Athenaeum en Evang",
+        "category": "PER",
+        "locationStart": 150,
+        "locationEnd": 168,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_10",
@@ -4434,6 +4474,14 @@
         "locationStart": 176,
         "locationEnd": 186,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Seminarium Amsterdam",
+        "category": "PER",
+        "locationStart": 176,
+        "locationEnd": 196,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_13",
@@ -4860,12 +4908,36 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Elisabeth Johanna",
+        "category": "PER",
+        "locationStart": 312,
+        "locationEnd": 329,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Elisabeth Johanna Maas",
+        "category": "PER",
+        "locationStart": 312,
+        "locationEnd": 334,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_22",
         "category": "PERSON",
         "surfaceForm": "W. Schortinghuis",
         "locationStart": 315,
         "locationEnd": 330,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Johanna Maas",
+        "category": "PER",
+        "locationStart": 322,
+        "locationEnd": 334,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_23",
@@ -5012,6 +5084,14 @@
         "locationStart": 502,
         "locationEnd": 513,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "In Rheden",
+        "category": "PER",
+        "locationStart": 677,
+        "locationEnd": 686,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_14",
@@ -5174,6 +5254,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "W. Schortinghuis",
+        "category": "PER",
+        "locationStart": 825,
+        "locationEnd": 841,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_15",
         "category": "PER",
         "surfaceForm": "Schortinghuis",
@@ -5226,6 +5314,46 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "B. Smytegelt",
+        "category": "PER",
+        "locationStart": 843,
+        "locationEnd": 855,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "B. Smytegelt en L.",
+        "category": "PER",
+        "locationStart": 843,
+        "locationEnd": 861,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_15",
+        "surfaceForm": "B. Smytegelt en L. Myseras",
+        "category": "PER",
+        "locationStart": 843,
+        "locationEnd": 869,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "Smytegelt en L.",
+        "category": "PER",
+        "locationStart": 846,
+        "locationEnd": 861,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "Smytegelt en L. Myseras",
+        "category": "PER",
+        "locationStart": 846,
+        "locationEnd": 869,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_19",
         "surfaceForm": "L. Myseras",
         "category": "PER",
@@ -5268,6 +5396,14 @@
         "locationStart": 859,
         "locationEnd": 869,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_16",
+        "surfaceForm": "L. Myseras",
+        "category": "PER",
+        "locationStart": 859,
+        "locationEnd": 869,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_16",
@@ -5322,12 +5458,36 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_17",
+        "surfaceForm": "Ursuline Philippine",
+        "category": "PER",
+        "locationStart": 913,
+        "locationEnd": 932,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_19",
+        "surfaceForm": "Ursuline Philippine baronesse van Verschuer",
+        "category": "PER",
+        "locationStart": 913,
+        "locationEnd": 956,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_15",
         "category": "PER",
         "surfaceForm": "philippine baron van verschuer",
         "locationStart": 922,
         "locationEnd": 956,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_18",
+        "surfaceForm": "Philippine baronesse van Verschuer",
+        "category": "PER",
+        "locationStart": 922,
+        "locationEnd": 956,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_21",
@@ -5402,6 +5562,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_20",
+        "surfaceForm": "H.F. Kohlbrgge",
+        "category": "PER",
+        "locationStart": 993,
+        "locationEnd": 1007,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_15",
         "category": "PER",
         "surfaceForm": "f kohlbrgge",
@@ -5416,6 +5584,14 @@
         "locationStart": 998,
         "locationEnd": 1007,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_21",
+        "surfaceForm": "In Rheden",
+        "category": "PER",
+        "locationStart": 1020,
+        "locationEnd": 1029,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_23",

@@ -13110,6 +13110,22 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Dochter van Pieter",
+        "category": "PER",
+        "locationStart": 77,
+        "locationEnd": 95,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Dochter van Pieter Carboniers",
+        "category": "PER",
+        "locationStart": 77,
+        "locationEnd": 106,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_5",
         "category": "LOCATION",
         "surfaceForm": "Gent",
@@ -13160,6 +13176,14 @@
         "locationStart": 89,
         "locationEnd": 106,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Pieter Carboniers",
+        "category": "PER",
+        "locationStart": 89,
+        "locationEnd": 106,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_2",
@@ -13238,6 +13262,14 @@
         "locationStart": 157,
         "locationEnd": 164,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Zij trouwde met Lucas",
+        "category": "PER",
+        "locationStart": 161,
+        "locationEnd": 182,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_5",
@@ -13384,6 +13416,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Eleonore Carboniers",
+        "category": "PER",
+        "locationStart": 273,
+        "locationEnd": 292,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_13",
         "category": "ARTWORK",
         "surfaceForm": "Den hof en boomgaerd",
@@ -13526,6 +13566,14 @@
         "locationStart": 384,
         "locationEnd": 398,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Toen Lucas",
+        "category": "PER",
+        "locationStart": 406,
+        "locationEnd": 416,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_9",
@@ -13988,6 +14036,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Eleonore naar Gent",
+        "category": "PER",
+        "locationStart": 1186,
+        "locationEnd": 1204,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_18",
         "surfaceForm": "Gent",
         "category": "LOC",
@@ -14066,6 +14122,14 @@
         "locationStart": 1246,
         "locationEnd": 1260,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "W. Waterschoot",
+        "category": "PER",
+        "locationStart": 1246,
+        "locationEnd": 1260,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_13",
@@ -14212,6 +14276,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "In de dichtbundel Den",
+        "category": "PER",
+        "locationStart": 1545,
+        "locationEnd": 1566,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_23",
         "surfaceForm": "Den hof en boomgaerd",
         "category": "MISC",
@@ -14320,6 +14392,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Eleonore Carboniers",
+        "category": "PER",
+        "locationStart": 1632,
+        "locationEnd": 1651,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_26",
         "surfaceForm": "Lucas d' Heere",
         "category": "PER",
@@ -14418,6 +14498,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "M. Willem",
+        "category": "PER",
+        "locationStart": 1936,
+        "locationEnd": 1945,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "M. Willem Key",
+        "category": "PER",
+        "locationStart": 1936,
+        "locationEnd": 1949,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_15",
+        "surfaceForm": "M. Willem Key te Antwerpen",
+        "category": "PER",
+        "locationStart": 1936,
+        "locationEnd": 1962,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_16",
         "category": "PER",
         "surfaceForm": "Willem Key",
@@ -14432,6 +14536,30 @@
         "locationStart": 1939,
         "locationEnd": 1949,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "Willem Key",
+        "category": "PER",
+        "locationStart": 1939,
+        "locationEnd": 1949,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "Willem Key te Antwerpen",
+        "category": "PER",
+        "locationStart": 1939,
+        "locationEnd": 1962,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "Key te Antwerpen",
+        "category": "PER",
+        "locationStart": 1946,
+        "locationEnd": 1962,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_29",
@@ -14538,6 +14666,14 @@
         "locationStart": 2007,
         "locationEnd": 2026,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_16",
+        "surfaceForm": "Eleonore Carboniers",
+        "category": "PER",
+        "locationStart": 2007,
+        "locationEnd": 2026,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_20",
@@ -14762,6 +14898,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "spacy_matcher_nl_17",
+        "surfaceForm": "Toen waren Lucas",
+        "category": "PER",
+        "locationStart": 2400,
+        "locationEnd": 2416,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_36",
         "surfaceForm": "Lucas d' Heere",
         "category": "PER",
@@ -14806,6 +14950,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_18",
+        "surfaceForm": "Heere en Eleonore",
+        "category": "PER",
+        "locationStart": 2420,
+        "locationEnd": 2437,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_19",
+        "surfaceForm": "Heere en Eleonore Carboniers",
+        "category": "PER",
+        "locationStart": 2420,
+        "locationEnd": 2448,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_37",
         "surfaceForm": "Eleonore Carboniers",
         "category": "PER",
@@ -14848,6 +15008,14 @@
         "locationStart": 2429,
         "locationEnd": 2448,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_20",
+        "surfaceForm": "Eleonore Carboniers",
+        "category": "PER",
+        "locationStart": 2429,
+        "locationEnd": 2448,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_38",
@@ -14974,6 +15142,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_21",
+        "surfaceForm": "Eleonore Carboniers",
+        "category": "PER",
+        "locationStart": 2583,
+        "locationEnd": 2602,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_32",
         "surfaceForm": "juli 1577",
         "category": "TIME",
@@ -15054,6 +15230,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_22",
+        "surfaceForm": "Volgens Carel",
+        "category": "PER",
+        "locationStart": 2768,
+        "locationEnd": 2781,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_24",
+        "surfaceForm": "Volgens Carel van Mander",
+        "category": "PER",
+        "locationStart": 2768,
+        "locationEnd": 2792,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_42",
         "surfaceForm": "Carel van Mander",
         "category": "PER",
@@ -15096,6 +15288,14 @@
         "locationStart": 2776,
         "locationEnd": 2792,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_23",
+        "surfaceForm": "Carel van Mander",
+        "category": "PER",
+        "locationStart": 2776,
+        "locationEnd": 2792,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_43",
@@ -15196,6 +15396,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_25",
+        "surfaceForm": "Naslagwerken Biographie",
+        "category": "PER",
+        "locationStart": 2988,
+        "locationEnd": 3011,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_45",
         "surfaceForm": "Biographie nationale",
         "category": "ORG",
@@ -15248,6 +15456,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_26",
+        "surfaceForm": "Lucas de Heere",
+        "category": "PER",
+        "locationStart": 3029,
+        "locationEnd": 3043,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_47",
         "surfaceForm": "Frederiks/ Van den Branden",
         "category": "PER",
@@ -15282,6 +15498,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_27",
+        "surfaceForm": "Frederiks/ Van",
+        "category": "PER",
+        "locationStart": 3046,
+        "locationEnd": 3060,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_29",
+        "surfaceForm": "Frederiks/ Van den Branden",
+        "category": "PER",
+        "locationStart": 3046,
+        "locationEnd": 3072,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_26",
         "category": "PER",
         "surfaceForm": "Van den Branden",
@@ -15296,6 +15528,14 @@
         "locationStart": 3057,
         "locationEnd": 3072,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_28",
+        "surfaceForm": "Van den Branden",
+        "category": "PER",
+        "locationStart": 3057,
+        "locationEnd": 3072,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_26",
@@ -15320,6 +15560,22 @@
         "locationStart": 3087,
         "locationEnd": 3097,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_30",
+        "surfaceForm": "Literatuur Carel",
+        "category": "PER",
+        "locationStart": 3087,
+        "locationEnd": 3103,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_32",
+        "surfaceForm": "Literatuur Carel van Mander",
+        "category": "PER",
+        "locationStart": 3087,
+        "locationEnd": 3114,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_48",
@@ -15354,6 +15610,14 @@
         "locationStart": 3098,
         "locationEnd": 3114,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_31",
+        "surfaceForm": "Carel van Mander",
+        "category": "PER",
+        "locationStart": 3098,
+        "locationEnd": 3114,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_49",
@@ -15468,6 +15732,22 @@
         "locationStart": 3155,
         "locationEnd": 3172,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_33",
+        "surfaceForm": "Philips Blommaert",
+        "category": "PER",
+        "locationStart": 3155,
+        "locationEnd": 3172,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_34",
+        "surfaceForm": "Levensschets van Lucas",
+        "category": "PER",
+        "locationStart": 3174,
+        "locationEnd": 3196,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_52",
@@ -15662,6 +15942,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_35",
+        "surfaceForm": "Marten Rudelsheim",
+        "category": "PER",
+        "locationStart": 3261,
+        "locationEnd": 3278,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_46",
         "surfaceForm": "' Lucas d' Heere",
         "category": "PER",
@@ -15732,6 +16020,14 @@
         "locationStart": 3298,
         "locationEnd": 3310,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_36",
+        "surfaceForm": "Oud- Holland",
+        "category": "PER",
+        "locationStart": 3298,
+        "locationEnd": 3310,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_36",
@@ -15850,6 +16146,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_37",
+        "surfaceForm": "W. Waterschoot",
+        "category": "PER",
+        "locationStart": 3379,
+        "locationEnd": 3393,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_62",
         "surfaceForm": "Zwolle",
         "category": "LOC",
@@ -15948,6 +16252,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_38",
+        "surfaceForm": "W. Waterschoot",
+        "category": "PER",
+        "locationStart": 3413,
+        "locationEnd": 3427,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_64",
         "surfaceForm": "Het sonnet van Eleonora Carboniers",
         "category": "MISC",
@@ -15964,6 +16276,22 @@
         "locationStart": 3430,
         "locationEnd": 3444,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_39",
+        "surfaceForm": "Het sonnet van Eleonora",
+        "category": "PER",
+        "locationStart": 3430,
+        "locationEnd": 3453,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_40",
+        "surfaceForm": "Het sonnet van Eleonora Carboniers",
+        "category": "PER",
+        "locationStart": 3430,
+        "locationEnd": 3464,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_31",
@@ -15988,6 +16316,14 @@
         "locationStart": 3445,
         "locationEnd": 3464,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_41",
+        "surfaceForm": "Eleonora Carboniers",
+        "category": "PER",
+        "locationStart": 3445,
+        "locationEnd": 3464,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_65",
@@ -16024,6 +16360,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_42",
+        "surfaceForm": "Henk Duits",
+        "category": "PER",
+        "locationStart": 3471,
+        "locationEnd": 3481,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_66",
         "surfaceForm": "Arie Jan Gelderblom",
         "category": "PER",
@@ -16058,6 +16402,102 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_43",
+        "surfaceForm": "Arie Jan",
+        "category": "PER",
+        "locationStart": 3483,
+        "locationEnd": 3491,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_44",
+        "surfaceForm": "Arie Jan Gelderblom",
+        "category": "PER",
+        "locationStart": 3483,
+        "locationEnd": 3502,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_48",
+        "surfaceForm": "Arie Jan Gelderblom en Mieke",
+        "category": "PER",
+        "locationStart": 3483,
+        "locationEnd": 3511,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_51",
+        "surfaceForm": "Arie Jan Gelderblom en Mieke Smits-",
+        "category": "PER",
+        "locationStart": 3483,
+        "locationEnd": 3518,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_55",
+        "surfaceForm": "Arie Jan Gelderblom en Mieke Smits- Veldt",
+        "category": "PER",
+        "locationStart": 3483,
+        "locationEnd": 3524,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_45",
+        "surfaceForm": "Jan Gelderblom",
+        "category": "PER",
+        "locationStart": 3488,
+        "locationEnd": 3502,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_47",
+        "surfaceForm": "Jan Gelderblom en Mieke",
+        "category": "PER",
+        "locationStart": 3488,
+        "locationEnd": 3511,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_50",
+        "surfaceForm": "Jan Gelderblom en Mieke Smits-",
+        "category": "PER",
+        "locationStart": 3488,
+        "locationEnd": 3518,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_54",
+        "surfaceForm": "Jan Gelderblom en Mieke Smits- Veldt",
+        "category": "PER",
+        "locationStart": 3488,
+        "locationEnd": 3524,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_46",
+        "surfaceForm": "Gelderblom en Mieke",
+        "category": "PER",
+        "locationStart": 3492,
+        "locationEnd": 3511,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_49",
+        "surfaceForm": "Gelderblom en Mieke Smits-",
+        "category": "PER",
+        "locationStart": 3492,
+        "locationEnd": 3518,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_53",
+        "surfaceForm": "Gelderblom en Mieke Smits- Veldt",
+        "category": "PER",
+        "locationStart": 3492,
+        "locationEnd": 3524,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_67",
         "surfaceForm": "Mieke Smits- Veldt",
         "category": "PER",
@@ -16090,6 +16530,30 @@
         "locationStart": 3506,
         "locationEnd": 3524,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_52",
+        "surfaceForm": "Mieke Smits-",
+        "category": "PER",
+        "locationStart": 3506,
+        "locationEnd": 3518,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_56",
+        "surfaceForm": "Mieke Smits- Veldt",
+        "category": "PER",
+        "locationStart": 3506,
+        "locationEnd": 3524,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_57",
+        "surfaceForm": "Smits- Veldt",
+        "category": "PER",
+        "locationStart": 3512,
+        "locationEnd": 3524,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_31",
@@ -16132,6 +16596,14 @@
         "locationStart": 3587,
         "locationEnd": 3611,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_58",
+        "surfaceForm": "Marijke Spies",
+        "category": "PER",
+        "locationStart": 3587,
+        "locationEnd": 3600,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_69",
@@ -16222,6 +16694,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_59",
+        "surfaceForm": "Bart Ramakers",
+        "category": "PER",
+        "locationStart": 3624,
+        "locationEnd": 3637,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_71",
         "surfaceForm": "Kunst en kunstenaarschap",
         "category": "MISC",
@@ -16282,6 +16762,14 @@
         "locationStart": 3696,
         "locationEnd": 3707,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_60",
+        "surfaceForm": "De Fonteine",
+        "category": "PER",
+        "locationStart": 3696,
+        "locationEnd": 3707,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_58",

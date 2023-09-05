@@ -8144,6 +8144,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Marinus Haver",
+        "category": "PER",
+        "locationStart": 63,
+        "locationEnd": 76,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_1",
         "surfaceForm": "Jeanne van Campen",
         "category": "PER",
@@ -8176,6 +8184,14 @@
         "locationStart": 92,
         "locationEnd": 109,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Jeanne van Campen",
+        "category": "PER",
+        "locationStart": 92,
+        "locationEnd": 109,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_2",
@@ -8218,6 +8234,14 @@
         "locationStart": 160,
         "locationEnd": 175,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Hermanus Schook",
+        "category": "PER",
+        "locationStart": 160,
+        "locationEnd": 175,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_3",
@@ -8264,12 +8288,28 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "De Vrouw",
+        "category": "PER",
+        "locationStart": 393,
+        "locationEnd": 401,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_5",
         "category": "TIME",
         "surfaceForm": "1888",
         "locationStart": 415,
         "locationEnd": 419,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Anderen menen dat Havers",
+        "category": "PER",
+        "locationStart": 451,
+        "locationEnd": 475,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_5",
@@ -8324,12 +8364,36 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "G. Romijn-",
+        "category": "PER",
+        "locationStart": 540,
+        "locationEnd": 550,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "G. Romijn- Cohen",
+        "category": "PER",
+        "locationStart": 540,
+        "locationEnd": 556,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_7",
         "category": "",
         "surfaceForm": "romijn",
         "locationStart": 543,
         "locationEnd": 549,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Romijn- Cohen",
+        "category": "PER",
+        "locationStart": 543,
+        "locationEnd": 556,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_7",
@@ -8424,6 +8488,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Vrije Vrouwenvereeniging",
+        "category": "PER",
+        "locationStart": 659,
+        "locationEnd": 683,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_9",
         "surfaceForm": "VVV",
         "category": "ORG",
@@ -8492,6 +8564,14 @@
         "locationStart": 881,
         "locationEnd": 914,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Vereeniging voor Vrouwenkiesrecht",
+        "category": "PER",
+        "locationStart": 881,
+        "locationEnd": 914,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_9",
@@ -8654,6 +8734,46 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Wilhelmina Drucker",
+        "category": "PER",
+        "locationStart": 1165,
+        "locationEnd": 1183,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "Wilhelmina Drucker en Dora",
+        "category": "PER",
+        "locationStart": 1165,
+        "locationEnd": 1191,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "Wilhelmina Drucker en Dora Haver",
+        "category": "PER",
+        "locationStart": 1165,
+        "locationEnd": 1197,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "Drucker en Dora",
+        "category": "PER",
+        "locationStart": 1176,
+        "locationEnd": 1191,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "Drucker en Dora Haver",
+        "category": "PER",
+        "locationStart": 1176,
+        "locationEnd": 1197,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_16",
         "surfaceForm": "Dora Haver",
         "category": "PER",
@@ -8686,6 +8806,22 @@
         "locationStart": 1187,
         "locationEnd": 1197,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_15",
+        "surfaceForm": "Dora Haver",
+        "category": "PER",
+        "locationStart": 1187,
+        "locationEnd": 1197,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_16",
+        "surfaceForm": "In Evolutie",
+        "category": "PER",
+        "locationStart": 1355,
+        "locationEnd": 1366,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_17",
@@ -8740,6 +8876,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_17",
+        "surfaceForm": "Wilhelmina Drucker",
+        "category": "PER",
+        "locationStart": 1719,
+        "locationEnd": 1737,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_20",
         "category": "TIME",
         "surfaceForm": "1897",
@@ -8782,6 +8926,46 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_18",
+        "surfaceForm": "Wilhelmina Drucker",
+        "category": "PER",
+        "locationStart": 2154,
+        "locationEnd": 2172,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_20",
+        "surfaceForm": "Wilhelmina Drucker en Dora",
+        "category": "PER",
+        "locationStart": 2154,
+        "locationEnd": 2180,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_22",
+        "surfaceForm": "Wilhelmina Drucker en Dora Haver",
+        "category": "PER",
+        "locationStart": 2154,
+        "locationEnd": 2186,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_19",
+        "surfaceForm": "Drucker en Dora",
+        "category": "PER",
+        "locationStart": 2165,
+        "locationEnd": 2180,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_21",
+        "surfaceForm": "Drucker en Dora Haver",
+        "category": "PER",
+        "locationStart": 2165,
+        "locationEnd": 2186,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_20",
         "surfaceForm": "Dora Haver",
         "category": "PER",
@@ -8814,6 +8998,14 @@
         "locationStart": 2176,
         "locationEnd": 2186,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_23",
+        "surfaceForm": "Dora Haver",
+        "category": "PER",
+        "locationStart": 2176,
+        "locationEnd": 2186,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_21",
@@ -8902,6 +9094,30 @@
         "locationStart": 2553,
         "locationEnd": 2596,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_24",
+        "surfaceForm": "Nationale Tentoonstelling",
+        "category": "PER",
+        "locationStart": 2553,
+        "locationEnd": 2578,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_26",
+        "surfaceForm": "Nationale Tentoonstelling van Vrouwenarbeid",
+        "category": "PER",
+        "locationStart": 2553,
+        "locationEnd": 2596,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_25",
+        "surfaceForm": "Tentoonstelling van Vrouwenarbeid",
+        "category": "PER",
+        "locationStart": 2563,
+        "locationEnd": 2596,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_23",

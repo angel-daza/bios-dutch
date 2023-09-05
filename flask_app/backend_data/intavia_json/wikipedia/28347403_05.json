@@ -34718,6 +34718,102 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Willem Jan",
+        "category": "PER",
+        "locationStart": 19,
+        "locationEnd": 29,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Willem Jan Knoop",
+        "category": "PER",
+        "locationStart": 19,
+        "locationEnd": 35,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Willem Jan Knoop als kapitein Willem",
+        "category": "PER",
+        "locationStart": 19,
+        "locationEnd": 55,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Willem Jan Knoop als kapitein Willem Jan",
+        "category": "PER",
+        "locationStart": 19,
+        "locationEnd": 59,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "Willem Jan Knoop als kapitein Willem Jan Knoop",
+        "category": "PER",
+        "locationStart": 19,
+        "locationEnd": 65,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Jan Knoop",
+        "category": "PER",
+        "locationStart": 26,
+        "locationEnd": 35,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Jan Knoop als kapitein Willem",
+        "category": "PER",
+        "locationStart": 26,
+        "locationEnd": 55,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Jan Knoop als kapitein Willem Jan",
+        "category": "PER",
+        "locationStart": 26,
+        "locationEnd": 59,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "Jan Knoop als kapitein Willem Jan Knoop",
+        "category": "PER",
+        "locationStart": 26,
+        "locationEnd": 65,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Knoop als kapitein Willem",
+        "category": "PER",
+        "locationStart": 30,
+        "locationEnd": 55,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Knoop als kapitein Willem Jan",
+        "category": "PER",
+        "locationStart": 30,
+        "locationEnd": 59,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Knoop als kapitein Willem Jan Knoop",
+        "category": "PER",
+        "locationStart": 30,
+        "locationEnd": 65,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_1",
         "surfaceForm": "Willem Jan Knoop",
         "category": "PER",
@@ -34750,6 +34846,30 @@
         "locationStart": 49,
         "locationEnd": 65,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Willem Jan",
+        "category": "PER",
+        "locationStart": 49,
+        "locationEnd": 59,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "Willem Jan Knoop",
+        "category": "PER",
+        "locationStart": 49,
+        "locationEnd": 65,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "Jan Knoop",
+        "category": "PER",
+        "locationStart": 56,
+        "locationEnd": 65,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_2",
@@ -34888,6 +35008,54 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_15",
+        "surfaceForm": "Koninklijke Militaire",
+        "category": "PER",
+        "locationStart": 230,
+        "locationEnd": 251,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_16",
+        "surfaceForm": "Koninklijke Militaire Academie",
+        "category": "PER",
+        "locationStart": 230,
+        "locationEnd": 260,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_20",
+        "surfaceForm": "Koninklijke Militaire Academie te Breda",
+        "category": "PER",
+        "locationStart": 230,
+        "locationEnd": 269,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_17",
+        "surfaceForm": "Militaire Academie",
+        "category": "PER",
+        "locationStart": 242,
+        "locationEnd": 260,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_19",
+        "surfaceForm": "Militaire Academie te Breda",
+        "category": "PER",
+        "locationStart": 242,
+        "locationEnd": 269,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_18",
+        "surfaceForm": "Academie te Breda",
+        "category": "PER",
+        "locationStart": 252,
+        "locationEnd": 269,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_1",
         "category": "LOC",
         "surfaceForm": "Breda",
@@ -34930,6 +35098,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_21",
+        "surfaceForm": "Engelse militaire historicus William",
+        "category": "PER",
+        "locationStart": 357,
+        "locationEnd": 393,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_22",
+        "surfaceForm": "Engelse militaire historicus William Siborne",
+        "category": "PER",
+        "locationStart": 357,
+        "locationEnd": 401,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_7",
         "surfaceForm": "William Siborne",
         "category": "PER",
@@ -34964,6 +35148,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_23",
+        "surfaceForm": "William Siborne",
+        "category": "PER",
+        "locationStart": 386,
+        "locationEnd": 401,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_1",
         "category": "TIME",
         "surfaceForm": "1844",
@@ -34990,6 +35182,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_24",
+        "surfaceForm": "Slag bij Quatre-Bras",
+        "category": "PER",
+        "locationStart": 430,
+        "locationEnd": 450,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_1",
         "category": "LOC",
         "surfaceForm": "quatre - bras",
@@ -35004,6 +35204,14 @@
         "locationStart": 439,
         "locationEnd": 450,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_25",
+        "surfaceForm": "Quatre-Bras en de Slag",
+        "category": "PER",
+        "locationStart": 439,
+        "locationEnd": 461,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_9",
@@ -35024,6 +35232,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_26",
+        "surfaceForm": "Slag bij Waterloo",
+        "category": "PER",
+        "locationStart": 457,
+        "locationEnd": 474,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_1",
         "category": "LOC",
         "surfaceForm": "waterloo",
@@ -35038,6 +35254,14 @@
         "locationStart": 466,
         "locationEnd": 474,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_27",
+        "surfaceForm": "Daarin had Siborne",
+        "category": "PER",
+        "locationStart": 477,
+        "locationEnd": 495,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_10",
@@ -35108,6 +35332,14 @@
         "locationStart": 633,
         "locationEnd": 644,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_28",
+        "surfaceForm": "Aangezien het Nederlandse",
+        "category": "PER",
+        "locationStart": 696,
+        "locationEnd": 721,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_13",
@@ -35196,6 +35428,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_29",
+        "surfaceForm": "Siborne in Nederland",
+        "category": "PER",
+        "locationStart": 847,
+        "locationEnd": 867,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_16",
         "surfaceForm": "Nederland",
         "category": "LOC",
@@ -35220,6 +35460,14 @@
         "locationStart": 858,
         "locationEnd": 867,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_30",
+        "surfaceForm": "Het boek van Siborne",
+        "category": "PER",
+        "locationStart": 892,
+        "locationEnd": 912,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_17",
@@ -35300,6 +35548,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_31",
+        "surfaceForm": "Biografie Knoop",
+        "category": "PER",
+        "locationStart": 1030,
+        "locationEnd": 1045,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_4",
         "category": "PER",
         "surfaceForm": "ografie knoop",
@@ -35368,6 +35624,102 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_32",
+        "surfaceForm": "Willem Hendrik",
+        "category": "PER",
+        "locationStart": 1091,
+        "locationEnd": 1105,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_33",
+        "surfaceForm": "Willem Hendrik Knoop",
+        "category": "PER",
+        "locationStart": 1091,
+        "locationEnd": 1111,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_37",
+        "surfaceForm": "Willem Hendrik Knoop en Henrica",
+        "category": "PER",
+        "locationStart": 1091,
+        "locationEnd": 1122,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_40",
+        "surfaceForm": "Willem Hendrik Knoop en Henrica Willemina",
+        "category": "PER",
+        "locationStart": 1091,
+        "locationEnd": 1132,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_44",
+        "surfaceForm": "Willem Hendrik Knoop en Henrica Willemina Hartkamp",
+        "category": "PER",
+        "locationStart": 1091,
+        "locationEnd": 1141,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_34",
+        "surfaceForm": "Hendrik Knoop",
+        "category": "PER",
+        "locationStart": 1098,
+        "locationEnd": 1111,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_36",
+        "surfaceForm": "Hendrik Knoop en Henrica",
+        "category": "PER",
+        "locationStart": 1098,
+        "locationEnd": 1122,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_39",
+        "surfaceForm": "Hendrik Knoop en Henrica Willemina",
+        "category": "PER",
+        "locationStart": 1098,
+        "locationEnd": 1132,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_43",
+        "surfaceForm": "Hendrik Knoop en Henrica Willemina Hartkamp",
+        "category": "PER",
+        "locationStart": 1098,
+        "locationEnd": 1141,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_35",
+        "surfaceForm": "Knoop en Henrica",
+        "category": "PER",
+        "locationStart": 1106,
+        "locationEnd": 1122,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_38",
+        "surfaceForm": "Knoop en Henrica Willemina",
+        "category": "PER",
+        "locationStart": 1106,
+        "locationEnd": 1132,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_42",
+        "surfaceForm": "Knoop en Henrica Willemina Hartkamp",
+        "category": "PER",
+        "locationStart": 1106,
+        "locationEnd": 1141,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_22",
         "surfaceForm": "Henrica Willemina Hartkamp",
         "category": "PER",
@@ -35400,6 +35752,30 @@
         "locationStart": 1115,
         "locationEnd": 1141,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_41",
+        "surfaceForm": "Henrica Willemina",
+        "category": "PER",
+        "locationStart": 1115,
+        "locationEnd": 1132,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_45",
+        "surfaceForm": "Henrica Willemina Hartkamp",
+        "category": "PER",
+        "locationStart": 1115,
+        "locationEnd": 1141,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_46",
+        "surfaceForm": "Willemina Hartkamp",
+        "category": "PER",
+        "locationStart": 1123,
+        "locationEnd": 1141,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_23",
@@ -35462,6 +35838,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_47",
+        "surfaceForm": "Maatschappij der Nederlandse",
+        "category": "PER",
+        "locationStart": 1250,
+        "locationEnd": 1278,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_48",
+        "surfaceForm": "Maatschappij der Nederlandse Letterkunde",
+        "category": "PER",
+        "locationStart": 1250,
+        "locationEnd": 1290,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_49",
+        "surfaceForm": "Nederlandse Letterkunde",
+        "category": "PER",
+        "locationStart": 1267,
+        "locationEnd": 1290,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_6",
         "category": "TIME",
         "surfaceForm": "1825",
@@ -35496,6 +35896,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_50",
+        "surfaceForm": "Zesde Afdeeling",
+        "category": "PER",
+        "locationStart": 1401,
+        "locationEnd": 1416,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_52",
+        "surfaceForm": "Zesde Afdeeling van het Nederlandse",
+        "category": "PER",
+        "locationStart": 1401,
+        "locationEnd": 1436,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_51",
+        "surfaceForm": "Afdeeling van het Nederlandse",
+        "category": "PER",
+        "locationStart": 1407,
+        "locationEnd": 1436,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_26",
         "surfaceForm": "Nederlandse",
         "category": "MISC",
@@ -35512,6 +35936,14 @@
         "locationStart": 1425,
         "locationEnd": 1436,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_53",
+        "surfaceForm": "Nederlandse leger te Brugge",
+        "category": "PER",
+        "locationStart": 1425,
+        "locationEnd": 1452,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_27",
@@ -35642,6 +36074,30 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_54",
+        "surfaceForm": "Orde van de Nederlandse",
+        "category": "PER",
+        "locationStart": 1805,
+        "locationEnd": 1828,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_55",
+        "surfaceForm": "Orde van de Nederlandse Leeuw",
+        "category": "PER",
+        "locationStart": 1805,
+        "locationEnd": 1834,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_56",
+        "surfaceForm": "Nederlandse Leeuw",
+        "category": "PER",
+        "locationStart": 1817,
+        "locationEnd": 1834,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_31",
         "surfaceForm": "Netscher",
         "category": "PER",
@@ -35674,6 +36130,14 @@
         "locationStart": 1849,
         "locationEnd": 1857,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_57",
+        "surfaceForm": "Duel Dit",
+        "category": "PER",
+        "locationStart": 1867,
+        "locationEnd": 1875,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_11",
@@ -35854,6 +36318,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_58",
+        "surfaceForm": "Hoog Militair",
+        "category": "PER",
+        "locationStart": 2500,
+        "locationEnd": 2513,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_59",
+        "surfaceForm": "Hoog Militair Gerechtshof",
+        "category": "PER",
+        "locationStart": 2500,
+        "locationEnd": 2525,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_60",
+        "surfaceForm": "Militair Gerechtshof",
+        "category": "PER",
+        "locationStart": 2505,
+        "locationEnd": 2525,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_37",
         "surfaceForm": "Netscher",
         "category": "PER",
@@ -35906,6 +36394,30 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_61",
+        "surfaceForm": "De Affaire-Siborne",
+        "category": "PER",
+        "locationStart": 2685,
+        "locationEnd": 2703,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_62",
+        "surfaceForm": "De Affaire-Siborne In",
+        "category": "PER",
+        "locationStart": 2685,
+        "locationEnd": 2706,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_63",
+        "surfaceForm": "Affaire-Siborne In",
+        "category": "PER",
+        "locationStart": 2688,
+        "locationEnd": 2706,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_20",
         "category": "TIME",
         "surfaceForm": "1844",
@@ -35932,6 +36444,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_64",
+        "surfaceForm": "History of the War",
+        "category": "PER",
+        "locationStart": 2722,
+        "locationEnd": 2740,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_65",
+        "surfaceForm": "War in France",
+        "category": "PER",
+        "locationStart": 2737,
+        "locationEnd": 2750,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_40",
         "surfaceForm": "France and Flanders",
         "category": "MISC",
@@ -35948,6 +36476,14 @@
         "locationStart": 2744,
         "locationEnd": 2750,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_66",
+        "surfaceForm": "France and Flanders",
+        "category": "PER",
+        "locationStart": 2744,
+        "locationEnd": 2763,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_20",
@@ -35984,6 +36520,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_67",
+        "surfaceForm": "Engelse kapitein William",
+        "category": "PER",
+        "locationStart": 2801,
+        "locationEnd": 2825,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_68",
+        "surfaceForm": "Engelse kapitein William Siborne",
+        "category": "PER",
+        "locationStart": 2801,
+        "locationEnd": 2833,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_42",
         "surfaceForm": "William Siborne",
         "category": "PER",
@@ -36016,6 +36568,14 @@
         "locationStart": 2818,
         "locationEnd": 2833,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_69",
+        "surfaceForm": "William Siborne",
+        "category": "PER",
+        "locationStart": 2818,
+        "locationEnd": 2833,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_43",
@@ -36096,6 +36656,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_70",
+        "surfaceForm": "Quatre Bras",
+        "category": "PER",
+        "locationStart": 2950,
+        "locationEnd": 2961,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_72",
+        "surfaceForm": "Quatre Bras en Waterloo",
+        "category": "PER",
+        "locationStart": 2950,
+        "locationEnd": 2973,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_71",
+        "surfaceForm": "Bras en Waterloo",
+        "category": "PER",
+        "locationStart": 2957,
+        "locationEnd": 2973,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_46",
         "surfaceForm": "Waterloo",
         "category": "LOC",
@@ -36146,6 +36730,14 @@
         "locationStart": 3087,
         "locationEnd": 3098,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_73",
+        "surfaceForm": "Nederlandse en Belgische",
+        "category": "PER",
+        "locationStart": 3087,
+        "locationEnd": 3111,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_48",
@@ -36224,6 +36816,14 @@
         "locationStart": 3201,
         "locationEnd": 3217,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_74",
+        "surfaceForm": "Prins van Oranje",
+        "category": "PER",
+        "locationStart": 3201,
+        "locationEnd": 3217,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_51",
@@ -36374,6 +36974,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_75",
+        "surfaceForm": "Nederlandse en Belgische",
+        "category": "PER",
+        "locationStart": 3733,
+        "locationEnd": 3757,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_57",
         "surfaceForm": "Belgische",
         "category": "MISC",
@@ -36424,6 +37032,14 @@
         "locationStart": 3818,
         "locationEnd": 3836,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_76",
+        "surfaceForm": "Napoleon Bonaparte",
+        "category": "PER",
+        "locationStart": 3818,
+        "locationEnd": 3836,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_59",
@@ -36538,6 +37154,46 @@
         "method": "stanza_nl"
       },
       {
+        "ID": "spacy_matcher_nl_77",
+        "surfaceForm": "Sectie Krijgsgeschiedenis",
+        "category": "PER",
+        "locationStart": 4120,
+        "locationEnd": 4145,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_79",
+        "surfaceForm": "Sectie Krijgsgeschiedenis van de Generale",
+        "category": "PER",
+        "locationStart": 4120,
+        "locationEnd": 4161,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_81",
+        "surfaceForm": "Sectie Krijgsgeschiedenis van de Generale Staf",
+        "category": "PER",
+        "locationStart": 4120,
+        "locationEnd": 4166,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_78",
+        "surfaceForm": "Krijgsgeschiedenis van de Generale",
+        "category": "PER",
+        "locationStart": 4127,
+        "locationEnd": 4161,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_80",
+        "surfaceForm": "Krijgsgeschiedenis van de Generale Staf",
+        "category": "PER",
+        "locationStart": 4127,
+        "locationEnd": 4166,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_27",
         "category": "ORG",
         "surfaceForm": "Generale Staf",
@@ -36552,6 +37208,14 @@
         "locationStart": 4153,
         "locationEnd": 4165,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_82",
+        "surfaceForm": "Generale Staf",
+        "category": "PER",
+        "locationStart": 4153,
+        "locationEnd": 4166,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_63",
@@ -36586,6 +37250,14 @@
         "locationStart": 4189,
         "locationEnd": 4198,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_83",
+        "surfaceForm": "De Nederlands/Belgische",
+        "category": "PER",
+        "locationStart": 4290,
+        "locationEnd": 4313,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_64",
@@ -36682,6 +37354,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_84",
+        "surfaceForm": "Van Zuylen",
+        "category": "PER",
+        "locationStart": 4475,
+        "locationEnd": 4485,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_86",
+        "surfaceForm": "Van Zuylen van Nyevelt",
+        "category": "PER",
+        "locationStart": 4475,
+        "locationEnd": 4497,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_85",
+        "surfaceForm": "Zuylen van Nyevelt",
+        "category": "PER",
+        "locationStart": 4479,
+        "locationEnd": 4497,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_67",
         "surfaceForm": "van Nyevelt",
         "category": "PER",
@@ -36716,6 +37412,14 @@
         "locationStart": 4516,
         "locationEnd": 4530,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_87",
+        "surfaceForm": "Tweede Divisie",
+        "category": "PER",
+        "locationStart": 4516,
+        "locationEnd": 4530,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_69",
@@ -36770,6 +37474,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_88",
+        "surfaceForm": "New Perspectives",
+        "category": "PER",
+        "locationStart": 4589,
+        "locationEnd": 4605,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_71",
         "surfaceForm": "The Great Battle Reappraised",
         "category": "MISC",
@@ -36786,6 +37498,54 @@
         "locationStart": 4607,
         "locationEnd": 4635,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_89",
+        "surfaceForm": "The Great",
+        "category": "PER",
+        "locationStart": 4607,
+        "locationEnd": 4616,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_90",
+        "surfaceForm": "The Great Battle",
+        "category": "PER",
+        "locationStart": 4607,
+        "locationEnd": 4623,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_92",
+        "surfaceForm": "The Great Battle Reappraised",
+        "category": "PER",
+        "locationStart": 4607,
+        "locationEnd": 4635,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_91",
+        "surfaceForm": "Great Battle",
+        "category": "PER",
+        "locationStart": 4611,
+        "locationEnd": 4623,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_93",
+        "surfaceForm": "Great Battle Reappraised",
+        "category": "PER",
+        "locationStart": 4611,
+        "locationEnd": 4635,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_94",
+        "surfaceForm": "Battle Reappraised",
+        "category": "PER",
+        "locationStart": 4617,
+        "locationEnd": 4635,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_72",
@@ -36820,6 +37580,14 @@
         "locationStart": 4637,
         "locationEnd": 4647,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_95",
+        "surfaceForm": "John Wiley",
+        "category": "PER",
+        "locationStart": 4637,
+        "locationEnd": 4647,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_73",
@@ -36968,6 +37736,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_96",
+        "surfaceForm": "Frankrijk en de Nederlanden",
+        "category": "PER",
+        "locationStart": 4946,
+        "locationEnd": 4973,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_78",
         "surfaceForm": "Nederlanden",
         "category": "LOC",
@@ -37086,6 +37862,30 @@
         "locationStart": 5118,
         "locationEnd": 5156,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_97",
+        "surfaceForm": "Krijgs- en Geschiedkundige",
+        "category": "PER",
+        "locationStart": 5118,
+        "locationEnd": 5144,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_98",
+        "surfaceForm": "Krijgs- en Geschiedkundige Geschriften",
+        "category": "PER",
+        "locationStart": 5118,
+        "locationEnd": 5156,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_99",
+        "surfaceForm": "Geschiedkundige Geschriften",
+        "category": "PER",
+        "locationStart": 5129,
+        "locationEnd": 5156,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_35",
@@ -37252,6 +38052,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_100",
+        "surfaceForm": "Gele Rijders",
+        "category": "PER",
+        "locationStart": 5579,
+        "locationEnd": 5591,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_88",
         "surfaceForm": "Knoop",
         "category": "ORG",
@@ -37302,6 +38110,14 @@
         "locationStart": 5685,
         "locationEnd": 5693,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_101",
+        "surfaceForm": "Een collega van Knoop",
+        "category": "PER",
+        "locationStart": 5710,
+        "locationEnd": 5731,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_90",
@@ -37356,6 +38172,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_102",
+        "surfaceForm": "Frans en Duits",
+        "category": "PER",
+        "locationStart": 5761,
+        "locationEnd": 5775,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_92",
         "surfaceForm": "Duits",
         "category": "MISC",
@@ -37372,6 +38196,14 @@
         "locationStart": 5770,
         "locationEnd": 5775,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_103",
+        "surfaceForm": "Van een Engelse",
+        "category": "PER",
+        "locationStart": 5845,
+        "locationEnd": 5860,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_93",
@@ -37410,6 +38242,30 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_104",
+        "surfaceForm": "Engelse militaire tijdschrift United",
+        "category": "PER",
+        "locationStart": 5962,
+        "locationEnd": 5998,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_105",
+        "surfaceForm": "Engelse militaire tijdschrift United Service",
+        "category": "PER",
+        "locationStart": 5962,
+        "locationEnd": 6006,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_107",
+        "surfaceForm": "Engelse militaire tijdschrift United Service Magazine",
+        "category": "PER",
+        "locationStart": 5962,
+        "locationEnd": 6015,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_95",
         "surfaceForm": "United Service Magazine",
         "category": "ORG",
@@ -37434,6 +38290,30 @@
         "locationStart": 5992,
         "locationEnd": 6015,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_106",
+        "surfaceForm": "United Service",
+        "category": "PER",
+        "locationStart": 5992,
+        "locationEnd": 6006,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_108",
+        "surfaceForm": "United Service Magazine",
+        "category": "PER",
+        "locationStart": 5992,
+        "locationEnd": 6015,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_109",
+        "surfaceForm": "Service Magazine",
+        "category": "PER",
+        "locationStart": 5999,
+        "locationEnd": 6015,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_96",
@@ -37486,6 +38366,14 @@
         "locationStart": 6239,
         "locationEnd": 6246,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_110",
+        "surfaceForm": "Engelse tijdschrift Athenaeum",
+        "category": "PER",
+        "locationStart": 6239,
+        "locationEnd": 6268,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_98",
@@ -37644,6 +38532,30 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_111",
+        "surfaceForm": "History of the War",
+        "category": "PER",
+        "locationStart": 6774,
+        "locationEnd": 6792,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_112",
+        "surfaceForm": "War in France",
+        "category": "PER",
+        "locationStart": 6789,
+        "locationEnd": 6802,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_113",
+        "surfaceForm": "France and Belgium",
+        "category": "PER",
+        "locationStart": 6796,
+        "locationEnd": 6814,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_47",
         "category": "LOC",
         "surfaceForm": "france",
@@ -37678,12 +38590,68 @@
         "method": "stanza_nl"
       },
       {
+        "ID": "spacy_matcher_nl_114",
+        "surfaceForm": "Containing Minute",
+        "category": "PER",
+        "locationStart": 6825,
+        "locationEnd": 6842,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_115",
+        "surfaceForm": "Containing Minute Details",
+        "category": "PER",
+        "locationStart": 6825,
+        "locationEnd": 6850,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_119",
+        "surfaceForm": "Containing Minute Details of the Battles",
+        "category": "PER",
+        "locationStart": 6825,
+        "locationEnd": 6865,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_50",
         "category": "MISC",
         "surfaceForm": "Minute Details of the Battles of Quatre-Bras",
         "locationStart": 6836,
         "locationEnd": 6880,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_116",
+        "surfaceForm": "Minute Details",
+        "category": "PER",
+        "locationStart": 6836,
+        "locationEnd": 6850,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_118",
+        "surfaceForm": "Minute Details of the Battles",
+        "category": "PER",
+        "locationStart": 6836,
+        "locationEnd": 6865,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_117",
+        "surfaceForm": "Details of the Battles",
+        "category": "PER",
+        "locationStart": 6843,
+        "locationEnd": 6865,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_120",
+        "surfaceForm": "Battles of Quatre-Bras",
+        "category": "PER",
+        "locationStart": 6858,
+        "locationEnd": 6880,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_48",
@@ -37814,12 +38782,36 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_121",
+        "surfaceForm": "Adamant Media",
+        "category": "PER",
+        "locationStart": 6910,
+        "locationEnd": 6923,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_122",
+        "surfaceForm": "Adamant Media Corporation",
+        "category": "PER",
+        "locationStart": 6910,
+        "locationEnd": 6935,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "xlmr_ner_48",
         "category": "ORG",
         "surfaceForm": "Adamant Media Corporation",
         "locationStart": 6911,
         "locationEnd": 6936,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_123",
+        "surfaceForm": "Media Corporation",
+        "category": "PER",
+        "locationStart": 6918,
+        "locationEnd": 6935,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_109",
@@ -37928,6 +38920,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_124",
+        "surfaceForm": "Van Bijlandt",
+        "category": "PER",
+        "locationStart": 7269,
+        "locationEnd": 7281,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_49",
         "category": "PER",
         "surfaceForm": "van bijlandt",
@@ -37976,6 +38976,14 @@
         "locationStart": 7313,
         "locationEnd": 7321,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_125",
+        "surfaceForm": "Volgens Siborne",
+        "category": "PER",
+        "locationStart": 7322,
+        "locationEnd": 7337,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_115",
@@ -38040,6 +39048,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_126",
+        "surfaceForm": "Van Zuylen",
+        "category": "PER",
+        "locationStart": 7680,
+        "locationEnd": 7690,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_128",
+        "surfaceForm": "Van Zuylen van Nyevelt",
+        "category": "PER",
+        "locationStart": 7680,
+        "locationEnd": 7702,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_53",
         "category": "PER",
         "surfaceForm": "van zuylen van nyevelt",
@@ -38054,6 +39078,14 @@
         "locationStart": 7681,
         "locationEnd": 7691,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_127",
+        "surfaceForm": "Zuylen van Nyevelt",
+        "category": "PER",
+        "locationStart": 7684,
+        "locationEnd": 7702,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_118",
@@ -38082,6 +39114,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_129",
+        "surfaceForm": "Zie Erwin",
+        "category": "PER",
+        "locationStart": 7712,
+        "locationEnd": 7721,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_130",
+        "surfaceForm": "Zie Erwin Muilwijk",
+        "category": "PER",
+        "locationStart": 7712,
+        "locationEnd": 7730,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_119",
         "surfaceForm": "Erwin Muilwijk",
         "category": "PER",
@@ -38098,6 +39146,14 @@
         "locationStart": 7716,
         "locationEnd": 7740,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_131",
+        "surfaceForm": "Erwin Muilwijk",
+        "category": "PER",
+        "locationStart": 7716,
+        "locationEnd": 7730,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_54",
@@ -38140,6 +39196,14 @@
         "locationStart": 7749,
         "locationEnd": 7767,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_132",
+        "surfaceForm": "De zoon van Siborne",
+        "category": "PER",
+        "locationStart": 7811,
+        "locationEnd": 7830,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_121",
@@ -38192,6 +39256,14 @@
         "locationStart": 7851,
         "locationEnd": 7866,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_133",
+        "surfaceForm": "Herbert Siborne",
+        "category": "PER",
+        "locationStart": 7851,
+        "locationEnd": 7866,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_55",
@@ -38254,6 +39326,38 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_134",
+        "surfaceForm": "The Waterloo",
+        "category": "PER",
+        "locationStart": 7964,
+        "locationEnd": 7976,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_135",
+        "surfaceForm": "The Waterloo Letters",
+        "category": "PER",
+        "locationStart": 7964,
+        "locationEnd": 7984,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_136",
+        "surfaceForm": "Waterloo Letters",
+        "category": "PER",
+        "locationStart": 7968,
+        "locationEnd": 7984,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_137",
+        "surfaceForm": "Ook in Engeland",
+        "category": "PER",
+        "locationStart": 7986,
+        "locationEnd": 8001,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_125",
         "surfaceForm": "Engeland",
         "category": "LOC",
@@ -38270,6 +39374,14 @@
         "locationStart": 7993,
         "locationEnd": 8001,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_138",
+        "surfaceForm": "Engeland heeft Siborne",
+        "category": "PER",
+        "locationStart": 7993,
+        "locationEnd": 8015,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_56",
@@ -38366,6 +39478,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_139",
+        "surfaceForm": "David Hamilton-",
+        "category": "PER",
+        "locationStart": 8162,
+        "locationEnd": 8177,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_140",
+        "surfaceForm": "David Hamilton- Williams",
+        "category": "PER",
+        "locationStart": 8162,
+        "locationEnd": 8186,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_57",
         "category": "PER",
         "surfaceForm": "david",
@@ -38380,6 +39508,14 @@
         "locationStart": 8163,
         "locationEnd": 8187,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_141",
+        "surfaceForm": "Hamilton- Williams",
+        "category": "PER",
+        "locationStart": 8168,
+        "locationEnd": 8186,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_57",
@@ -38492,6 +39628,14 @@
         "locationStart": 8285,
         "locationEnd": 8293,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_142",
+        "surfaceForm": "Hij beschuldigt daarin Siborne",
+        "category": "PER",
+        "locationStart": 8294,
+        "locationEnd": 8324,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_133",
@@ -38630,6 +39774,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_143",
+        "surfaceForm": "De verdedigers van Siborne",
+        "category": "PER",
+        "locationStart": 8572,
+        "locationEnd": 8598,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_137",
         "surfaceForm": "Siborne",
         "category": "PER",
@@ -38674,6 +39826,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_144",
+        "surfaceForm": "Duitse historicus Peter",
+        "category": "PER",
+        "locationStart": 8609,
+        "locationEnd": 8632,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_145",
+        "surfaceForm": "Duitse historicus Peter Hofschroer",
+        "category": "PER",
+        "locationStart": 8609,
+        "locationEnd": 8643,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_139",
         "surfaceForm": "Peter Hofschroer",
         "category": "PER",
@@ -38690,6 +39858,14 @@
         "locationStart": 8627,
         "locationEnd": 8643,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_146",
+        "surfaceForm": "Peter Hofschroer",
+        "category": "PER",
+        "locationStart": 8627,
+        "locationEnd": 8643,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_59",
@@ -38804,12 +39980,44 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_147",
+        "surfaceForm": "Externe Links",
+        "category": "PER",
+        "locationStart": 8794,
+        "locationEnd": 8807,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "xlmr_ner_59",
         "category": "ORG",
         "surfaceForm": "Externe Links",
         "locationStart": 8795,
         "locationEnd": 8808,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_148",
+        "surfaceForm": "Verdere loopbaan Hoewel",
+        "category": "PER",
+        "locationStart": 8810,
+        "locationEnd": 8833,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_149",
+        "surfaceForm": "Verdere loopbaan Hoewel Knoop",
+        "category": "PER",
+        "locationStart": 8810,
+        "locationEnd": 8839,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_150",
+        "surfaceForm": "Hoewel Knoop",
+        "category": "PER",
+        "locationStart": 8827,
+        "locationEnd": 8839,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_144",
@@ -38932,6 +40140,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_151",
+        "surfaceForm": "Limburg en Brabant",
+        "category": "PER",
+        "locationStart": 9249,
+        "locationEnd": 9267,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_61",
         "category": "LOC",
         "surfaceForm": "limburg",
@@ -39016,6 +40232,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_152",
+        "surfaceForm": "Tweede Kamer",
+        "category": "PER",
+        "locationStart": 9344,
+        "locationEnd": 9356,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_154",
+        "surfaceForm": "Tweede Kamer der Staten-Generaal",
+        "category": "PER",
+        "locationStart": 9344,
+        "locationEnd": 9376,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "xlmr_ner_62",
         "category": "ORG",
         "surfaceForm": "Tweede Kamer der Staten-Generaal",
@@ -39024,12 +40256,28 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_153",
+        "surfaceForm": "Kamer der Staten-Generaal",
+        "category": "PER",
+        "locationStart": 9351,
+        "locationEnd": 9376,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_67",
         "category": "ORG",
         "surfaceForm": "Staten-Generaal",
         "locationStart": 9361,
         "locationEnd": 9376,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_155",
+        "surfaceForm": "Staten-Generaal verkozen als Liberaal",
+        "category": "PER",
+        "locationStart": 9361,
+        "locationEnd": 9398,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_150",
@@ -39102,6 +40350,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_156",
+        "surfaceForm": "Frans-Duitse Oorlog",
+        "category": "PER",
+        "locationStart": 9791,
+        "locationEnd": 9810,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_66",
         "category": "TIME",
         "surfaceForm": "1872",
@@ -39162,6 +40418,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_157",
+        "surfaceForm": "De Gids",
+        "category": "PER",
+        "locationStart": 10107,
+        "locationEnd": 10114,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "xlmr_ner_67",
         "category": "ORG",
         "surfaceForm": "De Gids",
@@ -39186,6 +40450,14 @@
         "locationStart": 10229,
         "locationEnd": 10241,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_158",
+        "surfaceForm": "Robert Fruin",
+        "category": "PER",
+        "locationStart": 10229,
+        "locationEnd": 10241,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_68",
@@ -39222,6 +40494,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_159",
+        "surfaceForm": "Militaire Spectator",
+        "category": "PER",
+        "locationStart": 10274,
+        "locationEnd": 10293,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_68",
         "category": "TIME",
         "surfaceForm": "1849",
@@ -39256,12 +40536,60 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_160",
+        "surfaceForm": "Koninklijke Nederlandse",
+        "category": "PER",
+        "locationStart": 10374,
+        "locationEnd": 10397,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_161",
+        "surfaceForm": "Koninklijke Nederlandse Akademie",
+        "category": "PER",
+        "locationStart": 10374,
+        "locationEnd": 10406,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_165",
+        "surfaceForm": "Koninklijke Nederlandse Akademie van Wetenschappen",
+        "category": "PER",
+        "locationStart": 10374,
+        "locationEnd": 10424,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "xlmr_ner_69",
         "category": "ORG",
         "surfaceForm": "Koninklijke Nederlandse Akademie van Wetenschappen",
         "locationStart": 10375,
         "locationEnd": 10425,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_162",
+        "surfaceForm": "Nederlandse Akademie",
+        "category": "PER",
+        "locationStart": 10386,
+        "locationEnd": 10406,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_164",
+        "surfaceForm": "Nederlandse Akademie van Wetenschappen",
+        "category": "PER",
+        "locationStart": 10386,
+        "locationEnd": 10424,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_163",
+        "surfaceForm": "Akademie van Wetenschappen",
+        "category": "PER",
+        "locationStart": 10398,
+        "locationEnd": 10424,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_69",
@@ -39290,12 +40618,52 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_166",
+        "surfaceForm": "Koninklijke Vereniging",
+        "category": "PER",
+        "locationStart": 10460,
+        "locationEnd": 10482,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_168",
+        "surfaceForm": "Koninklijke Vereniging ter Beoefening",
+        "category": "PER",
+        "locationStart": 10460,
+        "locationEnd": 10497,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "xlmr_ner_70",
         "category": "ORG",
         "surfaceForm": "Koninklijke Vereniging ter Beoefening van de KrijgswetenschapW.J. Knoop",
         "locationStart": 10461,
         "locationEnd": 10581,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_167",
+        "surfaceForm": "Vereniging ter Beoefening",
+        "category": "PER",
+        "locationStart": 10472,
+        "locationEnd": 10497,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_169",
+        "surfaceForm": "Beoefening van de Krijgswetenschap",
+        "category": "PER",
+        "locationStart": 10487,
+        "locationEnd": 10521,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_170",
+        "surfaceForm": "Krijgswetenschap voor Deze",
+        "category": "PER",
+        "locationStart": 10505,
+        "locationEnd": 10531,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_159",
@@ -39314,6 +40682,14 @@
         "locationStart": 10570,
         "locationEnd": 10574,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_171",
+        "surfaceForm": "W.J. Knoop",
+        "category": "PER",
+        "locationStart": 10570,
+        "locationEnd": 10580,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_70",
@@ -39366,6 +40742,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_172",
+        "surfaceForm": "Externe Links",
+        "category": "PER",
+        "locationStart": 10611,
+        "locationEnd": 10624,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_161",
         "surfaceForm": "Digitale bibliotheek voor de",
         "category": "MISC",
@@ -39410,6 +40794,14 @@
         "locationStart": 10788,
         "locationEnd": 10801,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_173",
+        "surfaceForm": "Externe Links",
+        "category": "PER",
+        "locationStart": 10788,
+        "locationEnd": 10801,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_164",
@@ -39464,6 +40856,30 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_174",
+        "surfaceForm": "Oranje-Nassau Krijgs-",
+        "category": "PER",
+        "locationStart": 10899,
+        "locationEnd": 10920,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_176",
+        "surfaceForm": "Oranje-Nassau Krijgs- en Geschiedkundige",
+        "category": "PER",
+        "locationStart": 10899,
+        "locationEnd": 10939,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_178",
+        "surfaceForm": "Oranje-Nassau Krijgs- en Geschiedkundige Beschouwingen",
+        "category": "PER",
+        "locationStart": 10899,
+        "locationEnd": 10953,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_73",
         "category": "LOC",
         "surfaceForm": "oranje - nassau",
@@ -39488,6 +40904,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_175",
+        "surfaceForm": "Krijgs- en Geschiedkundige",
+        "category": "PER",
+        "locationStart": 10913,
+        "locationEnd": 10939,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_177",
+        "surfaceForm": "Krijgs- en Geschiedkundige Beschouwingen",
+        "category": "PER",
+        "locationStart": 10913,
+        "locationEnd": 10953,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_166",
         "surfaceForm": "Geschiedkundige Beschouwingen",
         "category": "ORG",
@@ -39496,6 +40928,30 @@
         "tokenStart": 1879,
         "tokenEnd": 1881,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_179",
+        "surfaceForm": "Geschiedkundige Beschouwingen",
+        "category": "PER",
+        "locationStart": 10924,
+        "locationEnd": 10953,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_181",
+        "surfaceForm": "Geschiedkundige Beschouwingen over Willem",
+        "category": "PER",
+        "locationStart": 10924,
+        "locationEnd": 10965,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_180",
+        "surfaceForm": "Beschouwingen over Willem",
+        "category": "PER",
+        "locationStart": 10940,
+        "locationEnd": 10965,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_167",
@@ -39514,6 +40970,14 @@
         "locationStart": 10959,
         "locationEnd": 10975,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_182",
+        "surfaceForm": "Willem den Derde",
+        "category": "PER",
+        "locationStart": 10959,
+        "locationEnd": 10975,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_73",
@@ -39674,6 +41138,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_183",
+        "surfaceForm": "Willemskazerne in Utrecht",
+        "category": "PER",
+        "locationStart": 11111,
+        "locationEnd": 11136,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "xlmr_ner_75",
         "category": "LOC",
         "surfaceForm": "Willemskazerne",
@@ -39740,6 +41212,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_184",
+        "surfaceForm": "Sindsdien heeft Utrecht",
+        "category": "PER",
+        "locationStart": 11175,
+        "locationEnd": 11198,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_172",
         "surfaceForm": "Utrecht",
         "category": "LOC",
@@ -39756,6 +41236,14 @@
         "locationStart": 11191,
         "locationEnd": 11198,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_185",
+        "surfaceForm": "Utrecht altijd een Knoopkazerne",
+        "category": "PER",
+        "locationStart": 11191,
+        "locationEnd": 11222,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_77",
@@ -39826,6 +41314,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_186",
+        "surfaceForm": "Kon. Nederlandse",
+        "category": "PER",
+        "locationStart": 11325,
+        "locationEnd": 11341,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_187",
+        "surfaceForm": "Kon. Nederlandse Landmacht",
+        "category": "PER",
+        "locationStart": 11325,
+        "locationEnd": 11351,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "xlmr_ner_78",
         "category": "ORG",
         "surfaceForm": "Kon. Nederlandse Landmacht",
@@ -39840,6 +41344,30 @@
         "locationStart": 11330,
         "locationEnd": 11351,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_188",
+        "surfaceForm": "Nederlandse Landmacht",
+        "category": "PER",
+        "locationStart": 11330,
+        "locationEnd": 11351,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_189",
+        "surfaceForm": "Externe links Biografie",
+        "category": "PER",
+        "locationStart": 11363,
+        "locationEnd": 11386,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_190",
+        "surfaceForm": "Biografie op Parlement",
+        "category": "PER",
+        "locationStart": 11377,
+        "locationEnd": 11399,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_175",
@@ -39866,6 +41394,14 @@
         "locationStart": 11391,
         "locationEnd": 11409,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_191",
+        "surfaceForm": "Politiek Overzicht",
+        "category": "PER",
+        "locationStart": 11402,
+        "locationEnd": 11420,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_176",
@@ -39902,6 +41438,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_192",
+        "surfaceForm": "Peter Hofschroer",
+        "category": "PER",
+        "locationStart": 11453,
+        "locationEnd": 11469,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_79",
         "category": "PER",
         "surfaceForm": "peter hofschroer",
@@ -39936,6 +41480,30 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_193",
+        "surfaceForm": "Controversial Historian",
+        "category": "PER",
+        "locationStart": 11484,
+        "locationEnd": 11507,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_194",
+        "surfaceForm": "Controversial Historian Bronnen",
+        "category": "PER",
+        "locationStart": 11484,
+        "locationEnd": 11515,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_195",
+        "surfaceForm": "Historian Bronnen",
+        "category": "PER",
+        "locationStart": 11498,
+        "locationEnd": 11515,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_178",
         "surfaceForm": "Nederlands",
         "category": "MISC",
@@ -39952,6 +41520,14 @@
         "locationStart": 11529,
         "locationEnd": 11539,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_196",
+        "surfaceForm": "Nederlands historicus Categorie",
+        "category": "PER",
+        "locationStart": 11529,
+        "locationEnd": 11560,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_179",
@@ -39972,12 +41548,52 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_197",
+        "surfaceForm": "Nederlands militair Categorie",
+        "category": "PER",
+        "locationStart": 11562,
+        "locationEnd": 11591,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_85",
         "category": "MISC",
         "surfaceForm": "Liberalen",
         "locationStart": 11593,
         "locationEnd": 11602,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_198",
+        "surfaceForm": "Liberalen Categorie",
+        "category": "PER",
+        "locationStart": 11593,
+        "locationEnd": 11612,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_199",
+        "surfaceForm": "Tweede Kamerlid",
+        "category": "PER",
+        "locationStart": 11614,
+        "locationEnd": 11629,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_200",
+        "surfaceForm": "Tweede Kamerlid Categorie",
+        "category": "PER",
+        "locationStart": 11614,
+        "locationEnd": 11639,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_201",
+        "surfaceForm": "Kamerlid Categorie",
+        "category": "PER",
+        "locationStart": 11621,
+        "locationEnd": 11639,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_180",
@@ -39998,6 +41614,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_202",
+        "surfaceForm": "Willem Jan",
+        "category": "PER",
+        "locationStart": 11665,
+        "locationEnd": 11675,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_203",
+        "surfaceForm": "Willem Jan Knoop",
+        "category": "PER",
+        "locationStart": 11665,
+        "locationEnd": 11681,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_85",
         "category": "PER",
         "surfaceForm": "willem jan knoop",
@@ -40012,6 +41644,14 @@
         "locationStart": 11666,
         "locationEnd": 11682,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_204",
+        "surfaceForm": "Jan Knoop",
+        "category": "PER",
+        "locationStart": 11672,
+        "locationEnd": 11681,
+        "method": "spacy_matcher_nl"
       }
     ],
     "time_expressions": [

@@ -2432,6 +2432,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Tweede Kamerlid",
+        "category": "PER",
+        "locationStart": 128,
+        "locationEnd": 143,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_2",
         "surfaceForm": "College Rolduc",
         "category": "ORG",
@@ -2456,6 +2464,14 @@
         "locationStart": 164,
         "locationEnd": 178,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "College Rolduc",
+        "category": "PER",
+        "locationStart": 164,
+        "locationEnd": 178,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_3",

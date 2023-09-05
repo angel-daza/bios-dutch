@@ -1017,6 +1017,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Die Man",
+        "category": "PER",
+        "locationStart": 13,
+        "locationEnd": 20,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_1",
         "surfaceForm": "Man",
         "category": "PER",
@@ -1087,6 +1095,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Glasschryver genaamt Jan",
+        "category": "PER",
+        "locationStart": 83,
+        "locationEnd": 107,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Glasschryver genaamt Jan Verburg",
+        "category": "PER",
+        "locationStart": 83,
+        "locationEnd": 115,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_4",
         "surfaceForm": "Jan Verburg",
         "category": "PER",
@@ -1131,6 +1155,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Jan Verburg",
+        "category": "PER",
+        "locationStart": 104,
+        "locationEnd": 115,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_2",
         "category": "ARTWORK",
         "surfaceForm": "Tkenkonst",
@@ -1171,6 +1203,14 @@
         "locationStart": 149,
         "locationEnd": 165,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Tkenkonst Ieerde",
+        "category": "PER",
+        "locationStart": 149,
+        "locationEnd": 165,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_4",

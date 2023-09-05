@@ -3514,6 +3514,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Franse ge- meente Amsweiler",
+        "category": "PER",
+        "locationStart": 156,
+        "locationEnd": 183,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_10",
         "category": "LOCATION",
         "surfaceForm": "Rijnsburg",
@@ -3600,6 +3608,22 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Rondtrekkend met Antoinette",
+        "category": "PER",
+        "locationStart": 190,
+        "locationEnd": 217,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Rondtrekkend met Antoinette Bourignon",
+        "category": "PER",
+        "locationStart": 190,
+        "locationEnd": 227,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_13",
         "category": "ORGANIZATION",
         "surfaceForm": "Hugenoten",
@@ -3652,6 +3676,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Antoinette Bourignon",
+        "category": "PER",
+        "locationStart": 207,
+        "locationEnd": 227,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_14",
         "category": "PERSON",
         "surfaceForm": "P.",
@@ -3692,6 +3724,14 @@
         "locationStart": 238,
         "locationEnd": 245,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Woonach- tig te Amsterdam",
+        "category": "PER",
+        "locationStart": 241,
+        "locationEnd": 266,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_8",
@@ -3916,6 +3956,14 @@
         "locationStart": 325,
         "locationEnd": 336,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Claudia Kin",
+        "category": "PER",
+        "locationStart": 325,
+        "locationEnd": 336,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_14",
@@ -4202,6 +4250,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Hanau-Lichtenberg in Buchsweiler",
+        "category": "PER",
+        "locationStart": 776,
+        "locationEnd": 808,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_12",
         "category": "PER",
         "surfaceForm": "lichtenberg",
@@ -4252,6 +4308,14 @@
         "locationStart": 797,
         "locationEnd": 808,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Buchsweiler bij Straatsburg",
+        "category": "PER",
+        "locationStart": 797,
+        "locationEnd": 824,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_19",

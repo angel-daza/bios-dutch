@@ -872,12 +872,28 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Eerste Kamer",
+        "category": "PER",
+        "locationStart": 106,
+        "locationEnd": 118,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_1",
         "category": "MISC",
         "surfaceForm": "officier",
         "locationStart": 158,
         "locationEnd": 166,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Was in Friesland",
+        "category": "PER",
+        "locationStart": 168,
+        "locationEnd": 184,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_3",

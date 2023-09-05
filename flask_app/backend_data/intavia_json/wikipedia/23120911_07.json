@@ -4283,6 +4283,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Anna de Waal",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 12,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_1",
         "category": "LOCATION",
         "surfaceForm": "Culemborg",
@@ -4577,6 +4585,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Anna de Waal",
+        "category": "PER",
+        "locationStart": 205,
+        "locationEnd": 217,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_9",
         "category": "LOCATION",
         "surfaceForm": "Utrecht",
@@ -4627,6 +4643,14 @@
         "locationStart": 287,
         "locationEnd": 306,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Tweede Wereldoorlog",
+        "category": "PER",
+        "locationStart": 287,
+        "locationEnd": 306,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_12",
@@ -4799,6 +4823,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Rijksuniversiteit Utrecht",
+        "category": "PER",
+        "locationStart": 463,
+        "locationEnd": 488,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_3",
         "category": "LOC",
         "surfaceForm": "utrecht",
@@ -4883,6 +4915,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Utrecht en Tweede",
+        "category": "PER",
+        "locationStart": 534,
+        "locationEnd": 551,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Utrecht en Tweede Kamer",
+        "category": "PER",
+        "locationStart": 534,
+        "locationEnd": 557,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_11",
         "surfaceForm": "Tweede Kamer",
         "category": "ORG",
@@ -4917,6 +4965,14 @@
         "locationStart": 545,
         "locationEnd": 557,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Tweede Kamer",
+        "category": "PER",
+        "locationStart": 545,
+        "locationEnd": 557,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_25",
@@ -5023,6 +5079,14 @@
         "locationStart": 614,
         "locationEnd": 623,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Onderwijs onder minister Cals",
+        "category": "PER",
+        "locationStart": 614,
+        "locationEnd": 643,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_14",
@@ -5175,6 +5239,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Watersnood in Zeeland",
+        "category": "PER",
+        "locationStart": 716,
+        "locationEnd": 737,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_30",
         "category": "ORGANIZATION",
         "surfaceForm": "KVP-politicus",
@@ -5225,6 +5297,14 @@
         "locationStart": 730,
         "locationEnd": 737,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Zeeland en Zuid-Holland",
+        "category": "PER",
+        "locationStart": 730,
+        "locationEnd": 753,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_31",
@@ -5425,6 +5505,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "F. Bordewijk",
+        "category": "PER",
+        "locationStart": 898,
+        "locationEnd": 910,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_8",
         "category": "PER",
         "surfaceForm": "Bordewijk",
@@ -5493,6 +5581,30 @@
         "locationStart": 950,
         "locationEnd": 980,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "Provinciale Staten",
+        "category": "PER",
+        "locationStart": 950,
+        "locationEnd": 968,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "Provinciale Staten van Utrecht",
+        "category": "PER",
+        "locationStart": 950,
+        "locationEnd": 980,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "Staten van Utrecht",
+        "category": "PER",
+        "locationStart": 962,
+        "locationEnd": 980,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_23",
@@ -5591,6 +5703,14 @@
         "locationStart": 999,
         "locationEnd": 1011,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "Anna de Waal",
+        "category": "PER",
+        "locationStart": 999,
+        "locationEnd": 1011,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_25",
@@ -5719,12 +5839,52 @@
         "method": "stanza_nl"
       },
       {
+        "ID": "spacy_matcher_nl_15",
+        "surfaceForm": "Externe links Biografisch",
+        "category": "PER",
+        "locationStart": 1091,
+        "locationEnd": 1116,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_16",
+        "surfaceForm": "Externe links Biografisch Woordenboek",
+        "category": "PER",
+        "locationStart": 1091,
+        "locationEnd": 1128,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_8",
         "category": "MISC",
         "surfaceForm": "Biografisch Woordenboek van Nederland",
         "locationStart": 1105,
         "locationEnd": 1142,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_17",
+        "surfaceForm": "Biografisch Woordenboek",
+        "category": "PER",
+        "locationStart": 1105,
+        "locationEnd": 1128,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_19",
+        "surfaceForm": "Biografisch Woordenboek van Nederland",
+        "category": "PER",
+        "locationStart": 1105,
+        "locationEnd": 1142,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_18",
+        "surfaceForm": "Woordenboek van Nederland",
+        "category": "PER",
+        "locationStart": 1117,
+        "locationEnd": 1142,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_29",
@@ -5735,6 +5895,14 @@
         "tokenStart": 199,
         "tokenEnd": 201,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_20",
+        "surfaceForm": "Dr. A.",
+        "category": "PER",
+        "locationStart": 1155,
+        "locationEnd": 1161,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_8",
@@ -5833,6 +6001,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_21",
+        "surfaceForm": "Nederlands gemeentelijk politicus Categorie",
+        "category": "PER",
+        "locationStart": 1237,
+        "locationEnd": 1280,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_34",
         "surfaceForm": "Nederlands",
         "category": "MISC",
@@ -5849,6 +6025,14 @@
         "locationStart": 1282,
         "locationEnd": 1292,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_22",
+        "surfaceForm": "Nederlands geograaf Categorie",
+        "category": "PER",
+        "locationStart": 1282,
+        "locationEnd": 1311,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_35",
@@ -5887,6 +6071,30 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_23",
+        "surfaceForm": "Tweede Wereldoorlog",
+        "category": "PER",
+        "locationStart": 1338,
+        "locationEnd": 1357,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_24",
+        "surfaceForm": "Tweede Wereldoorlog Categorie",
+        "category": "PER",
+        "locationStart": 1338,
+        "locationEnd": 1367,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_25",
+        "surfaceForm": "Wereldoorlog Categorie",
+        "category": "PER",
+        "locationStart": 1345,
+        "locationEnd": 1367,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_37",
         "surfaceForm": "Nederlands",
         "category": "MISC",
@@ -5903,6 +6111,14 @@
         "locationStart": 1369,
         "locationEnd": 1379,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_26",
+        "surfaceForm": "Nederlands provinciaal politicus Categorie",
+        "category": "PER",
+        "locationStart": 1369,
+        "locationEnd": 1411,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_38",
@@ -5923,12 +6139,28 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_27",
+        "surfaceForm": "Nederlands staatssecretaris Categorie",
+        "category": "PER",
+        "locationStart": 1413,
+        "locationEnd": 1450,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_8",
         "category": "MISC",
         "surfaceForm": "Tweede Kamerlid",
         "locationStart": 1452,
         "locationEnd": 1467,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_28",
+        "surfaceForm": "Tweede Kamerlid",
+        "category": "PER",
+        "locationStart": 1452,
+        "locationEnd": 1467,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_39",

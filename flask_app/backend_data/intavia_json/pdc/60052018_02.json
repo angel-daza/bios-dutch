@@ -1641,6 +1641,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "West- Friese",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 12,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_0",
         "surfaceForm": "Friese",
         "category": "MISC",
@@ -1657,6 +1665,14 @@
         "locationStart": 6,
         "locationEnd": 12,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Was gemeentesecretaris in Maarssen",
+        "category": "PER",
+        "locationStart": 232,
+        "locationEnd": 266,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_1",
@@ -1691,6 +1707,14 @@
         "locationStart": 258,
         "locationEnd": 266,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Maarssen en Andijk",
+        "category": "PER",
+        "locationStart": 258,
+        "locationEnd": 276,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_2",
@@ -1895,6 +1919,30 @@
         "locationStart": 457,
         "locationEnd": 469,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Tweede Kamer",
+        "category": "PER",
+        "locationStart": 457,
+        "locationEnd": 469,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Tweede Kamer toen Marchant",
+        "category": "PER",
+        "locationStart": 457,
+        "locationEnd": 483,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Kamer toen Marchant",
+        "category": "PER",
+        "locationStart": 464,
+        "locationEnd": 483,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_8",

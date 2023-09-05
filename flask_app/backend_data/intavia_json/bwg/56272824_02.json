@@ -4447,6 +4447,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Otto de Rijkeca.1050",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 20,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_3",
         "surfaceForm": "Rijkeca.1050 - 1113",
         "category": "TIME",
@@ -4499,6 +4507,14 @@
         "locationStart": 28,
         "locationEnd": 41,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Otto de Rijke",
+        "category": "PER",
+        "locationStart": 28,
+        "locationEnd": 41,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_1",
@@ -4881,12 +4897,28 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Mathilde van Zutphen",
+        "category": "PER",
+        "locationStart": 261,
+        "locationEnd": 281,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_10",
         "category": "PERSON",
         "surfaceForm": "Judith of Jutta van Arnstein",
         "locationStart": 267,
         "locationEnd": 292,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Zutphen en Liudolf",
+        "category": "PER",
+        "locationStart": 274,
+        "locationEnd": 292,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_8",
@@ -5095,6 +5127,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Judith of Jutta",
+        "category": "PER",
+        "locationStart": 451,
+        "locationEnd": 466,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_18",
         "category": "PERSON",
         "surfaceForm": "Ermgard",
@@ -5145,6 +5185,14 @@
         "locationStart": 461,
         "locationEnd": 479,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Jutta van Arnstein",
+        "category": "PER",
+        "locationStart": 461,
+        "locationEnd": 479,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_19",
@@ -5199,12 +5247,36 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Jutta Arnoldsdochter",
+        "category": "PER",
+        "locationStart": 505,
+        "locationEnd": 525,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Jutta Arnoldsdochter van Arnstein",
+        "category": "PER",
+        "locationStart": 505,
+        "locationEnd": 538,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_20",
         "category": "PERSON",
         "surfaceForm": "J.M. van Winter",
         "locationStart": 511,
         "locationEnd": 526,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Arnoldsdochter van Arnstein",
+        "category": "PER",
+        "locationStart": 511,
+        "locationEnd": 538,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_13",
@@ -5231,6 +5303,14 @@
         "locationStart": 530,
         "locationEnd": 538,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Arnstein en Lodewijk",
+        "category": "PER",
+        "locationStart": 530,
+        "locationEnd": 550,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_21",
@@ -5781,6 +5861,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Literatuur Alle",
+        "category": "PER",
+        "locationStart": 921,
+        "locationEnd": 936,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_25",
         "surfaceForm": "J.M. van Winter",
         "category": "MISC",
@@ -5815,6 +5903,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "J.M. van Winter",
+        "category": "PER",
+        "locationStart": 988,
+        "locationEnd": 1003,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_4",
         "category": "PER",
         "surfaceForm": "m van winter",
@@ -5847,6 +5943,22 @@
         "locationStart": 1006,
         "locationEnd": 1019,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "Otto de Rijke",
+        "category": "PER",
+        "locationStart": 1006,
+        "locationEnd": 1019,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "Rijke van Zutphen",
+        "category": "PER",
+        "locationStart": 1014,
+        "locationEnd": 1031,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_4",
@@ -5889,6 +6001,14 @@
         "locationStart": 1074,
         "locationEnd": 1077,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "Zie verder Eadem",
+        "category": "PER",
+        "locationStart": 1097,
+        "locationEnd": 1113,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_28",
@@ -5959,6 +6079,14 @@
         "locationStart": 1139,
         "locationEnd": 1146,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_15",
+        "surfaceForm": "Zutphen en het Hamalandse",
+        "category": "PER",
+        "locationStart": 1139,
+        "locationEnd": 1164,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_7",

@@ -7297,6 +7297,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Marie Heinen",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 12,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_1",
         "category": "LOCATION",
         "surfaceForm": "Amsterdam",
@@ -7427,6 +7435,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Den Haag",
+        "category": "PER",
+        "locationStart": 43,
+        "locationEnd": 51,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_0",
         "category": "LOC",
         "surfaceForm": "haag",
@@ -7505,6 +7521,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Nationaal Bureau",
+        "category": "PER",
+        "locationStart": 95,
+        "locationEnd": 111,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Nationaal Bureau voor Vrouwenarbeid",
+        "category": "PER",
+        "locationStart": 95,
+        "locationEnd": 130,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Bureau voor Vrouwenarbeid",
+        "category": "PER",
+        "locationStart": 105,
+        "locationEnd": 130,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_6",
         "category": "PERSON",
         "surfaceForm": "Gerrit Hendrik Heinen",
@@ -7555,6 +7595,14 @@
         "locationStart": 133,
         "locationEnd": 145,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Marie Heinen",
+        "category": "PER",
+        "locationStart": 133,
+        "locationEnd": 145,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_7",
@@ -7617,6 +7665,102 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Gerrit Hendrik",
+        "category": "PER",
+        "locationStart": 166,
+        "locationEnd": 180,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Gerrit Hendrik Heinen",
+        "category": "PER",
+        "locationStart": 166,
+        "locationEnd": 187,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "Gerrit Hendrik Heinen en de Zwitserse",
+        "category": "PER",
+        "locationStart": 166,
+        "locationEnd": 203,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "Gerrit Hendrik Heinen en de Zwitserse Marie",
+        "category": "PER",
+        "locationStart": 166,
+        "locationEnd": 209,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_18",
+        "surfaceForm": "Gerrit Hendrik Heinen en de Zwitserse Marie Streuli",
+        "category": "PER",
+        "locationStart": 166,
+        "locationEnd": 217,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Hendrik Heinen",
+        "category": "PER",
+        "locationStart": 173,
+        "locationEnd": 187,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Hendrik Heinen en de Zwitserse",
+        "category": "PER",
+        "locationStart": 173,
+        "locationEnd": 203,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "Hendrik Heinen en de Zwitserse Marie",
+        "category": "PER",
+        "locationStart": 173,
+        "locationEnd": 209,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_17",
+        "surfaceForm": "Hendrik Heinen en de Zwitserse Marie Streuli",
+        "category": "PER",
+        "locationStart": 173,
+        "locationEnd": 217,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Heinen en de Zwitserse",
+        "category": "PER",
+        "locationStart": 181,
+        "locationEnd": 203,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "Heinen en de Zwitserse Marie",
+        "category": "PER",
+        "locationStart": 181,
+        "locationEnd": 209,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_16",
+        "surfaceForm": "Heinen en de Zwitserse Marie Streuli",
+        "category": "PER",
+        "locationStart": 181,
+        "locationEnd": 217,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_6",
         "surfaceForm": "Zwitserse",
         "category": "MISC",
@@ -7633,6 +7777,22 @@
         "locationStart": 194,
         "locationEnd": 203,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_15",
+        "surfaceForm": "Zwitserse Marie",
+        "category": "PER",
+        "locationStart": 194,
+        "locationEnd": 209,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_19",
+        "surfaceForm": "Zwitserse Marie Streuli",
+        "category": "PER",
+        "locationStart": 194,
+        "locationEnd": 217,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_7",
@@ -7677,6 +7837,14 @@
         "locationStart": 204,
         "locationEnd": 217,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_20",
+        "surfaceForm": "Marie Streuli",
+        "category": "PER",
+        "locationStart": 204,
+        "locationEnd": 217,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_9",
@@ -7843,12 +8011,36 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_21",
+        "surfaceForm": "Openbare Meisjesschool",
+        "category": "PER",
+        "locationStart": 430,
+        "locationEnd": 452,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_23",
+        "surfaceForm": "Openbare Meisjesschool in Amsterdam",
+        "category": "PER",
+        "locationStart": 430,
+        "locationEnd": 465,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_25",
         "category": "PERSON",
         "surfaceForm": "Anna Sophia Polak",
         "locationStart": 437,
         "locationEnd": 453,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_22",
+        "surfaceForm": "Meisjesschool in Amsterdam",
+        "category": "PER",
+        "locationStart": 439,
+        "locationEnd": 465,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_9",
@@ -7893,6 +8085,14 @@
         "locationStart": 456,
         "locationEnd": 465,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_24",
+        "surfaceForm": "Amsterdam mocht Marie",
+        "category": "PER",
+        "locationStart": 456,
+        "locationEnd": 477,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_10",
@@ -8057,6 +8257,22 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "spacy_matcher_nl_25",
+        "surfaceForm": "Naast Duits",
+        "category": "PER",
+        "locationStart": 652,
+        "locationEnd": 663,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_27",
+        "surfaceForm": "Naast Duits en Frans",
+        "category": "PER",
+        "locationStart": 652,
+        "locationEnd": 672,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_13",
         "surfaceForm": "Duits",
         "category": "MISC",
@@ -8073,6 +8289,14 @@
         "locationStart": 658,
         "locationEnd": 663,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_26",
+        "surfaceForm": "Duits en Frans",
+        "category": "PER",
+        "locationStart": 658,
+        "locationEnd": 672,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_34",
@@ -8099,6 +8323,14 @@
         "locationStart": 667,
         "locationEnd": 672,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_28",
+        "surfaceForm": "Frans sprak Marie",
+        "category": "PER",
+        "locationStart": 667,
+        "locationEnd": 684,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_15",
@@ -8137,6 +8369,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_29",
+        "surfaceForm": "Marie ook Spaans",
+        "category": "PER",
+        "locationStart": 679,
+        "locationEnd": 695,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_16",
         "surfaceForm": "Spaans",
         "category": "MISC",
@@ -8171,6 +8411,14 @@
         "locationStart": 697,
         "locationEnd": 706,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_30",
+        "surfaceForm": "Portugees en Italiaans",
+        "category": "PER",
+        "locationStart": 697,
+        "locationEnd": 719,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_18",
@@ -8269,12 +8517,36 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_31",
+        "surfaceForm": "Marie Heinen",
+        "category": "PER",
+        "locationStart": 746,
+        "locationEnd": 758,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_33",
+        "surfaceForm": "Marie Heinen als correspondente Spaans",
+        "category": "PER",
+        "locationStart": 746,
+        "locationEnd": 784,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_36",
         "category": "ORGANIZATION",
         "surfaceForm": "Internationaal Arbeidsbureau",
         "locationStart": 747,
         "locationEnd": 771,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_32",
+        "surfaceForm": "Heinen als correspondente Spaans",
+        "category": "PER",
+        "locationStart": 752,
+        "locationEnd": 784,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_37",
@@ -8397,6 +8669,14 @@
         "locationStart": 861,
         "locationEnd": 867,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_34",
+        "surfaceForm": "Spaans en Portugees",
+        "category": "PER",
+        "locationStart": 861,
+        "locationEnd": 880,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_39",
@@ -8539,6 +8819,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_35",
+        "surfaceForm": "Nationaal Bureau",
+        "category": "PER",
+        "locationStart": 1106,
+        "locationEnd": 1122,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_37",
+        "surfaceForm": "Nationaal Bureau voor Vrouwenarbeid",
+        "category": "PER",
+        "locationStart": 1106,
+        "locationEnd": 1141,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_36",
+        "surfaceForm": "Bureau voor Vrouwenarbeid",
+        "category": "PER",
+        "locationStart": 1116,
+        "locationEnd": 1141,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_26",
         "surfaceForm": "NBV",
         "category": "ORG",
@@ -8591,6 +8895,14 @@
         "locationStart": 1151,
         "locationEnd": 1159,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_38",
+        "surfaceForm": "Den Haag",
+        "category": "PER",
+        "locationStart": 1151,
+        "locationEnd": 1159,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_7",
@@ -8663,6 +8975,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_39",
+        "surfaceForm": "Anna Sophia",
+        "category": "PER",
+        "locationStart": 1215,
+        "locationEnd": 1226,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_40",
+        "surfaceForm": "Anna Sophia Polak",
+        "category": "PER",
+        "locationStart": 1215,
+        "locationEnd": 1232,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_41",
+        "surfaceForm": "Sophia Polak",
+        "category": "PER",
+        "locationStart": 1220,
+        "locationEnd": 1232,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_29",
         "surfaceForm": "Marie Heinen",
         "category": "PER",
@@ -8707,6 +9043,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_42",
+        "surfaceForm": "Marie Heinen",
+        "category": "PER",
+        "locationStart": 1235,
+        "locationEnd": 1247,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_30",
         "surfaceForm": "Vrouwenjaarboekjes",
         "category": "MISC",
@@ -8733,6 +9077,14 @@
         "locationStart": 1299,
         "locationEnd": 1332,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_43",
+        "surfaceForm": "Vrouwenjaarboekjes voor Nederland",
+        "category": "PER",
+        "locationStart": 1299,
+        "locationEnd": 1332,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_31",
@@ -8851,6 +9203,46 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_44",
+        "surfaceForm": "Marie Heinen",
+        "category": "PER",
+        "locationStart": 1515,
+        "locationEnd": 1527,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_46",
+        "surfaceForm": "Marie Heinen samen met Anna",
+        "category": "PER",
+        "locationStart": 1515,
+        "locationEnd": 1542,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_48",
+        "surfaceForm": "Marie Heinen samen met Anna Polak",
+        "category": "PER",
+        "locationStart": 1515,
+        "locationEnd": 1548,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_45",
+        "surfaceForm": "Heinen samen met Anna",
+        "category": "PER",
+        "locationStart": 1521,
+        "locationEnd": 1542,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_47",
+        "surfaceForm": "Heinen samen met Anna Polak",
+        "category": "PER",
+        "locationStart": 1521,
+        "locationEnd": 1548,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_33",
         "surfaceForm": "Anna Polak",
         "category": "PER",
@@ -8895,6 +9287,46 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_49",
+        "surfaceForm": "Anna Polak",
+        "category": "PER",
+        "locationStart": 1538,
+        "locationEnd": 1548,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_51",
+        "surfaceForm": "Anna Polak de Nederlandse",
+        "category": "PER",
+        "locationStart": 1538,
+        "locationEnd": 1563,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_53",
+        "surfaceForm": "Anna Polak de Nederlandse Vereniging",
+        "category": "PER",
+        "locationStart": 1538,
+        "locationEnd": 1574,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_50",
+        "surfaceForm": "Polak de Nederlandse",
+        "category": "PER",
+        "locationStart": 1543,
+        "locationEnd": 1563,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_52",
+        "surfaceForm": "Polak de Nederlandse Vereniging",
+        "category": "PER",
+        "locationStart": 1543,
+        "locationEnd": 1574,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_34",
         "surfaceForm": "Nederlandse Vereniging voor Huisvrouwen",
         "category": "ORG",
@@ -8929,6 +9361,30 @@
         "locationStart": 1552,
         "locationEnd": 1591,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_54",
+        "surfaceForm": "Nederlandse Vereniging",
+        "category": "PER",
+        "locationStart": 1552,
+        "locationEnd": 1574,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_56",
+        "surfaceForm": "Nederlandse Vereniging voor Huisvrouwen",
+        "category": "PER",
+        "locationStart": 1552,
+        "locationEnd": 1591,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_55",
+        "surfaceForm": "Vereniging voor Huisvrouwen",
+        "category": "PER",
+        "locationStart": 1564,
+        "locationEnd": 1591,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_15",
@@ -8991,6 +9447,14 @@
         "locationStart": 1609,
         "locationEnd": 1619,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_57",
+        "surfaceForm": "Anna Polak",
+        "category": "PER",
+        "locationStart": 1609,
+        "locationEnd": 1619,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_18",
@@ -9093,6 +9557,22 @@
         "method": "human_gold"
       },
       {
+        "ID": "spacy_matcher_nl_58",
+        "surfaceForm": "Tijdens de Tweede",
+        "category": "PER",
+        "locationStart": 1693,
+        "locationEnd": 1710,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_59",
+        "surfaceForm": "Tijdens de Tweede Wereldoorlog",
+        "category": "PER",
+        "locationStart": 1693,
+        "locationEnd": 1723,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_38",
         "surfaceForm": "Tweede Wereldoorlog",
         "category": "MISC",
@@ -9109,6 +9589,14 @@
         "locationStart": 1704,
         "locationEnd": 1723,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_60",
+        "surfaceForm": "Tweede Wereldoorlog",
+        "category": "PER",
+        "locationStart": 1704,
+        "locationEnd": 1723,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_23",
@@ -9211,6 +9699,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_61",
+        "surfaceForm": "Orde van Oranje-Nassau",
+        "category": "PER",
+        "locationStart": 1898,
+        "locationEnd": 1920,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_14",
         "category": "ORG",
         "surfaceForm": "van Oranje-Nassau",
@@ -9263,6 +9759,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_62",
+        "surfaceForm": "Marie Heinen",
+        "category": "PER",
+        "locationStart": 1922,
+        "locationEnd": 1934,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_42",
         "surfaceForm": "Hoge Raad van Arbeid",
         "category": "ORG",
@@ -9297,6 +9801,30 @@
         "locationStart": 2011,
         "locationEnd": 2031,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_63",
+        "surfaceForm": "Hoge Raad",
+        "category": "PER",
+        "locationStart": 2011,
+        "locationEnd": 2020,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_65",
+        "surfaceForm": "Hoge Raad van Arbeid",
+        "category": "PER",
+        "locationStart": 2011,
+        "locationEnd": 2031,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_64",
+        "surfaceForm": "Raad van Arbeid",
+        "category": "PER",
+        "locationStart": 2016,
+        "locationEnd": 2031,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_43",
@@ -9335,6 +9863,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_66",
+        "surfaceForm": "Centrale Commissie",
+        "category": "PER",
+        "locationStart": 2037,
+        "locationEnd": 2055,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_67",
+        "surfaceForm": "Arbeid en Migratie",
+        "category": "PER",
+        "locationStart": 2074,
+        "locationEnd": 2092,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_44",
         "surfaceForm": "Nationale Vrouwenraad van Nederland",
         "category": "ORG",
@@ -9371,12 +9915,52 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_68",
+        "surfaceForm": "Nationale Vrouwenraad",
+        "category": "PER",
+        "locationStart": 2146,
+        "locationEnd": 2167,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_70",
+        "surfaceForm": "Nationale Vrouwenraad van Nederland",
+        "category": "PER",
+        "locationStart": 2146,
+        "locationEnd": 2181,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_69",
+        "surfaceForm": "Vrouwenraad van Nederland",
+        "category": "PER",
+        "locationStart": 2156,
+        "locationEnd": 2181,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_15",
         "category": "LOC",
         "surfaceForm": "nederland",
         "locationStart": 2172,
         "locationEnd": 2181,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_71",
+        "surfaceForm": "Nederland en het Internationaal",
+        "category": "PER",
+        "locationStart": 2172,
+        "locationEnd": 2203,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_72",
+        "surfaceForm": "Nederland en het Internationaal Arbeidsbureau",
+        "category": "PER",
+        "locationStart": 2172,
+        "locationEnd": 2217,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_45",
@@ -9413,6 +9997,30 @@
         "locationStart": 2189,
         "locationEnd": 2217,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_73",
+        "surfaceForm": "Internationaal Arbeidsbureau",
+        "category": "PER",
+        "locationStart": 2189,
+        "locationEnd": 2217,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_75",
+        "surfaceForm": "Internationaal Arbeidsbureau te Geneve",
+        "category": "PER",
+        "locationStart": 2189,
+        "locationEnd": 2227,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_74",
+        "surfaceForm": "Arbeidsbureau te Geneve",
+        "category": "PER",
+        "locationStart": 2204,
+        "locationEnd": 2227,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_46",
@@ -9495,6 +10103,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_76",
+        "surfaceForm": "Vereniging van Academisch",
+        "category": "PER",
+        "locationStart": 2282,
+        "locationEnd": 2307,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_77",
+        "surfaceForm": "Academisch gevormde Christenvrouwen",
+        "category": "PER",
+        "locationStart": 2297,
+        "locationEnd": 2332,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_48",
         "surfaceForm": "VACV",
         "category": "ORG",
@@ -9557,6 +10181,46 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_78",
+        "surfaceForm": "Marie Heinen",
+        "category": "PER",
+        "locationStart": 2366,
+        "locationEnd": 2378,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_80",
+        "surfaceForm": "Marie Heinen van het Internationaal",
+        "category": "PER",
+        "locationStart": 2366,
+        "locationEnd": 2401,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_82",
+        "surfaceForm": "Marie Heinen van het Internationaal Instituut",
+        "category": "PER",
+        "locationStart": 2366,
+        "locationEnd": 2411,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_79",
+        "surfaceForm": "Heinen van het Internationaal",
+        "category": "PER",
+        "locationStart": 2372,
+        "locationEnd": 2401,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_81",
+        "surfaceForm": "Heinen van het Internationaal Instituut",
+        "category": "PER",
+        "locationStart": 2372,
+        "locationEnd": 2411,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_50",
         "surfaceForm": "Internationaal Instituut voor Sociale Geschiedenis   Categorie",
         "category": "ORG",
@@ -9593,6 +10257,54 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_83",
+        "surfaceForm": "Internationaal Instituut",
+        "category": "PER",
+        "locationStart": 2387,
+        "locationEnd": 2411,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_85",
+        "surfaceForm": "Internationaal Instituut voor Sociale",
+        "category": "PER",
+        "locationStart": 2387,
+        "locationEnd": 2424,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_87",
+        "surfaceForm": "Internationaal Instituut voor Sociale Geschiedenis",
+        "category": "PER",
+        "locationStart": 2387,
+        "locationEnd": 2437,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_84",
+        "surfaceForm": "Instituut voor Sociale",
+        "category": "PER",
+        "locationStart": 2402,
+        "locationEnd": 2424,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_86",
+        "surfaceForm": "Instituut voor Sociale Geschiedenis",
+        "category": "PER",
+        "locationStart": 2402,
+        "locationEnd": 2437,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_88",
+        "surfaceForm": "Sociale Geschiedenis",
+        "category": "PER",
+        "locationStart": 2417,
+        "locationEnd": 2437,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_51",
         "surfaceForm": "Nederlands",
         "category": "MISC",
@@ -9609,6 +10321,14 @@
         "locationStart": 2451,
         "locationEnd": 2461,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_89",
+        "surfaceForm": "Nederlands feminist Categorie",
+        "category": "PER",
+        "locationStart": 2451,
+        "locationEnd": 2480,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_52",

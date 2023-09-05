@@ -930,6 +930,14 @@
     },
     "entities": [
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Noch is'er een Tydgenoot",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 24,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_0",
         "category": "PERSON",
         "surfaceForm": "Tydgenoot",
@@ -1058,6 +1066,14 @@
         "locationStart": 174,
         "locationEnd": 179,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Die Konstenaar",
+        "category": "PER",
+        "locationStart": 209,
+        "locationEnd": 223,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_3",

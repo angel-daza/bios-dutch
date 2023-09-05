@@ -4190,6 +4190,30 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Otto Willem",
+        "category": "PER",
+        "locationStart": 9,
+        "locationEnd": 20,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Otto Willem Hendrik",
+        "category": "PER",
+        "locationStart": 9,
+        "locationEnd": 28,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Willem Hendrik",
+        "category": "PER",
+        "locationStart": 14,
+        "locationEnd": 28,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_2",
         "category": "PERSON",
         "surfaceForm": "v.B. van Marienweerd",
@@ -4232,6 +4256,14 @@
         "locationStart": 44,
         "locationEnd": 64,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "B. van Marienweerd",
+        "category": "PER",
+        "locationStart": 46,
+        "locationEnd": 64,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_0",
@@ -4300,6 +4332,14 @@
         "locationStart": 75,
         "locationEnd": 78,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Ooy en Persingen",
+        "category": "PER",
+        "locationStart": 75,
+        "locationEnd": 91,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_5",
@@ -4396,6 +4436,14 @@
         "locationStart": 93,
         "locationEnd": 104,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Marienweerd en Maasbommel",
+        "category": "PER",
+        "locationStart": 93,
+        "locationEnd": 118,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_7",
@@ -4732,6 +4780,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Gr. Kerk",
+        "category": "PER",
+        "locationStart": 219,
+        "locationEnd": 227,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_16",
         "category": "PERSON",
         "surfaceForm": "Frederik Christiaan Willem Lodewijk",
@@ -4818,12 +4874,156 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Frederik Christiaan",
+        "category": "PER",
+        "locationStart": 251,
+        "locationEnd": 270,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Frederik Christiaan Willem",
+        "category": "PER",
+        "locationStart": 251,
+        "locationEnd": 277,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Frederik Christiaan Willem Lodewijk",
+        "category": "PER",
+        "locationStart": 251,
+        "locationEnd": 286,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_16",
+        "surfaceForm": "Frederik Christiaan Willem Lodewijk en van Maria",
+        "category": "PER",
+        "locationStart": 251,
+        "locationEnd": 299,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_20",
+        "surfaceForm": "Frederik Christiaan Willem Lodewijk en van Maria Johanna",
+        "category": "PER",
+        "locationStart": 251,
+        "locationEnd": 307,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_25",
+        "surfaceForm": "Frederik Christiaan Willem Lodewijk en van Maria Johanna Munter",
+        "category": "PER",
+        "locationStart": 251,
+        "locationEnd": 314,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_17",
         "category": "PERSON",
         "surfaceForm": "Maria Johanna Munter",
         "locationStart": 259,
         "locationEnd": 278,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Christiaan Willem",
+        "category": "PER",
+        "locationStart": 260,
+        "locationEnd": 277,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "Christiaan Willem Lodewijk",
+        "category": "PER",
+        "locationStart": 260,
+        "locationEnd": 286,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_15",
+        "surfaceForm": "Christiaan Willem Lodewijk en van Maria",
+        "category": "PER",
+        "locationStart": 260,
+        "locationEnd": 299,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_19",
+        "surfaceForm": "Christiaan Willem Lodewijk en van Maria Johanna",
+        "category": "PER",
+        "locationStart": 260,
+        "locationEnd": 307,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_24",
+        "surfaceForm": "Christiaan Willem Lodewijk en van Maria Johanna Munter",
+        "category": "PER",
+        "locationStart": 260,
+        "locationEnd": 314,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "Willem Lodewijk",
+        "category": "PER",
+        "locationStart": 271,
+        "locationEnd": 286,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "Willem Lodewijk en van Maria",
+        "category": "PER",
+        "locationStart": 271,
+        "locationEnd": 299,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_18",
+        "surfaceForm": "Willem Lodewijk en van Maria Johanna",
+        "category": "PER",
+        "locationStart": 271,
+        "locationEnd": 307,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_23",
+        "surfaceForm": "Willem Lodewijk en van Maria Johanna Munter",
+        "category": "PER",
+        "locationStart": 271,
+        "locationEnd": 314,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "Lodewijk en van Maria",
+        "category": "PER",
+        "locationStart": 278,
+        "locationEnd": 299,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_17",
+        "surfaceForm": "Lodewijk en van Maria Johanna",
+        "category": "PER",
+        "locationStart": 278,
+        "locationEnd": 307,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_22",
+        "surfaceForm": "Lodewijk en van Maria Johanna Munter",
+        "category": "PER",
+        "locationStart": 278,
+        "locationEnd": 314,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_11",
@@ -4870,12 +5070,36 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_21",
+        "surfaceForm": "Maria Johanna",
+        "category": "PER",
+        "locationStart": 294,
+        "locationEnd": 307,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_26",
+        "surfaceForm": "Maria Johanna Munter",
+        "category": "PER",
+        "locationStart": 294,
+        "locationEnd": 314,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_18",
         "category": "LOCATION",
         "surfaceForm": "Nijmegen",
         "locationStart": 295,
         "locationEnd": 303,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_27",
+        "surfaceForm": "Johanna Munter",
+        "category": "PER",
+        "locationStart": 300,
+        "locationEnd": 314,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_19",
@@ -5022,6 +5246,14 @@
         "locationStart": 387,
         "locationEnd": 392,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_28",
+        "surfaceForm": "Beest en Renoy",
+        "category": "PER",
+        "locationStart": 387,
+        "locationEnd": 401,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_14",
@@ -5190,6 +5422,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_29",
+        "surfaceForm": "Provinciale staten van Gelderland",
+        "category": "PER",
+        "locationStart": 476,
+        "locationEnd": 509,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_28",
         "category": "PERSON",
         "surfaceForm": "Pieter graaf v. Wassenaer - Starrenburg",
@@ -5246,6 +5486,14 @@
         "locationStart": 544,
         "locationEnd": 549,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_30",
+        "surfaceForm": "Huwde 's Gravenh",
+        "category": "PER",
+        "locationStart": 544,
+        "locationEnd": 560,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_21",
@@ -5370,6 +5618,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_31",
+        "surfaceForm": "Caroline gravin van Wassenaar",
+        "category": "PER",
+        "locationStart": 576,
+        "locationEnd": 605,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_32",
         "category": "DATE",
         "surfaceForm": "1807",
@@ -5464,6 +5720,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_32",
+        "surfaceForm": "Pieter graaf v. Wassenaer",
+        "category": "PER",
+        "locationStart": 633,
+        "locationEnd": 658,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_34",
         "category": "PERSON",
         "surfaceForm": "la Lecq",
@@ -5522,6 +5786,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_33",
+        "surfaceForm": "Starrenburg en van Anna",
+        "category": "PER",
+        "locationStart": 661,
+        "locationEnd": 684,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_34",
+        "surfaceForm": "Starrenburg en van Anna Arnoldina",
+        "category": "PER",
+        "locationStart": 661,
+        "locationEnd": 694,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_37",
         "category": "DATE",
         "surfaceForm": "1794",
@@ -5572,6 +5852,14 @@
         "locationStart": 680,
         "locationEnd": 721,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_35",
+        "surfaceForm": "Anna Arnoldina",
+        "category": "PER",
+        "locationStart": 680,
+        "locationEnd": 694,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_38",
@@ -5700,6 +5988,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_36",
+        "surfaceForm": "Frederika Maria",
+        "category": "PER",
+        "locationStart": 801,
+        "locationEnd": 816,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_46",
         "category": "DATE",
         "surfaceForm": "122-124",
@@ -5776,6 +6072,38 @@
         "locationStart": 835,
         "locationEnd": 857,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_37",
+        "surfaceForm": "Willem Anne",
+        "category": "PER",
+        "locationStart": 835,
+        "locationEnd": 846,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_39",
+        "surfaceForm": "Willem Anne des H.R.R.",
+        "category": "PER",
+        "locationStart": 835,
+        "locationEnd": 857,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_38",
+        "surfaceForm": "Anne des H.R.R.",
+        "category": "PER",
+        "locationStart": 842,
+        "locationEnd": 857,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_40",
+        "surfaceForm": "H.R.R. vrijheer van Spaen",
+        "category": "PER",
+        "locationStart": 851,
+        "locationEnd": 876,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_7",
@@ -5900,6 +6228,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_41",
+        "surfaceForm": "Otto Willem",
+        "category": "PER",
+        "locationStart": 911,
+        "locationEnd": 922,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_42",
+        "surfaceForm": "Otto Willem Arnold",
+        "category": "PER",
+        "locationStart": 911,
+        "locationEnd": 929,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_43",
+        "surfaceForm": "Willem Arnold",
+        "category": "PER",
+        "locationStart": 916,
+        "locationEnd": 929,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_35",
         "surfaceForm": "1794 - 1882",
         "category": "TIME",
@@ -5970,6 +6322,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_44",
+        "surfaceForm": "Prov. staten van Geld",
+        "category": "PER",
+        "locationStart": 983,
+        "locationEnd": 1004,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_13",
         "category": "LOC",
         "surfaceForm": "staten van Geld",
@@ -6032,6 +6392,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_45",
+        "surfaceForm": "Ottelina Maria",
+        "category": "PER",
+        "locationStart": 1033,
+        "locationEnd": 1047,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_47",
+        "surfaceForm": "Ottelina Maria barones Sirtema",
+        "category": "PER",
+        "locationStart": 1033,
+        "locationEnd": 1063,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_46",
+        "surfaceForm": "Maria barones Sirtema",
+        "category": "PER",
+        "locationStart": 1042,
+        "locationEnd": 1063,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_14",
         "category": "PER",
         "surfaceForm": "Sirtema v.",
@@ -6046,6 +6430,14 @@
         "locationStart": 1056,
         "locationEnd": 1077,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_48",
+        "surfaceForm": "Sirtema v. Grovestins",
+        "category": "PER",
+        "locationStart": 1056,
+        "locationEnd": 1077,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_15",
@@ -6104,6 +6496,14 @@
         "locationStart": 1157,
         "locationEnd": 1166,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_49",
+        "surfaceForm": "Ned. Adel",
+        "category": "PER",
+        "locationStart": 1157,
+        "locationEnd": 1166,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_18",

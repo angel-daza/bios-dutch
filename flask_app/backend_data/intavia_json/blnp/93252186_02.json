@@ -5570,6 +5570,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Zn. van N.",
+        "category": "PER",
+        "locationStart": 81,
+        "locationEnd": 91,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Zn. van N. Cancrinus",
+        "category": "PER",
+        "locationStart": 81,
+        "locationEnd": 101,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_5",
         "category": "LOCATION",
         "surfaceForm": "Franeker",
@@ -5612,6 +5628,14 @@
         "locationStart": 89,
         "locationEnd": 101,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "N. Cancrinus",
+        "category": "PER",
+        "locationStart": 89,
+        "locationEnd": 101,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_2",
@@ -5692,6 +5716,22 @@
         "method": "human_gold"
       },
       {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Conrector Latijnse",
+        "category": "PER",
+        "locationStart": 162,
+        "locationEnd": 180,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Conrector Latijnse school Franeker",
+        "category": "PER",
+        "locationStart": 162,
+        "locationEnd": 196,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_4",
         "surfaceForm": "Latijnse",
         "category": "MISC",
@@ -5718,6 +5758,14 @@
         "locationStart": 172,
         "locationEnd": 180,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Latijnse school Franeker",
+        "category": "PER",
+        "locationStart": 172,
+        "locationEnd": 196,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_8",

@@ -1380,6 +1380,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Joods vrijzinnig-democratisch Tweede",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 36,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Joods vrijzinnig-democratisch Tweede Kamerlid",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 45,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_1",
         "surfaceForm": "Tweede Kamerlid",
         "category": "ORG",
@@ -1396,6 +1412,14 @@
         "locationStart": 30,
         "locationEnd": 45,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Tweede Kamerlid",
+        "category": "PER",
+        "locationStart": 30,
+        "locationEnd": 45,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_2",
@@ -1464,6 +1488,14 @@
         "locationStart": 146,
         "locationEnd": 155,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "In de Kamer",
+        "category": "PER",
+        "locationStart": 187,
+        "locationEnd": 198,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_4",

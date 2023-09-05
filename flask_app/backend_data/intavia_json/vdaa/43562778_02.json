@@ -1272,6 +1272,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Zie Kramm",
+        "category": "PER",
+        "locationStart": 231,
+        "locationEnd": 240,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_4",
         "surfaceForm": "Kramm",
         "category": "PER",
@@ -1382,6 +1390,14 @@
         "locationStart": 274,
         "locationEnd": 292,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Levens der Nederl",
+        "category": "PER",
+        "locationStart": 274,
+        "locationEnd": 291,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_3",

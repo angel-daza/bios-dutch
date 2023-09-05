@@ -19917,6 +19917,46 @@
     },
     "entities": [
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Herdenking door J.P.",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 20,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Herdenking door J.P. Gumbert",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 28,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Herdenking door J.P. Gumbert Gerard",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 35,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Herdenking door J.P. Gumbert Gerard Isaac",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 41,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Herdenking door J.P. Gumbert Gerard Isaac Lieftinck",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 51,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_0",
         "surfaceForm": "J.P. Gumbert",
         "category": "PER",
@@ -19953,6 +19993,38 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "J.P. Gumbert",
+        "category": "PER",
+        "locationStart": 16,
+        "locationEnd": 28,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "J.P. Gumbert Gerard",
+        "category": "PER",
+        "locationStart": 16,
+        "locationEnd": 35,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "J.P. Gumbert Gerard Isaac",
+        "category": "PER",
+        "locationStart": 16,
+        "locationEnd": 41,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "J.P. Gumbert Gerard Isaac Lieftinck",
+        "category": "PER",
+        "locationStart": 16,
+        "locationEnd": 51,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_0",
         "category": "",
         "surfaceForm": "p .",
@@ -19983,6 +20055,30 @@
         "locationStart": 21,
         "locationEnd": 28,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Gumbert Gerard",
+        "category": "PER",
+        "locationStart": 21,
+        "locationEnd": 35,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Gumbert Gerard Isaac",
+        "category": "PER",
+        "locationStart": 21,
+        "locationEnd": 41,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "Gumbert Gerard Isaac Lieftinck",
+        "category": "PER",
+        "locationStart": 21,
+        "locationEnd": 51,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_1",
@@ -20019,12 +20115,36 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Gerard Isaac",
+        "category": "PER",
+        "locationStart": 29,
+        "locationEnd": 41,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "Gerard Isaac Lieftinck",
+        "category": "PER",
+        "locationStart": 29,
+        "locationEnd": 51,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_1",
         "category": "PERSON",
         "surfaceForm": "Gerard Isaac Lieftinck",
         "locationStart": 32,
         "locationEnd": 53,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "Isaac Lieftinck",
+        "category": "PER",
+        "locationStart": 36,
+        "locationEnd": 51,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_36",
@@ -20113,12 +20233,36 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_15",
+        "surfaceForm": "Gerard Isaac",
+        "category": "PER",
+        "locationStart": 79,
+        "locationEnd": 91,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_16",
+        "surfaceForm": "Gerard Isaac Lieftinck",
+        "category": "PER",
+        "locationStart": 79,
+        "locationEnd": 101,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_4",
         "category": "PERSON",
         "surfaceForm": "Gerard Lieftinck",
         "locationStart": 82,
         "locationEnd": 97,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_17",
+        "surfaceForm": "Isaac Lieftinck",
+        "category": "PER",
+        "locationStart": 86,
+        "locationEnd": 101,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_5",
@@ -20205,6 +20349,14 @@
         "locationStart": 126,
         "locationEnd": 142,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_18",
+        "surfaceForm": "Gerard Lieftinck",
+        "category": "PER",
+        "locationStart": 126,
+        "locationEnd": 142,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_8",
@@ -20547,6 +20699,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_19",
+        "surfaceForm": "Kruitwagen en Hellinga",
+        "category": "PER",
+        "locationStart": 745,
+        "locationEnd": 767,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_36",
         "category": "ARTWORK",
         "surfaceForm": "Nederlandsche handschriften",
@@ -20823,12 +20983,36 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_20",
+        "surfaceForm": "Gerard Isaac",
+        "category": "PER",
+        "locationStart": 1223,
+        "locationEnd": 1235,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_21",
+        "surfaceForm": "Gerard Isaac Lieftinck",
+        "category": "PER",
+        "locationStart": 1223,
+        "locationEnd": 1245,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_7",
         "category": "PER",
         "surfaceForm": "isaac lieftinck",
         "locationStart": 1230,
         "locationEnd": 1245,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_22",
+        "surfaceForm": "Isaac Lieftinck",
+        "category": "PER",
+        "locationStart": 1230,
+        "locationEnd": 1245,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_10",
@@ -20947,6 +21131,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_23",
+        "surfaceForm": "Gemeente- lijke Universiteit",
+        "category": "PER",
+        "locationStart": 1601,
+        "locationEnd": 1629,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_12",
         "surfaceForm": "Universiteit van Amsterdam",
         "category": "ORG",
@@ -20955,6 +21147,14 @@
         "tokenStart": 290,
         "tokenEnd": 293,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_24",
+        "surfaceForm": "Universiteit van Amsterdam",
+        "category": "PER",
+        "locationStart": 1617,
+        "locationEnd": 1643,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_8",
@@ -21063,6 +21263,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_25",
+        "surfaceForm": "L. de Hartog-Meyjes",
+        "category": "PER",
+        "locationStart": 1844,
+        "locationEnd": 1863,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_15",
         "surfaceForm": "Nederlandsche",
         "category": "MISC",
@@ -21141,6 +21349,14 @@
         "locationStart": 2046,
         "locationEnd": 2059,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_26",
+        "surfaceForm": "Hendrik Mande",
+        "category": "PER",
+        "locationStart": 2046,
+        "locationEnd": 2059,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_17",
@@ -21339,6 +21555,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_27",
+        "surfaceForm": "Willem de Vreese",
+        "category": "PER",
+        "locationStart": 2651,
+        "locationEnd": 2667,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_18",
         "surfaceForm": "sinds 1932",
         "category": "TIME",
@@ -21385,6 +21609,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_28",
+        "surfaceForm": "Economische Hogeschool",
+        "category": "PER",
+        "locationStart": 2739,
+        "locationEnd": 2761,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_25",
         "surfaceForm": "De Vreese",
         "category": "PER",
@@ -21427,6 +21659,14 @@
         "locationStart": 2768,
         "locationEnd": 2777,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_29",
+        "surfaceForm": "De Vreese",
+        "category": "PER",
+        "locationStart": 2768,
+        "locationEnd": 2777,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_21",
@@ -21475,6 +21715,30 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_30",
+        "surfaceForm": "Amsterdamse Universiteitsbibliotheek",
+        "category": "PER",
+        "locationStart": 3135,
+        "locationEnd": 3171,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_32",
+        "surfaceForm": "Amsterdamse Universiteitsbibliotheek en de Haagse",
+        "category": "PER",
+        "locationStart": 3135,
+        "locationEnd": 3184,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_34",
+        "surfaceForm": "Amsterdamse Universiteitsbibliotheek en de Haagse Konink-",
+        "category": "PER",
+        "locationStart": 3135,
+        "locationEnd": 3192,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_18",
         "category": "ORG",
         "surfaceForm": "Universiteitsbibliotheek",
@@ -21489,6 +21753,22 @@
         "locationStart": 3147,
         "locationEnd": 3171,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_31",
+        "surfaceForm": "Universiteitsbibliotheek en de Haagse",
+        "category": "PER",
+        "locationStart": 3147,
+        "locationEnd": 3184,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_33",
+        "surfaceForm": "Universiteitsbibliotheek en de Haagse Konink-",
+        "category": "PER",
+        "locationStart": 3147,
+        "locationEnd": 3192,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_27",
@@ -21519,6 +21799,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_35",
+        "surfaceForm": "Haagse Konink-",
+        "category": "PER",
+        "locationStart": 3178,
+        "locationEnd": 3192,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_37",
+        "surfaceForm": "Haagse Konink- lijke Bibliotheek",
+        "category": "PER",
+        "locationStart": 3178,
+        "locationEnd": 3210,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_18",
         "category": "ORG",
         "surfaceForm": "Konink-",
@@ -21533,6 +21829,14 @@
         "locationStart": 3185,
         "locationEnd": 3210,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_36",
+        "surfaceForm": "Konink- lijke Bibliotheek",
+        "category": "PER",
+        "locationStart": 3185,
+        "locationEnd": 3210,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_18",
@@ -21585,6 +21889,30 @@
         "locationStart": 3272,
         "locationEnd": 3294,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_38",
+        "surfaceForm": "Gerard Isaac",
+        "category": "PER",
+        "locationStart": 3272,
+        "locationEnd": 3284,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_39",
+        "surfaceForm": "Gerard Isaac Lieftinck",
+        "category": "PER",
+        "locationStart": 3272,
+        "locationEnd": 3294,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_40",
+        "surfaceForm": "Isaac Lieftinck",
+        "category": "PER",
+        "locationStart": 3279,
+        "locationEnd": 3294,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_25",
@@ -21641,6 +21969,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_41",
+        "surfaceForm": "Universiteitsbibliotheek Leiden",
+        "category": "PER",
+        "locationStart": 3341,
+        "locationEnd": 3372,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_30",
         "surfaceForm": "Middelnederlandse",
         "category": "MISC",
@@ -21693,6 +22029,30 @@
         "locationStart": 3495,
         "locationEnd": 3530,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_42",
+        "surfaceForm": "Bibliotheca Neerlandica",
+        "category": "PER",
+        "locationStart": 3495,
+        "locationEnd": 3518,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_43",
+        "surfaceForm": "Bibliotheca Neerlandica Manuscripta",
+        "category": "PER",
+        "locationStart": 3495,
+        "locationEnd": 3530,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_44",
+        "surfaceForm": "Neerlandica Manuscripta",
+        "category": "PER",
+        "locationStart": 3507,
+        "locationEnd": 3530,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_19",
@@ -21891,6 +22251,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_45",
+        "surfaceForm": "Middelnederlandsch Woordenboek",
+        "category": "PER",
+        "locationStart": 3916,
+        "locationEnd": 3946,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_21",
         "category": "MISC",
         "surfaceForm": "Bouwstoffen",
@@ -21969,6 +22337,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_46",
+        "surfaceForm": "In die vroege Leidse",
+        "category": "PER",
+        "locationStart": 4744,
+        "locationEnd": 4764,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_31",
         "surfaceForm": "die vroege Leidse jaren",
         "category": "TIME",
@@ -21995,6 +22371,14 @@
         "locationStart": 4758,
         "locationEnd": 4764,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_47",
+        "surfaceForm": "Leidse jaren is Lieftinck",
+        "category": "PER",
+        "locationStart": 4758,
+        "locationEnd": 4783,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_43",
@@ -22085,12 +22469,44 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_48",
+        "surfaceForm": "K.A. de Meyier",
+        "category": "PER",
+        "locationStart": 4952,
+        "locationEnd": 4966,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_27",
         "category": "PER",
         "surfaceForm": "a de meyier",
         "locationStart": 4954,
         "locationEnd": 4966,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_49",
+        "surfaceForm": "Meyier en mejuffrouw E.",
+        "category": "PER",
+        "locationStart": 4960,
+        "locationEnd": 4983,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_50",
+        "surfaceForm": "Meyier en mejuffrouw E. Hulshoff",
+        "category": "PER",
+        "locationStart": 4960,
+        "locationEnd": 4992,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_52",
+        "surfaceForm": "Meyier en mejuffrouw E. Hulshoff Pol",
+        "category": "PER",
+        "locationStart": 4960,
+        "locationEnd": 4996,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_45",
@@ -22135,6 +22551,30 @@
         "locationStart": 4981,
         "locationEnd": 4996,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_51",
+        "surfaceForm": "E. Hulshoff",
+        "category": "PER",
+        "locationStart": 4981,
+        "locationEnd": 4992,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_53",
+        "surfaceForm": "E. Hulshoff Pol",
+        "category": "PER",
+        "locationStart": 4981,
+        "locationEnd": 4996,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_54",
+        "surfaceForm": "Hulshoff Pol",
+        "category": "PER",
+        "locationStart": 4984,
+        "locationEnd": 4996,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_35",
@@ -22309,6 +22749,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_55",
+        "surfaceForm": "Maatschappij der Nederlandsche",
+        "category": "PER",
+        "locationStart": 5739,
+        "locationEnd": 5769,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_56",
+        "surfaceForm": "Maatschappij der Nederlandsche Letter-",
+        "category": "PER",
+        "locationStart": 5739,
+        "locationEnd": 5777,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_57",
+        "surfaceForm": "Nederlandsche Letter-",
+        "category": "PER",
+        "locationStart": 5756,
+        "locationEnd": 5777,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_39",
         "surfaceForm": "1948",
         "category": "TIME",
@@ -22325,6 +22789,14 @@
         "locationStart": 5792,
         "locationEnd": 5796,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_58",
+        "surfaceForm": "Deze catalogus had Deel",
+        "category": "PER",
+        "locationStart": 5809,
+        "locationEnd": 5832,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_53",
@@ -22417,6 +22889,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_59",
+        "surfaceForm": "De Vreese",
+        "category": "PER",
+        "locationStart": 6204,
+        "locationEnd": 6213,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_42",
         "surfaceForm": "begin 1948",
         "category": "TIME",
@@ -22451,6 +22931,14 @@
         "locationStart": 6278,
         "locationEnd": 6290,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_60",
+        "surfaceForm": "De enige eerdere Leidse",
+        "category": "PER",
+        "locationStart": 6344,
+        "locationEnd": 6367,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_57",
@@ -22515,6 +23003,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_61",
+        "surfaceForm": "S.G. de Vries",
+        "category": "PER",
+        "locationStart": 6435,
+        "locationEnd": 6448,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_39",
         "category": "TIME",
         "surfaceForm": "1909 isaac lieftinck",
@@ -22557,6 +23053,30 @@
         "locationStart": 6456,
         "locationEnd": 6478,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_62",
+        "surfaceForm": "Gerard Isaac",
+        "category": "PER",
+        "locationStart": 6456,
+        "locationEnd": 6468,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_63",
+        "surfaceForm": "Gerard Isaac Lieftinck",
+        "category": "PER",
+        "locationStart": 6456,
+        "locationEnd": 6478,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_64",
+        "surfaceForm": "Isaac Lieftinck",
+        "category": "PER",
+        "locationStart": 6463,
+        "locationEnd": 6478,
+        "method": "spacy_matcher_nl"
       }
     ],
     "time_expressions": [

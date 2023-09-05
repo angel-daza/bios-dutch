@@ -12538,6 +12538,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Tania Leon",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 10,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_1",
         "category": "LOCATION",
         "surfaceForm": "Wellington",
@@ -12596,6 +12604,14 @@
         "locationStart": 58,
         "locationEnd": 68,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Wellington in Zuid-Afrika",
+        "category": "PER",
+        "locationStart": 58,
+        "locationEnd": 83,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_2",
@@ -12734,6 +12750,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Au Je",
+        "category": "PER",
+        "locationStart": 371,
+        "locationEnd": 376,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_9",
         "category": "PERSON",
         "surfaceForm": "Tania Leon",
@@ -12772,6 +12796,30 @@
         "locationStart": 472,
         "locationEnd": 474,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Au In",
+        "category": "PER",
+        "locationStart": 472,
+        "locationEnd": 477,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Au In Zuid-Afrika",
+        "category": "PER",
+        "locationStart": 472,
+        "locationEnd": 489,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "In Zuid-Afrika",
+        "category": "PER",
+        "locationStart": 475,
+        "locationEnd": 489,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_4",
@@ -12850,6 +12898,14 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Toch voelde Leon",
+        "category": "PER",
+        "locationStart": 604,
+        "locationEnd": 620,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_17",
         "category": "PERSON",
         "surfaceForm": "Marjan Sax",
@@ -12926,6 +12982,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Au Op",
+        "category": "PER",
+        "locationStart": 657,
+        "locationEnd": 662,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_21",
         "category": "ORGANIZATION",
         "surfaceForm": "Stichting Mama Cash",
@@ -12964,6 +13028,14 @@
         "locationStart": 737,
         "locationEnd": 739,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Au In",
+        "category": "PER",
+        "locationStart": 737,
+        "locationEnd": 742,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_25",
@@ -13238,6 +13310,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "A in Amsterdam",
+        "category": "PER",
+        "locationStart": 923,
+        "locationEnd": 937,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_9",
         "surfaceForm": "Amsterdam",
         "category": "LOC",
@@ -13510,6 +13590,54 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Anti-Apartheids Beweging",
+        "category": "PER",
+        "locationStart": 1289,
+        "locationEnd": 1313,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "Anti-Apartheids Beweging Nederland",
+        "category": "PER",
+        "locationStart": 1289,
+        "locationEnd": 1323,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_15",
+        "surfaceForm": "Anti-Apartheids Beweging Nederland en de Nederlandse",
+        "category": "PER",
+        "locationStart": 1289,
+        "locationEnd": 1341,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "Beweging Nederland",
+        "category": "PER",
+        "locationStart": 1305,
+        "locationEnd": 1323,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "Beweging Nederland en de Nederlandse",
+        "category": "PER",
+        "locationStart": 1305,
+        "locationEnd": 1341,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "Nederland en de Nederlandse",
+        "category": "PER",
+        "locationStart": 1314,
+        "locationEnd": 1341,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_14",
         "surfaceForm": "Nederlandse",
         "category": "MISC",
@@ -13626,6 +13754,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_16",
+        "surfaceForm": "Tania Leon",
+        "category": "PER",
+        "locationStart": 1376,
+        "locationEnd": 1386,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_17",
         "surfaceForm": "Zuid-Afrikaanse",
         "category": "MISC",
@@ -13696,6 +13832,14 @@
         "locationStart": 1457,
         "locationEnd": 1461,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_17",
+        "surfaceForm": "Leon het Nederlands",
+        "category": "PER",
+        "locationStart": 1457,
+        "locationEnd": 1476,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_19",
@@ -13786,6 +13930,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_18",
+        "surfaceForm": "Stichting Amsterdamse",
+        "category": "PER",
+        "locationStart": 1571,
+        "locationEnd": 1592,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_19",
+        "surfaceForm": "Stichting Amsterdamse Kruisverenigingen",
+        "category": "PER",
+        "locationStart": 1571,
+        "locationEnd": 1610,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_20",
+        "surfaceForm": "Amsterdamse Kruisverenigingen",
+        "category": "PER",
+        "locationStart": 1581,
+        "locationEnd": 1610,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_14",
         "surfaceForm": "Van augustus 1986 tot 1989",
         "category": "TIME",
@@ -13854,6 +14022,38 @@
         "locationStart": 1663,
         "locationEnd": 1695,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_21",
+        "surfaceForm": "Stichting Vrouwen",
+        "category": "PER",
+        "locationStart": 1663,
+        "locationEnd": 1680,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_23",
+        "surfaceForm": "Stichting Vrouwen en Informatica",
+        "category": "PER",
+        "locationStart": 1663,
+        "locationEnd": 1695,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_22",
+        "surfaceForm": "Vrouwen en Informatica",
+        "category": "PER",
+        "locationStart": 1673,
+        "locationEnd": 1695,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_24",
+        "surfaceForm": "Informatica te Amsterdam",
+        "category": "PER",
+        "locationStart": 1684,
+        "locationEnd": 1708,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_16",
@@ -13952,6 +14152,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_25",
+        "surfaceForm": "Vrouwenvakschool Informatica",
+        "category": "PER",
+        "locationStart": 1783,
+        "locationEnd": 1811,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_26",
+        "surfaceForm": "Vrouwenvakschool Informatica Amsterdam",
+        "category": "PER",
+        "locationStart": 1783,
+        "locationEnd": 1821,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_27",
+        "surfaceForm": "Informatica Amsterdam",
+        "category": "PER",
+        "locationStart": 1800,
+        "locationEnd": 1821,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_23",
         "surfaceForm": "Tania Leon",
         "category": "PER",
@@ -13994,6 +14218,14 @@
         "locationStart": 1823,
         "locationEnd": 1833,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_28",
+        "surfaceForm": "Tania Leon",
+        "category": "PER",
+        "locationStart": 1823,
+        "locationEnd": 1833,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_24",
@@ -14120,6 +14352,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_29",
+        "surfaceForm": "Marjan Sax",
+        "category": "PER",
+        "locationStart": 2080,
+        "locationEnd": 2090,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_27",
         "surfaceForm": "Dorelies Kraakman",
         "category": "PER",
@@ -14162,6 +14402,14 @@
         "locationStart": 2092,
         "locationEnd": 2109,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_30",
+        "surfaceForm": "Dorelies Kraakman",
+        "category": "PER",
+        "locationStart": 2092,
+        "locationEnd": 2109,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_28",
@@ -14208,6 +14456,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_31",
+        "surfaceForm": "Patti Slegers",
+        "category": "PER",
+        "locationStart": 2111,
+        "locationEnd": 2124,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_33",
+        "surfaceForm": "Patti Slegers en Lida",
+        "category": "PER",
+        "locationStart": 2111,
+        "locationEnd": 2132,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_32",
+        "surfaceForm": "Slegers en Lida",
+        "category": "PER",
+        "locationStart": 2117,
+        "locationEnd": 2132,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_29",
         "surfaceForm": "Lida van den Broek",
         "category": "PER",
@@ -14252,6 +14524,38 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_34",
+        "surfaceForm": "Lida van den Broek",
+        "category": "PER",
+        "locationStart": 2128,
+        "locationEnd": 2146,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_35",
+        "surfaceForm": "Broek de Stichting",
+        "category": "PER",
+        "locationStart": 2141,
+        "locationEnd": 2159,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_36",
+        "surfaceForm": "Broek de Stichting Mama",
+        "category": "PER",
+        "locationStart": 2141,
+        "locationEnd": 2164,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_38",
+        "surfaceForm": "Broek de Stichting Mama Cash",
+        "category": "PER",
+        "locationStart": 2141,
+        "locationEnd": 2169,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_30",
         "surfaceForm": "Stichting Mama Cash",
         "category": "ORG",
@@ -14288,6 +14592,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_37",
+        "surfaceForm": "Stichting Mama",
+        "category": "PER",
+        "locationStart": 2150,
+        "locationEnd": 2164,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_39",
+        "surfaceForm": "Stichting Mama Cash",
+        "category": "PER",
+        "locationStart": 2150,
+        "locationEnd": 2169,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_40",
+        "surfaceForm": "Mama Cash",
+        "category": "PER",
+        "locationStart": 2160,
+        "locationEnd": 2169,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_31",
         "surfaceForm": "Mama Cash",
         "category": "ORG",
@@ -14322,6 +14650,14 @@
         "locationStart": 2174,
         "locationEnd": 2183,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_41",
+        "surfaceForm": "Mama Cash",
+        "category": "PER",
+        "locationStart": 2174,
+        "locationEnd": 2183,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_32",
@@ -14368,6 +14704,46 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_42",
+        "surfaceForm": "Marjan Sax",
+        "category": "PER",
+        "locationStart": 2283,
+        "locationEnd": 2293,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_44",
+        "surfaceForm": "Marjan Sax hielp Mama",
+        "category": "PER",
+        "locationStart": 2283,
+        "locationEnd": 2304,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_46",
+        "surfaceForm": "Marjan Sax hielp Mama Cash",
+        "category": "PER",
+        "locationStart": 2283,
+        "locationEnd": 2309,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_43",
+        "surfaceForm": "Sax hielp Mama",
+        "category": "PER",
+        "locationStart": 2290,
+        "locationEnd": 2304,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_45",
+        "surfaceForm": "Sax hielp Mama Cash",
+        "category": "PER",
+        "locationStart": 2290,
+        "locationEnd": 2309,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_33",
         "surfaceForm": "Mama Cash",
         "category": "ORG",
@@ -14402,6 +14778,14 @@
         "locationStart": 2300,
         "locationEnd": 2309,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_47",
+        "surfaceForm": "Mama Cash",
+        "category": "PER",
+        "locationStart": 2300,
+        "locationEnd": 2309,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_26",
@@ -14448,6 +14832,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_48",
+        "surfaceForm": "Inmiddels is Mama",
+        "category": "PER",
+        "locationStart": 2413,
+        "locationEnd": 2430,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_49",
+        "surfaceForm": "Inmiddels is Mama Cash",
+        "category": "PER",
+        "locationStart": 2413,
+        "locationEnd": 2435,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_35",
         "surfaceForm": "Mama Cash",
         "category": "PER",
@@ -14482,6 +14882,14 @@
         "locationStart": 2426,
         "locationEnd": 2435,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_50",
+        "surfaceForm": "Mama Cash",
+        "category": "PER",
+        "locationStart": 2426,
+        "locationEnd": 2435,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_32",
@@ -14538,6 +14946,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_51",
+        "surfaceForm": "Leon samen met Gloria",
+        "category": "PER",
+        "locationStart": 2675,
+        "locationEnd": 2696,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_52",
+        "surfaceForm": "Leon samen met Gloria Wekker",
+        "category": "PER",
+        "locationStart": 2675,
+        "locationEnd": 2703,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_37",
         "surfaceForm": "Gloria Wekker",
         "category": "PER",
@@ -14580,6 +15004,14 @@
         "locationStart": 2690,
         "locationEnd": 2703,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_53",
+        "surfaceForm": "Gloria Wekker",
+        "category": "PER",
+        "locationStart": 2690,
+        "locationEnd": 2703,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_38",
@@ -14626,6 +15058,110 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_54",
+        "surfaceForm": "Joice Spies",
+        "category": "PER",
+        "locationStart": 2705,
+        "locationEnd": 2716,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_56",
+        "surfaceForm": "Joice Spies en Tieneke",
+        "category": "PER",
+        "locationStart": 2705,
+        "locationEnd": 2727,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_58",
+        "surfaceForm": "Joice Spies en Tieneke Sumter",
+        "category": "PER",
+        "locationStart": 2705,
+        "locationEnd": 2734,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_61",
+        "surfaceForm": "Joice Spies en Tieneke Sumter Ao",
+        "category": "PER",
+        "locationStart": 2705,
+        "locationEnd": 2737,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_65",
+        "surfaceForm": "Joice Spies en Tieneke Sumter Ao Sister",
+        "category": "PER",
+        "locationStart": 2705,
+        "locationEnd": 2744,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_70",
+        "surfaceForm": "Joice Spies en Tieneke Sumter Ao Sister Outsider",
+        "category": "PER",
+        "locationStart": 2705,
+        "locationEnd": 2753,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_76",
+        "surfaceForm": "Joice Spies en Tieneke Sumter Ao Sister Outsider Ao",
+        "category": "PER",
+        "locationStart": 2705,
+        "locationEnd": 2756,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_55",
+        "surfaceForm": "Spies en Tieneke",
+        "category": "PER",
+        "locationStart": 2711,
+        "locationEnd": 2727,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_57",
+        "surfaceForm": "Spies en Tieneke Sumter",
+        "category": "PER",
+        "locationStart": 2711,
+        "locationEnd": 2734,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_60",
+        "surfaceForm": "Spies en Tieneke Sumter Ao",
+        "category": "PER",
+        "locationStart": 2711,
+        "locationEnd": 2737,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_64",
+        "surfaceForm": "Spies en Tieneke Sumter Ao Sister",
+        "category": "PER",
+        "locationStart": 2711,
+        "locationEnd": 2744,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_69",
+        "surfaceForm": "Spies en Tieneke Sumter Ao Sister Outsider",
+        "category": "PER",
+        "locationStart": 2711,
+        "locationEnd": 2753,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_75",
+        "surfaceForm": "Spies en Tieneke Sumter Ao Sister Outsider Ao",
+        "category": "PER",
+        "locationStart": 2711,
+        "locationEnd": 2756,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_39",
         "surfaceForm": "Tieneke Sumter Ao Sister Outsider Ao",
         "category": "ORG",
@@ -14670,12 +15206,108 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_59",
+        "surfaceForm": "Tieneke Sumter",
+        "category": "PER",
+        "locationStart": 2720,
+        "locationEnd": 2734,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_62",
+        "surfaceForm": "Tieneke Sumter Ao",
+        "category": "PER",
+        "locationStart": 2720,
+        "locationEnd": 2737,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_66",
+        "surfaceForm": "Tieneke Sumter Ao Sister",
+        "category": "PER",
+        "locationStart": 2720,
+        "locationEnd": 2744,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_71",
+        "surfaceForm": "Tieneke Sumter Ao Sister Outsider",
+        "category": "PER",
+        "locationStart": 2720,
+        "locationEnd": 2753,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_77",
+        "surfaceForm": "Tieneke Sumter Ao Sister Outsider Ao",
+        "category": "PER",
+        "locationStart": 2720,
+        "locationEnd": 2756,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_63",
+        "surfaceForm": "Sumter Ao",
+        "category": "PER",
+        "locationStart": 2728,
+        "locationEnd": 2737,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_67",
+        "surfaceForm": "Sumter Ao Sister",
+        "category": "PER",
+        "locationStart": 2728,
+        "locationEnd": 2744,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_72",
+        "surfaceForm": "Sumter Ao Sister Outsider",
+        "category": "PER",
+        "locationStart": 2728,
+        "locationEnd": 2753,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_78",
+        "surfaceForm": "Sumter Ao Sister Outsider Ao",
+        "category": "PER",
+        "locationStart": 2728,
+        "locationEnd": 2756,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "xlmr_ner_28",
         "category": "ORG",
         "surfaceForm": "Ao Sister Outsider Ao",
         "locationStart": 2735,
         "locationEnd": 2756,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_68",
+        "surfaceForm": "Ao Sister",
+        "category": "PER",
+        "locationStart": 2735,
+        "locationEnd": 2744,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_73",
+        "surfaceForm": "Ao Sister Outsider",
+        "category": "PER",
+        "locationStart": 2735,
+        "locationEnd": 2753,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_79",
+        "surfaceForm": "Ao Sister Outsider Ao",
+        "category": "PER",
+        "locationStart": 2735,
+        "locationEnd": 2756,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_37",
@@ -14694,6 +15326,30 @@
         "locationStart": 2738,
         "locationEnd": 2756,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_74",
+        "surfaceForm": "Sister Outsider",
+        "category": "PER",
+        "locationStart": 2738,
+        "locationEnd": 2753,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_80",
+        "surfaceForm": "Sister Outsider Ao",
+        "category": "PER",
+        "locationStart": 2738,
+        "locationEnd": 2756,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_81",
+        "surfaceForm": "Outsider Ao",
+        "category": "PER",
+        "locationStart": 2745,
+        "locationEnd": 2756,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_40",
@@ -14722,6 +15378,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_82",
+        "surfaceForm": "Aozwarte Ao",
+        "category": "PER",
+        "locationStart": 2782,
+        "locationEnd": 2793,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_41",
         "surfaceForm": "Sister Outsider",
         "category": "MISC",
@@ -14748,6 +15412,14 @@
         "locationStart": 2826,
         "locationEnd": 2841,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_83",
+        "surfaceForm": "Sister Outsider",
+        "category": "PER",
+        "locationStart": 2826,
+        "locationEnd": 2841,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "xlmr_ner_30",
@@ -14782,6 +15454,14 @@
         "locationStart": 2919,
         "locationEnd": 2926,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_84",
+        "surfaceForm": "Aowitte Ao",
+        "category": "PER",
+        "locationStart": 2919,
+        "locationEnd": 2929,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_43",
@@ -14836,6 +15516,14 @@
         "locationStart": 3109,
         "locationEnd": 3120,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_85",
+        "surfaceForm": "Audre Lorde",
+        "category": "PER",
+        "locationStart": 3109,
+        "locationEnd": 3120,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_41",
@@ -14962,6 +15650,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_86",
+        "surfaceForm": "Sister Outsider",
+        "category": "PER",
+        "locationStart": 3174,
+        "locationEnd": 3189,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "xlmr_ner_35",
         "category": "",
         "surfaceForm": "sider",
@@ -15012,6 +15708,14 @@
         "locationStart": 3243,
         "locationEnd": 3253,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_87",
+        "surfaceForm": "Tania Leon",
+        "category": "PER",
+        "locationStart": 3243,
+        "locationEnd": 3253,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_46",
@@ -15068,6 +15772,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_88",
+        "surfaceForm": "Pioniers van Flamboyant",
+        "category": "PER",
+        "locationStart": 3393,
+        "locationEnd": 3416,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_49",
         "surfaceForm": "Flamboyant",
         "category": "PER",
@@ -15102,6 +15814,22 @@
         "locationStart": 3406,
         "locationEnd": 3416,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_89",
+        "surfaceForm": "Flamboyant waren naast Tania",
+        "category": "PER",
+        "locationStart": 3406,
+        "locationEnd": 3434,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_90",
+        "surfaceForm": "Flamboyant waren naast Tania Leon",
+        "category": "PER",
+        "locationStart": 3406,
+        "locationEnd": 3439,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_50",
@@ -15148,6 +15876,46 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_91",
+        "surfaceForm": "Tania Leon",
+        "category": "PER",
+        "locationStart": 3429,
+        "locationEnd": 3439,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_93",
+        "surfaceForm": "Tania Leon onder anderen Alem",
+        "category": "PER",
+        "locationStart": 3429,
+        "locationEnd": 3458,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_95",
+        "surfaceForm": "Tania Leon onder anderen Alem Desta",
+        "category": "PER",
+        "locationStart": 3429,
+        "locationEnd": 3464,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_92",
+        "surfaceForm": "Leon onder anderen Alem",
+        "category": "PER",
+        "locationStart": 3435,
+        "locationEnd": 3458,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_94",
+        "surfaceForm": "Leon onder anderen Alem Desta",
+        "category": "PER",
+        "locationStart": 3435,
+        "locationEnd": 3464,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_51",
         "surfaceForm": "Alem Desta",
         "category": "PER",
@@ -15190,6 +15958,14 @@
         "locationStart": 3454,
         "locationEnd": 3464,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_96",
+        "surfaceForm": "Alem Desta",
+        "category": "PER",
+        "locationStart": 3454,
+        "locationEnd": 3464,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_52",
@@ -15236,6 +16012,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_97",
+        "surfaceForm": "Troetje Loewenthal",
+        "category": "PER",
+        "locationStart": 3466,
+        "locationEnd": 3484,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_53",
         "surfaceForm": "Cisca Pattipilohy",
         "category": "PER",
@@ -15280,6 +16064,46 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_98",
+        "surfaceForm": "Cisca Pattipilohy",
+        "category": "PER",
+        "locationStart": 3486,
+        "locationEnd": 3503,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_100",
+        "surfaceForm": "Cisca Pattipilohy en Ellen",
+        "category": "PER",
+        "locationStart": 3486,
+        "locationEnd": 3512,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_102",
+        "surfaceForm": "Cisca Pattipilohy en Ellen Robles",
+        "category": "PER",
+        "locationStart": 3486,
+        "locationEnd": 3519,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_99",
+        "surfaceForm": "Pattipilohy en Ellen",
+        "category": "PER",
+        "locationStart": 3492,
+        "locationEnd": 3512,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_101",
+        "surfaceForm": "Pattipilohy en Ellen Robles",
+        "category": "PER",
+        "locationStart": 3492,
+        "locationEnd": 3519,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_54",
         "surfaceForm": "Ellen Robles",
         "category": "PER",
@@ -15322,6 +16146,14 @@
         "locationStart": 3507,
         "locationEnd": 3519,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_103",
+        "surfaceForm": "Ellen Robles",
+        "category": "PER",
+        "locationStart": 3507,
+        "locationEnd": 3519,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_55",
@@ -15528,6 +16360,14 @@
         "locationStart": 4177,
         "locationEnd": 4191,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_104",
+        "surfaceForm": "Stichting Zami",
+        "category": "PER",
+        "locationStart": 4177,
+        "locationEnd": 4191,
+        "method": "spacy_matcher_nl"
       }
     ],
     "time_expressions": [

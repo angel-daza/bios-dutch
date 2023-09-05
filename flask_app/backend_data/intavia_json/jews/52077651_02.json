@@ -8916,6 +8916,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Walter Suskind",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 14,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_12",
         "surfaceForm": "1906 - 1945",
         "category": "TIME",
@@ -8968,6 +8976,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Duitse Ludenscheid",
+        "category": "PER",
+        "locationStart": 41,
+        "locationEnd": 59,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Duitse Ludenscheid geboren uit Nederlandse",
+        "category": "PER",
+        "locationStart": 41,
+        "locationEnd": 83,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_2",
         "category": "LOCATION",
         "surfaceForm": "Nederlandse",
@@ -9010,6 +9034,14 @@
         "locationStart": 48,
         "locationEnd": 59,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Ludenscheid geboren uit Nederlandse",
+        "category": "PER",
+        "locationStart": 48,
+        "locationEnd": 83,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_3",
@@ -9200,6 +9232,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Plantage Middenlaan",
+        "category": "PER",
+        "locationStart": 205,
+        "locationEnd": 224,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_11",
         "category": "LOCATION",
         "surfaceForm": "Nieuwe Prinsengracht",
@@ -9338,6 +9378,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Walter Suskind",
+        "category": "PER",
+        "locationStart": 275,
+        "locationEnd": 289,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_33",
         "surfaceForm": "1906 - 1945",
         "category": "TIME",
@@ -9382,6 +9430,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Duitse Ludenscheid",
+        "category": "PER",
+        "locationStart": 316,
+        "locationEnd": 334,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Duitse Ludenscheid uit Nederlandse",
+        "category": "PER",
+        "locationStart": 316,
+        "locationEnd": 350,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_14",
         "category": "PERSON",
         "surfaceForm": "Aus der Funten",
@@ -9424,6 +9488,14 @@
         "locationStart": 323,
         "locationEnd": 334,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Ludenscheid uit Nederlandse",
+        "category": "PER",
+        "locationStart": 323,
+        "locationEnd": 350,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_10",
@@ -9502,6 +9574,14 @@
         "locationStart": 388,
         "locationEnd": 395,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Johanna Natt",
+        "category": "PER",
+        "locationStart": 388,
+        "locationEnd": 400,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_12",
@@ -9646,12 +9726,36 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Nieuwe Prinsengracht",
+        "category": "PER",
+        "locationStart": 462,
+        "locationEnd": 482,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "Nieuwe Prinsengracht in Amsterdam",
+        "category": "PER",
+        "locationStart": 462,
+        "locationEnd": 495,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_18",
         "category": "ORGANIZATION",
         "surfaceForm": "Expositur",
         "locationStart": 468,
         "locationEnd": 477,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "Prinsengracht in Amsterdam",
+        "category": "PER",
+        "locationStart": 469,
+        "locationEnd": 495,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_19",
@@ -9750,6 +9854,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "Suskind voor de Joodse",
+        "category": "PER",
+        "locationStart": 525,
+        "locationEnd": 547,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "Suskind voor de Joodse Raad",
+        "category": "PER",
+        "locationStart": 525,
+        "locationEnd": 552,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_17",
         "surfaceForm": "Joodse Raad",
         "category": "ORG",
@@ -9784,6 +9904,14 @@
         "locationStart": 541,
         "locationEnd": 552,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_15",
+        "surfaceForm": "Joodse Raad",
+        "category": "PER",
+        "locationStart": 541,
+        "locationEnd": 552,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_21",
@@ -9844,6 +9972,14 @@
         "locationStart": 608,
         "locationEnd": 615,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_16",
+        "surfaceForm": "Hollandsche Schouwburg",
+        "category": "PER",
+        "locationStart": 608,
+        "locationEnd": 630,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_24",
@@ -9968,6 +10104,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_17",
+        "surfaceForm": "Aus der Funten",
+        "category": "PER",
+        "locationStart": 834,
+        "locationEnd": 848,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_22",
         "surfaceForm": "Aus der Funten",
         "category": "PER",
@@ -10002,6 +10146,14 @@
         "locationStart": 905,
         "locationEnd": 919,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_18",
+        "surfaceForm": "Aus der Funten",
+        "category": "PER",
+        "locationStart": 905,
+        "locationEnd": 919,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_23",
@@ -10048,6 +10200,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_19",
+        "surfaceForm": "Plantage Middenlaan",
+        "category": "PER",
+        "locationStart": 1002,
+        "locationEnd": 1021,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_24",
         "surfaceForm": "Henriette Rodriques Pimentel",
         "category": "PER",
@@ -10090,6 +10250,30 @@
         "locationStart": 1023,
         "locationEnd": 1051,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_20",
+        "surfaceForm": "Henriette Rodriques",
+        "category": "PER",
+        "locationStart": 1023,
+        "locationEnd": 1042,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_21",
+        "surfaceForm": "Henriette Rodriques Pimentel",
+        "category": "PER",
+        "locationStart": 1023,
+        "locationEnd": 1051,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_22",
+        "surfaceForm": "Rodriques Pimentel",
+        "category": "PER",
+        "locationStart": 1033,
+        "locationEnd": 1051,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_25",
@@ -10136,6 +10320,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_23",
+        "surfaceForm": "Suskind en de Amsterdamse",
+        "category": "PER",
+        "locationStart": 1069,
+        "locationEnd": 1094,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_26",
         "surfaceForm": "Amsterdamse",
         "category": "MISC",
@@ -10152,6 +10344,22 @@
         "locationStart": 1083,
         "locationEnd": 1094,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_24",
+        "surfaceForm": "Amsterdamse econoom Felix",
+        "category": "PER",
+        "locationStart": 1083,
+        "locationEnd": 1108,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_25",
+        "surfaceForm": "Amsterdamse econoom Felix Halverstad",
+        "category": "PER",
+        "locationStart": 1083,
+        "locationEnd": 1119,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_27",
@@ -10196,6 +10404,14 @@
         "locationStart": 1103,
         "locationEnd": 1119,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_26",
+        "surfaceForm": "Felix Halverstad",
+        "category": "PER",
+        "locationStart": 1103,
+        "locationEnd": 1119,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_28",
@@ -10270,6 +10486,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_27",
+        "surfaceForm": "Hervormde Kweekschool",
+        "category": "PER",
+        "locationStart": 1283,
+        "locationEnd": 1304,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_28",
+        "surfaceForm": "Mede dankzij Walter",
+        "category": "PER",
+        "locationStart": 1375,
+        "locationEnd": 1394,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_29",
+        "surfaceForm": "Mede dankzij Walter Suskind",
+        "category": "PER",
+        "locationStart": 1375,
+        "locationEnd": 1402,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_30",
         "surfaceForm": "Walter Suskind",
         "category": "PER",
@@ -10304,6 +10544,22 @@
         "locationStart": 1388,
         "locationEnd": 1402,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_30",
+        "surfaceForm": "Walter Suskind",
+        "category": "PER",
+        "locationStart": 1388,
+        "locationEnd": 1402,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_31",
+        "surfaceForm": "Het verzetswerk dat Suskind",
+        "category": "PER",
+        "locationStart": 1453,
+        "locationEnd": 1480,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_31",
@@ -10378,6 +10634,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_32",
+        "surfaceForm": "Joodse Raad",
+        "category": "PER",
+        "locationStart": 1544,
+        "locationEnd": 1555,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_33",
+        "surfaceForm": "Een door Lou",
+        "category": "PER",
+        "locationStart": 1578,
+        "locationEnd": 1590,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_33",
         "surfaceForm": "Lou de Jong",
         "category": "PER",
@@ -10422,6 +10694,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_34",
+        "surfaceForm": "Lou de Jong",
+        "category": "PER",
+        "locationStart": 1587,
+        "locationEnd": 1598,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_34",
         "surfaceForm": "Joodse Raad",
         "category": "ORG",
@@ -10448,6 +10728,14 @@
         "locationStart": 1724,
         "locationEnd": 1735,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_35",
+        "surfaceForm": "Joodse Raad",
+        "category": "PER",
+        "locationStart": 1724,
+        "locationEnd": 1735,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "xlmr_ner_18",
@@ -10492,6 +10780,14 @@
         "locationStart": 1775,
         "locationEnd": 1786,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_36",
+        "surfaceForm": "Joodse Raad",
+        "category": "PER",
+        "locationStart": 1775,
+        "locationEnd": 1786,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_36",
@@ -10566,6 +10862,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_37",
+        "surfaceForm": "Joodse Raad",
+        "category": "PER",
+        "locationStart": 2056,
+        "locationEnd": 2067,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_38",
         "surfaceForm": "Joden",
         "category": "MISC",
@@ -10610,6 +10914,14 @@
         "locationStart": 2207,
         "locationEnd": 2214,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_38",
+        "surfaceForm": "De Jong",
+        "category": "PER",
+        "locationStart": 2207,
+        "locationEnd": 2214,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "xlmr_ner_21",
@@ -10662,6 +10974,14 @@
         "locationStart": 2233,
         "locationEnd": 2247,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_39",
+        "surfaceForm": "Walter Suskind",
+        "category": "PER",
+        "locationStart": 2233,
+        "locationEnd": 2247,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_20",
@@ -10770,6 +11090,14 @@
         "locationStart": 2354,
         "locationEnd": 2363,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_40",
+        "surfaceForm": "Hollandse Schouwburg",
+        "category": "PER",
+        "locationStart": 2354,
+        "locationEnd": 2374,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_21",

@@ -8915,6 +8915,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Eduard Frankfort",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 16,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_0",
         "category": "TIME",
         "surfaceForm": "1864",
@@ -8991,6 +8999,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Eduard naar Amsterdam",
+        "category": "PER",
+        "locationStart": 120,
+        "locationEnd": 141,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_3",
         "surfaceForm": "Amsterdam",
         "category": "LOC",
@@ -9051,6 +9067,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Akademie voor Beeldende",
+        "category": "PER",
+        "locationStart": 163,
+        "locationEnd": 186,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_5",
         "surfaceForm": "August Allebe",
         "category": "PER",
@@ -9085,6 +9109,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "August Allebe",
+        "category": "PER",
+        "locationStart": 215,
+        "locationEnd": 228,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_6",
         "surfaceForm": "Eduard Frankfort",
         "category": "PER",
@@ -9117,6 +9149,14 @@
         "locationStart": 296,
         "locationEnd": 312,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Eduard Frankfort",
+        "category": "PER",
+        "locationStart": 296,
+        "locationEnd": 312,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_4",
@@ -9195,6 +9235,54 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Salomon Simon",
+        "category": "PER",
+        "locationStart": 397,
+        "locationEnd": 410,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Salomon Simon Frankfort",
+        "category": "PER",
+        "locationStart": 397,
+        "locationEnd": 420,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Salomon Simon Frankfort uit Deventer",
+        "category": "PER",
+        "locationStart": 397,
+        "locationEnd": 433,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Simon Frankfort",
+        "category": "PER",
+        "locationStart": 405,
+        "locationEnd": 420,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Simon Frankfort uit Deventer",
+        "category": "PER",
+        "locationStart": 405,
+        "locationEnd": 433,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Frankfort uit Deventer",
+        "category": "PER",
+        "locationStart": 411,
+        "locationEnd": 433,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_9",
         "surfaceForm": "Deventer",
         "category": "LOC",
@@ -9227,6 +9315,30 @@
         "locationStart": 425,
         "locationEnd": 433,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "Deventer en Dine",
+        "category": "PER",
+        "locationStart": 425,
+        "locationEnd": 441,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "Deventer en Dine Frankfort-",
+        "category": "PER",
+        "locationStart": 425,
+        "locationEnd": 452,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "Deventer en Dine Frankfort- Bendien",
+        "category": "PER",
+        "locationStart": 425,
+        "locationEnd": 460,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_10",
@@ -9263,12 +9375,60 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "Dine Frankfort-",
+        "category": "PER",
+        "locationStart": 437,
+        "locationEnd": 452,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_15",
+        "surfaceForm": "Dine Frankfort- Bendien",
+        "category": "PER",
+        "locationStart": 437,
+        "locationEnd": 460,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_19",
+        "surfaceForm": "Dine Frankfort- Bendien uit Almelo",
+        "category": "PER",
+        "locationStart": 437,
+        "locationEnd": 471,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_16",
+        "surfaceForm": "Frankfort- Bendien",
+        "category": "PER",
+        "locationStart": 442,
+        "locationEnd": 460,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_18",
+        "surfaceForm": "Frankfort- Bendien uit Almelo",
+        "category": "PER",
+        "locationStart": 442,
+        "locationEnd": 471,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_4",
         "category": "PER",
         "surfaceForm": "- bendien",
         "locationStart": 451,
         "locationEnd": 460,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_17",
+        "surfaceForm": "Bendien uit Almelo",
+        "category": "PER",
+        "locationStart": 453,
+        "locationEnd": 471,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_11",
@@ -9381,6 +9541,14 @@
         "locationStart": 643,
         "locationEnd": 649,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_20",
+        "surfaceForm": "Joodse gemeente van Amsterdam",
+        "category": "PER",
+        "locationStart": 643,
+        "locationEnd": 672,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_15",
@@ -9529,6 +9697,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_21",
+        "surfaceForm": "Atelier Bing",
+        "category": "PER",
+        "locationStart": 843,
+        "locationEnd": 855,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_9",
         "category": "PER",
         "surfaceForm": "bin",
@@ -9569,6 +9745,46 @@
         "locationStart": 888,
         "locationEnd": 924,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_22",
+        "surfaceForm": "Rijksakademie voor Beeldende",
+        "category": "PER",
+        "locationStart": 888,
+        "locationEnd": 916,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_23",
+        "surfaceForm": "Rijksakademie voor Beeldende Kunsten",
+        "category": "PER",
+        "locationStart": 888,
+        "locationEnd": 924,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_24",
+        "surfaceForm": "Beeldende Kunsten",
+        "category": "PER",
+        "locationStart": 907,
+        "locationEnd": 924,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_26",
+        "surfaceForm": "Beeldende Kunsten in Amsterdam",
+        "category": "PER",
+        "locationStart": 907,
+        "locationEnd": 937,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_25",
+        "surfaceForm": "Kunsten in Amsterdam",
+        "category": "PER",
+        "locationStart": 917,
+        "locationEnd": 937,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_21",
@@ -9639,6 +9855,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_27",
+        "surfaceForm": "August Allebe",
+        "category": "PER",
+        "locationStart": 978,
+        "locationEnd": 991,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_23",
         "surfaceForm": "Antwerpen",
         "category": "LOC",
@@ -9707,6 +9931,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_28",
+        "surfaceForm": "Andere schilderijen van Frankfort",
+        "category": "PER",
+        "locationStart": 1430,
+        "locationEnd": 1463,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_25",
         "surfaceForm": "Frankfort",
         "category": "PER",
@@ -9751,6 +9983,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_29",
+        "surfaceForm": "De Talmoedstudie",
+        "category": "PER",
+        "locationStart": 1495,
+        "locationEnd": 1511,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_27",
         "surfaceForm": "Sjabbatdienst",
         "category": "MISC",
@@ -9767,6 +10007,22 @@
         "locationStart": 1515,
         "locationEnd": 1534,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_30",
+        "surfaceForm": "Sjabbatdienst in de Portugese",
+        "category": "PER",
+        "locationStart": 1515,
+        "locationEnd": 1544,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_31",
+        "surfaceForm": "Sjabbatdienst in de Portugese Synagoge",
+        "category": "PER",
+        "locationStart": 1515,
+        "locationEnd": 1553,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_28",
@@ -9793,6 +10049,14 @@
         "locationStart": 1535,
         "locationEnd": 1542,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_32",
+        "surfaceForm": "Portugese Synagoge",
+        "category": "PER",
+        "locationStart": 1535,
+        "locationEnd": 1553,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_29",
@@ -9983,6 +10247,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_33",
+        "surfaceForm": "Kniertje uit Heijermans",
+        "category": "PER",
+        "locationStart": 1940,
+        "locationEnd": 1963,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_35",
         "surfaceForm": "Heijermans",
         "category": "PER",
@@ -10111,6 +10383,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_34",
+        "surfaceForm": "Eduard Frankfort",
+        "category": "PER",
+        "locationStart": 2261,
+        "locationEnd": 2277,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_23",
         "category": "TIME",
         "surfaceForm": "1903",
@@ -10137,12 +10417,28 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_35",
+        "surfaceForm": "Arti et Amicitiae",
+        "category": "PER",
+        "locationStart": 2417,
+        "locationEnd": 2434,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "xlmr_ner_23",
         "category": "ORG",
         "surfaceForm": "Arti et Amicitiae",
         "locationStart": 2418,
         "locationEnd": 2434,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_36",
+        "surfaceForm": "Ook gaf Frankfort",
+        "category": "PER",
+        "locationStart": 2437,
+        "locationEnd": 2454,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_40",
@@ -10197,6 +10493,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_37",
+        "surfaceForm": "H.S. Asscher",
+        "category": "PER",
+        "locationStart": 2476,
+        "locationEnd": 2488,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_24",
         "category": "PER",
         "surfaceForm": "Asscher",
@@ -10247,6 +10551,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_38",
+        "surfaceForm": "Emanuel van Beever",
+        "category": "PER",
+        "locationStart": 2490,
+        "locationEnd": 2508,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_39",
+        "surfaceForm": "Beever en R.",
+        "category": "PER",
+        "locationStart": 2502,
+        "locationEnd": 2514,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_40",
+        "surfaceForm": "Beever en R. Spanjaard",
+        "category": "PER",
+        "locationStart": 2502,
+        "locationEnd": 2524,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_43",
         "surfaceForm": "R. Spanjaard",
         "category": "PER",
@@ -10279,6 +10607,14 @@
         "locationStart": 2512,
         "locationEnd": 2524,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_41",
+        "surfaceForm": "R. Spanjaard",
+        "category": "PER",
+        "locationStart": 2512,
+        "locationEnd": 2524,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_25",
@@ -10321,6 +10657,30 @@
         "locationStart": 2555,
         "locationEnd": 2571,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_42",
+        "surfaceForm": "Eduard Frankfort",
+        "category": "PER",
+        "locationStart": 2555,
+        "locationEnd": 2571,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_44",
+        "surfaceForm": "Eduard Frankfort in Laren",
+        "category": "PER",
+        "locationStart": 2555,
+        "locationEnd": 2580,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_43",
+        "surfaceForm": "Frankfort in Laren",
+        "category": "PER",
+        "locationStart": 2562,
+        "locationEnd": 2580,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_45",
@@ -10373,6 +10733,14 @@
         "locationStart": 2599,
         "locationEnd": 2614,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_45",
+        "surfaceForm": "De Vrijdagavond",
+        "category": "PER",
+        "locationStart": 2599,
+        "locationEnd": 2614,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "xlmr_ner_26",

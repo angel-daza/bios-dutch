@@ -3039,6 +3039,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Zn. van David",
+        "category": "PER",
+        "locationStart": 102,
+        "locationEnd": 115,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Zn. van David Vail",
+        "category": "PER",
+        "locationStart": 102,
+        "locationEnd": 120,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_6",
         "surfaceForm": "David Vail",
         "category": "PER",
@@ -3083,12 +3099,36 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "David Vail",
+        "category": "PER",
+        "locationStart": 110,
+        "locationEnd": 120,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "David Vail of Weil",
+        "category": "PER",
+        "locationStart": 110,
+        "locationEnd": 128,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_9",
         "category": "LOCATION",
         "surfaceForm": "Groningen",
         "locationStart": 111,
         "locationEnd": 120,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Vail of Weil",
+        "category": "PER",
+        "locationStart": 116,
+        "locationEnd": 128,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_7",
@@ -3595,6 +3635,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Spijk bij Gorcum",
+        "category": "PER",
+        "locationStart": 373,
+        "locationEnd": 389,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_15",
         "surfaceForm": "Gorcum",
         "category": "LOC",
@@ -3693,6 +3741,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Elisabeth Barentze",
+        "category": "PER",
+        "locationStart": 428,
+        "locationEnd": 446,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_17",
         "surfaceForm": "Helena van Liesfeld",
         "category": "PER",
@@ -3735,6 +3791,14 @@
         "locationStart": 455,
         "locationEnd": 474,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Helena van Liesfeld",
+        "category": "PER",
+        "locationStart": 455,
+        "locationEnd": 474,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_18",

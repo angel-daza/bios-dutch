@@ -1109,6 +1109,22 @@
         "method": "stanza_nl"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Konstgenoot van Kornelis",
+        "category": "PER",
+        "locationStart": 125,
+        "locationEnd": 149,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Konstgenoot van Kornelis Poelenburg",
+        "category": "PER",
+        "locationStart": 125,
+        "locationEnd": 160,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_7",
         "category": "ORGANIZATION",
         "surfaceForm": "mensen",
@@ -1143,6 +1159,14 @@
         "locationStart": 141,
         "locationEnd": 160,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Kornelis Poelenburg",
+        "category": "PER",
+        "locationStart": 141,
+        "locationEnd": 160,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_1",

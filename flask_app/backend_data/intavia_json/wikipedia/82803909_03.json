@@ -7950,6 +7950,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Gerrit Roelof",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 13,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Gerrit Roelof Polman",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 20,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Roelof Polman",
+        "category": "PER",
+        "locationStart": 7,
+        "locationEnd": 20,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_1",
         "category": "LOCATION",
         "surfaceForm": "Zwolle",
@@ -8278,6 +8302,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Polman met Wilhelmina",
+        "category": "PER",
+        "locationStart": 215,
+        "locationEnd": 236,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Polman met Wilhelmina Blekkink",
+        "category": "PER",
+        "locationStart": 215,
+        "locationEnd": 245,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_6",
         "surfaceForm": "Wilhelmina Blekkink",
         "category": "PER",
@@ -8320,6 +8360,14 @@
         "locationStart": 226,
         "locationEnd": 245,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Wilhelmina Blekkink",
+        "category": "PER",
+        "locationStart": 226,
+        "locationEnd": 245,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_11",
@@ -8426,6 +8474,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Nederlandse Hervormde",
+        "category": "PER",
+        "locationStart": 271,
+        "locationEnd": 292,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Nederlandse Hervormde Kerk",
+        "category": "PER",
+        "locationStart": 271,
+        "locationEnd": 297,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_14",
         "category": "ORGANIZATION",
         "surfaceForm": "Leger des Heils",
@@ -8442,6 +8506,14 @@
         "tokenStart": 52,
         "tokenEnd": 54,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Hervormde Kerk",
+        "category": "PER",
+        "locationStart": 283,
+        "locationEnd": 297,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_15",
@@ -8504,6 +8576,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Leger des Heils",
+        "category": "PER",
+        "locationStart": 340,
+        "locationEnd": 355,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_18",
         "category": "PERSON",
         "surfaceForm": "Jezus Christus",
@@ -8556,6 +8636,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Den Helder",
+        "category": "PER",
+        "locationStart": 410,
+        "locationEnd": 420,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_3",
         "category": "LOC",
         "surfaceForm": "helder",
@@ -8606,6 +8694,14 @@
         "locationStart": 423,
         "locationEnd": 430,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "Haarlem en Amsterdam",
+        "category": "PER",
+        "locationStart": 423,
+        "locationEnd": 443,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_20",
@@ -8668,6 +8764,22 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "Het Leger",
+        "category": "PER",
+        "locationStart": 446,
+        "locationEnd": 455,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "Het Leger des Heils",
+        "category": "PER",
+        "locationStart": 446,
+        "locationEnd": 465,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_14",
         "surfaceForm": "Leger des Heils",
         "category": "ORG",
@@ -8702,6 +8814,14 @@
         "locationStart": 450,
         "locationEnd": 465,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "Leger des Heils",
+        "category": "PER",
+        "locationStart": 450,
+        "locationEnd": 465,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_22",
@@ -8846,6 +8966,46 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_15",
+        "surfaceForm": "Zion City",
+        "category": "PER",
+        "locationStart": 609,
+        "locationEnd": 618,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_17",
+        "surfaceForm": "Zion City waar Alexander",
+        "category": "PER",
+        "locationStart": 609,
+        "locationEnd": 633,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_19",
+        "surfaceForm": "Zion City waar Alexander Dowie",
+        "category": "PER",
+        "locationStart": 609,
+        "locationEnd": 639,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_16",
+        "surfaceForm": "City waar Alexander",
+        "category": "PER",
+        "locationStart": 614,
+        "locationEnd": 633,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_18",
+        "surfaceForm": "City waar Alexander Dowie",
+        "category": "PER",
+        "locationStart": 614,
+        "locationEnd": 639,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_32",
         "category": "LOCATION",
         "surfaceForm": "Delfzijl",
@@ -8904,6 +9064,14 @@
         "locationStart": 624,
         "locationEnd": 639,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_20",
+        "surfaceForm": "Alexander Dowie",
+        "category": "PER",
+        "locationStart": 624,
+        "locationEnd": 639,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_34",
@@ -8972,6 +9140,14 @@
         "locationStart": 708,
         "locationEnd": 722,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_21",
+        "surfaceForm": "Jezus Christus",
+        "category": "PER",
+        "locationStart": 708,
+        "locationEnd": 722,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_38",
@@ -9046,6 +9222,14 @@
         "locationStart": 850,
         "locationEnd": 865,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_22",
+        "surfaceForm": "Gods Koninkrijk",
+        "category": "PER",
+        "locationStart": 850,
+        "locationEnd": 865,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_44",
@@ -9166,6 +9350,14 @@
         "locationStart": 953,
         "locationEnd": 968,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_23",
+        "surfaceForm": "Alexander Dowie",
+        "category": "PER",
+        "locationStart": 953,
+        "locationEnd": 968,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_21",
@@ -9318,6 +9510,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_24",
+        "surfaceForm": "Polman in Amsterdam",
+        "category": "PER",
+        "locationStart": 1096,
+        "locationEnd": 1115,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_25",
         "surfaceForm": "Amsterdam",
         "category": "LOC",
@@ -9408,6 +9608,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_25",
+        "surfaceForm": "Verenigde Staten",
+        "category": "PER",
+        "locationStart": 1166,
+        "locationEnd": 1182,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_27",
         "surfaceForm": "Opwekking",
         "category": "ORG",
@@ -9434,6 +9642,22 @@
         "locationStart": 1212,
         "locationEnd": 1221,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_26",
+        "surfaceForm": "Opwekking in Azusa",
+        "category": "PER",
+        "locationStart": 1212,
+        "locationEnd": 1230,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_27",
+        "surfaceForm": "Opwekking in Azusa Street",
+        "category": "PER",
+        "locationStart": 1212,
+        "locationEnd": 1237,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_28",
@@ -9480,6 +9704,46 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_28",
+        "surfaceForm": "Azusa Street",
+        "category": "PER",
+        "locationStart": 1225,
+        "locationEnd": 1237,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_30",
+        "surfaceForm": "Azusa Street in Los",
+        "category": "PER",
+        "locationStart": 1225,
+        "locationEnd": 1244,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_32",
+        "surfaceForm": "Azusa Street in Los Angeles",
+        "category": "PER",
+        "locationStart": 1225,
+        "locationEnd": 1252,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_29",
+        "surfaceForm": "Street in Los",
+        "category": "PER",
+        "locationStart": 1231,
+        "locationEnd": 1244,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_31",
+        "surfaceForm": "Street in Los Angeles",
+        "category": "PER",
+        "locationStart": 1231,
+        "locationEnd": 1252,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_29",
         "surfaceForm": "Los Angeles",
         "category": "LOC",
@@ -9522,6 +9786,14 @@
         "locationStart": 1241,
         "locationEnd": 1252,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_33",
+        "surfaceForm": "Los Angeles",
+        "category": "PER",
+        "locationStart": 1241,
+        "locationEnd": 1252,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_30",
@@ -9718,6 +9990,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_34",
+        "surfaceForm": "Terschelling en Delfzijl",
+        "category": "PER",
+        "locationStart": 1480,
+        "locationEnd": 1504,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_35",
         "surfaceForm": "Delfzijl",
         "category": "LOC",
@@ -9778,6 +10058,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_35",
+        "surfaceForm": "Pinksterbeweging In",
+        "category": "PER",
+        "locationStart": 1507,
+        "locationEnd": 1526,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_36",
         "surfaceForm": "Nederlandse",
         "category": "MISC",
@@ -9794,6 +10082,14 @@
         "locationStart": 1552,
         "locationEnd": 1563,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_36",
+        "surfaceForm": "Nederlandse pinksterbeweging was Amsterdam",
+        "category": "PER",
+        "locationStart": 1552,
+        "locationEnd": 1594,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_37",
@@ -9864,6 +10160,14 @@
         "locationStart": 1687,
         "locationEnd": 1693,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_37",
+        "surfaceForm": "Andersom bezochten Polman",
+        "category": "PER",
+        "locationStart": 1687,
+        "locationEnd": 1712,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_38",
@@ -9954,6 +10258,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_38",
+        "surfaceForm": "Duitsland en Engeland",
+        "category": "PER",
+        "locationStart": 1788,
+        "locationEnd": 1809,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_40",
         "surfaceForm": "Engeland",
         "category": "LOC",
@@ -9998,6 +10310,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_39",
+        "surfaceForm": "In Amsterdam",
+        "category": "PER",
+        "locationStart": 1812,
+        "locationEnd": 1824,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_41",
+        "surfaceForm": "In Amsterdam begon Polman",
+        "category": "PER",
+        "locationStart": 1812,
+        "locationEnd": 1837,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_41",
         "surfaceForm": "Amsterdam",
         "category": "LOC",
@@ -10040,6 +10368,14 @@
         "locationStart": 1815,
         "locationEnd": 1824,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_40",
+        "surfaceForm": "Amsterdam begon Polman",
+        "category": "PER",
+        "locationStart": 1815,
+        "locationEnd": 1837,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_42",
@@ -10130,6 +10466,30 @@
         "locationStart": 1883,
         "locationEnd": 1897,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_42",
+        "surfaceForm": "De Spade",
+        "category": "PER",
+        "locationStart": 1883,
+        "locationEnd": 1891,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_43",
+        "surfaceForm": "De Spade Regen",
+        "category": "PER",
+        "locationStart": 1883,
+        "locationEnd": 1897,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_44",
+        "surfaceForm": "Spade Regen",
+        "category": "PER",
+        "locationStart": 1886,
+        "locationEnd": 1897,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_24",
@@ -10254,6 +10614,14 @@
         "locationStart": 2131,
         "locationEnd": 2136,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_45",
+        "surfaceForm": "Nadagen In",
+        "category": "PER",
+        "locationStart": 2139,
+        "locationEnd": 2149,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_46",
@@ -10432,6 +10800,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_46",
+        "surfaceForm": "Gerrit Polman",
+        "category": "PER",
+        "locationStart": 2494,
+        "locationEnd": 2507,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_37",
         "surfaceForm": ".",
         "category": "PER",
@@ -10518,6 +10894,14 @@
         "tokenStart": 449,
         "tokenEnd": 451,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_47",
+        "surfaceForm": "Gerrit Polman",
+        "category": "PER",
+        "locationStart": 2541,
+        "locationEnd": 2554,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "xlmr_ner_21",

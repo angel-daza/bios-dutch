@@ -862,6 +862,14 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Die Jakob",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 9,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_0",
         "surfaceForm": "Jakob",
         "category": "PER",
@@ -990,6 +998,14 @@
         "locationStart": 80,
         "locationEnd": 86,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Doelen tot Delf",
+        "category": "PER",
+        "locationStart": 80,
+        "locationEnd": 95,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_3",

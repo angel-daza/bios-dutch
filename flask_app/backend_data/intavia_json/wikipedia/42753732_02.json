@@ -1465,6 +1465,54 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Nicolaas Karel",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 14,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Nicolaas Karel Frederik",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 23,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Nicolaas Karel Frederik Land",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 28,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Karel Frederik",
+        "category": "PER",
+        "locationStart": 9,
+        "locationEnd": 23,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Karel Frederik Land",
+        "category": "PER",
+        "locationStart": 9,
+        "locationEnd": 28,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Frederik Land",
+        "category": "PER",
+        "locationStart": 15,
+        "locationEnd": 28,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_1",
         "category": "LOCATION",
         "surfaceForm": "Leeuwarden",
@@ -1705,6 +1753,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Handelsrecht en Burgerlijke",
+        "category": "PER",
+        "locationStart": 154,
+        "locationEnd": 181,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Handelsrecht en Burgerlijke Rechtsvordering",
+        "category": "PER",
+        "locationStart": 154,
+        "locationEnd": 197,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_5",
         "surfaceForm": "Burgerlijke Rechtsvordering",
         "category": "ORG",
@@ -1721,6 +1785,14 @@
         "locationStart": 170,
         "locationEnd": 197,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Burgerlijke Rechtsvordering",
+        "category": "PER",
+        "locationStart": 170,
+        "locationEnd": 197,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_10",
@@ -1825,6 +1897,46 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Romeins Recht",
+        "category": "PER",
+        "locationStart": 248,
+        "locationEnd": 261,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "Romeins Recht aan de Rijksuniversiteit",
+        "category": "PER",
+        "locationStart": 248,
+        "locationEnd": 286,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "Romeins Recht aan de Rijksuniversiteit Groningen",
+        "category": "PER",
+        "locationStart": 248,
+        "locationEnd": 296,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Recht aan de Rijksuniversiteit",
+        "category": "PER",
+        "locationStart": 256,
+        "locationEnd": 286,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "Recht aan de Rijksuniversiteit Groningen",
+        "category": "PER",
+        "locationStart": 256,
+        "locationEnd": 296,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_7",
         "surfaceForm": "Rijksuniversiteit Groningen",
         "category": "ORG",
@@ -1869,12 +1981,28 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "Rijksuniversiteit Groningen",
+        "category": "PER",
+        "locationStart": 269,
+        "locationEnd": 296,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_15",
         "category": "PERSON",
         "surfaceForm": "F.H. Bach",
         "locationStart": 286,
         "locationEnd": 294,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_15",
+        "surfaceForm": "In de Korrewegwijk",
+        "category": "PER",
+        "locationStart": 299,
+        "locationEnd": 317,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_8",
@@ -1937,6 +2065,22 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "spacy_matcher_nl_16",
+        "surfaceForm": "Zijn door F.H.",
+        "category": "PER",
+        "locationStart": 351,
+        "locationEnd": 365,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_17",
+        "surfaceForm": "Zijn door F.H. Bach",
+        "category": "PER",
+        "locationStart": 351,
+        "locationEnd": 370,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_18",
         "category": "ORGANIZATION",
         "surfaceForm": "Nederlands rechtsgeleerde",
@@ -1987,6 +2131,14 @@
         "locationStart": 361,
         "locationEnd": 370,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_18",
+        "surfaceForm": "F.H. Bach",
+        "category": "PER",
+        "locationStart": 361,
+        "locationEnd": 370,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_2",
@@ -2057,6 +2209,14 @@
         "locationStart": 439,
         "locationEnd": 449,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_19",
+        "surfaceForm": "Nederlands hoogleraar Categorie",
+        "category": "PER",
+        "locationStart": 439,
+        "locationEnd": 470,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_12",

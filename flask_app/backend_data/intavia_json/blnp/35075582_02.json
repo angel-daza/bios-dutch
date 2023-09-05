@@ -4503,6 +4503,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Zn. van Nicolaas",
+        "category": "PER",
+        "locationStart": 80,
+        "locationEnd": 96,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Zn. van Nicolaas Dornseiffen",
+        "category": "PER",
+        "locationStart": 80,
+        "locationEnd": 108,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_3",
         "surfaceForm": "Nicolaas Dornseiffen",
         "category": "PER",
@@ -4537,6 +4553,14 @@
         "locationStart": 88,
         "locationEnd": 108,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Nicolaas Dornseiffen",
+        "category": "PER",
+        "locationStart": 88,
+        "locationEnd": 108,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_7",
@@ -4599,6 +4623,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Margaretha Born",
+        "category": "PER",
+        "locationStart": 126,
+        "locationEnd": 141,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_9",
         "category": "ORGANIZATION",
         "surfaceForm": "Doopsgez. pred. Terhome",
@@ -4623,6 +4655,14 @@
         "locationStart": 168,
         "locationEnd": 188,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Seminarium Amsterdam",
+        "category": "PER",
+        "locationStart": 168,
+        "locationEnd": 188,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_10",
@@ -4809,12 +4849,36 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Agatha Johanna",
+        "category": "PER",
+        "locationStart": 274,
+        "locationEnd": 288,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Agatha Johanna Rutgers",
+        "category": "PER",
+        "locationStart": 274,
+        "locationEnd": 296,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_14",
         "category": "LOCATION",
         "surfaceForm": "Amsterdam",
         "locationStart": 275,
         "locationEnd": 284,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Johanna Rutgers",
+        "category": "PER",
+        "locationStart": 281,
+        "locationEnd": 296,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_15",
@@ -4929,6 +4993,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Feike Born",
+        "category": "PER",
+        "locationStart": 366,
+        "locationEnd": 376,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_19",
         "surfaceForm": "1825- 1887",
         "category": "TIME",
@@ -5005,6 +5077,14 @@
         "locationStart": 431,
         "locationEnd": 439,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Te Amsterdam",
+        "category": "PER",
+        "locationStart": 470,
+        "locationEnd": 482,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_11",
@@ -5093,6 +5173,38 @@
         "locationStart": 563,
         "locationEnd": 584,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "J.G. de Hoop",
+        "category": "PER",
+        "locationStart": 563,
+        "locationEnd": 575,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "J.G. de Hoop Scheffer",
+        "category": "PER",
+        "locationStart": 563,
+        "locationEnd": 584,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "Hoop Scheffer",
+        "category": "PER",
+        "locationStart": 571,
+        "locationEnd": 584,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "In Terhome",
+        "category": "PER",
+        "locationStart": 600,
+        "locationEnd": 610,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_13",
@@ -5275,6 +5387,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "Met hulp van Herman",
+        "category": "PER",
+        "locationStart": 1021,
+        "locationEnd": 1040,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_15",
+        "surfaceForm": "Met hulp van Herman Rut-",
+        "category": "PER",
+        "locationStart": 1021,
+        "locationEnd": 1045,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_17",
         "surfaceForm": "Herman Rut- gers",
         "category": "PER",
@@ -5317,6 +5445,14 @@
         "locationStart": 1034,
         "locationEnd": 1050,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_16",
+        "surfaceForm": "Herman Rut-",
+        "category": "PER",
+        "locationStart": 1034,
+        "locationEnd": 1045,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_18",

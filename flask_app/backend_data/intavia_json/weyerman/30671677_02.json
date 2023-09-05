@@ -598,6 +598,30 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Dien beroemde Dier-",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 19,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Dien beroemde Dier- Vogel-",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 26,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Dien beroemde Dier- Vogel- Vrucht-",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 34,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_0",
         "surfaceForm": "Dier- Vogel- Vrucht- en Bloemschilderis",
         "category": "MISC",
@@ -622,6 +646,62 @@
         "locationStart": 14,
         "locationEnd": 46,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Dier- Vogel-",
+        "category": "PER",
+        "locationStart": 14,
+        "locationEnd": 26,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Dier- Vogel- Vrucht-",
+        "category": "PER",
+        "locationStart": 14,
+        "locationEnd": 34,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Dier- Vogel- Vrucht- en Bloemschilderis",
+        "category": "PER",
+        "locationStart": 14,
+        "locationEnd": 53,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Vogel- Vrucht-",
+        "category": "PER",
+        "locationStart": 20,
+        "locationEnd": 34,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Vogel- Vrucht- en Bloemschilderis",
+        "category": "PER",
+        "locationStart": 20,
+        "locationEnd": 53,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Vrucht- en Bloemschilderis",
+        "category": "PER",
+        "locationStart": 27,
+        "locationEnd": 53,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Bloemschilderis geboren tot Antwerpen",
+        "category": "PER",
+        "locationStart": 38,
+        "locationEnd": 75,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_2",
@@ -734,6 +814,14 @@
         "locationStart": 143,
         "locationEnd": 156,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Tijdgenootvan den voorgaanden Zeeschilder",
+        "category": "PER",
+        "locationStart": 143,
+        "locationEnd": 184,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_3",

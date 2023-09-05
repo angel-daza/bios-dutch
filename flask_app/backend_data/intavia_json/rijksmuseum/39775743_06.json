@@ -904,6 +904,30 @@
     },
     "entities": [
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Portret van Hermannus",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 21,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Portret van Hermannus Pauw",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 26,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Portret van Hermannus Pauw Rond",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 31,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_0",
         "surfaceForm": "Hermannus Pauw",
         "category": "PER",
@@ -948,12 +972,84 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Hermannus Pauw",
+        "category": "PER",
+        "locationStart": 12,
+        "locationEnd": 26,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Hermannus Pauw Rond",
+        "category": "PER",
+        "locationStart": 12,
+        "locationEnd": 31,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Hermannus Pauw Rond portret van Hermannus",
+        "category": "PER",
+        "locationStart": 12,
+        "locationEnd": 53,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "Hermannus Pauw Rond portret van Hermannus Pauw",
+        "category": "PER",
+        "locationStart": 12,
+        "locationEnd": 58,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_0",
         "category": "PERSON",
         "surfaceForm": "Hermannus Pauw",
         "locationStart": 15,
         "locationEnd": 28,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Pauw Rond",
+        "category": "PER",
+        "locationStart": 22,
+        "locationEnd": 31,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Pauw Rond portret van Hermannus",
+        "category": "PER",
+        "locationStart": 22,
+        "locationEnd": 53,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Pauw Rond portret van Hermannus Pauw",
+        "category": "PER",
+        "locationStart": 22,
+        "locationEnd": 58,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Rond portret van Hermannus",
+        "category": "PER",
+        "locationStart": 27,
+        "locationEnd": 53,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Rond portret van Hermannus Pauw",
+        "category": "PER",
+        "locationStart": 27,
+        "locationEnd": 58,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_1",
@@ -998,6 +1094,14 @@
         "locationStart": 44,
         "locationEnd": 58,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "Hermannus Pauw",
+        "category": "PER",
+        "locationStart": 44,
+        "locationEnd": 58,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_1",
@@ -1216,6 +1320,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "Breda en Den",
+        "category": "PER",
+        "locationStart": 102,
+        "locationEnd": 114,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "Breda en Den Briel",
+        "category": "PER",
+        "locationStart": 102,
+        "locationEnd": 120,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_6",
         "surfaceForm": "Den Briel",
         "category": "LOC",
@@ -1258,6 +1378,14 @@
         "locationStart": 111,
         "locationEnd": 120,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_15",
+        "surfaceForm": "Den Briel",
+        "category": "PER",
+        "locationStart": 111,
+        "locationEnd": 120,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_0",

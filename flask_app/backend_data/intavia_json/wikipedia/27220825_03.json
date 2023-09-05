@@ -2568,6 +2568,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Jan George",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 10,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Jan George Bertelman",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 20,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "George Bertelman",
+        "category": "PER",
+        "locationStart": 4,
+        "locationEnd": 20,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_1",
         "category": "LOCATION",
         "surfaceForm": "Amsterdam",
@@ -2802,6 +2826,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Bertelman was in Amsterdam",
+        "category": "PER",
+        "locationStart": 128,
+        "locationEnd": 154,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_5",
         "surfaceForm": "Amsterdam",
         "category": "LOC",
@@ -2862,6 +2894,30 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Hij studeerde bij Jan",
+        "category": "PER",
+        "locationStart": 194,
+        "locationEnd": 215,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Hij studeerde bij Jan Daniel",
+        "category": "PER",
+        "locationStart": 194,
+        "locationEnd": 222,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Hij studeerde bij Jan Daniel Brachthuyser",
+        "category": "PER",
+        "locationStart": 194,
+        "locationEnd": 235,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_9",
         "category": "PERSON",
         "surfaceForm": "Johannes van Bree",
@@ -2912,6 +2968,30 @@
         "locationStart": 212,
         "locationEnd": 235,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Jan Daniel",
+        "category": "PER",
+        "locationStart": 212,
+        "locationEnd": 222,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Jan Daniel Brachthuyser",
+        "category": "PER",
+        "locationStart": 212,
+        "locationEnd": 235,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Daniel Brachthuyser",
+        "category": "PER",
+        "locationStart": 216,
+        "locationEnd": 235,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_10",
@@ -3018,6 +3098,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Bach kenners van Nederland",
+        "category": "PER",
+        "locationStart": 283,
+        "locationEnd": 309,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_9",
         "surfaceForm": "Nederland",
         "category": "LOC",
@@ -3114,6 +3202,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "Johannes van Bree",
+        "category": "PER",
+        "locationStart": 355,
+        "locationEnd": 372,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_15",
         "category": "PERSON",
         "surfaceForm": "Johannes Jacobus Bertelman",
@@ -3166,6 +3262,62 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "Richard Hol",
+        "category": "PER",
+        "locationStart": 375,
+        "locationEnd": 386,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "Richard Hol en Hermina",
+        "category": "PER",
+        "locationStart": 375,
+        "locationEnd": 397,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_16",
+        "surfaceForm": "Richard Hol en Hermina Maria",
+        "category": "PER",
+        "locationStart": 375,
+        "locationEnd": 403,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_19",
+        "surfaceForm": "Richard Hol en Hermina Maria Dijk",
+        "category": "PER",
+        "locationStart": 375,
+        "locationEnd": 408,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "Hol en Hermina",
+        "category": "PER",
+        "locationStart": 383,
+        "locationEnd": 397,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_15",
+        "surfaceForm": "Hol en Hermina Maria",
+        "category": "PER",
+        "locationStart": 383,
+        "locationEnd": 403,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_18",
+        "surfaceForm": "Hol en Hermina Maria Dijk",
+        "category": "PER",
+        "locationStart": 383,
+        "locationEnd": 408,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_12",
         "surfaceForm": "Hermina Maria Dijk",
         "category": "PER",
@@ -3208,6 +3360,30 @@
         "locationStart": 390,
         "locationEnd": 408,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_17",
+        "surfaceForm": "Hermina Maria",
+        "category": "PER",
+        "locationStart": 390,
+        "locationEnd": 403,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_20",
+        "surfaceForm": "Hermina Maria Dijk",
+        "category": "PER",
+        "locationStart": 390,
+        "locationEnd": 408,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_21",
+        "surfaceForm": "Maria Dijk",
+        "category": "PER",
+        "locationStart": 398,
+        "locationEnd": 408,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_16",
@@ -3262,6 +3438,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_22",
+        "surfaceForm": "Orde van de Nederlandse",
+        "category": "PER",
+        "locationStart": 451,
+        "locationEnd": 474,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_23",
+        "surfaceForm": "Orde van de Nederlandse Leeuw",
+        "category": "PER",
+        "locationStart": 451,
+        "locationEnd": 480,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_24",
+        "surfaceForm": "Nederlandse Leeuw",
+        "category": "PER",
+        "locationStart": 463,
+        "locationEnd": 480,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_18",
         "category": "ORGANIZATION",
         "surfaceForm": "Catharina Gasthuis",
@@ -3312,6 +3512,30 @@
         "locationStart": 483,
         "locationEnd": 503,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_25",
+        "surfaceForm": "Jan George",
+        "category": "PER",
+        "locationStart": 483,
+        "locationEnd": 493,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_26",
+        "surfaceForm": "Jan George Bertelman",
+        "category": "PER",
+        "locationStart": 483,
+        "locationEnd": 503,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_27",
+        "surfaceForm": "George Bertelman",
+        "category": "PER",
+        "locationStart": 487,
+        "locationEnd": 503,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_19",
@@ -3374,12 +3598,60 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_28",
+        "surfaceForm": "Dorothea Christina",
+        "category": "PER",
+        "locationStart": 519,
+        "locationEnd": 537,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_29",
+        "surfaceForm": "Dorothea Christina Kathman",
+        "category": "PER",
+        "locationStart": 519,
+        "locationEnd": 545,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_21",
         "category": "ORGANIZATION",
         "surfaceForm": "Maatschappij Felix Meritis",
         "locationStart": 527,
         "locationEnd": 551,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_30",
+        "surfaceForm": "Christina Kathman",
+        "category": "PER",
+        "locationStart": 528,
+        "locationEnd": 545,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_31",
+        "surfaceForm": "Hun zoon Johannes",
+        "category": "PER",
+        "locationStart": 547,
+        "locationEnd": 564,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_32",
+        "surfaceForm": "Hun zoon Johannes Jacobus",
+        "category": "PER",
+        "locationStart": 547,
+        "locationEnd": 572,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_34",
+        "surfaceForm": "Hun zoon Johannes Jacobus Bertelman",
+        "category": "PER",
+        "locationStart": 547,
+        "locationEnd": 582,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_22",
@@ -3432,6 +3704,30 @@
         "locationStart": 556,
         "locationEnd": 582,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_33",
+        "surfaceForm": "Johannes Jacobus",
+        "category": "PER",
+        "locationStart": 556,
+        "locationEnd": 572,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_35",
+        "surfaceForm": "Johannes Jacobus Bertelman",
+        "category": "PER",
+        "locationStart": 556,
+        "locationEnd": 582,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_36",
+        "surfaceForm": "Jacobus Bertelman",
+        "category": "PER",
+        "locationStart": 565,
+        "locationEnd": 582,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_17",
@@ -3550,6 +3846,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_37",
+        "surfaceForm": "Catharina Gasthuis",
+        "category": "PER",
+        "locationStart": 692,
+        "locationEnd": 710,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_38",
+        "surfaceForm": "Diverse composities van Bertelman",
+        "category": "PER",
+        "locationStart": 714,
+        "locationEnd": 747,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_39",
+        "surfaceForm": "Diverse composities van Bertelman De",
+        "category": "PER",
+        "locationStart": 714,
+        "locationEnd": 750,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_20",
         "surfaceForm": "Bertelman",
         "category": "PER",
@@ -3586,12 +3906,36 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_40",
+        "surfaceForm": "Bertelman De",
+        "category": "PER",
+        "locationStart": 738,
+        "locationEnd": 750,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_42",
+        "surfaceForm": "Bertelman De slag bij Nieuwpoort",
+        "category": "PER",
+        "locationStart": 738,
+        "locationEnd": 770,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_5",
         "category": "MISC",
         "surfaceForm": "De slag bij Nieuwpoort",
         "locationStart": 748,
         "locationEnd": 770,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_41",
+        "surfaceForm": "De slag bij Nieuwpoort",
+        "category": "PER",
+        "locationStart": 748,
+        "locationEnd": 770,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_22",
@@ -3666,12 +4010,36 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_43",
+        "surfaceForm": "Maatschappij Felix",
+        "category": "PER",
+        "locationStart": 812,
+        "locationEnd": 830,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_44",
+        "surfaceForm": "Maatschappij Felix Meritis",
+        "category": "PER",
+        "locationStart": 812,
+        "locationEnd": 838,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "xlmr_ner_7",
         "category": "ORG",
         "surfaceForm": "Felix Meritis",
         "locationStart": 825,
         "locationEnd": 838,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_45",
+        "surfaceForm": "Felix Meritis",
+        "category": "PER",
+        "locationStart": 825,
+        "locationEnd": 838,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_23",

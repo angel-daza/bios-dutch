@@ -972,6 +972,14 @@
     },
     "entities": [
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Telg van een Bossche",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 20,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_0",
         "surfaceForm": "Bossche",
         "category": "MISC",
@@ -1032,6 +1040,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Had tijdens Lodewijk",
+        "category": "PER",
+        "locationStart": 122,
+        "locationEnd": 142,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Had tijdens Lodewijk Napoleon",
+        "category": "PER",
+        "locationStart": 122,
+        "locationEnd": 151,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_2",
         "surfaceForm": "Lodewijk Napoleon",
         "category": "PER",
@@ -1056,6 +1080,14 @@
         "locationStart": 134,
         "locationEnd": 142,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Lodewijk Napoleon",
+        "category": "PER",
+        "locationStart": 134,
+        "locationEnd": 151,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "xlmr_ner_1",
@@ -1152,6 +1184,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Die Staten",
+        "category": "PER",
+        "locationStart": 245,
+        "locationEnd": 255,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_6",
         "surfaceForm": "Staten",
         "category": "LOC",
@@ -1194,6 +1234,14 @@
         "locationStart": 278,
         "locationEnd": 293,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Tweede Kamerlid",
+        "category": "PER",
+        "locationStart": 278,
+        "locationEnd": 293,
+        "method": "spacy_matcher_nl"
       }
     ],
     "time_expressions": [

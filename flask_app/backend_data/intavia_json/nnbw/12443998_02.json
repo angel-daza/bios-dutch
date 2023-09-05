@@ -1652,6 +1652,14 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Te Mechelen",
+        "category": "PER",
+        "locationStart": 80,
+        "locationEnd": 91,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_2",
         "surfaceForm": "Mechelen",
         "category": "LOC",
@@ -1912,6 +1920,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "G.A. Meijer",
+        "category": "PER",
+        "locationStart": 383,
+        "locationEnd": 394,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_5",
         "category": "PER",
         "surfaceForm": "Meijer",
@@ -1936,6 +1952,14 @@
         "locationStart": 399,
         "locationEnd": 411,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Predikheeren te 's Hertogenbosch",
+        "category": "PER",
+        "locationStart": 399,
+        "locationEnd": 431,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_3",
@@ -2036,6 +2060,14 @@
         "locationStart": 453,
         "locationEnd": 464,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "G.A. Meijer",
+        "category": "PER",
+        "locationStart": 453,
+        "locationEnd": 464,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_4",

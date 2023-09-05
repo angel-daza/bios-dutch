@@ -24597,6 +24597,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Andries van Haeften?-1500",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 25,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Andries van Haeften?-1500 De",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 28,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_17",
         "surfaceForm": "Haeften?-1500",
         "category": "TIME",
@@ -24605,6 +24621,14 @@
         "tokenStart": 2,
         "tokenEnd": 3,
         "method": "human_gold"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Haeften?-1500 De",
+        "category": "PER",
+        "locationStart": 12,
+        "locationEnd": 28,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_1",
@@ -24649,6 +24673,14 @@
         "locationStart": 58,
         "locationEnd": 77,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Andries van Haeften",
+        "category": "PER",
+        "locationStart": 58,
+        "locationEnd": 77,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_1",
@@ -24727,6 +24759,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Hele Suzeler",
+        "category": "PER",
+        "locationStart": 138,
+        "locationEnd": 150,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_5",
         "category": "LOCATION",
         "surfaceForm": "Gelderse",
@@ -24795,6 +24835,14 @@
         "locationStart": 171,
         "locationEnd": 182,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Van Haeften",
+        "category": "PER",
+        "locationStart": 171,
+        "locationEnd": 182,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_6",
@@ -24881,6 +24929,14 @@
         "locationStart": 259,
         "locationEnd": 278,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Andries van Haeften",
+        "category": "PER",
+        "locationStart": 259,
+        "locationEnd": 278,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_8",
@@ -25205,6 +25261,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Agnes van Wisch",
+        "category": "PER",
+        "locationStart": 860,
+        "locationEnd": 875,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_26",
         "category": "LOCATION",
         "surfaceForm": "Utrecht",
@@ -25273,6 +25337,14 @@
         "locationStart": 909,
         "locationEnd": 932,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Gijsbert van Bronkhorst",
+        "category": "PER",
+        "locationStart": 909,
+        "locationEnd": 932,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_11",
@@ -25497,6 +25569,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Andries versus Agnes",
+        "category": "PER",
+        "locationStart": 1266,
+        "locationEnd": 1286,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_16",
         "surfaceForm": "Agnes",
         "category": "PER",
@@ -25577,6 +25657,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Jacob van Bronkhorst",
+        "category": "PER",
+        "locationStart": 1300,
+        "locationEnd": 1320,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_6",
         "surfaceForm": "kasteel Anholt",
         "category": "LOC",
@@ -25637,6 +25725,14 @@
         "locationStart": 1384,
         "locationEnd": 1388,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "Inmiddels had Andries",
+        "category": "PER",
+        "locationStart": 1505,
+        "locationEnd": 1526,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_19",
@@ -25953,6 +26049,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "Van Haeften",
+        "category": "PER",
+        "locationStart": 2897,
+        "locationEnd": 2908,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_33",
         "category": "LOC",
         "surfaceForm": "Haeften",
@@ -26003,6 +26107,14 @@
         "locationStart": 3314,
         "locationEnd": 3325,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "Duitse Rijk",
+        "category": "PER",
+        "locationStart": 3314,
+        "locationEnd": 3325,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_27",
@@ -26159,6 +26271,22 @@
         "method": "human_gold"
       },
       {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "Of Andries",
+        "category": "PER",
+        "locationStart": 3737,
+        "locationEnd": 3747,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_16",
+        "surfaceForm": "Of Andries van Haeften",
+        "category": "PER",
+        "locationStart": 3737,
+        "locationEnd": 3759,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_31",
         "surfaceForm": "Andries van Haeften",
         "category": "PER",
@@ -26201,6 +26329,14 @@
         "locationStart": 3740,
         "locationEnd": 3759,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_15",
+        "surfaceForm": "Andries van Haeften",
+        "category": "PER",
+        "locationStart": 3740,
+        "locationEnd": 3759,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_31",
@@ -26319,6 +26455,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_17",
+        "surfaceForm": "Grote Rode",
+        "category": "PER",
+        "locationStart": 3919,
+        "locationEnd": 3929,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_18",
+        "surfaceForm": "Grote Rode Toren",
+        "category": "PER",
+        "locationStart": 3919,
+        "locationEnd": 3935,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_19",
+        "surfaceForm": "Rode Toren",
+        "category": "PER",
+        "locationStart": 3925,
+        "locationEnd": 3935,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_34",
         "surfaceForm": "Zutphen",
         "category": "LOC",
@@ -26405,6 +26565,30 @@
         "locationStart": 3991,
         "locationEnd": 4006,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_20",
+        "surfaceForm": "Lange Hofstraat",
+        "category": "PER",
+        "locationStart": 3991,
+        "locationEnd": 4006,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_22",
+        "surfaceForm": "Lange Hofstraat en de Rodetorenstraat",
+        "category": "PER",
+        "locationStart": 3991,
+        "locationEnd": 4028,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_21",
+        "surfaceForm": "Hofstraat en de Rodetorenstraat",
+        "category": "PER",
+        "locationStart": 3997,
+        "locationEnd": 4028,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_36",
@@ -26623,6 +26807,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_23",
+        "surfaceForm": "Grote Rode",
+        "category": "PER",
+        "locationStart": 4536,
+        "locationEnd": 4546,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_24",
+        "surfaceForm": "Grote Rode Toren",
+        "category": "PER",
+        "locationStart": 4536,
+        "locationEnd": 4552,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_25",
+        "surfaceForm": "Rode Toren",
+        "category": "PER",
+        "locationStart": 4542,
+        "locationEnd": 4552,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_44",
         "surfaceForm": "Eind 1494",
         "category": "TIME",
@@ -26683,6 +26891,14 @@
         "locationStart": 4699,
         "locationEnd": 4716,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_26",
+        "surfaceForm": "Nicasius Hackeney",
+        "category": "PER",
+        "locationStart": 4699,
+        "locationEnd": 4716,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_42",
@@ -26845,6 +27061,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_27",
+        "surfaceForm": "Karel van Gelre",
+        "category": "PER",
+        "locationStart": 4966,
+        "locationEnd": 4981,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_28",
+        "surfaceForm": "Gelre en de Habsburgers",
+        "category": "PER",
+        "locationStart": 4976,
+        "locationEnd": 4999,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_46",
         "surfaceForm": "Habsburgers",
         "category": "MISC",
@@ -26915,6 +27147,30 @@
         "locationStart": 5086,
         "locationEnd": 5102,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_29",
+        "surfaceForm": "Grote Rode",
+        "category": "PER",
+        "locationStart": 5086,
+        "locationEnd": 5096,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_30",
+        "surfaceForm": "Grote Rode Toren",
+        "category": "PER",
+        "locationStart": 5086,
+        "locationEnd": 5102,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_31",
+        "surfaceForm": "Rode Toren",
+        "category": "PER",
+        "locationStart": 5092,
+        "locationEnd": 5102,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_53",
@@ -27175,6 +27431,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_32",
+        "surfaceForm": "Karel van Gelre",
+        "category": "PER",
+        "locationStart": 5622,
+        "locationEnd": 5637,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_53",
         "surfaceForm": "Veluwe",
         "category": "LOC",
@@ -27299,6 +27563,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_33",
+        "surfaceForm": "Karel mee naar Brussel",
+        "category": "PER",
+        "locationStart": 5883,
+        "locationEnd": 5905,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_56",
         "surfaceForm": "Brussel",
         "category": "LOC",
@@ -27387,6 +27659,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_34",
+        "surfaceForm": "Filips de Schone",
+        "category": "PER",
+        "locationStart": 6025,
+        "locationEnd": 6041,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_35",
+        "surfaceForm": "Overtuigender bewijs dat Van",
+        "category": "PER",
+        "locationStart": 6043,
+        "locationEnd": 6071,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_36",
+        "surfaceForm": "Overtuigender bewijs dat Van Haeften",
+        "category": "PER",
+        "locationStart": 6043,
+        "locationEnd": 6079,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_58",
         "surfaceForm": "Van Haeften",
         "category": "PER",
@@ -27429,6 +27725,14 @@
         "locationStart": 6068,
         "locationEnd": 6079,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_37",
+        "surfaceForm": "Van Haeften",
+        "category": "PER",
+        "locationStart": 6068,
+        "locationEnd": 6079,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_59",
@@ -27663,6 +27967,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "spacy_matcher_nl_38",
+        "surfaceForm": "Sint Walburg",
+        "category": "PER",
+        "locationStart": 6785,
+        "locationEnd": 6797,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "xlmr_ner_71",
         "category": "LOC",
         "surfaceForm": "Sint Walburg",
@@ -27713,6 +28025,30 @@
         "locationStart": 6825,
         "locationEnd": 6841,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_39",
+        "surfaceForm": "Grote Rode",
+        "category": "PER",
+        "locationStart": 6825,
+        "locationEnd": 6835,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_40",
+        "surfaceForm": "Grote Rode Toren",
+        "category": "PER",
+        "locationStart": 6825,
+        "locationEnd": 6841,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_41",
+        "surfaceForm": "Rode Toren",
+        "category": "PER",
+        "locationStart": 6831,
+        "locationEnd": 6841,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_66",
@@ -27905,6 +28241,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_42",
+        "surfaceForm": "Egbert en Gese",
+        "category": "PER",
+        "locationStart": 7326,
+        "locationEnd": 7340,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_43",
+        "surfaceForm": "Egbert en Gese Suzeler",
+        "category": "PER",
+        "locationStart": 7326,
+        "locationEnd": 7348,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_69",
         "surfaceForm": "Gese Suzeler",
         "category": "PER",
@@ -27947,6 +28299,14 @@
         "locationStart": 7336,
         "locationEnd": 7348,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_44",
+        "surfaceForm": "Gese Suzeler",
+        "category": "PER",
+        "locationStart": 7336,
+        "locationEnd": 7348,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_70",
@@ -28019,6 +28379,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_45",
+        "surfaceForm": "De families Van",
+        "category": "PER",
+        "locationStart": 7462,
+        "locationEnd": 7477,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_46",
+        "surfaceForm": "De families Van Haeften",
+        "category": "PER",
+        "locationStart": 7462,
+        "locationEnd": 7485,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_71",
         "surfaceForm": "Van Haeften",
         "category": "PER",
@@ -28063,12 +28439,36 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_47",
+        "surfaceForm": "Van Haeften",
+        "category": "PER",
+        "locationStart": 7474,
+        "locationEnd": 7485,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_49",
+        "surfaceForm": "Van Haeften en Suzeler",
+        "category": "PER",
+        "locationStart": 7474,
+        "locationEnd": 7496,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "xlmr_ner_78",
         "category": "PER",
         "surfaceForm": "Haeften",
         "locationStart": 7478,
         "locationEnd": 7485,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_48",
+        "surfaceForm": "Haeften en Suzeler",
+        "category": "PER",
+        "locationStart": 7478,
+        "locationEnd": 7496,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_72",
@@ -28169,6 +28569,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_50",
+        "surfaceForm": "Andries hertrouwde Hele",
+        "category": "PER",
+        "locationStart": 7618,
+        "locationEnd": 7641,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_91",
         "surfaceForm": "Hele",
         "category": "PER",
@@ -28185,6 +28593,14 @@
         "locationStart": 7637,
         "locationEnd": 7641,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_51",
+        "surfaceForm": "Hele met Frans",
+        "category": "PER",
+        "locationStart": 7637,
+        "locationEnd": 7651,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_74",
@@ -28229,6 +28645,14 @@
         "locationStart": 7646,
         "locationEnd": 7660,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_52",
+        "surfaceForm": "Frans de Witte",
+        "category": "PER",
+        "locationStart": 7646,
+        "locationEnd": 7660,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_75",
@@ -28429,6 +28853,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_53",
+        "surfaceForm": "Agnes en Jacob",
+        "category": "PER",
+        "locationStart": 7792,
+        "locationEnd": 7806,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_80",
         "surfaceForm": "Jacob",
         "category": "PER",
@@ -28489,6 +28921,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_54",
+        "surfaceForm": "Particuliere Charters",
+        "category": "PER",
+        "locationStart": 8007,
+        "locationEnd": 8028,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_82",
         "surfaceForm": "Grote Rode Toren",
         "category": "MISC",
@@ -28513,6 +28953,30 @@
         "locationStart": 8062,
         "locationEnd": 8078,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_55",
+        "surfaceForm": "Grote Rode",
+        "category": "PER",
+        "locationStart": 8062,
+        "locationEnd": 8072,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_56",
+        "surfaceForm": "Grote Rode Toren",
+        "category": "PER",
+        "locationStart": 8062,
+        "locationEnd": 8078,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_57",
+        "surfaceForm": "Rode Toren",
+        "category": "PER",
+        "locationStart": 8068,
+        "locationEnd": 8078,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_82",

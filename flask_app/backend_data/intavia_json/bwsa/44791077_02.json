@@ -8154,6 +8154,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Den Haag",
+        "category": "PER",
+        "locationStart": 103,
+        "locationEnd": 111,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_0",
         "category": "LOC",
         "surfaceForm": "haag",
@@ -8232,12 +8240,36 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Siebren Jelles",
+        "category": "PER",
+        "locationStart": 152,
+        "locationEnd": 166,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Siebren Jelles van Veen",
+        "category": "PER",
+        "locationStart": 152,
+        "locationEnd": 175,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_7",
         "category": "PERSON",
         "surfaceForm": "Van Veen",
         "locationStart": 157,
         "locationEnd": 165,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Jelles van Veen",
+        "category": "PER",
+        "locationStart": 160,
+        "locationEnd": 175,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_8",
@@ -8290,6 +8322,30 @@
         "locationStart": 191,
         "locationEnd": 214,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Sjoukje Sjoerds",
+        "category": "PER",
+        "locationStart": 191,
+        "locationEnd": 206,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Sjoukje Sjoerds Dykstra",
+        "category": "PER",
+        "locationStart": 191,
+        "locationEnd": 214,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Sjoerds Dykstra",
+        "category": "PER",
+        "locationStart": 199,
+        "locationEnd": 214,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_9",
@@ -8370,6 +8426,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Johanna Hage",
+        "category": "PER",
+        "locationStart": 265,
+        "locationEnd": 277,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_11",
         "category": "LOCATION",
         "surfaceForm": "Nijehorne",
@@ -8438,6 +8502,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Van Veen",
+        "category": "PER",
+        "locationStart": 330,
+        "locationEnd": 338,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_14",
         "category": "LOCATION",
         "surfaceForm": "Friese Zuidoosthoek",
@@ -8488,6 +8560,14 @@
         "locationStart": 404,
         "locationEnd": 412,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Van Veen",
+        "category": "PER",
+        "locationStart": 404,
+        "locationEnd": 412,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_20",
@@ -8684,6 +8764,14 @@
         "locationStart": 590,
         "locationEnd": 606,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Hij verlangde naar Friesland",
+        "category": "PER",
+        "locationStart": 601,
+        "locationEnd": 629,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_10",
@@ -8908,6 +8996,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "Te Nijehorne",
+        "category": "PER",
+        "locationStart": 789,
+        "locationEnd": 801,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_14",
         "surfaceForm": "Nijehorne",
         "category": "PER",
@@ -9006,6 +9102,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "Sociaal-Democratische Bond",
+        "category": "PER",
+        "locationStart": 842,
+        "locationEnd": 868,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_36",
         "surfaceForm": "Van 1890 tot 1896",
         "category": "TIME",
@@ -9060,6 +9164,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "Friese Zuidoosthoek",
+        "category": "PER",
+        "locationStart": 951,
+        "locationEnd": 970,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_9",
         "category": "LOC",
         "surfaceForm": "Zuidoosthoek",
@@ -9110,6 +9222,14 @@
         "locationStart": 1123,
         "locationEnd": 1131,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "Van Veen",
+        "category": "PER",
+        "locationStart": 1123,
+        "locationEnd": 1131,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_3",
@@ -9168,6 +9288,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_15",
+        "surfaceForm": "Den Haag",
+        "category": "PER",
+        "locationStart": 1363,
+        "locationEnd": 1371,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_19",
         "surfaceForm": "Van Veen",
         "category": "PER",
@@ -9212,6 +9340,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_16",
+        "surfaceForm": "Van Veen",
+        "category": "PER",
+        "locationStart": 1537,
+        "locationEnd": 1545,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_20",
         "surfaceForm": "F. Domela Nieuwenhuis",
         "category": "PER",
@@ -9248,6 +9384,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_17",
+        "surfaceForm": "F. Domela",
+        "category": "PER",
+        "locationStart": 1600,
+        "locationEnd": 1609,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_18",
+        "surfaceForm": "F. Domela Nieuwenhuis",
+        "category": "PER",
+        "locationStart": 1600,
+        "locationEnd": 1621,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_17",
         "category": "PER",
         "surfaceForm": "Domela Nieuwenhuis",
@@ -9262,6 +9414,14 @@
         "locationStart": 1603,
         "locationEnd": 1621,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_19",
+        "surfaceForm": "Domela Nieuwenhuis",
+        "category": "PER",
+        "locationStart": 1603,
+        "locationEnd": 1621,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_21",
@@ -9300,12 +9460,36 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_20",
+        "surfaceForm": "G.L. van der Zwaag",
+        "category": "PER",
+        "locationStart": 1682,
+        "locationEnd": 1700,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_17",
         "category": "PER",
         "surfaceForm": "van der zwaag",
         "locationStart": 1687,
         "locationEnd": 1700,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_21",
+        "surfaceForm": "Zwaag gaf Van",
+        "category": "PER",
+        "locationStart": 1695,
+        "locationEnd": 1708,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_22",
+        "surfaceForm": "Zwaag gaf Van Veen",
+        "category": "PER",
+        "locationStart": 1695,
+        "locationEnd": 1713,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_22",
@@ -9352,6 +9536,46 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_23",
+        "surfaceForm": "Van Veen",
+        "category": "PER",
+        "locationStart": 1705,
+        "locationEnd": 1713,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_25",
+        "surfaceForm": "Van Veen in De",
+        "category": "PER",
+        "locationStart": 1705,
+        "locationEnd": 1719,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_27",
+        "surfaceForm": "Van Veen in De Klok",
+        "category": "PER",
+        "locationStart": 1705,
+        "locationEnd": 1724,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_24",
+        "surfaceForm": "Veen in De",
+        "category": "PER",
+        "locationStart": 1709,
+        "locationEnd": 1719,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_26",
+        "surfaceForm": "Veen in De Klok",
+        "category": "PER",
+        "locationStart": 1709,
+        "locationEnd": 1724,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_23",
         "surfaceForm": "De Klok",
         "category": "MISC",
@@ -9386,6 +9610,14 @@
         "locationStart": 1717,
         "locationEnd": 1724,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_28",
+        "surfaceForm": "De Klok",
+        "category": "PER",
+        "locationStart": 1717,
+        "locationEnd": 1724,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_24",
@@ -9432,6 +9664,46 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_29",
+        "surfaceForm": "Van Veen",
+        "category": "PER",
+        "locationStart": 1812,
+        "locationEnd": 1820,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_31",
+        "surfaceForm": "Van Veen in de Friese",
+        "category": "PER",
+        "locationStart": 1812,
+        "locationEnd": 1833,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_33",
+        "surfaceForm": "Van Veen in de Friese Zuidoosthoek",
+        "category": "PER",
+        "locationStart": 1812,
+        "locationEnd": 1846,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_30",
+        "surfaceForm": "Veen in de Friese",
+        "category": "PER",
+        "locationStart": 1816,
+        "locationEnd": 1833,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_32",
+        "surfaceForm": "Veen in de Friese Zuidoosthoek",
+        "category": "PER",
+        "locationStart": 1816,
+        "locationEnd": 1846,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_25",
         "surfaceForm": "Friese Zuidoosthoek",
         "category": "LOC",
@@ -9466,6 +9738,14 @@
         "locationStart": 1827,
         "locationEnd": 1832,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_34",
+        "surfaceForm": "Friese Zuidoosthoek",
+        "category": "PER",
+        "locationStart": 1827,
+        "locationEnd": 1846,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_19",
@@ -9508,6 +9788,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "spacy_matcher_nl_35",
+        "surfaceForm": "J.J. Kalma",
+        "category": "PER",
+        "locationStart": 1966,
+        "locationEnd": 1976,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "xlmr_ner_20",
         "category": "PER",
         "surfaceForm": "J.J. Kalma",
@@ -9532,6 +9820,22 @@
         "locationStart": 1971,
         "locationEnd": 1976,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_36",
+        "surfaceForm": "Wie was Sjoerd",
+        "category": "PER",
+        "locationStart": 1979,
+        "locationEnd": 1993,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_37",
+        "surfaceForm": "Wie was Sjoerd Sibrens",
+        "category": "PER",
+        "locationStart": 1979,
+        "locationEnd": 2001,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_27",
@@ -9568,6 +9872,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_38",
+        "surfaceForm": "Sjoerd Sibrens",
+        "category": "PER",
+        "locationStart": 1987,
+        "locationEnd": 2001,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_40",
+        "surfaceForm": "Sjoerd Sibrens van Veen",
+        "category": "PER",
+        "locationStart": 1987,
+        "locationEnd": 2010,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_39",
+        "surfaceForm": "Sibrens van Veen",
+        "category": "PER",
+        "locationStart": 1994,
+        "locationEnd": 2010,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_28",
         "surfaceForm": "Leeuwarder Courant",
         "category": "ORG",
@@ -9602,6 +9930,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_41",
+        "surfaceForm": "Leeuwarder Courant",
+        "category": "PER",
+        "locationStart": 2017,
+        "locationEnd": 2035,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_29",
         "surfaceForm": "J.J. Kalma",
         "category": "PER",
@@ -9626,6 +9962,14 @@
         "locationStart": 2048,
         "locationEnd": 2085,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_42",
+        "surfaceForm": "J.J. Kalma",
+        "category": "PER",
+        "locationStart": 2048,
+        "locationEnd": 2058,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_21",
@@ -9668,6 +10012,30 @@
         "locationStart": 2061,
         "locationEnd": 2085,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_43",
+        "surfaceForm": "Sjoerd Siebrens",
+        "category": "PER",
+        "locationStart": 2061,
+        "locationEnd": 2076,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_45",
+        "surfaceForm": "Sjoerd Siebrens van Veen",
+        "category": "PER",
+        "locationStart": 2061,
+        "locationEnd": 2085,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_44",
+        "surfaceForm": "Siebrens van Veen",
+        "category": "PER",
+        "locationStart": 2068,
+        "locationEnd": 2085,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_31",
@@ -9738,6 +10106,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_46",
+        "surfaceForm": "J. Frieswijk",
+        "category": "PER",
+        "locationStart": 2122,
+        "locationEnd": 2134,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_25",
         "category": "PER",
         "surfaceForm": "Frieswijk",
@@ -9754,6 +10130,14 @@
         "tokenStart": 400,
         "tokenEnd": 401,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_47",
+        "surfaceForm": "Socialisme in Friesland",
+        "category": "PER",
+        "locationStart": 2136,
+        "locationEnd": 2159,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_25",
@@ -9834,6 +10218,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "spacy_matcher_nl_48",
+        "surfaceForm": "S.S. van Veen",
+        "category": "PER",
+        "locationStart": 2189,
+        "locationEnd": 2202,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "xlmr_ner_23",
         "category": "LOC",
         "surfaceForm": "S.S. van Veen",
@@ -9874,6 +10266,14 @@
         "locationStart": 2242,
         "locationEnd": 2259,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_49",
+        "surfaceForm": "Friesch Volksblad",
+        "category": "PER",
+        "locationStart": 2242,
+        "locationEnd": 2259,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_25",
@@ -9918,6 +10318,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_50",
+        "surfaceForm": "Veen in het Biografisch",
+        "category": "PER",
+        "locationStart": 2271,
+        "locationEnd": 2294,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_51",
+        "surfaceForm": "Veen in het Biografisch Portaal",
+        "category": "PER",
+        "locationStart": 2271,
+        "locationEnd": 2302,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_53",
+        "surfaceForm": "Veen in het Biografisch Portaal Auteur",
+        "category": "PER",
+        "locationStart": 2271,
+        "locationEnd": 2309,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_39",
         "surfaceForm": "Biografisch Portaal Auteur",
         "category": "MISC",
@@ -9934,6 +10358,30 @@
         "locationStart": 2283,
         "locationEnd": 2302,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_52",
+        "surfaceForm": "Biografisch Portaal",
+        "category": "PER",
+        "locationStart": 2283,
+        "locationEnd": 2302,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_54",
+        "surfaceForm": "Biografisch Portaal Auteur",
+        "category": "PER",
+        "locationStart": 2283,
+        "locationEnd": 2309,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_55",
+        "surfaceForm": "Portaal Auteur",
+        "category": "PER",
+        "locationStart": 2295,
+        "locationEnd": 2309,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_40",
@@ -9962,12 +10410,36 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "spacy_matcher_nl_56",
+        "surfaceForm": "J.J. Kalma",
+        "category": "PER",
+        "locationStart": 2310,
+        "locationEnd": 2320,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_57",
+        "surfaceForm": "J.J. Kalma Oorspronkelijk",
+        "category": "PER",
+        "locationStart": 2310,
+        "locationEnd": 2335,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_27",
         "category": "PER",
         "surfaceForm": "Kalma",
         "locationStart": 2315,
         "locationEnd": 2320,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_58",
+        "surfaceForm": "Kalma Oorspronkelijk",
+        "category": "PER",
+        "locationStart": 2315,
+        "locationEnd": 2335,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_27",
@@ -9984,6 +10456,14 @@
         "locationStart": 2360,
         "locationEnd": 2364,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_59",
+        "surfaceForm": "Laatst gewijzigd:21-08-2002 Gebruik",
+        "category": "PER",
+        "locationStart": 2374,
+        "locationEnd": 2409,
+        "method": "spacy_matcher_nl"
       }
     ],
     "time_expressions": [

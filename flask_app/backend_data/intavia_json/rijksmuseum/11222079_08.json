@@ -692,6 +692,38 @@
     },
     "entities": [
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Portret van Jan",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 15,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Portret van Jan Hendrik",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 23,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Portret van Jan Hendrik Vorstius",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 32,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Portret van Jan Hendrik Vorstius Portret",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 40,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_0",
         "surfaceForm": "Jan Hendrik Vorstius",
         "category": "PER",
@@ -736,12 +768,60 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Jan Hendrik",
+        "category": "PER",
+        "locationStart": 12,
+        "locationEnd": 23,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Jan Hendrik Vorstius",
+        "category": "PER",
+        "locationStart": 12,
+        "locationEnd": 32,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Jan Hendrik Vorstius Portret",
+        "category": "PER",
+        "locationStart": 12,
+        "locationEnd": 40,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_0",
         "category": "PERSON",
         "surfaceForm": "Jan Hendrik Vorstius",
         "locationStart": 13,
         "locationEnd": 30,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Hendrik Vorstius",
+        "category": "PER",
+        "locationStart": 16,
+        "locationEnd": 32,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Hendrik Vorstius Portret",
+        "category": "PER",
+        "locationStart": 16,
+        "locationEnd": 40,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Vorstius Portret",
+        "category": "PER",
+        "locationStart": 24,
+        "locationEnd": 40,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_1",
@@ -794,6 +874,30 @@
         "locationStart": 62,
         "locationEnd": 82,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Jan Hendrik",
+        "category": "PER",
+        "locationStart": 62,
+        "locationEnd": 73,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "Jan Hendrik Vorstius",
+        "category": "PER",
+        "locationStart": 62,
+        "locationEnd": 82,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "Hendrik Vorstius",
+        "category": "PER",
+        "locationStart": 66,
+        "locationEnd": 82,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_2",

@@ -2043,6 +2043,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Den Haag",
+        "category": "PER",
+        "locationStart": 107,
+        "locationEnd": 115,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_2",
         "category": "LOC",
         "surfaceForm": "haag",
@@ -2101,6 +2109,14 @@
         "locationStart": 153,
         "locationEnd": 161,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Den Haag",
+        "category": "PER",
+        "locationStart": 153,
+        "locationEnd": 161,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_4",
@@ -2433,6 +2449,14 @@
         "locationStart": 275,
         "locationEnd": 294,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Schouwen- Duiveland",
+        "category": "PER",
+        "locationStart": 275,
+        "locationEnd": 294,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_11",

@@ -1286,6 +1286,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Betuwe in de Tweede",
+        "category": "PER",
+        "locationStart": 49,
+        "locationEnd": 68,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Betuwe in de Tweede Kamerfractie",
+        "category": "PER",
+        "locationStart": 49,
+        "locationEnd": 81,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_1",
         "surfaceForm": "Tweede Kamerfractie",
         "category": "MISC",
@@ -1302,6 +1318,14 @@
         "locationStart": 62,
         "locationEnd": 81,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Tweede Kamerfractie",
+        "category": "PER",
+        "locationStart": 62,
+        "locationEnd": 81,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_2",
@@ -1372,6 +1396,14 @@
         "locationStart": 436,
         "locationEnd": 451,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Tweede Kamerlid",
+        "category": "PER",
+        "locationStart": 436,
+        "locationEnd": 451,
+        "method": "spacy_matcher_nl"
       }
     ],
     "time_expressions": []

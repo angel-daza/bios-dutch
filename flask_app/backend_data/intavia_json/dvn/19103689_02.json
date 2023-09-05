@@ -31158,6 +31158,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Charlotte Sophie",
+        "category": "PER",
+        "locationStart": 11,
+        "locationEnd": 27,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_2",
         "category": "LOCATION",
         "surfaceForm": "Varel",
@@ -31260,6 +31268,14 @@
         "locationStart": 51,
         "locationEnd": 61,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Kniphausen en Doorwerth",
+        "category": "PER",
+        "locationStart": 51,
+        "locationEnd": 74,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_4",
@@ -31366,6 +31382,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Charlotte Sophie",
+        "category": "PER",
+        "locationStart": 94,
+        "locationEnd": 110,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Charlotte Sophie Bentinck",
+        "category": "PER",
+        "locationStart": 94,
+        "locationEnd": 119,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_6",
         "category": "LOCATION",
         "surfaceForm": "Varel",
@@ -31380,6 +31412,14 @@
         "locationStart": 104,
         "locationEnd": 119,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Sophie Bentinck",
+        "category": "PER",
+        "locationStart": 104,
+        "locationEnd": 119,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_7",
@@ -31638,6 +31678,14 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Dochter van Anton",
+        "category": "PER",
+        "locationStart": 247,
+        "locationEnd": 264,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_16",
         "category": "LOCATION",
         "surfaceForm": "Hessen-Homburg",
@@ -31698,12 +31746,36 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "H.R. Rijksgraaf",
+        "category": "PER",
+        "locationStart": 272,
+        "locationEnd": 287,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "H.R. Rijksgraaf von Aldenburg",
+        "category": "PER",
+        "locationStart": 272,
+        "locationEnd": 301,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_4",
         "category": "PER",
         "surfaceForm": "Rijksgraaf von Aldenburg",
         "locationStart": 277,
         "locationEnd": 301,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Rijksgraaf von Aldenburg",
+        "category": "PER",
+        "locationStart": 277,
+        "locationEnd": 301,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_18",
@@ -31808,6 +31880,14 @@
         "locationStart": 319,
         "locationEnd": 329,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Kniphausen en Doorwerth",
+        "category": "PER",
+        "locationStart": 319,
+        "locationEnd": 342,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_12",
@@ -31938,6 +32018,14 @@
         "locationStart": 361,
         "locationEnd": 377,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Wilhelmine Marie",
+        "category": "PER",
+        "locationStart": 361,
+        "locationEnd": 377,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_22",
@@ -32104,6 +32192,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "Charlotte Sophie",
+        "category": "PER",
+        "locationStart": 441,
+        "locationEnd": 457,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "Charlotte Sophie von Aldenburg",
+        "category": "PER",
+        "locationStart": 441,
+        "locationEnd": 471,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_4",
         "category": "PER",
         "surfaceForm": "sophie von aldenburg",
@@ -32118,6 +32222,22 @@
         "locationStart": 451,
         "locationEnd": 479,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "Sophie von Aldenburg",
+        "category": "PER",
+        "locationStart": 451,
+        "locationEnd": 471,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "Aldenburg in Varel",
+        "category": "PER",
+        "locationStart": 462,
+        "locationEnd": 480,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_16",
@@ -32164,6 +32284,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_15",
+        "surfaceForm": "Varel met Willem",
+        "category": "PER",
+        "locationStart": 475,
+        "locationEnd": 491,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_25",
         "category": "PERSON",
         "surfaceForm": "Charlotte Sophie von Aldenburg",
@@ -32208,12 +32336,60 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_16",
+        "surfaceForm": "Willem des H.R.",
+        "category": "PER",
+        "locationStart": 485,
+        "locationEnd": 500,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_17",
+        "surfaceForm": "Willem des H.R. Rijksgraaf",
+        "category": "PER",
+        "locationStart": 485,
+        "locationEnd": 511,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_19",
+        "surfaceForm": "Willem des H.R. Rijksgraaf Bentinck",
+        "category": "PER",
+        "locationStart": 485,
+        "locationEnd": 520,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_18",
+        "surfaceForm": "H.R. Rijksgraaf",
+        "category": "PER",
+        "locationStart": 496,
+        "locationEnd": 511,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_20",
+        "surfaceForm": "H.R. Rijksgraaf Bentinck",
+        "category": "PER",
+        "locationStart": 496,
+        "locationEnd": 520,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_6",
         "category": "PER",
         "surfaceForm": "Rijksgraaf Bentinck",
         "locationStart": 501,
         "locationEnd": 520,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_21",
+        "surfaceForm": "Rijksgraaf Bentinck",
+        "category": "PER",
+        "locationStart": 501,
+        "locationEnd": 520,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_4",
@@ -32282,6 +32458,14 @@
         "locationStart": 531,
         "locationEnd": 536,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_22",
+        "surfaceForm": "Rhoon en Pendrecht",
+        "category": "PER",
+        "locationStart": 531,
+        "locationEnd": 549,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_19",
@@ -32514,12 +32698,36 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_23",
+        "surfaceForm": "Albrecht Wolfgang",
+        "category": "PER",
+        "locationStart": 699,
+        "locationEnd": 716,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_25",
+        "surfaceForm": "Albrecht Wolfgang graaf zu Schaumburg-Lippe",
+        "category": "PER",
+        "locationStart": 699,
+        "locationEnd": 742,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_38",
         "category": "PERSON",
         "surfaceForm": "Charlotte Sophie",
         "locationStart": 703,
         "locationEnd": 718,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_24",
+        "surfaceForm": "Wolfgang graaf zu Schaumburg-Lippe",
+        "category": "PER",
+        "locationStart": 708,
+        "locationEnd": 742,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_39",
@@ -32674,6 +32882,30 @@
         "locationStart": 789,
         "locationEnd": 819,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_26",
+        "surfaceForm": "Charlotte Sophie",
+        "category": "PER",
+        "locationStart": 789,
+        "locationEnd": 805,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_28",
+        "surfaceForm": "Charlotte Sophie von Aldenburg",
+        "category": "PER",
+        "locationStart": 789,
+        "locationEnd": 819,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_27",
+        "surfaceForm": "Sophie von Aldenburg",
+        "category": "PER",
+        "locationStart": 799,
+        "locationEnd": 819,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_44",
@@ -32872,6 +33104,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_29",
+        "surfaceForm": "Varel en Kniphausen",
+        "category": "PER",
+        "locationStart": 933,
+        "locationEnd": 952,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_52",
         "category": "PERSON",
         "surfaceForm": "Charlotte Sophie",
@@ -32922,6 +33162,14 @@
         "locationStart": 942,
         "locationEnd": 952,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_30",
+        "surfaceForm": "Kniphausen en in Gelderland",
+        "category": "PER",
+        "locationStart": 942,
+        "locationEnd": 969,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_53",
@@ -32976,6 +33224,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_31",
+        "surfaceForm": "Gelderland het Huis",
+        "category": "PER",
+        "locationStart": 959,
+        "locationEnd": 978,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_32",
+        "surfaceForm": "Gelderland het Huis Doorwerth",
+        "category": "PER",
+        "locationStart": 959,
+        "locationEnd": 988,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_28",
         "surfaceForm": "Huis Doorwerth",
         "category": "LOC",
@@ -33010,6 +33274,14 @@
         "locationStart": 974,
         "locationEnd": 988,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_33",
+        "surfaceForm": "Huis Doorwerth",
+        "category": "PER",
+        "locationStart": 974,
+        "locationEnd": 988,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_54",
@@ -33070,6 +33342,14 @@
         "locationStart": 990,
         "locationEnd": 1006,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_34",
+        "surfaceForm": "Charlotte Sophie",
+        "category": "PER",
+        "locationStart": 990,
+        "locationEnd": 1006,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_55",
@@ -33386,6 +33666,46 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "spacy_matcher_nl_35",
+        "surfaceForm": "Huwelijk Toen",
+        "category": "PER",
+        "locationStart": 1572,
+        "locationEnd": 1585,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_36",
+        "surfaceForm": "Huwelijk Toen Charlotte",
+        "category": "PER",
+        "locationStart": 1572,
+        "locationEnd": 1595,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_38",
+        "surfaceForm": "Huwelijk Toen Charlotte Sophie",
+        "category": "PER",
+        "locationStart": 1572,
+        "locationEnd": 1602,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_37",
+        "surfaceForm": "Toen Charlotte",
+        "category": "PER",
+        "locationStart": 1581,
+        "locationEnd": 1595,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_39",
+        "surfaceForm": "Toen Charlotte Sophie",
+        "category": "PER",
+        "locationStart": 1581,
+        "locationEnd": 1602,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_31",
         "surfaceForm": "Charlotte Sophie",
         "category": "PER",
@@ -33428,6 +33748,14 @@
         "locationStart": 1586,
         "locationEnd": 1602,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_40",
+        "surfaceForm": "Charlotte Sophie",
+        "category": "PER",
+        "locationStart": 1586,
+        "locationEnd": 1602,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_90",
@@ -33514,6 +33842,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_41",
+        "surfaceForm": "Johan Hendrik",
+        "category": "PER",
+        "locationStart": 1655,
+        "locationEnd": 1668,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_95",
         "category": "PERSON",
         "surfaceForm": "Charlotte Sophie",
@@ -33564,6 +33900,14 @@
         "locationStart": 1680,
         "locationEnd": 1695,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_42",
+        "surfaceForm": "Wassenaer Obdam",
+        "category": "PER",
+        "locationStart": 1680,
+        "locationEnd": 1695,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_96",
@@ -33700,6 +34044,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_43",
+        "surfaceForm": "Willem Bentinck",
+        "category": "PER",
+        "locationStart": 1812,
+        "locationEnd": 1827,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_104",
         "category": "PERSON",
         "surfaceForm": "Charlotte Sophie",
@@ -33766,6 +34118,30 @@
         "locationStart": 1869,
         "locationEnd": 1889,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_44",
+        "surfaceForm": "Hans Willem",
+        "category": "PER",
+        "locationStart": 1869,
+        "locationEnd": 1880,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_45",
+        "surfaceForm": "Hans Willem Bentinck",
+        "category": "PER",
+        "locationStart": 1869,
+        "locationEnd": 1889,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_46",
+        "surfaceForm": "Willem Bentinck",
+        "category": "PER",
+        "locationStart": 1874,
+        "locationEnd": 1889,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_107",
@@ -33880,12 +34256,36 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_47",
+        "surfaceForm": "Van Wassenaer",
+        "category": "PER",
+        "locationStart": 1930,
+        "locationEnd": 1943,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_48",
+        "surfaceForm": "Van Wassenaer Obdam",
+        "category": "PER",
+        "locationStart": 1930,
+        "locationEnd": 1949,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_19",
         "category": "PER",
         "surfaceForm": "wassenaer",
         "locationStart": 1934,
         "locationEnd": 1943,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_49",
+        "surfaceForm": "Wassenaer Obdam",
+        "category": "PER",
+        "locationStart": 1934,
+        "locationEnd": 1949,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_19",
@@ -33946,6 +34346,14 @@
         "locationStart": 1973,
         "locationEnd": 1979,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_50",
+        "surfaceForm": "Willem had in Leiden",
+        "category": "PER",
+        "locationStart": 1973,
+        "locationEnd": 1993,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_113",
@@ -34076,6 +34484,14 @@
         "locationStart": 2068,
         "locationEnd": 2077,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_51",
+        "surfaceForm": "Hollandse Ridderschap",
+        "category": "PER",
+        "locationStart": 2068,
+        "locationEnd": 2089,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_21",
@@ -34246,12 +34662,36 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_52",
+        "surfaceForm": "Van Wassenaer",
+        "category": "PER",
+        "locationStart": 2236,
+        "locationEnd": 2249,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_53",
+        "surfaceForm": "Van Wassenaer Obdam",
+        "category": "PER",
+        "locationStart": 2236,
+        "locationEnd": 2255,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_22",
         "category": "PER",
         "surfaceForm": "wassenaer",
         "locationStart": 2240,
         "locationEnd": 2249,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_54",
+        "surfaceForm": "Wassenaer Obdam",
+        "category": "PER",
+        "locationStart": 2240,
+        "locationEnd": 2255,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_44",
@@ -34338,6 +34778,14 @@
         "locationStart": 2280,
         "locationEnd": 2296,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_55",
+        "surfaceForm": "Charlotte Sophies",
+        "category": "PER",
+        "locationStart": 2280,
+        "locationEnd": 2297,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_131",
@@ -34614,6 +35062,22 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "spacy_matcher_nl_56",
+        "surfaceForm": "Uiteindelijk werden Charlotte",
+        "category": "PER",
+        "locationStart": 2658,
+        "locationEnd": 2687,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_57",
+        "surfaceForm": "Uiteindelijk werden Charlotte Sophie",
+        "category": "PER",
+        "locationStart": 2658,
+        "locationEnd": 2694,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_154",
         "category": "PERSON",
         "surfaceForm": "Charlotte Sophie",
@@ -34664,6 +35128,30 @@
         "locationStart": 2678,
         "locationEnd": 2694,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_58",
+        "surfaceForm": "Charlotte Sophie",
+        "category": "PER",
+        "locationStart": 2678,
+        "locationEnd": 2694,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_60",
+        "surfaceForm": "Charlotte Sophie en Willem",
+        "category": "PER",
+        "locationStart": 2678,
+        "locationEnd": 2704,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_59",
+        "surfaceForm": "Sophie en Willem",
+        "category": "PER",
+        "locationStart": 2688,
+        "locationEnd": 2704,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_155",
@@ -34794,6 +35282,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_61",
+        "surfaceForm": "Willem Bentinck",
+        "category": "PER",
+        "locationStart": 2760,
+        "locationEnd": 2775,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_160",
         "category": "PERSON",
         "surfaceForm": "Charlotte Sophie",
@@ -34852,6 +35348,14 @@
         "locationStart": 2800,
         "locationEnd": 2816,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_62",
+        "surfaceForm": "Charlotte Sophie",
+        "category": "PER",
+        "locationStart": 2800,
+        "locationEnd": 2816,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_162",
@@ -34946,6 +35450,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_63",
+        "surfaceForm": "Albrecht Wolfgang",
+        "category": "PER",
+        "locationStart": 2911,
+        "locationEnd": 2928,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_168",
         "category": "PERSON",
         "surfaceForm": "Charlotte Sophie",
@@ -34996,6 +35508,14 @@
         "locationStart": 2939,
         "locationEnd": 2955,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_64",
+        "surfaceForm": "Schaumburg Lippe",
+        "category": "PER",
+        "locationStart": 2939,
+        "locationEnd": 2955,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_170",
@@ -35134,6 +35654,22 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "spacy_matcher_nl_65",
+        "surfaceForm": "Het huwelijk van Charlotte",
+        "category": "PER",
+        "locationStart": 3037,
+        "locationEnd": 3063,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_66",
+        "surfaceForm": "Het huwelijk van Charlotte Sophie",
+        "category": "PER",
+        "locationStart": 3037,
+        "locationEnd": 3070,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_176",
         "category": "PERSON",
         "surfaceForm": "Charlotte Sophie",
@@ -35184,6 +35720,30 @@
         "locationStart": 3054,
         "locationEnd": 3070,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_67",
+        "surfaceForm": "Charlotte Sophie",
+        "category": "PER",
+        "locationStart": 3054,
+        "locationEnd": 3070,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_69",
+        "surfaceForm": "Charlotte Sophie en Willem",
+        "category": "PER",
+        "locationStart": 3054,
+        "locationEnd": 3080,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_68",
+        "surfaceForm": "Sophie en Willem",
+        "category": "PER",
+        "locationStart": 3064,
+        "locationEnd": 3080,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_177",
@@ -35414,6 +35974,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_70",
+        "surfaceForm": "Willems landgoed Sorghvliet",
+        "category": "PER",
+        "locationStart": 3286,
+        "locationEnd": 3313,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_190",
         "category": "PERSON",
         "surfaceForm": "Charlotte Sophie",
@@ -35464,6 +36032,14 @@
         "locationStart": 3303,
         "locationEnd": 3313,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_71",
+        "surfaceForm": "Sorghvliet het huidige Catshuis",
+        "category": "PER",
+        "locationStart": 3303,
+        "locationEnd": 3334,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_191",
@@ -35578,6 +36154,46 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_72",
+        "surfaceForm": "Lange Voorhout",
+        "category": "PER",
+        "locationStart": 3358,
+        "locationEnd": 3372,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_74",
+        "surfaceForm": "Lange Voorhout in Den",
+        "category": "PER",
+        "locationStart": 3358,
+        "locationEnd": 3379,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_76",
+        "surfaceForm": "Lange Voorhout in Den Haag",
+        "category": "PER",
+        "locationStart": 3358,
+        "locationEnd": 3384,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_73",
+        "surfaceForm": "Voorhout in Den",
+        "category": "PER",
+        "locationStart": 3364,
+        "locationEnd": 3379,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_75",
+        "surfaceForm": "Voorhout in Den Haag",
+        "category": "PER",
+        "locationStart": 3364,
+        "locationEnd": 3384,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_195",
         "category": "PERSON",
         "surfaceForm": "Charlotte Sophie",
@@ -35620,6 +36236,14 @@
         "locationStart": 3376,
         "locationEnd": 3384,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_77",
+        "surfaceForm": "Den Haag",
+        "category": "PER",
+        "locationStart": 3376,
+        "locationEnd": 3384,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_32",
@@ -35776,6 +36400,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_78",
+        "surfaceForm": "Albert Jean",
+        "category": "PER",
+        "locationStart": 3441,
+        "locationEnd": 3452,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_45",
         "surfaceForm": "1737 - 1775",
         "category": "TIME",
@@ -35878,6 +36510,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_79",
+        "surfaceForm": "Charlotte Sophie",
+        "category": "PER",
+        "locationStart": 3514,
+        "locationEnd": 3530,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_204",
         "category": "PERSON",
         "surfaceForm": "Charlotte Sophie",
@@ -35936,6 +36576,14 @@
         "locationStart": 3573,
         "locationEnd": 3581,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_80",
+        "surfaceForm": "Den Haag",
+        "category": "PER",
+        "locationStart": 3573,
+        "locationEnd": 3581,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_207",
@@ -36130,6 +36778,30 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "spacy_matcher_nl_81",
+        "surfaceForm": "Terug in Duitsland",
+        "category": "PER",
+        "locationStart": 3797,
+        "locationEnd": 3815,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_82",
+        "surfaceForm": "Terug in Duitsland In",
+        "category": "PER",
+        "locationStart": 3797,
+        "locationEnd": 3818,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_84",
+        "surfaceForm": "Terug in Duitsland In Duitsland",
+        "category": "PER",
+        "locationStart": 3797,
+        "locationEnd": 3828,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_71",
         "surfaceForm": "Duitsland",
         "category": "LOC",
@@ -36172,6 +36844,62 @@
         "locationStart": 3806,
         "locationEnd": 3815,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_83",
+        "surfaceForm": "Duitsland In",
+        "category": "PER",
+        "locationStart": 3806,
+        "locationEnd": 3818,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_85",
+        "surfaceForm": "Duitsland In Duitsland",
+        "category": "PER",
+        "locationStart": 3806,
+        "locationEnd": 3828,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_89",
+        "surfaceForm": "Duitsland In Duitsland begon Charlotte",
+        "category": "PER",
+        "locationStart": 3806,
+        "locationEnd": 3844,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_92",
+        "surfaceForm": "Duitsland In Duitsland begon Charlotte Sophie",
+        "category": "PER",
+        "locationStart": 3806,
+        "locationEnd": 3851,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_86",
+        "surfaceForm": "In Duitsland",
+        "category": "PER",
+        "locationStart": 3816,
+        "locationEnd": 3828,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_88",
+        "surfaceForm": "In Duitsland begon Charlotte",
+        "category": "PER",
+        "locationStart": 3816,
+        "locationEnd": 3844,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_91",
+        "surfaceForm": "In Duitsland begon Charlotte Sophie",
+        "category": "PER",
+        "locationStart": 3816,
+        "locationEnd": 3851,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_72",
@@ -36218,6 +36946,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_87",
+        "surfaceForm": "Duitsland begon Charlotte",
+        "category": "PER",
+        "locationStart": 3819,
+        "locationEnd": 3844,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_90",
+        "surfaceForm": "Duitsland begon Charlotte Sophie",
+        "category": "PER",
+        "locationStart": 3819,
+        "locationEnd": 3851,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_73",
         "surfaceForm": "Charlotte Sophie",
         "category": "PER",
@@ -36262,6 +37006,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_93",
+        "surfaceForm": "Charlotte Sophie",
+        "category": "PER",
+        "locationStart": 3835,
+        "locationEnd": 3851,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_39",
         "category": "PER",
         "surfaceForm": "zu scha",
@@ -36304,6 +37056,14 @@
         "locationStart": 3883,
         "locationEnd": 3900,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_94",
+        "surfaceForm": "Schaumburg- Lippe",
+        "category": "PER",
+        "locationStart": 3883,
+        "locationEnd": 3900,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_38",
@@ -36526,12 +37286,60 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_95",
+        "surfaceForm": "Clamor Johann",
+        "category": "PER",
+        "locationStart": 4041,
+        "locationEnd": 4054,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_96",
+        "surfaceForm": "Clamor Johann Georg",
+        "category": "PER",
+        "locationStart": 4041,
+        "locationEnd": 4060,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_100",
+        "surfaceForm": "Clamor Johann Georg baron von Donop",
+        "category": "PER",
+        "locationStart": 4041,
+        "locationEnd": 4076,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_40",
         "category": "PER",
         "surfaceForm": "Johann Georg baron von Donop",
         "locationStart": 4048,
         "locationEnd": 4076,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_97",
+        "surfaceForm": "Johann Georg",
+        "category": "PER",
+        "locationStart": 4048,
+        "locationEnd": 4060,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_99",
+        "surfaceForm": "Johann Georg baron von Donop",
+        "category": "PER",
+        "locationStart": 4048,
+        "locationEnd": 4076,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_98",
+        "surfaceForm": "Georg baron von Donop",
+        "category": "PER",
+        "locationStart": 4055,
+        "locationEnd": 4076,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_63",
@@ -36668,6 +37476,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_101",
+        "surfaceForm": "Charlotte Sophies",
+        "category": "PER",
+        "locationStart": 4162,
+        "locationEnd": 4179,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_82",
         "surfaceForm": "Johann Weisbrod",
         "category": "PER",
@@ -36712,6 +37528,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_102",
+        "surfaceForm": "Johann Weisbrod",
+        "category": "PER",
+        "locationStart": 4192,
+        "locationEnd": 4207,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_83",
         "surfaceForm": "Charlotte Sophie",
         "category": "PER",
@@ -36746,6 +37570,14 @@
         "locationStart": 4246,
         "locationEnd": 4262,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_103",
+        "surfaceForm": "Charlotte Sophie",
+        "category": "PER",
+        "locationStart": 4246,
+        "locationEnd": 4262,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_42",
@@ -36800,6 +37632,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_104",
+        "surfaceForm": "Willem Bentinck",
+        "category": "PER",
+        "locationStart": 4425,
+        "locationEnd": 4440,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_85",
         "surfaceForm": "Charlotte Sophie",
         "category": "PER",
@@ -36842,6 +37682,14 @@
         "locationStart": 4442,
         "locationEnd": 4458,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_105",
+        "surfaceForm": "Charlotte Sophie",
+        "category": "PER",
+        "locationStart": 4442,
+        "locationEnd": 4458,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_74",
@@ -36948,6 +37796,14 @@
         "locationStart": 4478,
         "locationEnd": 4488,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_106",
+        "surfaceForm": "Kniphausen en Doorwerth",
+        "category": "PER",
+        "locationStart": 4478,
+        "locationEnd": 4501,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_88",
@@ -37094,6 +37950,14 @@
         "method": "human_gold"
       },
       {
+        "ID": "spacy_matcher_nl_107",
+        "surfaceForm": "Huis Doorwerth",
+        "category": "PER",
+        "locationStart": 4700,
+        "locationEnd": 4714,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_45",
         "category": "LOC",
         "surfaceForm": "Doorwerth",
@@ -37206,6 +38070,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_108",
+        "surfaceForm": "Charlotte Sophie",
+        "category": "PER",
+        "locationStart": 4793,
+        "locationEnd": 4809,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_94",
         "surfaceForm": "Varel",
         "category": "ORG",
@@ -37248,6 +38120,14 @@
         "locationStart": 4838,
         "locationEnd": 4843,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_109",
+        "surfaceForm": "Varel en Kniphausen",
+        "category": "PER",
+        "locationStart": 4838,
+        "locationEnd": 4857,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_95",
@@ -37294,6 +38174,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_110",
+        "surfaceForm": "Omdat Varel",
+        "category": "PER",
+        "locationStart": 4900,
+        "locationEnd": 4911,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_112",
+        "surfaceForm": "Omdat Varel een Deens",
+        "category": "PER",
+        "locationStart": 4900,
+        "locationEnd": 4921,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_96",
         "surfaceForm": "Varel",
         "category": "PER",
@@ -37336,6 +38232,14 @@
         "locationStart": 4906,
         "locationEnd": 4911,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_111",
+        "surfaceForm": "Varel een Deens",
+        "category": "PER",
+        "locationStart": 4906,
+        "locationEnd": 4921,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_97",
@@ -37400,6 +38304,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_113",
+        "surfaceForm": "Bentinck bij de Deense",
+        "category": "PER",
+        "locationStart": 4944,
+        "locationEnd": 4966,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_99",
         "surfaceForm": "Deense",
         "category": "MISC",
@@ -37416,6 +38328,14 @@
         "locationStart": 4960,
         "locationEnd": 4966,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_114",
+        "surfaceForm": "Deze gaf Bentinck",
+        "category": "PER",
+        "locationStart": 5007,
+        "locationEnd": 5024,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_100",
@@ -37460,6 +38380,14 @@
         "locationStart": 5016,
         "locationEnd": 5024,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_115",
+        "surfaceForm": "Over Kniphausen",
+        "category": "PER",
+        "locationStart": 5077,
+        "locationEnd": 5092,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_101",
@@ -37548,6 +38476,14 @@
         "locationStart": 5125,
         "locationEnd": 5141,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_116",
+        "surfaceForm": "Charlotte Sophie",
+        "category": "PER",
+        "locationStart": 5125,
+        "locationEnd": 5141,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_103",
@@ -37770,6 +38706,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "spacy_matcher_nl_117",
+        "surfaceForm": "Aan het Berlijnse",
+        "category": "PER",
+        "locationStart": 5327,
+        "locationEnd": 5344,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_108",
         "surfaceForm": "Berlijnse",
         "category": "MISC",
@@ -37904,6 +38848,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_118",
+        "surfaceForm": "Willem Bentinck",
+        "category": "PER",
+        "locationStart": 5641,
+        "locationEnd": 5656,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_113",
         "surfaceForm": "Frederik II",
         "category": "PER",
@@ -38000,6 +38952,14 @@
         "locationStart": 5784,
         "locationEnd": 5800,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_119",
+        "surfaceForm": "Antoine Bentinck",
+        "category": "PER",
+        "locationStart": 5784,
+        "locationEnd": 5800,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_115",
@@ -38144,6 +39104,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_120",
+        "surfaceForm": "Charlotte Sophie",
+        "category": "PER",
+        "locationStart": 5964,
+        "locationEnd": 5980,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_119",
         "surfaceForm": "Zwitserland",
         "category": "LOC",
@@ -38198,6 +39166,30 @@
         "method": "stanza_nl"
       },
       {
+        "ID": "spacy_matcher_nl_121",
+        "surfaceForm": "Zwerftochten Na",
+        "category": "PER",
+        "locationStart": 6069,
+        "locationEnd": 6084,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_123",
+        "surfaceForm": "Zwerftochten Na het Berlijnse",
+        "category": "PER",
+        "locationStart": 6069,
+        "locationEnd": 6098,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_122",
+        "surfaceForm": "Na het Berlijnse",
+        "category": "PER",
+        "locationStart": 6082,
+        "locationEnd": 6098,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_121",
         "surfaceForm": "Berlijnse",
         "category": "MISC",
@@ -38214,6 +39206,22 @@
         "locationStart": 6089,
         "locationEnd": 6098,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_124",
+        "surfaceForm": "Berlijnse debacle reisde Charlotte",
+        "category": "PER",
+        "locationStart": 6089,
+        "locationEnd": 6123,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_125",
+        "surfaceForm": "Berlijnse debacle reisde Charlotte Sophie",
+        "category": "PER",
+        "locationStart": 6089,
+        "locationEnd": 6130,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_122",
@@ -38250,6 +39258,30 @@
         "locationStart": 6114,
         "locationEnd": 6130,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_126",
+        "surfaceForm": "Charlotte Sophie",
+        "category": "PER",
+        "locationStart": 6114,
+        "locationEnd": 6130,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_128",
+        "surfaceForm": "Charlotte Sophie naar Wenen",
+        "category": "PER",
+        "locationStart": 6114,
+        "locationEnd": 6141,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_127",
+        "surfaceForm": "Sophie naar Wenen",
+        "category": "PER",
+        "locationStart": 6124,
+        "locationEnd": 6141,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_123",
@@ -38340,6 +39372,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_129",
+        "surfaceForm": "Maria Theresia",
+        "category": "PER",
+        "locationStart": 6246,
+        "locationEnd": 6260,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_130",
+        "surfaceForm": "Intussen beschouwde Charlotte",
+        "category": "PER",
+        "locationStart": 6262,
+        "locationEnd": 6291,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_131",
+        "surfaceForm": "Intussen beschouwde Charlotte Sophie",
+        "category": "PER",
+        "locationStart": 6262,
+        "locationEnd": 6298,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_125",
         "surfaceForm": "Charlotte Sophie",
         "category": "PER",
@@ -38382,6 +39438,14 @@
         "locationStart": 6282,
         "locationEnd": 6298,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_132",
+        "surfaceForm": "Charlotte Sophie",
+        "category": "PER",
+        "locationStart": 6282,
+        "locationEnd": 6298,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_116",
@@ -38480,6 +39544,14 @@
         "locationStart": 6383,
         "locationEnd": 6405,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_133",
+        "surfaceForm": "Keizerlijk Gerechtshof",
+        "category": "PER",
+        "locationStart": 6383,
+        "locationEnd": 6405,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_128",
@@ -38624,6 +39696,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_134",
+        "surfaceForm": "Charlotte Sophie",
+        "category": "PER",
+        "locationStart": 6562,
+        "locationEnd": 6578,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_66",
         "category": "PER",
         "surfaceForm": "sophie",
@@ -38674,6 +39754,30 @@
         "locationStart": 6662,
         "locationEnd": 6668,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_135",
+        "surfaceForm": "Paul I",
+        "category": "PER",
+        "locationStart": 6662,
+        "locationEnd": 6668,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_137",
+        "surfaceForm": "Paul I van Rusland",
+        "category": "PER",
+        "locationStart": 6662,
+        "locationEnd": 6680,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_136",
+        "surfaceForm": "I van Rusland",
+        "category": "PER",
+        "locationStart": 6667,
+        "locationEnd": 6680,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_132",
@@ -38764,6 +39868,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_138",
+        "surfaceForm": "Stanislas van Polen",
+        "category": "PER",
+        "locationStart": 6689,
+        "locationEnd": 6708,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_128",
         "surfaceForm": "Polen",
         "category": "LOC",
@@ -38840,6 +39952,14 @@
         "locationStart": 6716,
         "locationEnd": 6723,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_139",
+        "surfaceForm": "Kaunitz en generaal Lafayette",
+        "category": "PER",
+        "locationStart": 6716,
+        "locationEnd": 6745,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_135",
@@ -38992,6 +40112,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_140",
+        "surfaceForm": "Charlotte Sophie",
+        "category": "PER",
+        "locationStart": 6853,
+        "locationEnd": 6869,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_138",
         "surfaceForm": "Hamburg",
         "category": "LOC",
@@ -39080,12 +40208,36 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_141",
+        "surfaceForm": "Willem Gustaaf",
+        "category": "PER",
+        "locationStart": 7004,
+        "locationEnd": 7018,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_142",
+        "surfaceForm": "Willem Gustaaf Frederik",
+        "category": "PER",
+        "locationStart": 7004,
+        "locationEnd": 7027,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_68",
         "category": "PER",
         "surfaceForm": "gustaaf frederik",
         "locationStart": 7011,
         "locationEnd": 7027,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_143",
+        "surfaceForm": "Gustaaf Frederik",
+        "category": "PER",
+        "locationStart": 7011,
+        "locationEnd": 7027,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_140",
@@ -39168,12 +40320,44 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_144",
+        "surfaceForm": "Huis Doorwerth",
+        "category": "PER",
+        "locationStart": 7088,
+        "locationEnd": 7102,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_68",
         "category": "LOC",
         "surfaceForm": "doorwert",
         "locationStart": 7093,
         "locationEnd": 7101,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_145",
+        "surfaceForm": "Haar Hollandse",
+        "category": "PER",
+        "locationStart": 7162,
+        "locationEnd": 7176,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_147",
+        "surfaceForm": "Haar Hollandse kleinkinderen leerde Charlotte",
+        "category": "PER",
+        "locationStart": 7162,
+        "locationEnd": 7207,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_149",
+        "surfaceForm": "Haar Hollandse kleinkinderen leerde Charlotte Sophie",
+        "category": "PER",
+        "locationStart": 7162,
+        "locationEnd": 7214,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_142",
@@ -39192,6 +40376,22 @@
         "locationStart": 7167,
         "locationEnd": 7176,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_146",
+        "surfaceForm": "Hollandse kleinkinderen leerde Charlotte",
+        "category": "PER",
+        "locationStart": 7167,
+        "locationEnd": 7207,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_148",
+        "surfaceForm": "Hollandse kleinkinderen leerde Charlotte Sophie",
+        "category": "PER",
+        "locationStart": 7167,
+        "locationEnd": 7214,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_143",
@@ -39238,6 +40438,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_150",
+        "surfaceForm": "Charlotte Sophie",
+        "category": "PER",
+        "locationStart": 7198,
+        "locationEnd": 7214,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_144",
         "surfaceForm": "Fransen",
         "category": "MISC",
@@ -39254,6 +40462,14 @@
         "locationStart": 7272,
         "locationEnd": 7279,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_151",
+        "surfaceForm": "Fransen in de Republiek",
+        "category": "PER",
+        "locationStart": 7272,
+        "locationEnd": 7295,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_145",
@@ -39380,6 +40596,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_152",
+        "surfaceForm": "Guillaume Weisbrod",
+        "category": "PER",
+        "locationStart": 7430,
+        "locationEnd": 7448,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_148",
         "surfaceForm": "Guillaume",
         "category": "PER",
@@ -39414,6 +40638,14 @@
         "locationStart": 7551,
         "locationEnd": 7560,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_153",
+        "surfaceForm": "Guillaume en Charles",
+        "category": "PER",
+        "locationStart": 7551,
+        "locationEnd": 7571,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_149",
@@ -39460,6 +40692,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_154",
+        "surfaceForm": "Charles von Donop",
+        "category": "PER",
+        "locationStart": 7564,
+        "locationEnd": 7581,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_150",
         "surfaceForm": "Charlotte Sophie",
         "category": "PER",
@@ -39502,6 +40742,14 @@
         "locationStart": 7583,
         "locationEnd": 7599,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_155",
+        "surfaceForm": "Charlotte Sophie",
+        "category": "PER",
+        "locationStart": 7583,
+        "locationEnd": 7599,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_151",
@@ -39548,6 +40796,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_156",
+        "surfaceForm": "Willem Bentinck",
+        "category": "PER",
+        "locationStart": 7611,
+        "locationEnd": 7626,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_152",
         "surfaceForm": "Antoine",
         "category": "PER",
@@ -39592,6 +40848,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_157",
+        "surfaceForm": "Antoine en Albert",
+        "category": "PER",
+        "locationStart": 7641,
+        "locationEnd": 7658,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_158",
+        "surfaceForm": "Antoine en Albert Jean",
+        "category": "PER",
+        "locationStart": 7641,
+        "locationEnd": 7663,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_153",
         "surfaceForm": "Albert Jean",
         "category": "PER",
@@ -39634,6 +40906,14 @@
         "locationStart": 7652,
         "locationEnd": 7663,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_159",
+        "surfaceForm": "Albert Jean",
+        "category": "PER",
+        "locationStart": 7652,
+        "locationEnd": 7663,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_151",
@@ -39690,6 +40970,46 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_160",
+        "surfaceForm": "Huis Doorwerth",
+        "category": "PER",
+        "locationStart": 7713,
+        "locationEnd": 7727,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_162",
+        "surfaceForm": "Huis Doorwerth na aan William",
+        "category": "PER",
+        "locationStart": 7713,
+        "locationEnd": 7742,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_164",
+        "surfaceForm": "Huis Doorwerth na aan William Bentinck",
+        "category": "PER",
+        "locationStart": 7713,
+        "locationEnd": 7751,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_161",
+        "surfaceForm": "Doorwerth na aan William",
+        "category": "PER",
+        "locationStart": 7718,
+        "locationEnd": 7742,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_163",
+        "surfaceForm": "Doorwerth na aan William Bentinck",
+        "category": "PER",
+        "locationStart": 7718,
+        "locationEnd": 7751,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_155",
         "surfaceForm": "William Bentinck",
         "category": "PER",
@@ -39732,6 +41052,14 @@
         "locationStart": 7735,
         "locationEnd": 7751,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_165",
+        "surfaceForm": "William Bentinck",
+        "category": "PER",
+        "locationStart": 7735,
+        "locationEnd": 7751,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_156",
@@ -39778,6 +41106,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_166",
+        "surfaceForm": "Albert Jean",
+        "category": "PER",
+        "locationStart": 7772,
+        "locationEnd": 7783,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_157",
         "surfaceForm": "Varel",
         "category": "LOC",
@@ -39820,6 +41156,22 @@
         "locationStart": 7809,
         "locationEnd": 7814,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_167",
+        "surfaceForm": "Reputatie Charlotte",
+        "category": "PER",
+        "locationStart": 7825,
+        "locationEnd": 7844,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_168",
+        "surfaceForm": "Reputatie Charlotte Sophie",
+        "category": "PER",
+        "locationStart": 7825,
+        "locationEnd": 7851,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_158",
@@ -39866,6 +41218,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_169",
+        "surfaceForm": "Charlotte Sophie",
+        "category": "PER",
+        "locationStart": 7835,
+        "locationEnd": 7851,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_159",
         "surfaceForm": "Hella S. Haasse",
         "category": "PER",
@@ -39910,12 +41270,36 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_170",
+        "surfaceForm": "Hella S.",
+        "category": "PER",
+        "locationStart": 7911,
+        "locationEnd": 7919,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_171",
+        "surfaceForm": "Hella S. Haasse",
+        "category": "PER",
+        "locationStart": 7911,
+        "locationEnd": 7926,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_74",
         "category": "PER",
         "surfaceForm": "s . haas",
         "locationStart": 7917,
         "locationEnd": 7924,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_172",
+        "surfaceForm": "S. Haasse",
+        "category": "PER",
+        "locationStart": 7917,
+        "locationEnd": 7926,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_159",
@@ -40044,6 +41428,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_173",
+        "surfaceForm": "Ben Verbong",
+        "category": "PER",
+        "locationStart": 8077,
+        "locationEnd": 8088,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_163",
         "surfaceForm": "Charlotte Sophie Bentinck",
         "category": "PER",
@@ -40086,6 +41478,30 @@
         "locationStart": 8118,
         "locationEnd": 8143,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_174",
+        "surfaceForm": "Charlotte Sophie",
+        "category": "PER",
+        "locationStart": 8118,
+        "locationEnd": 8134,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_175",
+        "surfaceForm": "Charlotte Sophie Bentinck",
+        "category": "PER",
+        "locationStart": 8118,
+        "locationEnd": 8143,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_176",
+        "surfaceForm": "Sophie Bentinck",
+        "category": "PER",
+        "locationStart": 8128,
+        "locationEnd": 8143,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_164",
@@ -40148,6 +41564,30 @@
         "locationStart": 8257,
         "locationEnd": 8273,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_177",
+        "surfaceForm": "Charlotte Sophie",
+        "category": "PER",
+        "locationStart": 8257,
+        "locationEnd": 8273,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_179",
+        "surfaceForm": "Charlotte Sophie en Voltaire",
+        "category": "PER",
+        "locationStart": 8257,
+        "locationEnd": 8285,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_178",
+        "surfaceForm": "Sophie en Voltaire",
+        "category": "PER",
+        "locationStart": 8267,
+        "locationEnd": 8285,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_165",
@@ -40230,6 +41670,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_180",
+        "surfaceForm": "Voltaires Candide",
+        "category": "PER",
+        "locationStart": 8325,
+        "locationEnd": 8342,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_168",
         "surfaceForm": "Candide",
         "category": "ARTWORK",
@@ -40276,12 +41724,36 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_181",
+        "surfaceForm": "Archivalia Gelders",
+        "category": "PER",
+        "locationStart": 8380,
+        "locationEnd": 8398,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_182",
+        "surfaceForm": "Archivalia Gelders Archief",
+        "category": "PER",
+        "locationStart": 8380,
+        "locationEnd": 8406,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_74",
         "category": "ORG",
         "surfaceForm": "Gelders Archief",
         "locationStart": 8391,
         "locationEnd": 8406,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_183",
+        "surfaceForm": "Gelders Archief",
+        "category": "PER",
+        "locationStart": 8391,
+        "locationEnd": 8406,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_168",
@@ -40354,6 +41826,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_184",
+        "surfaceForm": "Archief Bentinck",
+        "category": "PER",
+        "locationStart": 8416,
+        "locationEnd": 8432,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_169",
         "surfaceForm": "Bentinck",
         "category": "PER",
@@ -40382,6 +41862,14 @@
         "method": "human_gold"
       },
       {
+        "ID": "spacy_matcher_nl_185",
+        "surfaceForm": "Bibliotheek van de University",
+        "category": "PER",
+        "locationStart": 8434,
+        "locationEnd": 8463,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_170",
         "surfaceForm": "University of Nottingham Engeland",
         "category": "ORG",
@@ -40408,12 +41896,36 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_186",
+        "surfaceForm": "University of Nottingham",
+        "category": "PER",
+        "locationStart": 8453,
+        "locationEnd": 8477,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_187",
+        "surfaceForm": "University of Nottingham Engeland",
+        "category": "PER",
+        "locationStart": 8453,
+        "locationEnd": 8486,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_79",
         "category": "LOC",
         "surfaceForm": "nottingham",
         "locationStart": 8467,
         "locationEnd": 8477,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_188",
+        "surfaceForm": "Nottingham Engeland",
+        "category": "PER",
+        "locationStart": 8467,
+        "locationEnd": 8486,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_75",
@@ -40448,12 +41960,28 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_189",
+        "surfaceForm": "Coll. 3rd Duke",
+        "category": "PER",
+        "locationStart": 8488,
+        "locationEnd": 8502,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_76",
         "category": "PER",
         "surfaceForm": "3rd Duke of Portland",
         "locationStart": 8494,
         "locationEnd": 8514,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_190",
+        "surfaceForm": "Duke of Portland",
+        "category": "PER",
+        "locationStart": 8498,
+        "locationEnd": 8514,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_171",
@@ -40508,6 +42036,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_191",
+        "surfaceForm": "Charlotte Sophie",
+        "category": "PER",
+        "locationStart": 8543,
+        "locationEnd": 8559,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_173",
         "surfaceForm": "Charlotte Sophie",
         "category": "PER",
@@ -40552,6 +42088,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_192",
+        "surfaceForm": "Charlotte Sophie",
+        "category": "PER",
+        "locationStart": 8645,
+        "locationEnd": 8661,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_174",
         "surfaceForm": "Le Blond",
         "category": "MISC",
@@ -40594,6 +42138,30 @@
         "locationStart": 8690,
         "locationEnd": 8698,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_193",
+        "surfaceForm": "Le Blond",
+        "category": "PER",
+        "locationStart": 8690,
+        "locationEnd": 8698,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_195",
+        "surfaceForm": "Le Blond en Haasse",
+        "category": "PER",
+        "locationStart": 8690,
+        "locationEnd": 8708,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_194",
+        "surfaceForm": "Blond en Haasse",
+        "category": "PER",
+        "locationStart": 8693,
+        "locationEnd": 8708,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_175",
@@ -40718,6 +42286,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "spacy_matcher_nl_196",
+        "surfaceForm": "Literatuur Aubrey",
+        "category": "PER",
+        "locationStart": 8793,
+        "locationEnd": 8810,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_198",
+        "surfaceForm": "Literatuur Aubrey le Blond",
+        "category": "PER",
+        "locationStart": 8793,
+        "locationEnd": 8819,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_177",
         "surfaceForm": "Aubrey le Blond",
         "category": "MISC",
@@ -40752,6 +42336,14 @@
         "locationStart": 8804,
         "locationEnd": 8810,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_197",
+        "surfaceForm": "Aubrey le Blond",
+        "category": "PER",
+        "locationStart": 8804,
+        "locationEnd": 8819,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_178",
@@ -40796,6 +42388,14 @@
         "locationStart": 8821,
         "locationEnd": 8837,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_199",
+        "surfaceForm": "Charlotte Sophie",
+        "category": "PER",
+        "locationStart": 8821,
+        "locationEnd": 8837,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_181",
@@ -40992,6 +42592,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_200",
+        "surfaceForm": "Wilhelmina C.",
+        "category": "PER",
+        "locationStart": 8945,
+        "locationEnd": 8958,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_202",
+        "surfaceForm": "Wilhelmina C. van Huffel",
+        "category": "PER",
+        "locationStart": 8945,
+        "locationEnd": 8969,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_201",
+        "surfaceForm": "C. van Huffel",
+        "category": "PER",
+        "locationStart": 8956,
+        "locationEnd": 8969,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_183",
         "surfaceForm": "Willem Bentinck",
         "category": "PER",
@@ -41034,6 +42658,30 @@
         "locationStart": 8971,
         "locationEnd": 9051,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_203",
+        "surfaceForm": "Willem Bentinck",
+        "category": "PER",
+        "locationStart": 8971,
+        "locationEnd": 8986,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_205",
+        "surfaceForm": "Willem Bentinck van Rhoon",
+        "category": "PER",
+        "locationStart": 8971,
+        "locationEnd": 8996,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_204",
+        "surfaceForm": "Bentinck van Rhoon",
+        "category": "PER",
+        "locationStart": 8978,
+        "locationEnd": 8996,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_184",
@@ -41116,6 +42764,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_206",
+        "surfaceForm": "Den Haag",
+        "category": "PER",
+        "locationStart": 9043,
+        "locationEnd": 9051,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_86",
         "category": "TIME",
         "surfaceForm": "haag",
@@ -41168,6 +42824,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_207",
+        "surfaceForm": "Paul- Emile",
+        "category": "PER",
+        "locationStart": 9059,
+        "locationEnd": 9070,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_208",
+        "surfaceForm": "Paul- Emile Schazmann",
+        "category": "PER",
+        "locationStart": 9059,
+        "locationEnd": 9080,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_186",
         "surfaceForm": "Emile Schazmann",
         "category": "PER",
@@ -41184,6 +42856,14 @@
         "locationStart": 9065,
         "locationEnd": 9080,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_209",
+        "surfaceForm": "Emile Schazmann",
+        "category": "PER",
+        "locationStart": 9065,
+        "locationEnd": 9080,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_187",
@@ -41212,6 +42892,14 @@
         "locationStart": 9082,
         "locationEnd": 9085,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_210",
+        "surfaceForm": "The Bentincks",
+        "category": "PER",
+        "locationStart": 9082,
+        "locationEnd": 9095,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_81",
@@ -41338,6 +43026,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_211",
+        "surfaceForm": "Curd Ochwadt",
+        "category": "PER",
+        "locationStart": 9145,
+        "locationEnd": 9157,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_191",
         "surfaceForm": "Voltaire und die Grafen zu Schaumburg-Lippe",
         "category": "MISC",
@@ -41380,6 +43076,22 @@
         "locationStart": 9159,
         "locationEnd": 9167,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_212",
+        "surfaceForm": "Voltaire und die Grafen",
+        "category": "PER",
+        "locationStart": 9159,
+        "locationEnd": 9182,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_213",
+        "surfaceForm": "Grafen zu Schaumburg-Lippe",
+        "category": "PER",
+        "locationStart": 9176,
+        "locationEnd": 9202,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_88",
@@ -41496,6 +43208,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_214",
+        "surfaceForm": "Charlotte Sophie",
+        "category": "PER",
+        "locationStart": 9241,
+        "locationEnd": 9257,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_194",
         "surfaceForm": "Hella S. Haasse",
         "category": "PER",
@@ -41540,6 +43260,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_215",
+        "surfaceForm": "Hella S.",
+        "category": "PER",
+        "locationStart": 9260,
+        "locationEnd": 9268,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_216",
+        "surfaceForm": "Hella S. Haasse",
+        "category": "PER",
+        "locationStart": 9260,
+        "locationEnd": 9275,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_217",
+        "surfaceForm": "S. Haasse",
+        "category": "PER",
+        "locationStart": 9266,
+        "locationEnd": 9275,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_195",
         "surfaceForm": "Mevrouw Bentinck",
         "category": "PER",
@@ -41568,6 +43312,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_218",
+        "surfaceForm": "Mevrouw Bentinck",
+        "category": "PER",
+        "locationStart": 9277,
+        "locationEnd": 9293,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_220",
+        "surfaceForm": "Mevrouw Bentinck of Onverenigbaarheid",
+        "category": "PER",
+        "locationStart": 9277,
+        "locationEnd": 9314,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_89",
         "category": "PER",
         "surfaceForm": "bentinck",
@@ -41582,6 +43342,14 @@
         "locationStart": 9285,
         "locationEnd": 9293,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_219",
+        "surfaceForm": "Bentinck of Onverenigbaarheid",
+        "category": "PER",
+        "locationStart": 9285,
+        "locationEnd": 9314,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_83",
@@ -41690,6 +43458,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_221",
+        "surfaceForm": "Hella S.",
+        "category": "PER",
+        "locationStart": 9402,
+        "locationEnd": 9410,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_222",
+        "surfaceForm": "Hella S. Haasse",
+        "category": "PER",
+        "locationStart": 9402,
+        "locationEnd": 9417,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_223",
+        "surfaceForm": "S. Haasse",
+        "category": "PER",
+        "locationStart": 9408,
+        "locationEnd": 9417,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_198",
         "surfaceForm": "De groten der aarde",
         "category": "MISC",
@@ -41742,6 +43534,14 @@
         "locationStart": 9442,
         "locationEnd": 9450,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_224",
+        "surfaceForm": "Bentinck tegen Bentinck",
+        "category": "PER",
+        "locationStart": 9442,
+        "locationEnd": 9465,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_200",
@@ -41876,6 +43676,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_225",
+        "surfaceForm": "R.W.A.M. Cleverens",
+        "category": "PER",
+        "locationStart": 9538,
+        "locationEnd": 9556,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_88",
         "category": "PER",
         "surfaceForm": "Cleverens",
@@ -41920,6 +43728,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_226",
+        "surfaceForm": "De graven van Aldenburg",
+        "category": "PER",
+        "locationStart": 9558,
+        "locationEnd": 9581,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_227",
+        "surfaceForm": "De graven van Aldenburg Bentinck",
+        "category": "PER",
+        "locationStart": 9558,
+        "locationEnd": 9590,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_204",
         "surfaceForm": "Aldenburg Bentinck",
         "category": "PER",
@@ -41944,6 +43768,30 @@
         "locationStart": 9572,
         "locationEnd": 9590,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_228",
+        "surfaceForm": "Aldenburg Bentinck",
+        "category": "PER",
+        "locationStart": 9572,
+        "locationEnd": 9590,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_230",
+        "surfaceForm": "Aldenburg Bentinck en Waldeck-Limpurg",
+        "category": "PER",
+        "locationStart": 9572,
+        "locationEnd": 9609,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_229",
+        "surfaceForm": "Bentinck en Waldeck-Limpurg",
+        "category": "PER",
+        "locationStart": 9582,
+        "locationEnd": 9609,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_205",
@@ -42078,6 +43926,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_231",
+        "surfaceForm": "Antje Koolman",
+        "category": "PER",
+        "locationStart": 9635,
+        "locationEnd": 9648,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_208",
         "surfaceForm": "Die Bentincks",
         "category": "PER",
@@ -42114,6 +43970,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_232",
+        "surfaceForm": "Die Bentincks",
+        "category": "PER",
+        "locationStart": 9650,
+        "locationEnd": 9663,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_89",
         "category": "PER",
         "surfaceForm": "Bentincks",
@@ -42138,6 +44002,30 @@
         "locationStart": 9670,
         "locationEnd": 9685,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_233",
+        "surfaceForm": "Niederlandische Adelsfamilie",
+        "category": "PER",
+        "locationStart": 9670,
+        "locationEnd": 9698,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_235",
+        "surfaceForm": "Niederlandische Adelsfamilie in Nordwestdeutschland",
+        "category": "PER",
+        "locationStart": 9670,
+        "locationEnd": 9721,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_234",
+        "surfaceForm": "Adelsfamilie in Nordwestdeutschland",
+        "category": "PER",
+        "locationStart": 9686,
+        "locationEnd": 9721,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_210",
@@ -42280,6 +44168,14 @@
         "method": "stanza_nl"
       },
       {
+        "ID": "spacy_matcher_nl_236",
+        "surfaceForm": "Correspondance complete de Voltaire",
+        "category": "PER",
+        "locationStart": 9789,
+        "locationEnd": 9824,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_92",
         "category": "PER",
         "surfaceForm": "Voltaire",
@@ -42296,6 +44192,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_237",
+        "surfaceForm": "Voltaire et de Mme",
+        "category": "PER",
+        "locationStart": 9816,
+        "locationEnd": 9834,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_238",
+        "surfaceForm": "Voltaire et de Mme Bentinck",
+        "category": "PER",
+        "locationStart": 9816,
+        "locationEnd": 9843,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_92",
         "category": "PER",
         "surfaceForm": "de",
@@ -42310,6 +44222,14 @@
         "locationStart": 9831,
         "locationEnd": 9843,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_239",
+        "surfaceForm": "Mme Bentinck",
+        "category": "PER",
+        "locationStart": 9831,
+        "locationEnd": 9843,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_98",
@@ -42388,6 +44308,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_240",
+        "surfaceForm": "Frederic Deloffre",
+        "category": "PER",
+        "locationStart": 9859,
+        "locationEnd": 9876,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_215",
         "surfaceForm": "Oxford 2003",
         "category": "MISC",
@@ -42442,6 +44370,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "spacy_matcher_nl_241",
+        "surfaceForm": "Illustratie Anoniem",
+        "category": "PER",
+        "locationStart": 9896,
+        "locationEnd": 9915,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_216",
         "surfaceForm": "Anoniem olieverfportret",
         "category": "MISC",
@@ -42478,6 +44414,14 @@
         "locationStart": 9955,
         "locationEnd": 9973,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_242",
+        "surfaceForm": "Heimatmuseum Varel).Auteur",
+        "category": "PER",
+        "locationStart": 9955,
+        "locationEnd": 9981,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "xlmr_ner_99",
@@ -42530,6 +44474,14 @@
         "locationStart": 9983,
         "locationEnd": 9993,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_243",
+        "surfaceForm": "Renee Smid",
+        "category": "PER",
+        "locationStart": 9983,
+        "locationEnd": 9993,
+        "method": "spacy_matcher_nl"
       }
     ],
     "time_expressions": [

@@ -19345,6 +19345,54 @@
     },
     "entities": [
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Herdenking door S.",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 18,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Herdenking door S. Dresden",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 26,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Herdenking door S. Dresden Cornelis",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 35,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Herdenking door S. Dresden Cornelis Ferdinand",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 45,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Herdenking door S. Dresden Cornelis Ferdinand Petrus",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 52,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_15",
+        "surfaceForm": "Herdenking door S. Dresden Cornelis Ferdinand Petrus Stutterheim",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 64,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_0",
         "surfaceForm": "S. Dresden",
         "category": "PER",
@@ -19381,6 +19429,46 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "S. Dresden",
+        "category": "PER",
+        "locationStart": 16,
+        "locationEnd": 26,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "S. Dresden Cornelis",
+        "category": "PER",
+        "locationStart": 16,
+        "locationEnd": 35,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "S. Dresden Cornelis Ferdinand",
+        "category": "PER",
+        "locationStart": 16,
+        "locationEnd": 45,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "S. Dresden Cornelis Ferdinand Petrus",
+        "category": "PER",
+        "locationStart": 16,
+        "locationEnd": 52,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_16",
+        "surfaceForm": "S. Dresden Cornelis Ferdinand Petrus Stutterheim",
+        "category": "PER",
+        "locationStart": 16,
+        "locationEnd": 64,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_1",
         "category": "PER",
         "surfaceForm": "Dresden",
@@ -19395,6 +19483,38 @@
         "locationStart": 19,
         "locationEnd": 26,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Dresden Cornelis",
+        "category": "PER",
+        "locationStart": 19,
+        "locationEnd": 35,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Dresden Cornelis Ferdinand",
+        "category": "PER",
+        "locationStart": 19,
+        "locationEnd": 45,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "Dresden Cornelis Ferdinand Petrus",
+        "category": "PER",
+        "locationStart": 19,
+        "locationEnd": 52,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_17",
+        "surfaceForm": "Dresden Cornelis Ferdinand Petrus Stutterheim",
+        "category": "PER",
+        "locationStart": 19,
+        "locationEnd": 64,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_0",
@@ -19439,12 +19559,60 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Cornelis Ferdinand",
+        "category": "PER",
+        "locationStart": 27,
+        "locationEnd": 45,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "Cornelis Ferdinand Petrus",
+        "category": "PER",
+        "locationStart": 27,
+        "locationEnd": 52,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_18",
+        "surfaceForm": "Cornelis Ferdinand Petrus Stutterheim",
+        "category": "PER",
+        "locationStart": 27,
+        "locationEnd": 64,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_1",
         "category": "PERSON",
         "surfaceForm": "Cornelis Ferdinand Petrus Stutterheim",
         "locationStart": 33,
         "locationEnd": 67,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "Ferdinand Petrus",
+        "category": "PER",
+        "locationStart": 36,
+        "locationEnd": 52,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_19",
+        "surfaceForm": "Ferdinand Petrus Stutterheim",
+        "category": "PER",
+        "locationStart": 36,
+        "locationEnd": 64,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_20",
+        "surfaceForm": "Petrus Stutterheim",
+        "category": "PER",
+        "locationStart": 46,
+        "locationEnd": 64,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_27",
@@ -19533,12 +19701,60 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_21",
+        "surfaceForm": "Cornelis Ferdinand",
+        "category": "PER",
+        "locationStart": 92,
+        "locationEnd": 110,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_22",
+        "surfaceForm": "Cornelis Ferdinand Petrus",
+        "category": "PER",
+        "locationStart": 92,
+        "locationEnd": 117,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_24",
+        "surfaceForm": "Cornelis Ferdinand Petrus Stutterheim",
+        "category": "PER",
+        "locationStart": 92,
+        "locationEnd": 129,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_4",
         "category": "PERSON",
         "surfaceForm": "Cornelis Ferdinand Petrus Stutterheim",
         "locationStart": 95,
         "locationEnd": 129,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_23",
+        "surfaceForm": "Ferdinand Petrus",
+        "category": "PER",
+        "locationStart": 101,
+        "locationEnd": 117,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_25",
+        "surfaceForm": "Ferdinand Petrus Stutterheim",
+        "category": "PER",
+        "locationStart": 101,
+        "locationEnd": 129,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_26",
+        "surfaceForm": "Petrus Stutterheim",
+        "category": "PER",
+        "locationStart": 111,
+        "locationEnd": 129,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_5",
@@ -19791,6 +20007,54 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_27",
+        "surfaceForm": "Cornelis Ferdinand",
+        "category": "PER",
+        "locationStart": 1572,
+        "locationEnd": 1590,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_28",
+        "surfaceForm": "Cornelis Ferdinand Petrus",
+        "category": "PER",
+        "locationStart": 1572,
+        "locationEnd": 1597,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_30",
+        "surfaceForm": "Cornelis Ferdinand Petrus Stutterheim",
+        "category": "PER",
+        "locationStart": 1572,
+        "locationEnd": 1609,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_29",
+        "surfaceForm": "Ferdinand Petrus",
+        "category": "PER",
+        "locationStart": 1581,
+        "locationEnd": 1597,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_31",
+        "surfaceForm": "Ferdinand Petrus Stutterheim",
+        "category": "PER",
+        "locationStart": 1581,
+        "locationEnd": 1609,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_32",
+        "surfaceForm": "Petrus Stutterheim",
+        "category": "PER",
+        "locationStart": 1591,
+        "locationEnd": 1609,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_1",
         "surfaceForm": "1903",
         "category": "TIME",
@@ -19889,6 +20153,14 @@
         "locationStart": 2857,
         "locationEnd": 2867,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_33",
+        "surfaceForm": "Nederlands in Amsterdam",
+        "category": "PER",
+        "locationStart": 2857,
+        "locationEnd": 2880,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_8",
@@ -20039,6 +20311,54 @@
         "locationStart": 3483,
         "locationEnd": 3520,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_34",
+        "surfaceForm": "Cornelis Ferdinand",
+        "category": "PER",
+        "locationStart": 3483,
+        "locationEnd": 3501,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_35",
+        "surfaceForm": "Cornelis Ferdinand Petrus",
+        "category": "PER",
+        "locationStart": 3483,
+        "locationEnd": 3508,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_37",
+        "surfaceForm": "Cornelis Ferdinand Petrus Stutterheim",
+        "category": "PER",
+        "locationStart": 3483,
+        "locationEnd": 3520,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_36",
+        "surfaceForm": "Ferdinand Petrus",
+        "category": "PER",
+        "locationStart": 3492,
+        "locationEnd": 3508,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_38",
+        "surfaceForm": "Ferdinand Petrus Stutterheim",
+        "category": "PER",
+        "locationStart": 3492,
+        "locationEnd": 3520,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_39",
+        "surfaceForm": "Petrus Stutterheim",
+        "category": "PER",
+        "locationStart": 3502,
+        "locationEnd": 3520,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_9",
@@ -20207,6 +20527,14 @@
         "locationStart": 3646,
         "locationEnd": 3677,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_40",
+        "surfaceForm": "Prinzipien der Sprachgeschichte",
+        "category": "PER",
+        "locationStart": 3646,
+        "locationEnd": 3677,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_13",
@@ -20397,6 +20725,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_41",
+        "surfaceForm": "Amsterdamse filosoof H.J.",
+        "category": "PER",
+        "locationStart": 5217,
+        "locationEnd": 5242,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_42",
+        "surfaceForm": "Amsterdamse filosoof H.J. Pos",
+        "category": "PER",
+        "locationStart": 5217,
+        "locationEnd": 5246,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_21",
         "surfaceForm": "H.J. Pos",
         "category": "PER",
@@ -20441,6 +20785,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_43",
+        "surfaceForm": "H.J. Pos",
+        "category": "PER",
+        "locationStart": 5238,
+        "locationEnd": 5246,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_31",
         "category": "PER",
         "surfaceForm": "Pos",
@@ -20483,6 +20835,22 @@
         "locationStart": 5314,
         "locationEnd": 5327,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_44",
+        "surfaceForm": "A.W. de Groot",
+        "category": "PER",
+        "locationStart": 5314,
+        "locationEnd": 5327,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_45",
+        "surfaceForm": "Wat Stutterheim",
+        "category": "PER",
+        "locationStart": 5355,
+        "locationEnd": 5370,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_23",
@@ -20547,6 +20915,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_46",
+        "surfaceForm": "Arabische rhetores en Aristoteles",
+        "category": "PER",
+        "locationStart": 5994,
+        "locationEnd": 6027,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_25",
         "surfaceForm": "Aristoteles",
         "category": "PER",
@@ -20581,6 +20957,14 @@
         "locationStart": 6016,
         "locationEnd": 6027,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_47",
+        "surfaceForm": "Aristoteles tot Kant",
+        "category": "PER",
+        "locationStart": 6016,
+        "locationEnd": 6036,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_26",
@@ -20689,6 +21073,14 @@
         "locationStart": 6045,
         "locationEnd": 6052,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_48",
+        "surfaceForm": "Husserl en Mauthner",
+        "category": "PER",
+        "locationStart": 6045,
+        "locationEnd": 6064,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_29",
@@ -20805,12 +21197,60 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_49",
+        "surfaceForm": "Cornelis Ferdinand",
+        "category": "PER",
+        "locationStart": 6683,
+        "locationEnd": 6701,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_50",
+        "surfaceForm": "Cornelis Ferdinand Petrus",
+        "category": "PER",
+        "locationStart": 6683,
+        "locationEnd": 6708,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_52",
+        "surfaceForm": "Cornelis Ferdinand Petrus Stutterheim",
+        "category": "PER",
+        "locationStart": 6683,
+        "locationEnd": 6720,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_43",
         "category": "PER",
         "surfaceForm": "ferdinand petrus stutterheim",
         "locationStart": 6692,
         "locationEnd": 6720,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_51",
+        "surfaceForm": "Ferdinand Petrus",
+        "category": "PER",
+        "locationStart": 6692,
+        "locationEnd": 6708,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_53",
+        "surfaceForm": "Ferdinand Petrus Stutterheim",
+        "category": "PER",
+        "locationStart": 6692,
+        "locationEnd": 6720,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_54",
+        "surfaceForm": "Petrus Stutterheim",
+        "category": "PER",
+        "locationStart": 6702,
+        "locationEnd": 6720,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_40",

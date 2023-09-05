@@ -10056,12 +10056,36 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Sir Robert",
+        "category": "PER",
+        "locationStart": 11,
+        "locationEnd": 21,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Sir Robert Rollo",
+        "category": "PER",
+        "locationStart": 11,
+        "locationEnd": 27,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_0",
         "category": "PER",
         "surfaceForm": "robert rollo",
         "locationStart": 15,
         "locationEnd": 27,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Robert Rollo",
+        "category": "PER",
+        "locationStart": 15,
+        "locationEnd": 27,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_0",
@@ -10498,6 +10522,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Thomas Taylor",
+        "category": "PER",
+        "locationStart": 275,
+        "locationEnd": 288,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_14",
         "category": "ORGANIZATION",
         "surfaceForm": "majoor",
@@ -10698,6 +10730,14 @@
         "locationStart": 533,
         "locationEnd": 546,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "In Jamaica",
+        "category": "PER",
+        "locationStart": 551,
+        "locationEnd": 561,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_10",
@@ -11030,6 +11070,14 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Hij vergezelde generaal Wilford",
+        "category": "PER",
+        "locationStart": 848,
+        "locationEnd": 879,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_44",
         "category": "PERSON",
         "surfaceForm": "W. Haines",
@@ -11142,6 +11190,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "St. Domingo",
+        "category": "PER",
+        "locationStart": 906,
+        "locationEnd": 917,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_47",
         "category": "PERSON",
         "surfaceForm": "J.W. Janssens",
@@ -11200,6 +11256,14 @@
         "locationStart": 999,
         "locationEnd": 1001,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Teruggekeerd naar Jamaica",
+        "category": "PER",
+        "locationStart": 1123,
+        "locationEnd": 1148,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_17",
@@ -11326,6 +11390,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Amiens terug naar Engeland",
+        "category": "PER",
+        "locationStart": 1227,
+        "locationEnd": 1253,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_20",
         "surfaceForm": "Engeland",
         "category": "LOC",
@@ -11408,6 +11480,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Financieele omstandigheden noopten G.",
+        "category": "PER",
+        "locationStart": 1511,
+        "locationEnd": 1548,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_21",
         "surfaceForm": "G.",
         "category": "PER",
@@ -11442,6 +11522,14 @@
         "locationStart": 1546,
         "locationEnd": 1547,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "G. naar Indie",
+        "category": "PER",
+        "locationStart": 1546,
+        "locationEnd": 1559,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_22",
@@ -11864,6 +11952,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "Auchmuty Java",
+        "category": "PER",
+        "locationStart": 2303,
+        "locationEnd": 2316,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_24",
         "surfaceForm": "Java",
         "category": "LOC",
@@ -11934,6 +12030,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "J.W. Janssens",
+        "category": "PER",
+        "locationStart": 2336,
+        "locationEnd": 2349,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_17",
         "category": "PER",
         "surfaceForm": "Janssens",
@@ -11984,6 +12088,14 @@
         "locationStart": 2445,
         "locationEnd": 2449,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "Java en onderwierp Palembang",
+        "category": "PER",
+        "locationStart": 2445,
+        "locationEnd": 2473,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_35",
@@ -12250,6 +12362,14 @@
         "locationStart": 2692,
         "locationEnd": 2698,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "In Indie",
+        "category": "PER",
+        "locationStart": 2716,
+        "locationEnd": 2724,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_41",
@@ -12616,6 +12736,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_15",
+        "surfaceForm": "H.R. Cook",
+        "category": "PER",
+        "locationStart": 3008,
+        "locationEnd": 3017,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_17",
+        "surfaceForm": "H.R. Cook naar W.",
+        "category": "PER",
+        "locationStart": 3008,
+        "locationEnd": 3025,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_19",
+        "surfaceForm": "H.R. Cook naar W. Haines",
+        "category": "PER",
+        "locationStart": 3008,
+        "locationEnd": 3032,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_22",
         "category": "PER",
         "surfaceForm": "Cook",
@@ -12630,6 +12774,22 @@
         "locationStart": 3013,
         "locationEnd": 3016,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_16",
+        "surfaceForm": "Cook naar W.",
+        "category": "PER",
+        "locationStart": 3013,
+        "locationEnd": 3025,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_18",
+        "surfaceForm": "Cook naar W. Haines",
+        "category": "PER",
+        "locationStart": 3013,
+        "locationEnd": 3032,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_49",
@@ -12666,6 +12826,14 @@
         "locationStart": 3023,
         "locationEnd": 3032,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_20",
+        "surfaceForm": "W. Haines",
+        "category": "PER",
+        "locationStart": 3023,
+        "locationEnd": 3032,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_23",
@@ -12710,6 +12878,30 @@
         "locationStart": 3039,
         "locationEnd": 3148,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_21",
+        "surfaceForm": "Dictionary of National",
+        "category": "PER",
+        "locationStart": 3039,
+        "locationEnd": 3061,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_22",
+        "surfaceForm": "Dictionary of National Biography",
+        "category": "PER",
+        "locationStart": 3039,
+        "locationEnd": 3071,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_23",
+        "surfaceForm": "National Biography",
+        "category": "PER",
+        "locationStart": 3053,
+        "locationEnd": 3071,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_51",
@@ -12784,6 +12976,14 @@
         "locationStart": 3122,
         "locationEnd": 3126,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_24",
+        "surfaceForm": "J.W. Janssens",
+        "category": "PER",
+        "locationStart": 3122,
+        "locationEnd": 3135,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_26",

@@ -1473,6 +1473,22 @@
     },
     "entities": [
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Sociaal bewogen Tweede",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 22,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Sociaal bewogen Tweede Kamerlid",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 31,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_0",
         "surfaceForm": "Tweede Kamerlid",
         "category": "ORG",
@@ -1489,6 +1505,30 @@
         "locationStart": 16,
         "locationEnd": 31,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Tweede Kamerlid",
+        "category": "PER",
+        "locationStart": 16,
+        "locationEnd": 31,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Tweede Kamerlid uit Noord-Limburg",
+        "category": "PER",
+        "locationStart": 16,
+        "locationEnd": 49,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Kamerlid uit Noord-Limburg",
+        "category": "PER",
+        "locationStart": 23,
+        "locationEnd": 49,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_1",
@@ -1577,6 +1617,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Rooie Vrouwen",
+        "category": "PER",
+        "locationStart": 273,
+        "locationEnd": 286,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_4",
         "surfaceForm": "PvdA-gewest Limburg",
         "category": "ORG",
@@ -1645,6 +1693,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Speelde in de Kamer",
+        "category": "PER",
+        "locationStart": 398,
+        "locationEnd": 417,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_6",
         "surfaceForm": "Kamer",
         "category": "ORG",
@@ -1703,6 +1759,14 @@
         "locationStart": 488,
         "locationEnd": 498,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Van Ooijen",
+        "category": "PER",
+        "locationStart": 488,
+        "locationEnd": 498,
+        "method": "spacy_matcher_nl"
       }
     ],
     "time_expressions": [

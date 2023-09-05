@@ -1568,6 +1568,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Eerste Kamerlid",
+        "category": "PER",
+        "locationStart": 94,
+        "locationEnd": 109,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_4",
         "category": "ORGANIZATION",
         "surfaceForm": "PvdA",
@@ -1694,6 +1702,14 @@
         "locationStart": 196,
         "locationEnd": 215,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "In de Rijnmondraad",
+        "category": "PER",
+        "locationStart": 204,
+        "locationEnd": 222,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_4",
@@ -1836,6 +1852,14 @@
         "locationStart": 461,
         "locationEnd": 473,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Eerste Kamer",
+        "category": "PER",
+        "locationStart": 461,
+        "locationEnd": 473,
+        "method": "spacy_matcher_nl"
       }
     ],
     "time_expressions": [

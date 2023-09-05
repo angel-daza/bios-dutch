@@ -938,6 +938,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Is een Haarlemmer",
+        "category": "PER",
+        "locationStart": 9,
+        "locationEnd": 26,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_1",
         "category": "LOCATION",
         "surfaceForm": "Haarlemmer",
@@ -1082,6 +1090,14 @@
         "locationStart": 134,
         "locationEnd": 142,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Fransche en de Latynsche",
+        "category": "PER",
+        "locationStart": 134,
+        "locationEnd": 158,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_7",

@@ -20475,6 +20475,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Henby Bordeaux",
+        "category": "PER",
+        "locationStart": 111,
+        "locationEnd": 125,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "xlmr_ner_2",
         "category": "",
         "surfaceForm": "by",
@@ -20601,12 +20609,36 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "J. A.",
+        "category": "PER",
+        "locationStart": 493,
+        "locationEnd": 498,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "J. A. Fruin",
+        "category": "PER",
+        "locationStart": 493,
+        "locationEnd": 504,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_4",
         "category": "PER",
         "surfaceForm": "A. Fruin",
         "locationStart": 496,
         "locationEnd": 504,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "A. Fruin",
+        "category": "PER",
+        "locationStart": 496,
+        "locationEnd": 504,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_5",
@@ -20625,6 +20657,14 @@
         "locationStart": 700,
         "locationEnd": 704,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "In welke richting De",
+        "category": "PER",
+        "locationStart": 813,
+        "locationEnd": 833,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_6",
@@ -20679,6 +20719,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "De Pinto",
+        "category": "PER",
+        "locationStart": 1550,
+        "locationEnd": 1558,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_8",
         "surfaceForm": "De Pinto's",
         "category": "MISC",
@@ -20721,6 +20769,14 @@
         "locationStart": 2253,
         "locationEnd": 2261,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Db Pinto",
+        "category": "PER",
+        "locationStart": 2253,
+        "locationEnd": 2261,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "xlmr_ner_14",
@@ -20791,6 +20847,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "I. Aaron",
+        "category": "PER",
+        "locationStart": 4170,
+        "locationEnd": 4178,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "I. Aaron Auolf",
+        "category": "PER",
+        "locationStart": 4170,
+        "locationEnd": 4184,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "I. Aaron Auolf de Pinto",
+        "category": "PER",
+        "locationStart": 4170,
+        "locationEnd": 4193,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_12",
         "surfaceForm": "Aaron Auolf de Pinto",
         "category": "PER",
@@ -20817,12 +20897,36 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Aaron Auolf",
+        "category": "PER",
+        "locationStart": 4173,
+        "locationEnd": 4184,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "Aaron Auolf de Pinto",
+        "category": "PER",
+        "locationStart": 4173,
+        "locationEnd": 4193,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_21",
         "category": "PER",
         "surfaceForm": "auolf de pinto",
         "locationStart": 4179,
         "locationEnd": 4193,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Auolf de Pinto",
+        "category": "PER",
+        "locationStart": 4179,
+        "locationEnd": 4193,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_21",
@@ -20917,6 +21021,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "Moses de Pinto",
+        "category": "PER",
+        "locationStart": 4307,
+        "locationEnd": 4321,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "Pinto en jonkvrouwe Sara",
+        "category": "PER",
+        "locationStart": 4316,
+        "locationEnd": 4340,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_15",
+        "surfaceForm": "Pinto en jonkvrouwe Sara Salvador",
+        "category": "PER",
+        "locationStart": 4316,
+        "locationEnd": 4349,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_15",
         "surfaceForm": "Sara Salvador",
         "category": "PER",
@@ -20949,6 +21077,14 @@
         "locationStart": 4336,
         "locationEnd": 4349,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_16",
+        "surfaceForm": "Sara Salvador",
+        "category": "PER",
+        "locationStart": 4336,
+        "locationEnd": 4349,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_18",
@@ -21027,6 +21163,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_17",
+        "surfaceForm": "Don Manuel",
+        "category": "PER",
+        "locationStart": 4693,
+        "locationEnd": 4703,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_22",
         "category": "PER",
         "surfaceForm": "manu",
@@ -21083,6 +21227,14 @@
         "locationStart": 5116,
         "locationEnd": 5124,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_18",
+        "surfaceForm": "Van De",
+        "category": "PER",
+        "locationStart": 5172,
+        "locationEnd": 5178,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_19",
@@ -21143,6 +21295,14 @@
         "locationStart": 5209,
         "locationEnd": 5223,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_19",
+        "surfaceForm": "Isaac de Pinto",
+        "category": "PER",
+        "locationStart": 5209,
+        "locationEnd": 5223,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_24",
@@ -21289,6 +21449,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_20",
+        "surfaceForm": "De Pinto",
+        "category": "PER",
+        "locationStart": 5556,
+        "locationEnd": 5564,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_22",
         "category": "MISC",
         "surfaceForm": "Traite de la circulation et du credit",
@@ -21339,6 +21507,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_21",
+        "surfaceForm": "Toen Voltaire",
+        "category": "PER",
+        "locationStart": 5999,
+        "locationEnd": 6012,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_23",
+        "surfaceForm": "Toen Voltaire in zijne Diciionnaire",
+        "category": "PER",
+        "locationStart": 5999,
+        "locationEnd": 6034,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_26",
         "surfaceForm": "Voltaire",
         "category": "PER",
@@ -21365,6 +21549,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_22",
+        "surfaceForm": "Voltaire in zijne Diciionnaire",
+        "category": "PER",
+        "locationStart": 6004,
+        "locationEnd": 6034,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_27",
         "surfaceForm": "Diciionnaire p Mlosophique",
         "category": "MISC",
@@ -21381,6 +21573,22 @@
         "locationStart": 6022,
         "locationEnd": 6048,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_24",
+        "surfaceForm": "Diciionnaire p Mlosophique",
+        "category": "PER",
+        "locationStart": 6022,
+        "locationEnd": 6048,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_25",
+        "surfaceForm": "Mlosophique de Joden",
+        "category": "PER",
+        "locationStart": 6037,
+        "locationEnd": 6057,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_28",
@@ -21435,6 +21643,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_26",
+        "surfaceForm": "Isaac de Pinto",
+        "category": "PER",
+        "locationStart": 6418,
+        "locationEnd": 6432,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_30",
         "surfaceForm": "Vissering",
         "category": "MISC",
@@ -21451,6 +21667,14 @@
         "locationStart": 6509,
         "locationEnd": 6518,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_27",
+        "surfaceForm": "Reflexiom critiques sur Ie",
+        "category": "PER",
+        "locationStart": 6595,
+        "locationEnd": 6621,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_25",
@@ -21475,6 +21699,14 @@
         "locationStart": 6675,
         "locationEnd": 6686,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_28",
+        "surfaceForm": "De Voltaihe",
+        "category": "PER",
+        "locationStart": 6675,
+        "locationEnd": 6686,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_30",

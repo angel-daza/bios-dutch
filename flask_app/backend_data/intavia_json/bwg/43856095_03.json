@@ -31505,6 +31505,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Clara Engelen",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 13,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_5",
         "surfaceForm": "1879 - 1956",
         "category": "TIME",
@@ -31537,6 +31545,38 @@
         "locationStart": 21,
         "locationEnd": 25,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Jonkvrouw Laurentia",
+        "category": "PER",
+        "locationStart": 26,
+        "locationEnd": 45,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Jonkvrouw Laurentia Clara",
+        "category": "PER",
+        "locationStart": 26,
+        "locationEnd": 51,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Jonkvrouw Laurentia Clara Elisabeth",
+        "category": "PER",
+        "locationStart": 26,
+        "locationEnd": 61,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Jonkvrouw Laurentia Clara Elisabeth Engelen",
+        "category": "PER",
+        "locationStart": 26,
+        "locationEnd": 69,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_1",
@@ -31581,6 +31621,54 @@
         "locationStart": 36,
         "locationEnd": 69,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Laurentia Clara",
+        "category": "PER",
+        "locationStart": 36,
+        "locationEnd": 51,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Laurentia Clara Elisabeth",
+        "category": "PER",
+        "locationStart": 36,
+        "locationEnd": 61,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Laurentia Clara Elisabeth Engelen",
+        "category": "PER",
+        "locationStart": 36,
+        "locationEnd": 69,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Clara Elisabeth",
+        "category": "PER",
+        "locationStart": 46,
+        "locationEnd": 61,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Clara Elisabeth Engelen",
+        "category": "PER",
+        "locationStart": 46,
+        "locationEnd": 69,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Elisabeth Engelen",
+        "category": "PER",
+        "locationStart": 52,
+        "locationEnd": 69,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_2",
@@ -31729,12 +31817,36 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "Daniel Otto",
+        "category": "PER",
+        "locationStart": 152,
+        "locationEnd": 163,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "Daniel Otto Engelen",
+        "category": "PER",
+        "locationStart": 152,
+        "locationEnd": 171,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_7",
         "category": "LOCATION",
         "surfaceForm": "Friedberg in Hessen",
         "locationStart": 157,
         "locationEnd": 176,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "Otto Engelen",
+        "category": "PER",
+        "locationStart": 159,
+        "locationEnd": 171,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_4",
@@ -31913,12 +32025,36 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "Elisabeth Dorothea",
+        "category": "PER",
+        "locationStart": 225,
+        "locationEnd": 243,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_15",
+        "surfaceForm": "Elisabeth Dorothea Fischer",
+        "category": "PER",
+        "locationStart": 225,
+        "locationEnd": 251,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_10",
         "category": "LOCATION",
         "surfaceForm": "Dortmund",
         "locationStart": 231,
         "locationEnd": 239,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_16",
+        "surfaceForm": "Dorothea Fischer",
+        "category": "PER",
+        "locationStart": 235,
+        "locationEnd": 251,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_11",
@@ -31971,6 +32107,14 @@
         "locationStart": 253,
         "locationEnd": 262,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_17",
+        "surfaceForm": "Friedberg in Hessen",
+        "category": "PER",
+        "locationStart": 253,
+        "locationEnd": 272,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_8",
@@ -32215,6 +32359,54 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_18",
+        "surfaceForm": "Julia Carolina",
+        "category": "PER",
+        "locationStart": 375,
+        "locationEnd": 389,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_19",
+        "surfaceForm": "Julia Carolina Elisabeth",
+        "category": "PER",
+        "locationStart": 375,
+        "locationEnd": 399,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_21",
+        "surfaceForm": "Julia Carolina Elisabeth Velthaus",
+        "category": "PER",
+        "locationStart": 375,
+        "locationEnd": 408,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_20",
+        "surfaceForm": "Carolina Elisabeth",
+        "category": "PER",
+        "locationStart": 381,
+        "locationEnd": 399,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_22",
+        "surfaceForm": "Carolina Elisabeth Velthaus",
+        "category": "PER",
+        "locationStart": 381,
+        "locationEnd": 408,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_23",
+        "surfaceForm": "Elisabeth Velthaus",
+        "category": "PER",
+        "locationStart": 390,
+        "locationEnd": 408,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_20",
         "category": "LOCATION",
         "surfaceForm": "Haarlem",
@@ -32433,6 +32625,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_24",
+        "surfaceForm": "Clara Engelen",
+        "category": "PER",
+        "locationStart": 491,
+        "locationEnd": 504,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_25",
         "category": "LOCATION",
         "surfaceForm": "Zutphen",
@@ -32517,12 +32717,52 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_25",
+        "surfaceForm": "Den Haag",
+        "category": "PER",
+        "locationStart": 539,
+        "locationEnd": 547,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_27",
+        "surfaceForm": "Den Haag met Johan",
+        "category": "PER",
+        "locationStart": 539,
+        "locationEnd": 557,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_29",
+        "surfaceForm": "Den Haag met Johan Albrecht",
+        "category": "PER",
+        "locationStart": 539,
+        "locationEnd": 566,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_2",
         "category": "LOC",
         "surfaceForm": "haag",
         "locationStart": 543,
         "locationEnd": 547,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_26",
+        "surfaceForm": "Haag met Johan",
+        "category": "PER",
+        "locationStart": 543,
+        "locationEnd": 557,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_28",
+        "surfaceForm": "Haag met Johan Albrecht",
+        "category": "PER",
+        "locationStart": 543,
+        "locationEnd": 566,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_30",
@@ -32575,6 +32815,14 @@
         "locationStart": 552,
         "locationEnd": 587,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_30",
+        "surfaceForm": "Johan Albrecht",
+        "category": "PER",
+        "locationStart": 552,
+        "locationEnd": 566,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_31",
@@ -32873,6 +33121,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_31",
+        "surfaceForm": "Tieleman te Haarlem",
+        "category": "PER",
+        "locationStart": 741,
+        "locationEnd": 760,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_22",
         "surfaceForm": "Haarlem",
         "category": "LOC",
@@ -32961,6 +33217,38 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_32",
+        "surfaceForm": "Suzanna Maria",
+        "category": "PER",
+        "locationStart": 784,
+        "locationEnd": 797,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_33",
+        "surfaceForm": "Suzanna Maria Sarphaty",
+        "category": "PER",
+        "locationStart": 784,
+        "locationEnd": 806,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_35",
+        "surfaceForm": "Suzanna Maria Sarphaty Orobio",
+        "category": "PER",
+        "locationStart": 784,
+        "locationEnd": 813,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_41",
+        "surfaceForm": "Suzanna Maria Sarphaty Orobio de Castro",
+        "category": "PER",
+        "locationStart": 784,
+        "locationEnd": 823,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_5",
         "category": "PER",
         "surfaceForm": "suzanna maria sarphaty",
@@ -32983,6 +33271,54 @@
         "locationStart": 791,
         "locationEnd": 795,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_34",
+        "surfaceForm": "Maria Sarphaty",
+        "category": "PER",
+        "locationStart": 792,
+        "locationEnd": 806,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_36",
+        "surfaceForm": "Maria Sarphaty Orobio",
+        "category": "PER",
+        "locationStart": 792,
+        "locationEnd": 813,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_40",
+        "surfaceForm": "Maria Sarphaty Orobio de Castro",
+        "category": "PER",
+        "locationStart": 792,
+        "locationEnd": 823,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_37",
+        "surfaceForm": "Sarphaty Orobio",
+        "category": "PER",
+        "locationStart": 798,
+        "locationEnd": 813,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_39",
+        "surfaceForm": "Sarphaty Orobio de Castro",
+        "category": "PER",
+        "locationStart": 798,
+        "locationEnd": 823,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_38",
+        "surfaceForm": "Orobio de Castro",
+        "category": "PER",
+        "locationStart": 807,
+        "locationEnd": 823,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_5",
@@ -33045,6 +33381,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_42",
+        "surfaceForm": "Clara Engelen",
+        "category": "PER",
+        "locationStart": 866,
+        "locationEnd": 879,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_44",
+        "surfaceForm": "Clara Engelen overleed te Wassenaar",
+        "category": "PER",
+        "locationStart": 866,
+        "locationEnd": 901,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_6",
         "category": "PER",
         "surfaceForm": "clara engelen",
@@ -33059,6 +33411,14 @@
         "locationStart": 868,
         "locationEnd": 881,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_43",
+        "surfaceForm": "Engelen overleed te Wassenaar",
+        "category": "PER",
+        "locationStart": 872,
+        "locationEnd": 901,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_25",
@@ -33131,6 +33491,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "spacy_matcher_nl_45",
+        "surfaceForm": "In Zutphen",
+        "category": "PER",
+        "locationStart": 923,
+        "locationEnd": 933,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_26",
         "surfaceForm": "Zutphen",
         "category": "LOC",
@@ -33201,6 +33569,14 @@
         "locationStart": 951,
         "locationEnd": 964,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_46",
+        "surfaceForm": "Clara Engelen",
+        "category": "PER",
+        "locationStart": 951,
+        "locationEnd": 964,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_7",
@@ -33337,6 +33713,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_47",
+        "surfaceForm": "Clara Engelen",
+        "category": "PER",
+        "locationStart": 1700,
+        "locationEnd": 1713,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_15",
         "category": "PER",
         "surfaceForm": "clara engelen",
@@ -33423,6 +33807,14 @@
         "locationStart": 1778,
         "locationEnd": 1784,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_48",
+        "surfaceForm": "Almelo en Zutphen",
+        "category": "PER",
+        "locationStart": 1778,
+        "locationEnd": 1795,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_16",
@@ -33575,6 +33967,22 @@
         "method": "stanza_nl"
       },
       {
+        "ID": "spacy_matcher_nl_49",
+        "surfaceForm": "Vak- en Tekenschool",
+        "category": "PER",
+        "locationStart": 1878,
+        "locationEnd": 1897,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_50",
+        "surfaceForm": "Tekenschool in Zutphen",
+        "category": "PER",
+        "locationStart": 1886,
+        "locationEnd": 1908,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_36",
         "surfaceForm": "Zutphen",
         "category": "LOC",
@@ -33665,12 +34073,36 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_51",
+        "surfaceForm": "Gelderse Vereniging",
+        "category": "PER",
+        "locationStart": 1981,
+        "locationEnd": 2000,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_53",
+        "surfaceForm": "Gelderse Vereniging voor Kunstnijverheid",
+        "category": "PER",
+        "locationStart": 1981,
+        "locationEnd": 2021,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "xlmr_ner_17",
         "category": "ORG",
         "surfaceForm": "Gelderse Vereniging voor Kunstnijverheid",
         "locationStart": 1983,
         "locationEnd": 2023,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_52",
+        "surfaceForm": "Vereniging voor Kunstnijverheid",
+        "category": "PER",
+        "locationStart": 1990,
+        "locationEnd": 2021,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_19",
@@ -33737,6 +34169,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_54",
+        "surfaceForm": "Rijksuniversiteit van Utrecht",
+        "category": "PER",
+        "locationStart": 2276,
+        "locationEnd": 2305,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "xlmr_ner_19",
         "category": "ORG",
         "surfaceForm": "Rijksuniversiteit van Utrecht",
@@ -33771,6 +34211,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_55",
+        "surfaceForm": "Willem Vogelsang",
+        "category": "PER",
+        "locationStart": 2421,
+        "locationEnd": 2437,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_19",
         "category": "PER",
         "surfaceForm": "willem vogelsang",
@@ -33803,6 +34251,14 @@
         "locationStart": 2559,
         "locationEnd": 2577,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_56",
+        "surfaceForm": "Academisch Statuut",
+        "category": "PER",
+        "locationStart": 2559,
+        "locationEnd": 2577,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "xlmr_ner_21",
@@ -33857,6 +34313,14 @@
         "locationStart": 2646,
         "locationEnd": 2659,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_57",
+        "surfaceForm": "Clara Engelen",
+        "category": "PER",
+        "locationStart": 2646,
+        "locationEnd": 2659,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_22",
@@ -33919,6 +34383,14 @@
         "locationStart": 2852,
         "locationEnd": 2867,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_58",
+        "surfaceForm": "Zutphen Vooruit",
+        "category": "PER",
+        "locationStart": 2852,
+        "locationEnd": 2867,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "xlmr_ner_24",
@@ -34011,6 +34483,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_59",
+        "surfaceForm": "J. Gimberg",
+        "category": "PER",
+        "locationStart": 3003,
+        "locationEnd": 3013,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_25",
         "category": "PER",
         "surfaceForm": "j gimberg",
@@ -34053,12 +34533,28 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_60",
+        "surfaceForm": "Oudheidkamer van Zutphen",
+        "category": "PER",
+        "locationStart": 3039,
+        "locationEnd": 3063,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "xlmr_ner_25",
         "category": "ORG",
         "surfaceForm": "Oudheidkamer",
         "locationStart": 3041,
         "locationEnd": 3053,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_61",
+        "surfaceForm": "Zutphen en de Graafschap",
+        "category": "PER",
+        "locationStart": 3056,
+        "locationEnd": 3080,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_25",
@@ -34327,6 +34823,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_62",
+        "surfaceForm": "Jo van Gogh-Bonger",
+        "category": "PER",
+        "locationStart": 4145,
+        "locationEnd": 4163,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_34",
         "category": "PER",
         "surfaceForm": "jo van gogh bonger",
@@ -34369,6 +34873,14 @@
         "locationStart": 4252,
         "locationEnd": 4268,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_63",
+        "surfaceForm": "Vincent van Gogh",
+        "category": "PER",
+        "locationStart": 4252,
+        "locationEnd": 4268,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_34",
@@ -34433,6 +34945,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_64",
+        "surfaceForm": "Groenlo geboren Wilhelmina",
+        "category": "PER",
+        "locationStart": 4337,
+        "locationEnd": 4363,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_35",
         "category": "LOC",
         "surfaceForm": "groenlo",
@@ -34475,6 +34995,14 @@
         "locationStart": 4353,
         "locationEnd": 4374,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_65",
+        "surfaceForm": "Wilhelmina van Alphen",
+        "category": "PER",
+        "locationStart": 4353,
+        "locationEnd": 4374,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_35",
@@ -34575,6 +35103,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_66",
+        "surfaceForm": "Engelen en Van",
+        "category": "PER",
+        "locationStart": 4454,
+        "locationEnd": 4468,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_67",
+        "surfaceForm": "Engelen en Van Alphen",
+        "category": "PER",
+        "locationStart": 4454,
+        "locationEnd": 4475,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "xlmr_ner_36",
         "category": "PER",
         "surfaceForm": "Engelen",
@@ -34609,6 +35153,14 @@
         "locationStart": 4465,
         "locationEnd": 4475,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_68",
+        "surfaceForm": "Van Alphen",
+        "category": "PER",
+        "locationStart": 4465,
+        "locationEnd": 4475,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_36",
@@ -34717,12 +35269,44 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_69",
+        "surfaceForm": "Stedelijk Museum",
+        "category": "PER",
+        "locationStart": 4880,
+        "locationEnd": 4896,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_71",
+        "surfaceForm": "Stedelijk Museum van Zutphen",
+        "category": "PER",
+        "locationStart": 4880,
+        "locationEnd": 4908,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "xlmr_ner_39",
         "category": "LOC",
         "surfaceForm": "Stedelijk Museum van Zutphen",
         "locationStart": 4882,
         "locationEnd": 4910,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_70",
+        "surfaceForm": "Museum van Zutphen",
+        "category": "PER",
+        "locationStart": 4890,
+        "locationEnd": 4908,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_72",
+        "surfaceForm": "Zutphen en de Graafschap",
+        "category": "PER",
+        "locationStart": 4901,
+        "locationEnd": 4925,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_39",
@@ -35085,6 +35669,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_73",
+        "surfaceForm": "Elias Voet",
+        "category": "PER",
+        "locationStart": 5636,
+        "locationEnd": 5646,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_45",
         "category": "PER",
         "surfaceForm": "elias voet jr",
@@ -35209,6 +35801,78 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_74",
+        "surfaceForm": "Vereniging Het",
+        "category": "PER",
+        "locationStart": 6200,
+        "locationEnd": 6214,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_75",
+        "surfaceForm": "Vereniging Het Nederlands",
+        "category": "PER",
+        "locationStart": 6200,
+        "locationEnd": 6225,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_77",
+        "surfaceForm": "Vereniging Het Nederlands Openluchtmuseum",
+        "category": "PER",
+        "locationStart": 6200,
+        "locationEnd": 6241,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_83",
+        "surfaceForm": "Vereniging Het Nederlands Openluchtmuseum in Musis",
+        "category": "PER",
+        "locationStart": 6200,
+        "locationEnd": 6250,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_87",
+        "surfaceForm": "Vereniging Het Nederlands Openluchtmuseum in Musis Sacrum",
+        "category": "PER",
+        "locationStart": 6200,
+        "locationEnd": 6257,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_76",
+        "surfaceForm": "Het Nederlands",
+        "category": "PER",
+        "locationStart": 6211,
+        "locationEnd": 6225,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_78",
+        "surfaceForm": "Het Nederlands Openluchtmuseum",
+        "category": "PER",
+        "locationStart": 6211,
+        "locationEnd": 6241,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_82",
+        "surfaceForm": "Het Nederlands Openluchtmuseum in Musis",
+        "category": "PER",
+        "locationStart": 6211,
+        "locationEnd": 6250,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_86",
+        "surfaceForm": "Het Nederlands Openluchtmuseum in Musis Sacrum",
+        "category": "PER",
+        "locationStart": 6211,
+        "locationEnd": 6257,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_70",
         "surfaceForm": "Nederlands Openluchtmuseum",
         "category": "LOC",
@@ -35219,12 +35883,52 @@
         "method": "stanza_nl"
       },
       {
+        "ID": "spacy_matcher_nl_79",
+        "surfaceForm": "Nederlands Openluchtmuseum",
+        "category": "PER",
+        "locationStart": 6215,
+        "locationEnd": 6241,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_81",
+        "surfaceForm": "Nederlands Openluchtmuseum in Musis",
+        "category": "PER",
+        "locationStart": 6215,
+        "locationEnd": 6250,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_85",
+        "surfaceForm": "Nederlands Openluchtmuseum in Musis Sacrum",
+        "category": "PER",
+        "locationStart": 6215,
+        "locationEnd": 6257,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "xlmr_ner_51",
         "category": "LOC",
         "surfaceForm": "Nederlands Openluchtmuseum",
         "locationStart": 6217,
         "locationEnd": 6243,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_80",
+        "surfaceForm": "Openluchtmuseum in Musis",
+        "category": "PER",
+        "locationStart": 6226,
+        "locationEnd": 6250,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_84",
+        "surfaceForm": "Openluchtmuseum in Musis Sacrum",
+        "category": "PER",
+        "locationStart": 6226,
+        "locationEnd": 6257,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_71",
@@ -35255,6 +35959,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_88",
+        "surfaceForm": "Musis Sacrum",
+        "category": "PER",
+        "locationStart": 6245,
+        "locationEnd": 6257,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_90",
+        "surfaceForm": "Musis Sacrum te Arnhem",
+        "category": "PER",
+        "locationStart": 6245,
+        "locationEnd": 6267,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_51",
         "category": "LOC",
         "surfaceForm": "musis sacrum",
@@ -35269,6 +35989,14 @@
         "locationStart": 6247,
         "locationEnd": 6259,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_89",
+        "surfaceForm": "Sacrum te Arnhem",
+        "category": "PER",
+        "locationStart": 6251,
+        "locationEnd": 6267,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_72",
@@ -35387,6 +36115,30 @@
         "method": "stanza_nl"
       },
       {
+        "ID": "spacy_matcher_nl_91",
+        "surfaceForm": "Praehistorische Cultuurmonumenten",
+        "category": "PER",
+        "locationStart": 6338,
+        "locationEnd": 6371,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_93",
+        "surfaceForm": "Praehistorische Cultuurmonumenten in Gelderland",
+        "category": "PER",
+        "locationStart": 6338,
+        "locationEnd": 6385,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_92",
+        "surfaceForm": "Cultuurmonumenten in Gelderland",
+        "category": "PER",
+        "locationStart": 6354,
+        "locationEnd": 6385,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_75",
         "surfaceForm": "Gelderland",
         "category": "LOC",
@@ -35485,12 +36237,36 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_94",
+        "surfaceForm": "Nederlandse Oudheidkundige",
+        "category": "PER",
+        "locationStart": 6425,
+        "locationEnd": 6451,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_95",
+        "surfaceForm": "Nederlandse Oudheidkundige Bond",
+        "category": "PER",
+        "locationStart": 6425,
+        "locationEnd": 6456,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "xlmr_ner_53",
         "category": "ORG",
         "surfaceForm": "Nederlandse Oudheidkundige Bond",
         "locationStart": 6427,
         "locationEnd": 6458,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_96",
+        "surfaceForm": "Oudheidkundige Bond",
+        "category": "PER",
+        "locationStart": 6437,
+        "locationEnd": 6456,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_91",
@@ -35571,6 +36347,14 @@
         "locationStart": 6663,
         "locationEnd": 6670,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_97",
+        "surfaceForm": "Toen Engelen",
+        "category": "PER",
+        "locationStart": 6751,
+        "locationEnd": 6763,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_79",
@@ -35697,6 +36481,14 @@
         "locationStart": 6885,
         "locationEnd": 6889,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_98",
+        "surfaceForm": "Ook voor Engelen",
+        "category": "PER",
+        "locationStart": 7423,
+        "locationEnd": 7439,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_82",
@@ -35949,6 +36741,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_99",
+        "surfaceForm": "Geillustreerd Maandschrift",
+        "category": "PER",
+        "locationStart": 8672,
+        "locationEnd": 8698,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "xlmr_ner_71",
         "category": "ORG",
         "surfaceForm": "Geillustreerd Maandschrift",
@@ -36029,6 +36829,14 @@
         "method": "stanza_nl"
       },
       {
+        "ID": "spacy_matcher_nl_100",
+        "surfaceForm": "Vak- en Tekenschool",
+        "category": "PER",
+        "locationStart": 8979,
+        "locationEnd": 8998,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_92",
         "surfaceForm": "Elisabeth Neurdenburg",
         "category": "PER",
@@ -36055,6 +36863,14 @@
         "locationStart": 9062,
         "locationEnd": 9083,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_101",
+        "surfaceForm": "Elisabeth Neurdenburg",
+        "category": "PER",
+        "locationStart": 9062,
+        "locationEnd": 9083,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_74",
@@ -36099,6 +36915,14 @@
         "locationStart": 9145,
         "locationEnd": 9176,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_102",
+        "surfaceForm": "Rijksuniversiteit van Groningen",
+        "category": "PER",
+        "locationStart": 9145,
+        "locationEnd": 9176,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "xlmr_ner_74",
@@ -36225,6 +37049,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_103",
+        "surfaceForm": "Den Haag",
+        "category": "PER",
+        "locationStart": 9307,
+        "locationEnd": 9315,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "xlmr_ner_75",
         "category": "LOC",
         "surfaceForm": "Den Haag",
@@ -36331,6 +37163,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_104",
+        "surfaceForm": "In Zutphen",
+        "category": "PER",
+        "locationStart": 9527,
+        "locationEnd": 9537,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_98",
         "surfaceForm": "Zutphen",
         "category": "LOC",
@@ -36423,6 +37263,14 @@
         "method": "human_gold"
       },
       {
+        "ID": "spacy_matcher_nl_105",
+        "surfaceForm": "Gemeente Zutphen",
+        "category": "PER",
+        "locationStart": 9765,
+        "locationEnd": 9781,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "xlmr_ner_80",
         "category": "ORG",
         "surfaceForm": "Gemeente Zutphen",
@@ -36491,6 +37339,14 @@
         "locationStart": 9852,
         "locationEnd": 9856,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_106",
+        "surfaceForm": "Werken Voor",
+        "category": "PER",
+        "locationStart": 10212,
+        "locationEnd": 10223,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_102",
@@ -36655,6 +37511,30 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_107",
+        "surfaceForm": "Literatuur M.M.",
+        "category": "PER",
+        "locationStart": 10400,
+        "locationEnd": 10415,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_108",
+        "surfaceForm": "Literatuur M.M. Doornink-",
+        "category": "PER",
+        "locationStart": 10400,
+        "locationEnd": 10425,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_110",
+        "surfaceForm": "Literatuur M.M. Doornink- Hoogenraad",
+        "category": "PER",
+        "locationStart": 10400,
+        "locationEnd": 10436,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_106",
         "surfaceForm": "M.M. Doornink- Hoogenraad",
         "category": "LOC",
@@ -36673,6 +37553,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_109",
+        "surfaceForm": "M.M. Doornink-",
+        "category": "PER",
+        "locationStart": 10411,
+        "locationEnd": 10425,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_111",
+        "surfaceForm": "M.M. Doornink- Hoogenraad",
+        "category": "PER",
+        "locationStart": 10411,
+        "locationEnd": 10436,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "xlmr_ner_85",
         "category": "PER",
         "surfaceForm": "M.M. Doornink- Hoogenraad",
@@ -36687,6 +37583,14 @@
         "locationStart": 10416,
         "locationEnd": 10424,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_112",
+        "surfaceForm": "Doornink- Hoogenraad",
+        "category": "PER",
+        "locationStart": 10416,
+        "locationEnd": 10436,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_85",
@@ -36715,6 +37619,14 @@
         "method": "stanza_nl"
       },
       {
+        "ID": "spacy_matcher_nl_113",
+        "surfaceForm": "Oudheidkamer van Zutphen",
+        "category": "PER",
+        "locationStart": 10460,
+        "locationEnd": 10484,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "xlmr_ner_86",
         "category": "ORG",
         "surfaceForm": "Ou",
@@ -36729,6 +37641,14 @@
         "locationStart": 10477,
         "locationEnd": 10484,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_114",
+        "surfaceForm": "Zutphen en de Graafschap",
+        "category": "PER",
+        "locationStart": 10477,
+        "locationEnd": 10501,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_86",
@@ -36993,12 +37913,36 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_115",
+        "surfaceForm": "Stedelijk Museum",
+        "category": "PER",
+        "locationStart": 10725,
+        "locationEnd": 10741,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_116",
+        "surfaceForm": "Stedelijk Museum Zutphen",
+        "category": "PER",
+        "locationStart": 10725,
+        "locationEnd": 10749,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "xlmr_ner_87",
         "category": "LOC",
         "surfaceForm": "Stedelijk Museum Zutphen",
         "locationStart": 10727,
         "locationEnd": 10751,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_117",
+        "surfaceForm": "Museum Zutphen",
+        "category": "PER",
+        "locationStart": 10735,
+        "locationEnd": 10749,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_87",

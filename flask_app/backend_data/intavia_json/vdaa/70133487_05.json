@@ -10493,6 +10493,30 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Auguste Jean",
+        "category": "PER",
+        "locationStart": 14,
+        "locationEnd": 26,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Auguste Jean Gabrtel",
+        "category": "PER",
+        "locationStart": 14,
+        "locationEnd": 34,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Jean Gabrtel",
+        "category": "PER",
+        "locationStart": 22,
+        "locationEnd": 34,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_2",
         "category": "LOCATION",
         "surfaceForm": "Caulaincourt",
@@ -10569,6 +10593,14 @@
         "locationStart": 76,
         "locationEnd": 88,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Caulaincourt in Picardie",
+        "category": "PER",
+        "locationStart": 76,
+        "locationEnd": 100,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_4",
@@ -10673,6 +10705,30 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Tweede Luitenant",
+        "category": "PER",
+        "locationStart": 176,
+        "locationEnd": 192,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Tweede Luitenant der Kurassiers",
+        "category": "PER",
+        "locationStart": 176,
+        "locationEnd": 207,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Luitenant der Kurassiers",
+        "category": "PER",
+        "locationStart": 183,
+        "locationEnd": 207,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_5",
         "surfaceForm": "der Kurassiers",
         "category": "PER",
@@ -10735,12 +10791,68 @@
         "method": "stanza_nl"
       },
       {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Eerste Luitenant",
+        "category": "PER",
+        "locationStart": 234,
+        "locationEnd": 250,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Eerste Luitenant in het Eerste",
+        "category": "PER",
+        "locationStart": 234,
+        "locationEnd": 264,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "Eerste Luitenant in het Eerste Regiment",
+        "category": "PER",
+        "locationStart": 234,
+        "locationEnd": 273,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "Eerste Luitenant in het Eerste Regiment Karabiniers",
+        "category": "PER",
+        "locationStart": 234,
+        "locationEnd": 285,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_11",
         "category": "TIME",
         "surfaceForm": "Maart 1799",
         "locationStart": 239,
         "locationEnd": 249,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Luitenant in het Eerste",
+        "category": "PER",
+        "locationStart": 241,
+        "locationEnd": 264,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Luitenant in het Eerste Regiment",
+        "category": "PER",
+        "locationStart": 241,
+        "locationEnd": 273,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "Luitenant in het Eerste Regiment Karabiniers",
+        "category": "PER",
+        "locationStart": 241,
+        "locationEnd": 285,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_12",
@@ -10775,6 +10887,54 @@
         "locationStart": 258,
         "locationEnd": 358,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "Eerste Regiment",
+        "category": "PER",
+        "locationStart": 258,
+        "locationEnd": 273,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_15",
+        "surfaceForm": "Eerste Regiment Karabiniers",
+        "category": "PER",
+        "locationStart": 258,
+        "locationEnd": 285,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_19",
+        "surfaceForm": "Eerste Regiment Karabiniers den 21sten Januarij",
+        "category": "PER",
+        "locationStart": 258,
+        "locationEnd": 305,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_16",
+        "surfaceForm": "Regiment Karabiniers",
+        "category": "PER",
+        "locationStart": 265,
+        "locationEnd": 285,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_18",
+        "surfaceForm": "Regiment Karabiniers den 21sten Januarij",
+        "category": "PER",
+        "locationStart": 265,
+        "locationEnd": 305,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_17",
+        "surfaceForm": "Karabiniers den 21sten Januarij",
+        "category": "PER",
+        "locationStart": 274,
+        "locationEnd": 305,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_13",
@@ -10821,12 +10981,60 @@
         "method": "stanza_nl"
       },
       {
+        "ID": "spacy_matcher_nl_20",
+        "surfaceForm": "Kapitein bij het Eerste",
+        "category": "PER",
+        "locationStart": 315,
+        "locationEnd": 338,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_21",
+        "surfaceForm": "Kapitein bij het Eerste Regement",
+        "category": "PER",
+        "locationStart": 315,
+        "locationEnd": 347,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_23",
+        "surfaceForm": "Kapitein bij het Eerste Regement Dragonders",
+        "category": "PER",
+        "locationStart": 315,
+        "locationEnd": 358,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_0",
         "category": "ORG",
         "surfaceForm": "Eerste Regement Dragonders",
         "locationStart": 332,
         "locationEnd": 358,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_22",
+        "surfaceForm": "Eerste Regement",
+        "category": "PER",
+        "locationStart": 332,
+        "locationEnd": 347,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_24",
+        "surfaceForm": "Eerste Regement Dragonders",
+        "category": "PER",
+        "locationStart": 332,
+        "locationEnd": 358,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_28",
+        "surfaceForm": "Eerste Regement Dragonders den 28sten Februarij",
+        "category": "PER",
+        "locationStart": 332,
+        "locationEnd": 379,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_15",
@@ -10837,12 +11045,36 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "spacy_matcher_nl_25",
+        "surfaceForm": "Regement Dragonders",
+        "category": "PER",
+        "locationStart": 339,
+        "locationEnd": 358,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_27",
+        "surfaceForm": "Regement Dragonders den 28sten Februarij",
+        "category": "PER",
+        "locationStart": 339,
+        "locationEnd": 379,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_16",
         "category": "TIME",
         "surfaceForm": "Junij 1800",
         "locationStart": 348,
         "locationEnd": 358,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_26",
+        "surfaceForm": "Dragonders den 28sten Februarij",
+        "category": "PER",
+        "locationStart": 348,
+        "locationEnd": 379,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_25",
@@ -11135,6 +11367,14 @@
         "locationStart": 559,
         "locationEnd": 570,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_29",
+        "surfaceForm": "St. Gothard",
+        "category": "PER",
+        "locationStart": 559,
+        "locationEnd": 570,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_28",
@@ -11547,6 +11787,14 @@
         "method": "stanza_nl"
       },
       {
+        "ID": "spacy_matcher_nl_30",
+        "surfaceForm": "Junij Aide",
+        "category": "PER",
+        "locationStart": 966,
+        "locationEnd": 976,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_48",
         "category": "ARTWORK",
         "surfaceForm": "Geschiedk. Gedenks. D. I.",
@@ -11579,6 +11827,14 @@
         "locationStart": 993,
         "locationEnd": 1012,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_31",
+        "surfaceForm": "Maarschalk Berthier",
+        "category": "PER",
+        "locationStart": 993,
+        "locationEnd": 1012,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_49",
@@ -11659,6 +11915,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_32",
+        "surfaceForm": "Lodewijk Napoleon",
+        "category": "PER",
+        "locationStart": 1025,
+        "locationEnd": 1042,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_3",
         "surfaceForm": "1806",
         "category": "TIME",
@@ -11685,6 +11949,14 @@
         "tokenStart": 191,
         "tokenEnd": 194,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_33",
+        "surfaceForm": "Koning van Holland",
+        "category": "PER",
+        "locationStart": 1062,
+        "locationEnd": 1080,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_4",
@@ -11803,6 +12075,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_34",
+        "surfaceForm": "Lodewijk hem tot Minister-Plenipotentiaris",
+        "category": "PER",
+        "locationStart": 1295,
+        "locationEnd": 1337,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_27",
         "surfaceForm": "Minister-Plenipotentiaris",
         "category": "MISC",
@@ -11819,6 +12099,14 @@
         "locationStart": 1312,
         "locationEnd": 1337,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_35",
+        "surfaceForm": "Minister-Plenipotentiaris te Napels",
+        "category": "PER",
+        "locationStart": 1312,
+        "locationEnd": 1347,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_28",
@@ -11863,6 +12151,14 @@
         "locationStart": 1341,
         "locationEnd": 1347,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_36",
+        "surfaceForm": "De Koning",
+        "category": "PER",
+        "locationStart": 1362,
+        "locationEnd": 1371,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_29",
@@ -11925,6 +12221,14 @@
         "locationStart": 1551,
         "locationEnd": 1563,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_37",
+        "surfaceForm": "Caulaincourt te Parijs",
+        "category": "PER",
+        "locationStart": 1551,
+        "locationEnd": 1573,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_31",
@@ -12159,6 +12463,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_38",
+        "surfaceForm": "Inmiddels ging Baylen",
+        "category": "PER",
+        "locationStart": 2199,
+        "locationEnd": 2220,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_39",
         "surfaceForm": "Baylen",
         "category": "PER",
@@ -12343,6 +12655,14 @@
         "locationStart": 2521,
         "locationEnd": 2533,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_39",
+        "surfaceForm": "Maarschalken de Taag",
+        "category": "PER",
+        "locationStart": 2521,
+        "locationEnd": 2541,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_18",
@@ -12531,6 +12851,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "spacy_matcher_nl_40",
+        "surfaceForm": "Zie Lodewijk",
+        "category": "PER",
+        "locationStart": 3203,
+        "locationEnd": 3215,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_41",
+        "surfaceForm": "Zie Lodewijk Napoleon",
+        "category": "PER",
+        "locationStart": 3203,
+        "locationEnd": 3224,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_48",
         "surfaceForm": "Lodewijk Napoleon",
         "category": "PER",
@@ -12575,6 +12911,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_42",
+        "surfaceForm": "Lodewijk Napoleon",
+        "category": "PER",
+        "locationStart": 3207,
+        "locationEnd": 3224,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "xlmr_ner_15",
         "category": "PER",
         "surfaceForm": "Napoleon",
@@ -12615,6 +12959,14 @@
         "locationStart": 3246,
         "locationEnd": 3251,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_43",
+        "surfaceForm": "D. I.",
+        "category": "PER",
+        "locationStart": 3246,
+        "locationEnd": 3251,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "xlmr_ner_16",

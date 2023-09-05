@@ -898,6 +898,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Mechelsche Maan",
+        "category": "PER",
+        "locationStart": 44,
+        "locationEnd": 59,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_2",
         "category": "ARTWORK",
         "surfaceForm": "Fransche Zon",
@@ -922,6 +930,14 @@
         "locationStart": 89,
         "locationEnd": 104,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Fransche Zon",
+        "category": "PER",
+        "locationStart": 89,
+        "locationEnd": 101,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_3",
@@ -984,6 +1000,30 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Die Leonard",
+        "category": "PER",
+        "locationStart": 172,
+        "locationEnd": 183,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Die Leonard Franois",
+        "category": "PER",
+        "locationStart": 172,
+        "locationEnd": 191,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Die Leonard Franois Louis",
+        "category": "PER",
+        "locationStart": 172,
+        "locationEnd": 197,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_5",
         "surfaceForm": "Leonard Franois Louis",
         "category": "PER",
@@ -1026,6 +1066,30 @@
         "locationStart": 176,
         "locationEnd": 197,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Leonard Franois",
+        "category": "PER",
+        "locationStart": 176,
+        "locationEnd": 191,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Leonard Franois Louis",
+        "category": "PER",
+        "locationStart": 176,
+        "locationEnd": 197,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Franois Louis",
+        "category": "PER",
+        "locationStart": 184,
+        "locationEnd": 197,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_6",

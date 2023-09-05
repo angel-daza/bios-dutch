@@ -1856,6 +1856,22 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Zn. van Foppe",
+        "category": "PER",
+        "locationStart": 91,
+        "locationEnd": 104,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Zn. van Foppe Ober-",
+        "category": "PER",
+        "locationStart": 91,
+        "locationEnd": 110,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_8",
         "category": "PERSON",
         "surfaceForm": "Wija Alida Harders",
@@ -1906,6 +1922,14 @@
         "locationStart": 99,
         "locationEnd": 114,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Foppe Ober-",
+        "category": "PER",
+        "locationStart": 99,
+        "locationEnd": 110,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_1",
@@ -1976,12 +2000,36 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Wija Alida",
+        "category": "PER",
+        "locationStart": 126,
+        "locationEnd": 136,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Wija Alida Harders",
+        "category": "PER",
+        "locationStart": 126,
+        "locationEnd": 144,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_11",
         "category": "TIME",
         "surfaceForm": "31 okt. 1922",
         "locationStart": 131,
         "locationEnd": 143,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Alida Harders",
+        "category": "PER",
+        "locationStart": 131,
+        "locationEnd": 144,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_12",
@@ -2444,6 +2492,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Amsterdam met Elsa",
+        "category": "PER",
+        "locationStart": 314,
+        "locationEnd": 332,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Amsterdam met Elsa Henri",
+        "category": "PER",
+        "locationStart": 314,
+        "locationEnd": 338,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_11",
         "surfaceForm": "Elsa Henri\"tte",
         "category": "LOC",
@@ -2476,6 +2540,14 @@
         "locationStart": 328,
         "locationEnd": 348,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Elsa Henri",
+        "category": "PER",
+        "locationStart": 328,
+        "locationEnd": 338,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_16",

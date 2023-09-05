@@ -7737,12 +7737,36 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Robertus I.",
+        "category": "PER",
+        "locationStart": 99,
+        "locationEnd": 110,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Robertus I. en Maria",
+        "category": "PER",
+        "locationStart": 99,
+        "locationEnd": 119,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_5",
         "category": "PERSON",
         "surfaceForm": "Robertus I",
         "locationStart": 100,
         "locationEnd": 109,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "I. en Maria",
+        "category": "PER",
+        "locationStart": 108,
+        "locationEnd": 119,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_5",
@@ -7787,6 +7811,14 @@
         "locationStart": 114,
         "locationEnd": 134,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Maria van der Delien",
+        "category": "PER",
+        "locationStart": 114,
+        "locationEnd": 134,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_6",
@@ -7855,6 +7887,14 @@
         "locationStart": 166,
         "locationEnd": 173,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Utrecht onder Witsius",
+        "category": "PER",
+        "locationStart": 166,
+        "locationEnd": 187,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_7",
@@ -8091,6 +8131,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Catharina de Smidt",
+        "category": "PER",
+        "locationStart": 353,
+        "locationEnd": 371,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_16",
         "category": "PERSON",
         "surfaceForm": "Hendrik van Landschot",
@@ -8143,6 +8191,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Willem en Catharina",
+        "category": "PER",
+        "locationStart": 385,
+        "locationEnd": 404,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_17",
         "category": "TIME",
         "surfaceForm": "1695",
@@ -8193,6 +8249,14 @@
         "locationStart": 395,
         "locationEnd": 419,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Catharina van der Heyden",
+        "category": "PER",
+        "locationStart": 395,
+        "locationEnd": 419,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_18",
@@ -8279,6 +8343,14 @@
         "locationStart": 461,
         "locationEnd": 482,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Hendrik van Landschot",
+        "category": "PER",
+        "locationStart": 461,
+        "locationEnd": 482,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_21",
@@ -8591,6 +8663,14 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Met zijn collega Tuinman",
+        "category": "PER",
+        "locationStart": 777,
+        "locationEnd": 801,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_16",
         "surfaceForm": "Tuinman",
         "category": "PER",
@@ -8685,6 +8765,14 @@
         "locationStart": 857,
         "locationEnd": 870,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Marinus Booms",
+        "category": "PER",
+        "locationStart": 857,
+        "locationEnd": 870,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_9",
@@ -9039,6 +9127,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "Daniel de Smit",
+        "category": "PER",
+        "locationStart": 1140,
+        "locationEnd": 1154,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_64",
         "category": "ORGANIZATION",
         "surfaceForm": "vv.",
@@ -9097,6 +9193,14 @@
         "locationStart": 1156,
         "locationEnd": 1167,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "Sara Jacoba",
+        "category": "PER",
+        "locationStart": 1156,
+        "locationEnd": 1167,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_66",
@@ -9159,6 +9263,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "Dr. Leonard",
+        "category": "PER",
+        "locationStart": 1188,
+        "locationEnd": 1199,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_15",
+        "surfaceForm": "Dr. Leonard de Smit",
+        "category": "PER",
+        "locationStart": 1188,
+        "locationEnd": 1207,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_8",
         "surfaceForm": "Leonard de Smit",
         "category": "PER",
@@ -9193,6 +9313,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "Leonard de Smit",
+        "category": "PER",
+        "locationStart": 1192,
+        "locationEnd": 1207,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_69",
         "category": "ORGANIZATION",
         "surfaceForm": "65",
@@ -9215,6 +9343,14 @@
         "locationStart": 1199,
         "locationEnd": 1201,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_16",
+        "surfaceForm": "Smit en Johanna",
+        "category": "PER",
+        "locationStart": 1203,
+        "locationEnd": 1218,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_72",
@@ -9329,6 +9465,30 @@
         "locationStart": 1232,
         "locationEnd": 1246,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_17",
+        "surfaceForm": "Jan de Heerete",
+        "category": "PER",
+        "locationStart": 1232,
+        "locationEnd": 1246,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_18",
+        "surfaceForm": "Jan de Heerete Dordrecht",
+        "category": "PER",
+        "locationStart": 1232,
+        "locationEnd": 1256,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_19",
+        "surfaceForm": "Heerete Dordrecht",
+        "category": "PER",
+        "locationStart": 1239,
+        "locationEnd": 1256,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_74",
@@ -10059,6 +10219,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_20",
+        "surfaceForm": "Wybrands in Archief",
+        "category": "PER",
+        "locationStart": 2038,
+        "locationEnd": 2057,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_21",
+        "surfaceForm": "Wybrands in Archief Nederl",
+        "category": "PER",
+        "locationStart": 2038,
+        "locationEnd": 2064,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_37",
         "surfaceForm": "Archief Nederl",
         "category": "MISC",
@@ -10083,6 +10259,14 @@
         "locationStart": 2050,
         "locationEnd": 2076,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_22",
+        "surfaceForm": "Archief Nederl",
+        "category": "PER",
+        "locationStart": 2050,
+        "locationEnd": 2064,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_38",
@@ -10155,6 +10339,30 @@
         "locationStart": 2111,
         "locationEnd": 2140,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_23",
+        "surfaceForm": "Levensberichten van Zeeuwen",
+        "category": "PER",
+        "locationStart": 2111,
+        "locationEnd": 2138,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_24",
+        "surfaceForm": "Levensberichten van Zeeuwen I",
+        "category": "PER",
+        "locationStart": 2111,
+        "locationEnd": 2140,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_25",
+        "surfaceForm": "Zeeuwen I",
+        "category": "PER",
+        "locationStart": 2131,
+        "locationEnd": 2140,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_35",

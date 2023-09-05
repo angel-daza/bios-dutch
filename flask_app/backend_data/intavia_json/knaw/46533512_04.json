@@ -19373,6 +19373,46 @@
     },
     "entities": [
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Herdenking door C.",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 18,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Herdenking door C. Augustijn",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 28,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Herdenking door C. Augustijn Conrad",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 35,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Herdenking door C. Augustijn Conrad Willem",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 42,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Herdenking door C. Augustijn Conrad Willem Monnich",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 50,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_0",
         "surfaceForm": "C. Augustijn Conrad",
         "category": "PER",
@@ -19399,6 +19439,38 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "C. Augustijn",
+        "category": "PER",
+        "locationStart": 16,
+        "locationEnd": 28,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "C. Augustijn Conrad",
+        "category": "PER",
+        "locationStart": 16,
+        "locationEnd": 35,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "C. Augustijn Conrad Willem",
+        "category": "PER",
+        "locationStart": 16,
+        "locationEnd": 42,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "C. Augustijn Conrad Willem Monnich",
+        "category": "PER",
+        "locationStart": 16,
+        "locationEnd": 50,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_1",
         "category": "PER",
         "surfaceForm": "Augustijn",
@@ -19413,6 +19485,30 @@
         "locationStart": 19,
         "locationEnd": 28,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Augustijn Conrad",
+        "category": "PER",
+        "locationStart": 19,
+        "locationEnd": 35,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Augustijn Conrad Willem",
+        "category": "PER",
+        "locationStart": 19,
+        "locationEnd": 42,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "Augustijn Conrad Willem Monnich",
+        "category": "PER",
+        "locationStart": 19,
+        "locationEnd": 50,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_1",
@@ -19431,6 +19527,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Conrad Willem",
+        "category": "PER",
+        "locationStart": 29,
+        "locationEnd": 42,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "Conrad Willem Monnich",
+        "category": "PER",
+        "locationStart": 29,
+        "locationEnd": 50,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_1",
         "surfaceForm": "Willem Monnich",
         "category": "PER",
@@ -19439,6 +19551,14 @@
         "tokenStart": 5,
         "tokenEnd": 7,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "Willem Monnich",
+        "category": "PER",
+        "locationStart": 36,
+        "locationEnd": 50,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_0",
@@ -19491,6 +19611,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_15",
+        "surfaceForm": "Conrad Willem",
+        "category": "PER",
+        "locationStart": 78,
+        "locationEnd": 91,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_16",
+        "surfaceForm": "Conrad Willem Monnich",
+        "category": "PER",
+        "locationStart": 78,
+        "locationEnd": 99,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_17",
+        "surfaceForm": "Willem Monnich",
+        "category": "PER",
+        "locationStart": 85,
+        "locationEnd": 99,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_3",
         "surfaceForm": "Conrad Willem Monnich",
         "category": "PER",
@@ -19523,6 +19667,30 @@
         "locationStart": 103,
         "locationEnd": 124,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_18",
+        "surfaceForm": "Conrad Willem",
+        "category": "PER",
+        "locationStart": 103,
+        "locationEnd": 116,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_19",
+        "surfaceForm": "Conrad Willem Monnich",
+        "category": "PER",
+        "locationStart": 103,
+        "locationEnd": 124,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_20",
+        "surfaceForm": "Willem Monnich",
+        "category": "PER",
+        "locationStart": 110,
+        "locationEnd": 124,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_0",
@@ -19601,6 +19769,14 @@
         "locationStart": 253,
         "locationEnd": 279,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_21",
+        "surfaceForm": "Gemeentelijke Universiteit",
+        "category": "PER",
+        "locationStart": 253,
+        "locationEnd": 279,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_1",
@@ -19797,12 +19973,28 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_22",
+        "surfaceForm": "Hij promoveerde op De",
+        "category": "PER",
+        "locationStart": 963,
+        "locationEnd": 984,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_7",
         "category": "MISC",
         "surfaceForm": "De natuurlijke kennis Gods",
         "locationStart": 982,
         "locationEnd": 1008,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_23",
+        "surfaceForm": "De natuurlijke kennis Gods",
+        "category": "PER",
+        "locationStart": 982,
+        "locationEnd": 1008,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_12",
@@ -19839,6 +20031,14 @@
         "locationStart": 1013,
         "locationEnd": 1020,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_24",
+        "surfaceForm": "In Maastricht",
+        "category": "PER",
+        "locationStart": 1023,
+        "locationEnd": 1036,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_14",
@@ -20079,6 +20279,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_25",
+        "surfaceForm": "Monnich had in Maastricht",
+        "category": "PER",
+        "locationStart": 1852,
+        "locationEnd": 1877,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_21",
         "surfaceForm": "Maastricht",
         "category": "LOC",
@@ -20165,6 +20373,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "spacy_matcher_nl_26",
+        "surfaceForm": "Dat is al Monnich",
+        "category": "PER",
+        "locationStart": 2423,
+        "locationEnd": 2440,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_24",
         "surfaceForm": "Monnich",
         "category": "PER",
@@ -20189,6 +20405,14 @@
         "locationStart": 2433,
         "locationEnd": 2440,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_27",
+        "surfaceForm": "Hoewel Monnich",
+        "category": "PER",
+        "locationStart": 2522,
+        "locationEnd": 2536,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_25",
@@ -20241,6 +20465,14 @@
         "locationStart": 2647,
         "locationEnd": 2654,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_28",
+        "surfaceForm": "Oudheid en Middeleeuwen",
+        "category": "PER",
+        "locationStart": 2647,
+        "locationEnd": 2670,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_27",
@@ -20297,12 +20529,28 @@
         "method": "stanza_nl"
       },
       {
+        "ID": "spacy_matcher_nl_29",
+        "surfaceForm": "De natuurlijke kennis Gods",
+        "category": "PER",
+        "locationStart": 2916,
+        "locationEnd": 2942,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_21",
         "category": "PER",
         "surfaceForm": "Gods",
         "locationStart": 2938,
         "locationEnd": 2942,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_30",
+        "surfaceForm": "Gods bij Leibniz",
+        "category": "PER",
+        "locationStart": 2938,
+        "locationEnd": 2954,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_21",
@@ -20449,6 +20697,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_31",
+        "surfaceForm": "Conrad Willem",
+        "category": "PER",
+        "locationStart": 3050,
+        "locationEnd": 3063,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_32",
+        "surfaceForm": "Conrad Willem Monnich",
+        "category": "PER",
+        "locationStart": 3050,
+        "locationEnd": 3071,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_33",
+        "surfaceForm": "Willem Monnich",
+        "category": "PER",
+        "locationStart": 3057,
+        "locationEnd": 3071,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_34",
         "surfaceForm": "God",
         "category": "PER",
@@ -20473,6 +20745,14 @@
         "locationStart": 3100,
         "locationEnd": 3103,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_34",
+        "surfaceForm": "Het thema bleef Monnich",
+        "category": "PER",
+        "locationStart": 3163,
+        "locationEnd": 3186,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_35",
@@ -20615,6 +20895,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_35",
+        "surfaceForm": "Tegelijk blijkt uit Monnichs",
+        "category": "PER",
+        "locationStart": 3931,
+        "locationEnd": 3959,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_41",
         "surfaceForm": "Monnichs",
         "category": "MISC",
@@ -20669,6 +20957,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_36",
+        "surfaceForm": "Oudheid en Middeleeuwen",
+        "category": "PER",
+        "locationStart": 4245,
+        "locationEnd": 4268,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_44",
         "surfaceForm": "Middeleeuwen",
         "category": "MISC",
@@ -20703,6 +20999,14 @@
         "locationStart": 4312,
         "locationEnd": 4319,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_37",
+        "surfaceForm": "Oudheid naar Middeleeuwen",
+        "category": "PER",
+        "locationStart": 4312,
+        "locationEnd": 4337,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_46",
@@ -20859,6 +21163,14 @@
         "locationStart": 5078,
         "locationEnd": 5080,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_38",
+        "surfaceForm": "Hij Amsterdams",
+        "category": "PER",
+        "locationStart": 5105,
+        "locationEnd": 5119,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_52",
@@ -21019,6 +21331,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_39",
+        "surfaceForm": "Griekse en Latijnse",
+        "category": "PER",
+        "locationStart": 5707,
+        "locationEnd": 5726,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_59",
         "surfaceForm": "Latijnse",
         "category": "MISC",
@@ -21071,6 +21391,14 @@
         "locationStart": 5869,
         "locationEnd": 5876,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_40",
+        "surfaceForm": "Engelse en Duitse",
+        "category": "PER",
+        "locationStart": 5869,
+        "locationEnd": 5886,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_62",
@@ -21147,6 +21475,30 @@
         "locationStart": 6037,
         "locationEnd": 6058,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_41",
+        "surfaceForm": "Conrad Willem",
+        "category": "PER",
+        "locationStart": 6037,
+        "locationEnd": 6050,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_42",
+        "surfaceForm": "Conrad Willem Monnich",
+        "category": "PER",
+        "locationStart": 6037,
+        "locationEnd": 6058,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_43",
+        "surfaceForm": "Willem Monnich",
+        "category": "PER",
+        "locationStart": 6044,
+        "locationEnd": 6058,
+        "method": "spacy_matcher_nl"
       }
     ],
     "time_expressions": [

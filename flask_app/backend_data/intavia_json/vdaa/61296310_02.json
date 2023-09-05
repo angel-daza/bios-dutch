@@ -8342,6 +8342,30 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Francois Willem",
+        "category": "PER",
+        "locationStart": 9,
+        "locationEnd": 24,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Francois Willem van Brienen",
+        "category": "PER",
+        "locationStart": 9,
+        "locationEnd": 36,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Willem van Brienen",
+        "category": "PER",
+        "locationStart": 18,
+        "locationEnd": 36,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_2",
         "category": "PERSON",
         "surfaceForm": "Jan van Oostrum",
@@ -8394,12 +8418,36 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Jan van Oostrum",
+        "category": "PER",
+        "locationStart": 58,
+        "locationEnd": 73,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_3",
         "category": "PERSON",
         "surfaceForm": "Constantia Henrietta van Brienen",
         "locationStart": 66,
         "locationEnd": 94,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Oostrum en van Constantia",
+        "category": "PER",
+        "locationStart": 66,
+        "locationEnd": 91,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Oostrum en van Constantia Henrietta",
+        "category": "PER",
+        "locationStart": 66,
+        "locationEnd": 101,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_3",
@@ -8444,6 +8492,30 @@
         "locationStart": 81,
         "locationEnd": 113,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Constantia Henrietta",
+        "category": "PER",
+        "locationStart": 81,
+        "locationEnd": 101,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Constantia Henrietta van Brienen",
+        "category": "PER",
+        "locationStart": 81,
+        "locationEnd": 113,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Henrietta van Brienen",
+        "category": "PER",
+        "locationStart": 92,
+        "locationEnd": 113,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_4",
@@ -9024,6 +9096,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Zweedsch Pommere",
+        "category": "PER",
+        "locationStart": 1011,
+        "locationEnd": 1027,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "xlmr_ner_6",
         "category": "LOC",
         "surfaceForm": "Pommere",
@@ -9084,6 +9164,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Mortier naar Friedland",
+        "category": "PER",
+        "locationStart": 1058,
+        "locationEnd": 1080,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_12",
         "surfaceForm": "Friedland",
         "category": "LOC",
@@ -9128,6 +9216,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "Zie v. Sypesteijn",
+        "category": "PER",
+        "locationStart": 1150,
+        "locationEnd": 1167,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "Zie v. Sypesteijn Rijd",
+        "category": "PER",
+        "locationStart": 1150,
+        "locationEnd": 1172,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_4",
         "surfaceForm": "v. Sypesteijn",
         "category": "PER",
@@ -9160,6 +9264,14 @@
         "locationStart": 1157,
         "locationEnd": 1172,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "Sypesteijn Rijd",
+        "category": "PER",
+        "locationStart": 1157,
+        "locationEnd": 1172,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_5",
@@ -9278,6 +9390,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "Hij keerde in Augustus",
+        "category": "PER",
+        "locationStart": 1327,
+        "locationEnd": 1349,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_15",
         "surfaceForm": "Augustus 1809",
         "category": "MISC",
@@ -9350,6 +9470,14 @@
         "locationStart": 1501,
         "locationEnd": 1510,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_15",
+        "surfaceForm": "Engelsche in Zeeland",
+        "category": "PER",
+        "locationStart": 1501,
+        "locationEnd": 1521,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_18",
@@ -9458,6 +9586,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_16",
+        "surfaceForm": "Du Monceau",
+        "category": "PER",
+        "locationStart": 1600,
+        "locationEnd": 1610,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_20",
         "surfaceForm": "November 1809",
         "category": "MISC",
@@ -9512,6 +9648,14 @@
         "locationStart": 1705,
         "locationEnd": 1717,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_17",
+        "surfaceForm": "Kolonel Trip",
+        "category": "PER",
+        "locationStart": 1705,
+        "locationEnd": 1717,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_12",
@@ -9572,6 +9716,14 @@
         "locationStart": 1726,
         "locationEnd": 1732,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_18",
+        "surfaceForm": "In November",
+        "category": "PER",
+        "locationStart": 1795,
+        "locationEnd": 1806,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_23",
@@ -9674,6 +9826,14 @@
         "method": "stanza_nl"
       },
       {
+        "ID": "spacy_matcher_nl_19",
+        "surfaceForm": "Zie Bosscha",
+        "category": "PER",
+        "locationStart": 1972,
+        "locationEnd": 1983,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_26",
         "surfaceForm": "Bosscha",
         "category": "PER",
@@ -9726,6 +9886,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "spacy_matcher_nl_20",
+        "surfaceForm": "Van Sypesteyn",
+        "category": "PER",
+        "locationStart": 2018,
+        "locationEnd": 2031,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "xlmr_ner_16",
         "category": "PER",
         "surfaceForm": "Sypesteyn",
@@ -9776,6 +9944,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_21",
+        "surfaceForm": "Documens historiques de Louis",
+        "category": "PER",
+        "locationStart": 2106,
+        "locationEnd": 2135,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_22",
+        "surfaceForm": "Documens historiques de Louis Napoleon",
+        "category": "PER",
+        "locationStart": 2106,
+        "locationEnd": 2144,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_19",
         "category": "PER",
         "surfaceForm": "Louis Napoleon",
@@ -9790,6 +9974,14 @@
         "locationStart": 2130,
         "locationEnd": 2144,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_23",
+        "surfaceForm": "Louis Napoleon",
+        "category": "PER",
+        "locationStart": 2130,
+        "locationEnd": 2144,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_19",
@@ -9844,6 +10036,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_24",
+        "surfaceForm": "Empere T.",
+        "category": "PER",
+        "locationStart": 2199,
+        "locationEnd": 2208,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_31",
         "surfaceForm": "Meline",
         "category": "PER",
@@ -9886,6 +10086,14 @@
         "locationStart": 2288,
         "locationEnd": 2297,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_25",
+        "surfaceForm": "Franschen colonel Baltus",
+        "category": "PER",
+        "locationStart": 2288,
+        "locationEnd": 2312,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_33",
@@ -9978,6 +10186,14 @@
         "locationStart": 2447,
         "locationEnd": 2450,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_26",
+        "surfaceForm": "Mr. van Brienen",
+        "category": "PER",
+        "locationStart": 2447,
+        "locationEnd": 2462,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_22",

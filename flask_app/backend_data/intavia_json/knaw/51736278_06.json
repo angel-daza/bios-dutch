@@ -14783,6 +14783,14 @@
     },
     "entities": [
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Mr. J.",
+        "category": "PER",
+        "locationStart": 20,
+        "locationEnd": 26,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_0",
         "category": "PER",
         "surfaceForm": "J. ACKERSDIJCK",
@@ -14823,6 +14831,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "H. J.",
+        "category": "PER",
+        "locationStart": 45,
+        "locationEnd": 50,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_0",
         "surfaceForm": "J. KOENEN",
         "category": "PER",
@@ -14839,6 +14855,22 @@
         "locationStart": 48,
         "locationEnd": 57,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Secretaris der Letterkundige",
+        "category": "PER",
+        "locationStart": 59,
+        "locationEnd": 87,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Secretaris der Letterkundige Afdeeling",
+        "category": "PER",
+        "locationStart": 59,
+        "locationEnd": 97,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_1",
@@ -14859,6 +14891,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Letterkundige Afdeeling",
+        "category": "PER",
+        "locationStart": 74,
+        "locationEnd": 97,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_2",
         "surfaceForm": "Mijne Heeren",
         "category": "PER",
@@ -14867,6 +14907,14 @@
         "tokenStart": 22,
         "tokenEnd": 24,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Mijne Heeren",
+        "category": "PER",
+        "locationStart": 126,
+        "locationEnd": 138,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "xlmr_ner_1",
@@ -14885,6 +14933,22 @@
         "tokenStart": 30,
         "tokenEnd": 32,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Hoogleeraar Ackeesdijck",
+        "category": "PER",
+        "locationStart": 170,
+        "locationEnd": 193,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Hoogleeraar Ackeesdijck zijnen ambtgenoot Holtius",
+        "category": "PER",
+        "locationStart": 170,
+        "locationEnd": 219,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_3",
@@ -14909,6 +14973,14 @@
         "locationStart": 182,
         "locationEnd": 193,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Ackeesdijck zijnen ambtgenoot Holtius",
+        "category": "PER",
+        "locationStart": 182,
+        "locationEnd": 219,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_4",
@@ -14971,6 +15043,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Voorgedragen in de Gewone",
+        "category": "PER",
+        "locationStart": 819,
+        "locationEnd": 844,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Voorgedragen in de Gewone Vergadering",
+        "category": "PER",
+        "locationStart": 819,
+        "locationEnd": 856,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_6",
         "surfaceForm": "Gewone Vergadering der Afdeeling van den 14den October",
         "category": "MISC",
@@ -14987,6 +15075,30 @@
         "locationStart": 838,
         "locationEnd": 856,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "Gewone Vergadering",
+        "category": "PER",
+        "locationStart": 838,
+        "locationEnd": 856,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "Gewone Vergadering der Afdeeling",
+        "category": "PER",
+        "locationStart": 838,
+        "locationEnd": 870,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "Vergadering der Afdeeling",
+        "category": "PER",
+        "locationStart": 845,
+        "locationEnd": 870,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_4",
@@ -15039,6 +15151,14 @@
         "locationStart": 962,
         "locationEnd": 972,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "Koningrijk Belgie",
+        "category": "PER",
+        "locationStart": 962,
+        "locationEnd": 979,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "xlmr_ner_4",
@@ -15341,6 +15461,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_15",
+        "surfaceForm": "Eegent en den Wetgever",
+        "category": "PER",
+        "locationStart": 2676,
+        "locationEnd": 2698,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_7",
         "category": "MISC",
         "surfaceForm": "Wetgever",
@@ -15367,6 +15495,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_16",
+        "surfaceForm": "Nederlandschen von Savigny",
+        "category": "PER",
+        "locationStart": 2916,
+        "locationEnd": 2942,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_8",
         "category": "PER",
         "surfaceForm": "von Savigny",
@@ -15389,6 +15525,14 @@
         "locationStart": 2933,
         "locationEnd": 2940,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_17",
+        "surfaceForm": "Savigny of Hugo",
+        "category": "PER",
+        "locationStart": 2935,
+        "locationEnd": 2950,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "xlmr_ner_14",
@@ -15451,6 +15595,62 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_18",
+        "surfaceForm": "Adah Smith",
+        "category": "PER",
+        "locationStart": 3006,
+        "locationEnd": 3016,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_20",
+        "surfaceForm": "Adah Smith of Jean",
+        "category": "PER",
+        "locationStart": 3006,
+        "locationEnd": 3024,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_22",
+        "surfaceForm": "Adah Smith of Jean Baptiste",
+        "category": "PER",
+        "locationStart": 3006,
+        "locationEnd": 3033,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_25",
+        "surfaceForm": "Adah Smith of Jean Baptiste Say",
+        "category": "PER",
+        "locationStart": 3006,
+        "locationEnd": 3037,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_19",
+        "surfaceForm": "Smith of Jean",
+        "category": "PER",
+        "locationStart": 3011,
+        "locationEnd": 3024,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_21",
+        "surfaceForm": "Smith of Jean Baptiste",
+        "category": "PER",
+        "locationStart": 3011,
+        "locationEnd": 3033,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_24",
+        "surfaceForm": "Smith of Jean Baptiste Say",
+        "category": "PER",
+        "locationStart": 3011,
+        "locationEnd": 3037,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_15",
         "category": "PER",
         "surfaceForm": "jean",
@@ -15485,12 +15685,36 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_23",
+        "surfaceForm": "Jean Baptiste",
+        "category": "PER",
+        "locationStart": 3020,
+        "locationEnd": 3033,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_26",
+        "surfaceForm": "Jean Baptiste Say",
+        "category": "PER",
+        "locationStart": 3020,
+        "locationEnd": 3037,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_15",
         "category": "PER",
         "surfaceForm": "baptiste say",
         "locationStart": 3023,
         "locationEnd": 3035,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_27",
+        "surfaceForm": "Baptiste Say",
+        "category": "PER",
+        "locationStart": 3025,
+        "locationEnd": 3037,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_23",
@@ -15527,6 +15751,14 @@
         "locationStart": 3211,
         "locationEnd": 3221,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_28",
+        "surfaceForm": "Bij Ackeesduck",
+        "category": "PER",
+        "locationStart": 3787,
+        "locationEnd": 3801,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_17",

@@ -19089,6 +19089,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Herdenking van Willem",
+        "category": "PER",
+        "locationStart": 26,
+        "locationEnd": 47,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Herdenking van Willem Frederik",
+        "category": "PER",
+        "locationStart": 26,
+        "locationEnd": 56,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Herdenking van Willem Frederik Prins",
+        "category": "PER",
+        "locationStart": 26,
+        "locationEnd": 62,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_0",
         "surfaceForm": "Willem Frederik Prins",
         "category": "PER",
@@ -19131,6 +19155,30 @@
         "locationStart": 41,
         "locationEnd": 62,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Willem Frederik",
+        "category": "PER",
+        "locationStart": 41,
+        "locationEnd": 56,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Willem Frederik Prins",
+        "category": "PER",
+        "locationStart": 41,
+        "locationEnd": 62,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Frederik Prins",
+        "category": "PER",
+        "locationStart": 48,
+        "locationEnd": 62,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_1",
@@ -19219,6 +19267,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "J. van der Hoeven",
+        "category": "PER",
+        "locationStart": 98,
+        "locationEnd": 115,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "J. van der Hoeven Op",
+        "category": "PER",
+        "locationStart": 98,
+        "locationEnd": 118,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Hoeven Op",
+        "category": "PER",
+        "locationStart": 109,
+        "locationEnd": 118,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_0",
         "surfaceForm": "23 juni 1984",
         "category": "TIME",
@@ -19281,6 +19353,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Willem Frederik",
+        "category": "PER",
+        "locationStart": 141,
+        "locationEnd": 156,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Willem Frederik Prins",
+        "category": "PER",
+        "locationStart": 141,
+        "locationEnd": 162,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "Frederik Prins",
+        "category": "PER",
+        "locationStart": 148,
+        "locationEnd": 162,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_3",
         "category": "ORGANIZATION",
         "surfaceForm": "Koninklijke Nederlandse Akademie van Wetenschappen",
@@ -19331,6 +19427,14 @@
         "locationStart": 242,
         "locationEnd": 259,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "Rijksuniversiteit te Utrecht",
+        "category": "PER",
+        "locationStart": 242,
+        "locationEnd": 270,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_0",
@@ -19419,12 +19523,60 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "Koninklijke Nederlandse",
+        "category": "PER",
+        "locationStart": 296,
+        "locationEnd": 319,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "Koninklijke Nederlandse Akademie",
+        "category": "PER",
+        "locationStart": 296,
+        "locationEnd": 328,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_18",
+        "surfaceForm": "Koninklijke Nederlandse Akademie van Wetenschappen",
+        "category": "PER",
+        "locationStart": 296,
+        "locationEnd": 346,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_15",
+        "surfaceForm": "Nederlandse Akademie",
+        "category": "PER",
+        "locationStart": 308,
+        "locationEnd": 328,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_17",
+        "surfaceForm": "Nederlandse Akademie van Wetenschappen",
+        "category": "PER",
+        "locationStart": 308,
+        "locationEnd": 346,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_6",
         "category": "LOCATION",
         "surfaceForm": "Rotterdam",
         "locationStart": 315,
         "locationEnd": 324,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_16",
+        "surfaceForm": "Akademie van Wetenschappen",
+        "category": "PER",
+        "locationStart": 320,
+        "locationEnd": 346,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_16",
@@ -19711,6 +19863,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_19",
+        "surfaceForm": "Willem Frederik",
+        "category": "PER",
+        "locationStart": 668,
+        "locationEnd": 683,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_10",
         "surfaceForm": "Limburg",
         "category": "LOC",
@@ -19753,6 +19913,14 @@
         "locationStart": 739,
         "locationEnd": 746,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_20",
+        "surfaceForm": "In Rotterdam",
+        "category": "PER",
+        "locationStart": 956,
+        "locationEnd": 968,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_11",
@@ -19833,6 +20001,14 @@
         "locationStart": 997,
         "locationEnd": 1018,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_21",
+        "surfaceForm": "Hogere Burger-",
+        "category": "PER",
+        "locationStart": 997,
+        "locationEnd": 1011,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_9",
@@ -19993,6 +20169,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_22",
+        "surfaceForm": "Dat werd voor Prins",
+        "category": "PER",
+        "locationStart": 2718,
+        "locationEnd": 2737,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_16",
         "surfaceForm": "Prins",
         "category": "PER",
@@ -20073,6 +20257,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_23",
+        "surfaceForm": "Ne- derlands Indie",
+        "category": "PER",
+        "locationStart": 2760,
+        "locationEnd": 2778,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_18",
         "category": "LOC",
         "surfaceForm": "Indie",
@@ -20091,6 +20283,14 @@
         "method": "stanza_nl"
       },
       {
+        "ID": "spacy_matcher_nl_24",
+        "surfaceForm": "Directeur van Financien",
+        "category": "PER",
+        "locationStart": 2803,
+        "locationEnd": 2826,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_19",
         "category": "ORG",
         "surfaceForm": "Financien",
@@ -20105,6 +20305,14 @@
         "locationStart": 2817,
         "locationEnd": 2826,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_25",
+        "surfaceForm": "Financien te Weltevreden",
+        "category": "PER",
+        "locationStart": 2817,
+        "locationEnd": 2841,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_10",
@@ -20237,6 +20445,22 @@
         "locationStart": 2984,
         "locationEnd": 3006,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_26",
+        "surfaceForm": "Dienst der Belastingen",
+        "category": "PER",
+        "locationStart": 2984,
+        "locationEnd": 3006,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_27",
+        "surfaceForm": "Van iemand als Prins",
+        "category": "PER",
+        "locationStart": 3030,
+        "locationEnd": 3050,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_22",
@@ -20373,12 +20597,60 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_28",
+        "surfaceForm": "De Bevolkingsgroepen",
+        "category": "PER",
+        "locationStart": 3797,
+        "locationEnd": 3817,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_30",
+        "surfaceForm": "De Bevolkingsgroepen in het Nederlandsch-Indische",
+        "category": "PER",
+        "locationStart": 3797,
+        "locationEnd": 3846,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_32",
+        "surfaceForm": "De Bevolkingsgroepen in het Nederlandsch-Indische Recht',1",
+        "category": "PER",
+        "locationStart": 3797,
+        "locationEnd": 3855,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_29",
+        "surfaceForm": "Bevolkingsgroepen in het Nederlandsch-Indische",
+        "category": "PER",
+        "locationStart": 3800,
+        "locationEnd": 3846,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_31",
+        "surfaceForm": "Bevolkingsgroepen in het Nederlandsch-Indische Recht',1",
+        "category": "PER",
+        "locationStart": 3800,
+        "locationEnd": 3855,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_25",
         "category": "MISC",
         "surfaceForm": "Nederlandsch-Indische Recht",
         "locationStart": 3825,
         "locationEnd": 3852,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_33",
+        "surfaceForm": "Nederlandsch-Indische Recht',1",
+        "category": "PER",
+        "locationStart": 3825,
+        "locationEnd": 3855,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_26",
@@ -20409,6 +20681,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_34",
+        "surfaceForm": "Indische Gids",
+        "category": "PER",
+        "locationStart": 3938,
+        "locationEnd": 3951,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_27",
         "surfaceForm": "Het In- disch",
         "category": "MISC",
@@ -20435,6 +20715,14 @@
         "locationStart": 3953,
         "locationEnd": 3972,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_35",
+        "surfaceForm": "Het In-",
+        "category": "PER",
+        "locationStart": 3953,
+        "locationEnd": 3960,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_26",
@@ -20499,6 +20787,14 @@
         "tokenStart": 719,
         "tokenEnd": 723,
         "method": "human_gold"
+      },
+      {
+        "ID": "spacy_matcher_nl_36",
+        "surfaceForm": "Het belastingrecht van Indonesie",
+        "category": "PER",
+        "locationStart": 4240,
+        "locationEnd": 4272,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_29",
@@ -20597,6 +20893,14 @@
         "locationStart": 4474,
         "locationEnd": 4483,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_37",
+        "surfaceForm": "Nederland- se Kabinetten5",
+        "category": "PER",
+        "locationStart": 4474,
+        "locationEnd": 4499,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_26",
@@ -20713,6 +21017,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_38",
+        "surfaceForm": "Zuid of Noord",
+        "category": "PER",
+        "locationStart": 5220,
+        "locationEnd": 5233,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_34",
         "surfaceForm": "Noord",
         "category": "LOC",
@@ -20813,6 +21125,30 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_39",
+        "surfaceForm": "Nederlandsche Staten",
+        "category": "PER",
+        "locationStart": 5392,
+        "locationEnd": 5412,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_40",
+        "surfaceForm": "Nederlandsche Staten Generaal",
+        "category": "PER",
+        "locationStart": 5392,
+        "locationEnd": 5421,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_41",
+        "surfaceForm": "Staten Generaal",
+        "category": "PER",
+        "locationStart": 5406,
+        "locationEnd": 5421,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_32",
         "surfaceForm": "1840 -",
         "category": "TIME",
@@ -20837,6 +21173,14 @@
         "locationStart": 5433,
         "locationEnd": 5437,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_42",
+        "surfaceForm": "De provincie Limburg",
+        "category": "PER",
+        "locationStart": 5440,
+        "locationEnd": 5460,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_38",
@@ -21043,6 +21387,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_43",
+        "surfaceForm": "Duitse Bond",
+        "category": "PER",
+        "locationStart": 5587,
+        "locationEnd": 5598,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_42",
         "surfaceForm": "Maastricht",
         "category": "LOC",
@@ -21087,6 +21439,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_44",
+        "surfaceForm": "Maastricht en Venlo",
+        "category": "PER",
+        "locationStart": 5634,
+        "locationEnd": 5653,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_43",
         "surfaceForm": "Venlo",
         "category": "LOC",
@@ -21129,6 +21489,14 @@
         "locationStart": 5648,
         "locationEnd": 5653,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_45",
+        "surfaceForm": "Het onderzoek dat Prins",
+        "category": "PER",
+        "locationStart": 5790,
+        "locationEnd": 5813,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_44",
@@ -21185,6 +21553,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_46",
+        "surfaceForm": "Koloniale Studien",
+        "category": "PER",
+        "locationStart": 6009,
+        "locationEnd": 6026,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_46",
         "surfaceForm": "De Indische Gids",
         "category": "MISC",
@@ -21201,6 +21577,30 @@
         "locationStart": 6047,
         "locationEnd": 6063,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_47",
+        "surfaceForm": "De Indische",
+        "category": "PER",
+        "locationStart": 6047,
+        "locationEnd": 6058,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_48",
+        "surfaceForm": "De Indische Gids",
+        "category": "PER",
+        "locationStart": 6047,
+        "locationEnd": 6063,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_49",
+        "surfaceForm": "Indische Gids",
+        "category": "PER",
+        "locationStart": 6050,
+        "locationEnd": 6063,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_39",
@@ -21235,6 +21635,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_50",
+        "surfaceForm": "De Gids",
+        "category": "PER",
+        "locationStart": 6135,
+        "locationEnd": 6142,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_47",
         "surfaceForm": "De Gids 1937",
         "category": "MISC",
@@ -21259,6 +21667,14 @@
         "locationStart": 6164,
         "locationEnd": 6171,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_51",
+        "surfaceForm": "De Gids",
+        "category": "PER",
+        "locationStart": 6164,
+        "locationEnd": 6171,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_48",
@@ -21287,6 +21703,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_52",
+        "surfaceForm": "De Gids",
+        "category": "PER",
+        "locationStart": 6194,
+        "locationEnd": 6201,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_49",
         "surfaceForm": "De Gids",
         "category": "ORG",
@@ -21311,6 +21735,14 @@
         "locationStart": 6227,
         "locationEnd": 6234,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_53",
+        "surfaceForm": "De Gids",
+        "category": "PER",
+        "locationStart": 6227,
+        "locationEnd": 6234,
+        "method": "spacy_matcher_nl"
       }
     ],
     "time_expressions": [

@@ -116,6 +116,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Zuylen Gerrit",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 13,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Zuylen Gerrit Willem",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 20,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_1",
         "surfaceForm": "Gerrit Willem",
         "category": "PER",
@@ -140,6 +156,14 @@
         "locationStart": 7,
         "locationEnd": 20,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Gerrit Willem",
+        "category": "PER",
+        "locationStart": 7,
+        "locationEnd": 20,
+        "method": "spacy_matcher_nl"
       }
     ],
     "time_expressions": []

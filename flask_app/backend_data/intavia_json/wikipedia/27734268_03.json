@@ -4699,6 +4699,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Benjamin Hunningher",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 19,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_1",
         "category": "LOCATION",
         "surfaceForm": "Vlissingen",
@@ -4893,6 +4901,54 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Het Dramatisch",
+        "category": "PER",
+        "locationStart": 217,
+        "locationEnd": 231,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Het Dramatisch Werk",
+        "category": "PER",
+        "locationStart": 217,
+        "locationEnd": 236,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Het Dramatisch Werk van Schimmel",
+        "category": "PER",
+        "locationStart": 217,
+        "locationEnd": 249,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Dramatisch Werk",
+        "category": "PER",
+        "locationStart": 221,
+        "locationEnd": 236,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Dramatisch Werk van Schimmel",
+        "category": "PER",
+        "locationStart": 221,
+        "locationEnd": 249,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Werk van Schimmel",
+        "category": "PER",
+        "locationStart": 232,
+        "locationEnd": 249,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_11",
         "category": "ORGANIZATION",
         "surfaceForm": "Nieuwe Rotterdamsche Courant",
@@ -4979,6 +5035,14 @@
         "tokenStart": 49,
         "tokenEnd": 52,
         "method": "human_gold"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Hij doceerde Nederlands",
+        "category": "PER",
+        "locationStart": 324,
+        "locationEnd": 347,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_15",
@@ -5093,6 +5157,30 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Nieuwe Rotterdamsche",
+        "category": "PER",
+        "locationStart": 416,
+        "locationEnd": 436,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Nieuwe Rotterdamsche Courant",
+        "category": "PER",
+        "locationStart": 416,
+        "locationEnd": 444,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Rotterdamsche Courant",
+        "category": "PER",
+        "locationStart": 423,
+        "locationEnd": 444,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_3",
         "category": "TIME",
         "surfaceForm": "1945",
@@ -5151,6 +5239,14 @@
         "locationStart": 515,
         "locationEnd": 519,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "O.K. en W.",
+        "category": "PER",
+        "locationStart": 515,
+        "locationEnd": 525,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "xlmr_ner_3",
@@ -5265,12 +5361,52 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "Columbia University",
+        "category": "PER",
+        "locationStart": 633,
+        "locationEnd": 652,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "Columbia University in New",
+        "category": "PER",
+        "locationStart": 633,
+        "locationEnd": 659,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_16",
+        "surfaceForm": "Columbia University in New York",
+        "category": "PER",
+        "locationStart": 633,
+        "locationEnd": 664,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_24",
         "category": "DATE",
         "surfaceForm": "1974-'75",
         "locationStart": 636,
         "locationEnd": 644,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "University in New",
+        "category": "PER",
+        "locationStart": 642,
+        "locationEnd": 659,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_15",
+        "surfaceForm": "University in New York",
+        "category": "PER",
+        "locationStart": 642,
+        "locationEnd": 664,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_4",
@@ -5317,6 +5453,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_17",
+        "surfaceForm": "New York",
+        "category": "PER",
+        "locationStart": 656,
+        "locationEnd": 664,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_25",
         "category": "ORGANIZATION",
         "surfaceForm": "Harvard University",
@@ -5351,6 +5495,54 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "spacy_matcher_nl_18",
+        "surfaceForm": "Queen Wilhelmina",
+        "category": "PER",
+        "locationStart": 678,
+        "locationEnd": 694,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_19",
+        "surfaceForm": "Queen Wilhelmina Professor",
+        "category": "PER",
+        "locationStart": 678,
+        "locationEnd": 704,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_23",
+        "surfaceForm": "Queen Wilhelmina Professor for the History",
+        "category": "PER",
+        "locationStart": 678,
+        "locationEnd": 720,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_20",
+        "surfaceForm": "Wilhelmina Professor",
+        "category": "PER",
+        "locationStart": 684,
+        "locationEnd": 704,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_22",
+        "surfaceForm": "Wilhelmina Professor for the History",
+        "category": "PER",
+        "locationStart": 684,
+        "locationEnd": 720,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_21",
+        "surfaceForm": "Professor for the History",
+        "category": "PER",
+        "locationStart": 695,
+        "locationEnd": 720,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_27",
         "category": "ARTWORK",
         "surfaceForm": "Toneel en werkelijkheid",
@@ -5359,12 +5551,28 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "spacy_matcher_nl_24",
+        "surfaceForm": "Literature and Language",
+        "category": "PER",
+        "locationStart": 726,
+        "locationEnd": 749,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_28",
         "category": "ARTWORK",
         "surfaceForm": "Een eeuw Nederlands toneel",
         "locationStart": 731,
         "locationEnd": 756,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_25",
+        "surfaceForm": "Language of the Netherlands",
+        "category": "PER",
+        "locationStart": 741,
+        "locationEnd": 768,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_3",
@@ -5461,6 +5669,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_26",
+        "surfaceForm": "Verenigde Staten",
+        "category": "PER",
+        "locationStart": 877,
+        "locationEnd": 893,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_6",
         "category": "TIME",
         "surfaceForm": "1964",
@@ -5525,6 +5741,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_27",
+        "surfaceForm": "Universiteit van Amsterdam",
+        "category": "PER",
+        "locationStart": 1000,
+        "locationEnd": 1026,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_6",
         "category": "LOC",
         "surfaceForm": "amsterdam",
@@ -5567,6 +5791,14 @@
         "locationStart": 1133,
         "locationEnd": 1149,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_28",
+        "surfaceForm": "Verenigde Staten",
+        "category": "PER",
+        "locationStart": 1133,
+        "locationEnd": 1149,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_7",
@@ -5639,6 +5871,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_29",
+        "surfaceForm": "Harvard University",
+        "category": "PER",
+        "locationStart": 1177,
+        "locationEnd": 1195,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_18",
         "surfaceForm": "Erasmus Chair",
         "category": "ORG",
@@ -5665,6 +5905,14 @@
         "locationStart": 1200,
         "locationEnd": 1213,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_30",
+        "surfaceForm": "Erasmus Chair",
+        "category": "PER",
+        "locationStart": 1200,
+        "locationEnd": 1213,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_19",
@@ -5731,6 +5979,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_31",
+        "surfaceForm": "Een eeuw Nederlands",
+        "category": "PER",
+        "locationStart": 1311,
+        "locationEnd": 1330,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_20",
         "surfaceForm": "Nederlands",
         "category": "MISC",
@@ -5795,6 +6051,30 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_32",
+        "surfaceForm": "The Origin",
+        "category": "PER",
+        "locationStart": 1346,
+        "locationEnd": 1356,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_34",
+        "surfaceForm": "The Origin of the Theatre",
+        "category": "PER",
+        "locationStart": 1346,
+        "locationEnd": 1371,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_33",
+        "surfaceForm": "Origin of the Theatre",
+        "category": "PER",
+        "locationStart": 1350,
+        "locationEnd": 1371,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_8",
         "category": "TIME",
         "surfaceForm": "1955",
@@ -5847,6 +6127,14 @@
         "locationStart": 1410,
         "locationEnd": 1421,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_35",
+        "surfaceForm": "Amsterdamse Schouwburg",
+        "category": "PER",
+        "locationStart": 1410,
+        "locationEnd": 1432,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "xlmr_ner_8",
@@ -5911,6 +6199,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_36",
+        "surfaceForm": "Kruistocht op Broadway",
+        "category": "PER",
+        "locationStart": 1445,
+        "locationEnd": 1467,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_8",
         "category": "LOC",
         "surfaceForm": "broadway",
@@ -5963,6 +6259,14 @@
         "method": "stanza_nl"
       },
       {
+        "ID": "spacy_matcher_nl_37",
+        "surfaceForm": "Nederlands hoogleraar Categorie",
+        "category": "PER",
+        "locationStart": 1489,
+        "locationEnd": 1520,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_8",
         "category": "MISC",
         "surfaceForm": "Nederlands",
@@ -5979,6 +6283,14 @@
         "tokenStart": 260,
         "tokenEnd": 261,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_38",
+        "surfaceForm": "Nederlands kunstcriticus Categorie",
+        "category": "PER",
+        "locationStart": 1522,
+        "locationEnd": 1556,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_8",

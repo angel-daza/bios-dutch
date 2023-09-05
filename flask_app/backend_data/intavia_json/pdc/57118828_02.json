@@ -1498,6 +1498,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Tweede Kamerfractie",
+        "category": "PER",
+        "locationStart": 41,
+        "locationEnd": 60,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_0",
         "category": "TIME",
         "surfaceForm": "vijftig en zestig",
@@ -1530,6 +1538,14 @@
         "locationStart": 157,
         "locationEnd": 177,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Nationale Woningraad",
+        "category": "PER",
+        "locationStart": 157,
+        "locationEnd": 177,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_2",
@@ -1602,6 +1618,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Tweede Kamer",
+        "category": "PER",
+        "locationStart": 294,
+        "locationEnd": 306,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_5",
         "surfaceForm": "Reglement van Orde",
         "category": "ORG",
@@ -1618,6 +1642,14 @@
         "locationStart": 382,
         "locationEnd": 400,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Reglement van Orde",
+        "category": "PER",
+        "locationStart": 382,
+        "locationEnd": 400,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_2",

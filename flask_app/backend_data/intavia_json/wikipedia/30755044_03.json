@@ -5701,6 +5701,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Sibylle van Griethuysen",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 23,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_1",
         "category": "LOCATION",
         "surfaceForm": "Buren",
@@ -6027,12 +6035,36 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Upke Hermans",
+        "category": "PER",
+        "locationStart": 252,
+        "locationEnd": 264,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Upke Hermans Wytzema",
+        "category": "PER",
+        "locationStart": 252,
+        "locationEnd": 272,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_14",
         "category": "LOCATION",
         "surfaceForm": "Appingedam",
         "locationStart": 254,
         "locationEnd": 265,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Hermans Wytzema",
+        "category": "PER",
+        "locationStart": 257,
+        "locationEnd": 272,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_6",
@@ -6105,6 +6137,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Ze leerde Frans",
+        "category": "PER",
+        "locationStart": 332,
+        "locationEnd": 347,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_8",
         "surfaceForm": "Frans",
         "category": "MISC",
@@ -6121,6 +6161,14 @@
         "locationStart": 342,
         "locationEnd": 347,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Frans en Latijn",
+        "category": "PER",
+        "locationStart": 342,
+        "locationEnd": 357,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_9",
@@ -6249,6 +6297,14 @@
         "locationStart": 480,
         "locationEnd": 495,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Claude Fonteyne",
+        "category": "PER",
+        "locationStart": 480,
+        "locationEnd": 495,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_22",
@@ -6469,6 +6525,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Intussen had Sibylle",
+        "category": "PER",
+        "locationStart": 1033,
+        "locationEnd": 1053,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_15",
         "surfaceForm": "Sibylle",
         "category": "PER",
@@ -6523,6 +6587,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Hollandse dichters als Constantijn",
+        "category": "PER",
+        "locationStart": 1166,
+        "locationEnd": 1200,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Hollandse dichters als Constantijn Huygens",
+        "category": "PER",
+        "locationStart": 1166,
+        "locationEnd": 1208,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_17",
         "surfaceForm": "Constantijn Huygens",
         "category": "PER",
@@ -6565,6 +6645,14 @@
         "locationStart": 1189,
         "locationEnd": 1208,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Constantijn Huygens",
+        "category": "PER",
+        "locationStart": 1189,
+        "locationEnd": 1208,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_18",
@@ -6611,6 +6699,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "Jan Vos",
+        "category": "PER",
+        "locationStart": 1211,
+        "locationEnd": 1218,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_19",
         "surfaceForm": "Hendrik Bruno",
         "category": "PER",
@@ -6655,6 +6751,46 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "Hendrik Bruno",
+        "category": "PER",
+        "locationStart": 1221,
+        "locationEnd": 1234,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "Hendrik Bruno en Joan",
+        "category": "PER",
+        "locationStart": 1221,
+        "locationEnd": 1242,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_16",
+        "surfaceForm": "Hendrik Bruno en Joan Blasius",
+        "category": "PER",
+        "locationStart": 1221,
+        "locationEnd": 1250,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "Bruno en Joan",
+        "category": "PER",
+        "locationStart": 1229,
+        "locationEnd": 1242,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_15",
+        "surfaceForm": "Bruno en Joan Blasius",
+        "category": "PER",
+        "locationStart": 1229,
+        "locationEnd": 1250,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_20",
         "surfaceForm": "Joan Blasius",
         "category": "PER",
@@ -6697,6 +6833,14 @@
         "locationStart": 1238,
         "locationEnd": 1250,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_17",
+        "surfaceForm": "Joan Blasius",
+        "category": "PER",
+        "locationStart": 1238,
+        "locationEnd": 1250,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_21",
@@ -6797,12 +6941,36 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_18",
+        "surfaceForm": "Reynier Cornelis",
+        "category": "PER",
+        "locationStart": 1425,
+        "locationEnd": 1441,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_19",
+        "surfaceForm": "Reynier Cornelis Groenevelt",
+        "category": "PER",
+        "locationStart": 1425,
+        "locationEnd": 1452,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_10",
         "category": "PER",
         "surfaceForm": "Cornelis Groenevelt",
         "locationStart": 1433,
         "locationEnd": 1452,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_20",
+        "surfaceForm": "Cornelis Groenevelt",
+        "category": "PER",
+        "locationStart": 1433,
+        "locationEnd": 1452,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_23",
@@ -7051,6 +7219,14 @@
         "locationStart": 1727,
         "locationEnd": 1737,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_21",
+        "surfaceForm": "Nederlands dichter Categorie",
+        "category": "PER",
+        "locationStart": 1727,
+        "locationEnd": 1755,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_29",

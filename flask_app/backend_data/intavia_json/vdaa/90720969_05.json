@@ -5021,6 +5021,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Gravenhage den 27sten September",
+        "category": "PER",
+        "locationStart": 79,
+        "locationEnd": 110,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_0",
         "category": "TIME",
         "surfaceForm": "27sten september 1696",
@@ -5063,6 +5071,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Amsterdam bij den Bouwmeester",
+        "category": "PER",
+        "locationStart": 216,
+        "locationEnd": 245,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Amsterdam bij den Bouwmeester Turk",
+        "category": "PER",
+        "locationStart": 216,
+        "locationEnd": 250,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_5",
         "surfaceForm": "Bouwmeester Turk",
         "category": "PER",
@@ -5079,6 +5103,14 @@
         "locationStart": 234,
         "locationEnd": 250,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Bouwmeester Turk",
+        "category": "PER",
+        "locationStart": 234,
+        "locationEnd": 250,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_0",
@@ -5149,6 +5181,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Franschen Schouwburg",
+        "category": "PER",
+        "locationStart": 431,
+        "locationEnd": 451,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "xlmr_ner_1",
         "category": "LOC",
         "surfaceForm": "Schouwburg",
@@ -5189,6 +5229,14 @@
         "locationStart": 1028,
         "locationEnd": 1042,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Johannes Carre",
+        "category": "PER",
+        "locationStart": 1028,
+        "locationEnd": 1042,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_4",
@@ -5283,6 +5331,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Zie van Gool",
+        "category": "PER",
+        "locationStart": 1332,
+        "locationEnd": 1344,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_11",
         "surfaceForm": "van Gool",
         "category": "PER",
@@ -5317,6 +5373,14 @@
         "locationStart": 1346,
         "locationEnd": 1360,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Nieuwe Schoub",
+        "category": "PER",
+        "locationStart": 1346,
+        "locationEnd": 1359,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "xlmr_ner_7",
@@ -5455,6 +5519,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Algem Woordenb",
+        "category": "PER",
+        "locationStart": 1453,
+        "locationEnd": 1467,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_12",
         "category": "MISC",
         "surfaceForm": "der Zamenl.",
@@ -5505,6 +5577,22 @@
         "locationStart": 1493,
         "locationEnd": 1520,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Levens en Werken",
+        "category": "PER",
+        "locationStart": 1493,
+        "locationEnd": 1509,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Werken der Kunsts",
+        "category": "PER",
+        "locationStart": 1503,
+        "locationEnd": 1520,
+        "method": "spacy_matcher_nl"
       }
     ],
     "time_expressions": [

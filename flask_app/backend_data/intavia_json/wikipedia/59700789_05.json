@@ -5683,12 +5683,92 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Louis Antoine",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 13,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Louis Antoine Marie",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 19,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Louis Antoine Marie Joseph",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 26,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Louis Antoine Marie Joseph Dollo",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 32,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_0",
         "category": "PER",
         "surfaceForm": "antoine marie joseph dollo",
         "locationStart": 6,
         "locationEnd": 32,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Antoine Marie",
+        "category": "PER",
+        "locationStart": 6,
+        "locationEnd": 19,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Antoine Marie Joseph",
+        "category": "PER",
+        "locationStart": 6,
+        "locationEnd": 26,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Antoine Marie Joseph Dollo",
+        "category": "PER",
+        "locationStart": 6,
+        "locationEnd": 32,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Marie Joseph",
+        "category": "PER",
+        "locationStart": 14,
+        "locationEnd": 26,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Marie Joseph Dollo",
+        "category": "PER",
+        "locationStart": 14,
+        "locationEnd": 32,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Joseph Dollo",
+        "category": "PER",
+        "locationStart": 20,
+        "locationEnd": 32,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_1",
@@ -5907,6 +5987,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Frankrijk geboren Belgische",
+        "category": "PER",
+        "locationStart": 99,
+        "locationEnd": 126,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_7",
         "category": "ORGANIZATION",
         "surfaceForm": "paleontoloog",
@@ -5967,6 +6055,14 @@
         "locationStart": 162,
         "locationEnd": 175,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "Wet van Dollo",
+        "category": "PER",
+        "locationStart": 162,
+        "locationEnd": 175,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_9",
@@ -6035,6 +6131,14 @@
         "locationStart": 232,
         "locationEnd": 243,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "Louis Dollo",
+        "category": "PER",
+        "locationStart": 232,
+        "locationEnd": 243,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_11",
@@ -6235,6 +6339,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "Ecole Centrale",
+        "category": "PER",
+        "locationStart": 348,
+        "locationEnd": 362,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_15",
+        "surfaceForm": "Ecole Centrale de Lille",
+        "category": "PER",
+        "locationStart": 348,
+        "locationEnd": 371,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "Centrale de Lille",
+        "category": "PER",
+        "locationStart": 354,
+        "locationEnd": 371,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_18",
         "category": "LOCATION",
         "surfaceForm": "Henegouwen",
@@ -6429,6 +6557,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_16",
+        "surfaceForm": "Bernissart in Henegouwen",
+        "category": "PER",
+        "locationStart": 566,
+        "locationEnd": 590,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_29",
         "category": "PERSON",
         "surfaceForm": "Dollo",
@@ -6577,6 +6713,14 @@
         "locationStart": 628,
         "locationEnd": 642,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_17",
+        "surfaceForm": "Gideon Mantell",
+        "category": "PER",
+        "locationStart": 628,
+        "locationEnd": 642,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_33",
@@ -6733,12 +6877,52 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_18",
+        "surfaceForm": "Koninklijk Natuurhistorisch",
+        "category": "PER",
+        "locationStart": 750,
+        "locationEnd": 777,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_19",
+        "surfaceForm": "Koninklijk Natuurhistorisch Museum",
+        "category": "PER",
+        "locationStart": 750,
+        "locationEnd": 784,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_23",
+        "surfaceForm": "Koninklijk Natuurhistorisch Museum van Belgie",
+        "category": "PER",
+        "locationStart": 750,
+        "locationEnd": 795,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_3",
         "category": "LOC",
         "surfaceForm": "Natuurhistorisch Museum van Belgie",
         "locationStart": 761,
         "locationEnd": 795,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_20",
+        "surfaceForm": "Natuurhistorisch Museum",
+        "category": "PER",
+        "locationStart": 761,
+        "locationEnd": 784,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_22",
+        "surfaceForm": "Natuurhistorisch Museum van Belgie",
+        "category": "PER",
+        "locationStart": 761,
+        "locationEnd": 795,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_40",
@@ -6757,12 +6941,28 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "spacy_matcher_nl_21",
+        "surfaceForm": "Museum van Belgie",
+        "category": "PER",
+        "locationStart": 778,
+        "locationEnd": 795,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_42",
         "category": "PERSON",
         "surfaceForm": "Louis Dollo",
         "locationStart": 786,
         "locationEnd": 796,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_24",
+        "surfaceForm": "Belgie in Brussel",
+        "category": "PER",
+        "locationStart": 789,
+        "locationEnd": 806,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_43",
@@ -7219,12 +7419,52 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_25",
+        "surfaceForm": "Gideon Mantell",
+        "category": "PER",
+        "locationStart": 1247,
+        "locationEnd": 1261,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_27",
+        "surfaceForm": "Gideon Mantell en Richard",
+        "category": "PER",
+        "locationStart": 1247,
+        "locationEnd": 1272,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_29",
+        "surfaceForm": "Gideon Mantell en Richard Owen",
+        "category": "PER",
+        "locationStart": 1247,
+        "locationEnd": 1277,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_81",
         "category": "PERSON",
         "surfaceForm": "Louis Dollo",
         "locationStart": 1254,
         "locationEnd": 1264,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_26",
+        "surfaceForm": "Mantell en Richard",
+        "category": "PER",
+        "locationStart": 1254,
+        "locationEnd": 1272,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_28",
+        "surfaceForm": "Mantell en Richard Owen",
+        "category": "PER",
+        "locationStart": 1254,
+        "locationEnd": 1277,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_7",
@@ -7269,6 +7509,14 @@
         "locationStart": 1265,
         "locationEnd": 1277,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_30",
+        "surfaceForm": "Richard Owen",
+        "category": "PER",
+        "locationStart": 1265,
+        "locationEnd": 1277,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_82",
@@ -7627,6 +7875,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_31",
+        "surfaceForm": "Wet van Dollo",
+        "category": "PER",
+        "locationStart": 1555,
+        "locationEnd": 1568,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_107",
         "category": "PERSON",
         "surfaceForm": "Louis Dollo",
@@ -7661,6 +7917,14 @@
         "method": "stanza_nl"
       },
       {
+        "ID": "spacy_matcher_nl_32",
+        "surfaceForm": "Belgisch wetenschapper Categorie",
+        "category": "PER",
+        "locationStart": 1583,
+        "locationEnd": 1615,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_109",
         "category": "PERSON",
         "surfaceForm": "Louis Dollo",
@@ -7683,6 +7947,14 @@
         "locationStart": 1614,
         "locationEnd": 1624,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_33",
+        "surfaceForm": "Paleontoloog Categorie",
+        "category": "PER",
+        "locationStart": 1617,
+        "locationEnd": 1639,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_112",
@@ -7753,6 +8025,22 @@
         "method": "stanza_nl"
       },
       {
+        "ID": "spacy_matcher_nl_34",
+        "surfaceForm": "Louis-Antoine- Marie-Joseph",
+        "category": "PER",
+        "locationStart": 1661,
+        "locationEnd": 1688,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_35",
+        "surfaceForm": "Louis-Antoine- Marie-Joseph Dollo",
+        "category": "PER",
+        "locationStart": 1661,
+        "locationEnd": 1694,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_115",
         "category": "PERSON",
         "surfaceForm": "Louis Dollo",
@@ -7775,6 +8063,14 @@
         "locationStart": 1674,
         "locationEnd": 1684,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_36",
+        "surfaceForm": "Marie-Joseph Dollo",
+        "category": "PER",
+        "locationStart": 1676,
+        "locationEnd": 1694,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_117",
@@ -7837,6 +8133,14 @@
         "method": "stanza_nl"
       },
       {
+        "ID": "spacy_matcher_nl_37",
+        "surfaceForm": "Louis Dollo",
+        "category": "PER",
+        "locationStart": 1699,
+        "locationEnd": 1710,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_119",
         "category": "PERSON",
         "surfaceForm": "Louis Dollo",
@@ -7889,6 +8193,14 @@
         "method": "stanza_nl"
       },
       {
+        "ID": "spacy_matcher_nl_38",
+        "surfaceForm": "Louis Dollo",
+        "category": "PER",
+        "locationStart": 1715,
+        "locationEnd": 1726,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_120",
         "category": "PERSON",
         "surfaceForm": "Louis Dollo",
@@ -7931,6 +8243,14 @@
         "tokenStart": 300,
         "tokenEnd": 302,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_39",
+        "surfaceForm": "Louis Dollo",
+        "category": "PER",
+        "locationStart": 1731,
+        "locationEnd": 1742,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_121",
@@ -7985,6 +8305,14 @@
         "method": "stanza_nl"
       },
       {
+        "ID": "spacy_matcher_nl_40",
+        "surfaceForm": "Louis Dollo",
+        "category": "PER",
+        "locationStart": 1747,
+        "locationEnd": 1758,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_123",
         "category": "PERSON",
         "surfaceForm": "Louis Dollo",
@@ -8029,6 +8357,14 @@
         "method": "stanza_nl"
       },
       {
+        "ID": "spacy_matcher_nl_41",
+        "surfaceForm": "Louis Dollo",
+        "category": "PER",
+        "locationStart": 1763,
+        "locationEnd": 1774,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_124",
         "category": "PERSON",
         "surfaceForm": "Louis Dollo",
@@ -8071,6 +8407,14 @@
         "tokenStart": 312,
         "tokenEnd": 314,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_42",
+        "surfaceForm": "Louis Dollo",
+        "category": "PER",
+        "locationStart": 1779,
+        "locationEnd": 1790,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_125",
@@ -8125,6 +8469,14 @@
         "method": "stanza_nl"
       },
       {
+        "ID": "spacy_matcher_nl_43",
+        "surfaceForm": "Louis Dollo",
+        "category": "PER",
+        "locationStart": 1795,
+        "locationEnd": 1806,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_127",
         "category": "PERSON",
         "surfaceForm": "Louis Dollo",
@@ -8167,6 +8519,14 @@
         "tokenStart": 320,
         "tokenEnd": 322,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_44",
+        "surfaceForm": "Louis Dollo",
+        "category": "PER",
+        "locationStart": 1811,
+        "locationEnd": 1822,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_128",

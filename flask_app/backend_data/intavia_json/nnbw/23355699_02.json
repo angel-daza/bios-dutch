@@ -5230,12 +5230,60 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Laurens Maria",
+        "category": "PER",
+        "locationStart": 103,
+        "locationEnd": 116,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Laurens Maria le Bron",
+        "category": "PER",
+        "locationStart": 103,
+        "locationEnd": 124,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_5",
         "category": "PERSON",
         "surfaceForm": "Anna Hennebert",
         "locationStart": 108,
         "locationEnd": 121,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Maria le Bron",
+        "category": "PER",
+        "locationStart": 111,
+        "locationEnd": 124,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Bron de Vexela",
+        "category": "PER",
+        "locationStart": 120,
+        "locationEnd": 134,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Vexela en van Anna",
+        "category": "PER",
+        "locationStart": 128,
+        "locationEnd": 146,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Vexela en van Anna Hennebert",
+        "category": "PER",
+        "locationStart": 128,
+        "locationEnd": 156,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_6",
@@ -5288,6 +5336,14 @@
         "locationStart": 142,
         "locationEnd": 156,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Anna Hennebert",
+        "category": "PER",
+        "locationStart": 142,
+        "locationEnd": 156,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_9",
@@ -6242,6 +6298,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Kjahi Madja",
+        "category": "PER",
+        "locationStart": 985,
+        "locationEnd": 996,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_15",
         "surfaceForm": "Dipa Negara",
         "category": "PER",
@@ -6284,6 +6348,22 @@
         "locationStart": 1028,
         "locationEnd": 1039,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Dipa Negara",
+        "category": "PER",
+        "locationStart": 1028,
+        "locationEnd": 1039,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Hij was ridder M.W.O.",
+        "category": "PER",
+        "locationStart": 1041,
+        "locationEnd": 1062,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_16",
@@ -6356,6 +6436,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Anne Caroline",
+        "category": "PER",
+        "locationStart": 1093,
+        "locationEnd": 1106,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "Anne Caroline barones van Oldenneel",
+        "category": "PER",
+        "locationStart": 1093,
+        "locationEnd": 1128,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "Caroline barones van Oldenneel",
+        "category": "PER",
+        "locationStart": 1098,
+        "locationEnd": 1128,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_17",
         "surfaceForm": "Oldenneel",
         "category": "PER",
@@ -6390,6 +6494,14 @@
         "locationStart": 1119,
         "locationEnd": 1128,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "Oldenneel tot Heerenhinck",
+        "category": "PER",
+        "locationStart": 1119,
+        "locationEnd": 1144,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_18",
@@ -6462,6 +6574,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "P.J.F. Louwen",
+        "category": "PER",
+        "locationStart": 1151,
+        "locationEnd": 1164,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_15",
+        "surfaceForm": "P.J.F. Louwen E.S.",
+        "category": "PER",
+        "locationStart": 1151,
+        "locationEnd": 1169,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_19",
+        "surfaceForm": "P.J.F. Louwen E.S. de Klerck",
+        "category": "PER",
+        "locationStart": 1151,
+        "locationEnd": 1179,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_13",
         "category": "",
         "surfaceForm": "f louwen",
@@ -6478,12 +6614,36 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_16",
+        "surfaceForm": "Louwen E.S.",
+        "category": "PER",
+        "locationStart": 1158,
+        "locationEnd": 1169,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_18",
+        "surfaceForm": "Louwen E.S. de Klerck",
+        "category": "PER",
+        "locationStart": 1158,
+        "locationEnd": 1179,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_20",
         "category": "PER",
         "surfaceForm": "E.S. de Klerck",
         "locationStart": 1165,
         "locationEnd": 1179,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_17",
+        "surfaceForm": "E.S. de Klerck",
+        "category": "PER",
+        "locationStart": 1165,
+        "locationEnd": 1179,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_13",
@@ -6510,6 +6670,14 @@
         "locationStart": 1184,
         "locationEnd": 1195,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_20",
+        "surfaceForm": "Java Oorlog",
+        "category": "PER",
+        "locationStart": 1184,
+        "locationEnd": 1195,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_20",
@@ -6580,6 +6748,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_21",
+        "surfaceForm": "Hand. en Geschr",
+        "category": "PER",
+        "locationStart": 1260,
+        "locationEnd": 1275,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_21",
         "category": "MISC",
         "surfaceForm": "en Geschr.",
@@ -6604,6 +6780,14 @@
         "locationStart": 1278,
         "locationEnd": 1282,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_22",
+        "surfaceForm": "Ind. Gen.",
+        "category": "PER",
+        "locationStart": 1278,
+        "locationEnd": 1287,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_22",

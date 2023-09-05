@@ -4261,6 +4261,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Doornik door Giles",
+        "category": "PER",
+        "locationStart": 55,
+        "locationEnd": 73,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_3",
         "category": "PERSON",
         "surfaceForm": "Giles",
@@ -4525,6 +4533,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Notre Dame",
+        "category": "PER",
+        "locationStart": 734,
+        "locationEnd": 744,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Notre Dame van Kortrijk",
+        "category": "PER",
+        "locationStart": 734,
+        "locationEnd": 757,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Dame van Kortrijk",
+        "category": "PER",
+        "locationStart": 740,
+        "locationEnd": 757,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_8",
         "surfaceForm": "Kortrijk",
         "category": "LOC",
@@ -4605,6 +4637,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Notre Dame",
+        "category": "PER",
+        "locationStart": 793,
+        "locationEnd": 803,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_10",
         "surfaceForm": "Doornik",
         "category": "LOC",
@@ -4677,6 +4717,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Zie N.A.J.",
+        "category": "PER",
+        "locationStart": 1017,
+        "locationEnd": 1027,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Zie N.A.J. Lecreux",
+        "category": "PER",
+        "locationStart": 1017,
+        "locationEnd": 1035,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_11",
         "surfaceForm": "N.A.J. Lecreux",
         "category": "PER",
@@ -4701,6 +4757,14 @@
         "locationStart": 1021,
         "locationEnd": 1035,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "N.A.J. Lecreux",
+        "category": "PER",
+        "locationStart": 1021,
+        "locationEnd": 1035,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_7",
@@ -4795,6 +4859,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Arts de la Belg.",
+        "category": "PER",
+        "locationStart": 1078,
+        "locationEnd": 1094,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Arts de la Belg. Annee",
+        "category": "PER",
+        "locationStart": 1078,
+        "locationEnd": 1100,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_14",
         "surfaceForm": "la Belg",
         "category": "MISC",
@@ -4803,6 +4883,14 @@
         "tokenStart": 206,
         "tokenEnd": 208,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Belg. Annee",
+        "category": "PER",
+        "locationStart": 1089,
+        "locationEnd": 1100,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_10",
@@ -4881,6 +4969,30 @@
         "locationStart": 1160,
         "locationEnd": 1179,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "Kunst- Sch.",
+        "category": "PER",
+        "locationStart": 1160,
+        "locationEnd": 1171,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "Kunst- Sch. D.",
+        "category": "PER",
+        "locationStart": 1160,
+        "locationEnd": 1174,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "Sch. D.",
+        "category": "PER",
+        "locationStart": 1167,
+        "locationEnd": 1174,
+        "method": "spacy_matcher_nl"
       }
     ],
     "time_expressions": [

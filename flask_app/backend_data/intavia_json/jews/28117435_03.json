@@ -1023,6 +1023,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Eduard Veterman",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 15,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_1",
         "category": "TIME",
         "surfaceForm": "9 november 1901",
@@ -1091,6 +1099,14 @@
         "locationStart": 43,
         "locationEnd": 51,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Den Haag",
+        "category": "PER",
+        "locationStart": 43,
+        "locationEnd": 51,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_0",

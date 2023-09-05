@@ -956,6 +956,14 @@
     },
     "entities": [
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Was een Konstschilder",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 21,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_0",
         "category": "ARTWORK",
         "surfaceForm": "Konstschilder",
@@ -980,6 +988,14 @@
         "locationStart": 8,
         "locationEnd": 21,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Konstschilder geboortig van Brussel",
+        "category": "PER",
+        "locationStart": 8,
+        "locationEnd": 43,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_1",
@@ -1154,6 +1170,14 @@
         "tokenStart": 52,
         "tokenEnd": 55,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Graaf van W",
+        "category": "PER",
+        "locationStart": 285,
+        "locationEnd": 296,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_0",

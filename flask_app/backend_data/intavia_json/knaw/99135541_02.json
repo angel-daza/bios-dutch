@@ -17933,6 +17933,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Janos Neumann",
+        "category": "PER",
+        "locationStart": 70,
+        "locationEnd": 83,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Janos Neumann von Margitta",
+        "category": "PER",
+        "locationStart": 70,
+        "locationEnd": 96,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Neumann von Margitta",
+        "category": "PER",
+        "locationStart": 76,
+        "locationEnd": 96,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_2",
         "surfaceForm": "von Margitta",
         "category": "PER",
@@ -17941,6 +17965,14 @@
         "tokenStart": 15,
         "tokenEnd": 17,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Margitta werd in Budapest",
+        "category": "PER",
+        "locationStart": 88,
+        "locationEnd": 113,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_3",
@@ -18077,6 +18109,30 @@
         "locationStart": 291,
         "locationEnd": 321,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Eidgenossische Technische",
+        "category": "PER",
+        "locationStart": 291,
+        "locationEnd": 316,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Eidgenossische Technische Hoch-",
+        "category": "PER",
+        "locationStart": 291,
+        "locationEnd": 322,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Technische Hoch-",
+        "category": "PER",
+        "locationStart": 306,
+        "locationEnd": 322,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_7",
@@ -18251,6 +18307,46 @@
         "method": "stanza_nl"
       },
       {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Visiting Lecturer",
+        "category": "PER",
+        "locationStart": 707,
+        "locationEnd": 724,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Visiting Lecturer naar Princeton",
+        "category": "PER",
+        "locationStart": 707,
+        "locationEnd": 739,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "Visiting Lecturer naar Princeton University",
+        "category": "PER",
+        "locationStart": 707,
+        "locationEnd": 750,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Lecturer naar Princeton",
+        "category": "PER",
+        "locationStart": 716,
+        "locationEnd": 739,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Lecturer naar Princeton University",
+        "category": "PER",
+        "locationStart": 716,
+        "locationEnd": 750,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_13",
         "surfaceForm": "Princeton University",
         "category": "ORG",
@@ -18283,6 +18379,14 @@
         "locationStart": 730,
         "locationEnd": 763,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "Princeton University",
+        "category": "PER",
+        "locationStart": 730,
+        "locationEnd": 750,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_14",
@@ -18337,6 +18441,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "Visiting Professor",
+        "category": "PER",
+        "locationStart": 781,
+        "locationEnd": 799,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_7",
         "category": "TIME",
         "surfaceForm": "1933",
@@ -18381,12 +18493,60 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "Institute for Advanced",
+        "category": "PER",
+        "locationStart": 860,
+        "locationEnd": 882,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_15",
+        "surfaceForm": "Institute for Advanced Study",
+        "category": "PER",
+        "locationStart": 860,
+        "locationEnd": 888,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_16",
+        "surfaceForm": "Advanced Study",
+        "category": "PER",
+        "locationStart": 874,
+        "locationEnd": 888,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_9",
         "category": "TIME",
         "surfaceForm": "1945",
         "locationStart": 953,
         "locationEnd": 957,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_17",
+        "surfaceForm": "Directeur van het Electronic",
+        "category": "PER",
+        "locationStart": 970,
+        "locationEnd": 998,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_18",
+        "surfaceForm": "Directeur van het Electronic Computer",
+        "category": "PER",
+        "locationStart": 970,
+        "locationEnd": 1007,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_20",
+        "surfaceForm": "Directeur van het Electronic Computer Project",
+        "category": "PER",
+        "locationStart": 970,
+        "locationEnd": 1015,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_18",
@@ -18413,6 +18573,54 @@
         "locationStart": 988,
         "locationEnd": 1015,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_19",
+        "surfaceForm": "Electronic Computer",
+        "category": "PER",
+        "locationStart": 988,
+        "locationEnd": 1007,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_21",
+        "surfaceForm": "Electronic Computer Project",
+        "category": "PER",
+        "locationStart": 988,
+        "locationEnd": 1015,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_25",
+        "surfaceForm": "Electronic Computer Project aan hetzelfde Insti-",
+        "category": "PER",
+        "locationStart": 988,
+        "locationEnd": 1036,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_22",
+        "surfaceForm": "Computer Project",
+        "category": "PER",
+        "locationStart": 999,
+        "locationEnd": 1015,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_24",
+        "surfaceForm": "Computer Project aan hetzelfde Insti-",
+        "category": "PER",
+        "locationStart": 999,
+        "locationEnd": 1036,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_23",
+        "surfaceForm": "Project aan hetzelfde Insti-",
+        "category": "PER",
+        "locationStart": 1008,
+        "locationEnd": 1036,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_19",
@@ -18473,6 +18681,54 @@
         "locationStart": 1279,
         "locationEnd": 1308,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_26",
+        "surfaceForm": "U.S. Atomic",
+        "category": "PER",
+        "locationStart": 1279,
+        "locationEnd": 1290,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_27",
+        "surfaceForm": "U.S. Atomic Energy",
+        "category": "PER",
+        "locationStart": 1279,
+        "locationEnd": 1297,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_29",
+        "surfaceForm": "U.S. Atomic Energy Commission",
+        "category": "PER",
+        "locationStart": 1279,
+        "locationEnd": 1308,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_28",
+        "surfaceForm": "Atomic Energy",
+        "category": "PER",
+        "locationStart": 1284,
+        "locationEnd": 1297,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_30",
+        "surfaceForm": "Atomic Energy Commission",
+        "category": "PER",
+        "locationStart": 1284,
+        "locationEnd": 1308,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_31",
+        "surfaceForm": "Energy Commission",
+        "category": "PER",
+        "locationStart": 1291,
+        "locationEnd": 1308,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_21",
@@ -18605,6 +18861,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_32",
+        "surfaceForm": "Minkowski werd door I.",
+        "category": "PER",
+        "locationStart": 1731,
+        "locationEnd": 1753,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_33",
+        "surfaceForm": "Minkowski werd door I. Schur",
+        "category": "PER",
+        "locationStart": 1731,
+        "locationEnd": 1759,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_26",
         "surfaceForm": "I. Schur",
         "category": "PER",
@@ -18629,6 +18901,14 @@
         "locationStart": 1751,
         "locationEnd": 1759,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_34",
+        "surfaceForm": "I. Schur",
+        "category": "PER",
+        "locationStart": 1751,
+        "locationEnd": 1759,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_13",
@@ -18663,6 +18943,14 @@
         "locationStart": 1821,
         "locationEnd": 1832,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_35",
+        "surfaceForm": "Hoewel von Neumann",
+        "category": "PER",
+        "locationStart": 1966,
+        "locationEnd": 1984,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_28",
@@ -18759,6 +19047,14 @@
         "locationStart": 3028,
         "locationEnd": 3052,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_36",
+        "surfaceForm": "Grundlagen der Geometrie",
+        "category": "PER",
+        "locationStart": 3028,
+        "locationEnd": 3052,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_16",
@@ -18873,6 +19169,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_37",
+        "surfaceForm": "Hilbert zijn Grund-",
+        "category": "PER",
+        "locationStart": 3812,
+        "locationEnd": 3831,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_36",
         "surfaceForm": "Grund-",
         "category": "MISC",
@@ -18889,6 +19193,14 @@
         "locationStart": 3825,
         "locationEnd": 3837,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_38",
+        "surfaceForm": "Systeme von Dingen",
+        "category": "PER",
+        "locationStart": 3898,
+        "locationEnd": 3916,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_20",
@@ -19109,6 +19421,14 @@
         "locationStart": 5546,
         "locationEnd": 5551,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_39",
+        "surfaceForm": "Toen Godel",
+        "category": "PER",
+        "locationStart": 5566,
+        "locationEnd": 5576,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_43",

@@ -5637,6 +5637,30 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Joachim George",
+        "category": "PER",
+        "locationStart": 7,
+        "locationEnd": 21,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Joachim George le Sage",
+        "category": "PER",
+        "locationStart": 7,
+        "locationEnd": 29,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "George le Sage",
+        "category": "PER",
+        "locationStart": 15,
+        "locationEnd": 29,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_0",
         "category": "PER",
         "surfaceForm": "ten",
@@ -5739,6 +5763,14 @@
         "locationStart": 100,
         "locationEnd": 107,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Notaris te Naaldwijk",
+        "category": "PER",
+        "locationStart": 100,
+        "locationEnd": 120,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_3",
@@ -5845,6 +5877,14 @@
         "locationStart": 179,
         "locationEnd": 202,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Roomsch Katholijke",
+        "category": "PER",
+        "locationStart": 179,
+        "locationEnd": 197,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_4",
@@ -6065,6 +6105,14 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Bij zijne huisvrouw Wilhelmina",
+        "category": "PER",
+        "locationStart": 479,
+        "locationEnd": 509,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_18",
         "category": "LOCATION",
         "surfaceForm": "Rott",
@@ -6123,6 +6171,14 @@
         "locationStart": 499,
         "locationEnd": 517,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Wilhelmina van Lil",
+        "category": "PER",
+        "locationStart": 499,
+        "locationEnd": 517,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_9",
@@ -6247,6 +6303,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Paus Gregoris",
+        "category": "PER",
+        "locationStart": 668,
+        "locationEnd": 681,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_4",
         "category": "PER",
         "surfaceForm": "Gregoris XIV",
@@ -6357,6 +6421,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Roomsch Katholijke",
+        "category": "PER",
+        "locationStart": 815,
+        "locationEnd": 833,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_9",
         "category": "LOC",
         "surfaceForm": "Amst",
@@ -6407,6 +6479,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Roomsch Katholijke",
+        "category": "PER",
+        "locationStart": 912,
+        "locationEnd": 930,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_12",
         "category": "LOC",
         "surfaceForm": "Amst",
@@ -6429,6 +6509,14 @@
         "locationStart": 954,
         "locationEnd": 958,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Goede trouw der Protestanten",
+        "category": "PER",
+        "locationStart": 965,
+        "locationEnd": 993,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_15",
@@ -6467,6 +6555,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "Roomsch Katholijken",
+        "category": "PER",
+        "locationStart": 1020,
+        "locationEnd": 1039,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_15",
         "category": "LOC",
         "surfaceForm": "Amst",
@@ -6499,6 +6595,22 @@
         "tokenStart": 202,
         "tokenEnd": 206,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "Ware aanbidding in Geest",
+        "category": "PER",
+        "locationStart": 1067,
+        "locationEnd": 1091,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "Geest en in Waarheid",
+        "category": "PER",
+        "locationStart": 1086,
+        "locationEnd": 1106,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_18",
@@ -6549,6 +6661,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "Brief aan Mr.",
+        "category": "PER",
+        "locationStart": 1211,
+        "locationEnd": 1224,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_15",
+        "surfaceForm": "Brief aan Mr. I.",
+        "category": "PER",
+        "locationStart": 1211,
+        "locationEnd": 1227,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_18",
         "surfaceForm": "Mr. I. da Costa",
         "category": "PER",
@@ -6557,6 +6685,22 @@
         "tokenStart": 234,
         "tokenEnd": 238,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_16",
+        "surfaceForm": "Mr. I.",
+        "category": "PER",
+        "locationStart": 1221,
+        "locationEnd": 1227,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_18",
+        "surfaceForm": "Mr. I. da Costa",
+        "category": "PER",
+        "locationStart": 1221,
+        "locationEnd": 1236,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_22",
@@ -6581,6 +6725,14 @@
         "locationStart": 1225,
         "locationEnd": 1236,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_17",
+        "surfaceForm": "I. da Costa",
+        "category": "PER",
+        "locationStart": 1225,
+        "locationEnd": 1236,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_18",
@@ -6615,6 +6767,30 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "spacy_matcher_nl_19",
+        "surfaceForm": "Brief aan Mr.",
+        "category": "PER",
+        "locationStart": 1256,
+        "locationEnd": 1269,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_20",
+        "surfaceForm": "Brief aan Mr. W.",
+        "category": "PER",
+        "locationStart": 1256,
+        "locationEnd": 1272,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_22",
+        "surfaceForm": "Brief aan Mr. W. Bilderdijk",
+        "category": "PER",
+        "locationStart": 1256,
+        "locationEnd": 1283,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_19",
         "surfaceForm": "Mr. W. Bilderdijk",
         "category": "PER",
@@ -6623,6 +6799,22 @@
         "tokenStart": 246,
         "tokenEnd": 249,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_21",
+        "surfaceForm": "Mr. W.",
+        "category": "PER",
+        "locationStart": 1266,
+        "locationEnd": 1272,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_23",
+        "surfaceForm": "Mr. W. Bilderdijk",
+        "category": "PER",
+        "locationStart": 1266,
+        "locationEnd": 1283,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_25",
@@ -6649,6 +6841,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_24",
+        "surfaceForm": "W. Bilderdijk",
+        "category": "PER",
+        "locationStart": 1270,
+        "locationEnd": 1283,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_20",
         "category": "LOC",
         "surfaceForm": "'",
@@ -6673,6 +6873,62 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "spacy_matcher_nl_25",
+        "surfaceForm": "Tweede Brief",
+        "category": "PER",
+        "locationStart": 1303,
+        "locationEnd": 1315,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_27",
+        "surfaceForm": "Tweede Brief aan Mr.",
+        "category": "PER",
+        "locationStart": 1303,
+        "locationEnd": 1323,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_29",
+        "surfaceForm": "Tweede Brief aan Mr. W.",
+        "category": "PER",
+        "locationStart": 1303,
+        "locationEnd": 1326,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_32",
+        "surfaceForm": "Tweede Brief aan Mr. W. Bilderdijk",
+        "category": "PER",
+        "locationStart": 1303,
+        "locationEnd": 1337,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_26",
+        "surfaceForm": "Brief aan Mr.",
+        "category": "PER",
+        "locationStart": 1310,
+        "locationEnd": 1323,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_28",
+        "surfaceForm": "Brief aan Mr. W.",
+        "category": "PER",
+        "locationStart": 1310,
+        "locationEnd": 1326,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_31",
+        "surfaceForm": "Brief aan Mr. W. Bilderdijk",
+        "category": "PER",
+        "locationStart": 1310,
+        "locationEnd": 1337,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_20",
         "surfaceForm": "Mr. W. Bilderdijk",
         "category": "PER",
@@ -6681,6 +6937,22 @@
         "tokenStart": 258,
         "tokenEnd": 261,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_30",
+        "surfaceForm": "Mr. W.",
+        "category": "PER",
+        "locationStart": 1320,
+        "locationEnd": 1326,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_33",
+        "surfaceForm": "Mr. W. Bilderdijk",
+        "category": "PER",
+        "locationStart": 1320,
+        "locationEnd": 1337,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_28",
@@ -6705,6 +6977,14 @@
         "locationStart": 1324,
         "locationEnd": 1337,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_34",
+        "surfaceForm": "W. Bilderdijk",
+        "category": "PER",
+        "locationStart": 1324,
+        "locationEnd": 1337,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_21",
@@ -6757,12 +7037,28 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_35",
+        "surfaceForm": "Redactie van het Tijdschrift",
+        "category": "PER",
+        "locationStart": 1376,
+        "locationEnd": 1404,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_31",
         "category": "ORG",
         "surfaceForm": "Tijdschrift",
         "locationStart": 1393,
         "locationEnd": 1404,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_36",
+        "surfaceForm": "Tijdschrift de Godsdienstvriend",
+        "category": "PER",
+        "locationStart": 1393,
+        "locationEnd": 1424,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_22",
@@ -6797,6 +7093,14 @@
         "locationStart": 1448,
         "locationEnd": 1470,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_37",
+        "surfaceForm": "Weekblad de Catholijke",
+        "category": "PER",
+        "locationStart": 1448,
+        "locationEnd": 1470,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_31",

@@ -5774,6 +5774,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Amstelkerk te Amsterdam",
+        "category": "PER",
+        "locationStart": 62,
+        "locationEnd": 85,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_4",
         "category": "PERSON",
         "surfaceForm": "Lambertus Bidloo",
@@ -5826,6 +5834,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Volgens Lambertus",
+        "category": "PER",
+        "locationStart": 87,
+        "locationEnd": 104,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Volgens Lambertus Bidloo",
+        "category": "PER",
+        "locationStart": 87,
+        "locationEnd": 111,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_4",
         "surfaceForm": "Lambertus Bidloo",
         "category": "PER",
@@ -5868,6 +5892,14 @@
         "locationStart": 95,
         "locationEnd": 111,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Lambertus Bidloo",
+        "category": "PER",
+        "locationStart": 95,
+        "locationEnd": 111,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_5",
@@ -5936,6 +5968,14 @@
         "locationStart": 149,
         "locationEnd": 167,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Andreas Andriessen",
+        "category": "PER",
+        "locationStart": 149,
+        "locationEnd": 167,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_8",
@@ -6096,6 +6136,14 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Davids Palmen",
+        "category": "PER",
+        "locationStart": 445,
+        "locationEnd": 458,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_15",
         "category": "PERSON",
         "surfaceForm": "Bekker",
@@ -6214,6 +6262,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "P. Dathenus",
+        "category": "PER",
+        "locationStart": 568,
+        "locationEnd": 579,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "P. Dathenus enz. Geheel",
+        "category": "PER",
+        "locationStart": 568,
+        "locationEnd": 591,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_5",
         "category": "PER",
         "surfaceForm": "Dathenus",
@@ -6228,6 +6292,14 @@
         "locationStart": 571,
         "locationEnd": 574,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Dathenus enz. Geheel",
+        "category": "PER",
+        "locationStart": 571,
+        "locationEnd": 591,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_22",
@@ -6408,6 +6480,14 @@
         "method": "stanza_nl"
       },
       {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Deze Psalmberijming",
+        "category": "PER",
+        "locationStart": 723,
+        "locationEnd": 742,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_16",
         "surfaceForm": "Psalmberijming",
         "category": "MISC",
@@ -6452,12 +6532,52 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Amsterdamschen Burgemeester",
+        "category": "PER",
+        "locationStart": 752,
+        "locationEnd": 779,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "Amsterdamschen Burgemeester Nicolaas",
+        "category": "PER",
+        "locationStart": 752,
+        "locationEnd": 788,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "Amsterdamschen Burgemeester Nicolaas Witsen",
+        "category": "PER",
+        "locationStart": 752,
+        "locationEnd": 795,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_33",
         "category": "ORGANIZATION",
         "surfaceForm": "Cat. van Godgel. Werk",
         "locationStart": 754,
         "locationEnd": 774,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "Burgemeester Nicolaas",
+        "category": "PER",
+        "locationStart": 767,
+        "locationEnd": 788,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "Burgemeester Nicolaas Witsen",
+        "category": "PER",
+        "locationStart": 767,
+        "locationEnd": 795,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_34",
@@ -6510,6 +6630,14 @@
         "locationStart": 780,
         "locationEnd": 795,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_15",
+        "surfaceForm": "Nicolaas Witsen",
+        "category": "PER",
+        "locationStart": 780,
+        "locationEnd": 795,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_17",
@@ -6656,6 +6784,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_16",
+        "surfaceForm": "Schelte en Verlove",
+        "category": "PER",
+        "locationStart": 872,
+        "locationEnd": 890,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_21",
         "surfaceForm": "Verlove",
         "category": "PER",
@@ -6710,6 +6846,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_17",
+        "surfaceForm": "Teregt zong daarom Huygens",
+        "category": "PER",
+        "locationStart": 1026,
+        "locationEnd": 1052,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_23",
         "surfaceForm": "Huygens",
         "category": "PER",
@@ -6736,6 +6880,14 @@
         "locationStart": 1045,
         "locationEnd": 1052,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_18",
+        "surfaceForm": "Deze Psalmberijming",
+        "category": "PER",
+        "locationStart": 1072,
+        "locationEnd": 1091,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_24",
@@ -6820,6 +6972,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_19",
+        "surfaceForm": "Genootschap Laus",
+        "category": "PER",
+        "locationStart": 1173,
+        "locationEnd": 1189,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_20",
+        "surfaceForm": "Genootschap Laus Deo",
+        "category": "PER",
+        "locationStart": 1173,
+        "locationEnd": 1193,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_21",
+        "surfaceForm": "Laus Deo",
+        "category": "PER",
+        "locationStart": 1185,
+        "locationEnd": 1193,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_26",
         "surfaceForm": "Psalmberijming",
         "category": "MISC",
@@ -6892,6 +7068,14 @@
         "locationStart": 1292,
         "locationEnd": 1299,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_22",
+        "surfaceForm": "Zie Andriessen",
+        "category": "PER",
+        "locationStart": 1346,
+        "locationEnd": 1360,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_28",
@@ -6998,6 +7182,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_23",
+        "surfaceForm": "Pan Poeticon",
+        "category": "PER",
+        "locationStart": 1415,
+        "locationEnd": 1427,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_32",
         "surfaceForm": "Pars",
         "category": "MISC",
@@ -7094,6 +7286,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_24",
+        "surfaceForm": "Hist van het Psalmgezang",
+        "category": "PER",
+        "locationStart": 1479,
+        "locationEnd": 1503,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_36",
         "surfaceForm": "Psalmgezang",
         "category": "LOC",
@@ -7118,6 +7318,14 @@
         "locationStart": 1505,
         "locationEnd": 1510,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_25",
+        "surfaceForm": "D. I.",
+        "category": "PER",
+        "locationStart": 1505,
+        "locationEnd": 1510,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_37",
@@ -7154,6 +7362,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_26",
+        "surfaceForm": "Witsen Geysbeek",
+        "category": "PER",
+        "locationStart": 1520,
+        "locationEnd": 1535,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_38",
         "surfaceForm": "Woordenb",
         "category": "PER",
@@ -7186,6 +7402,14 @@
         "locationStart": 1551,
         "locationEnd": 1555,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_27",
+        "surfaceForm": "Ned. Dicht",
+        "category": "PER",
+        "locationStart": 1551,
+        "locationEnd": 1561,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_25",
@@ -7240,6 +7464,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_28",
+        "surfaceForm": "Ned. Letterk",
+        "category": "PER",
+        "locationStart": 1599,
+        "locationEnd": 1611,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_29",
         "category": "LOC",
         "surfaceForm": "Leid",
@@ -7270,6 +7502,14 @@
         "locationStart": 1622,
         "locationEnd": 1627,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_29",
+        "surfaceForm": "D. I.",
+        "category": "PER",
+        "locationStart": 1622,
+        "locationEnd": 1627,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_41",

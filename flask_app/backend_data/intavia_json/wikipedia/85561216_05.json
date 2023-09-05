@@ -10194,12 +10194,36 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Sarphati Monument",
+        "category": "PER",
+        "locationStart": 13,
+        "locationEnd": 30,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Sarphati Monument in het Sarphatipark",
+        "category": "PER",
+        "locationStart": 13,
+        "locationEnd": 50,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_1",
         "category": "LOCATION",
         "surfaceForm": "Sarphatipark",
         "locationStart": 19,
         "locationEnd": 31,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Monument in het Sarphatipark",
+        "category": "PER",
+        "locationStart": 22,
+        "locationEnd": 50,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_2",
@@ -10306,6 +10330,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Amsterdam Samuel",
+        "category": "PER",
+        "locationStart": 52,
+        "locationEnd": 68,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Amsterdam Samuel Sarphati",
+        "category": "PER",
+        "locationStart": 52,
+        "locationEnd": 77,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_50",
         "surfaceForm": "Samuel Sarphati",
         "category": "PER",
@@ -10338,6 +10378,14 @@
         "locationStart": 62,
         "locationEnd": 77,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Samuel Sarphati",
+        "category": "PER",
+        "locationStart": 62,
+        "locationEnd": 77,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_3",
@@ -11130,6 +11178,38 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Nederlandsche Maatschappij",
+        "category": "PER",
+        "locationStart": 1259,
+        "locationEnd": 1285,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Nederlandsche Maatschappij van Landbouw",
+        "category": "PER",
+        "locationStart": 1259,
+        "locationEnd": 1298,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Maatschappij van Landbouw",
+        "category": "PER",
+        "locationStart": 1273,
+        "locationEnd": 1298,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Landbouw en Landontginning",
+        "category": "PER",
+        "locationStart": 1290,
+        "locationEnd": 1316,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_5",
         "surfaceForm": "1852",
         "category": "TIME",
@@ -11184,6 +11264,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Vereeniging voor Volksvlijt",
+        "category": "PER",
+        "locationStart": 1339,
+        "locationEnd": 1366,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_7",
         "surfaceForm": "1855",
         "category": "TIME",
@@ -11236,6 +11324,22 @@
         "locationStart": 1381,
         "locationEnd": 1422,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "Maatschappij voor Meel-",
+        "category": "PER",
+        "locationStart": 1381,
+        "locationEnd": 1404,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "Meel- en Broodfabrieken",
+        "category": "PER",
+        "locationStart": 1399,
+        "locationEnd": 1422,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_10",
@@ -11318,6 +11422,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "Fanta Voogd",
+        "category": "PER",
+        "locationStart": 1590,
+        "locationEnd": 1601,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_19",
         "surfaceForm": "Fabrieksbrood",
         "category": "LOC",
@@ -11390,6 +11502,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "De Ingenieur",
+        "category": "PER",
+        "locationStart": 1618,
+        "locationEnd": 1630,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_14",
         "surfaceForm": "19 januari 2007",
         "category": "TIME",
@@ -11452,6 +11572,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_15",
+        "surfaceForm": "Thorbeckes Wet",
+        "category": "PER",
+        "locationStart": 1741,
+        "locationEnd": 1755,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_17",
+        "surfaceForm": "Thorbeckes Wet op het Middelbaar",
+        "category": "PER",
+        "locationStart": 1741,
+        "locationEnd": 1773,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_19",
+        "surfaceForm": "Thorbeckes Wet op het Middelbaar Onderwijs",
+        "category": "PER",
+        "locationStart": 1741,
+        "locationEnd": 1783,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_16",
         "surfaceForm": "Wet op het Middelbaar Onderwijs",
         "category": "ARTWORK",
@@ -11460,6 +11604,22 @@
         "tokenStart": 289,
         "tokenEnd": 294,
         "method": "human_gold"
+      },
+      {
+        "ID": "spacy_matcher_nl_16",
+        "surfaceForm": "Wet op het Middelbaar",
+        "category": "PER",
+        "locationStart": 1752,
+        "locationEnd": 1773,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_18",
+        "surfaceForm": "Wet op het Middelbaar Onderwijs",
+        "category": "PER",
+        "locationStart": 1752,
+        "locationEnd": 1783,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_22",
@@ -11478,6 +11638,22 @@
         "locationStart": 1763,
         "locationEnd": 1783,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_20",
+        "surfaceForm": "Middelbaar Onderwijs",
+        "category": "PER",
+        "locationStart": 1763,
+        "locationEnd": 1783,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_21",
+        "surfaceForm": "Zo benoemde koning Willem",
+        "category": "PER",
+        "locationStart": 1845,
+        "locationEnd": 1870,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_23",
@@ -11562,6 +11738,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_22",
+        "surfaceForm": "Officier in de Orde",
+        "category": "PER",
+        "locationStart": 1891,
+        "locationEnd": 1910,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_25",
         "surfaceForm": "Orde van de Eikenkroon",
         "category": "MISC",
@@ -11586,6 +11770,14 @@
         "locationStart": 1906,
         "locationEnd": 1928,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_23",
+        "surfaceForm": "Orde van de Eikenkroon",
+        "category": "PER",
+        "locationStart": 1906,
+        "locationEnd": 1928,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_26",
@@ -11622,6 +11814,14 @@
         "locationStart": 1955,
         "locationEnd": 1977,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_24",
+        "surfaceForm": "Paleis voor Volksvlijt",
+        "category": "PER",
+        "locationStart": 1955,
+        "locationEnd": 1977,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_21",
@@ -11676,6 +11876,38 @@
         "locationStart": 2003,
         "locationEnd": 2032,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_25",
+        "surfaceForm": "Orde van de Nederlandse",
+        "category": "PER",
+        "locationStart": 2003,
+        "locationEnd": 2026,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_26",
+        "surfaceForm": "Orde van de Nederlandse Leeuw",
+        "category": "PER",
+        "locationStart": 2003,
+        "locationEnd": 2032,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_27",
+        "surfaceForm": "Nederlandse Leeuw",
+        "category": "PER",
+        "locationStart": 2015,
+        "locationEnd": 2032,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_28",
+        "surfaceForm": "Hiernaast had Sarphati",
+        "category": "PER",
+        "locationStart": 2035,
+        "locationEnd": 2057,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_28",
@@ -11740,6 +11972,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_29",
+        "surfaceForm": "Amsterdamsche Hausmann",
+        "category": "PER",
+        "locationStart": 2175,
+        "locationEnd": 2197,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_30",
         "surfaceForm": "Hausmann",
         "category": "PER",
@@ -11802,6 +12042,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_30",
+        "surfaceForm": "Paleis voor Volksvlijt",
+        "category": "PER",
+        "locationStart": 2237,
+        "locationEnd": 2259,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_31",
+        "surfaceForm": "Volksvlijt en het Amstel",
+        "category": "PER",
+        "locationStart": 2249,
+        "locationEnd": 2273,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_32",
+        "surfaceForm": "Volksvlijt en het Amstel Hotel",
+        "category": "PER",
+        "locationStart": 2249,
+        "locationEnd": 2279,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_32",
         "surfaceForm": "Amstel Hotel",
         "category": "LOC",
@@ -11844,6 +12108,14 @@
         "locationStart": 2267,
         "locationEnd": 2279,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_33",
+        "surfaceForm": "Amstel Hotel",
+        "category": "PER",
+        "locationStart": 2267,
+        "locationEnd": 2279,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_33",
@@ -11944,6 +12216,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_34",
+        "surfaceForm": "Amstel Hotel",
+        "category": "PER",
+        "locationStart": 2516,
+        "locationEnd": 2528,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_29",
         "surfaceForm": "1885",
         "category": "TIME",
@@ -11986,6 +12266,14 @@
         "locationStart": 2588,
         "locationEnd": 2597,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_35",
+        "surfaceForm": "Amsterdamse buurt de Pijp",
+        "category": "PER",
+        "locationStart": 2588,
+        "locationEnd": 2613,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_30",
@@ -12066,6 +12354,14 @@
         "locationStart": 2640,
         "locationEnd": 2652,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_36",
+        "surfaceForm": "De Sarphatistraat",
+        "category": "PER",
+        "locationStart": 2718,
+        "locationEnd": 2735,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_38",
@@ -12254,6 +12550,46 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_37",
+        "surfaceForm": "Trivia In",
+        "category": "PER",
+        "locationStart": 2936,
+        "locationEnd": 2945,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_38",
+        "surfaceForm": "Trivia In Amsterdam",
+        "category": "PER",
+        "locationStart": 2936,
+        "locationEnd": 2955,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_42",
+        "surfaceForm": "Trivia In Amsterdam is de Studievereniging",
+        "category": "PER",
+        "locationStart": 2936,
+        "locationEnd": 2978,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_39",
+        "surfaceForm": "In Amsterdam",
+        "category": "PER",
+        "locationStart": 2943,
+        "locationEnd": 2955,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_41",
+        "surfaceForm": "In Amsterdam is de Studievereniging",
+        "category": "PER",
+        "locationStart": 2943,
+        "locationEnd": 2978,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_43",
         "surfaceForm": "Amsterdam",
         "category": "LOC",
@@ -12298,6 +12634,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_40",
+        "surfaceForm": "Amsterdam is de Studievereniging",
+        "category": "PER",
+        "locationStart": 2946,
+        "locationEnd": 2978,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_44",
         "surfaceForm": "Studievereniging voor Sociale Geografie en Planologie",
         "category": "ORG",
@@ -12332,6 +12676,46 @@
         "locationStart": 2962,
         "locationEnd": 3015,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_43",
+        "surfaceForm": "Studievereniging voor Sociale",
+        "category": "PER",
+        "locationStart": 2962,
+        "locationEnd": 2991,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_44",
+        "surfaceForm": "Studievereniging voor Sociale Geografie",
+        "category": "PER",
+        "locationStart": 2962,
+        "locationEnd": 3001,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_45",
+        "surfaceForm": "Sociale Geografie",
+        "category": "PER",
+        "locationStart": 2984,
+        "locationEnd": 3001,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_47",
+        "surfaceForm": "Sociale Geografie en Planologie",
+        "category": "PER",
+        "locationStart": 2984,
+        "locationEnd": 3015,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_46",
+        "surfaceForm": "Geografie en Planologie",
+        "category": "PER",
+        "locationStart": 2992,
+        "locationEnd": 3015,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_45",
@@ -12412,6 +12796,14 @@
         "locationStart": 3041,
         "locationEnd": 3056,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_48",
+        "surfaceForm": "Samuel Sarphati",
+        "category": "PER",
+        "locationStart": 3041,
+        "locationEnd": 3056,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_47",
@@ -12520,6 +12912,14 @@
         "method": "stanza_nl"
       },
       {
+        "ID": "spacy_matcher_nl_49",
+        "surfaceForm": "Nederlands medicus Categorie",
+        "category": "PER",
+        "locationStart": 3316,
+        "locationEnd": 3344,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_22",
         "category": "PER",
         "surfaceForm": "filantroop",
@@ -12572,6 +12972,14 @@
         "method": "stanza_nl"
       },
       {
+        "ID": "spacy_matcher_nl_50",
+        "surfaceForm": "Samuel Sarphati",
+        "category": "PER",
+        "locationStart": 3361,
+        "locationEnd": 3376,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_44",
         "surfaceForm": ": Samuel",
         "category": "PER",
@@ -12614,6 +13022,14 @@
         "tokenStart": 583,
         "tokenEnd": 585,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_51",
+        "surfaceForm": "Samuel Sarphati",
+        "category": "PER",
+        "locationStart": 3381,
+        "locationEnd": 3396,
+        "method": "spacy_matcher_nl"
       }
     ],
     "time_expressions": [

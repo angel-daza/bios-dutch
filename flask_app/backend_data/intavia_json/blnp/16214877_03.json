@@ -1586,6 +1586,30 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Zn. van Jan",
+        "category": "PER",
+        "locationStart": 75,
+        "locationEnd": 86,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Zn. van Jan Jacob",
+        "category": "PER",
+        "locationStart": 75,
+        "locationEnd": 92,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Zn. van Jan Jacob Schultens",
+        "category": "PER",
+        "locationStart": 75,
+        "locationEnd": 102,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_4",
         "surfaceForm": "Jan Jacob Schultens",
         "category": "PER",
@@ -1628,6 +1652,30 @@
         "locationStart": 83,
         "locationEnd": 102,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Jan Jacob",
+        "category": "PER",
+        "locationStart": 83,
+        "locationEnd": 92,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Jan Jacob Schultens",
+        "category": "PER",
+        "locationStart": 83,
+        "locationEnd": 102,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Jacob Schultens",
+        "category": "PER",
+        "locationStart": 87,
+        "locationEnd": 102,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_6",
@@ -1690,12 +1738,36 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Suzanna Amalia",
+        "category": "PER",
+        "locationStart": 121,
+        "locationEnd": 135,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Suzanna Amalia Schramm",
+        "category": "PER",
+        "locationStart": 121,
+        "locationEnd": 143,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_8",
         "category": "LOCATION",
         "surfaceForm": "Leiden",
         "locationStart": 125,
         "locationEnd": 131,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Amalia Schramm",
+        "category": "PER",
+        "locationStart": 129,
+        "locationEnd": 143,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_9",
@@ -1996,6 +2068,22 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Hebreeuwse oudhe- den Athenaeum",
+        "category": "PER",
+        "locationStart": 260,
+        "locationEnd": 291,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Hebreeuwse oudhe- den Athenaeum Amsterdam",
+        "category": "PER",
+        "locationStart": 260,
+        "locationEnd": 301,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_11",
         "surfaceForm": "oudhe- den Athenaeum Amsterdam",
         "category": "MISC",
@@ -2020,6 +2108,14 @@
         "locationStart": 282,
         "locationEnd": 301,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "Athenaeum Amsterdam",
+        "category": "PER",
+        "locationStart": 282,
+        "locationEnd": 301,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gold_10",
@@ -2170,6 +2266,30 @@
         "locationStart": 347,
         "locationEnd": 376,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "Catharina Elisabeth",
+        "category": "PER",
+        "locationStart": 347,
+        "locationEnd": 366,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "Catharina Elisabeth de Sitter",
+        "category": "PER",
+        "locationStart": 347,
+        "locationEnd": 376,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "Elisabeth de Sitter",
+        "category": "PER",
+        "locationStart": 357,
+        "locationEnd": 376,
+        "method": "spacy_matcher_nl"
       }
     ],
     "time_expressions": [

@@ -25006,6 +25006,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_0",
+        "surfaceForm": "Theo Peters",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 11,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gold_6",
         "surfaceForm": "1921 - 1975",
         "category": "TIME",
@@ -25076,12 +25084,36 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_1",
+        "surfaceForm": "Theodorus Stephanus",
+        "category": "PER",
+        "locationStart": 24,
+        "locationEnd": 43,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_2",
+        "surfaceForm": "Theodorus Stephanus Peters",
+        "category": "PER",
+        "locationStart": 24,
+        "locationEnd": 50,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_0",
         "category": "PER",
         "surfaceForm": "stephanus peters",
         "locationStart": 34,
         "locationEnd": 50,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_3",
+        "surfaceForm": "Stephanus Peters",
+        "category": "PER",
+        "locationStart": 34,
+        "locationEnd": 50,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_1",
@@ -25228,6 +25260,14 @@
         "locationStart": 118,
         "locationEnd": 146,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_4",
+        "surfaceForm": "Theodorus Peters",
+        "category": "PER",
+        "locationStart": 118,
+        "locationEnd": 134,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_4",
@@ -25430,6 +25470,46 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_5",
+        "surfaceForm": "Maria Wilhelmina",
+        "category": "PER",
+        "locationStart": 196,
+        "locationEnd": 212,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_6",
+        "surfaceForm": "Maria Wilhelmina Francina",
+        "category": "PER",
+        "locationStart": 196,
+        "locationEnd": 221,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_8",
+        "surfaceForm": "Maria Wilhelmina Francina Maijer",
+        "category": "PER",
+        "locationStart": 196,
+        "locationEnd": 228,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_7",
+        "surfaceForm": "Wilhelmina Francina",
+        "category": "PER",
+        "locationStart": 202,
+        "locationEnd": 221,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_9",
+        "surfaceForm": "Wilhelmina Francina Maijer",
+        "category": "PER",
+        "locationStart": 202,
+        "locationEnd": 228,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_7",
         "surfaceForm": "Francina Maijer",
         "category": "PER",
@@ -25438,6 +25518,14 @@
         "tokenStart": 35,
         "tokenEnd": 37,
         "method": "stanza_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_10",
+        "surfaceForm": "Francina Maijer",
+        "category": "PER",
+        "locationStart": 213,
+        "locationEnd": 228,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_11",
@@ -25762,12 +25850,36 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_11",
+        "surfaceForm": "Jacoba Maria",
+        "category": "PER",
+        "locationStart": 339,
+        "locationEnd": 351,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_12",
+        "surfaceForm": "Jacoba Maria Klaassen",
+        "category": "PER",
+        "locationStart": 339,
+        "locationEnd": 360,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_19",
         "category": "ORGANIZATION",
         "surfaceForm": "Rothuizen NV",
         "locationStart": 342,
         "locationEnd": 354,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_13",
+        "surfaceForm": "Maria Klaassen",
+        "category": "PER",
+        "locationStart": 346,
+        "locationEnd": 360,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_20",
@@ -25906,6 +26018,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_14",
+        "surfaceForm": "Theo Peters",
+        "category": "PER",
+        "locationStart": 437,
+        "locationEnd": 448,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_16",
+        "surfaceForm": "Theo Peters overleed in Nijmegen",
+        "category": "PER",
+        "locationStart": 437,
+        "locationEnd": 469,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_15",
+        "surfaceForm": "Peters overleed in Nijmegen",
+        "category": "PER",
+        "locationStart": 442,
+        "locationEnd": 469,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_26",
         "category": "LOCATION",
         "surfaceForm": "Nijmegen",
@@ -26026,6 +26162,14 @@
         "locationStart": 487,
         "locationEnd": 498,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_17",
+        "surfaceForm": "Theo Peters",
+        "category": "PER",
+        "locationStart": 487,
+        "locationEnd": 498,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_28",
@@ -26556,12 +26700,108 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_18",
+        "surfaceForm": "Bossche Diocesane",
+        "category": "PER",
+        "locationStart": 1197,
+        "locationEnd": 1214,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_19",
+        "surfaceForm": "Bossche Diocesane Bond",
+        "category": "PER",
+        "locationStart": 1197,
+        "locationEnd": 1219,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_23",
+        "surfaceForm": "Bossche Diocesane Bond van de Katholieke",
+        "category": "PER",
+        "locationStart": 1197,
+        "locationEnd": 1237,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_26",
+        "surfaceForm": "Bossche Diocesane Bond van de Katholieke Arbeiders",
+        "category": "PER",
+        "locationStart": 1197,
+        "locationEnd": 1247,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_30",
+        "surfaceForm": "Bossche Diocesane Bond van de Katholieke Arbeiders Beweging",
+        "category": "PER",
+        "locationStart": 1197,
+        "locationEnd": 1256,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "xlmr_ner_9",
         "category": "",
         "surfaceForm": "Diocesane Bond van de Katholieke Arbeiders BewegingKAB",
         "locationStart": 1205,
         "locationEnd": 1261,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_20",
+        "surfaceForm": "Diocesane Bond",
+        "category": "PER",
+        "locationStart": 1205,
+        "locationEnd": 1219,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_22",
+        "surfaceForm": "Diocesane Bond van de Katholieke",
+        "category": "PER",
+        "locationStart": 1205,
+        "locationEnd": 1237,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_25",
+        "surfaceForm": "Diocesane Bond van de Katholieke Arbeiders",
+        "category": "PER",
+        "locationStart": 1205,
+        "locationEnd": 1247,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_29",
+        "surfaceForm": "Diocesane Bond van de Katholieke Arbeiders Beweging",
+        "category": "PER",
+        "locationStart": 1205,
+        "locationEnd": 1256,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_21",
+        "surfaceForm": "Bond van de Katholieke",
+        "category": "PER",
+        "locationStart": 1215,
+        "locationEnd": 1237,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_24",
+        "surfaceForm": "Bond van de Katholieke Arbeiders",
+        "category": "PER",
+        "locationStart": 1215,
+        "locationEnd": 1247,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_28",
+        "surfaceForm": "Bond van de Katholieke Arbeiders Beweging",
+        "category": "PER",
+        "locationStart": 1215,
+        "locationEnd": 1256,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_56",
@@ -26598,6 +26838,30 @@
         "locationStart": 1227,
         "locationEnd": 1256,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_27",
+        "surfaceForm": "Katholieke Arbeiders",
+        "category": "PER",
+        "locationStart": 1227,
+        "locationEnd": 1247,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_31",
+        "surfaceForm": "Katholieke Arbeiders Beweging",
+        "category": "PER",
+        "locationStart": 1227,
+        "locationEnd": 1256,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_32",
+        "surfaceForm": "Arbeiders Beweging",
+        "category": "PER",
+        "locationStart": 1238,
+        "locationEnd": 1256,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_57",
@@ -26954,6 +27218,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_33",
+        "surfaceForm": "Provinciale Staten",
+        "category": "PER",
+        "locationStart": 1588,
+        "locationEnd": 1606,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_71",
         "category": "LOCATION",
         "surfaceForm": "Nijmegen",
@@ -27004,6 +27276,22 @@
         "method": "gysbert_hist_fx_finetuned_epoch2"
       },
       {
+        "ID": "spacy_matcher_nl_34",
+        "surfaceForm": "Nijmeegs wethouder en Gelders",
+        "category": "PER",
+        "locationStart": 1653,
+        "locationEnd": 1682,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_35",
+        "surfaceForm": "Nijmeegs wethouder en Gelders Statenlid",
+        "category": "PER",
+        "locationStart": 1653,
+        "locationEnd": 1692,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_74",
         "category": "LOCATION",
         "surfaceForm": "Nijmegen",
@@ -27028,6 +27316,14 @@
         "locationStart": 1675,
         "locationEnd": 1682,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_36",
+        "surfaceForm": "Gelders Statenlid",
+        "category": "PER",
+        "locationStart": 1675,
+        "locationEnd": 1692,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "flair_12",
@@ -27328,6 +27624,14 @@
         "method": "human_gold"
       },
       {
+        "ID": "spacy_matcher_nl_37",
+        "surfaceForm": "Voorts kende Nijmegen",
+        "category": "PER",
+        "locationStart": 2138,
+        "locationEnd": 2159,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_93",
         "category": "LOCATION",
         "surfaceForm": "Nijmegen",
@@ -27404,6 +27708,22 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "spacy_matcher_nl_38",
+        "surfaceForm": "De Colleges",
+        "category": "PER",
+        "locationStart": 2229,
+        "locationEnd": 2240,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_40",
+        "surfaceForm": "De Colleges van Burgemeester",
+        "category": "PER",
+        "locationStart": 2229,
+        "locationEnd": 2257,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_37",
         "surfaceForm": "Colleges",
         "category": "MISC",
@@ -27440,12 +27760,28 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_39",
+        "surfaceForm": "Colleges van Burgemeester",
+        "category": "PER",
+        "locationStart": 2232,
+        "locationEnd": 2257,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_97",
         "category": "LOCATION",
         "surfaceForm": "Nijmegen",
         "locationStart": 2241,
         "locationEnd": 2249,
         "method": "gpt-3.5-turbo"
+      },
+      {
+        "ID": "spacy_matcher_nl_41",
+        "surfaceForm": "Burgemeester en Wethouders",
+        "category": "PER",
+        "locationStart": 2245,
+        "locationEnd": 2271,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_38",
@@ -27506,6 +27842,14 @@
         "method": "gpt-3.5-turbo"
       },
       {
+        "ID": "spacy_matcher_nl_42",
+        "surfaceForm": "Bovendien had Nijmegen",
+        "category": "PER",
+        "locationStart": 2393,
+        "locationEnd": 2415,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_39",
         "surfaceForm": "Nijmegen",
         "category": "LOC",
@@ -27548,6 +27892,22 @@
         "locationStart": 2407,
         "locationEnd": 2415,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_43",
+        "surfaceForm": "Nijmegen in mr. Charles",
+        "category": "PER",
+        "locationStart": 2407,
+        "locationEnd": 2430,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_44",
+        "surfaceForm": "Nijmegen in mr. Charles Hustinx",
+        "category": "PER",
+        "locationStart": 2407,
+        "locationEnd": 2438,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_104",
@@ -27600,6 +27960,14 @@
         "locationStart": 2423,
         "locationEnd": 2438,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_45",
+        "surfaceForm": "Charles Hustinx",
+        "category": "PER",
+        "locationStart": 2423,
+        "locationEnd": 2438,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_105",
@@ -27982,6 +28350,30 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_46",
+        "surfaceForm": "Theo Peters",
+        "category": "PER",
+        "locationStart": 3046,
+        "locationEnd": 3057,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_48",
+        "surfaceForm": "Theo Peters was voor Jan",
+        "category": "PER",
+        "locationStart": 3046,
+        "locationEnd": 3070,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_47",
+        "surfaceForm": "Peters was voor Jan",
+        "category": "PER",
+        "locationStart": 3051,
+        "locationEnd": 3070,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_130",
         "category": "LOCATION",
         "surfaceForm": "Nijmegen",
@@ -28242,6 +28634,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_49",
+        "surfaceForm": "Dukenburg en Lindenholt",
+        "category": "PER",
+        "locationStart": 3453,
+        "locationEnd": 3476,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_48",
         "surfaceForm": "Lindenholt",
         "category": "LOC",
@@ -28410,6 +28810,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_50",
+        "surfaceForm": "De Gelderlander",
+        "category": "PER",
+        "locationStart": 3734,
+        "locationEnd": 3749,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gpt-3.5-turbo_157",
         "category": "LOCATION",
         "surfaceForm": "Nijmegen",
@@ -28460,6 +28868,30 @@
         "locationStart": 3794,
         "locationEnd": 3816,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_51",
+        "surfaceForm": "Grootste Swerte",
+        "category": "PER",
+        "locationStart": 3794,
+        "locationEnd": 3809,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_52",
+        "surfaceForm": "Grootste Swerte Schaop",
+        "category": "PER",
+        "locationStart": 3794,
+        "locationEnd": 3816,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_53",
+        "surfaceForm": "Swerte Schaop",
+        "category": "PER",
+        "locationStart": 3803,
+        "locationEnd": 3816,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_160",
@@ -28538,6 +28970,14 @@
         "locationStart": 3851,
         "locationEnd": 3862,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_54",
+        "surfaceForm": "Frans Derks",
+        "category": "PER",
+        "locationStart": 3851,
+        "locationEnd": 3862,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gpt-3.5-turbo_162",
@@ -28788,6 +29228,14 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_55",
+        "surfaceForm": "Jan Mijnsbergen",
+        "category": "PER",
+        "locationStart": 4562,
+        "locationEnd": 4577,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_58",
         "surfaceForm": "Rozenbuurt",
         "category": "MISC",
@@ -28896,6 +29344,22 @@
         "method": "xlmr_ner_"
       },
       {
+        "ID": "spacy_matcher_nl_56",
+        "surfaceForm": "Burgemeester De",
+        "category": "PER",
+        "locationStart": 4927,
+        "locationEnd": 4942,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_57",
+        "surfaceForm": "Burgemeester De Graaf",
+        "category": "PER",
+        "locationStart": 4927,
+        "locationEnd": 4948,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "stanza_nl_61",
         "surfaceForm": "De Graaf",
         "category": "PER",
@@ -28938,6 +29402,14 @@
         "locationStart": 4940,
         "locationEnd": 4948,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_58",
+        "surfaceForm": "De Graaf",
+        "category": "PER",
+        "locationStart": 4940,
+        "locationEnd": 4948,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_62",
@@ -29018,6 +29490,14 @@
         "locationStart": 5306,
         "locationEnd": 5340,
         "method": "xlmr_ner_"
+      },
+      {
+        "ID": "spacy_matcher_nl_59",
+        "surfaceForm": "Frans van Mierlo",
+        "category": "PER",
+        "locationStart": 5306,
+        "locationEnd": 5322,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "stanza_nl_64",
@@ -29102,6 +29582,30 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_60",
+        "surfaceForm": "Te Deum",
+        "category": "PER",
+        "locationStart": 6389,
+        "locationEnd": 6396,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_61",
+        "surfaceForm": "Te Deum Laudamus",
+        "category": "PER",
+        "locationStart": 6389,
+        "locationEnd": 6405,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_62",
+        "surfaceForm": "Deum Laudamus",
+        "category": "PER",
+        "locationStart": 6392,
+        "locationEnd": 6405,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "xlmr_ner_63",
         "category": "PER",
         "surfaceForm": "Theo",
@@ -29136,6 +29640,14 @@
         "locationStart": 6740,
         "locationEnd": 6744,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_63",
+        "surfaceForm": "Lang zou Theo",
+        "category": "PER",
+        "locationStart": 6914,
+        "locationEnd": 6927,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "xlmr_ner_65",
@@ -29254,6 +29766,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_64",
+        "surfaceForm": "Canisius-Wilhelmina Ziekenhuis",
+        "category": "PER",
+        "locationStart": 7116,
+        "locationEnd": 7146,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_68",
         "category": "TIME",
         "surfaceForm": "1974",
@@ -29344,6 +29864,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_65",
+        "surfaceForm": "Nijmeegs Dagblad",
+        "category": "PER",
+        "locationStart": 7500,
+        "locationEnd": 7516,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_75",
         "category": "TIME",
         "surfaceForm": "30 augustus 1974 van mier",
@@ -29376,6 +29904,22 @@
         "locationStart": 7535,
         "locationEnd": 7548,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_66",
+        "surfaceForm": "F. van Mierlo",
+        "category": "PER",
+        "locationStart": 7535,
+        "locationEnd": 7548,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_67",
+        "surfaceForm": "Wethouder Peters",
+        "category": "PER",
+        "locationStart": 7551,
+        "locationEnd": 7567,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_75",
@@ -29438,12 +29982,28 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_68",
+        "surfaceForm": "De Gelderlander",
+        "category": "PER",
+        "locationStart": 7603,
+        "locationEnd": 7618,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_76",
         "category": "TIME",
         "surfaceForm": "15 juni 1974",
         "locationStart": 7619,
         "locationEnd": 7631,
         "method": "gysbert_hist_fx_finetuned_epoch2"
+      },
+      {
+        "ID": "spacy_matcher_nl_69",
+        "surfaceForm": "Applaus voor Peters",
+        "category": "PER",
+        "locationStart": 7634,
+        "locationEnd": 7653,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "xlmr_ner_76",
@@ -29488,6 +30048,14 @@
         "locationStart": 7690,
         "locationEnd": 7705,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_70",
+        "surfaceForm": "De Gelderlander",
+        "category": "PER",
+        "locationStart": 7690,
+        "locationEnd": 7705,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_78",
@@ -29542,6 +30110,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_71",
+        "surfaceForm": "De Gelderlander",
+        "category": "PER",
+        "locationStart": 7767,
+        "locationEnd": 7782,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "xlmr_ner_79",
         "category": "",
         "surfaceForm": "Gelderlander",
@@ -29584,6 +30160,14 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_72",
+        "surfaceForm": "A. Lansink",
+        "category": "PER",
+        "locationStart": 7802,
+        "locationEnd": 7812,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "flair_65",
         "category": "PER",
         "surfaceForm": "Lansink",
@@ -29610,6 +30194,46 @@
         "method": "flair/ner-dutch-large_0.12.2"
       },
       {
+        "ID": "spacy_matcher_nl_73",
+        "surfaceForm": "In Memoriam",
+        "category": "PER",
+        "locationStart": 7815,
+        "locationEnd": 7826,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_74",
+        "surfaceForm": "In Memoriam Theo",
+        "category": "PER",
+        "locationStart": 7815,
+        "locationEnd": 7831,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_76",
+        "surfaceForm": "In Memoriam Theo Peters",
+        "category": "PER",
+        "locationStart": 7815,
+        "locationEnd": 7838,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_75",
+        "surfaceForm": "Memoriam Theo",
+        "category": "PER",
+        "locationStart": 7818,
+        "locationEnd": 7831,
+        "method": "spacy_matcher_nl"
+      },
+      {
+        "ID": "spacy_matcher_nl_77",
+        "surfaceForm": "Memoriam Theo Peters",
+        "category": "PER",
+        "locationStart": 7818,
+        "locationEnd": 7838,
+        "method": "spacy_matcher_nl"
+      },
+      {
         "ID": "gysbert_hist_79",
         "category": "PER",
         "surfaceForm": "theo peters",
@@ -29632,6 +30256,14 @@
         "locationStart": 7827,
         "locationEnd": 7838,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_78",
+        "surfaceForm": "Theo Peters",
+        "category": "PER",
+        "locationStart": 7827,
+        "locationEnd": 7838,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "xlmr_ner_80",
@@ -29658,6 +30290,14 @@
         "locationStart": 7845,
         "locationEnd": 7860,
         "method": "flair/ner-dutch-large_0.12.2"
+      },
+      {
+        "ID": "spacy_matcher_nl_79",
+        "surfaceForm": "De Gelderlander",
+        "category": "PER",
+        "locationStart": 7845,
+        "locationEnd": 7860,
+        "method": "spacy_matcher_nl"
       },
       {
         "ID": "gysbert_hist_80",
