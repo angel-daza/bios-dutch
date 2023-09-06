@@ -15,7 +15,7 @@ from utils_general import get_gold_annotations, INTAVIA_JSON_ROOT, normalize_ent
 from utils.classes import normalize_name
 
 
-def main():
+def create_networks_all():
     # Get Dataset
     print("Reading Data...")
     # gold_docs = get_gold_annotations() # 347 Documents
@@ -36,7 +36,9 @@ def main():
     # get_ego_network_of_mentions(documents["37716498_02"], "human_gold", norm_dict, ["PER", "ORG", "LOC"]) # hendrik hendicus huisman
     # get_ego_network_of_mentions(documents["19103689_02"], "human_gold", norm_dict, ["PER", "ORG", "LOC"]) # Charlotte Sophie of Aldenburg
     # get_ego_network_of_mentions(documents["40672923_04"], "human_gold", norm_dict, ["PER", "ORG", "LOC"]) # Helena_Kuipers-Rietberg Network
-    # network_per_gold = get_social_network(documents, "flair/ner-dutch-large_0.12.2", ["PER"], name2ids, id2names, bioid2norm, unified_metadata)
+    network_per_gold = get_social_network(documents, "spacy_matcher_nl", ["PER"], name2ids, id2names, bioid2norm, unified_metadata)
+    nx.write_multiline_adjlist(network_per_gold, f"local_outputs/network_adjlist_spacy_matcher_nl.txt")
+    exit()
 
     network_analysis_summary = []
     for sys in NER_METHOD_DISPLAY:
@@ -59,6 +61,67 @@ def main():
         # network_analysis_summary.append(metrics)
     
     pd.DataFrame(network_analysis_summary).to_csv("local_outputs/network_analysis_summary.tsv", sep="\t", index=False)
+
+
+def create_table_top_rankings():
+    
+    def _create_table(individual_rankings: Dict[str, str], label: str):
+        output_csv_file = f"local_outputs/full_network_mentions_v3_no_selfrefs/0_Global_table_{label}.csv"
+        all_ranked_names = set()
+        all_ranks = defaultdict(dict)
+        ranking_listed_names = defaultdict(list)
+        for rank_name, rank_file in individual_rankings.items():
+            rank_list = json.load(open(rank_file))
+            for ix, item in enumerate(rank_list):
+                if item[1] > 5:
+                    all_ranks[rank_name][item[0]] = ix + 1 # item[1]
+                    all_ranked_names.add(item[0])
+                if ix < 100:
+                    ranking_listed_names[rank_name].append(item[0])
+        
+        global_table_ranks = []
+        for name in all_ranked_names:
+            row = {"name": name}
+            for rank_name in individual_rankings.keys():
+                if name in all_ranks[rank_name]:
+                    row[f"{rank_name}"] = all_ranks[rank_name][name]
+                else:
+                    row[f"{rank_name}"] = 999999
+            global_table_ranks.append(row)
+        
+        df = pd.DataFrame(global_table_ranks).sort_values(by=f"stanza_nl_{label}")
+        for rank_name in individual_rankings.keys():
+            df[rank_name] = df[rank_name].astype('int32')
+        df.to_csv(output_csv_file, index=False)
+
+        for rank_name, name_list in ranking_listed_names.items():
+            print(f"\n ---------------- Ranking of {rank_name} ----------------")
+            for n in name_list:
+                if label == "raw":
+                    print(n)
+                else:
+                    elems = n.split("_")
+                    name = " ".join(elems[:-2])
+                    byear = elems[-2]
+                    dyear = elems[-1]
+                    print(f"{name} ({byear} - {dyear})")
+    
+
+    individual_rankings_raw = {
+        "matcher_raw": "local_outputs/full_network_mentions_v3_no_selfrefs/mentions_counter_spacy_matcher_nl_PER_raw.json",
+        "stanza_nl_raw": "local_outputs/full_network_mentions_v3_no_selfrefs/mentions_counter_stanza_PER_raw.json",
+        "flair_nl_raw": "local_outputs/full_network_mentions_v3_no_selfrefs/mentions_counter_flair_PER_raw.json",
+        #"xlmr_raw": "local_outputs/full_network_mentions_v3_no_selfrefs/mentions_counter_xlmr_ner_PER_raw.json",
+        #"xlmr_lifespan": "local_outputs/full_network_mentions_v3_no_selfrefs/mentions_counter_xlmr_ner_PER_bionet_lifespan_counts.json",
+    }
+    individual_rankings_lifespan = {
+        "matcher_lifespan": "local_outputs/full_network_mentions_v3_no_selfrefs/mentions_counter_spacy_matcher_nl_PER_bionet_lifespan_counts.json",
+        "stanza_nl_lifespan": "local_outputs/full_network_mentions_v3_no_selfrefs/mentions_counter_stanza_PER_bionet_lifespan_counts.json",
+        "flair_nl_lifespan": "local_outputs/full_network_mentions_v3_no_selfrefs/mentions_counter_flair_PER_bionet_lifespan_counts.json",
+    }
+    _create_table(individual_rankings_raw, "raw")
+    _create_table(individual_rankings_lifespan, "lifespan")
+
 
 
 def get_intavia_documents(intavia_files_root:str, gold_docs: Dict[str, List[IntaviaEntity]] = {}, keep_gold_limits: bool = False) -> Dict[str, Any]:
@@ -328,7 +391,10 @@ def get_social_network(documents: List[IntaviaDocument], method: str, valid_labe
             # Names that are recognized in BiographyNet
             if norm_surface_form in name2ids or ent.surfaceForm in name2ids:
                 possible_norm_names = name2ids.get(norm_surface_form)
-                if not possible_norm_names: possible_norm_names = name2ids[ent.surfaceForm]
+                if not possible_norm_names: 
+                    possible_norm_names = name2ids[ent.surfaceForm]
+                else:
+                    possible_norm_names = []
                 # Counter without disambiguating by date. We avoid self-references
                 if all([n != person_norm_name for n in possible_norm_names]):
                     related_bionet_mentions[norm_surface_form] += 1
@@ -337,8 +403,8 @@ def get_social_network(documents: List[IntaviaDocument], method: str, valid_labe
                         m_meta = unified_metadata[norm_name]
                         m_lifespan = get_lifespan_from_meta(m_meta)
                         if lifespan_in_range(person_lifespan, m_lifespan):
-                            related_bionet_lifespan_mentions[norm_name].append((doc_id, norm_surface_form, ent.surfaceForm))
-                            social_network.add_edge(person_norm_name, norm_name)
+                            related_bionet_lifespan_mentions[norm_name].append((m_meta["name"], norm_surface_form, ent.surfaceForm, f"Mentioned in:", doc_id, person_norm_name))
+                            social_network.add_edge(person_norm_name, m_meta["name"])
                             break
 
     # Show the top 100 Popular by Mention
@@ -508,4 +574,7 @@ def get_rankings_correlation(method_rankings: Dict[str, List]):
 
 
 if __name__ == "__main__":
-    main()
+    #create_networks_all()
+    
+    
+    create_table_top_rankings()

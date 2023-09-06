@@ -4,12 +4,16 @@ import argparse
 import pandas as pd
 from collections import Counter
 
+import spacy
+from spacy.matcher import Matcher
+from spacy import __version__ as spacy_version
+
 from flair import __version__ as flair_version
 from flair.data import Sentence
 from flair.models import SequenceTagger
 from flair.splitter import SegtokSentenceSplitter
 
-from utils.nlp_tasks import run_flair
+from utils.nlp_tasks import run_flair, match_proper_names
 
 import stanza
 from utils.nlp_tasks import run_bert_ner
@@ -17,6 +21,7 @@ from transformers import pipeline
 from transformers import AutoTokenizer, AutoModelForTokenClassification
 
 from utils_general import INTAVIA_JSON_ROOT
+INTAVIA_JSON_ROOT = f"/Users/Daza/intavia_json_v1_all"
 
 from pymongo import MongoClient
 COLLECTION_NAME = f"bionet_intavia"
@@ -47,6 +52,11 @@ def main_bionet_intavia_files(nlp_config: Dict[str, Any]):
                 if gold_obj:
                     print("Adding Gold")
                     intavia_obj = add_bionet_gold_ner(intavia_obj, gold_obj)
+            if "spacy_matcher" in nlp_config:
+                print("Adding Spacy Matcher")
+                ents = [e for e in intavia_obj['data']['entities'] if e["method"] != "spacy_matcher_nl"]
+                intavia_obj['data']['entities'] = ents
+                intavia_obj = add_spacy_matcher(nlp_config["spacy_matcher"]["matcher"], nlp_config["spacy_matcher"]["nlp"], intavia_obj)
             if "flair_ner" in nlp_config and not any(["flair" in m for m in included_models]):
                 print("Adding Flair")
                 flair_model = nlp_config["flair_ner"]["flair_model"]
@@ -239,6 +249,17 @@ def read_gpt_content(filepath: str, valid_labels: List[str]) -> List[Dict[str, A
                     
     return data
 
+def add_spacy_matcher(matcher, nlp, intavia_obj: Dict[str, Any]):
+    nlp_doc = nlp(intavia_obj["data"]["text"])
+    match_ents = match_proper_names(matcher, nlp_doc, intavia_obj["data"]["text"])
+    if len(intavia_obj['data'].get('entities', [])) > 0:
+        intavia_obj['data']['entities'] += match_ents
+    else:
+        intavia_obj['data']['entities'] = match_ents
+    intavia_obj['data']['entities'] = sorted(intavia_obj['data']['entities'], key=lambda x: x['locationStart'])
+    return intavia_obj
+
+
 if __name__ == "__main__":
     """
         Running Examples:
@@ -250,6 +271,7 @@ if __name__ == "__main__":
             python add_nlp_layers.py --mode files --gysbert_ner 
             python add_nlp_layers.py --mode files --chatgpt_ner 
             python add_nlp_layers.py --mode files --xlm_roberta_ner
+            python add_nlp_layers.py --mode files --spacy_matcher
 
     """
 
@@ -265,6 +287,7 @@ if __name__ == "__main__":
     parser.add_argument('-bn', '--gysbert_ner', help='', action='store_true', default=False)
     parser.add_argument('-xlmr', '--xlm_roberta_ner', help='', action='store_true', default=False)
     parser.add_argument('-gpt', '--chatgpt_ner', help='', action='store_true', default=False)
+    parser.add_argument('-sp', '--spacy_matcher', help='', action='store_true', default=False)
 
     args = parser.parse_args()
 
@@ -276,6 +299,21 @@ if __name__ == "__main__":
         NLP_CONFIG["gold_ner"] = {
             "model_config_label": "Human Annotations NER",
             "annotations_human": load_gold_annotations(gold_paths)
+        }
+    if args.spacy_matcher:
+        nlp = spacy.load("nl_core_news_lg")
+        matcher = Matcher(nlp.vocab)
+        pattern = [[{'IS_TITLE': True, 'OP': '+'}, {'IS_LOWER': True, 'OP': '?'}, {'IS_LOWER': True, 'OP': '?'}, {'IS_TITLE': True, 'OP': '+'}],
+                   [{'IS_TITLE': True, 'OP': '+'}, {'IS_LOWER': True, 'OP': '?'}, {'IS_LOWER': True, 'OP': '?'}, {'IS_UPPER': True, 'OP': '+'}],
+                   ]
+        pattern_id = "proper_names_greedy"
+        matcher.add(pattern_id, pattern)
+        NLP_CONFIG["spacy_matcher"] = {
+            "model_config_label": "Spacy Matcher",
+            "matcher": matcher,
+            "nlp": nlp,
+            "model": "nl_core_news_lg",
+            "version": spacy_version 
         }
     if args.flair_ner:
         flair_model = "flair/ner-dutch-large"

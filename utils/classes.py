@@ -15,6 +15,7 @@ NER_METHOD_DISPLAY = {'human_gold': 'gold',
                     'gpt-3.5-turbo': 'gpt', 
                     'gysbert_hist_fx_finetuned_epoch2': 'gysbert',
                     'xlmr_ner_': 'xlmr_ner',
+                    'spacy_matcher_nl': 'spacy_matcher_nl'
                     }
 
 

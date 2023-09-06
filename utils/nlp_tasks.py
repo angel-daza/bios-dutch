@@ -73,6 +73,29 @@ def run_bert_ner(bert_nlp, stanza_nlp, text, wordpiece_chars):
     return {'tagged_ner':  ner, 'sentences': texts, 'offsets': offsets}
 
 
+def match_proper_names(matcher, nlp_doc, text):
+    matches = matcher(nlp_doc)
+    spans_matched = []
+    ix = 0
+    spans = []
+
+    for match_id, start, end in matches:
+        start_char = nlp_doc[start].idx
+        end_char = nlp_doc[end-1].idx + len(nlp_doc[end-1].text)
+        surface_form = text[start_char:end_char]
+        spans_matched.append({
+            "ID": f"spacy_matcher_nl_{ix}",
+            "surfaceForm": surface_form,
+            "category": "PER",
+            "locationStart": start_char,
+            "locationEnd": end_char,
+            "method": "spacy_matcher_nl"
+        })
+        ix += 1
+    
+    return spans_matched
+
+
 def unify_wordpiece_predictions(prediction_list: List, wordpiece_chars: str) -> List:
     """
      This function is written to fix models that return predictions as:

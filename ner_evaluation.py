@@ -69,7 +69,7 @@ def evaluate_bionet_intavia(nlp_systems: List[str], valid_labels: List[str], eva
                 evaluated_labels.append(lbl)
         # Macro Eval
         metrics["TOTAL (macro)"] = {"TP": corpus_tp, "FP": corpus_fp, "FN": corpus_fn}
-        print(f"------ {sys_name} --------\n{evaluated_labels}\n{macro_p}\n{macro_r}\n{macro_f1}")
+        print(f"------ {sys_name} {eval_type} --------\n{evaluated_labels}\n{macro_p}\n{macro_r}\n{macro_f1}")
         metrics["TOTAL (macro)"]["P"] = round(statistics.mean(macro_p), 2)
         metrics["TOTAL (macro)"]["R"] = round(statistics.mean(macro_r), 2)
         metrics["TOTAL (macro)"]["F1"] = round(statistics.mean(macro_f1), 2)
@@ -147,8 +147,8 @@ def save_entity_errors_table(collected_errors: List[Dict[str, Any]], eval_type: 
         raise NotImplementedError
 
 if __name__ == "__main__":
-    systems = ["stanza_nl", "human_gold", "flair/ner-dutch-large_0.12.2", "gpt-3.5-turbo", "gysbert_hist_fx_finetuned_epoch2", "xlmr_ner_"]
-    valid_labels = ["PER", "LOC", "ORG"]
-    #evaluate_bionet_intavia(systems, valid_labels, eval_type="full_match")
-    #evaluate_bionet_intavia(systems, valid_labels, eval_type="bag_of_entities")
+    systems = ["spacy_matcher_nl"] #["stanza_nl", "human_gold", "flair/ner-dutch-large_0.12.2", "gpt-3.5-turbo", "gysbert_hist_fx_finetuned_epoch2", "xlmr_ner_"]
+    valid_labels = ["PER"] #["PER", "LOC", "ORG"]
+    evaluate_bionet_intavia(systems, valid_labels, eval_type="full_match")
+    evaluate_bionet_intavia(systems, valid_labels, eval_type="bag_of_entities")
     evaluate_bionet_intavia(systems, valid_labels, eval_type="partial_match")
