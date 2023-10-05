@@ -1,0 +1,130 @@
+2023-10-04 13:50:19,499 SequenceTagger predicts: Dictionary with 20 tags: <unk>, O, S-ORG, S-MISC, B-PER, E-PER, S-PER, S-LOC, B-MISC, E-MISC, B-ORG, E-ORG, I-ORG, I-PER, B-LOC, I-LOC, E-LOC, I-MISC, <START>, <STOP>
+2023-10-04 13:53:47,281 Warning: An empty Sentence was created! Are there empty strings in your dataset?
+2023-10-04 14:25:12,952 Warning: An empty Sentence was created! Are there empty strings in your dataset?
+2023-10-04 14:32:11,302 Warning: An empty Sentence was created! Are there empty strings in your dataset?
+Default with All Labels Flattened
+              precision    recall  f1-score   support
+
+         LOC     0.8204    0.8471    0.8335      3884
+         ORG     0.5752    0.5214    0.5470      2200
+         PER     0.7740    0.8479    0.8093      5745
+
+   micro avg     0.7569    0.7869    0.7716     11829
+   macro avg     0.7232    0.7388    0.7299     11829
+weighted avg     0.7523    0.7869    0.7685     11829
+
+              precision    recall  f1-score   support
+
+         LOC     0.8649    0.9217    0.8924      3884
+         ORG     0.6925    0.6459    0.6684      2200
+         PER     0.8084    0.8888    0.8467      5745
+
+   micro avg     0.8081    0.8544    0.8306     11829
+   macro avg     0.7886    0.8188    0.8025     11829
+weighted avg     0.8054    0.8544    0.8286     11829
+
+Strict with All Labels Flattened
+              precision    recall  f1-score   support
+
+         LOC     0.8200    0.8476    0.8336      3879
+         ORG     0.5737    0.5209    0.5461      2196
+         PER     0.7737    0.8478    0.8091      5743
+
+   micro avg     0.7564    0.7870    0.7714     11818
+   macro avg     0.7225    0.7388    0.7296     11818
+weighted avg     0.7517    0.7870    0.7682     11818
+
+              precision    recall  f1-score   support
+
+         LOC     0.8640    0.9219    0.8920      3879
+         ORG     0.6920    0.6466    0.6685      2196
+         PER     0.8081    0.8887    0.8465      5743
+
+   micro avg     0.8075    0.8546    0.8304     11818
+   macro avg     0.7880    0.8191    0.8023     11818
+weighted avg     0.8049    0.8546    0.8284     11818
+
+Default with Doc-Level Labels
+              precision    recall  f1-score   support
+
+         LOC     0.8204    0.8471    0.8335      3884
+         ORG     0.5752    0.5214    0.5470      2200
+         PER     0.7740    0.8479    0.8093      5745
+
+   micro avg     0.7569    0.7869    0.7716     11829
+   macro avg     0.7232    0.7388    0.7299     11829
+weighted avg     0.7523    0.7869    0.7685     11829
+
+              precision    recall  f1-score   support
+
+         LOC     0.8649    0.9217    0.8924      3884
+         ORG     0.6925    0.6459    0.6684      2200
+         PER     0.8084    0.8888    0.8467      5745
+
+   micro avg     0.8081    0.8544    0.8306     11829
+   macro avg     0.7886    0.8188    0.8025     11829
+weighted avg     0.8054    0.8544    0.8286     11829
+
+Strict with Doc-Level Labels
+              precision    recall  f1-score   support
+
+         LOC     0.8200    0.8476    0.8336      3879
+         ORG     0.5737    0.5209    0.5461      2196
+         PER     0.7737    0.8478    0.8091      5743
+
+   micro avg     0.7564    0.7870    0.7714     11818
+   macro avg     0.7225    0.7388    0.7296     11818
+weighted avg     0.7517    0.7870    0.7682     11818
+
+              precision    recall  f1-score   support
+
+         LOC     0.8640    0.9219    0.8920      3879
+         ORG     0.6920    0.6466    0.6685      2196
+         PER     0.8081    0.8887    0.8465      5743
+
+   micro avg     0.8075    0.8546    0.8304     11818
+   macro avg     0.7880    0.8191    0.8023     11818
+weighted avg     0.8049    0.8546    0.8284     11818
+
+Default with Sentence-Level Labels
+              precision    recall  f1-score   support
+
+         LOC     0.8204    0.8471    0.8335      3884
+         ORG     0.5757    0.5211    0.5471      2203
+         PER     0.7740    0.8479    0.8093      5745
+
+   micro avg     0.7570    0.7868    0.7716     11832
+   macro avg     0.7234    0.7387    0.7300     11832
+weighted avg     0.7523    0.7868    0.7684     11832
+
+              precision    recall  f1-score   support
+
+         LOC     0.8649    0.9217    0.8924      3884
+         ORG     0.6930    0.6455    0.6684      2203
+         PER     0.8084    0.8888    0.8467      5745
+
+   micro avg     0.8082    0.8543    0.8306     11832
+   macro avg     0.7888    0.8187    0.8025     11832
+weighted avg     0.8055    0.8543    0.8285     11832
+
+Strict with Sentence-Level Labels
+              precision    recall  f1-score   support
+
+         LOC     0.8200    0.8476    0.8336      3879
+         ORG     0.5737    0.5209    0.5461      2196
+         PER     0.7737    0.8478    0.8091      5743
+
+   micro avg     0.7564    0.7870    0.7714     11818
+   macro avg     0.7225    0.7388    0.7296     11818
+weighted avg     0.7517    0.7870    0.7682     11818
+
+              precision    recall  f1-score   support
+
+         LOC     0.8640    0.9219    0.8920      3879
+         ORG     0.6920    0.6466    0.6685      2196
+         PER     0.8081    0.8887    0.8465      5743
+
+   micro avg     0.8075    0.8546    0.8304     11818
+   macro avg     0.7880    0.8191    0.8023     11818
+weighted avg     0.8049    0.8546    0.8284     11818
+

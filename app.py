@@ -2,16 +2,16 @@
 from flask import Flask, render_template, request, redirect, jsonify, url_for
 from collections import defaultdict
 from spacy import displacy
-from typing import Counter, List, Dict, NamedTuple
+from typing import Counter, List, Dict, NamedTuple, Any
 import json
 import flask_app.virtual_pandas_dataset as my_data
 from flask_paginate import Pagination, get_page_args
 
-import ner_evaluation
+# from ner_evaluation import system_label_report
 from utils.classes import IntaviaDocument
 from utils_general import FLASK_ROOT, INTAVIA_JSON_ROOT, BIOS_MAIN_DATAFRAME
 
-## JUST FOR NOW FOR DEBUGGING PURPOSES:
+# JUST FOR NOW FOR DEBUGGING PURPOSES:
 INTAVIA_JSON_ROOT = f"/Users/Daza/intavia_json_v1_all/"
 BIOS_MAIN_DATAFRAME = f"{FLASK_ROOT}/biographies/AllBios_unified_enriched_ALL.jsonl"
 
@@ -43,6 +43,22 @@ CONFIDENCE_COLORS = {
     "HIGH":  "#A8E8A2",
     "VERY HIGH": "#2B7424",
 }
+
+def system_label_report(systems_metrics: Dict[str, Any]) -> List[List[Any]]:
+    report_table = defaultdict(list)
+    for sys_vs_sys_names, obj in systems_metrics.items():
+        sys_name = sys_vs_sys_names.split("_vs_")[1]
+        label_metrics = obj["metrics"]
+        for label_name, metrics in label_metrics.items():
+            if label_name not in ["MICRO", "MACRO"]:
+                report_table[label_name].append({
+                    "M": sys_name,
+                    "P": metrics["P"],
+                    "R": metrics["R"],
+                    "F1": metrics["F1"]
+                })
+    return report_table
+
 
 def process_annotations(annos: List[Dict]):
     new_annos = []
@@ -86,8 +102,9 @@ def home():
 @app.route("/bio_detail_google_charts/<source>/<text_id>")
 def bio_detail_google_charts(source: str, text_id: str):
 
-    bio_info = json.load(open(f"{INTAVIA_JSON_ROOT}/{source}/{text_id}.json"))
-    bio = IntaviaDocument(bio_info)
+    with open(f"{INTAVIA_JSON_ROOT}/{source}/{text_id}.json") as f:
+        bio_info = json.load(f)
+        bio = IntaviaDocument(bio_info)
 
     # General Entity Frequency Chart
     entity_counts = bio.get_entity_counts()
@@ -177,8 +194,9 @@ def bio_detail(source: str, text_id: str):
     display_conf_labels = list(CONFIDENCE_COLORS.keys())
     
     if request.method == "GET":
-        bio_info = json.load(open(f"{INTAVIA_JSON_ROOT}/{source}/{text_id}.json"))
-        bio = IntaviaDocument(bio_info)
+        with open(f"{INTAVIA_JSON_ROOT}/{source}/{text_id}.json") as f:
+            bio_info = json.load(f)
+            bio = IntaviaDocument(bio_info)
         # Basic Info
         basic = bio.get_basic_stats()
         # Named Entities
@@ -240,7 +258,7 @@ def bio_detail(source: str, text_id: str):
                 html_annotated[hypo_method] = displacy.render(display_obj, style="ent", manual=True, page=False, options={"ents": display_labels, "colors": ALL_LABEL_COLORS})
         
         # Generate System Summary Table
-        summary_table = ner_evaluation.system_label_report(systems_eval)
+        summary_table = system_label_report(systems_eval)
         for lbl, table in summary_table.items():
             print("-----------", lbl, "-----------")
             [print(t) for t in table]
@@ -261,7 +279,8 @@ def bio_detail(source: str, text_id: str):
 @app.route("/bio_overview_google_charts")
 def bio_overview_google_charts():
 
-    statistics = json.load(open(f"{FLASK_ROOT}/biographies/statistics.json"))
+    with open(f"{FLASK_ROOT}/biographies/statistics.json") as f:
+        statistics = json.load(f)
     entities_per_method = statistics["method_total"]
     data_array = [["method", "total"]]
     for k,v in entities_per_method.items():
@@ -331,7 +350,8 @@ def biography_sort():
 @app.route("/bio_stat_google_charts")
 def bio_stat_google_charts():
 
-    statistics = json.load(open(f"{FLASK_ROOT}/biographies/statistics.json"))
+    with open(f"{FLASK_ROOT}/biographies/statistics.json") as f:
+        statistics = json.load(f)
 
     dist_dict = statistics["max_dist_per_id"]
     array_dict = {}

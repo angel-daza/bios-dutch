@@ -1,11 +1,19 @@
 # On MICRO vs MACRO: https://stephenallwright.com/micro-vs-macro-f1-score/
 from typing import List, Dict, Any
-from collections import defaultdict
+from collections import defaultdict, Counter
 import glob, os, json, statistics
 import pandas as pd
 
 from utils.classes import IntaviaDocument
-from utils_general import get_gold_annotations, INTAVIA_JSON_ROOT
+from utils_general import get_gold_annotations, INTAVIA_JSON_ROOT, conll_data_reader
+from utils.nlp_tasks import unify_wordpiece_predictions
+
+from flair.data import Sentence
+from flair.models import SequenceTagger
+import stanza
+from transformers import pipeline
+from transformers import AutoTokenizer, AutoModelForTokenClassification
+from seqeval.metrics import classification_report
 
 
 def evaluate_bionet_intavia(nlp_systems: List[str], valid_labels: List[str], eval_type: str):
@@ -146,9 +154,223 @@ def save_entity_errors_table(collected_errors: List[Dict[str, Any]], eval_type: 
     else:
         raise NotImplementedError
 
+def get_conll_stats():
+    conll_files = [
+        "data/bionet_gold/biographynet_test_A_gold.conll",
+        "data/bionet_gold/biographynet_test_B_gold.conll",
+        "data/bionet_gold/biographynet_test_C_gold.conll"
+    ]
+    sents_dict = {}
+    for path in conll_files:
+        sents_dict.update(conll_data_reader(path))
+    # Global Stats
+    tot_sents, tot_tokens =  0, 0
+    doc_sizes, sent_sizes, doc_sent_sizes = [], [], []
+    per_sizes, loc_sizes, org_sizes, ner_sizes = [], [], [], []
+    all_labels = []
+    for doc_id, sents in sents_dict.items():
+        tot_sents += len(sents)
+        doc_toks = 0
+        per_c, loc_c, org_c, ner_c = 0, 0, 0, 0
+        for s in sents:
+            tot_tokens += len(s)
+            sent_sizes.append(len(s))
+            for sid, tok, lbl in s:
+                all_labels.append(lbl)
+                doc_toks += 1
+                if lbl == "B-PER":
+                    per_c += 1
+                elif lbl == "B-LOC":
+                    loc_c += 1
+                elif lbl == "B-ORG":
+                    org_c += 1
+                if lbl in ["B-PER", "B-LOC", "B-ORG"]:
+                    ner_c += 1
+        per_sizes.append(per_c)
+        loc_sizes.append(loc_c)
+        org_sizes.append(org_c)
+        ner_sizes.append(ner_c)
+        doc_sizes.append(doc_toks)
+    
+    print(f"Total Documents = {len(doc_sizes)} == {len(sents_dict)}")
+    print(f"Longest Doc = {max(doc_sizes)} | Shortest Doc = {min(doc_sizes)} | Average Doc = {statistics.mean(doc_sizes)} | Median = {statistics.median(doc_sizes)}")
+    print(f"Total Sentences = {tot_sents} | MAX = {max(sent_sizes)} | Mean = {statistics.mean(sent_sizes)}  | Median = {statistics.median(sent_sizes)}")
+    print(f"Total Tokens = {tot_tokens}")
+    print(Counter(all_labels))
+    print(f"PER = {sum(per_sizes)} | MAX = {max(per_sizes)} | Mean = {statistics.mean(per_sizes)}  | Median = {statistics.median(per_sizes)}")
+    print(f"LOC = {sum(loc_sizes)} | MAX = {max(loc_sizes)} | Mean = {statistics.mean(loc_sizes)}  | Median = {statistics.median(loc_sizes)}")
+    print(f"ORG = {sum(org_sizes)} | MAX = {max(org_sizes)} | Mean = {statistics.mean(org_sizes)}  | Median = {statistics.median(org_sizes)}")
+    print(f"ALL = {sum(ner_sizes)} | MAX = {max(ner_sizes)} | Mean = {statistics.mean(ner_sizes)}  | Median = {statistics.median(ner_sizes)}")
+
+
+def evaluate_conll_files():
+
+    def _run_flair_pretok(tokens:List[str], tagger: SequenceTagger):
+        text = " ".join(tokens)
+        labels = []
+        sentence = Sentence(text, use_tokenizer=False)
+        tagger.predict(sentence)
+
+        # transfer entity labels to token level
+        for entity in sentence.get_spans('ner'):
+            prefix = 'B-'
+            for token in entity:
+                token.set_label('ner-bio', prefix + entity.tag, entity.score)
+                prefix = 'I-'
+
+        for tok in sentence:
+            lbl = tok.get_label()._value
+            if "PER" in lbl or "ORG" in lbl or "LOC" in lbl:
+                labels.append(lbl)
+            else:
+                labels.append("O")
+        return labels
+
+    def _run_stanza_pretok(tokens:List[str], stanza_nlp):
+        text = " ".join(tokens)
+        doc = stanza_nlp(text)
+        labels = []
+        for s in doc.sentences:
+            for tok in s.tokens:
+                lbl = tok.ner.replace("E-", "I-").replace("S-", "B-")
+                if "PER" in lbl or "ORG" in lbl or "LOC" in lbl:
+                    labels.append(lbl)
+                else:
+                    labels.append("O")
+        return labels
+    
+    def _run_xlmr_pretok(tokens: List[str], bert_nlp):
+        sentence = " ".join(tokens)
+        predictions = bert_nlp(sentence)
+        tagged_ents = unify_wordpiece_predictions(predictions, '▁')
+        return tagged_ents
+
+    ## Flair Model
+    flair_model = "flair/ner-dutch-large"
+    flair_tagger = SequenceTagger.load(flair_model)
+    
+    ## Stanza Model
+    stanza_nlp = stanza.Pipeline(lang="nl", processors="tokenize,lemma,pos,depparse,ner", model_dir="/Users/daza/stanza_resources/", tokenize_pretokenized=True)
+    
+    # ## XLM-R Model
+    # checkpoint = "Davlan/xlm-roberta-base-ner-hrl"
+    # xlmr_tokenizer = AutoTokenizer.from_pretrained(checkpoint)
+    # xlmr_model = AutoModelForTokenClassification.from_pretrained(checkpoint)
+    # xlmr_nlp = pipeline('token-classification', model=xlmr_model, tokenizer=xlmr_tokenizer, device=-1)
+    
+    # Pupulate Data
+    conll_files = [
+        "data/bionet_gold/biographynet_test_A_gold.conll",
+        "data/bionet_gold/biographynet_test_B_gold.conll",
+        "data/bionet_gold/biographynet_test_C_gold.conll"
+    ]
+    sents_dict = {}
+    for path in conll_files:
+        sents_dict.update(conll_data_reader(path))
+    # Iterate and Run NLP Systems on pre-tokenized data
+    c = 0
+    all_all_gold, all_all_stanza, all_all_flair, all_all_xlmr = [], [], [], []
+    all_doc_gold, all_doc_stanza, all_doc_flair, all_doc_xlmr = [], [], [], []
+    all_sent_gold, all_sent_stanza, all_sent_flair, all_sent_xlmr = [], [], [], []
+    for doc_id, sents in sents_dict.items():
+        #print(doc_id)
+        doc_gold_labels, doc_stanza_labels, doc_flair_labels, doc_xlmr_labels = [], [], [], []
+        for s in sents:
+            tokens, gold_labels = [], []
+            for sid, tok, lbl in s:
+                tokens.append(tok)
+                if "PER" in lbl or "ORG" in lbl or "LOC" in lbl:
+                    gold_labels.append(lbl)
+                else:
+                    gold_labels.append("O")
+            flair_labels = _run_flair_pretok(tokens, flair_tagger)
+            stanza_labels = _run_stanza_pretok(tokens, stanza_nlp)
+            xlmr_labels = [] #_run_xlmr_pretok(tokens, xlmr_nlp)
+            # print(tokens)
+            # print(gold_labels)
+            # print(flair_labels)
+            # print(stanza_labels)
+            # print(xlmr_labels)
+            all_all_gold += gold_labels
+            all_sent_gold.append(gold_labels)
+            doc_gold_labels += gold_labels
+            #
+            all_all_stanza += stanza_labels
+            all_sent_stanza.append(stanza_labels)
+            doc_stanza_labels += stanza_labels
+            #
+            all_all_flair += flair_labels
+            all_sent_flair.append(flair_labels)
+            doc_flair_labels += flair_labels
+            #
+            all_all_xlmr += xlmr_labels
+            all_sent_xlmr.append(xlmr_labels)
+            doc_xlmr_labels += xlmr_labels
+        #print("----")
+        all_doc_gold.append(doc_gold_labels) 
+        all_doc_stanza.append(doc_stanza_labels) 
+        all_doc_flair.append(doc_flair_labels)
+        all_doc_xlmr.append(doc_xlmr_labels)
+        c += 1
+        # if c ==5: break
+
+    print("Default with All Labels Flattened")
+    stanza_report = classification_report([all_all_gold], [all_all_stanza], digits=4)
+    flair_report = classification_report([all_all_gold], [all_all_flair], digits=4)
+    print(stanza_report)
+    print(flair_report)
+    # xlmr_report = classification_report([all_all_gold], [all_all_xlmr])
+    # print(xlmr_report)
+    
+    print("Strict with All Labels Flattened")
+    stanza_report = classification_report([all_all_gold], [all_all_stanza], mode='strict', digits=4)
+    flair_report = classification_report([all_all_gold], [all_all_flair], mode='strict', digits=4)
+    print(stanza_report)
+    print(flair_report)
+    # xlmr_report = classification_report([all_all_gold], [all_all_xlmr], mode='strict')
+    # print(xlmr_report)
+    
+    print("Default with Doc-Level Labels")
+    stanza_report = classification_report(all_doc_gold, all_doc_stanza, digits=4)
+    flair_report = classification_report(all_doc_gold, all_doc_flair, digits=4)
+    print(stanza_report)
+    print(flair_report)
+    # xlmr_report = classification_report(all_doc_gold, all_doc_xlmr)
+    # print(xlmr_report)
+    
+    print("Strict with Doc-Level Labels")
+    stanza_report = classification_report(all_doc_gold, all_doc_stanza, mode='strict', digits=4)
+    flair_report = classification_report(all_doc_gold, all_doc_flair, mode='strict', digits=4)
+    print(stanza_report)
+    print(flair_report)
+    # xlmr_report = classification_report(all_doc_gold, all_doc_xlmr, mode='strict')
+    # print(xlmr_report)
+    
+    print("Default with Sentence-Level Labels")
+    stanza_report = classification_report(all_sent_gold, all_sent_stanza, digits=4)
+    flair_report = classification_report(all_sent_gold, all_sent_flair, digits=4)
+    print(stanza_report)
+    print(flair_report)
+    # xlmr_report = classification_report(all_sent_xlmr, all_sent_xlmr)
+    # print(xlmr_report)
+    
+    print("Strict with Sentence-Level Labels")
+    stanza_report = classification_report(all_sent_gold, all_sent_stanza, mode='strict', digits=4)
+    flair_report = classification_report(all_sent_gold, all_sent_flair, mode='strict', digits=4)
+    print(stanza_report)
+    print(flair_report)
+    # xlmr_report = classification_report(all_sent_xlmr, all_sent_xlmr, mode='strict')
+    # print(xlmr_report)
+    
+
+
+
 if __name__ == "__main__":
-    systems = ["spacy_matcher_nl"] #["stanza_nl", "human_gold", "flair/ner-dutch-large_0.12.2", "gpt-3.5-turbo", "gysbert_hist_fx_finetuned_epoch2", "xlmr_ner_"]
-    valid_labels = ["PER"] #["PER", "LOC", "ORG"]
-    evaluate_bionet_intavia(systems, valid_labels, eval_type="full_match")
-    evaluate_bionet_intavia(systems, valid_labels, eval_type="bag_of_entities")
-    evaluate_bionet_intavia(systems, valid_labels, eval_type="partial_match")
+    systems = ["stanza_nl", "flair/ner-dutch-large_0.12.2", "gpt-3.5-turbo", "xlmr_ner_"] # ["stanza_nl", "human_gold", "flair/ner-dutch-large_0.12.2", "gpt-3.5-turbo", "gysbert_hist_fx_finetuned_epoch2", "xlmr_ner_"]
+    valid_labels = ["PER", "LOC", "ORG"]
+    #evaluate_bionet_intavia(systems, valid_labels, eval_type="full_match")
+    #evaluate_bionet_intavia(systems, valid_labels, eval_type="bag_of_entities")
+    #evaluate_bionet_intavia(systems, valid_labels, eval_type="partial_match")
+
+    # get_conll_stats()
+    evaluate_conll_files()

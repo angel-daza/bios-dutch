@@ -1,5 +1,6 @@
-from typing import Dict, Any, Tuple
+from typing import Dict, Any, Tuple, List
 import json, re
+from collections import defaultdict
 from utils.classes import IntaviaEntity
 
 FLASK_ROOT = "flask_app/backend_data"
@@ -19,6 +20,26 @@ def get_gold_annotations() -> Dict[str, Any]:
     for doc_id, obj in raw_docs.items():
         gold_docs[doc_id] = sorted([IntaviaEntity(**e) for e in obj["entities"]], key= lambda x: x.locationStart)
     return gold_docs
+
+
+def conll_data_reader(conll_path: str) -> Dict[str, List]:
+    sentences = defaultdict(list)
+    buffer = []
+    with open(conll_path) as f:
+        for line in f.readlines():
+            if line.startswith('## Text_ID = '):
+                doc_id = line[13:].rstrip('\n')
+                sent_id = 1
+            elif len(line) > 1:
+                # print("ch",line.strip("\n").split())
+                tok, lbl = line.strip("\n").split()
+                buffer.append((sent_id, tok.strip(), lbl.strip()))
+            else:
+                sent_id += 1
+                sentences[doc_id].append(buffer)
+                buffer = []
+
+    return sentences
 
 
 def normalize_entity_person_name(full_name: str, default_name: str = None):
