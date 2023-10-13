@@ -313,19 +313,25 @@ def bio_overview_google_charts():
 
     return jsonify(response)
 
-@app.route("/bio_viewer_sort", methods=['GET', 'POST'])
-def biography_sort():
-    sorting = request.json["sorting"]
-    method = request.json["method"]
+@app.route("/bio_viewer_sort/<sorting>-<method>")#methods=['GET', 'POST']
+def biography_sort(sorting, method):
+    #sorting = request.json["sorting"]
+    #method = request.json["method"]
+    print(sorting, method)
     global biographies_search
     global STATISTICS
     global SORTED_BIOS
 
     page, per_page, offset = get_page_args(page_parameter="page", per_page_parameter="per_page")
 
+    if sorting == "undo":
+        SORTED_BIOS = None
+        return redirect(url_for('bio_viewer'))
+
     if sorting == "entities":
         ids_sorted_per_method = STATISTICS["ids_sorted_per_method"]
         sorted_ids = ids_sorted_per_method[method]
+        #sorted_ids.reverse()
     elif sorting == "distance":
         sorted_ids = STATISTICS["dist_sorted"]
     else:
@@ -337,14 +343,16 @@ def biography_sort():
     deep_copy = biographies_search.copy(deep=True)
 
     deep_copy.drop( index=diff, inplace=True)
-    deep_copy.sort_values(by="display_id", key=lambda column: column.map(lambda e: sorted_ids.index(e)), inplace=True)
+    deep_copy.sort_values(by="display_id", key=lambda column: column.map(lambda e: sorted_ids.index(e)), inplace=True, ascending=False)
 
     SORTED_BIOS = deep_copy
     
     n_rows, _ = deep_copy.shape
     returned_bios = deep_copy.iloc[offset:offset+10,:].to_dict(orient='records')
     pagination = Pagination(page=page, per_page=10, total=n_rows, css_framework="bootstrap4")
-    return render_template('biography_viewer.html', biographies=returned_bios, occupations=occupations_catalogue, 
+
+    return redirect(url_for('bio_viewer'))
+    return render_template('biography_viewer2.html', biographies=returned_bios, occupations=occupations_catalogue, 
                 locations=locations_catalogue, sources=MY_SOURCES, n_rows=n_rows, page=page, per_page=per_page, pagination=pagination)
 
 @app.route("/bio_stat_google_charts")
@@ -396,7 +404,8 @@ if __name__ == '__main__':
 
 
     # First of all, load Full DataFrame in Memory just ONCE!
-    biographies_search = my_data.load_bios_dataset(BIOS_MAIN_DATAFRAME)
+    #biographies_search = my_data.load_bios_dataset(BIOS_MAIN_DATAFRAME)
+    biographies_search = my_data.load_bios_dataset(f"{FLASK_ROOT}/biographies/AllBios_unified_enriched.jsonl")
 
 
     # Load Catalogues to Choose from pre-defined fields (Bio Viewer)

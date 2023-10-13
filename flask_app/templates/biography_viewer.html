@@ -226,7 +226,7 @@
         </div>
       </div>
 
-      <div class="dropdown ml-5 border-primary">
+      <div class="dropdown ml-1 border-primary">
         <button
           class="btn btn-primary dropdown-toggle btn-sm"
           type="button"
@@ -242,17 +242,17 @@
           id="entities"
           aria-labelledby="dropdownMenuButton"
         >
-          <a class="dropdown-item entities" id="gpt-3.5-turbo" href="#"
+          <a class="dropdown-item entities" id="gpt-3.5-turbo" href="{{ url_for('biography_sort', sorting='entities', method='gpt-3.5-turbo') }}"
             >gpt3.5</a
           >
-          <a class="dropdown-item entities" id="stanza_nl" href="#">Stanza</a>
+          <a class="dropdown-item entities" id="stanza_nl" href="{{ url_for('biography_sort', sorting='entities', method='stanza_nl') }}">Stanza</a>
           <a class="dropdown-item entities" id="human_gold" href="#"
             >human gold</a
           >
           <a
             class="dropdown-item entities"
             id="flair/ner-dutch-large_0.12.2"
-            href="#"
+            href="{{ url_for('biography_sort', sorting='entities', method='flair/ner-dutch-large_0.12.2') }}"
             >flair</a
           >
           <a class="dropdown-item entities" id="xlmr_ner_" href="#">xlmr_ner</a>
@@ -260,13 +260,17 @@
           <a
             class="dropdown-item entities"
             id="gysbert_hist_fx_finetuned_epoch2"
-            href="#"
+            href="{{ url_for('biography_sort', sorting='entities', method='gysbert_hist_fx_finetuned_epoch2') }}"
             >gysbert</a
           >
         </div>
       </div>
 
-      <div class="dropdown ml-5 border-primary">
+      <div>
+      <a class="btn btn-primary btn-sm p-1 ml-2" role="button" href="{{ url_for('biography_sort', sorting='distance', method='abc') }}">Sort by distance (w/o gold)</a>
+      </div>
+
+<!--       <div class="dropdown ml-5 border-primary">
         <button
           class="btn btn-primary dropdown-toggle btn-sm"
           type="button"
@@ -304,9 +308,17 @@
             >gysbert</a
           >
         </div>
+      </div> -->
+
+      <div>
+        <a href="{{ url_for('biography_sort', sorting='gold_distance', method='abc') }}" class="btn btn-primary btn-sm p-1 ml-2" role="button">Sort by gold distance</a>
+      </div>
+      
+      <div>
+        <a class="btn btn-secondary btn-sm p-1 ml-2" role="button" href="{{ url_for('biography_sort', sorting='undo', method='abc') }}">Undo Sort</a>
       </div>
 
-      <div class="dropdown ml-5 border-primary">
+      <!-- <div class="dropdown ml-5 border-primary">
         <button
           class="btn btn-primary dropdown-toggle btn-sm"
           type="button"
@@ -340,7 +352,7 @@
             >gysbert</a
           >
         </div>
-      </div>
+      </div> -->
     </div>
 
     <!-- Results AREA -->
@@ -537,10 +549,10 @@
                   person_bios.display_tot_entities[loop.index - 1] }}
                 </h5>
               </div>
-              <div class="card-body row justify-content-center">
+              <!-- <div class="card-body row justify-content-center">
                 <div id="stat_total_{{person_bios.display_id}}"></div>
                 <div id="stat_dev_{{person_bios.display_id}}"></div>
-              </div>
+              </div> -->
               <div
                 id="collapse_{{person_bios.display_id}}_{{loop.index}}"
                 class="collapse"

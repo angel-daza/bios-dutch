@@ -1,12 +1,12 @@
 window.addEventListener("load", function () {
   //your js here
   //console.log(document.getElementById("gpt3.5"));
-  const entitiyDropdowns = document.getElementsByClassName(
+  /* const entitiyDropdowns = document.getElementsByClassName(
     "dropdown-item entities"
   );
   for (let item of entitiyDropdowns) {
     item.addEventListener("click", bla);
-  }
+  } */
 });
 
 function bla(e) {
