@@ -39,9 +39,9 @@ ALL_LABEL_COLORS = {
 CONFIDENCE_COLORS = {
     "LOW": "#EBB9B5", 
     "WEAK": "#F2F1AE",
-    "MEDIUM": "#c3e9bb",
-    "HIGH":  "#A8E8A2",
-    "VERY HIGH": "#2B7424",
+    "MED": "#a7f08e",
+    "HIGH":  "#33cc33",
+    "FULL": "#9eccfa",
 }
 
 def system_label_report(systems_metrics: Dict[str, Any]) -> List[List[Any]]:
@@ -264,11 +264,11 @@ def bio_detail(source: str, text_id: str):
             [print(t) for t in table]
 
         # Display CONFIDENCE Spans with Displacy
-        confidence_list = bio.get_confidence_entities(mode="spans")
+        confidence_list = bio.get_confidence_entities(mode="spans", valid_labels=["PER", "LOC", "ORG"])
         display_obj = {"text": bio.text, "tokens": bio.tokenization, "spans": confidence_list}
         html_annotated["entity_overlap"] = displacy.render(display_obj, style="span", manual=True, page=False, options={"ents": display_labels, "colors": ALL_LABEL_COLORS})
         # Display "HeatMap"
-        confidence_list = bio.get_confidence_entities(mode="ents")
+        confidence_list = bio.get_confidence_entities(mode="ents", valid_labels=["PER", "LOC", "ORG"])
         display_obj = {"text": bio.text, "ents": confidence_list}
         html_annotated["entity_heatmap"] = displacy.render(display_obj, style="ent", manual=True, page=False, options={"ents": display_conf_labels, "colors": CONFIDENCE_COLORS})
 

@@ -386,7 +386,7 @@ class IntaviaDocument:
         
         return entity_table
 
-    def get_confidence_entities(self, mode: str = "spans") -> List[Dict]:
+    def get_confidence_entities(self, mode: str = "spans", valid_labels: List[str] = None) -> List[Dict]:
         " mode = 'spans' or 'ents' "
        
         if mode not in ["spans", "ents"]:
@@ -405,24 +405,47 @@ class IntaviaDocument:
                     charstart2token[token.MISC['StartChar']] = token.ID
                     charend2token[token.MISC['EndChar']] = token.ID
 
-        for ent_obj in self.get_entities(methods=methods):
-            key = f"{ent_obj.surfaceForm}#{ent_obj.locationStart}#{ent_obj.locationEnd}#{ent_obj.category}"
+        for ent_obj in self.get_entities(methods=methods, valid_labels=valid_labels):
+            if mode == "spans":
+                key = f"{ent_obj.surfaceForm.lower()}#{ent_obj.locationStart}#{ent_obj.locationEnd}#{ent_obj.category}"
+            elif mode == "ents":
+                key = f"{ent_obj.surfaceForm.lower()}#{ent_obj.locationStart}#{ent_obj.locationEnd}"
             entity_agreement.append(key)
         entity_agreement = Counter(entity_agreement).most_common()
         entity_confidence_spans = []
         for ent_key, freq in entity_agreement:
-            agreement_ratio = freq/max_agreement
-            text, start, end, label = ent_key.split("#")
-            if agreement_ratio <= 0.3:
-                confidence_cat = "LOW"
-            elif 0.3 < agreement_ratio <= 0.5:
-                confidence_cat = "WEAK"
-            elif 0.5 < agreement_ratio <= 0.75:
-                confidence_cat = "MEDIUM"
-            elif 0.75 < agreement_ratio <= 0.89:
+            # agreement_ratio = freq/max_agreement
+            # if mode == "spans":
+            #     text, start, end, label = ent_key.split("#")
+            # elif mode == "ents":
+            #     text, start, end = ent_key.split("#")
+            #     label = None
+            # if agreement_ratio <= 0.3:
+            #     confidence_cat = "LOW"
+            # elif 0.3 < agreement_ratio <= 0.5:
+            #     confidence_cat = "WEAK"
+            # elif 0.5 < agreement_ratio <= 0.75:
+            #     confidence_cat = "MED"
+            # elif 0.75 < agreement_ratio <= 0.89:
+            #     confidence_cat = "HIGH"
+            # else:
+            #     confidence_cat = "FULL"
+            agreement_ratio = freq
+            if mode == "spans":
+                text, start, end, label = ent_key.split("#")
+            elif mode == "ents":
+                text, start, end = ent_key.split("#")
+                label = None
+            if agreement_ratio == max_agreement:
+                confidence_cat = "FULL"
+            elif agreement_ratio == max_agreement - 1:
                 confidence_cat = "HIGH"
+            elif agreement_ratio == max_agreement - 2:
+                confidence_cat = "MED"
+            elif agreement_ratio == max_agreement - 3:
+                confidence_cat = "WEAK"
             else:
-                confidence_cat = "VERY HIGH"
+                confidence_cat = "LOW"
             
             if mode == "spans":
                 token_start = charstart2token.get(int(start))
