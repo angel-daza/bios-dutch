@@ -6,7 +6,7 @@ import pandas as pd
 
 from utils.classes import IntaviaDocument
 from utils_general import get_gold_annotations, INTAVIA_JSON_ROOT, conll_data_reader
-from utils.nlp_tasks import unify_wordpiece_predictions
+from utils.nlp_tasks import unify_wordpiece_predictions_iob
 
 from flair.data import Sentence
 from flair.models import SequenceTagger
@@ -193,14 +193,14 @@ def get_conll_stats():
         doc_sizes.append(doc_toks)
     
     print(f"Total Documents = {len(doc_sizes)} == {len(sents_dict)}")
-    print(f"Longest Doc = {max(doc_sizes)} | Shortest Doc = {min(doc_sizes)} | Average Doc = {statistics.mean(doc_sizes)} | Median = {statistics.median(doc_sizes)}")
-    print(f"Total Sentences = {tot_sents} | MAX = {max(sent_sizes)} | Mean = {statistics.mean(sent_sizes)}  | Median = {statistics.median(sent_sizes)}")
+    print(f"Longest Doc = {max(doc_sizes)} | Shortest Doc = {min(doc_sizes)} | Average Doc = {statistics.mean(doc_sizes)} | Median = {statistics.median(doc_sizes)} | StdDev = {statistics.stdev(doc_sizes)}")
+    print(f"Total Sentences = {tot_sents} | MAX = {max(sent_sizes)} | Mean = {statistics.mean(sent_sizes)}  | Median = {statistics.median(sent_sizes)} | StdDev = {statistics.stdev(sent_sizes)}")
     print(f"Total Tokens = {tot_tokens}")
     print(Counter(all_labels))
-    print(f"PER = {sum(per_sizes)} | MAX = {max(per_sizes)} | Mean = {statistics.mean(per_sizes)}  | Median = {statistics.median(per_sizes)}")
-    print(f"LOC = {sum(loc_sizes)} | MAX = {max(loc_sizes)} | Mean = {statistics.mean(loc_sizes)}  | Median = {statistics.median(loc_sizes)}")
-    print(f"ORG = {sum(org_sizes)} | MAX = {max(org_sizes)} | Mean = {statistics.mean(org_sizes)}  | Median = {statistics.median(org_sizes)}")
-    print(f"ALL = {sum(ner_sizes)} | MAX = {max(ner_sizes)} | Mean = {statistics.mean(ner_sizes)}  | Median = {statistics.median(ner_sizes)}")
+    print(f"PER = {sum(per_sizes)} | MAX = {max(per_sizes)} | Mean = {statistics.mean(per_sizes)}  | Median = {statistics.median(per_sizes)} | StdDev = {statistics.stdev(per_sizes)}")
+    print(f"LOC = {sum(loc_sizes)} | MAX = {max(loc_sizes)} | Mean = {statistics.mean(loc_sizes)}  | Median = {statistics.median(loc_sizes)} | StdDev = {statistics.stdev(loc_sizes)}")
+    print(f"ORG = {sum(org_sizes)} | MAX = {max(org_sizes)} | Mean = {statistics.mean(org_sizes)}  | Median = {statistics.median(org_sizes)} | StdDev = {statistics.stdev(org_sizes)}")
+    print(f"ALL = {sum(ner_sizes)} | MAX = {max(ner_sizes)} | Mean = {statistics.mean(ner_sizes)}  | Median = {statistics.median(ner_sizes)} | StdDev = {statistics.stdev(ner_sizes)}")
 
 
 def evaluate_conll_files():
@@ -242,7 +242,7 @@ def evaluate_conll_files():
     def _run_xlmr_pretok(tokens: List[str], bert_nlp):
         sentence = " ".join(tokens)
         predictions = bert_nlp(sentence)
-        tagged_ents = unify_wordpiece_predictions(predictions, '▁')
+        tagged_ents = unify_wordpiece_predictions_iob(predictions, '▁', tokens)
         return tagged_ents
 
     ## Flair Model
@@ -285,9 +285,9 @@ def evaluate_conll_files():
                     gold_labels.append("O")
             flair_labels = _run_flair_pretok(tokens, flair_tagger)
             stanza_labels = _run_stanza_pretok(tokens, stanza_nlp)
-            xlmr_labels = [] #_run_xlmr_pretok(tokens, xlmr_nlp)
-            # print(tokens)
-            # print(gold_labels)
+            xlmr_labels = [] # _run_xlmr_pretok(tokens, xlmr_nlp)
+            print(tokens)
+            print(gold_labels)
             # print(flair_labels)
             # print(stanza_labels)
             # print(xlmr_labels)
@@ -306,13 +306,13 @@ def evaluate_conll_files():
             all_all_xlmr += xlmr_labels
             all_sent_xlmr.append(xlmr_labels)
             doc_xlmr_labels += xlmr_labels
-        #print("----")
+            # print("----")
         all_doc_gold.append(doc_gold_labels) 
         all_doc_stanza.append(doc_stanza_labels) 
         all_doc_flair.append(doc_flair_labels)
         all_doc_xlmr.append(doc_xlmr_labels)
         c += 1
-        # if c ==5: break
+        if c ==5: break
 
     print("Default with All Labels Flattened")
     stanza_report = classification_report([all_all_gold], [all_all_stanza], digits=4)
