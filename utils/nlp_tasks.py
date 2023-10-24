@@ -177,3 +177,58 @@ def unify_wordpiece_predictions(prediction_list: List, wordpiece_chars: str) -> 
     # [print(x) for x in full_labeled]
 
     return full_labeled
+
+
+def unify_wordpiece_predictions_iob(prediction_list: List, wordpiece_chars: str, tokens: List[str]) -> List:
+    """
+     This function is written to fix models that return predictions as:
+     Also looking to unify for the visualization tool build on top!
+        EXAMPLE: SOCCER - JAPAN GET LUCKY WIN , CHINA IN SURPRISE DEFEAT .
+        PREDS:    [{'end': 14, 'entity': 'B-LOC', 'index': 5, 'score': 0.9960225820541382, 'start': 8, 'word': '▁JAPAN'}
+                    {'end': 33, 'entity': 'B-LOC', 'index': 15, 'score': 0.9985975623130798, 'start': 30, 'word': '▁CH'}
+                    {'end': 36, 'entity': 'B-LOC', 'index': 16, 'score': 0.9762864708900452, 'start': 33, 'word': 'INA'}]
+    """
+
+    def _merge_objs(obj_list, tok_index):
+        merged_word = "".join([o['word'].replace(wordpiece_chars, '') for o in obj_list])
+        real_start = tok_index
+        real_end = tok_index + len(obj_list)
+        real_entity = obj_list[0]['entity']
+        scores = [o['score'] for o in obj_list]
+        real_score = sum(scores) / len(scores)
+        return {'start': real_start, 'end': real_end, 'entity': real_entity, 'score': real_score, 'text': merged_word}
+
+
+    full_iob_labeled = ['O' for tok in tokens]
+
+    if len(prediction_list) == 0: return full_iob_labeled
+    unified_predictions= []
+    tmp_unif = []
+
+    unified_token_index = 0
+    for pred_obj in sorted(prediction_list, key=lambda x: x['index']):
+        if pred_obj['word'].startswith('▁'):
+            if len(tmp_unif) > 0:
+                unified_predictions.append(_merge_objs(tmp_unif, unified_token_index)) 
+                tmp_unif = []
+                unified_token_index += 1
+            tmp_unif.append(pred_obj)
+        else:
+            tmp_unif.append(pred_obj)
+        # print(pred_obj)
+    if len(tmp_unif) > 0: unified_predictions.append(_merge_objs(tmp_unif, unified_token_index))
+    # print("\nUNIFIED:")
+    # [print(x) for x in unified_predictions]
+
+    for pred in unified_predictions:
+        ent_start, ent_end = pred['start'], pred['end']
+        label = pred['entity'][2:]
+        for ix in range(ent_start, ent_end):
+            if ix == ent_start:
+                full_iob_labeled[ix] = f"B-{label}"
+            else:
+                full_iob_labeled[ix] = f"I-{label}"
+
+    print(unified_predictions)
+
+    return full_iob_labeled
