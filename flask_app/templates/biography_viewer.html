@@ -204,24 +204,60 @@
           aria-haspopup="true"
           aria-expanded="false"
         >
-          Sort by method performance
+          Sort by method (stanza) performance
         </button>
         <div
           class="dropdown-menu"
           id="entities"
           aria-labelledby="dropdownMenuButton"
         >
-          <a class="dropdown-item entities" id="precision" href="#"
-            >Precision</a
+          <a class="dropdown-item entities" id="Precision_MACRO_stanza" href="{{ url_for('biography_sort', sorting='performance', method='Precision_MACRO_stanza') }}"
+            >Precision_MACRO_stanza</a
           >
-          <a class="dropdown-item entities" id="recall" href="#"
-            >Recall</a
+          <a class="dropdown-item entities" id="Recall_MACRO_stanza" href="{{ url_for('biography_sort', sorting='performance', method='Recall_MACRO_stanza') }}"
+            >Recall_MACRO_stanza</a
           >
           <a
             class="dropdown-item entities"
-            id="f1"
-            href="#"
-            >F1</a
+            id="F1_MACRO_stanza"
+            href="{{ url_for('biography_sort', sorting='performance', method='F1_MACRO_stanza') }}"
+            >F1_MACRO_stanza</a
+          >
+          <a class="dropdown-item entities" id="Precision_PER_stanza" href="{{ url_for('biography_sort', sorting='performance', method='Precision_PER_stanza') }}"
+            >Precision_PER_stanza</a
+          >
+          <a class="dropdown-item entities" id="Recall_PER_stanza" href="{{ url_for('biography_sort', sorting='performance', method='Recall_PER_stanza') }}"
+            >Recall_PER_stanza</a
+          >
+          <a
+            class="dropdown-item entities"
+            id="F1_PER_stanza"
+            href="{{ url_for('biography_sort', sorting='performance', method='F1_PER_stanza') }}"
+            >F1_PER_stanza</a
+          >
+          <a class="dropdown-item entities" id="Precision_LOC_stanza" href="{{ url_for('biography_sort', sorting='performance', method='Precision_LOC_stanza') }}"
+            >Precision_LOC_stanza</a
+          >
+          <a class="dropdown-item entities" id="Recall_LOC_stanza" href="{{ url_for('biography_sort', sorting='performance', method='Recall_LOC_stanza') }}"
+            >Recall_LOC_stanza</a
+          >
+          <a
+            class="dropdown-item entities"
+            id="F1_LOC_stanza"
+            href="{{ url_for('biography_sort', sorting='performance', method='F1_LOC_stanza') }}"
+            >F1_LOC_stanza</a
+          >
+          <a class="dropdown-item entities" id="Precision_ORG_stanza" href="{{ url_for('biography_sort', sorting='performance', method='Precision_ORG_stanza') }}"
+            >Precision_ORG_stanza</a
+          >
+          <a class="dropdown-item entities" id="Recall_ORG_stanza" href="{{ url_for('biography_sort', sorting='performance', method='Recall_ORG_stanza') }}"
+            >Recall_ORG_stanza</a
+          >
+          <a
+            class="dropdown-item entities"
+            id="F1_MACRO_stanza"
+            href="{{ url_for('biography_sort', sorting='performance', method='F1_MACRO_stanza') }}"
+            >F1_ORG_stanza</a
           >
         </div>
       </div>

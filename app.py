@@ -332,6 +332,9 @@ def biography_sort(sorting, method):
         ids_sorted_per_method = STATISTICS["ids_sorted_per_method"]
         sorted_ids = ids_sorted_per_method[method]
         #sorted_ids.reverse()
+    elif sorting == "performance":
+        ids_sorted_per_method = STATISTICS["metrics"]
+        sorted_ids = ids_sorted_per_method[method]
     elif sorting == "distance":
         sorted_ids = STATISTICS["dist_sorted"]
     else:
