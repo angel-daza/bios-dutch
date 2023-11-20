@@ -31,11 +31,12 @@ def main():
     # source_distribution(bionet_people)
     # source_distribution(bionet_people, partition='train')
     # source_distribution(bionet_people, partition='development')
-    # source_distribution(bionet_people, partition='test')
+    source_distribution(bionet_people, partition='test')
 
     # # ### Stats about how complete is the metadata even after unifying everyone
     # verify_unified_metadata(bionet_people)
 
+    exit()
 
     # #### Collect Global Info
     global_dicts = collect_global_info(bionet_people)
@@ -160,7 +161,11 @@ def verify_unified_metadata(people: List[MetadataComplete]):
         has_deathdate = 1 if p.getDeathDate() else 0
         text_count = sum([1 if t else 0 for t in p.texts])
         has_gender = 1 if p.getGender() else 0
-        religion_counts = len(p.getReligion('all_religions'))
+        rels = p.getReligion('all_religions')
+        if rels:
+            religion_counts = len(rels)
+        else:
+            religion_counts = 0
         metadata_counts['names'] = len(p.getName('all_names'))
         metadata_counts['texts'] = text_count
         metadata_counts['birth'] = has_birthdate
@@ -168,12 +173,12 @@ def verify_unified_metadata(people: List[MetadataComplete]):
         metadata_counts['birth_completed'] = 1 if (has_birthdate > 0 or has_predicted_birthyear > 0) else 0
         metadata_counts['gender'] = has_gender
         metadata_counts['religion'] = religion_counts
-        occupations = p.getOccupation('all_occupations')
+        occupations = p.getOccupation('list_all')
         metadata_counts['occupation'] = 0 if not occupations else len(occupations)
-        residences = p.getResidence('all_residences')
+        residences = p.getResidence('list_all')
         metadata_counts['residence'] = 0 if not residences else len(residences)
 
-        has_religion = 1 if len(p.getReligion('all_religions')) > 0 else 0
+        has_religion = 1 if religion_counts > 0 else 0
         has_occupation = 0 if metadata_counts['occupation'] == 0 else 1
         has_residence = 0  if metadata_counts['residence'] == 0 else 1
         has_multi_text = 0 if text_count <= 1 else 1

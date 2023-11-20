@@ -1144,8 +1144,10 @@ class MetadataComplete:
         if len(religions) == 0: return None
         if method == 'most_common':
             return Counter(religions).most_common(1)[0]
-        else:
+        elif method == 'stringified_all':
             return ", ".join(religions)
+        else:
+            return religions
     
     def getFaith(self, method: str = 'most_common') -> Optional[str]:
         """ method = 'most_common' | 'stringified_all' """

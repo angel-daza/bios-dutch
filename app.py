@@ -404,8 +404,8 @@ if __name__ == '__main__':
 
 
     # First of all, load Full DataFrame in Memory just ONCE!
-    #biographies_search = my_data.load_bios_dataset(BIOS_MAIN_DATAFRAME)
-    biographies_search = my_data.load_bios_dataset(f"{FLASK_ROOT}/biographies/AllBios_unified_enriched.jsonl")
+    biographies_search = my_data.load_bios_dataset(BIOS_MAIN_DATAFRAME)
+    #biographies_search = my_data.load_bios_dataset(f"{FLASK_ROOT}/biographies/AllBios_unified_enriched.jsonl")
 
 
     # Load Catalogues to Choose from pre-defined fields (Bio Viewer)
