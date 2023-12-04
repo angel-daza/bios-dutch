@@ -77,21 +77,34 @@ def match_proper_names(matcher, nlp_doc, text):
     matches = matcher(nlp_doc)
     spans_matched = []
     ix = 0
-    spans = []
+    
+    if len(matches) == 0: return []
 
-    for match_id, start, end in matches:
+    # First pass to eliminated the "subset" matches and only keep the bigger size ones
+    spans = sorted(matches, key= lambda x: x[1])
+    filtered_matches = [spans[0]]
+    for match_id, current_start, current_end in spans[1:]:
+        _, prev_start, prev_end = filtered_matches[-1]
+        if current_start == prev_start and current_end > prev_end:
+            filtered_matches[-1] = (match_id, prev_start, current_end)
+        else:
+            filtered_matches.append((match_id, current_start, current_end))
+    # Iterate all filtered matches and save them as an annotation layer
+    for match_id, start, end in filtered_matches:
         start_char = nlp_doc[start].idx
         end_char = nlp_doc[end-1].idx + len(nlp_doc[end-1].text)
         surface_form = text[start_char:end_char]
-        spans_matched.append({
-            "ID": f"spacy_matcher_nl_{ix}",
-            "surfaceForm": surface_form,
-            "category": "PER",
-            "locationStart": start_char,
-            "locationEnd": end_char,
-            "method": "spacy_matcher_nl"
-        })
-        ix += 1
+        fake_toks = surface_form.split() 
+        if len(fake_toks) >= 2 and "en" not in fake_toks[1]:
+            spans_matched.append({
+                "ID": f"spacy_matcher_nl_{ix}",
+                "surfaceForm": surface_form,
+                "category": "PER",
+                "locationStart": start_char,
+                "locationEnd": end_char,
+                "method": "spacy_matcher_nl"
+            })
+            ix += 1
     
     return spans_matched
 
