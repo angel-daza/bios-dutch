@@ -11,11 +11,6 @@ from flask_paginate import Pagination, get_page_args
 from utils.classes import IntaviaDocument
 from utils_general import FLASK_ROOT, INTAVIA_JSON_ROOT, BIOS_MAIN_DATAFRAME
 
-# JUST FOR NOW FOR DEBUGGING PURPOSES:
-INTAVIA_JSON_ROOT = f"/Users/Daza/intavia_json_v1_all/"
-BIOS_MAIN_DATAFRAME = f"{FLASK_ROOT}/biographies/AllBios_unified_enriched_ALL.jsonl"
-
-
 STATISTICS = None
 
 GLOBAL_QUERY = []
@@ -408,8 +403,6 @@ if __name__ == '__main__':
 
     # First of all, load Full DataFrame in Memory just ONCE!
     biographies_search = my_data.load_bios_dataset(BIOS_MAIN_DATAFRAME)
-    #biographies_search = my_data.load_bios_dataset(f"{FLASK_ROOT}/biographies/AllBios_unified_enriched.jsonl")
-
 
     # Load Catalogues to Choose from pre-defined fields (Bio Viewer)
     MY_SOURCES= open(f"{FLASK_ROOT}/sources.txt").read().split("\n")

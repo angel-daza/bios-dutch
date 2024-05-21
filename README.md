@@ -11,13 +11,13 @@ conda activate bios-dutch
 pip install -r requirements.txt
 ```
 
-2. The big files are not included in the repo because of size constraints, so they need to be copied first into the `data` folder (if it doesn't exist, create one). The Seed Data (big) files that should be included inside the 'data/seed_data' folder are (if the folder does not exist, please create it):
+2. The big files are not included in the repo because of size constraints, so they need to be copied first into the `data` folder (if it doesn't exist, create one). The Seed Data (big) files that should be included inside the 'data/seed_data' folder are **(if the folder does not exist, please create it)**:
     * `AllBios.jsonl`
     * `biographynet_train.jsonl`
     * `biographynet_development.jsonl`
     * `biographynet_test.jsonl`
 
-3. Generate the `AllBios_Unified.jsonl` file by running: 
+3. Generate the `AllBios_Unified.jsonl` (or one of the train/dev/test partitions) file by running for example: 
 
 ```
 python utils/bionet_unify_people_bios.py "data/seed_data/AllBios.jsonl" "data/All_Bios_Unified.jsonl"

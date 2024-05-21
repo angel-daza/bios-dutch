@@ -10,6 +10,7 @@ from dataclasses import dataclass, asdict
 from collections import defaultdict
 from classes import IntaviaToken
 
+# IF USING MONGO (more robust, but it is not required):
 # START MONGO IN MAC: mongod --config /usr/local/etc/mongod.conf
 # START MONGO IN UBUNTU: sudo systemctl start mongod
 # https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/
