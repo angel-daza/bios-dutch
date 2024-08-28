@@ -1,10 +1,10 @@
 {% extends "base.html" %} {% block content %}
 
 <link rel="stylesheet" href="static/style/search_bar.css" />
-<!-- <script
+<script
   type="text/javascript"
   src="{{ url_for('static', filename='scripts/overview_google_charts.js') }}"
-></script> -->
+></script>
 <script
   type="text/javascript"
   src="{{ url_for('static', filename='scripts/buttons.js') }}"
@@ -165,6 +165,7 @@
 
     <div class="row justify-content-center mt-5">{{pagination.links}}</div>
 
+
     <div class="row justify-content-center mt-5">
       <div>
         <p>
@@ -195,7 +196,7 @@
         </div>
       </div>
 
-      <div class="dropdown ml-5 border-primary">
+      <!-- <div class="dropdown ml-5 border-primary">
         <button
           class="btn btn-primary dropdown-toggle btn-sm"
           type="button"
@@ -346,13 +347,13 @@
         </div>
       </div> -->
 
-      <div>
+      <!-- <div>
         <a href="{{ url_for('biography_sort', sorting='gold_distance', method='abc') }}" class="btn btn-primary btn-sm p-1 ml-2" role="button">Sort by gold distance</a>
       </div>
       
       <div>
         <a class="btn btn-secondary btn-sm p-1 ml-2" role="button" href="{{ url_for('biography_sort', sorting='undo', method='abc') }}">Undo Sort</a>
-      </div>
+      </div> -->
 
       <!-- <div class="dropdown ml-5 border-primary">
         <button
@@ -389,7 +390,7 @@
           >
         </div>
       </div> -->
-    </div>
+    <!-- </div> -->
 
     <!-- Results AREA -->
     <div class="row query_results">
